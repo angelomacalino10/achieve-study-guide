@@ -23,19 +23,27 @@
   *{box-sizing:border-box;}
   body{
     margin:0;
-    background:var(--peach-3);
+    background:
+      repeating-linear-gradient(135deg, var(--peach-2) 0px, var(--peach-2) 1.5px, transparent 1.5px, transparent 26px),
+      var(--peach-3);
     color:var(--ink);
     font-family:'Inter',sans-serif;
     -webkit-font-smoothing:antialiased;
+    min-height:100vh;
   }
   .app{
-    max-width:640px;
-    margin:0 auto;
-    min-height:100vh;
+    max-width:700px;
+    margin:48px auto;
     background:var(--white);
     position:relative;
-    border-left:3px solid var(--purple);
-    padding:0 28px 60px 32px;
+    border-top:4px solid var(--purple);
+    border-radius:16px;
+    box-shadow:0 8px 32px rgba(45,21,89,0.10), 0 1px 2px rgba(45,21,89,0.06);
+    padding:0 32px 56px 32px;
+  }
+  @media (max-width: 560px){
+    .app{ margin:0; border-radius:0; border-top:none; box-shadow:none; }
+    body{ background:var(--peach-3); }
   }
   header.brand{
     display:flex;
@@ -275,7 +283,7 @@
   }
   .doc-backdrop.open{ opacity:1; visibility:visible; }
   .doc-panel{
-    position:fixed; top:0; right:0; width:min(460px,92vw); height:100vh;
+    position:fixed; top:0; right:0; width:100%; height:100vh;
     background:var(--white); border-left:1px solid var(--purp-1);
     box-shadow:-10px 0 28px rgba(45,21,89,0.12); z-index:40;
     transform:translateX(100%); transition:transform .28s ease;
@@ -283,12 +291,14 @@
   }
   .doc-panel.open{ transform:translateX(0); }
   .doc-panel-head{ padding:20px 20px 14px; border-bottom:1px solid var(--purp-2); flex-shrink:0; }
+  .doc-panel-head-inner{ max-width:760px; margin:0 auto; }
   .doc-panel-head-row{ display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
   .doc-panel-head-row h2{ font-family:'Bitter',serif; font-weight:600; font-size:17px; margin:0; }
   .doc-close{ background:none; border:none; color:var(--ink); opacity:0.55; font-size:20px; line-height:1; cursor:pointer; padding:2px 6px; }
   .doc-close:hover{ opacity:1; }
   .doc-panel select{ margin-bottom:0; }
-  .doc-panel-body{ padding:18px 20px 40px; overflow-y:auto; flex:1; font-size:13.5px; line-height:1.65; }
+  .doc-panel-body{ padding:18px 20px 60px; overflow-y:auto; flex:1; font-size:13.5px; line-height:1.65; }
+  .doc-panel-body-inner{ max-width:760px; margin:0 auto; }
   .doc-panel-body h2{ font-family:'Bitter',serif; font-size:16px; font-weight:600; margin:20px 0 8px; }
   .doc-panel-body h3{ font-family:'Bitter',serif; font-size:14.5px; font-weight:600; margin:16px 0 6px; }
   .doc-panel-body h4{ font-size:13.5px; font-weight:600; margin:12px 0 4px; }
@@ -316,14 +326,19 @@
 <div class="doc-backdrop" id="doc-backdrop"></div>
 <aside class="doc-panel" id="doc-panel">
   <div class="doc-panel-head">
-    <div class="doc-panel-head-row">
-      <h2>Full study guide</h2>
-      <button class="doc-close" id="doc-close-btn">&times;</button>
+    <div class="doc-panel-head-inner">
+      <div class="doc-panel-head-row">
+        <h2>Full study guide</h2>
+        <button class="doc-close" id="doc-close-btn">&times;</button>
+      </div>
+      <select id="doc-course-select"></select>
+      <button class="btn btn-ghost" id="doc-back-btn" style="width:100%;justify-content:center;margin-top:12px;">‹ Back</button>
     </div>
-    <select id="doc-course-select"></select>
   </div>
   <div class="doc-panel-body" id="doc-panel-body">
-    <div class="doc-loading">Pick a course above to view its full guide.</div>
+    <div class="doc-panel-body-inner" id="doc-panel-body-inner">
+      <div class="doc-loading">Pick a course above to view its full guide.</div>
+    </div>
   </div>
 </aside>
 
@@ -714,7 +729,7 @@ document.getElementById('retry-quiz-btn').addEventListener('click', startQuiz);
 // ================= Full guide side panel =================
 const docPanel = document.getElementById('doc-panel');
 const docBackdrop = document.getElementById('doc-backdrop');
-const docPanelBody = document.getElementById('doc-panel-body');
+const docPanelBody = document.getElementById('doc-panel-body-inner');
 const docCourseSelect = document.getElementById('doc-course-select');
 const docCache = {};
 
@@ -773,10 +788,12 @@ function openDocPanel(course){
   loadDocFor(course);
   docPanel.classList.add('open');
   docBackdrop.classList.add('open');
+  document.getElementById('doc-toggle-btn').style.display = 'none';
 }
 function closeDocPanel(){
   docPanel.classList.remove('open');
   docBackdrop.classList.remove('open');
+  document.getElementById('doc-toggle-btn').style.display = '';
 }
 async function loadDocFor(course){
   const slug = DOC_SLUG[course];
@@ -815,6 +832,7 @@ document.getElementById('doc-toggle-btn').addEventListener('click', ()=>{
   openDocPanel(course);
 });
 document.getElementById('doc-close-btn').addEventListener('click', closeDocPanel);
+document.getElementById('doc-back-btn').addEventListener('click', closeDocPanel);
 docBackdrop.addEventListener('click', closeDocPanel);
 docCourseSelect.addEventListener('change', ()=> loadDocFor(docCourseSelect.value));
 </script>
