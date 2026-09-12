@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Achieve — Study Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#2D1559;
+    --orange:#FF4500;
+    --purple:#9F7DFF;
+    --highlight:#DDFF7D;
+    --peach-1:#FFE3D9;
+    --peach-2:#FFEFE9;
+    --peach-3:#FFF5F2;
+    --purp-1:#DDD1FF;
+    --purp-2:#EAE2FF;
+    --purp-3:#F6F3FF;
+    --white:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--peach-3);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .app{
+    max-width:640px;
+    margin:0 auto;
+    min-height:100vh;
+    background:var(--white);
+    position:relative;
+    border-left:3px solid var(--purple);
+    padding:0 28px 60px 32px;
+  }
+  header.brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:28px 0 24px;
+  }
+  header.brand img{ width:34px; height:auto; display:block; }
+  header.brand .word{
+    font-family:'Bitter',serif;
+    font-weight:600;
+    font-size:20px;
+    color:var(--ink);
+    letter-spacing:0.2px;
+  }
+  header.brand .tag{
+    font-size:12px;
+    color:var(--ink);
+    opacity:0.55;
+    margin-left:2px;
+  }
+  h1.headline{
+    font-family:'Bitter',serif;
+    font-weight:600;
+    font-size:26px;
+    line-height:1.3;
+    margin:6px 0 6px;
+  }
+  p.sub{
+    font-size:14px;
+    color:var(--ink);
+    opacity:0.65;
+    margin:0 0 22px;
+    line-height:1.6;
+  }
+  label.field-label{
+    display:block;
+    font-size:13px;
+    font-weight:500;
+    color:var(--ink);
+    margin:0 0 6px;
+  }
+  select, input[type=text]{
+    width:100%;
+    font-family:'Inter',sans-serif;
+    font-size:15px;
+    color:var(--ink);
+    background:var(--peach-3);
+    border:1.5px solid var(--purp-1);
+    border-radius:10px;
+    padding:12px 14px;
+    margin-bottom:16px;
+    appearance:none;
+  }
+  select:focus, input:focus{ outline:none; border-color:var(--purple); }
+  .btn{
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    font-size:14.5px;
+    border:none;
+    border-radius:10px;
+    padding:13px 22px;
+    cursor:pointer;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+  }
+  .btn-primary{ background:var(--orange); color:#fff; }
+  .btn-primary:hover{ background:#e63e00; }
+  .btn-ghost{
+    background:transparent;
+    color:var(--ink);
+    border:1.5px solid var(--purp-1);
+  }
+  .btn-ghost:hover{ background:var(--purp-3); }
+  .btn:disabled{ opacity:0.45; cursor:not-allowed; }
+  .error-text{
+    font-size:12.5px;
+    color:var(--orange);
+    margin:-8px 0 14px;
+    display:none;
+  }
+  .chip{
+    display:inline-flex;
+    align-items:center;
+    background:var(--purp-2);
+    color:var(--ink);
+    border-radius:20px;
+    padding:9px 16px;
+    font-size:13px;
+    cursor:pointer;
+    border:none;
+    margin:4px 6px 4px 0;
+  }
+  .chip:hover{ background:var(--purp-1); }
+  .divider{
+    border:none;
+    border-top:1px solid var(--purp-2);
+    margin:26px 0;
+  }
+  .view{ display:none; }
+  .view.active{ display:block; }
+  .back-link{
+    background:none;
+    border:none;
+    color:var(--ink);
+    opacity:0.6;
+    font-size:13px;
+    cursor:pointer;
+    padding:0;
+    margin-bottom:18px;
+    font-family:'Inter',sans-serif;
+  }
+  .back-link:hover{ opacity:1; }
+  .context-pill{
+    display:inline-block;
+    background:var(--peach-2);
+    color:var(--ink);
+    font-size:12.5px;
+    font-weight:500;
+    padding:6px 12px;
+    border-radius:8px;
+    margin-bottom:16px;
+  }
+  .needs-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:24px;
+  }
+  .need-pill{
+    background:var(--purp-3);
+    border:1.5px solid var(--purp-2);
+    color:var(--ink);
+    border-radius:10px;
+    padding:11px 16px;
+    font-size:13.5px;
+    cursor:pointer;
+    text-align:left;
+    font-family:'Inter',sans-serif;
+  }
+  .need-pill.selected{
+    background:var(--purple);
+    border-color:var(--purple);
+    color:#fff;
+    font-weight:500;
+  }
+  .loading{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:40px 0;
+    font-size:14px;
+    color:var(--ink);
+    opacity:0.65;
+  }
+  .spin{
+    width:16px;height:16px;
+    border-radius:50%;
+    border:2.5px solid var(--purp-1);
+    border-top-color:var(--orange);
+    animation:spin 0.8s linear infinite;
+  }
+  @keyframes spin{ to{ transform:rotate(360deg); } }
+  section.guide-section{ margin-bottom:28px; }
+  section.guide-section h2{
+    font-family:'Bitter',serif;
+    font-weight:600;
+    font-size:18px;
+    margin:0 0 10px;
+  }
+  section.guide-section p{ font-size:14.5px; line-height:1.7; margin:0 0 10px; }
+  ul.clean{ padding-left:0; list-style:none; margin:0; }
+  ul.clean li{
+    font-size:14.5px;
+    line-height:1.6;
+    padding:10px 0;
+    border-bottom:1px solid var(--purp-3);
+  }
+  ul.clean li:last-child{ border-bottom:none; }
+  .kterm-chip{
+    display:inline-block;
+    background:var(--highlight);
+    color:var(--ink);
+    font-weight:600;
+    font-size:12.5px;
+    padding:3px 9px;
+    border-radius:6px;
+    margin-right:8px;
+  }
+  .proto-note{
+    background:var(--purp-3);
+    border:1px dashed var(--purp-1);
+    border-radius:12px;
+    padding:20px;
+    font-size:13.5px;
+    line-height:1.7;
+    color:var(--ink);
+  }
+  .proto-note.error{ background:var(--peach-2); border-color:var(--orange); }
+  .proto-note strong{ display:block; margin-bottom:6px; font-family:'Bitter',serif; font-size:15px; }
+  .quiz-progress{ font-size:12.5px; color:var(--ink); opacity:0.55; margin-bottom:10px; }
+  .quiz-question{
+    font-family:'Bitter',serif;
+    font-weight:600;
+    font-size:19px;
+    margin:0 0 18px;
+    line-height:1.4;
+  }
+  .quiz-option{
+    display:block; width:100%; text-align:left;
+    background:var(--white); border:1.5px solid var(--purp-1);
+    border-radius:10px; padding:13px 16px; font-size:14.5px;
+    font-family:'Inter',sans-serif; color:var(--ink);
+    margin-bottom:10px; cursor:pointer;
+  }
+  .quiz-option:hover{ border-color:var(--purple); }
+  .quiz-option.picked{ border-color:var(--purple); background:var(--purp-3); }
+  .quiz-option.correct{ border-color:#639922; background:var(--highlight); }
+  .quiz-option.incorrect{ border-color:var(--orange); background:var(--peach-2); }
+  .quiz-feedback{ font-size:13.5px; line-height:1.6; padding:14px 16px; border-radius:10px; background:var(--peach-3); margin:14px 0 20px; }
+  .quiz-feedback.ok{ background:#F3FBE4; }
+  .score-big{ font-family:'Bitter',serif; font-weight:600; font-size:40px; margin:6px 0 4px; }
+  .actions-row{ display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+  footer.note{ font-size:11.5px; color:var(--ink); opacity:0.4; margin-top:40px; line-height:1.6; }
+
+  /* ---- Full guide side panel ---- */
+  .doc-toggle{
+    position:fixed; top:18px; right:18px; z-index:41;
+    background:var(--ink); color:#fff; border:none; border-radius:20px;
+    padding:10px 16px; font-family:'Inter',sans-serif; font-size:12.5px;
+    font-weight:600; cursor:pointer; box-shadow:0 4px 14px rgba(45,21,89,0.25);
+  }
+  .doc-backdrop{
+    position:fixed; inset:0; background:rgba(45,21,89,0.28); z-index:39;
+    opacity:0; visibility:hidden; transition:opacity .2s ease;
+  }
+  .doc-backdrop.open{ opacity:1; visibility:visible; }
+  .doc-panel{
+    position:fixed; top:0; right:0; width:min(460px,92vw); height:100vh;
+    background:var(--white); border-left:1px solid var(--purp-1);
+    box-shadow:-10px 0 28px rgba(45,21,89,0.12); z-index:40;
+    transform:translateX(100%); transition:transform .28s ease;
+    display:flex; flex-direction:column;
+  }
+  .doc-panel.open{ transform:translateX(0); }
+  .doc-panel-head{ padding:20px 20px 14px; border-bottom:1px solid var(--purp-2); flex-shrink:0; }
+  .doc-panel-head-row{ display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
+  .doc-panel-head-row h2{ font-family:'Bitter',serif; font-weight:600; font-size:17px; margin:0; }
+  .doc-close{ background:none; border:none; color:var(--ink); opacity:0.55; font-size:20px; line-height:1; cursor:pointer; padding:2px 6px; }
+  .doc-close:hover{ opacity:1; }
+  .doc-panel select{ margin-bottom:0; }
+  .doc-panel-body{ padding:18px 20px 40px; overflow-y:auto; flex:1; font-size:13.5px; line-height:1.65; }
+  .doc-panel-body h2{ font-family:'Bitter',serif; font-size:16px; font-weight:600; margin:20px 0 8px; }
+  .doc-panel-body h3{ font-family:'Bitter',serif; font-size:14.5px; font-weight:600; margin:16px 0 6px; }
+  .doc-panel-body h4{ font-size:13.5px; font-weight:600; margin:12px 0 4px; }
+  .doc-panel-body p{ margin:0 0 10px; color:var(--ink); }
+  .doc-panel-body li{ margin:0 0 4px 18px; }
+  .doc-table{ border:1px solid var(--purp-2); border-radius:8px; margin:10px 0; overflow:hidden; }
+  .doc-table-row{ display:flex; border-bottom:1px solid var(--purp-2); }
+  .doc-table-row:last-child{ border-bottom:none; }
+  .doc-table-cell{ flex:1; padding:7px 10px; font-size:12.5px; border-right:1px solid var(--purp-2); }
+  .doc-table-cell:last-child{ border-right:none; }
+  .doc-loading{ font-size:13px; opacity:0.6; padding:20px 0; }
+  .doc-topic-list{ padding-left:0; list-style:none; margin:0 0 6px; }
+  .doc-topic-list li{ margin:0 0 6px; }
+  .doc-topic-list button{
+    background:none; border:none; color:var(--ink); text-align:left;
+    font-size:13px; padding:6px 0; cursor:pointer; font-family:'Inter',sans-serif;
+    border-bottom:1px dotted var(--purp-2); width:100%;
+  }
+  .doc-topic-list button:hover{ color:var(--orange); }
+</style>
+</head>
+<body>
+
+<button class="doc-toggle" id="doc-toggle-btn">Full guide ↦</button>
+<div class="doc-backdrop" id="doc-backdrop"></div>
+<aside class="doc-panel" id="doc-panel">
+  <div class="doc-panel-head">
+    <div class="doc-panel-head-row">
+      <h2>Full study guide</h2>
+      <button class="doc-close" id="doc-close-btn">&times;</button>
+    </div>
+    <select id="doc-course-select"></select>
+  </div>
+  <div class="doc-panel-body" id="doc-panel-body">
+    <div class="doc-loading">Pick a course above to view its full guide.</div>
+  </div>
+</aside>
+
+<div class="app">
+
+  <header class="brand">
+    <img src="data:image/png;base64,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" alt="Achieve">
+    <span class="word">Achieve</span>
+    <span class="tag">study guide</span>
+  </header>
+
+  <!-- ===================== HOME VIEW ===================== -->
+  <section class="view active" id="view-home">
+    <h1 class="headline">What are you studying today?</h1>
+    <p class="sub">Pick a course, then type or choose a topic — Achieve will build a study guide around what you actually need help with.</p>
+
+    <label class="field-label" for="course-select">Course</label>
+    <select id="course-select">
+      <option value="">Select a course</option>
+    </select>
+
+    <label class="field-label" for="topic-input">Topic</label>
+    <input type="text" id="topic-input" list="topic-datalist" placeholder="Type a topic, or pick a suggestion">
+    <datalist id="topic-datalist"></datalist>
+    <div class="error-text" id="home-error">Pick a course and enter a topic to continue.</div>
+
+    <button class="btn btn-primary" id="start-btn">Start studying</button>
+
+    <hr class="divider">
+    <label class="field-label">Try an example</label>
+    <button class="chip" id="example-chip">American Government · United States Government Background</button>
+  </section>
+
+  <!-- ===================== NEEDS VIEW ===================== -->
+  <section class="view" id="view-needs">
+    <button class="back-link" data-back="view-home">‹ Back</button>
+    <div class="context-pill" id="needs-context"></div>
+    <h1 class="headline">What would you like to learn today?</h1>
+    <p class="sub">Choose one or more — Achieve will shape the study guide around it. Choose none for a full review.</p>
+    <div class="needs-grid" id="needs-grid"></div>
+    <button class="btn btn-primary" id="build-btn">Build my study guide</button>
+  </section>
+
+  <!-- ===================== GUIDE VIEW ===================== -->
+  <section class="view" id="view-guide">
+    <button class="back-link" data-back="view-needs">‹ Back</button>
+    <div class="context-pill" id="guide-context"></div>
+    <div id="guide-loading" class="loading">
+      <div class="spin"></div>
+      <span>Building your study guide…</span>
+    </div>
+    <div id="guide-body" style="display:none;"></div>
+  </section>
+
+  <!-- ===================== QUIZ VIEW ===================== -->
+  <section class="view" id="view-quiz">
+    <button class="back-link" data-back="view-guide">‹ Back to guide</button>
+    <div id="quiz-loading" class="loading" style="display:none;">
+      <div class="spin"></div>
+      <span>Building your quiz…</span>
+    </div>
+    <div id="quiz-active">
+      <div class="quiz-progress" id="quiz-progress"></div>
+      <div class="quiz-question" id="quiz-question"></div>
+      <div id="quiz-options"></div>
+      <div class="quiz-feedback" id="quiz-feedback" style="display:none;"></div>
+      <button class="btn btn-primary" id="quiz-next-btn">Submit answer</button>
+    </div>
+    <div id="quiz-results" style="display:none;">
+      <p class="sub" style="margin-bottom:2px;">Your score</p>
+      <div class="score-big" id="score-text"></div>
+      <p class="sub" id="score-note"></p>
+      <div class="actions-row">
+        <button class="btn btn-primary" id="retry-quiz-btn">Try again</button>
+        <button class="btn btn-ghost" data-back="view-home">Back home</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="note">Achieve study guide. Study guides and quizzes are generated live by Claude, grounded in your course material.</footer>
+</div>
+
+<script>
+// ---------- Full course catalog ----------
+const CATALOG = {
+  "American Government": ["United States Government Background","Political Parties and Congress","Congress: Rules and Operations Overview","The Presidency, Federal Bureaucracy, and the Media","Federal Courts, Civil Rights and Public Opinion"],
+  "Art of the Western World": ["Introduction to The Art of the Western World","Overview of the Arts","Prehistoric Era (290,000–5,000 BCE)","The Ancient World (5000 BCE–500 CE)","The Classical Age","Christianity, Rome and Byzantine Art (272–1453 CE)","The Middle Ages (500–1500 CE)","The Renaissance, Art and Reformation","The Baroque Period (1584–1723 CE)","The Rococo Style and Neoclassicism","Romanticism (c. 1780–1850)","Modernism in Art (c. 1800–1945)","Postmodern and Contemporary Art (1950s–Present)"],
+  "Chemistry": ["Structure of Matter","Chemical Bonding","Organic Compound Naming","Radioactivity","Chemical Reactions","States of Matter","Thermodynamics","Dimensional Analysis"],
+  "College Algebra": ["Linear Functions","Inequalities and Quadratics","Quadratics II and Complex Numbers","Higher Degree Polynomials","Rational Functions","Functions","Exponential & Logarithmic Functions","Binomial Theorem","Sequences and Series"],
+  "College Composition": ["Grammar Fundamentals","Constructing Sentences","Thinking Rhetorically","Writing Basics","Argumentation","Synthesizing Sources","Revising and Editing"],
+  "College Composition (with modular)": ["Grammar Fundamentals","Constructing Sentences","Thinking Rhetorically","Writing Basics","Argumentation","Synthesizing Sources","Revising and Editing"],
+  "College Mathematics": ["Introduction to Algebra and Functions","Financial Mathematics","Geometry","Counting and Probability","Data Analysis and Statistics","Logic and Sets"],
+  "Dental Hygiene Entrance Exam Prep": ["Reading","English and Language Usage","Math – Part 1","Math – Part 2","Conversions","Perceptual Ability","Biology of Microorganisms","Anatomy & Physiology","General Sciences","Laboratory"],
+  "Ethics in America": ["Morality & Ethics","Ethical Relativism, Moral Belief Systems and Meta-ethics","Theory of Natural and Moral Law","The Ancient Greek Views on Ethics","Consequentialist vs Non-Consequentialist","Morality within the Western World / Religion and Ethics","Ethics in Life and Death","Moral Issues in War and Peace","Moral Issues in the Economy","The Justice System","Human Rights Ethics","Ethics in Relationships and Sexuality","Ethics in Healthcare","Ethics in the Environment"],
+  "Fundamentals of Math": ["Operations with Real Numbers","Fractions, Decimals, and Percentages","Beginning Algebra","Intermediate Algebra","Geometry","Data Analysis","Statistics","Logic"],
+  "History of the United States 1": ["First Americans and Age of Exploration","Age of Exploration","Early Settlements and Colonial Life","Colonial Life and Culture","Road to Independence","The American Revolutionary War (1775–1783)","Creating a Government and a Nation","The Federalist Era and Jeffersonian Era","The Era of Good Feelings until John Quincy Adams Administration","Jacksonian Democracy and the Antebellum Era","Manifest Destiny and Westward Expansion (1820–1860)","Events Leading to the Civil War","Antebellum Culture (1820–1860)","It All Started with Missouri","Whigs to Republican"],
+  "Human Growth and Development": ["Foundations of Development","Building Blocks of Development","Cognitive and Social Domains","Contextual Influences","Individual Differences"],
+  "Humanities": ["Introduction to Humanities","Overview of the Arts","Prehistoric Era (290,000–5,000 BCE)","The Ancient World (5000 BCE–500 CE)","The Classical Age","An Empire Divided – Rome and Byzantine (272–1453 CE)","The Middle Ages (500–1500 CE)","The Renaissance and Reformation","The Baroque Period (1584–1723 CE)","The Rococo Style and Neoclassicism","Romanticism (c. 1780–1850)","Modernism in Art (c. 1800–1945)","Postmodernism (c. 1950s–Present)","Literature of the Ancient & Classical Periods","Literature of the Middle Ages (500–1500 CE)","Literature of the 17th to 18th Century","Literature of the 19th Century to Present","Performance Arts of the Ancient to Romantic Periods","Performance Arts from the 19th Century to Present"],
+  "Introduction to Psychology": ["The Nature and History of Psychology","Research","Biological Influences on Behavior","Sensation and Perception","Consciousness","Thinking and Intelligence","Learning and Memory","Motivation and Emotion","Theories on Human Development","Physical Human Development","Personality","Psychological Disorders and Therapy","Social Psychology"],
+  "Macroeconomics": ["Basic Economic Concepts","Measurement of Economic Performance","National Income and Price Determination","Financial Sector","Inflation, Unemployment, and Stabilization Policies","Economic Growth and Productivity","Open Economy: International Trade and Finance"],
+  "Microeconomics": ["Basic Economic Concepts","Market Equilibrium","Elasticity","Markets and Welfare","Theory of Consumer Choice","Production and Costs","Firm Behavior and Market Structure","Factor Markets","Market Failure and the Role of the Government"],
+  "Next Gen NCLEX PN Prep": ["Safe & Effective Care Environment (Coordinated Care)","Safe & Effective Care Environment (Safety & Infection Control)","Health Promotion & Maintenance","Psychosocial Integrity","Physiological Integrity (Basic Care and Comfort)","Physiological Integrity (Pharmacological Therapies)","Physiological Integrity (Reduction of Risk Potential)","Physiological Integrity (Physiological Adaptation)"],
+  "Next Gen NCLEX RN Prep": ["Safe & Effective Care Environment (Management of Care)","Safe & Effective Care Environment (Safety & Infection Control)","Health Promotion & Maintenance","Psychosocial Integrity","Physiological Integrity (Basic Care and Comfort)","Physiological Integrity (Pharmacological and Parenteral Therapies)","Physiological Integrity (Reduction of Risk Potential)","Physiological Integrity (Physiological Adaptation)"],
+  "Nursing Entrance Exam Prep": ["Reading","English and Language Usage","Math – Part 1","Math – Part 2","Conversions","Human Anatomy & Physiology – Part 1","Human Anatomy & Physiology – Part 2","Anatomy & Physiology – Part 3","General Sciences"],
+  "Sociology": ["Introduction to Sociology","Sociological Research","Culture","Society and Social Interaction","Socialization","Groups and Organization","Deviance, Crime, and Social Control","Media and Technology","Social Stratification","Race and Ethnicity","Gender, Sex, and Sexuality","Aging and the Elderly","Marriage and Family"],
+  "Spanish 1": ["Unit 1: Capítulos 1 & 2","Unidad 2: Capítulos 3 & 4"],
+  "Spanish 2": ["Unidad 3: Capítulos 5 & 6","Unidad 4: Capítulos 7 & 8","Unidad 5: Capítulos 9 & 10","Unidad 6: Capítulos 11 & 12","Unidad 7: Capítulos 13 & 14","Unidad 8: Capítulo 15"],
+  "Speech": ["Ethical, Social, Demographic, and Theoretical Considerations","Topics and Speech Purposes","Audience Analysis, Adaptation, and Effect","Structure and Organization","Content and Supporting Materials","Research","Language, Style, and Listening","Delivery and Apprehension"],
+  "Statistics": ["An Introduction to Statistics","Summarizing, Organizing, and Describing Data","Regression and Correlation","Basic Probability Theory","Probability Distributions","Statistical Sampling","Statistical Estimations","Hypothesis Testing"],
+  "World Religions": ["Defining Religion","Indigenous Religions","Hinduism","Buddhism","Asian Religions","Judaism","Christianity","Islam","Modern Times"]
+};
+
+// Maps each course to its data file slug (served as a static /data/<slug>.json asset)
+const DOC_SLUG = {
+  "American Government":"american-government",
+  "Art of the Western World":"art-of-the-western-world",
+  "Chemistry":"chemistry",
+  "College Algebra":"college-algebra",
+  "College Composition":"college-composition",
+  "College Composition (with modular)":"college-composition-with-modular",
+  "College Mathematics":"college-mathematics",
+  "Dental Hygiene Entrance Exam Prep":"dental-hygiene-entrance-exam-prep",
+  "Ethics in America":"ethics-in-america",
+  "Fundamentals of Math":"fundamentals-of-math",
+  "History of the United States 1":"history-of-the-united-states-1",
+  "Human Growth and Development":"human-growth-and-development",
+  "Humanities":"humanities",
+  "Introduction to Psychology":"introduction-to-psychology",
+  "Macroeconomics":"macroeconomics",
+  "Microeconomics":"microeconomics",
+  "Next Gen NCLEX PN Prep":"next-gen-nclex-pn-prep",
+  "Next Gen NCLEX RN Prep":"next-gen-nclex-rn-prep",
+  "Nursing Entrance Exam Prep":"nursing-entrance-exam-prep",
+  "Sociology":"sociology",
+  "Spanish 1":"spanish-1",
+  "Spanish 2":"spanish-2",
+  "Speech":"speech",
+  "Statistics":"statistics",
+  "World Religions":"world-religions"
+};
+
+const NEEDS = [
+  "I want to understand the concept",
+  "I want to review the key terms",
+  "I want a step-by-step breakdown",
+  "I want more examples",
+  "I want to practice with questions",
+  "I have an exam soon",
+  "I want a complete review"
+];
+
+const DEMO_COURSE = "American Government";
+const DEMO_TOPIC = "United States Government Background";
+
+// ---------- State ----------
+let state = { course:"", topic:"", needs:[], quizIndex:0, quizScore:0, quizAnswered:false, quizMissed:[], quizQuestions:[] };
+
+// ---------- Populate selects ----------
+const courseSelect = document.getElementById('course-select');
+const topicInput = document.getElementById('topic-input');
+const topicDatalist = document.getElementById('topic-datalist');
+Object.keys(CATALOG).forEach(c=>{
+  const opt = document.createElement('option');
+  opt.value = c; opt.textContent = c;
+  courseSelect.appendChild(opt);
+});
+function populateTopics(course){
+  topicDatalist.innerHTML = '';
+  (CATALOG[course]||[]).forEach(t=>{
+    const opt = document.createElement('option');
+    opt.value = t;
+    topicDatalist.appendChild(opt);
+  });
+}
+courseSelect.addEventListener('change', ()=>{
+  populateTopics(courseSelect.value);
+  topicInput.value = '';
+});
+
+// ---------- Navigation ----------
+function showView(id){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+document.querySelectorAll('[data-back]').forEach(btn=>{
+  btn.addEventListener('click', ()=> showView(btn.dataset.back));
+});
+
+// ---------- Home -> Needs ----------
+document.getElementById('example-chip').addEventListener('click', ()=>{
+  courseSelect.value = DEMO_COURSE;
+  populateTopics(DEMO_COURSE);
+  topicInput.value = DEMO_TOPIC;
+});
+
+document.getElementById('start-btn').addEventListener('click', ()=>{
+  const course = courseSelect.value, topic = topicInput.value.trim();
+  const err = document.getElementById('home-error');
+  if(!course || !topic){ err.style.display = 'block'; return; }
+  err.style.display = 'none';
+  state.course = course; state.topic = topic; state.needs = [];
+  document.getElementById('needs-context').textContent = `Studying: ${course} — ${topic}`;
+  const grid = document.getElementById('needs-grid');
+  grid.innerHTML = '';
+  NEEDS.forEach(n=>{
+    const b = document.createElement('button');
+    b.className = 'need-pill'; b.textContent = n; b.dataset.need = n;
+    b.addEventListener('click', ()=>{
+      b.classList.toggle('selected');
+      const i = state.needs.indexOf(n);
+      if(i>-1) state.needs.splice(i,1); else state.needs.push(n);
+    });
+    grid.appendChild(b);
+  });
+  showView('view-needs');
+});
+
+// ---------- Needs -> Guide (calls the real Netlify Function) ----------
+document.getElementById('build-btn').addEventListener('click', async ()=>{
+  document.getElementById('guide-context').textContent = `${state.course} — ${state.topic}`;
+  document.getElementById('guide-loading').style.display = 'flex';
+  document.getElementById('guide-body').style.display = 'none';
+  showView('view-guide');
+
+  let payload;
+  try{
+    const resp = await fetch('/api/study-guide', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ course: state.course, topic: state.topic, needs: state.needs })
+    });
+    payload = await resp.json();
+    if(!resp.ok) throw new Error(payload.error || 'Request failed');
+  } catch(err){
+    document.getElementById('guide-loading').style.display = 'none';
+    const body = document.getElementById('guide-body');
+    body.style.display = 'block';
+    body.innerHTML = `<div class="proto-note error"><strong>Couldn't generate this guide</strong>${(err && err.message) || 'Something went wrong talking to the AI.'} Double-check that ANTHROPIC_API_KEY is set in this site's environment variables.</div>`;
+    return;
+  }
+
+  document.getElementById('guide-loading').style.display = 'none';
+  const body = document.getElementById('guide-body');
+  body.style.display = 'block';
+
+  const guide = payload.guide || {};
+  const needs = state.needs.length ? state.needs : ["I want a complete review"];
+  const wantAll = needs.includes("I want a complete review");
+  const show = {
+    explanation: wantAll || needs.includes("I want to understand the concept"),
+    terms: wantAll || needs.includes("I want to review the key terms"),
+    examples: wantAll || needs.includes("I want more examples"),
+    steps: wantAll || needs.includes("I want a step-by-step breakdown"),
+    remember: wantAll || needs.includes("I have an exam soon"),
+    quizNudge: needs.includes("I want to practice with questions")
+  };
+
+  let html = '';
+  if(show.remember && guide.remember){
+    html += `<section class="guide-section"><h2>Remember this</h2><ul class="clean">` +
+      guide.remember.map(r=>`<li>${r}</li>`).join('') + `</ul></section>`;
+  }
+  if(show.explanation && guide.explanation){
+    html += `<section class="guide-section"><h2>Simple explanation</h2><p>${guide.explanation}</p></section>`;
+  }
+  if(show.terms && guide.keyTerms){
+    html += `<section class="guide-section"><h2>Key terms</h2><ul class="clean">` +
+      guide.keyTerms.map(k=>`<li><span class="kterm-chip">${k.term}</span>${k.def}</li>`).join('') + `</ul></section>`;
+  }
+  if(show.examples && guide.examples){
+    html += `<section class="guide-section"><h2>Examples</h2><ul class="clean">` +
+      guide.examples.map(e=>`<li>${e}</li>`).join('') + `</ul></section>`;
+  }
+  if(show.steps && guide.steps){
+    html += `<section class="guide-section"><h2>Step by step</h2><ul class="clean">` +
+      guide.steps.map((s,i)=>`<li>${i+1}. ${s}</li>`).join('') + `</ul></section>`;
+  }
+  if(show.quizNudge){
+    html += `<div class="proto-note" style="margin-bottom:24px;"><strong>Ready to practice?</strong>Your practice questions are ready below.</div>`;
+  }
+  html += `<button class="btn btn-primary" id="take-quiz-btn">Take a quiz</button>`;
+  body.innerHTML = html;
+  document.getElementById('take-quiz-btn').addEventListener('click', startQuiz);
+});
+
+// ---------- Quiz (calls the real Netlify Function) ----------
+async function startQuiz(){
+  state.quizIndex = 0; state.quizScore = 0; state.quizAnswered = false; state.quizMissed = []; state.quizQuestions = [];
+  document.getElementById('quiz-active').style.display = 'none';
+  document.getElementById('quiz-results').style.display = 'none';
+  document.getElementById('quiz-loading').style.display = 'flex';
+  showView('view-quiz');
+
+  let payload;
+  try{
+    const resp = await fetch('/api/quiz', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ course: state.course, topic: state.topic })
+    });
+    payload = await resp.json();
+    if(!resp.ok) throw new Error(payload.error || 'Request failed');
+  } catch(err){
+    document.getElementById('quiz-loading').style.display = 'none';
+    document.getElementById('quiz-active').style.display = 'block';
+    document.getElementById('quiz-question').textContent = '';
+    document.getElementById('quiz-options').innerHTML =
+      `<div class="proto-note error"><strong>Couldn't generate this quiz</strong>${(err && err.message) || 'Something went wrong talking to the AI.'}</div>`;
+    document.getElementById('quiz-next-btn').style.display = 'none';
+    return;
+  }
+
+  state.quizQuestions = (payload.quiz && payload.quiz.questions) || [];
+  document.getElementById('quiz-loading').style.display = 'none';
+  document.getElementById('quiz-active').style.display = 'block';
+  document.getElementById('quiz-next-btn').style.display = 'inline-flex';
+  if(!state.quizQuestions.length){
+    document.getElementById('quiz-options').innerHTML = `<div class="proto-note error"><strong>No questions came back</strong>Try again in a moment.</div>`;
+    document.getElementById('quiz-next-btn').style.display = 'none';
+    return;
+  }
+  renderQuestion();
+}
+function renderQuestion(){
+  const q = state.quizQuestions[state.quizIndex];
+  state.quizAnswered = false;
+  document.getElementById('quiz-progress').textContent = `Question ${state.quizIndex+1} of ${state.quizQuestions.length}`;
+  document.getElementById('quiz-question').textContent = q.q;
+  document.getElementById('quiz-feedback').style.display = 'none';
+  const optsWrap = document.getElementById('quiz-options');
+  optsWrap.innerHTML = '';
+  q.options.forEach((opt,i)=>{
+    const b = document.createElement('button');
+    b.className = 'quiz-option'; b.textContent = opt; b.dataset.i = i;
+    b.addEventListener('click', ()=>{
+      if(state.quizAnswered) return;
+      optsWrap.querySelectorAll('.quiz-option').forEach(o=>o.classList.remove('picked'));
+      b.classList.add('picked');
+      optsWrap.dataset.selected = i;
+    });
+    optsWrap.appendChild(b);
+  });
+  optsWrap.dataset.selected = '';
+  document.getElementById('quiz-next-btn').textContent = 'Submit answer';
+}
+document.getElementById('quiz-next-btn').addEventListener('click', ()=>{
+  const q = state.quizQuestions[state.quizIndex];
+  const optsWrap = document.getElementById('quiz-options');
+  const fb = document.getElementById('quiz-feedback');
+
+  if(!state.quizAnswered){
+    const sel = optsWrap.dataset.selected;
+    if(sel === '' || sel === undefined){
+      fb.style.display = 'block'; fb.className = 'quiz-feedback';
+      fb.textContent = 'Pick an answer first.';
+      return;
+    }
+    const selIdx = parseInt(sel,10);
+    const correct = selIdx === q.correct;
+    optsWrap.querySelectorAll('.quiz-option').forEach((o,i)=>{
+      if(i === q.correct) o.classList.add('correct');
+      else if(i === selIdx) o.classList.add('incorrect');
+    });
+    fb.style.display = 'block';
+    fb.className = correct ? 'quiz-feedback ok' : 'quiz-feedback';
+    fb.textContent = (correct ? 'Correct. ' : 'Not quite. ') + (q.explanation || '');
+    if(correct) state.quizScore++; else state.quizMissed.push(q.q);
+    state.quizAnswered = true;
+    document.getElementById('quiz-next-btn').textContent =
+      state.quizIndex < state.quizQuestions.length-1 ? 'Next question' : 'See results';
+    return;
+  }
+
+  if(state.quizIndex < state.quizQuestions.length-1){
+    state.quizIndex++;
+    renderQuestion();
+  } else {
+    document.getElementById('quiz-active').style.display = 'none';
+    document.getElementById('quiz-results').style.display = 'block';
+    document.getElementById('score-text').textContent = `${state.quizScore} / ${state.quizQuestions.length}`;
+    document.getElementById('score-note').textContent = state.quizMissed.length
+      ? `Worth another look: ${state.quizMissed.join(' · ')}`
+      : 'Clean sweep — nice work.';
+  }
+});
+document.getElementById('retry-quiz-btn').addEventListener('click', startQuiz);
+
+// ================= Full guide side panel =================
+const docPanel = document.getElementById('doc-panel');
+const docBackdrop = document.getElementById('doc-backdrop');
+const docPanelBody = document.getElementById('doc-panel-body');
+const docCourseSelect = document.getElementById('doc-course-select');
+const docCache = {};
+
+Object.keys(CATALOG).forEach(c=>{
+  const opt = document.createElement('option');
+  opt.value = c; opt.textContent = c;
+  docCourseSelect.appendChild(opt);
+});
+
+function escapeHtml(s){
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderDocHTML(raw){
+  const lines = raw.split('\n');
+  let html = '';
+  let tableRows = [];
+  function flushTable(){
+    if(tableRows.length){
+      html += '<div class="doc-table">' + tableRows.map(cells=>
+        '<div class="doc-table-row">' + cells.map(c=>`<div class="doc-table-cell">${c}</div>`).join('') + '</div>'
+      ).join('') + '</div>';
+      tableRows = [];
+    }
+  }
+  for(const rawLine of lines){
+    const trimmed = rawLine.trim();
+    if(trimmed.startsWith('|')){
+      if(/^\|[\s\-:|]+\|$/.test(trimmed)) continue;
+      const cells = trimmed.split('|').slice(1,-1).map(c=>{
+        let cc = escapeHtml(c.trim());
+        cc = cc.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+        return cc;
+      });
+      tableRows.push(cells);
+      continue;
+    } else {
+      flushTable();
+    }
+    if(trimmed === '') continue;
+    let t = escapeHtml(trimmed);
+    t = t.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    if(trimmed.startsWith('#### ')) html += `<h4>${t.replace(/^####\s*/,'')}</h4>`;
+    else if(trimmed.startsWith('### ')) html += `<h4>${t.replace(/^###\s*/,'')}</h4>`;
+    else if(trimmed.startsWith('## ')) html += `<h3>${t.replace(/^##\s*/,'')}</h3>`;
+    else if(trimmed.startsWith('# ')) html += `<h2>${t.replace(/^#\s*/,'')}</h2>`;
+    else if(trimmed.startsWith('- ')) html += `<li>${t.replace(/^-\s*/,'')}</li>`;
+    else html += `<p>${t}</p>`;
+  }
+  flushTable();
+  return html;
+}
+
+function openDocPanel(course){
+  docCourseSelect.value = course;
+  loadDocFor(course);
+  docPanel.classList.add('open');
+  docBackdrop.classList.add('open');
+}
+function closeDocPanel(){
+  docPanel.classList.remove('open');
+  docBackdrop.classList.remove('open');
+}
+async function loadDocFor(course){
+  const slug = DOC_SLUG[course];
+  if(!slug){ docPanelBody.innerHTML = '<div class="doc-loading">No source guide mapped for this course.</div>'; return; }
+  if(docCache[slug]){ renderTopicPicker(course, docCache[slug]); return; }
+  docPanelBody.innerHTML = '<div class="doc-loading">Loading full guide…</div>';
+  try{
+    const resp = await fetch(`/data/${slug}.json`);
+    if(!resp.ok) throw new Error('not found');
+    const data = await resp.json();
+    docCache[slug] = data;
+    renderTopicPicker(course, data);
+  } catch(err){
+    docPanelBody.innerHTML = '<div class="doc-loading">Could not load this guide.</div>';
+  }
+}
+function renderTopicPicker(course, data){
+  const topics = Object.keys(data);
+  let html = `<p style="font-size:12.5px;opacity:0.6;margin:0 0 10px;">${topics.length} chapters — pick one to read in full.</p>`;
+  html += '<ul class="doc-topic-list">' + topics.map((t,i)=>
+    `<li><button data-topic-idx="${i}">${t}</button></li>`
+  ).join('') + '</ul>';
+  html += '<div id="doc-chapter-view"></div>';
+  docPanelBody.innerHTML = html;
+  docPanelBody.querySelectorAll('[data-topic-idx]').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const topic = topics[parseInt(btn.dataset.topicIdx,10)];
+      document.getElementById('doc-chapter-view').innerHTML = renderDocHTML(data[topic]);
+      document.getElementById('doc-chapter-view').scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+}
+
+document.getElementById('doc-toggle-btn').addEventListener('click', ()=>{
+  const course = state.course || courseSelect.value || docCourseSelect.value || Object.keys(CATALOG)[0];
+  openDocPanel(course);
+});
+document.getElementById('doc-close-btn').addEventListener('click', closeDocPanel);
+docBackdrop.addEventListener('click', closeDocPanel);
+docCourseSelect.addEventListener('change', ()=> loadDocFor(docCourseSelect.value));
+</script>
+</body>
+</html>

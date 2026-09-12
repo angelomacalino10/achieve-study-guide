@@ -1,0 +1,121 @@
+import type { Context, Config } from "@netlify/functions";
+import { getChapterText } from "./_lib/content.mts";
+
+const SYSTEM_PROMPT = `You are Achieve's quiz generator. Write exam-style multiple choice questions for college and test-prep students. Respond with strict JSON only, no markdown fences, no commentary, in exactly this shape:
+
+{
+  "questions": [
+    {
+      "q": "question text",
+      "options": ["option A", "option B", "option C", "option D"],
+      "correct": 0,
+      "explanation": "why the correct answer is right"
+    }
+  ]
+}
+
+Rules:
+- Exactly 5 questions.
+- Each question has exactly 4 options.
+- "correct" is the zero-based index of the right option.
+- Ground every question in the SOURCE MATERIAL provided when given; only lean on general knowledge to fill gaps.
+- Vary which option position is correct across questions — don't always put the answer in the same slot.`;
+
+export default async (req: Request, context: Context) => {
+  if (req.method !== "POST") {
+    return new Response(JSON.stringify({ error: "Use POST" }), { status: 405 });
+  }
+
+  let body: any;
+  try {
+    body = await req.json();
+  } catch {
+    return new Response(JSON.stringify({ error: "Invalid JSON body" }), { status: 400 });
+  }
+
+  const { course, topic } = body || {};
+  if (!course || !topic) {
+    return new Response(
+      JSON.stringify({ error: "course and topic are required" }),
+      { status: 400 }
+    );
+  }
+
+  const apiKey = Netlify.env.get("ANTHROPIC_API_KEY");
+  if (!apiKey) {
+    return new Response(
+      JSON.stringify({ error: "ANTHROPIC_API_KEY is not configured on this site" }),
+      { status: 500 }
+    );
+  }
+
+  const { matchedTopic, text } = getChapterText(course, topic);
+  const sourceExcerpt = text ? text.slice(0, 15000) : null;
+
+  const userPrompt = [
+    `Course: ${course}`,
+    `Topic: ${topic}`,
+    matchedTopic
+      ? `Matched source chapter: ${matchedTopic}`
+      : `No exact source chapter matched — use general knowledge.`,
+    sourceExcerpt ? `\nSOURCE MATERIAL:\n${sourceExcerpt}` : "",
+  ].join("\n");
+
+  try {
+    const resp = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "x-api-key": apiKey,
+        "anthropic-version": "2023-06-01",
+      },
+      body: JSON.stringify({
+        model: "claude-sonnet-5",
+        max_tokens: 1800,
+        system: SYSTEM_PROMPT,
+        messages: [{ role: "user", content: userPrompt }],
+      }),
+    });
+
+    if (!resp.ok) {
+      const errText = await resp.text();
+      return new Response(
+        JSON.stringify({ error: "Claude API error", detail: errText }),
+        { status: 502 }
+      );
+    }
+
+    const data = await resp.json();
+    const raw = (data.content || [])
+      .map((b: any) => b.text || "")
+      .join("")
+      .trim();
+    const cleaned = raw
+      .replace(/^```json\s*/i, "")
+      .replace(/```$/, "")
+      .trim();
+
+    let quiz;
+    try {
+      quiz = JSON.parse(cleaned);
+    } catch {
+      return new Response(
+        JSON.stringify({ error: "Could not parse AI response", raw: cleaned }),
+        { status: 502 }
+      );
+    }
+
+    return new Response(JSON.stringify({ matchedTopic, quiz }), {
+      headers: { "content-type": "application/json" },
+    });
+  } catch (err: any) {
+    return new Response(
+      JSON.stringify({ error: "Request failed", detail: String(err) }),
+      { status: 500 }
+    );
+  }
+};
+
+export const config: Config = {
+  path: "/api/quiz",
+};
