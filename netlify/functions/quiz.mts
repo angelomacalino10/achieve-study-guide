@@ -21,6 +21,17 @@ Rules:
 - Ground every question in the SOURCE MATERIAL provided when given; only lean on general knowledge to fill gaps.
 - Vary which option position is correct across questions — don't always put the answer in the same slot.`;
 
+function extractJson(raw: string): string {
+  let s = raw.trim();
+  s = s.replace(/^```json\s*/i, "").replace(/^```\s*/i, "").replace(/```$/, "").trim();
+  const start = s.indexOf("{");
+  const end = s.lastIndexOf("}");
+  if (start !== -1 && end !== -1 && end > start) {
+    return s.slice(start, end + 1);
+  }
+  return s;
+}
+
 export default async (req: Request, context: Context) => {
   if (req.method !== "POST") {
     return new Response(JSON.stringify({ error: "Use POST" }), { status: 405 });
@@ -71,7 +82,7 @@ export default async (req: Request, context: Context) => {
       },
       body: JSON.stringify({
         model: "claude-sonnet-5",
-        max_tokens: 1800,
+        max_tokens: 2200,
         system: SYSTEM_PROMPT,
         messages: [{ role: "user", content: userPrompt }],
       }),
@@ -90,17 +101,14 @@ export default async (req: Request, context: Context) => {
       .map((b: any) => b.text || "")
       .join("")
       .trim();
-    const cleaned = raw
-      .replace(/^```json\s*/i, "")
-      .replace(/```$/, "")
-      .trim();
+    const cleaned = extractJson(raw);
 
     let quiz;
     try {
       quiz = JSON.parse(cleaned);
     } catch {
       return new Response(
-        JSON.stringify({ error: "Could not parse AI response", raw: cleaned }),
+        JSON.stringify({ error: "Could not parse AI response", raw: raw.slice(0, 500) }),
         { status: 502 }
       );
     }
