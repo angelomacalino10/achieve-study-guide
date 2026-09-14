@@ -164,6 +164,27 @@ function showAuthGate(){
   document.getElementById('login-error').style.display = 'none';
 }
 
+// Confirms the signed-in user is actually an admin before showing anything.
+// If they're not (or the check fails), signs them out and shows an error —
+// a Viewer account should never be able to get into this dashboard.
+async function verifyAdminAndProceed(showDeniedMessage){
+  const { data: userData } = await sb.auth.getUser();
+  const user = userData && userData.user;
+  if(!user){ showAuthGate(); return; }
+  const { data: profile, error } = await sb.from('profiles').select('role').eq('id', user.id).single();
+  if(error || !profile || profile.role !== 'admin'){
+    await sb.auth.signOut();
+    showAuthGate();
+    if(showDeniedMessage){
+      const errEl = document.getElementById('login-error');
+      errEl.textContent = 'This account doesn\'t have admin access.';
+      errEl.style.display = 'block';
+    }
+    return;
+  }
+  showDashboard();
+}
+
 document.getElementById('login-btn').addEventListener('click', async ()=>{
   const email = document.getElementById('login-email').value.trim();
   const password = document.getElementById('login-password').value;
@@ -180,7 +201,7 @@ document.getElementById('login-btn').addEventListener('click', async ()=>{
     errEl.style.display = 'block';
     return;
   }
-  showDashboard();
+  await verifyAdminAndProceed(true);
 });
 document.getElementById('login-password').addEventListener('keydown', (e)=>{
   if(e.key === 'Enter') document.getElementById('login-btn').click();
@@ -470,7 +491,7 @@ async function loadActivity(){
   }
   const { data } = await sb.auth.getSession();
   if(data && data.session){
-    showDashboard();
+    await verifyAdminAndProceed(false);
   } else {
     showAuthGate();
   }
