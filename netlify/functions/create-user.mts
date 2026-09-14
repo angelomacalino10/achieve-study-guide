@@ -36,7 +36,8 @@ export default async (req: Request, _context: Context) => {
     return new Response(JSON.stringify({ error: "Only admins can create accounts." }), { status: 403 });
   }
 
-  // Now actually create the account.
+  // Now actually create the account. Course access for Viewers is assigned
+  // afterward from the Users list, not at creation time.
   let body: { email?: string; password?: string; role?: string };
   try {
     body = await req.json();
@@ -64,7 +65,7 @@ export default async (req: Request, _context: Context) => {
     return new Response(JSON.stringify({ error: createErr?.message || "Could not create account." }), { status: 400 });
   }
 
-  await admin.from("profiles").insert({ id: created.user.id, email, role });
+  await admin.from("profiles").insert({ id: created.user.id, email, role, assigned_courses: [] });
 
   return new Response(JSON.stringify({ success: true, id: created.user.id, email, role }), {
     status: 200,

@@ -18,7 +18,7 @@
     margin:0; background:var(--peach-3); color:var(--ink);
     font-family:'Inter',sans-serif;
   }
-  .wrap{ max-width:900px; margin:0 auto; padding:32px 24px 64px; }
+  .wrap{ max-width:1280px; margin:0 auto; padding:32px 24px 64px; }
   .auth-gate{ display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100vh; padding:24px; }
   .auth-title{ max-width:380px; width:100%; text-align:center; margin:0 0 24px; }
   .auth-title img{ width:38px; height:auto; display:block; margin:0 auto 12px; }
@@ -42,8 +42,10 @@
   .dash-header .sub{ font-family:'Inter',sans-serif; font-size:12.5px; color:var(--ink); opacity:0.55; font-weight:400; margin:2px 0 0; }
   .signout-link{ background:none; border:none; cursor:pointer; font-size:13px; font-weight:500; color:var(--ink); opacity:0.55; text-decoration:underline; font-family:'Inter',sans-serif; }
   .signout-link:hover{ opacity:0.85; }
-  .card{ background:var(--white); border:1.5px solid var(--purp-1); border-radius:14px; padding:22px 24px; margin-bottom:22px; }
-  .card h2{ font-family:'Bitter',serif; font-size:16px; font-weight:600; margin:0 0 4px; }
+  .card{ background:var(--white); border:2px solid var(--purple); border-radius:14px; padding:22px 24px; margin-bottom:22px; }
+  .card h2{ font-family:'Bitter',serif; font-size:16px; font-weight:600; margin:0 0 4px;
+    display:flex; align-items:center; gap:8px; }
+  .card h2 svg{ width:19px; height:19px; flex-shrink:0; color:var(--purple); }
   .card .card-sub{ font-size:12.5px; color:var(--ink); opacity:0.55; margin:0 0 16px; }
   .rank-row{ display:flex; align-items:center; gap:12px; padding:9px 0; border-bottom:1px solid var(--purp-3); font-size:13.5px; }
   .rank-row:last-child{ border-bottom:none; }
@@ -60,8 +62,16 @@
   .pill.login{ background:#E1F5EE; color:#085041; }
   .pill.logout{ background:var(--purp-3); color:var(--ink); opacity:0.75; }
   .pill.view_topic{ background:var(--peach-1); color:var(--ink); }
+  .pill.quiz_result{ background:#FFE9CC; color:#8A4B00; }
   .empty-note{ font-size:13px; color:var(--ink); opacity:0.55; padding:8px 0; }
   .loading-note{ font-size:13.5px; color:var(--ink); opacity:0.6; padding:24px 0; text-align:center; }
+  .dash-grid{ display:grid; grid-template-columns:380px 1fr; gap:22px; align-items:start; }
+  .row-extra{ display:none; }
+  .view-all-btn{ background:none; border:none; cursor:pointer; font-size:12.5px; font-weight:500;
+    color:var(--purple); text-decoration:underline; font-family:'Inter',sans-serif; padding:8px 0 0; display:block; }
+  @media (max-width:820px){
+    .dash-grid{ grid-template-columns:1fr; }
+  }
 </style>
 </head>
 <body>
@@ -92,31 +102,36 @@
     <button class="signout-link" id="signout-btn">Sign out</button>
   </div>
 
-  <div class="card">
-    <h2>Create account</h2>
-    <p class="card-sub">Enter an email and password, choose their role, and hand the login to them yourself.</p>
-    <label for="new-email">Email</label>
-    <input type="email" id="new-email" autocomplete="off">
-    <label for="new-password">Password</label>
-    <input type="text" id="new-password" autocomplete="off">
-    <label for="new-role">Role</label>
-    <select id="new-role">
-      <option value="viewer" selected>Viewer (customer)</option>
-      <option value="admin">Admin (staff)</option>
-    </select>
-    <div class="error-text" id="create-error"></div>
-    <div class="error-text" id="create-success" style="color:#0F6E56;"></div>
-    <button class="btn" id="create-account-btn" style="width:auto;padding:11px 22px;">Create account</button>
-  </div>
+  <div class="dash-grid">
+    <div>
+      <div class="card">
+        <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="7.5" cy="6.5" r="3"/><path d="M2 17c0-3.2 2.5-5.3 5.5-5.3 1.3 0 2.5.4 3.5 1.1"/><path d="M15 8v6M12 11h6"/></svg>Create account</h2>
+        <p class="card-sub">Enter an email and password, choose their role, and hand the login to them yourself.</p>
+        <label for="new-email">Email</label>
+        <input type="email" id="new-email" autocomplete="off">
+        <label for="new-password">Password</label>
+        <input type="text" id="new-password" autocomplete="off">
+        <label for="new-role">Role</label>
+        <select id="new-role">
+          <option value="viewer" selected>Viewer</option>
+          <option value="admin">Admin</option>
+        </select>
+        <p class="card-sub" style="margin-top:-6px;">For Viewers, you'll pick which courses they can access afterward, in the Users list below.</p>
+        <div class="error-text" id="create-error"></div>
+        <div class="error-text" id="create-success" style="color:#0F6E56;"></div>
+        <button class="btn" id="create-account-btn" style="width:auto;padding:11px 22px;">Create account</button>
+      </div>
 
-  <div class="card">
-    <h2>Team &amp; customers</h2>
-    <p class="card-sub">Angelo and Maryke are Admins and can see this dashboard. Everyone else is a Viewer.</p>
-    <div id="team-body"><div class="loading-note">Loading…</div></div>
-  </div>
+      <div class="card">
+        <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="6.5" cy="6.5" r="2.8"/><circle cx="14" cy="7.5" r="2.4"/><path d="M1.5 17c0-3 2.3-5 5-5s5 2 5 3.3"/><path d="M10.8 15.2c.3-2 2-3.4 4-3.4 2.1 0 3.7 1.6 3.7 3.9"/></svg>Users</h2>
+        <p class="card-sub">Angelo and Maryke are Admins and can see this dashboard. Everyone else is a Viewer.</p>
+        <div id="team-body"><div class="loading-note">Loading…</div></div>
+      </div>
+    </div>
 
-  <div id="dash-body">
-    <div class="loading-note">Loading activity…</div>
+    <div id="dash-body">
+      <div class="loading-note">Loading activity…</div>
+    </div>
   </div>
 </div>
 
@@ -125,6 +140,11 @@
 const SUPABASE_URL = 'https://wtfmlcdiwlsywdhwngig.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_MhNuEzfKTC14w0PXNhOAyA_pMkXrZLp';
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+// The full course catalog, kept in sync with index.html — used when
+// managing which courses each Viewer can access.
+const ALL_COURSES = ["American Government", "Art of the Western World", "Chemistry", "College Algebra", "College Composition", "College Composition (with modular)", "College Mathematics", "Dental Hygiene Entrance Exam Prep", "Ethics in America", "Fundamentals of Math", "History of the United States 1", "Human Growth and Development", "Humanities", "Introduction to Psychology", "Macroeconomics", "Microeconomics", "Next Gen NCLEX PN Prep", "Next Gen NCLEX RN Prep", "Nursing Entrance Exam Prep", "Sociology", "Spanish 1", "Spanish 2", "Speech", "Statistics", "World Religions"];
+
 
 // Set this to false only for quick local testing — this page should always
 // require sign-in for the real deploy.
@@ -201,7 +221,8 @@ document.getElementById('create-account-btn').addEventListener('click', async ()
       errEl.textContent = payload.error || 'Something went wrong creating that account.';
       errEl.style.display = 'block';
     } else {
-      okEl.textContent = `Account created for ${email} (${role === 'admin' ? 'Admin' : 'Viewer'}). Give them this email and password to sign in.`;
+      const courseNote = role === 'viewer' ? ` — assign their courses below` : '';
+      okEl.textContent = `Account created for ${email} (${role === 'admin' ? 'Admin' : 'Viewer'}${courseNote}). Give them this email and password to sign in.`;
       okEl.style.display = 'block';
       document.getElementById('new-email').value = '';
       document.getElementById('new-password').value = '';
@@ -213,6 +234,21 @@ document.getElementById('create-account-btn').addEventListener('click', async ()
   }
   btn.disabled = false; btn.textContent = 'Create account';
 });
+
+// Renders up to 10 rows normally; anything past that gets a "row-extra"
+// class (hidden by CSS) plus a "View all" button that reveals the rest.
+function renderPaged(items, toRowHtml, containerSelector, label){
+  const LIMIT = 10;
+  const rowsHtml = items.map((item, i) => {
+    const html = toRowHtml(item, i);
+    if(i < LIMIT) return html;
+    return html.replace(/^<tr/, '<tr class="row-extra"').replace(/^<div class="rank-row"/, '<div class="rank-row row-extra"');
+  }).join('');
+  const btnHtml = items.length > LIMIT
+    ? `<button class="view-all-btn" onclick="document.querySelectorAll('${containerSelector} .row-extra').forEach(el=>el.style.display=(el.tagName==='TR'?'table-row':'flex'));this.style.display='none';">View all ${items.length} ${label}</button>`
+    : '';
+  return { rowsHtml, btnHtml };
+}
 
 async function loadTeam(){
   const el = document.getElementById('team-body');
@@ -230,18 +266,73 @@ async function loadTeam(){
     return;
   }
 
-  el.innerHTML = `<table>
-    <tr><th>Email</th><th>Role</th><th></th></tr>
-    ${data.map(p => `
+  const toAdminRow = p => `
       <tr>
         <td>${p.email}</td>
-        <td><span class="pill ${p.role === 'admin' ? 'login' : 'view_topic'}">${p.role}</span></td>
         <td><button class="role-toggle-btn" data-id="${p.id}" data-role="${p.role}"
               style="background:none;border:none;cursor:pointer;font-size:12.5px;color:var(--purple);text-decoration:underline;font-family:'Inter',sans-serif;">
-          Make ${p.role === 'admin' ? 'Viewer' : 'Admin'}
+          Make Viewer
         </button></td>
-      </tr>`).join('')}
-  </table>`;
+      </tr>`;
+
+  const toViewerRow = p => {
+    const courses = p.assigned_courses || [];
+    return `
+      <tr>
+        <td>${p.email}</td>
+        <td>
+          <div style="font-size:12.5px;margin-bottom:6px;">${courses.length ? courses.join(', ') : '<span style="opacity:0.55;">None assigned</span>'}</div>
+          <details class="course-manager">
+            <summary style="cursor:pointer;font-size:12px;color:var(--purple);">Manage courses</summary>
+            <div style="margin:8px 0;max-height:180px;overflow-y:auto;border:1.5px solid var(--purp-1);border-radius:8px;padding:8px 10px;">
+              ${ALL_COURSES.map(c => `<label style="display:block;font-size:12px;padding:3px 0;cursor:pointer;"><input type="checkbox" value="${c}" ${courses.includes(c) ? 'checked' : ''} style="margin-right:6px;">${c}</label>`).join('')}
+            </div>
+            <button class="save-courses-btn" data-id="${p.id}" style="background:var(--purple);color:#fff;border:none;border-radius:6px;padding:6px 14px;font-size:12px;cursor:pointer;font-family:'Inter',sans-serif;">Save</button>
+          </details>
+        </td>
+        <td><button class="role-toggle-btn" data-id="${p.id}" data-role="${p.role}"
+              style="background:none;border:none;cursor:pointer;font-size:12.5px;color:var(--purple);text-decoration:underline;font-family:'Inter',sans-serif;">
+          Make Admin
+        </button></td>
+      </tr>`;
+  };
+
+  const groupLabel = (title, count) =>
+    `<p style="font-size:12px;font-weight:600;color:var(--ink);opacity:0.6;margin:0 0 8px;text-transform:uppercase;letter-spacing:0.04em;">${title} (${count})</p>`;
+
+  const admins = data.filter(p => p.role === 'admin');
+  const viewers = data.filter(p => p.role === 'viewer');
+
+  let html = groupLabel('Admins', admins.length);
+  if(admins.length === 0){
+    html += `<p class="empty-note">No admins yet.</p>`;
+  } else {
+    const { rowsHtml, btnHtml } = renderPaged(admins, toAdminRow, '#admins-list', 'admins');
+    html += `<table id="admins-list"><tr><th>Email</th><th></th></tr>${rowsHtml}</table>${btnHtml}`;
+  }
+
+  html += `<div style="height:22px;"></div>`;
+  html += groupLabel('Viewers', viewers.length);
+  if(viewers.length === 0){
+    html += `<p class="empty-note">No viewers yet.</p>`;
+  } else {
+    const { rowsHtml, btnHtml } = renderPaged(viewers, toViewerRow, '#viewers-list', 'viewers');
+    html += `<table id="viewers-list"><tr><th>Email</th><th>Course access</th><th></th></tr>${rowsHtml}</table>${btnHtml}`;
+  }
+
+  el.innerHTML = html;
+
+  el.querySelectorAll('.save-courses-btn').forEach(btn => {
+    btn.addEventListener('click', async ()=>{
+      const id = btn.dataset.id;
+      const details = btn.closest('.course-manager');
+      const checked = Array.from(details.querySelectorAll('input[type=checkbox]:checked')).map(cb => cb.value);
+      btn.disabled = true; btn.textContent = 'Saving…';
+      const { error } = await sb.from('profiles').update({ assigned_courses: checked }).eq('id', id);
+      if(error){ alert('Could not update course access — you may not have permission.'); }
+      loadTeam();
+    });
+  });
 
   el.querySelectorAll('.role-toggle-btn').forEach(btn => {
     btn.addEventListener('click', async ()=>{
@@ -295,67 +386,78 @@ async function loadActivity(){
       topicCounts[key] = (topicCounts[key]||0) + 1;
     }
   });
-  const topCourses = Object.entries(courseCounts).sort((a,b)=>b[1]-a[1]).slice(0,8);
-  const topTopics = Object.entries(topicCounts).sort((a,b)=>b[1]-a[1]).slice(0,8);
+  const HISTORY_CAP = 100;
+  const topCourses = Object.entries(courseCounts).sort((a,b)=>b[1]-a[1]).slice(0, HISTORY_CAP);
+  const topTopics = Object.entries(topicCounts).sort((a,b)=>b[1]-a[1]).slice(0, HISTORY_CAP);
 
-  const rankList = (items, emptyMsg) => {
-    if(items.length === 0) return `<p class="empty-note">${emptyMsg}</p>`;
-    return items.map(([label, count], i) => `
+  const rankRow = ([label, count], i) => `
       <div class="rank-row">
         <div class="rank-num">${i+1}</div>
         <div class="rank-label">${label}</div>
         <div class="rank-count">${count} view${count===1?'':'s'}</div>
-      </div>`).join('');
+      </div>`;
+  const rankListHtml = (items, containerSelector, label, emptyMsg) => {
+    if(items.length === 0) return { rowsHtml: `<p class="empty-note">${emptyMsg}</p>`, btnHtml: '' };
+    return renderPaged(items, rankRow, containerSelector, label);
   };
 
   // ---- Login / logout history ----
-  const loginEvents = data.filter(r => r.event_type === 'login' || r.event_type === 'logout').slice(0, 40);
-  const loginRows = loginEvents.map(r => `<tr>
+  const loginEvents = data.filter(r => r.event_type === 'login' || r.event_type === 'logout').slice(0, HISTORY_CAP);
+  const loginRow = r => `<tr>
       <td>${r.email || '(unknown)'}</td>
       <td><span class="pill ${r.event_type}">${r.event_type}</span></td>
       <td>${timeAgo(r.created_at)}</td>
-    </tr>`).join('');
+    </tr>`;
+  const { rowsHtml: loginRowsHtml, btnHtml: loginBtnHtml } = renderPaged(loginEvents, loginRow, '#login-activity', 'logins');
 
   // ---- Recent activity feed ----
-  const recent = data.slice(0, 60);
-  const rows = recent.map(r => {
-    const what = r.event_type === 'view_topic'
-      ? `${r.course || ''}${r.topic ? ' — ' + r.topic : ''}`
-      : '—';
+  const recentRow = r => {
+    let what = '—';
+    if(r.event_type === 'view_topic'){
+      what = `${r.course || ''}${r.topic ? ' — ' + r.topic : ''}`;
+    } else if(r.event_type === 'quiz_result'){
+      const total = r.score_total || 0;
+      const correct = r.score_correct || 0;
+      what = `${r.course || ''}${r.topic ? ' — ' + r.topic : ''} (${correct}/${total})`;
+    }
     return `<tr>
       <td>${r.email || '(unknown)'}</td>
       <td><span class="pill ${r.event_type}">${r.event_type.replace('_',' ')}</span></td>
       <td>${what}</td>
       <td>${timeAgo(r.created_at)}</td>
     </tr>`;
-  }).join('');
+  };
+  const { rowsHtml: recentRowsHtml, btnHtml: recentBtnHtml } = renderPaged(data.slice(0, HISTORY_CAP), recentRow, '#recent-activity', 'events');
+
+  const coursesPaged = rankListHtml(topCourses, '#courses-rank', 'courses', 'No study guides opened yet.');
+  const topicsPaged = rankListHtml(topTopics, '#topics-rank', 'topics', 'No study guides opened yet.');
 
   body.innerHTML = `
     <div class="card">
-      <h2>Most viewed courses</h2>
+      <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M10 4.8C8.3 3.5 5.5 3.1 3 3.4v10.9c2.5-.3 5.3.1 7 1.4 1.7-1.3 4.5-1.7 7-1.4V3.4c-2.5-.3-5.3.1-7 1.4Z"/><path d="M10 4.8v10.9"/></svg>Most viewed courses</h2>
       <p class="card-sub">Based on every study guide opened, all time.</p>
-      ${rankList(topCourses, 'No study guides opened yet.')}
+      <div id="courses-rank">${coursesPaged.rowsHtml}</div>${coursesPaged.btnHtml}
     </div>
     <div class="card">
-      <h2>Most viewed topics</h2>
+      <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 16V9M10 16V4M16 16v-6"/></svg>Most viewed topics</h2>
       <p class="card-sub">Individual topics opened most often.</p>
-      ${rankList(topTopics, 'No study guides opened yet.')}
+      <div id="topics-rank">${topicsPaged.rowsHtml}</div>${topicsPaged.btnHtml}
     </div>
     <div class="card">
-      <h2>Login &amp; logout activity</h2>
+      <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M8 4H4v12h4"/><path d="M12 10h6m-3-3 3 3-3 3"/></svg>Login &amp; logout activity</h2>
       <p class="card-sub">Every sign-in and sign-out, most recent first.</p>
-      ${loginEvents.length === 0 ? '<p class="empty-note">No logins recorded yet.</p>' : `<table>
+      ${loginEvents.length === 0 ? '<p class="empty-note">No logins recorded yet.</p>' : `<table id="login-activity">
         <tr><th>Who</th><th>Event</th><th>When</th></tr>
-        ${loginRows}
-      </table>`}
+        ${loginRowsHtml}
+      </table>${loginBtnHtml}`}
     </div>
     <div class="card">
-      <h2>Recent activity</h2>
-      <p class="card-sub">Last ${recent.length} events — logins, logouts, and study guides opened.</p>
-      <table>
+      <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="9.5" cy="9.5" r="7"/><path d="M9.5 5.5v4l2.8 1.8"/></svg>Recent activity</h2>
+      <p class="card-sub">Last ${Math.min(data.length, HISTORY_CAP)} events — logins, logouts, and study guides opened.</p>
+      <table id="recent-activity">
         <tr><th>Who</th><th>Event</th><th>Course / topic</th><th>When</th></tr>
-        ${rows}
-      </table>
+        ${recentRowsHtml}
+      </table>${recentBtnHtml}
     </div>
   `;
 }

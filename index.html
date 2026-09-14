@@ -415,26 +415,48 @@
 
   /* ---- Full guide side panel ---- */
   .doc-toggle{
-    position:fixed; top:18px; right:18px; z-index:41;
+    position:fixed; top:18px; left:18px; z-index:41;
     background:var(--ink); color:#fff; border:none; border-radius:20px;
     padding:10px 18px; font-family:'Inter',sans-serif; font-size:13px;
     font-weight:600; cursor:pointer; box-shadow:0 4px 14px rgba(45,21,89,0.25);
     display:inline-flex; align-items:center; gap:7px;
   }
   .doc-toggle svg{ width:20px; height:20px; flex-shrink:0; }
+  .grades-toggle{
+    position:fixed; top:18px; right:18px; z-index:41;
+    background:var(--ink); color:#fff; border:none; border-radius:20px;
+    padding:10px 18px; font-family:'Inter',sans-serif; font-size:13px;
+    font-weight:600; cursor:pointer; box-shadow:0 4px 14px rgba(45,21,89,0.25);
+    display:inline-flex; align-items:center; gap:7px;
+  }
+  .grades-toggle svg{ width:20px; height:20px; flex-shrink:0; }
   .doc-backdrop{
     position:fixed; inset:0; background:rgba(45,21,89,0.28); z-index:39;
     opacity:0; visibility:hidden; transition:opacity .2s ease;
   }
   .doc-backdrop.open{ opacity:1; visibility:visible; }
   .doc-panel{
-    position:fixed; top:0; right:0; width:100%; height:100vh;
+    position:fixed; top:0; right:0; width:100%; max-width:420px;
     background:var(--white); border-left:1px solid var(--purp-1);
+    border-bottom-left-radius:16px;
     box-shadow:-10px 0 28px rgba(45,21,89,0.12); z-index:40;
     transform:translateX(100%); transition:transform .28s ease;
-    display:flex; flex-direction:column;
   }
   .doc-panel.open{ transform:translateX(0); }
+  #doc-panel{
+    left:0; right:auto;
+    border-left:none; border-right:1px solid var(--purp-1);
+    border-bottom-left-radius:0; border-bottom-right-radius:16px;
+    box-shadow:10px 0 28px rgba(45,21,89,0.12);
+    transform:translateX(-100%);
+  }
+  #doc-panel.open{ transform:translateX(0); }
+  #grades-panel{ height:100vh; display:flex; flex-direction:column; border-bottom-left-radius:0; }
+  .empty-note{ font-size:13px; color:var(--ink); opacity:0.55; padding:8px 0; }
+  .rank-row{ display:flex; align-items:center; justify-content:space-between; gap:12px;
+    padding:12px 0; border-bottom:1px solid var(--purp-2); font-size:13.5px; }
+  .rank-row:last-child{ border-bottom:none; }
+  .rank-count{ font-weight:600; color:var(--purple); font-size:13px; white-space:nowrap; }
   .doc-panel-head{ padding:20px 20px 14px; border-bottom:1px solid var(--purp-2); flex-shrink:0; }
   .doc-panel-head-inner{ max-width:760px; margin:0 auto; }
   .doc-panel-head-row{ display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
@@ -442,27 +464,6 @@
   .doc-close{ background:none; border:none; color:var(--ink); opacity:0.55; font-size:20px; line-height:1; cursor:pointer; padding:2px 6px; }
   .doc-close:hover{ opacity:1; }
   .doc-panel select{ margin-bottom:0; }
-  .doc-panel-body{ padding:18px 20px 60px; overflow-y:auto; flex:1; font-size:13.5px; line-height:1.65; }
-  .doc-panel-body-inner{ max-width:760px; margin:0 auto; }
-  .doc-panel-body h2{ font-family:'Bitter',serif; font-size:16px; font-weight:600; margin:20px 0 8px; }
-  .doc-panel-body h3{ font-family:'Bitter',serif; font-size:14.5px; font-weight:600; margin:16px 0 6px; }
-  .doc-panel-body h4{ font-size:13.5px; font-weight:600; margin:12px 0 4px; }
-  .doc-panel-body p{ margin:0 0 10px; color:var(--ink); }
-  .doc-panel-body li{ margin:0 0 4px 18px; }
-  .doc-table{ border:1px solid var(--purp-2); border-radius:8px; margin:10px 0; overflow:hidden; }
-  .doc-table-row{ display:flex; border-bottom:1px solid var(--purp-2); }
-  .doc-table-row:last-child{ border-bottom:none; }
-  .doc-table-cell{ flex:1; padding:7px 10px; font-size:12.5px; border-right:1px solid var(--purp-2); }
-  .doc-table-cell:last-child{ border-right:none; }
-  .doc-loading{ font-size:13px; opacity:0.6; padding:20px 0; }
-  .doc-topic-list{ padding-left:0; list-style:none; margin:0 0 6px; }
-  .doc-topic-list li{ margin:0 0 6px; }
-  .doc-topic-list button{
-    background:none; border:none; color:var(--ink); text-align:left;
-    font-size:13px; padding:6px 0; cursor:pointer; font-family:'Inter',sans-serif;
-    border-bottom:1px dotted var(--purp-2); width:100%;
-  }
-  .doc-topic-list button:hover{ color:var(--orange); }
 </style>
 </head>
 <body>
@@ -489,6 +490,10 @@
   <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M10 4.8C8.3 3.5 5.5 3.1 3 3.4v10.9c2.5-.3 5.3.1 7 1.4 1.7-1.3 4.5-1.7 7-1.4V3.4c-2.5-.3-5.3.1-7 1.4Z"/><path d="M10 4.8v10.9"/></svg>
   Full Guide
 </button>
+<button class="grades-toggle" id="my-grades-btn">
+  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="10" cy="10" r="7.5"/><path d="M6.8 10.3l2 2 4.4-5"/></svg>
+  My Grades
+</button>
 <div class="doc-backdrop" id="doc-backdrop"></div>
 <aside class="doc-panel" id="doc-panel">
   <div class="doc-panel-head">
@@ -497,14 +502,25 @@
         <h2>Full Study Guide</h2>
         <button class="doc-close" id="doc-close-btn">&times;</button>
       </div>
+      <p class="card-sub" style="margin:0 0 14px;font-size:13px;color:var(--ink);opacity:0.65;">Pick a course, then open its printable study guide.</p>
       <select id="doc-course-select"></select>
-      <a class="btn btn-ghost" id="doc-original-link" href="#" target="_blank" rel="noopener" style="width:100%;justify-content:center;margin-top:12px;text-decoration:none;">Printable Study Guide</a>
+      <a class="btn btn-primary" id="doc-original-link" href="#" target="_blank" rel="noopener" style="width:100%;justify-content:center;margin-top:14px;text-decoration:none;">Open Printable Study Guide ↦</a>
     </div>
   </div>
-  <div class="doc-panel-body" id="doc-panel-body">
-    <div class="doc-panel-body-inner" id="doc-panel-body-inner">
-      <div class="doc-loading">Pick a course above to view its full guide.</div>
+</aside>
+
+<aside class="doc-panel" id="grades-panel">
+  <div class="doc-panel-head">
+    <div class="doc-panel-head-inner">
+      <div class="doc-panel-head-row">
+        <h2>My Grades</h2>
+        <button class="doc-close" id="grades-close-btn">&times;</button>
+      </div>
+      <p class="card-sub" style="margin:0;font-size:13px;color:var(--ink);opacity:0.65;">Every quiz you've taken, with the grade you received.</p>
     </div>
+  </div>
+  <div style="padding:18px 20px 30px;overflow-y:auto;flex:1;">
+    <div id="grades-list"><p class="empty-note">Loading…</p></div>
   </div>
 </aside>
 
@@ -607,20 +623,54 @@ const AUTH_ENABLED = true;
 function showApp(){
   document.getElementById('auth-gate').style.display = 'none';
   document.querySelector('.app').style.display = 'block';
-  document.getElementById('doc-toggle-btn').style.display = '';
+  showFloatingButtons();
+  loadCurrentUserAccess().then(applyAccessRestrictions);
 }
 function showAuthGate(){
   document.getElementById('auth-gate').style.display = 'flex';
   document.querySelector('.app').style.display = 'none';
-  document.getElementById('doc-toggle-btn').style.display = 'none';
+  hideFloatingButtons();
   document.getElementById('login-email').value = '';
   document.getElementById('login-password').value = '';
   document.getElementById('login-error').style.display = 'none';
 }
 
+// ---------- Access control: Viewers can be locked to specific courses ----------
+let currentUserRole = null;
+let currentUserAssignedCourses = [];
+
+async function loadCurrentUserAccess(){
+  try{
+    const { data: userData } = await sb.auth.getUser();
+    const user = userData && userData.user;
+    if(!user){ currentUserRole = null; currentUserAssignedCourses = []; return; }
+    const { data: profile } = await sb.from('profiles').select('role, assigned_courses').eq('id', user.id).single();
+    currentUserRole = profile ? profile.role : null;
+    currentUserAssignedCourses = (profile && profile.assigned_courses) || [];
+  }catch(e){
+    console.warn('Could not load user access:', e);
+    currentUserRole = null; currentUserAssignedCourses = [];
+  }
+}
+
+// Admins (and anyone whose access couldn't be determined) see every course.
+// A Viewer only sees the specific courses they've been assigned to, if any.
+function getAccessibleCourses(){
+  const all = Object.keys(CATALOG);
+  if(currentUserRole === 'viewer'){
+    return all.filter(c => currentUserAssignedCourses.includes(c));
+  }
+  return all;
+}
+
+function applyAccessRestrictions(){
+  renderCourseGrid();
+  populateDocCourseSelect();
+}
+
 // Fire-and-forget activity logging — never blocks the UI, and quietly does
 // nothing if it fails (e.g. offline) rather than interrupting studying.
-async function logActivity(event_type, course, topic){
+async function logActivity(event_type, course, topic, scoreCorrect, scoreTotal){
   try{
     const { data } = await sb.auth.getUser();
     const user = data && data.user;
@@ -630,7 +680,9 @@ async function logActivity(event_type, course, topic){
       email: user.email || null,
       event_type: event_type,
       course: course || null,
-      topic: topic || null
+      topic: topic || null,
+      score_correct: (typeof scoreCorrect === 'number') ? scoreCorrect : null,
+      score_total: (typeof scoreTotal === 'number') ? scoreTotal : null
     });
   }catch(e){ console.warn('Activity logging failed:', e); }
 }
@@ -804,7 +856,12 @@ const COURSE_COVERS = {
 const courseGrid = document.getElementById('course-grid');
 function renderCourseGrid(){
   courseGrid.innerHTML = '';
-  Object.keys(CATALOG).forEach(course=>{
+  const courses = getAccessibleCourses();
+  if(courses.length === 0){
+    courseGrid.innerHTML = `<p class="empty-note" style="padding:8px 0;">No course has been assigned to your account yet — contact your instructor.</p>`;
+    return;
+  }
+  courses.forEach(course=>{
     const tile = document.createElement('button');
     tile.type = 'button';
     tile.className = 'course-tile';
@@ -822,7 +879,6 @@ function renderCourseGrid(){
     courseGrid.appendChild(tile);
   });
 }
-renderCourseGrid();
 
 // ---------- Topic list ----------
 const topicList = document.getElementById('topic-list');
@@ -1086,6 +1142,7 @@ document.getElementById('quiz-next-btn').addEventListener('click', ()=>{
     document.getElementById('quiz-active').style.display = 'none';
     document.getElementById('quiz-results').style.display = 'block';
     document.getElementById('score-text').textContent = `${state.quizScore} / ${state.quizQuestions.length}`;
+    logActivity('quiz_result', state.course, state.topic, state.quizScore, state.quizQuestions.length);
     const pct = state.quizScore / state.quizQuestions.length;
     let headline;
     if(pct === 1) headline = 'Clean sweep — nice work.';
@@ -1102,58 +1159,15 @@ document.getElementById('retry-quiz-btn').addEventListener('click', startQuiz);
 // ================= Full guide side panel =================
 const docPanel = document.getElementById('doc-panel');
 const docBackdrop = document.getElementById('doc-backdrop');
-const docPanelBody = document.getElementById('doc-panel-body-inner');
 const docCourseSelect = document.getElementById('doc-course-select');
-const docCache = {};
 
-Object.keys(CATALOG).forEach(c=>{
-  const opt = document.createElement('option');
-  opt.value = c; opt.textContent = c;
-  docCourseSelect.appendChild(opt);
-});
-
-function escapeHtml(s){
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-}
-
-function renderDocHTML(raw){
-  const lines = raw.split('\n');
-  let html = '';
-  let tableRows = [];
-  function flushTable(){
-    if(tableRows.length){
-      html += '<div class="doc-table">' + tableRows.map(cells=>
-        '<div class="doc-table-row">' + cells.map(c=>`<div class="doc-table-cell">${c}</div>`).join('') + '</div>'
-      ).join('') + '</div>';
-      tableRows = [];
-    }
-  }
-  for(const rawLine of lines){
-    const trimmed = rawLine.trim();
-    if(trimmed.startsWith('|')){
-      if(/^\|[\s\-:|]+\|$/.test(trimmed)) continue;
-      const cells = trimmed.split('|').slice(1,-1).map(c=>{
-        let cc = escapeHtml(c.trim());
-        cc = cc.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-        return cc;
-      });
-      tableRows.push(cells);
-      continue;
-    } else {
-      flushTable();
-    }
-    if(trimmed === '') continue;
-    let t = escapeHtml(trimmed);
-    t = t.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-    if(trimmed.startsWith('#### ')) html += `<h4>${t.replace(/^####\s*/,'')}</h4>`;
-    else if(trimmed.startsWith('### ')) html += `<h4>${t.replace(/^###\s*/,'')}</h4>`;
-    else if(trimmed.startsWith('## ')) html += `<h3>${t.replace(/^##\s*/,'')}</h3>`;
-    else if(trimmed.startsWith('# ')) html += `<h2>${t.replace(/^#\s*/,'')}</h2>`;
-    else if(trimmed.startsWith('- ')) html += `<li>${t.replace(/^-\s*/,'')}</li>`;
-    else html += `<p>${t}</p>`;
-  }
-  flushTable();
-  return html;
+function populateDocCourseSelect(){
+  docCourseSelect.innerHTML = '';
+  getAccessibleCourses().forEach(c=>{
+    const opt = document.createElement('option');
+    opt.value = c; opt.textContent = c;
+    docCourseSelect.appendChild(opt);
+  });
 }
 
 // Direct links to each course's original source file in the shared Drive folder
@@ -1185,59 +1199,96 @@ const DRIVE_LINKS = {
   "World Religions": "https://drive.google.com/file/d/1EwHxcKM5jdOf9cxY6bzF9vZl0Ed1CTTb/view?usp=sharing"
 };
 
+function hideFloatingButtons(){
+  document.getElementById('doc-toggle-btn').style.display = 'none';
+  document.getElementById('my-grades-btn').style.display = 'none';
+}
+function showFloatingButtons(){
+  document.getElementById('doc-toggle-btn').style.display = '';
+  document.getElementById('my-grades-btn').style.display = '';
+}
+
 function openDocPanel(course){
+  closeGradesPanel();
   docCourseSelect.value = course;
   loadDocFor(course);
   docPanel.classList.add('open');
   docBackdrop.classList.add('open');
-  document.getElementById('doc-toggle-btn').style.display = 'none';
+  hideFloatingButtons();
 }
 function closeDocPanel(){
   docPanel.classList.remove('open');
   docBackdrop.classList.remove('open');
-  document.getElementById('doc-toggle-btn').style.display = '';
+  showFloatingButtons();
 }
-async function loadDocFor(course){
+function loadDocFor(course){
   const link = document.getElementById('doc-original-link');
   link.href = DRIVE_LINKS[course] || '#';
-  const slug = DOC_SLUG[course];
-  if(!slug){ docPanelBody.innerHTML = '<div class="doc-loading">No source guide mapped for this course.</div>'; return; }
-  if(docCache[slug]){ renderTopicPicker(course, docCache[slug]); return; }
-  docPanelBody.innerHTML = '<div class="doc-loading">Loading full guide…</div>';
-  try{
-    const resp = await fetch(`/data/${slug}.json`);
-    if(!resp.ok) throw new Error('not found');
-    const data = await resp.json();
-    docCache[slug] = data;
-    renderTopicPicker(course, data);
-  } catch(err){
-    docPanelBody.innerHTML = '<div class="doc-loading">Could not load this guide.</div>';
-  }
-}
-function renderTopicPicker(course, data){
-  const topics = Object.keys(data);
-  let html = `<p style="font-size:12.5px;opacity:0.6;margin:0 0 10px;">${topics.length} chapters — pick one to read in full.</p>`;
-  html += '<ul class="doc-topic-list">' + topics.map((t,i)=>
-    `<li><button data-topic-idx="${i}">${t}</button></li>`
-  ).join('') + '</ul>';
-  html += '<div id="doc-chapter-view"></div>';
-  docPanelBody.innerHTML = html;
-  docPanelBody.querySelectorAll('[data-topic-idx]').forEach(btn=>{
-    btn.addEventListener('click', ()=>{
-      const topic = topics[parseInt(btn.dataset.topicIdx,10)];
-      document.getElementById('doc-chapter-view').innerHTML = renderDocHTML(data[topic]);
-      document.getElementById('doc-chapter-view').scrollIntoView({behavior:'smooth', block:'start'});
-    });
-  });
 }
 
 document.getElementById('doc-toggle-btn').addEventListener('click', ()=>{
-  const course = state.course || selectedCourse || docCourseSelect.value || Object.keys(CATALOG)[0];
+  const accessible = getAccessibleCourses();
+  const course = state.course || selectedCourse || docCourseSelect.value || accessible[0];
   openDocPanel(course);
 });
 document.getElementById('doc-close-btn').addEventListener('click', closeDocPanel);
-docBackdrop.addEventListener('click', closeDocPanel);
+docBackdrop.addEventListener('click', ()=>{ closeDocPanel(); closeGradesPanel(); });
 docCourseSelect.addEventListener('change', ()=> loadDocFor(docCourseSelect.value));
+
+// ================= My Grades side panel =================
+const gradesPanel = document.getElementById('grades-panel');
+
+function openGradesPanel(){
+  closeDocPanel();
+  gradesPanel.classList.add('open');
+  docBackdrop.classList.add('open');
+  hideFloatingButtons();
+  loadMyGrades();
+}
+function closeGradesPanel(){
+  gradesPanel.classList.remove('open');
+  docBackdrop.classList.remove('open');
+  showFloatingButtons();
+}
+
+async function loadMyGrades(){
+  const el = document.getElementById('grades-list');
+  el.innerHTML = '<p class="empty-note">Loading…</p>';
+  try{
+    const { data: userData } = await sb.auth.getUser();
+    const user = userData && userData.user;
+    if(!user){ el.innerHTML = '<p class="empty-note">Sign in to see your grades.</p>'; return; }
+    const { data, error } = await sb
+      .from('activity_log')
+      .select('*')
+      .eq('user_id', user.id)
+      .eq('event_type', 'quiz_result')
+      .order('created_at', { ascending: false });
+    if(error) throw error;
+    if(!data || data.length === 0){
+      el.innerHTML = '<p class="empty-note">No quizzes taken yet — your grades will show up here once you do.</p>';
+      return;
+    }
+    el.innerHTML = data.map(r=>{
+      const total = r.score_total || 0;
+      const correct = r.score_correct || 0;
+      const pct = total ? Math.round((correct/total)*100) : 0;
+      const when = new Date(r.created_at).toLocaleDateString(undefined, { year:'numeric', month:'short', day:'numeric' });
+      return `<div class="rank-row" style="align-items:flex-start;">
+        <div class="rank-label">
+          <div style="font-weight:600;color:var(--ink);">${r.course || ''}</div>
+          <div style="opacity:0.65;font-size:12.5px;">${r.topic || ''} · ${when}</div>
+        </div>
+        <div class="rank-count">${correct} / ${total} (${pct}%)</div>
+      </div>`;
+    }).join('');
+  }catch(e){
+    el.innerHTML = '<p class="empty-note">Couldn\'t load your grades right now.</p>';
+  }
+}
+
+document.getElementById('my-grades-btn').addEventListener('click', openGradesPanel);
+document.getElementById('grades-close-btn').addEventListener('click', closeGradesPanel);
 </script>
 </body>
 </html>
