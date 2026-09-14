@@ -86,7 +86,7 @@
     color:var(--ink);
     margin:0 0 6px;
   }
-  select, input[type=text]{
+  select, input[type=text], input[type=password], input[type=email]{
     width:100%;
     font-family:'Inter',sans-serif;
     font-size:15px;
@@ -99,6 +99,63 @@
     appearance:none;
   }
   select:focus, input:focus{ outline:none; border-color:var(--purple); }
+  .auth-gate{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    padding:24px;
+  }
+  .auth-title{
+    max-width:380px;
+    width:100%;
+    text-align:center;
+    margin:0 0 24px;
+  }
+  .auth-title img{
+    width:38px;
+    height:auto;
+    display:block;
+    margin:0 auto 12px;
+  }
+  .auth-title .line1{
+    font-family:'Bitter',serif;
+    font-weight:700;
+    font-size:23px;
+    color:var(--ink);
+    line-height:1.3;
+  }
+  .auth-title .line2{
+    font-family:'Bitter',serif;
+    font-weight:400;
+    font-size:17px;
+    color:var(--ink);
+    opacity:0.62;
+    line-height:1.3;
+  }
+  .auth-box{
+    max-width:380px;
+    width:100%;
+    background:var(--white);
+    border-top:4px solid var(--purple);
+    border-radius:16px;
+    box-shadow:0 8px 32px rgba(45,21,89,0.10), 0 1px 2px rgba(45,21,89,0.06);
+    padding:32px;
+  }
+  .signout-link{
+    margin-left:auto;
+    font-size:13px;
+    font-weight:500;
+    color:var(--ink);
+    opacity:0.55;
+    background:none;
+    border:none;
+    cursor:pointer;
+    font-family:'Inter',sans-serif;
+    text-decoration:underline;
+  }
+  .signout-link:hover{ opacity:0.85; }
   .btn{
     font-family:'Inter',sans-serif;
     font-weight:600;
@@ -125,6 +182,75 @@
     color:var(--orange);
     margin:-8px 0 14px;
     display:none;
+  }
+  .course-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(140px, 1fr));
+    gap:12px;
+    margin-bottom:20px;
+  }
+  .course-tile{
+    background:var(--white);
+    border:1.5px solid var(--purp-1);
+    border-radius:10px;
+    overflow:hidden;
+    cursor:pointer;
+    text-align:left;
+    padding:0;
+    font-family:'Inter',sans-serif;
+  }
+  .course-tile img{
+    width:100%;
+    display:block;
+    aspect-ratio:1275/1298;
+    object-fit:cover;
+  }
+  .course-tile .cover-placeholder{
+    width:100%;
+    aspect-ratio:1275/1298;
+    background:var(--purp-3);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    font-size:11px;
+    color:var(--ink);
+    opacity:0.55;
+    padding:8px;
+  }
+  .course-tile .course-tile-name{
+    font-family:'Bitter',serif;
+    font-weight:600;
+    font-size:13px;
+    color:var(--ink);
+    padding:8px 10px;
+    line-height:1.3;
+  }
+  .course-tile.selected{
+    border-color:var(--orange);
+    box-shadow:0 0 0 2px var(--orange);
+  }
+  .topic-list{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    margin-bottom:20px;
+  }
+  .topic-item{
+    background:var(--white);
+    border:1.5px solid var(--purp-1);
+    border-radius:10px;
+    padding:12px 14px;
+    font-size:14px;
+    color:var(--ink);
+    cursor:pointer;
+    text-align:left;
+    font-family:'Inter',sans-serif;
+    width:100%;
+  }
+  .topic-item.selected{
+    border-color:var(--orange);
+    background:var(--peach-2);
   }
   .chip{
     display:inline-flex;
@@ -181,7 +307,7 @@
   }
   .needs-grid{
     display:flex;
-    flex-wrap:wrap;
+    flex-direction:column;
     gap:8px;
     margin-bottom:24px;
   }
@@ -195,6 +321,7 @@
     cursor:pointer;
     text-align:left;
     font-family:'Inter',sans-serif;
+    width:100%;
   }
   .need-pill.selected{
     background:var(--purple);
@@ -290,9 +417,11 @@
   .doc-toggle{
     position:fixed; top:18px; right:18px; z-index:41;
     background:var(--ink); color:#fff; border:none; border-radius:20px;
-    padding:10px 16px; font-family:'Inter',sans-serif; font-size:12.5px;
+    padding:10px 18px; font-family:'Inter',sans-serif; font-size:13px;
     font-weight:600; cursor:pointer; box-shadow:0 4px 14px rgba(45,21,89,0.25);
+    display:inline-flex; align-items:center; gap:7px;
   }
+  .doc-toggle svg{ width:20px; height:20px; flex-shrink:0; }
   .doc-backdrop{
     position:fixed; inset:0; background:rgba(45,21,89,0.28); z-index:39;
     opacity:0; visibility:hidden; transition:opacity .2s ease;
@@ -338,13 +467,34 @@
 </head>
 <body>
 
-<button class="doc-toggle" id="doc-toggle-btn">Full guide ↦</button>
+<div class="auth-gate" id="auth-gate">
+  <div class="auth-title">
+    <img src="data:image/png;base64,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" alt="">
+    <div class="line1">Achieve Test Prep</div>
+    <div class="line2">Study Guide</div>
+  </div>
+  <div class="auth-box">
+    <h1 class="headline" style="margin-top:0;">Sign in to Achieve</h1>
+    <p class="sub">Use the email and password your instructor gave you.</p>
+    <label class="field-label" for="login-email">Email</label>
+    <input type="email" id="login-email" autocomplete="username">
+    <label class="field-label" for="login-password">Password</label>
+    <input type="password" id="login-password" autocomplete="current-password">
+    <div class="error-text" id="login-error">Incorrect email or password.</div>
+    <button class="btn btn-primary" id="login-btn" style="width:100%;justify-content:center;">Sign in</button>
+  </div>
+</div>
+
+<button class="doc-toggle" id="doc-toggle-btn">
+  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M10 4.8C8.3 3.5 5.5 3.1 3 3.4v10.9c2.5-.3 5.3.1 7 1.4 1.7-1.3 4.5-1.7 7-1.4V3.4c-2.5-.3-5.3.1-7 1.4Z"/><path d="M10 4.8v10.9"/></svg>
+  Full Guide
+</button>
 <div class="doc-backdrop" id="doc-backdrop"></div>
 <aside class="doc-panel" id="doc-panel">
   <div class="doc-panel-head">
     <div class="doc-panel-head-inner">
       <div class="doc-panel-head-row">
-        <h2>Full study guide</h2>
+        <h2>Full Study Guide</h2>
         <button class="doc-close" id="doc-close-btn">&times;</button>
       </div>
       <select id="doc-course-select"></select>
@@ -362,35 +512,40 @@
 
   <header class="brand">
     <img src="data:image/png;base64,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" alt="Achieve">
-    <span class="word">Achieve</span>
-    <span class="tag">study guide</span>
+    <span class="word">Achieve Test Prep</span>
+    <span class="tag">Study Guide</span>
+    <button class="signout-link" id="signout-btn">Sign out</button>
   </header>
 
   <!-- ===================== HOME VIEW ===================== -->
   <section class="view active" id="view-home">
     <h1 class="headline">What are you studying today?</h1>
-    <p class="sub">Pick a course, then type or choose a topic — Achieve will build a study guide around what you actually need help with.</p>
+    <p class="sub">Pick a course to get started — Achieve will build a study guide around what you actually need help with.</p>
     <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px;">
       <span class="stat-badge">25 courses</span>
       <span class="stat-badge">Guide + quiz for every topic</span>
     </div>
 
-    <label class="field-label" for="course-select">Course</label>
-    <select id="course-select">
-      <option value="">Select a course</option>
-    </select>
+    <div class="course-grid" id="course-grid"></div>
+    <div class="error-text" id="home-error">Pick a course to continue.</div>
 
-    <label class="field-label" for="topic-input">Topic</label>
-    <input type="text" id="topic-input" list="topic-datalist" placeholder="Type a topic, or pick a suggestion">
-    <datalist id="topic-datalist"></datalist>
-    <div class="error-text" id="home-error">Pick a course and enter a topic to continue.</div>
+    <button class="btn btn-primary" id="course-next-btn" style="width:100%;justify-content:center;">Next</button>
+  </section>
 
-    <button class="btn btn-primary" id="start-btn">Start studying</button>
+  <!-- ===================== TOPIC VIEW ===================== -->
+  <section class="view" id="view-topic">
+    <button class="back-link" data-back="view-home">‹ Back</button>
+    <div class="context-pill" id="topic-context"></div>
+    <h1 class="headline">Which topic?</h1>
+    <p class="sub">Pick the topic you want help with.</p>
+    <div class="topic-list" id="topic-list"></div>
+    <div class="error-text" id="topic-error">Pick a topic to continue.</div>
+    <button class="btn btn-primary" id="topic-start-btn" style="width:100%;justify-content:center;">Start studying</button>
   </section>
 
   <!-- ===================== NEEDS VIEW ===================== -->
   <section class="view" id="view-needs">
-    <button class="back-link" data-back="view-home">‹ Back</button>
+    <button class="back-link" data-back="view-topic">‹ Back</button>
     <div class="context-pill" id="needs-context"></div>
     <h1 class="headline">What would you like to learn today?</h1>
     <p class="sub">Choose one or more — Achieve will shape the study guide around it. Choose none for a full review.</p>
@@ -437,7 +592,100 @@
   <footer class="note">Achieve study guide. Study guides and quizzes are written in advance for every topic, grounded in your course material.</footer>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
+
+// ================= Login & activity tracking (Supabase) =================
+const SUPABASE_URL = 'https://wtfmlcdiwlsywdhwngig.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_MhNuEzfKTC14w0PXNhOAyA_pMkXrZLp';
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+// Set this to false only for quick local UI testing — real customers should
+// always go through sign-in, so this stays true for the live site.
+const AUTH_ENABLED = true;
+
+function showApp(){
+  document.getElementById('auth-gate').style.display = 'none';
+  document.querySelector('.app').style.display = 'block';
+  document.getElementById('doc-toggle-btn').style.display = '';
+}
+function showAuthGate(){
+  document.getElementById('auth-gate').style.display = 'flex';
+  document.querySelector('.app').style.display = 'none';
+  document.getElementById('doc-toggle-btn').style.display = 'none';
+  document.getElementById('login-email').value = '';
+  document.getElementById('login-password').value = '';
+  document.getElementById('login-error').style.display = 'none';
+}
+
+// Fire-and-forget activity logging — never blocks the UI, and quietly does
+// nothing if it fails (e.g. offline) rather than interrupting studying.
+async function logActivity(event_type, course, topic){
+  try{
+    const { data } = await sb.auth.getUser();
+    const user = data && data.user;
+    if(!user) return;
+    await sb.from('activity_log').insert({
+      user_id: user.id,
+      event_type: event_type,
+      course: course || null,
+      topic: topic || null
+    });
+  }catch(e){ console.warn('Activity logging failed:', e); }
+}
+
+document.getElementById('login-btn').addEventListener('click', async ()=>{
+  const email = document.getElementById('login-email').value.trim();
+  const password = document.getElementById('login-password').value;
+  const errEl = document.getElementById('login-error');
+  errEl.style.display = 'none';
+  if(!email || !password){
+    errEl.textContent = 'Enter both email and password.';
+    errEl.style.display = 'block';
+    return;
+  }
+  const loginBtn = document.getElementById('login-btn');
+  loginBtn.disabled = true; loginBtn.textContent = 'Signing in…';
+  const { error } = await sb.auth.signInWithPassword({ email, password });
+  loginBtn.disabled = false; loginBtn.textContent = 'Sign in';
+  if(error){
+    errEl.textContent = 'Incorrect email or password.';
+    errEl.style.display = 'block';
+    return;
+  }
+  await logActivity('login');
+  showApp();
+});
+document.getElementById('login-password').addEventListener('keydown', (e)=>{
+  if(e.key === 'Enter') document.getElementById('login-btn').click();
+});
+
+document.getElementById('signout-btn').addEventListener('click', async ()=>{
+  if(!AUTH_ENABLED) return;
+  await logActivity('logout');
+  await sb.auth.signOut();
+  showAuthGate();
+});
+
+// On page load, pick up an existing session if there is one (so people
+// don't have to sign in again every single visit), otherwise show the gate.
+// While AUTH_ENABLED is false (see top of this script), sign-in is skipped
+// entirely so you can preview the site directly — useful for quick local UI
+// checks only, never for the live site.
+(async ()=>{
+  if(!AUTH_ENABLED){
+    document.getElementById('signout-btn').style.display = 'none';
+    showApp();
+    return;
+  }
+  const { data } = await sb.auth.getSession();
+  if(data && data.session){
+    showApp();
+  } else {
+    showAuthGate();
+  }
+})();
+
 // ---------- Full course catalog ----------
 const CATALOG = {
   "American Government": ["United States Government Background","Political Parties and Congress","Congress: Rules and Operations Overview","The Presidency, Federal Bureaucracy, and the Media","Federal Courts, Civil Rights and Public Opinion"],
@@ -517,28 +765,83 @@ const ICONS = {
 };
 
 let state = { course:"", topic:"", needs:[], quizIndex:0, quizScore:0, quizAnswered:false, quizMissed:[], quizQuestions:[] };
+let selectedCourse = "";
+let selectedTopic = "";
 
-// ---------- Populate selects ----------
-const courseSelect = document.getElementById('course-select');
-const topicInput = document.getElementById('topic-input');
-const topicDatalist = document.getElementById('topic-datalist');
-Object.keys(CATALOG).forEach(c=>{
-  const opt = document.createElement('option');
-  opt.value = c; opt.textContent = c;
-  courseSelect.appendChild(opt);
-});
-function populateTopics(course){
-  topicDatalist.innerHTML = '';
-  (CATALOG[course]||[]).forEach(t=>{
-    const opt = document.createElement('option');
-    opt.value = t;
-    topicDatalist.appendChild(opt);
+// Cover images for the course picker — courses not listed here fall back to a
+// plain placeholder tile so the grid always looks consistent while more covers
+// are added over time.
+const COURSE_COVERS = {
+  "American Government": "covers/american-government.jpg",
+  "Art of the Western World": "covers/art-of-the-western-world.jpg",
+  "Chemistry": "covers/chemistry.jpg",
+  "College Algebra": "covers/college-algebra.jpg",
+  "College Composition": "covers/college-composition.jpg",
+  "College Composition (with modular)": "covers/college-composition-with-modular.jpg",
+  "College Mathematics": "covers/college-mathematics.jpg",
+  "Dental Hygiene Entrance Exam Prep": "covers/dental-hygiene-entrance-exam-prep.jpg",
+  "Ethics in America": "covers/ethics-in-america.jpg",
+  "Fundamentals of Math": "covers/fundamentals-of-math.jpg",
+  "History of the United States 1": "covers/history-of-the-united-states-1.jpg",
+  "Human Growth and Development": "covers/human-growth-and-development.jpg",
+  "Humanities": "covers/humanities.jpg",
+  "Introduction to Psychology": "covers/introduction-to-psychology.jpg",
+  "Macroeconomics": "covers/macroeconomics.jpg",
+  "Microeconomics": "covers/microeconomics.jpg",
+  "Next Gen NCLEX PN Prep": "covers/next-gen-nclex-pn-prep.jpg",
+  "Next Gen NCLEX RN Prep": "covers/next-gen-nclex-rn-prep.jpg",
+  "Nursing Entrance Exam Prep": "covers/nursing-entrance-exam-prep.jpg",
+  "Sociology": "covers/sociology.jpg",
+  "Spanish 1": "covers/spanish-1.jpg",
+  "Spanish 2": "covers/spanish-2.jpg",
+  "Speech": "covers/speech.jpg",
+  "Statistics": "covers/statistics.jpg",
+  "World Religions": "covers/world-religions.jpg"
+};
+
+// ---------- Course grid ----------
+const courseGrid = document.getElementById('course-grid');
+function renderCourseGrid(){
+  courseGrid.innerHTML = '';
+  Object.keys(CATALOG).forEach(course=>{
+    const tile = document.createElement('button');
+    tile.type = 'button';
+    tile.className = 'course-tile';
+    const cover = COURSE_COVERS[course];
+    tile.innerHTML = cover
+      ? `<img src="${cover}" alt="">`
+      : `<div class="cover-placeholder">${course}</div>`;
+    tile.innerHTML += `<div class="course-tile-name">${course}</div>`;
+    tile.addEventListener('click', ()=>{
+      selectedCourse = course;
+      courseGrid.querySelectorAll('.course-tile').forEach(t=>t.classList.remove('selected'));
+      tile.classList.add('selected');
+      document.getElementById('home-error').style.display = 'none';
+    });
+    courseGrid.appendChild(tile);
   });
 }
-courseSelect.addEventListener('change', ()=>{
-  populateTopics(courseSelect.value);
-  topicInput.value = '';
-});
+renderCourseGrid();
+
+// ---------- Topic list ----------
+const topicList = document.getElementById('topic-list');
+function renderTopicList(course){
+  selectedTopic = "";
+  topicList.innerHTML = '';
+  (CATALOG[course] || []).forEach(topic=>{
+    const item = document.createElement('button');
+    item.type = 'button';
+    item.className = 'topic-item';
+    item.textContent = topic;
+    item.addEventListener('click', ()=>{
+      selectedTopic = topic;
+      topicList.querySelectorAll('.topic-item').forEach(t=>t.classList.remove('selected'));
+      item.classList.add('selected');
+      document.getElementById('topic-error').style.display = 'none';
+    });
+    topicList.appendChild(item);
+  });
+}
 
 // ---------- Navigation ----------
 function showView(id){
@@ -549,20 +852,31 @@ document.querySelectorAll('[data-back]').forEach(btn=>{
   btn.addEventListener('click', ()=> showView(btn.dataset.back));
 });
 
-// ---------- Home -> Needs ----------
-
-document.getElementById('start-btn').addEventListener('click', ()=>{
-  const course = courseSelect.value;
-  const topic = topicInput.value.trim();
+// ---------- Home (course) -> Topic ----------
+document.getElementById('course-next-btn').addEventListener('click', ()=>{
   const err = document.getElementById('home-error');
-  if(!course || !topic){
-    err.textContent = "Pick a course and enter a topic to continue.";
+  if(!selectedCourse){
+    err.textContent = "Pick a course to continue.";
     err.style.display = 'block';
     return;
   }
   err.style.display = 'none';
-  state.course = course; state.topic = topic; state.needs = [];
-  document.getElementById('needs-context').textContent = `Studying: ${course} — ${topic}`;
+  document.getElementById('topic-context').textContent = selectedCourse;
+  renderTopicList(selectedCourse);
+  showView('view-topic');
+});
+
+// ---------- Topic -> Needs ----------
+document.getElementById('topic-start-btn').addEventListener('click', ()=>{
+  const err = document.getElementById('topic-error');
+  if(!selectedTopic){
+    err.textContent = "Pick a topic to continue.";
+    err.style.display = 'block';
+    return;
+  }
+  err.style.display = 'none';
+  state.course = selectedCourse; state.topic = selectedTopic; state.needs = [];
+  document.getElementById('needs-context').textContent = `Studying: ${state.course} — ${state.topic}`;
   const grid = document.getElementById('needs-grid');
   grid.innerHTML = '';
   NEEDS.forEach(n=>{
@@ -616,6 +930,7 @@ async function buildGuide(){
     const courseData = await loadPregenerated(state.course);
     payload = courseData[state.topic];
     if(!payload) throw new Error(`No pre-written guide found for "${state.topic}".`);
+    logActivity('view_topic', state.course, state.topic);
   } catch(err){
     stopCycling();
     document.getElementById('guide-loading').style.display = 'none';
@@ -916,7 +1231,7 @@ function renderTopicPicker(course, data){
 }
 
 document.getElementById('doc-toggle-btn').addEventListener('click', ()=>{
-  const course = state.course || courseSelect.value || docCourseSelect.value || Object.keys(CATALOG)[0];
+  const course = state.course || selectedCourse || docCourseSelect.value || Object.keys(CATALOG)[0];
   openDocPanel(course);
 });
 document.getElementById('doc-close-btn').addEventListener('click', closeDocPanel);
