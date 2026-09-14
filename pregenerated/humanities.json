@@ -1,0 +1,1940 @@
+{
+  "Introduction to Humanities": {
+    "guide": {
+      "explanation": "The humanities encompass the study of human culture and expression across visual art, literature, philosophy, music, and performance, examining how each discipline reflects the values and experiences of the era that produced it. Studying the humanities together, rather than any single discipline in isolation, reveals how art, ideas, and daily life have always been deeply interconnected throughout history.",
+      "keyTerms": [
+        {
+          "term": "Humanities",
+          "def": "The academic study of human culture, including visual art, literature, philosophy, music, and performance."
+        },
+        {
+          "term": "Interdisciplinary approach",
+          "def": "Studying multiple related fields together (like art and literature) to understand a period more fully."
+        },
+        {
+          "term": "Cultural context",
+          "def": "The social, religious, political, and historical circumstances surrounding a work's creation."
+        },
+        {
+          "term": "Primary source",
+          "def": "An original artifact, text, or artwork from the period being studied."
+        },
+        {
+          "term": "Zeitgeist",
+          "def": "The defining spirit, mood, or set of ideas characteristic of a particular period."
+        }
+      ],
+      "examples": [
+        "Studying a Renaissance painting alongside contemporary philosophy and literature reveals how humanist ideas shaped multiple art forms simultaneously.",
+        "A period's zeitgeist, like the Enlightenment's emphasis on reason, can be traced across philosophy, visual art, and literature of the same era."
+      ],
+      "steps": [
+        "Identify the historical period and its broader cultural context.",
+        "Examine how visual art, literature, and philosophy of that period share common themes or values.",
+        "Consider how performance arts (theater, music) of the period reflect similar cultural priorities.",
+        "Synthesize these observations to understand the era's overall zeitgeist."
+      ],
+      "remember": [
+        "The humanities study human culture across visual art, literature, philosophy, music, and performance together.",
+        "An interdisciplinary approach reveals connections between disciplines that isolated study might miss.",
+        "Cultural context includes the social, religious, political, and historical circumstances of a work's creation.",
+        "Zeitgeist refers to the defining spirit or set of ideas characteristic of a particular period."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What do the \"humanities\" study?",
+          "options": [
+            "Only visual art",
+            "Human culture across visual art, literature, philosophy, music, and performance",
+            "Only literature",
+            "Only ancient history"
+          ],
+          "correct": 1,
+          "explanation": "The humanities study human culture across multiple disciplines."
+        },
+        {
+          "q": "What is an \"interdisciplinary approach\"?",
+          "options": [
+            "Studying only one field in isolation",
+            "Studying multiple related fields together to understand a period more fully",
+            "Ignoring historical context",
+            "Only studying primary sources"
+          ],
+          "correct": 1,
+          "explanation": "An interdisciplinary approach studies multiple fields together."
+        },
+        {
+          "q": "What is a \"primary source\"?",
+          "options": [
+            "A modern textbook",
+            "An original artifact, text, or artwork from the period being studied",
+            "A secondary analysis only",
+            "A type of cultural context"
+          ],
+          "correct": 1,
+          "explanation": "A primary source is an original artifact from the period studied."
+        },
+        {
+          "q": "What does \"zeitgeist\" refer to?",
+          "options": [
+            "A type of artwork",
+            "The defining spirit or set of ideas characteristic of a particular period",
+            "A primary source",
+            "A cultural context document"
+          ],
+          "correct": 1,
+          "explanation": "Zeitgeist refers to the defining spirit of a period."
+        },
+        {
+          "q": "What does \"cultural context\" include?",
+          "options": [
+            "Only the artist's name",
+            "The social, religious, political, and historical circumstances surrounding a work's creation",
+            "Only the medium used",
+            "Only the artwork's price"
+          ],
+          "correct": 1,
+          "explanation": "Cultural context includes the broader circumstances surrounding a work's creation."
+        }
+      ]
+    }
+  },
+  "Overview of the Arts": {
+    "guide": {
+      "explanation": "Art is analyzed through its formal elements — line, shape, color, texture, space, and form — organized through design principles like balance, contrast, rhythm, and unity. Beyond visual art, humanities scholars also apply similar formal analysis to literature (examining structure, imagery, and language) and performance arts (examining rhythm, staging, and dramatic structure), recognizing common creative principles across disciplines.",
+      "keyTerms": [
+        {
+          "term": "Elements of art",
+          "def": "The basic visual components of a work: line, shape, color, texture, space, and form."
+        },
+        {
+          "term": "Principles of design",
+          "def": "How elements of art are organized within a work, including balance, contrast, rhythm, and unity."
+        },
+        {
+          "term": "Genre",
+          "def": "A category of artistic work characterized by a particular style, form, or subject matter, applicable across visual art, literature, and performance."
+        },
+        {
+          "term": "Aesthetic",
+          "def": "A set of principles concerning the nature and appreciation of beauty, applied across all art forms."
+        },
+        {
+          "term": "Medium",
+          "def": "The physical material or technique used to create a work, such as oil paint, stone, or the written word."
+        }
+      ],
+      "examples": [
+        "Rhythm, a design principle in visual art, also applies to poetry (metered lines) and music (beat patterns), showing shared creative principles.",
+        "A genre like \"tragedy\" applies across literature (Greek tragic plays) and can be discussed alongside visual depictions of tragic subjects in painting."
+      ],
+      "steps": [
+        "Identify the basic elements or components present in a work, whether visual, literary, or performed.",
+        "Analyze how these elements are organized according to design principles like balance and rhythm.",
+        "Consider the medium used and how its properties shape the finished work.",
+        "Recognize shared aesthetic principles that cross visual art, literature, and performance."
+      ],
+      "remember": [
+        "The elements of art include line, shape, color, texture, space, and form.",
+        "Principles of design (balance, contrast, rhythm, unity) apply across visual art and other creative disciplines.",
+        "A genre is a category defined by style, form, or subject matter, applicable across art forms.",
+        "Aesthetic principles concerning beauty apply across visual art, literature, and performance."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "Which of these is one of the \"elements of art\"?",
+          "options": [
+            "Balance",
+            "Color",
+            "Rhythm",
+            "Genre"
+          ],
+          "correct": 1,
+          "explanation": "Color is one of the basic elements of art."
+        },
+        {
+          "q": "What is a \"principle of design\"?",
+          "options": [
+            "A type of medium",
+            "How elements of art are organized, like balance and rhythm",
+            "A genre category",
+            "A primary source"
+          ],
+          "correct": 1,
+          "explanation": "A principle of design describes how elements are organized."
+        },
+        {
+          "q": "What is a \"genre\"?",
+          "options": [
+            "A specific artist",
+            "A category of work characterized by a particular style, form, or subject matter",
+            "A type of medium only",
+            "A primary source"
+          ],
+          "correct": 1,
+          "explanation": "A genre is a category defined by style, form, or subject matter."
+        },
+        {
+          "q": "How does \"rhythm\" apply across different art forms?",
+          "options": [
+            "It only applies to music",
+            "It applies to visual art, poetry, and music alike",
+            "It only applies to visual art",
+            "It has no cross-disciplinary application"
+          ],
+          "correct": 1,
+          "explanation": "Rhythm is a shared principle across visual art, poetry, and music."
+        },
+        {
+          "q": "What is a \"medium\" in the arts?",
+          "options": [
+            "A type of genre",
+            "The physical material or technique used to create a work",
+            "A design principle",
+            "A cultural context"
+          ],
+          "correct": 1,
+          "explanation": "A medium is the physical material or technique used to create a work."
+        }
+      ]
+    }
+  },
+  "Prehistoric Era (290,000–5,000 BCE)": {
+    "guide": {
+      "explanation": "Prehistoric humanities include cave paintings depicting animals (as at Lascaux, France), small carved fertility figurines like the Venus of Willendorf, and megalithic structures like Stonehenge, likely built for ritual or astronomical purposes. Though predating written literature, prehistoric peoples likely developed oral storytelling and ritual performance traditions, foundational forerunners to later literary and performance arts, even though no direct record survives.",
+      "keyTerms": [
+        {
+          "term": "Cave painting",
+          "def": "Early prehistoric artwork painted on cave walls, often depicting animals, found at sites like Lascaux, France."
+        },
+        {
+          "term": "Venus of Willendorf",
+          "def": "A small prehistoric carved figurine, believed to relate to fertility, dating back tens of thousands of years."
+        },
+        {
+          "term": "Megalith",
+          "def": "A large stone structure, like Stonehenge, likely built for ritual, ceremonial, or astronomical purposes."
+        },
+        {
+          "term": "Oral tradition",
+          "def": "The passing down of stories, myths, and knowledge through spoken word, predating written literature."
+        },
+        {
+          "term": "Ritual performance",
+          "def": "Repeated ceremonial actions, likely including early forms of dance and music, serving spiritual or communal purposes."
+        }
+      ],
+      "examples": [
+        "The Lascaux cave paintings depict animals like bison and horses, likely connected to hunting rituals or spiritual beliefs.",
+        "Stonehenge's alignment with solstice events suggests its builders combined astronomical observation with ritual performance."
+      ],
+      "steps": [
+        "Paleolithic peoples create cave paintings, likely connected to hunting rituals or spiritual beliefs.",
+        "Small carved figurines, like the Venus of Willendorf, emerge, likely related to fertility.",
+        "As agriculture develops, larger megalithic structures like Stonehenge emerge for ritual purposes.",
+        "Though unrecorded, oral storytelling and ritual performance likely accompanied these visual art traditions."
+      ],
+      "remember": [
+        "Cave paintings, like those at Lascaux, likely connect to hunting rituals or spiritual beliefs.",
+        "The Venus of Willendorf is a small prehistoric figurine believed to relate to fertility.",
+        "Megaliths like Stonehenge likely combined ritual purpose with astronomical observation.",
+        "Oral tradition and ritual performance likely predated written literature and formal theater."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "Where are famous prehistoric cave paintings located?",
+          "options": [
+            "Egypt",
+            "Lascaux, France",
+            "Athens, Greece",
+            "Rome, Italy"
+          ],
+          "correct": 1,
+          "explanation": "The Lascaux cave paintings are located in France."
+        },
+        {
+          "q": "What is the \"Venus of Willendorf\"?",
+          "options": [
+            "A megalithic structure",
+            "A small prehistoric carved figurine believed to relate to fertility",
+            "A cave painting",
+            "An oral tradition"
+          ],
+          "correct": 1,
+          "explanation": "The Venus of Willendorf is a small prehistoric figurine related to fertility."
+        },
+        {
+          "q": "What is \"oral tradition\"?",
+          "options": [
+            "A type of cave painting",
+            "The passing down of stories and knowledge through spoken word",
+            "A megalithic structure",
+            "A written text"
+          ],
+          "correct": 1,
+          "explanation": "Oral tradition passes down stories through spoken word, predating writing."
+        },
+        {
+          "q": "What does Stonehenge's alignment with solstice events suggest?",
+          "options": [
+            "It had no purpose",
+            "Its builders combined astronomical observation with ritual",
+            "It was purely decorative",
+            "It was a written record"
+          ],
+          "correct": 1,
+          "explanation": "Stonehenge's alignment suggests combined astronomical and ritual purpose."
+        },
+        {
+          "q": "What likely accompanied prehistoric visual art traditions, though unrecorded?",
+          "options": [
+            "Formal written literature",
+            "Oral storytelling and ritual performance",
+            "Printed books",
+            "Photography"
+          ],
+          "correct": 1,
+          "explanation": "Oral storytelling and ritual performance likely accompanied visual art, though unrecorded."
+        }
+      ]
+    }
+  },
+  "The Ancient World (5000 BCE–500 CE)": {
+    "guide": {
+      "explanation": "Ancient Mesopotamian civilizations, including the Sumerians, developed monumental ziggurats and produced the earliest known writing system (cuneiform), used to record the Epic of Gilgamesh — among the oldest surviving works of literature. Ancient Egyptian culture combined strict artistic conventions (composite pose, hierarchical scale) in service of religious and funerary beliefs, alongside its own rich mythology and religious texts centered on the afterlife.",
+      "keyTerms": [
+        {
+          "term": "Ziggurat",
+          "def": "A massive stepped, pyramid-shaped temple structure built by ancient Mesopotamian civilizations."
+        },
+        {
+          "term": "Cuneiform",
+          "def": "The earliest known writing system, developed by the Sumerians around 3500 BCE, using wedge-shaped marks pressed into clay."
+        },
+        {
+          "term": "Epic of Gilgamesh",
+          "def": "An ancient Mesopotamian epic poem, among the oldest surviving works of literature, exploring themes of mortality and friendship."
+        },
+        {
+          "term": "Composite pose",
+          "def": "An Egyptian artistic convention showing the torso from the front, and the head and legs in profile."
+        },
+        {
+          "term": "Book of the Dead",
+          "def": "An ancient Egyptian funerary text containing spells intended to assist the deceased in the afterlife."
+        }
+      ],
+      "examples": [
+        "The Epic of Gilgamesh, recorded in cuneiform, explores the Mesopotamian king's search for immortality and his friendship with Enkidu.",
+        "The Egyptian Book of the Dead contains spells and instructions believed to help guide the deceased safely through the afterlife."
+      ],
+      "steps": [
+        "Mesopotamian civilizations develop cuneiform, the earliest known writing system.",
+        "This writing system records early literature, including the Epic of Gilgamesh.",
+        "Egyptian art develops strict conventions, including the composite pose and hierarchical scale.",
+        "Egyptian religious texts, like the Book of the Dead, reflect deep cultural beliefs about the afterlife."
+      ],
+      "remember": [
+        "Cuneiform, developed by the Sumerians, is the earliest known writing system.",
+        "The Epic of Gilgamesh is among the oldest surviving works of literature.",
+        "Egyptian art used the composite pose as a standard artistic convention.",
+        "The Book of the Dead is an Egyptian funerary text intended to assist the deceased in the afterlife."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What is \"cuneiform\"?",
+          "options": [
+            "A type of pyramid",
+            "The earliest known writing system, using wedge-shaped marks pressed into clay",
+            "An Egyptian funerary text",
+            "A Greek literary form"
+          ],
+          "correct": 1,
+          "explanation": "Cuneiform is the earliest known writing system."
+        },
+        {
+          "q": "What is the \"Epic of Gilgamesh\"?",
+          "options": [
+            "An Egyptian funerary text",
+            "An ancient Mesopotamian epic poem, among the oldest surviving works of literature",
+            "A Greek drama",
+            "A Roman historical text"
+          ],
+          "correct": 1,
+          "explanation": "The Epic of Gilgamesh is among the oldest surviving works of literature."
+        },
+        {
+          "q": "What is the \"composite pose\" in Egyptian art?",
+          "options": [
+            "Showing the entire body in profile",
+            "Showing the torso from the front, and the head and legs in profile",
+            "A type of cuneiform text",
+            "A Mesopotamian architectural style"
+          ],
+          "correct": 1,
+          "explanation": "The composite pose combines frontal torso with profile head and legs."
+        },
+        {
+          "q": "What is the \"Book of the Dead\"?",
+          "options": [
+            "A Mesopotamian epic",
+            "An Egyptian funerary text with spells to assist the deceased in the afterlife",
+            "A Greek philosophical text",
+            "A cuneiform tablet"
+          ],
+          "correct": 1,
+          "explanation": "The Book of the Dead is an Egyptian funerary text about the afterlife."
+        },
+        {
+          "q": "Who is credited with inventing cuneiform?",
+          "options": [
+            "The Egyptians",
+            "The Sumerians",
+            "The Greeks",
+            "The Romans"
+          ],
+          "correct": 1,
+          "explanation": "The Sumerians are credited with inventing cuneiform."
+        }
+      ]
+    }
+  },
+  "The Classical Age": {
+    "guide": {
+      "explanation": "Ancient Greek art developed through four distinct periods — Geometric (900-700 BCE, painted pottery with geometric patterns), Archaic (600-480 BCE, early freestanding sculptures like kouros and kore figures), Classical (480-323 BCE, idealized proportion and naturalistic movement), and Hellenistic (323-30 BCE, heightened emotion and drama) — while philosophy, theater, and literature developed alongside these visual art movements as equally central expressions of Greek and Roman culture.",
+      "keyTerms": [
+        {
+          "term": "Geometric period",
+          "def": "An early Greek art period (900-700 BCE) featuring painted pottery with geometric patterns and stylized figures."
+        },
+        {
+          "term": "Archaic period",
+          "def": "A Greek art period (600-480 BCE) featuring early freestanding sculptures, including nude male kouros and clothed female kore figures."
+        },
+        {
+          "term": "Classical period (Greek art)",
+          "def": "A Greek art period (480-323 BCE) emphasizing idealized proportion, naturalistic movement, and emotional restraint."
+        },
+        {
+          "term": "Hellenistic period",
+          "def": "A later Greek art period (323-30 BCE) featuring heightened emotion, dynamic movement, and dramatic subject matter."
+        },
+        {
+          "term": "Kouros and kore",
+          "def": "Archaic Greek sculptures depicting nude male youths (kouros) and clothed female figures (kore)."
+        }
+      ],
+      "examples": [
+        "Geometric-period pottery features abstract patterns and stylized human figures, quite different from the naturalism of later periods.",
+        "Hellenistic sculpture, like the Laocoön Group, depicts intense emotional drama and dynamic movement, contrasting with the calmer Classical period style."
+      ],
+      "steps": [
+        "The Geometric period (900-700 BCE) produces painted pottery with abstract geometric patterns.",
+        "The Archaic period (600-480 BCE) introduces early freestanding sculptures like kouros and kore figures.",
+        "The Classical period (480-323 BCE) achieves idealized proportion and naturalistic movement.",
+        "The Hellenistic period (323-30 BCE) introduces heightened emotion and dramatic, dynamic movement."
+      ],
+      "remember": [
+        "Greek art developed through four periods: Geometric, Archaic, Classical, and Hellenistic.",
+        "Kouros (male) and kore (female) are Archaic-period Greek sculptures.",
+        "The Classical period emphasized idealized proportion and naturalistic, restrained movement.",
+        "The Hellenistic period introduced heightened emotion and dynamic drama into sculpture."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What characterizes the \"Geometric\" period of Greek art?",
+          "options": [
+            "Naturalistic sculpture",
+            "Painted pottery with geometric patterns and stylized figures",
+            "Emotional drama",
+            "Marble temples"
+          ],
+          "correct": 1,
+          "explanation": "The Geometric period featured pottery with geometric patterns."
+        },
+        {
+          "q": "What are \"kouros\" and \"kore\" figures?",
+          "options": [
+            "Types of pottery",
+            "Archaic Greek sculptures of nude male youths and clothed female figures",
+            "Hellenistic paintings",
+            "Roman busts"
+          ],
+          "correct": 1,
+          "explanation": "Kouros and kore are Archaic-period Greek sculptures."
+        },
+        {
+          "q": "What did the Classical period of Greek art emphasize?",
+          "options": [
+            "Abstract geometric patterns",
+            "Idealized proportion and naturalistic, restrained movement",
+            "Heightened emotional drama",
+            "Only pottery"
+          ],
+          "correct": 1,
+          "explanation": "The Classical period emphasized idealized proportion and restraint."
+        },
+        {
+          "q": "What characterizes the \"Hellenistic\" period of Greek art?",
+          "options": [
+            "Abstract patterns only",
+            "Heightened emotion and dynamic, dramatic movement",
+            "Restrained, idealized calm",
+            "Only architecture"
+          ],
+          "correct": 1,
+          "explanation": "The Hellenistic period featured heightened emotion and drama."
+        },
+        {
+          "q": "In what order did the four periods of Greek art occur?",
+          "options": [
+            "Hellenistic, Classical, Archaic, Geometric",
+            "Geometric, Archaic, Classical, Hellenistic",
+            "Archaic, Geometric, Hellenistic, Classical",
+            "Classical, Hellenistic, Geometric, Archaic"
+          ],
+          "correct": 1,
+          "explanation": "The correct chronological order is Geometric, Archaic, Classical, Hellenistic."
+        }
+      ]
+    }
+  },
+  "An Empire Divided – Rome and Byzantine (272–1453 CE)": {
+    "guide": {
+      "explanation": "As the Roman Empire declined, it eventually split into the Western Roman Empire (which fell in 476 CE) and the Eastern Roman Empire, which continued for another thousand years as the Byzantine Empire, centered in Constantinople. Byzantine culture developed a distinct artistic and religious identity, blending Roman traditions with Greek Orthodox Christianity, expressed through elaborate mosaics, venerated icons, and monumental architecture like the Hagia Sophia.",
+      "keyTerms": [
+        {
+          "term": "Western Roman Empire",
+          "def": "The western portion of the divided Roman Empire, which fell in 476 CE."
+        },
+        {
+          "term": "Byzantine Empire",
+          "def": "The Eastern Roman Empire, centered in Constantinople, which continued for roughly a thousand years after Rome's fall."
+        },
+        {
+          "term": "Constantinople",
+          "def": "The capital of the Byzantine Empire, a major center of culture, religion, and trade."
+        },
+        {
+          "term": "Icon",
+          "def": "A religious image, especially in Byzantine and Orthodox tradition, believed to provide a spiritual connection to the sacred figure depicted."
+        },
+        {
+          "term": "Hagia Sophia",
+          "def": "A monumental Byzantine church in Constantinople, famous for its massive dome and interior mosaics."
+        }
+      ],
+      "examples": [
+        "The Western Roman Empire fell in 476 CE, while the Byzantine Empire in the East continued until 1453.",
+        "The Hagia Sophia's massive dome and gold-ground mosaics exemplify the grandeur of Byzantine religious architecture and art."
+      ],
+      "steps": [
+        "The Roman Empire splits into Western and Eastern halves as it declines.",
+        "The Western Roman Empire falls in 476 CE, while the Eastern half continues as the Byzantine Empire.",
+        "Byzantine culture, centered in Constantinople, blends Roman tradition with Greek Orthodox Christianity.",
+        "This blend produces a distinct artistic identity, expressed through mosaics, icons, and monumental architecture."
+      ],
+      "remember": [
+        "The Western Roman Empire fell in 476 CE; the Byzantine (Eastern) Empire continued until 1453.",
+        "The Byzantine Empire was centered in Constantinople.",
+        "Icons are religious images believed to provide spiritual connection to the sacred figure depicted.",
+        "The Hagia Sophia is a famous Byzantine church known for its dome and mosaics."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "When did the Western Roman Empire fall?",
+          "options": [
+            "1453 CE",
+            "476 CE",
+            "272 CE",
+            "1000 CE"
+          ],
+          "correct": 1,
+          "explanation": "The Western Roman Empire fell in 476 CE."
+        },
+        {
+          "q": "What was the Byzantine Empire?",
+          "options": [
+            "The Western Roman Empire",
+            "The Eastern Roman Empire, which continued for roughly a thousand years after Rome's fall",
+            "A Greek city-state",
+            "A Mesopotamian civilization"
+          ],
+          "correct": 1,
+          "explanation": "The Byzantine Empire was the Eastern Roman Empire, continuing after the West fell."
+        },
+        {
+          "q": "What was the capital of the Byzantine Empire?",
+          "options": [
+            "Rome",
+            "Constantinople",
+            "Athens",
+            "Alexandria"
+          ],
+          "correct": 1,
+          "explanation": "Constantinople was the capital of the Byzantine Empire."
+        },
+        {
+          "q": "What is an \"icon\" in Byzantine tradition?",
+          "options": [
+            "A type of coin",
+            "A religious image believed to provide spiritual connection to the sacred figure depicted",
+            "A type of architecture",
+            "A Roman law"
+          ],
+          "correct": 1,
+          "explanation": "An icon is a religious image providing spiritual connection."
+        },
+        {
+          "q": "What is the Hagia Sophia famous for?",
+          "options": [
+            "Its small size",
+            "Its massive dome and interior mosaics",
+            "Its Egyptian style",
+            "Its Gothic architecture"
+          ],
+          "correct": 1,
+          "explanation": "The Hagia Sophia is famous for its massive dome and mosaics."
+        }
+      ]
+    }
+  },
+  "The Middle Ages (500–1500 CE)": {
+    "guide": {
+      "explanation": "Medieval European culture developed through two major architectural styles — Romanesque (heavy, fortress-like churches) and later Gothic (soaring cathedrals with pointed arches and flying buttresses) — while literature and learning were largely preserved and advanced within monasteries, where monks produced illuminated manuscripts. Chivalric literature and epic poems, like the legends of King Arthur, also flourished, reflecting the era's feudal social structure and religious devotion.",
+      "keyTerms": [
+        {
+          "term": "Romanesque architecture",
+          "def": "An early medieval architectural style featuring rounded arches, thick walls, and a heavy, fortress-like appearance."
+        },
+        {
+          "term": "Gothic architecture",
+          "def": "A later medieval architectural style featuring pointed arches, ribbed vaults, and flying buttresses, allowing taller structures."
+        },
+        {
+          "term": "Illuminated manuscript",
+          "def": "A richly decorated handwritten book, often religious, produced primarily by monks during the Middle Ages."
+        },
+        {
+          "term": "Chivalric literature",
+          "def": "Medieval literature centered on the ideals of knighthood, honor, and courtly love, such as Arthurian legends."
+        },
+        {
+          "term": "Scholasticism",
+          "def": "A medieval intellectual tradition combining Christian theology with classical philosophy, especially Aristotle."
+        }
+      ],
+      "examples": [
+        "Chartres Cathedral exemplifies Gothic architecture, with its pointed arches and famous stained-glass windows.",
+        "Arthurian legends, a form of chivalric literature, celebrate ideals of knighthood, honor, and courtly love."
+      ],
+      "steps": [
+        "Romanesque architecture develops first, featuring rounded arches and thick, heavy walls.",
+        "Gothic architecture later emerges, introducing pointed arches and flying buttresses.",
+        "Monks preserve and advance learning within monasteries, producing illuminated manuscripts.",
+        "Chivalric literature, like Arthurian legends, flourishes, reflecting feudal ideals of honor."
+      ],
+      "remember": [
+        "Romanesque architecture features rounded arches and thick, fortress-like walls.",
+        "Gothic architecture features pointed arches, ribbed vaults, and flying buttresses.",
+        "Illuminated manuscripts were richly decorated handwritten books, often produced by monks.",
+        "Chivalric literature, like Arthurian legends, reflects medieval ideals of knighthood and honor."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What characterizes \"Romanesque\" architecture?",
+          "options": [
+            "Pointed arches",
+            "Rounded arches, thick walls, and a fortress-like appearance",
+            "Flying buttresses",
+            "Stained glass only"
+          ],
+          "correct": 1,
+          "explanation": "Romanesque architecture features rounded arches and thick walls."
+        },
+        {
+          "q": "What characterizes \"Gothic\" architecture?",
+          "options": [
+            "Rounded arches only",
+            "Pointed arches, ribbed vaults, and flying buttresses",
+            "No windows at all",
+            "Flat roofs"
+          ],
+          "correct": 1,
+          "explanation": "Gothic architecture features pointed arches and flying buttresses."
+        },
+        {
+          "q": "What is an \"illuminated manuscript\"?",
+          "options": [
+            "A stained-glass window",
+            "A richly decorated handwritten book, often produced by monks",
+            "A type of cathedral",
+            "A chivalric legend"
+          ],
+          "correct": 1,
+          "explanation": "An illuminated manuscript is a richly decorated handwritten book."
+        },
+        {
+          "q": "What is \"chivalric literature\"?",
+          "options": [
+            "Scientific texts",
+            "Medieval literature centered on knighthood, honor, and courtly love",
+            "Religious sermons only",
+            "Roman historical records"
+          ],
+          "correct": 1,
+          "explanation": "Chivalric literature centers on knighthood, honor, and courtly love."
+        },
+        {
+          "q": "What is \"scholasticism\"?",
+          "options": [
+            "A type of architecture",
+            "A medieval intellectual tradition combining Christian theology with classical philosophy",
+            "A chivalric legend",
+            "A Gothic art style"
+          ],
+          "correct": 1,
+          "explanation": "Scholasticism combined Christian theology with classical philosophy."
+        }
+      ]
+    }
+  },
+  "The Renaissance and Reformation": {
+    "guide": {
+      "explanation": "The Renaissance revived classical ideals across the humanities simultaneously — visual artists like Leonardo da Vinci developed linear perspective, philosophers embraced humanism (emphasizing human potential and classical learning), and writers like Petrarch pioneered new literary forms. The Protestant Reformation, sparked by Martin Luther's challenge to Catholic Church authority, subsequently reshaped religious life, art commissions, and intellectual debate across Europe.",
+      "keyTerms": [
+        {
+          "term": "Humanism",
+          "def": "A Renaissance intellectual movement emphasizing human potential, classical learning, and individual achievement."
+        },
+        {
+          "term": "Linear perspective",
+          "def": "A technique developed during the Italian Renaissance using converging lines to create the illusion of three-dimensional depth."
+        },
+        {
+          "term": "Petrarch",
+          "def": "An influential Italian Renaissance poet and scholar, often called the \"father of humanism.\""
+        },
+        {
+          "term": "Martin Luther",
+          "def": "The German theologian whose challenge to Catholic Church authority sparked the Protestant Reformation."
+        },
+        {
+          "term": "Protestant Reformation",
+          "def": "A 16th-century religious movement that significantly impacted religious art, literature, and intellectual life across Europe."
+        }
+      ],
+      "examples": [
+        "Leonardo da Vinci's The Last Supper demonstrates masterful use of linear perspective to organize its composition.",
+        "Martin Luther's translation of the Bible into German made religious texts more accessible, reflecting the Reformation's broader impact on literature and literacy."
+      ],
+      "steps": [
+        "Italian Renaissance thinkers embrace humanism, reviving classical learning and emphasizing human potential.",
+        "Visual artists develop linear perspective, while writers like Petrarch pioneer new literary forms.",
+        "Martin Luther challenges Catholic Church authority, sparking the Protestant Reformation.",
+        "The Reformation reshapes religious art commissions, literature, and intellectual debate across Europe."
+      ],
+      "remember": [
+        "Humanism emphasized human potential, classical learning, and individual achievement.",
+        "Linear perspective, developed in the Italian Renaissance, creates the illusion of three-dimensional depth.",
+        "Petrarch, an influential poet, is often called the \"father of humanism.\"",
+        "Martin Luther's challenge to Church authority sparked the Protestant Reformation."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did Renaissance \"humanism\" emphasize?",
+          "options": [
+            "Only religious devotion",
+            "Human potential, classical learning, and individual achievement",
+            "Only Gothic architecture",
+            "Byzantine icon veneration"
+          ],
+          "correct": 1,
+          "explanation": "Humanism emphasized human potential and individual achievement."
+        },
+        {
+          "q": "What is \"linear perspective\"?",
+          "options": [
+            "A painting color scheme",
+            "A technique using converging lines to create the illusion of three-dimensional depth",
+            "A type of religious symbolism",
+            "A Gothic architectural feature"
+          ],
+          "correct": 1,
+          "explanation": "Linear perspective creates the illusion of depth using converging lines."
+        },
+        {
+          "q": "Who is often called the \"father of humanism\"?",
+          "options": [
+            "Martin Luther",
+            "Petrarch",
+            "Leonardo da Vinci",
+            "Michelangelo"
+          ],
+          "correct": 1,
+          "explanation": "Petrarch is often called the father of humanism."
+        },
+        {
+          "q": "Who sparked the Protestant Reformation?",
+          "options": [
+            "Leonardo da Vinci",
+            "Martin Luther",
+            "Petrarch",
+            "Michelangelo"
+          ],
+          "correct": 1,
+          "explanation": "Martin Luther's challenge to Church authority sparked the Reformation."
+        },
+        {
+          "q": "How did the Protestant Reformation impact culture?",
+          "options": [
+            "It had no impact",
+            "It significantly impacted religious art, literature, and intellectual life across Europe",
+            "It only affected architecture",
+            "It ended all religious art"
+          ],
+          "correct": 1,
+          "explanation": "The Reformation significantly impacted religious art, literature, and intellectual life."
+        }
+      ]
+    }
+  },
+  "The Baroque Period (1584–1723 CE)": {
+    "guide": {
+      "explanation": "Baroque culture emphasized dramatic emotion and grandeur across the arts — Caravaggio's tenebrism created intense visual drama, Bernini's dynamic sculptures captured emotional intensity, and Baroque music, exemplified by Johann Sebastian Bach, developed complex, ornate compositional structures. This dramatic, emotionally engaging style reflected both the Catholic Counter-Reformation's aims and absolute monarchies' desire to display power and grandeur.",
+      "keyTerms": [
+        {
+          "term": "Tenebrism",
+          "def": "A dramatic painting technique using strong contrasts between light and dark, closely associated with Caravaggio."
+        },
+        {
+          "term": "Gian Lorenzo Bernini",
+          "def": "A leading Baroque sculptor and architect known for dynamic, emotionally charged works."
+        },
+        {
+          "term": "Johann Sebastian Bach",
+          "def": "A major Baroque composer known for complex, ornate musical compositions, including fugues and cantatas."
+        },
+        {
+          "term": "Counter-Reformation",
+          "def": "The Catholic Church's response to the Protestant Reformation, which influenced dramatic, emotionally engaging Baroque art."
+        },
+        {
+          "term": "Opera",
+          "def": "A dramatic art form combining music, singing, and theatrical performance, which emerged and flourished during the Baroque period."
+        }
+      ],
+      "examples": [
+        "Caravaggio's paintings use tenebrism to create intense, spotlight-like drama, drawing the viewer's attention to key figures.",
+        "Johann Sebastian Bach's complex fugues exemplify the intricate, ornate musical structures characteristic of the Baroque period."
+      ],
+      "steps": [
+        "The Catholic Counter-Reformation encourages dramatic, emotionally engaging religious art.",
+        "Caravaggio pioneers tenebrism in painting, using intense light and dark contrasts.",
+        "Bernini creates dynamic, emotionally charged sculptures and architecture.",
+        "Baroque composers like Bach develop complex, ornate musical structures, and opera flourishes as a new dramatic art form."
+      ],
+      "remember": [
+        "Tenebrism uses dramatic contrasts of light and dark, closely associated with Caravaggio.",
+        "Bernini was a leading Baroque sculptor known for dynamic, emotionally charged works.",
+        "Johann Sebastian Bach was a major Baroque composer known for complex musical compositions.",
+        "Opera, combining music and theater, emerged and flourished during the Baroque period."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What is \"tenebrism\"?",
+          "options": [
+            "A type of Gothic architecture",
+            "A dramatic painting technique using strong contrasts between light and dark",
+            "A Renaissance perspective technique",
+            "A type of opera"
+          ],
+          "correct": 1,
+          "explanation": "Tenebrism uses strong light-dark contrasts, associated with Caravaggio."
+        },
+        {
+          "q": "Who was Gian Lorenzo Bernini?",
+          "options": [
+            "A Renaissance painter",
+            "A leading Baroque sculptor and architect known for dynamic works",
+            "A Baroque composer",
+            "A Gothic architect"
+          ],
+          "correct": 1,
+          "explanation": "Bernini was a leading Baroque sculptor and architect."
+        },
+        {
+          "q": "Who was Johann Sebastian Bach?",
+          "options": [
+            "A Renaissance painter",
+            "A major Baroque composer known for complex musical compositions",
+            "A Gothic architect",
+            "A Renaissance poet"
+          ],
+          "correct": 1,
+          "explanation": "Bach was a major Baroque composer."
+        },
+        {
+          "q": "What is \"opera\"?",
+          "options": [
+            "A type of painting",
+            "A dramatic art form combining music, singing, and theatrical performance",
+            "A type of sculpture",
+            "A type of architecture"
+          ],
+          "correct": 1,
+          "explanation": "Opera combines music, singing, and theatrical performance."
+        },
+        {
+          "q": "What was the \"Counter-Reformation\"?",
+          "options": [
+            "A Protestant movement",
+            "The Catholic Church's response to the Protestant Reformation",
+            "A Renaissance art style",
+            "A Baroque musical form"
+          ],
+          "correct": 1,
+          "explanation": "The Counter-Reformation was the Catholic response to the Protestant Reformation."
+        }
+      ]
+    }
+  },
+  "The Rococo Style and Neoclassicism": {
+    "guide": {
+      "explanation": "Rococo culture favored lighthearted elegance across the arts — Jean-Honoré Fragonard's playful paintings, ornate decorative interiors, and lighter, more graceful musical styles all reflected aristocratic leisure and romance. Neoclassicism later emerged as a reaction against this perceived frivolity, reviving classical order and moral seriousness across painting (Jacques-Louis David), literature, and architecture, often connected to Enlightenment ideals of reason and civic virtue.",
+      "keyTerms": [
+        {
+          "term": "Rococo",
+          "def": "An 18th-century artistic style favoring pastel colors, delicate curves, and lighthearted, ornate subject matter."
+        },
+        {
+          "term": "Jean-Honoré Fragonard",
+          "def": "A leading Rococo painter, known for playful, romantic scenes like The Swing."
+        },
+        {
+          "term": "Neoclassicism",
+          "def": "A late 18th-century style reviving the order, restraint, and moral seriousness of classical Greek and Roman art."
+        },
+        {
+          "term": "Jacques-Louis David",
+          "def": "A leading Neoclassical painter, known for works like The Oath of the Horatii, emphasizing moral and civic virtue."
+        },
+        {
+          "term": "Enlightenment",
+          "def": "An intellectual movement emphasizing reason, science, and individual rights, closely linked to Neoclassicism's revival of classical order."
+        }
+      ],
+      "examples": [
+        "Fragonard's painting The Swing exemplifies Rococo's playful, romantic, and lighthearted subject matter.",
+        "David's The Oath of the Horatii exemplifies Neoclassicism's emphasis on order, restraint, and moral seriousness, echoing Enlightenment values."
+      ],
+      "steps": [
+        "Rococo art develops as a lighter, more playful alternative to the grandeur of the Baroque.",
+        "Rococo favors pastel colors, delicate curves, and romantic, lighthearted subject matter.",
+        "Neoclassicism later emerges as a reaction against Rococo's perceived excess and frivolity.",
+        "Neoclassical artists like David revive classical order, connecting art to Enlightenment ideals of reason and virtue."
+      ],
+      "remember": [
+        "Rococo favored pastel colors, delicate curves, and lighthearted, romantic subject matter.",
+        "Fragonard was a leading Rococo painter, known for playful romantic scenes.",
+        "Neoclassicism revived the order and moral seriousness of classical Greek and Roman art.",
+        "Neoclassicism connected to Enlightenment ideals of reason, science, and civic virtue."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What characterized \"Rococo\" art?",
+          "options": [
+            "Dark, dramatic contrasts",
+            "Pastel colors, delicate curves, and lighthearted subject matter",
+            "Strict classical order",
+            "Religious devotion only"
+          ],
+          "correct": 1,
+          "explanation": "Rococo favored pastel colors and lighthearted subject matter."
+        },
+        {
+          "q": "Who painted \"The Swing,\" a famous Rococo work?",
+          "options": [
+            "Jacques-Louis David",
+            "Jean-Honoré Fragonard",
+            "Caravaggio",
+            "Bach"
+          ],
+          "correct": 1,
+          "explanation": "Jean-Honoré Fragonard painted The Swing."
+        },
+        {
+          "q": "What did Neoclassicism revive?",
+          "options": [
+            "Rococo playfulness",
+            "The order, restraint, and moral seriousness of classical Greek and Roman art",
+            "Baroque drama",
+            "Byzantine iconography"
+          ],
+          "correct": 1,
+          "explanation": "Neoclassicism revived classical order and moral seriousness."
+        },
+        {
+          "q": "Who painted \"The Oath of the Horatii,\" a famous Neoclassical work?",
+          "options": [
+            "Fragonard",
+            "Jacques-Louis David",
+            "Bernini",
+            "Caravaggio"
+          ],
+          "correct": 1,
+          "explanation": "Jacques-Louis David painted The Oath of the Horatii."
+        },
+        {
+          "q": "What intellectual movement is closely linked to Neoclassicism?",
+          "options": [
+            "Romanticism",
+            "The Enlightenment",
+            "The Counter-Reformation",
+            "Scholasticism"
+          ],
+          "correct": 1,
+          "explanation": "The Enlightenment's emphasis on reason connects closely to Neoclassicism."
+        }
+      ]
+    }
+  },
+  "Romanticism (c. 1780–1850)": {
+    "guide": {
+      "explanation": "Romanticism emerged across the arts as a reaction against Neoclassicism's emphasis on reason and order, instead prioritizing intense emotion, individualism, and connection to nature — evident in Caspar David Friedrich's sublime landscapes, the emotionally expressive poetry of writers like William Wordsworth, and the dramatic, expressive compositions of composers like Ludwig van Beethoven. Romantic artists across disciplines often engaged directly with political and social themes, including revolution and national identity.",
+      "keyTerms": [
+        {
+          "term": "Romanticism",
+          "def": "An artistic movement prioritizing intense emotion, individualism, and connection to nature, in reaction against Neoclassical order."
+        },
+        {
+          "term": "The sublime",
+          "def": "An aesthetic concept describing awe-inspiring, often overwhelming natural grandeur, central to Romantic art and literature."
+        },
+        {
+          "term": "Caspar David Friedrich",
+          "def": "A German Romantic painter known for atmospheric, awe-inspiring landscape paintings."
+        },
+        {
+          "term": "William Wordsworth",
+          "def": "An English Romantic poet known for emotionally expressive poetry celebrating nature and individual experience."
+        },
+        {
+          "term": "Ludwig van Beethoven",
+          "def": "A composer whose dramatic, emotionally expressive music bridged the Classical and Romantic musical eras."
+        }
+      ],
+      "examples": [
+        "Friedrich's painting \"Wanderer above the Sea of Fog\" exemplifies the Romantic fascination with the sublime power of nature.",
+        "Beethoven's symphonies, with their dramatic emotional range, exemplify Romantic music's departure from earlier classical restraint."
+      ],
+      "steps": [
+        "Romanticism emerges as a reaction against Neoclassicism's emphasis on reason and order.",
+        "Romantic artists, writers, and composers prioritize intense emotion, individualism, and connection to nature.",
+        "Landscape painters like Friedrich depict the sublime, awe-inspiring power of nature.",
+        "Poets like Wordsworth and composers like Beethoven express similar themes through their own mediums."
+      ],
+      "remember": [
+        "Romanticism prioritized intense emotion, individualism, and connection to nature.",
+        "\"The sublime\" describes awe-inspiring, overwhelming natural grandeur central to Romantic art and literature.",
+        "William Wordsworth was an English Romantic poet celebrating nature and individual experience.",
+        "Beethoven's dramatic, expressive music bridged the Classical and Romantic musical eras."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did Romanticism prioritize?",
+          "options": [
+            "Reason and order",
+            "Intense emotion, individualism, and connection to nature",
+            "Classical restraint",
+            "Religious symbolism only"
+          ],
+          "correct": 1,
+          "explanation": "Romanticism prioritized emotion, individualism, and nature."
+        },
+        {
+          "q": "What is \"the sublime\" in Romantic art and literature?",
+          "options": [
+            "A calm, peaceful scene",
+            "Awe-inspiring, overwhelming natural grandeur",
+            "A type of classical order",
+            "A Rococo pastel color"
+          ],
+          "correct": 1,
+          "explanation": "The sublime describes awe-inspiring natural grandeur."
+        },
+        {
+          "q": "Which artist is known for atmospheric, awe-inspiring landscape paintings?",
+          "options": [
+            "Jacques-Louis David",
+            "Caspar David Friedrich",
+            "Fragonard",
+            "Bernini"
+          ],
+          "correct": 1,
+          "explanation": "Caspar David Friedrich was known for atmospheric landscapes."
+        },
+        {
+          "q": "Which composer's dramatic, expressive music bridged the Classical and Romantic eras?",
+          "options": [
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Jacques-Louis David",
+            "Caravaggio"
+          ],
+          "correct": 1,
+          "explanation": "Beethoven's music bridged the Classical and Romantic eras."
+        },
+        {
+          "q": "Which poet is known for Romantic poetry celebrating nature and individual experience?",
+          "options": [
+            "William Wordsworth",
+            "Petrarch",
+            "Martin Luther",
+            "Jacques-Louis David"
+          ],
+          "correct": 0,
+          "explanation": "William Wordsworth was a Romantic poet celebrating nature."
+        }
+      ]
+    }
+  },
+  "Modernism in Art (c. 1800–1945)": {
+    "guide": {
+      "explanation": "Modernism encompasses a rapid succession of movements breaking from traditional representation across the arts: Impressionism captured fleeting light in painting (Claude Monet) while literature explored new narrative techniques like stream of consciousness (Virginia Woolf); Cubism fragmented visual forms (Pablo Picasso) alongside experimental modernist poetry; and Surrealism explored the unconscious mind in both visual art (Salvador Dalí) and literature, reflecting new psychological theories of the era.",
+      "keyTerms": [
+        {
+          "term": "Impressionism",
+          "def": "A late 19th-century movement capturing fleeting light and everyday scenes with visible, loose brushstrokes."
+        },
+        {
+          "term": "Stream of consciousness",
+          "def": "A modernist literary technique representing a character's continuous, flowing thoughts and perceptions."
+        },
+        {
+          "term": "Cubism",
+          "def": "A movement, pioneered by Pablo Picasso and Georges Braque, fragmenting forms into geometric shapes shown from multiple angles."
+        },
+        {
+          "term": "Surrealism",
+          "def": "A movement exploring the unconscious mind and dreamlike, irrational imagery, associated with Salvador Dalí."
+        },
+        {
+          "term": "Virginia Woolf",
+          "def": "A modernist writer known for pioneering the stream-of-consciousness narrative technique in novels like Mrs. Dalloway."
+        }
+      ],
+      "examples": [
+        "Claude Monet's paintings of water lilies use loose brushstrokes to capture fleeting light, exemplifying Impressionism.",
+        "Virginia Woolf's stream-of-consciousness technique in Mrs. Dalloway mirrors the fragmented, subjective approach found in Cubist visual art."
+      ],
+      "steps": [
+        "Impressionism breaks from tradition, capturing fleeting light and everyday scenes with loose brushwork.",
+        "Literary modernism develops parallel techniques, like stream of consciousness, to capture subjective experience.",
+        "Cubism further fragments visual forms into geometric shapes shown from multiple perspectives simultaneously.",
+        "Surrealism later explores the unconscious mind across both visual art and literature."
+      ],
+      "remember": [
+        "Impressionism captured fleeting light and everyday scenes with loose brushstrokes (Monet).",
+        "Stream of consciousness is a modernist literary technique representing continuous, flowing thought.",
+        "Cubism, pioneered by Picasso and Braque, fragmented forms into geometric shapes.",
+        "Surrealism explored the unconscious mind across both visual art (Dalí) and literature."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did Impressionism aim to capture?",
+          "options": [
+            "Precise geometric shapes",
+            "Fleeting light and everyday scenes with loose brushstrokes",
+            "Dreamlike, unconscious imagery",
+            "Classical mythology only"
+          ],
+          "correct": 1,
+          "explanation": "Impressionism captured fleeting light with loose brushstrokes."
+        },
+        {
+          "q": "What is \"stream of consciousness\"?",
+          "options": [
+            "A painting technique",
+            "A modernist literary technique representing a character's continuous, flowing thoughts",
+            "A type of architecture",
+            "A musical form"
+          ],
+          "correct": 1,
+          "explanation": "Stream of consciousness represents continuous flowing thought in literature."
+        },
+        {
+          "q": "Who pioneered Cubism?",
+          "options": [
+            "Claude Monet",
+            "Pablo Picasso and Georges Braque",
+            "Virginia Woolf",
+            "Salvador Dalí"
+          ],
+          "correct": 1,
+          "explanation": "Picasso and Braque pioneered Cubism."
+        },
+        {
+          "q": "Who is known for pioneering stream of consciousness in novels like Mrs. Dalloway?",
+          "options": [
+            "Salvador Dalí",
+            "Virginia Woolf",
+            "Pablo Picasso",
+            "Claude Monet"
+          ],
+          "correct": 1,
+          "explanation": "Virginia Woolf pioneered stream of consciousness in Mrs. Dalloway."
+        },
+        {
+          "q": "What did Surrealism explore?",
+          "options": [
+            "Classical mythology",
+            "The unconscious mind and dreamlike, irrational imagery",
+            "Precise realism",
+            "Fleeting natural light"
+          ],
+          "correct": 1,
+          "explanation": "Surrealism explored the unconscious mind and dreamlike imagery."
+        }
+      ]
+    }
+  },
+  "Postmodernism (c. 1950s–Present)": {
+    "guide": {
+      "explanation": "Postmodernism rejects the idea of a single, universal artistic style or objective truth, instead embracing stylistic diversity, irony, and self-referential commentary across the arts — visible in Pop Art's engagement with mass consumer culture (Andy Warhol), postmodern literature's playful narrative experimentation (like unreliable narrators or fragmented structure), and the increasing blending of \"high\" and \"low\" culture across all creative disciplines.",
+      "keyTerms": [
+        {
+          "term": "Postmodernism",
+          "def": "A movement rejecting a single universal style or objective truth, embracing stylistic diversity and self-referential commentary."
+        },
+        {
+          "term": "Pop Art",
+          "def": "A mid-20th-century movement celebrating and critiquing mass consumer culture and popular imagery, associated with Andy Warhol."
+        },
+        {
+          "term": "Pastiche",
+          "def": "A postmodern technique combining or imitating styles from multiple sources or periods within a single work."
+        },
+        {
+          "term": "Metafiction",
+          "def": "A postmodern literary technique in which a narrative draws attention to its own fictional nature."
+        },
+        {
+          "term": "High and low culture",
+          "def": "The traditional distinction between elite, \"serious\" art and popular, mass-produced culture, which postmodernism deliberately blurs."
+        }
+      ],
+      "examples": [
+        "Andy Warhol's Campbell's Soup Cans exemplify Pop Art's engagement with mass consumer imagery, blending \"high\" art with \"low\" commercial culture.",
+        "Postmodern novels sometimes use metafiction, having characters or narrators openly acknowledge that they exist within a story."
+      ],
+      "steps": [
+        "Postmodernism rejects the idea of a single, universal artistic style or objective truth.",
+        "Pop Art engages directly with mass consumer culture, blending high and low culture.",
+        "Postmodern literature experiments with techniques like metafiction and pastiche.",
+        "Across all disciplines, postmodernism embraces irony, self-reference, and stylistic diversity."
+      ],
+      "remember": [
+        "Postmodernism rejects a single universal style, embracing stylistic diversity and irony.",
+        "Pop Art engaged with mass consumer culture, associated with Andy Warhol.",
+        "Pastiche combines or imitates styles from multiple sources within a single work.",
+        "Metafiction is a literary technique where a narrative acknowledges its own fictional nature."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What does postmodernism reject?",
+          "options": [
+            "All artistic styles",
+            "The idea of a single, universal artistic style or objective truth",
+            "Only mass consumer culture",
+            "Only literature"
+          ],
+          "correct": 1,
+          "explanation": "Postmodernism rejects a single universal style or objective truth."
+        },
+        {
+          "q": "What did Pop Art engage with?",
+          "options": [
+            "Classical mythology",
+            "Mass consumer culture and popular imagery",
+            "Byzantine iconography",
+            "Gothic architecture"
+          ],
+          "correct": 1,
+          "explanation": "Pop Art engaged with mass consumer culture and popular imagery."
+        },
+        {
+          "q": "What is \"pastiche\"?",
+          "options": [
+            "A single unified style",
+            "A technique combining or imitating styles from multiple sources within one work",
+            "A type of Romanticism",
+            "A Baroque musical form"
+          ],
+          "correct": 1,
+          "explanation": "Pastiche combines styles from multiple sources within a work."
+        },
+        {
+          "q": "What is \"metafiction\"?",
+          "options": [
+            "A type of painting",
+            "A literary technique where a narrative acknowledges its own fictional nature",
+            "A musical composition style",
+            "A type of architecture"
+          ],
+          "correct": 1,
+          "explanation": "Metafiction is a narrative that acknowledges its own fictional nature."
+        },
+        {
+          "q": "What distinction does postmodernism deliberately blur?",
+          "options": [
+            "Painting and sculpture",
+            "\"High\" and \"low\" culture",
+            "Ancient and modern history",
+            "Music and dance"
+          ],
+          "correct": 1,
+          "explanation": "Postmodernism deliberately blurs high and low culture."
+        }
+      ]
+    }
+  },
+  "Literature of the Ancient & Classical Periods": {
+    "guide": {
+      "explanation": "Ancient Near Eastern literature includes the Epic of Gilgamesh, recorded in cuneiform and among the oldest surviving works of literature, exploring themes of mortality and friendship. Ancient Greek literature produced foundational epic poetry (Homer's Iliad and Odyssey), philosophy (Socrates, Plato, Aristotle), and drama (Sophocles, Euripides), while Roman literature, including Virgil's Aeneid, both drew on and extended these Greek traditions.",
+      "keyTerms": [
+        {
+          "term": "Epic of Gilgamesh",
+          "def": "An ancient Mesopotamian epic poem, among the oldest surviving works of literature, exploring themes of mortality and friendship."
+        },
+        {
+          "term": "Homer",
+          "def": "The traditional author of the Iliad and the Odyssey, foundational epic poems of ancient Greek literature."
+        },
+        {
+          "term": "Socratic method",
+          "def": "A method of inquiry using systematic questioning, associated with the philosopher Socrates."
+        },
+        {
+          "term": "Sophocles",
+          "def": "An ancient Greek playwright known for tragedies like Oedipus Rex."
+        },
+        {
+          "term": "Virgil",
+          "def": "An ancient Roman poet, author of the epic poem the Aeneid, which drew on Greek literary traditions."
+        }
+      ],
+      "examples": [
+        "Homer's Iliad and Odyssey established the epic poem as a foundational literary form in Western tradition.",
+        "Virgil's Aeneid, telling the story of Rome's legendary founding, deliberately echoes and extends Homer's earlier Greek epics."
+      ],
+      "steps": [
+        "Ancient Mesopotamian literature, like the Epic of Gilgamesh, establishes early written storytelling.",
+        "Greek literature develops epic poetry (Homer), philosophy (Socrates, Plato, Aristotle), and drama (Sophocles).",
+        "Greek philosophers use methods like the Socratic method to examine ethical and metaphysical questions.",
+        "Roman literature, like Virgil's Aeneid, draws on and extends these earlier Greek literary traditions."
+      ],
+      "remember": [
+        "The Epic of Gilgamesh is among the oldest surviving works of literature.",
+        "Homer is the traditional author of the Iliad and the Odyssey.",
+        "Sophocles was an ancient Greek playwright known for tragedies like Oedipus Rex.",
+        "Virgil's Aeneid, a Roman epic, drew on and extended Greek literary traditions."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What is the \"Epic of Gilgamesh\"?",
+          "options": [
+            "A Greek tragedy",
+            "An ancient Mesopotamian epic poem, among the oldest surviving works of literature",
+            "A Roman epic",
+            "A philosophical treatise"
+          ],
+          "correct": 1,
+          "explanation": "The Epic of Gilgamesh is among the oldest surviving works of literature."
+        },
+        {
+          "q": "Who is the traditional author of the Iliad and the Odyssey?",
+          "options": [
+            "Virgil",
+            "Homer",
+            "Sophocles",
+            "Socrates"
+          ],
+          "correct": 1,
+          "explanation": "Homer is the traditional author of the Iliad and the Odyssey."
+        },
+        {
+          "q": "What is the \"Socratic method\"?",
+          "options": [
+            "A type of Greek drama",
+            "A method of inquiry using systematic questioning",
+            "An epic poem",
+            "A Roman literary form"
+          ],
+          "correct": 1,
+          "explanation": "The Socratic method uses systematic questioning."
+        },
+        {
+          "q": "Which ancient Greek playwright is known for the tragedy Oedipus Rex?",
+          "options": [
+            "Homer",
+            "Sophocles",
+            "Virgil",
+            "Socrates"
+          ],
+          "correct": 1,
+          "explanation": "Sophocles wrote the tragedy Oedipus Rex."
+        },
+        {
+          "q": "What Roman epic drew on and extended Greek literary traditions?",
+          "options": [
+            "The Epic of Gilgamesh",
+            "Virgil's Aeneid",
+            "Oedipus Rex",
+            "The Odyssey"
+          ],
+          "correct": 1,
+          "explanation": "Virgil's Aeneid drew on and extended Greek literary traditions."
+        }
+      ]
+    }
+  },
+  "Literature of the Middle Ages (500–1500 CE)": {
+    "guide": {
+      "explanation": "Medieval literature was shaped heavily by religious devotion and feudal ideals, producing chivalric romances celebrating knighthood and courtly love (like Arthurian legends), religious allegory (Dante's Divine Comedy), and vernacular literature that began emerging alongside Latin, the dominant scholarly language. Geoffrey Chaucer's Canterbury Tales, written in Middle English, is a landmark work reflecting this shift toward vernacular literary expression.",
+      "keyTerms": [
+        {
+          "term": "Chivalric romance",
+          "def": "Medieval literature celebrating ideals of knighthood, honor, and courtly love, such as Arthurian legends."
+        },
+        {
+          "term": "Dante Alighieri",
+          "def": "An Italian poet best known for the Divine Comedy, an allegorical journey through Hell, Purgatory, and Heaven."
+        },
+        {
+          "term": "Vernacular literature",
+          "def": "Literature written in a region's everyday spoken language, rather than in scholarly Latin."
+        },
+        {
+          "term": "Geoffrey Chaucer",
+          "def": "An English author best known for The Canterbury Tales, a landmark work of vernacular Middle English literature."
+        },
+        {
+          "term": "Allegory",
+          "def": "A narrative in which characters and events symbolically represent abstract ideas or moral qualities."
+        }
+      ],
+      "examples": [
+        "Dante's Divine Comedy uses allegory to represent the soul's journey toward spiritual understanding, guided by the poet Virgil.",
+        "Chaucer's Canterbury Tales, written in vernacular Middle English, reflects the growing shift away from exclusively Latin literary tradition."
+      ],
+      "steps": [
+        "Chivalric romances, like Arthurian legends, celebrate feudal ideals of knighthood and courtly love.",
+        "Religious allegory, like Dante's Divine Comedy, explores spiritual themes through symbolic narrative.",
+        "Vernacular literature emerges alongside the dominant scholarly language of Latin.",
+        "Chaucer's Canterbury Tales exemplifies this shift toward vernacular literary expression."
+      ],
+      "remember": [
+        "Chivalric romances celebrated ideals of knighthood, honor, and courtly love.",
+        "Dante's Divine Comedy is an allegorical journey through Hell, Purgatory, and Heaven.",
+        "Vernacular literature is written in everyday spoken language, rather than scholarly Latin.",
+        "Chaucer's Canterbury Tales is a landmark work of vernacular Middle English literature."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What is \"chivalric romance\"?",
+          "options": [
+            "Scientific writing",
+            "Medieval literature celebrating knighthood, honor, and courtly love",
+            "Religious sermons only",
+            "Roman historical records"
+          ],
+          "correct": 1,
+          "explanation": "Chivalric romance celebrates knighthood, honor, and courtly love."
+        },
+        {
+          "q": "What is Dante Alighieri best known for?",
+          "options": [
+            "The Canterbury Tales",
+            "The Divine Comedy, an allegorical journey through Hell, Purgatory, and Heaven",
+            "Arthurian legends",
+            "The Epic of Gilgamesh"
+          ],
+          "correct": 1,
+          "explanation": "Dante is best known for the Divine Comedy."
+        },
+        {
+          "q": "What is \"vernacular literature\"?",
+          "options": [
+            "Literature written only in Latin",
+            "Literature written in a region's everyday spoken language",
+            "Religious allegory only",
+            "A type of chivalric romance"
+          ],
+          "correct": 1,
+          "explanation": "Vernacular literature is written in everyday spoken language."
+        },
+        {
+          "q": "What is Geoffrey Chaucer best known for?",
+          "options": [
+            "The Divine Comedy",
+            "The Canterbury Tales, a landmark work of vernacular Middle English literature",
+            "Arthurian legends",
+            "The Aeneid"
+          ],
+          "correct": 1,
+          "explanation": "Chaucer is best known for The Canterbury Tales."
+        },
+        {
+          "q": "What is an \"allegory\"?",
+          "options": [
+            "A historical record",
+            "A narrative in which characters and events symbolically represent abstract ideas",
+            "A type of chivalric romance only",
+            "A vernacular language"
+          ],
+          "correct": 1,
+          "explanation": "An allegory symbolically represents abstract ideas through narrative."
+        }
+      ]
+    }
+  },
+  "Literature of the 17th to 18th Century": {
+    "guide": {
+      "explanation": "17th-century literature includes William Shakespeare's plays, written primarily in verse, which explored complex human psychology and remain foundational to English literary tradition, alongside John Milton's epic poem Paradise Lost, exploring religious and philosophical themes. The 18th century, shaped by the Enlightenment's emphasis on reason, saw the rise of the novel as a major literary form, along with satirical works like Jonathan Swift's Gulliver's Travels critiquing contemporary society.",
+      "keyTerms": [
+        {
+          "term": "William Shakespeare",
+          "def": "An English playwright and poet whose plays, written primarily in verse, explored complex human psychology."
+        },
+        {
+          "term": "John Milton",
+          "def": "An English poet best known for Paradise Lost, an epic poem exploring religious and philosophical themes."
+        },
+        {
+          "term": "The novel",
+          "def": "An extended work of prose fiction, which rose to prominence as a major literary form during the 18th century."
+        },
+        {
+          "term": "Satire",
+          "def": "A literary technique using humor, irony, or exaggeration to critique society, politics, or human folly."
+        },
+        {
+          "term": "Jonathan Swift",
+          "def": "An Irish author known for satirical works like Gulliver's Travels, critiquing contemporary society and politics."
+        }
+      ],
+      "examples": [
+        "Shakespeare's plays, like Hamlet, explore complex human psychology through soliloquies written in verse.",
+        "Jonathan Swift's Gulliver's Travels uses satire to critique contemporary politics and human nature through fantastical, exaggerated travel narratives."
+      ],
+      "steps": [
+        "Shakespeare's plays, written primarily in verse, explore complex human psychology in the 17th century.",
+        "Milton's Paradise Lost explores religious and philosophical themes through epic poetry.",
+        "The Enlightenment's emphasis on reason shapes 18th-century literature and thought.",
+        "The novel rises to prominence, alongside satirical works like Swift's Gulliver's Travels."
+      ],
+      "remember": [
+        "Shakespeare's plays, written primarily in verse, explored complex human psychology.",
+        "Milton's Paradise Lost is an epic poem exploring religious and philosophical themes.",
+        "The novel rose to prominence as a major literary form during the 18th century.",
+        "Swift's Gulliver's Travels used satire to critique contemporary society and politics."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did Shakespeare's plays primarily explore?",
+          "options": [
+            "Only historical events",
+            "Complex human psychology, written primarily in verse",
+            "Only comedic themes",
+            "Only religious themes"
+          ],
+          "correct": 1,
+          "explanation": "Shakespeare's plays explored complex human psychology, written in verse."
+        },
+        {
+          "q": "What is John Milton best known for?",
+          "options": [
+            "Gulliver's Travels",
+            "Paradise Lost, an epic poem exploring religious and philosophical themes",
+            "The Canterbury Tales",
+            "Hamlet"
+          ],
+          "correct": 1,
+          "explanation": "Milton is best known for Paradise Lost."
+        },
+        {
+          "q": "What literary form rose to prominence during the 18th century?",
+          "options": [
+            "Epic poetry only",
+            "The novel",
+            "Cave paintings",
+            "Illuminated manuscripts"
+          ],
+          "correct": 1,
+          "explanation": "The novel rose to prominence during the 18th century."
+        },
+        {
+          "q": "What is \"satire\"?",
+          "options": [
+            "A serious historical account",
+            "A literary technique using humor, irony, or exaggeration to critique society",
+            "A type of epic poem",
+            "A religious allegory"
+          ],
+          "correct": 1,
+          "explanation": "Satire critiques society through humor, irony, or exaggeration."
+        },
+        {
+          "q": "Who wrote the satirical work Gulliver's Travels?",
+          "options": [
+            "William Shakespeare",
+            "Jonathan Swift",
+            "John Milton",
+            "Geoffrey Chaucer"
+          ],
+          "correct": 1,
+          "explanation": "Jonathan Swift wrote Gulliver's Travels."
+        }
+      ]
+    }
+  },
+  "Literature of the 19th Century to Present": {
+    "guide": {
+      "explanation": "19th-century literature includes Romantic poetry celebrating emotion and nature, Realist novels depicting everyday life with unflinching detail (like the works of Charles Dickens), and later, modernist experimentation with narrative form, exemplified by James Joyce's stream-of-consciousness technique. Contemporary literature continues to diversify, embracing postmodern narrative experimentation and an increasingly global range of voices and perspectives.",
+      "keyTerms": [
+        {
+          "term": "Realism (literature)",
+          "def": "A 19th-century literary movement depicting everyday life and society with detailed, unflinching accuracy."
+        },
+        {
+          "term": "Charles Dickens",
+          "def": "An English novelist known for Realist works depicting Victorian society, like Oliver Twist and Great Expectations."
+        },
+        {
+          "term": "Modernist literature",
+          "def": "Early 20th-century literature experimenting with narrative form, structure, and subjective perspective."
+        },
+        {
+          "term": "James Joyce",
+          "def": "An Irish modernist writer known for pioneering stream-of-consciousness technique in novels like Ulysses."
+        },
+        {
+          "term": "Postmodern literature",
+          "def": "Late 20th-century literature embracing narrative experimentation, irony, and self-referential commentary."
+        }
+      ],
+      "examples": [
+        "Charles Dickens's novels, like Oliver Twist, depict the harsh realities of Victorian poverty and social inequality with detailed realism.",
+        "James Joyce's Ulysses uses stream-of-consciousness technique to capture the flowing, subjective thoughts of its characters over a single day."
+      ],
+      "steps": [
+        "19th-century Realist novelists, like Dickens, depict everyday life and society with detailed accuracy.",
+        "Modernist writers, like Joyce, experiment with narrative form and subjective perspective in the early 20th century.",
+        "Postmodern literature later embraces further narrative experimentation and self-referential commentary.",
+        "Contemporary literature continues to diversify, embracing a global range of voices and perspectives."
+      ],
+      "remember": [
+        "Realism depicted everyday life and society with detailed, unflinching accuracy, exemplified by Dickens.",
+        "Modernist literature experimented with narrative form, structure, and subjective perspective.",
+        "James Joyce pioneered stream-of-consciousness technique in novels like Ulysses.",
+        "Contemporary literature embraces postmodern experimentation and a global range of voices."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did \"Realism\" in literature aim to depict?",
+          "options": [
+            "Fantastical imagery only",
+            "Everyday life and society with detailed, unflinching accuracy",
+            "Only religious themes",
+            "Only ancient mythology"
+          ],
+          "correct": 1,
+          "explanation": "Realism depicted everyday life with detailed accuracy."
+        },
+        {
+          "q": "Which author is known for Realist novels like Oliver Twist?",
+          "options": [
+            "James Joyce",
+            "Charles Dickens",
+            "John Milton",
+            "William Shakespeare"
+          ],
+          "correct": 1,
+          "explanation": "Charles Dickens wrote Realist novels like Oliver Twist."
+        },
+        {
+          "q": "What did \"modernist literature\" experiment with?",
+          "options": [
+            "Only traditional forms",
+            "Narrative form, structure, and subjective perspective",
+            "Only religious themes",
+            "Only historical accuracy"
+          ],
+          "correct": 1,
+          "explanation": "Modernist literature experimented with form and perspective."
+        },
+        {
+          "q": "Who pioneered stream-of-consciousness technique in Ulysses?",
+          "options": [
+            "Charles Dickens",
+            "James Joyce",
+            "Jonathan Swift",
+            "Geoffrey Chaucer"
+          ],
+          "correct": 1,
+          "explanation": "James Joyce pioneered stream of consciousness in Ulysses."
+        },
+        {
+          "q": "What characterizes contemporary literature, according to this chapter?",
+          "options": [
+            "A single unified style",
+            "Postmodern experimentation and a global range of voices and perspectives",
+            "Only Realist technique",
+            "Only Romantic poetry"
+          ],
+          "correct": 1,
+          "explanation": "Contemporary literature embraces diversity and postmodern experimentation."
+        }
+      ]
+    }
+  },
+  "Performance Arts of the Ancient to Romantic Periods": {
+    "guide": {
+      "explanation": "Performance art, including theater, dance, and music, has ancient roots, with Aristotle identifying six essential elements of drama — plot, character, thought, diction, music, and spectacle — based on his analysis of Greek tragedy. From these classical foundations, Western performance arts developed through medieval religious drama, Renaissance and Baroque opera, and the emotionally expressive musical and theatrical works of the Romantic period.",
+      "keyTerms": [
+        {
+          "term": "Drama",
+          "def": "A type of fictitious dialogue delivered through theatrical performance, distinct from prose writing."
+        },
+        {
+          "term": "Six elements of drama",
+          "def": "Aristotle's framework identifying plot, character, thought, diction, music, and spectacle as essential components of drama."
+        },
+        {
+          "term": "Plot",
+          "def": "The structured sequence of events in a drama, including exposition, rising action, climax, falling action, and resolution."
+        },
+        {
+          "term": "Opera",
+          "def": "A dramatic art form combining music, singing, and theatrical performance, which emerged and flourished during the Baroque period."
+        },
+        {
+          "term": "Ludwig van Beethoven",
+          "def": "A composer whose dramatic, emotionally expressive symphonies bridged the Classical and Romantic musical eras."
+        }
+      ],
+      "examples": [
+        "Aristotle's analysis of Greek tragedy established plot, character, and spectacle as foundational elements still used to analyze drama today.",
+        "Beethoven's symphonies, with their dramatic emotional range, exemplify the Romantic period's expressive approach to musical performance."
+      ],
+      "steps": [
+        "Aristotle analyzes Greek tragedy, identifying six essential elements of drama.",
+        "Medieval religious drama uses theatrical performance to convey religious narratives and teachings.",
+        "Opera emerges during the Baroque period, combining music, singing, and theatrical performance.",
+        "Romantic composers, like Beethoven, bring heightened emotional expression to musical performance."
+      ],
+      "remember": [
+        "Aristotle identified six elements of drama: plot, character, thought, diction, music, and spectacle.",
+        "Plot includes exposition, rising action, climax, falling action, and resolution.",
+        "Opera, combining music and theater, emerged during the Baroque period.",
+        "Beethoven's dramatic, expressive symphonies bridged the Classical and Romantic musical eras."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "Who identified the six essential elements of drama?",
+          "options": [
+            "Homer",
+            "Aristotle",
+            "Sophocles",
+            "Beethoven"
+          ],
+          "correct": 1,
+          "explanation": "Aristotle identified the six elements of drama."
+        },
+        {
+          "q": "Which of these is one of Aristotle's six elements of drama?",
+          "options": [
+            "Rhythm",
+            "Plot",
+            "Perspective",
+            "Tenebrism"
+          ],
+          "correct": 1,
+          "explanation": "Plot is one of Aristotle's six elements of drama."
+        },
+        {
+          "q": "What does the \"plot\" of a drama include?",
+          "options": [
+            "Only the characters",
+            "Exposition, rising action, climax, falling action, and resolution",
+            "Only the setting",
+            "Only the dialogue"
+          ],
+          "correct": 1,
+          "explanation": "Plot includes exposition through resolution."
+        },
+        {
+          "q": "What is \"opera\"?",
+          "options": [
+            "A type of painting",
+            "A dramatic art form combining music, singing, and theatrical performance",
+            "A type of sculpture",
+            "A literary genre only"
+          ],
+          "correct": 1,
+          "explanation": "Opera combines music, singing, and theatrical performance."
+        },
+        {
+          "q": "Which composer's symphonies bridged the Classical and Romantic musical eras?",
+          "options": [
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Jacques-Louis David",
+            "Aristotle"
+          ],
+          "correct": 1,
+          "explanation": "Beethoven's symphonies bridged the Classical and Romantic eras."
+        }
+      ]
+    }
+  },
+  "Performance Arts from the 19th Century to Present": {
+    "guide": {
+      "explanation": "19th-century performance arts saw the rise of Romantic ballet and opera, alongside the emergence of new technologies like photography and eventually film, which by the early 20th century developed into a major new performance art form. Contemporary performance arts continue to diversify, encompassing traditional theater and dance alongside newer forms like performance art (where the artist's live actions constitute the work) and digital and multimedia performance.",
+      "keyTerms": [
+        {
+          "term": "Romantic ballet",
+          "def": "A 19th-century ballet style emphasizing emotional expression, fantastical themes, and technical innovations like pointe work."
+        },
+        {
+          "term": "Film",
+          "def": "A performance art form using moving images, which emerged in the late 19th century and matured into a major art form by the 20th century."
+        },
+        {
+          "term": "Performance art (contemporary)",
+          "def": "A contemporary art form in which the artist's live actions constitute the work itself."
+        },
+        {
+          "term": "Method acting",
+          "def": "A 20th-century acting technique in which performers draw on personal emotional experience to authentically portray a character."
+        },
+        {
+          "term": "Multimedia performance",
+          "def": "Contemporary performance incorporating multiple media forms, such as video, digital technology, and live performance together."
+        }
+      ],
+      "examples": [
+        "Romantic ballets like Giselle emphasized emotional storytelling and introduced technical innovations like dancing en pointe.",
+        "Early filmmakers in the late 19th and early 20th centuries transformed moving images from a novelty into a major new performance art form."
+      ],
+      "steps": [
+        "Romantic ballet emerges in the 19th century, emphasizing emotional expression and technical innovation.",
+        "Film emerges as a new technology in the late 19th century, developing into a major performance art form.",
+        "20th-century theater develops new techniques, like method acting, for authentic character portrayal.",
+        "Contemporary performance arts increasingly incorporate multimedia and live performance art."
+      ],
+      "remember": [
+        "Romantic ballet emphasized emotional expression and technical innovations like pointe work.",
+        "Film emerged in the late 19th century and matured into a major performance art form by the 20th century.",
+        "Contemporary performance art treats the artist's live actions as the artwork itself.",
+        "Method acting is a technique where performers draw on personal emotion for authentic character portrayal."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did \"Romantic ballet\" emphasize?",
+          "options": [
+            "Only classical restraint",
+            "Emotional expression, fantastical themes, and technical innovations like pointe work",
+            "Only comedic themes",
+            "Only religious themes"
+          ],
+          "correct": 1,
+          "explanation": "Romantic ballet emphasized emotional expression and technical innovation."
+        },
+        {
+          "q": "When did \"film\" emerge as a new performance art form?",
+          "options": [
+            "The Middle Ages",
+            "The late 19th century",
+            "Ancient Greece",
+            "The Renaissance"
+          ],
+          "correct": 1,
+          "explanation": "Film emerged as a new art form in the late 19th century."
+        },
+        {
+          "q": "What is contemporary \"performance art\"?",
+          "options": [
+            "A type of painting",
+            "A contemporary art form in which the artist's live actions constitute the work itself",
+            "A type of novel",
+            "A type of Romantic ballet"
+          ],
+          "correct": 1,
+          "explanation": "Performance art treats the artist's live actions as the artwork."
+        },
+        {
+          "q": "What is \"method acting\"?",
+          "options": [
+            "A painting technique",
+            "A technique where performers draw on personal emotional experience for authentic portrayal",
+            "A type of Romantic ballet",
+            "A type of opera"
+          ],
+          "correct": 1,
+          "explanation": "Method acting uses personal emotion for authentic character portrayal."
+        },
+        {
+          "q": "What does \"multimedia performance\" incorporate?",
+          "options": [
+            "Only live theater",
+            "Multiple media forms, such as video and digital technology, alongside live performance",
+            "Only painting",
+            "Only classical ballet"
+          ],
+          "correct": 1,
+          "explanation": "Multimedia performance incorporates multiple media forms together."
+        }
+      ]
+    }
+  }
+}

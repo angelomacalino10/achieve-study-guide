@@ -1,0 +1,298 @@
+{
+  "Ethical, Social, Demographic, and Theoretical Considerations": {
+    "guide": {
+      "explanation": "Public speaking carries ethical responsibilities — speakers must be honest, avoid plagiarism, and respect their audience — alongside social and demographic factors that shape how a message will be received differently across different audiences. Foundational communication theory explains speaking as a shared process between speaker and listener, not a one-way transmission of information.",
+      "keyTerms": [
+        {"term": "Ethics", "def": "The moral principles guiding a speaker's honesty and respect toward the audience."},
+        {"term": "Plagiarism", "def": "Presenting someone else's words or ideas as your own without credit."},
+        {"term": "Demographics", "def": "Audience characteristics like age, gender, culture, and education level that affect how a message is received."},
+        {"term": "Communication", "def": "The process of creating shared meaning between a speaker and an audience."},
+        {"term": "Ethnocentrism", "def": "Judging other cultures by the standards of one's own culture."}
+      ],
+      "examples": [
+        "Citing a source properly during a speech avoids plagiarism and builds credibility with the audience.",
+        "A speaker adjusting their examples and language based on an audience's age or cultural background is accounting for demographics."
+      ],
+      "steps": [
+        "Verify all facts and evidence are accurate before including them in a speech.",
+        "Give proper credit to any source of information or ideas that aren't your own.",
+        "Consider how diverse audience members (by age, culture, background) might interpret your message.",
+        "Avoid language or examples that stereotype or alienate any part of the audience."
+      ],
+      "remember": [
+        "Ethical speaking requires honesty, avoiding plagiarism, and giving proper credit to sources.",
+        "Demographics (age, culture, education) shape how an audience receives a message.",
+        "Communication is a shared process between speaker and audience, not one-way transmission.",
+        "Ethnocentrism is judging other cultures by your own culture's standards — something ethical speakers try to avoid."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is plagiarism?", "options": ["Citing a source properly", "Presenting someone else's words or ideas as your own without credit", "Adjusting a speech for an audience", "A type of demographic"], "correct": 1, "explanation": "Plagiarism is presenting someone else's words or ideas as your own without giving credit."},
+        {"q": "What are \"demographics\" in the context of public speaking?", "options": ["A speech's main argument", "Audience characteristics like age, gender, and culture", "A type of evidence", "A speaking style"], "correct": 1, "explanation": "Demographics are audience characteristics that affect how a message is received."},
+        {"q": "How is communication best described?", "options": ["A one-way transmission of information", "A process of creating shared meaning between speaker and audience", "Only the speaker's words", "A form of persuasion only"], "correct": 1, "explanation": "Communication is a shared process of creating meaning between a speaker and an audience."},
+        {"q": "What is \"ethnocentrism\"?", "options": ["Understanding multiple cultures equally", "Judging other cultures by the standards of one's own culture", "A type of plagiarism", "A speech organization pattern"], "correct": 1, "explanation": "Ethnocentrism is judging other cultures by the standards of one's own culture."},
+        {"q": "Why is proper citation important in a speech?", "options": ["It makes the speech longer", "It avoids plagiarism and builds credibility", "It is only required in written work", "It's optional for most topics"], "correct": 1, "explanation": "Proper citation avoids plagiarism and builds the speaker's credibility."}
+      ]
+    }
+  },
+  "Topics and Speech Purposes": {
+    "guide": {
+      "explanation": "Every speech serves one of three general purposes: informative (helping the audience understand something new), persuasive (influencing beliefs, values, or actions), or ceremonial (marking an occasion, like a toast or eulogy). Choosing and narrowing a topic appropriately for the audience, time limit, and occasion is the essential first step before any speech can be built.",
+      "keyTerms": [
+        {"term": "Informative purpose", "def": "A speech goal focused on helping the audience understand or learn something new."},
+        {"term": "Persuasive purpose", "def": "A speech goal focused on influencing the audience's beliefs, values, or actions."},
+        {"term": "Ceremonial purpose", "def": "A speech goal focused on marking an occasion, like celebrating or honoring someone."},
+        {"term": "General purpose", "def": "The broad goal of a speech (to inform, persuade, or mark an occasion)."},
+        {"term": "Specific purpose", "def": "A precise statement of exactly what a speaker wants the audience to know, believe, or do."},
+        {"term": "Narrowing a topic", "def": "The process of focusing a broad subject into something manageable for the speech's time limit and audience."}
+      ],
+      "examples": [
+        "A speech explaining how vaccines work is informative — the goal is understanding, not persuasion.",
+        "A wedding toast is a ceremonial speech, marking the occasion rather than informing or persuading."
+      ],
+      "steps": [
+        "Start with a broad subject area of interest (e.g., \"climate change\").",
+        "Consider the audience's existing knowledge and the time limit available.",
+        "Narrow the subject to one specific, manageable angle.",
+        "Confirm the narrowed topic matches one clear general purpose: inform, persuade, or mark an occasion."
+      ],
+      "remember": [
+        "The three general purposes of a speech: informative, persuasive, ceremonial.",
+        "Informative speeches aim for understanding; persuasive speeches aim to influence beliefs or actions.",
+        "A specific purpose states precisely what a speaker wants the audience to know, believe, or do.",
+        "Narrowing a topic makes a broad subject manageable for the time limit and audience."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the goal of an informative speech?", "options": ["To persuade the audience", "To help the audience understand something new", "To celebrate an occasion", "To entertain only"], "correct": 1, "explanation": "An informative speech's goal is to help the audience understand or learn something new."},
+        {"q": "What is the goal of a persuasive speech?", "options": ["To help the audience understand a topic", "To influence the audience's beliefs, values, or actions", "To mark a special occasion", "To avoid controversial topics"], "correct": 1, "explanation": "A persuasive speech aims to influence the audience's beliefs, values, or actions."},
+        {"q": "What type of speech is a wedding toast?", "options": ["Informative", "Persuasive", "Ceremonial", "Argumentative"], "correct": 2, "explanation": "A wedding toast is a ceremonial speech, marking a special occasion."},
+        {"q": "What does \"narrowing a topic\" involve?", "options": ["Making a topic broader", "Focusing a broad subject into a manageable angle for the speech", "Avoiding research", "Choosing a persuasive purpose only"], "correct": 1, "explanation": "Narrowing a topic means focusing a broad subject area into a specific, manageable angle."},
+        {"q": "What is a \"specific purpose\" statement?", "options": ["The same as a general purpose", "A precise statement of what the audience should know, believe, or do", "A type of ceremonial speech", "A citation format"], "correct": 1, "explanation": "A specific purpose precisely states what a speaker wants the audience to know, believe, or do."}
+      ]
+    }
+  },
+  "Audience Analysis, Adaptation, and Effect": {
+    "guide": {
+      "explanation": "Effective speakers analyze their audience beforehand — considering demographics, attitudes, and existing knowledge — then adapt their content, language, and examples accordingly. The ultimate goal is audience effect: successfully achieving the speech's purpose, whether that's informing, persuading, or moving an audience emotionally.",
+      "keyTerms": [
+        {"term": "Audience analysis", "def": "Researching an audience's demographics, attitudes, and knowledge before a speech."},
+        {"term": "Audience adaptation", "def": "Adjusting content, language, and delivery to fit a specific audience."},
+        {"term": "Audience effect", "def": "The actual impact or response a speech produces in its audience."},
+        {"term": "Attitude", "def": "An audience's existing feelings or opinions about a topic (favorable, neutral, or hostile)."},
+        {"term": "Captive audience", "def": "An audience required to attend, rather than choosing to attend voluntarily."}
+      ],
+      "examples": [
+        "A speaker addressing a hostile audience on a controversial topic might acknowledge opposing views early to build credibility.",
+        "Analyzing that an audience already has strong background knowledge lets a speaker skip basic definitions."
+      ],
+      "steps": [
+        "Research the audience's demographics (age, background, education level).",
+        "Determine the audience's existing attitude toward the topic (favorable, neutral, hostile).",
+        "Assess how much the audience already knows about the topic.",
+        "Adapt language, examples, and structure based on these findings before finalizing the speech."
+      ],
+      "remember": [
+        "Audience analysis researches demographics, attitudes, and existing knowledge before speaking.",
+        "Audience adaptation adjusts the speech's content and delivery to fit that specific audience.",
+        "Audience effect is the actual impact the speech produces — the ultimate measure of success.",
+        "A captive audience attends because they're required to, not by choice, which can affect how they receive the message."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"audience analysis\"?", "options": ["Delivering a speech", "Researching an audience's demographics, attitudes, and knowledge beforehand", "A type of speech purpose", "A listening challenge"], "correct": 1, "explanation": "Audience analysis is researching an audience's demographics, attitudes, and knowledge before speaking."},
+        {"q": "What is \"audience adaptation\"?", "options": ["Ignoring the audience's needs", "Adjusting a speech's content and delivery to fit a specific audience", "A type of ceremonial speech", "Only used in persuasive speeches"], "correct": 1, "explanation": "Audience adaptation means adjusting a speech's content and delivery to fit a specific audience."},
+        {"q": "What does \"audience effect\" measure?", "options": ["The speaker's confidence level", "The actual impact or response a speech produces in its audience", "The length of the speech", "The number of sources cited"], "correct": 1, "explanation": "Audience effect measures the actual impact the speech produces in the audience."},
+        {"q": "What is a \"captive audience\"?", "options": ["An audience that chooses to attend voluntarily", "An audience required to attend rather than attending by choice", "A hostile audience only", "An audience with no prior knowledge"], "correct": 1, "explanation": "A captive audience is one required to attend, rather than attending voluntarily."},
+        {"q": "Why would a speaker research an audience's existing attitude toward a topic?", "options": ["It's not useful information", "To adapt the speech's approach based on whether the audience is favorable, neutral, or hostile", "Only ceremonial speeches require this", "To avoid audience analysis"], "correct": 1, "explanation": "Knowing an audience's existing attitude helps a speaker adapt their approach."}
+      ]
+    }
+  },
+  "Structure and Organization": {
+    "guide": {
+      "explanation": "An effective speech follows a clear structure — an introduction, a body (organized into main points using a logical pattern), and a conclusion (summarizing and providing closure). A formal outline, using consistent numbering and indentation, helps a speaker organize main points and supporting material before delivering the speech.",
+      "keyTerms": [
+        {"term": "Introduction", "def": "The opening of a speech, used to gain attention, establish credibility, and preview the topic."},
+        {"term": "Body", "def": "The main part of a speech, organized into a few clear main points."},
+        {"term": "Conclusion", "def": "The closing of a speech, used to summarize main points and provide closure."},
+        {"term": "Organizational pattern", "def": "A logical structure for arranging main points (e.g., chronological, topical, cause-and-effect)."},
+        {"term": "Speech outline", "def": "A formal, hierarchical structure listing a speech's main points and supporting material."}
+      ],
+      "examples": [
+        "A speech about a historical event might use a chronological organizational pattern.",
+        "A speech comparing two smartphone models might use a topical pattern, addressing one point at a time."
+      ],
+      "steps": [
+        "Write the introduction, including an attention-getter and a preview of main points.",
+        "List 2-4 main points for the body, each supported by evidence.",
+        "Choose an organizational pattern (chronological, topical, cause-and-effect) that fits the content.",
+        "Write the conclusion, summarizing the main points and providing a memorable closing."
+      ],
+      "remember": [
+        "Every speech needs an introduction, body, and conclusion.",
+        "The introduction gains attention, builds credibility, and previews the topic.",
+        "Organizational patterns include chronological, topical, and cause-and-effect structures.",
+        "A formal outline uses consistent numbering and indentation to organize main points and support."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What are the three main parts of a speech's structure?", "options": ["Introduction, argument, citation", "Introduction, body, conclusion", "Topic, purpose, delivery", "Hook, evidence, fallacy"], "correct": 1, "explanation": "A speech's structure consists of an introduction, a body, and a conclusion."},
+        {"q": "What is the purpose of a speech's introduction?", "options": ["To summarize the speech", "To gain attention, build credibility, and preview the topic", "To cite sources", "To deliver the main argument"], "correct": 1, "explanation": "The introduction gains the audience's attention, establishes credibility, and previews the topic."},
+        {"q": "What is a \"chronological\" organizational pattern?", "options": ["Organizing points by importance", "Organizing points in time order", "Organizing points by cause and effect only", "Organizing points randomly"], "correct": 1, "explanation": "A chronological pattern organizes main points in the order events occurred over time."},
+        {"q": "What is the purpose of a speech's conclusion?", "options": ["To introduce new arguments", "To summarize main points and provide closure", "To cite all sources", "To restate the introduction word for word"], "correct": 1, "explanation": "The conclusion summarizes the main points and provides closure for the audience."},
+        {"q": "What does a formal speech outline use to organize content?", "options": ["Random bullet points", "Consistent numbering and indentation", "Only paragraphs", "A single main point"], "correct": 1, "explanation": "A formal outline uses consistent numbering and indentation to organize main points and supporting material."}
+      ]
+    }
+  },
+  "Content and Supporting Materials": {
+    "guide": {
+      "explanation": "A speech's arguments are built from claims backed by evidence and sound reasoning. Reasoning fallacies — logical errors like hasty generalizations or ad hominem attacks — can undermine an otherwise strong argument, which is why understanding different types of evidence and how to use them credibly is essential.",
+      "keyTerms": [
+        {"term": "Claim", "def": "A statement a speaker wants the audience to accept as true."},
+        {"term": "Argument", "def": "A claim supported by evidence and reasoning."},
+        {"term": "Reasoning fallacy", "def": "An error in logic that weakens an argument's validity."},
+        {"term": "Evidence", "def": "Supporting material (facts, statistics, testimony, examples) used to back a claim."},
+        {"term": "Testimony", "def": "Evidence in the form of a quotation or statement from another person, often an expert."}
+      ],
+      "examples": [
+        "A claim like \"exercise improves mental health\" becomes an argument once backed by scientific studies and clear reasoning.",
+        "Citing a doctor's statement about a health topic is an example of using testimony as evidence."
+      ],
+      "steps": [
+        "State a clear claim you want the audience to accept.",
+        "Gather evidence (statistics, testimony, examples) that supports the claim.",
+        "Explain the reasoning that connects the evidence to the claim.",
+        "Check the argument for reasoning fallacies before including it in the speech."
+      ],
+      "remember": [
+        "A claim becomes an argument once it's backed by evidence and reasoning.",
+        "Reasoning fallacies (like hasty generalizations) weaken an argument's credibility.",
+        "Types of evidence include statistics, testimony, and examples.",
+        "Testimony is evidence in the form of a statement or quotation from another person."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"claim\" in a speech?", "options": ["A type of evidence", "A statement a speaker wants the audience to accept as true", "A reasoning fallacy", "A citation"], "correct": 1, "explanation": "A claim is a statement a speaker wants the audience to accept as true."},
+        {"q": "What turns a claim into an argument?", "options": ["Repeating it multiple times", "Supporting it with evidence and reasoning", "Making it longer", "Removing all evidence"], "correct": 1, "explanation": "A claim becomes an argument once it is supported by evidence and sound reasoning."},
+        {"q": "What is a \"reasoning fallacy\"?", "options": ["A strong piece of evidence", "An error in logic that weakens an argument", "A type of testimony", "A speech organizational pattern"], "correct": 1, "explanation": "A reasoning fallacy is an error in logic that weakens an argument's validity."},
+        {"q": "What is \"testimony\" as a type of evidence?", "options": ["A statistic", "A quotation or statement from another person", "A personal opinion only", "A type of fallacy"], "correct": 1, "explanation": "Testimony is evidence in the form of a quotation or statement from another person."},
+        {"q": "Why should a speaker check their argument for reasoning fallacies?", "options": ["Fallacies strengthen an argument", "Fallacies weaken an argument's credibility", "Fallacies are required in persuasive speeches", "Fallacies only matter in written work"], "correct": 1, "explanation": "Reasoning fallacies weaken an argument's credibility and should be avoided."}
+      ]
+    }
+  },
+  "Research": {
+    "guide": {
+      "explanation": "Strong speeches are grounded in solid research — using both secondary sources (existing books, articles, and studies) and, when appropriate, primary research (like interviews or surveys conducted by the speaker). Evaluating a source's credibility before using it, and citing it properly during the speech, are both essential for building audience trust.",
+      "keyTerms": [
+        {"term": "Secondary research", "def": "Using existing sources like books, articles, and studies conducted by others."},
+        {"term": "Primary research", "def": "Original research conducted by the speaker, like interviews or surveys."},
+        {"term": "Source credibility", "def": "How trustworthy and reliable a source of information is."},
+        {"term": "Citation", "def": "Giving proper credit to a source of information within a speech."}
+      ],
+      "examples": [
+        "Reading a peer-reviewed journal article on climate change is secondary research.",
+        "Conducting an original survey of classmates' opinions on a topic is primary research."
+      ],
+      "steps": [
+        "Check the author's expertise and qualifications on the topic.",
+        "Check when the source was published — is the information current?",
+        "Check for potential bias — does the source have a hidden agenda?",
+        "Cross-reference the information with other credible sources to confirm accuracy."
+      ],
+      "remember": [
+        "Secondary research uses existing sources; primary research is original research conducted by the speaker.",
+        "Evaluate a source's credibility by checking the author's expertise, publication date, and potential bias.",
+        "Citation gives proper credit to a source, building audience trust and avoiding plagiarism.",
+        "Both source types can strengthen a speech's supporting material when used appropriately."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"secondary research\"?", "options": ["Original research conducted by the speaker", "Using existing sources like books, articles, and studies", "A type of reasoning fallacy", "A citation format"], "correct": 1, "explanation": "Secondary research uses existing sources created by others."},
+        {"q": "What is \"primary research\"?", "options": ["Using only secondary sources", "Original research conducted by the speaker, like interviews or surveys", "A citation style", "A type of evidence only used in ceremonial speeches"], "correct": 1, "explanation": "Primary research is original research conducted directly by the speaker."},
+        {"q": "What should you check when evaluating a source's credibility?", "options": ["Only its length", "The author's expertise, publication date, and potential bias", "Only its popularity", "Only its citation style"], "correct": 1, "explanation": "Evaluating credibility involves checking the author's expertise, how current the source is, and potential bias."},
+        {"q": "Why is proper citation important during research-based speeches?", "options": ["It's optional", "It gives credit to sources and builds audience trust", "It makes the speech longer", "It replaces the need for evidence"], "correct": 1, "explanation": "Proper citation gives credit to sources, builds audience trust, and avoids plagiarism."},
+        {"q": "Which of these is an example of primary research?", "options": ["Reading a published book", "Conducting an original survey of classmates", "Citing a journal article", "Reading a news article"], "correct": 1, "explanation": "Conducting an original survey is primary research, since it's original research conducted directly by the speaker."}
+      ]
+    }
+  },
+  "Language, Style, and Listening": {
+    "guide": {
+      "explanation": "Effective speakers choose language that's clear, vivid, and appropriate for their audience, while understanding that listening is an active process distinct from simply hearing. There are five main listening types — appreciative, discriminative, comprehensive, empathic, and critical — and speakers benefit from anticipating listening challenges like apprehension or short attention spans.",
+      "keyTerms": [
+        {"term": "Hearing", "def": "The physiological process of receiving and processing sound."},
+        {"term": "Listening", "def": "The active process of receiving, attending to, constructing meaning from, and responding to a message."},
+        {"term": "Appreciative listening", "def": "Listening for enjoyment, like listening to music or a speaker's style."},
+        {"term": "Comprehensive listening", "def": "Listening with the goal of understanding, remembering, and recalling information."},
+        {"term": "Critical listening", "def": "Listening to evaluate the worth or validity of a message."},
+        {"term": "Listening apprehension", "def": "Anxiety about listening, often from fear of misinterpreting a message."}
+      ],
+      "examples": [
+        "Listening to a favorite song for enjoyment is appreciative listening.",
+        "Listening to a lecture in order to take notes and remember content for an exam is comprehensive listening."
+      ],
+      "steps": [
+        "Ask: is the listener seeking enjoyment? That's appreciative listening.",
+        "Ask: is the listener trying to understand and remember information? That's comprehensive listening.",
+        "Ask: is the listener evaluating the message's validity or worth? That's critical listening.",
+        "Ask: is the listener providing emotional support? That's empathic listening."
+      ],
+      "remember": [
+        "Hearing is physiological; listening is an active process of constructing meaning.",
+        "The five listening types: appreciative, discriminative, comprehensive, empathic, critical.",
+        "Most people remember only about 50% of what they hear, even when listening carefully.",
+        "Listening apprehension is anxiety about misinterpreting or being affected by a message."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the difference between hearing and listening?", "options": ["They are the same thing", "Hearing is physiological; listening is an active process of constructing meaning", "Listening only happens in speeches", "Hearing requires more effort than listening"], "correct": 1, "explanation": "Hearing is physiological reception of sound, while listening actively constructs meaning."},
+        {"q": "What type of listening occurs when someone listens to music for enjoyment?", "options": ["Critical listening", "Comprehensive listening", "Appreciative listening", "Empathic listening"], "correct": 2, "explanation": "Appreciative listening occurs when someone listens for enjoyment."},
+        {"q": "What type of listening focuses on evaluating a message's worth or validity?", "options": ["Appreciative listening", "Critical listening", "Empathic listening", "Discriminative listening"], "correct": 1, "explanation": "Critical listening involves evaluating and critically assessing the worth of a message."},
+        {"q": "Approximately what percentage of what they hear do most people remember, even when listening carefully?", "options": ["About 10%", "About 50%", "About 90%", "About 100%"], "correct": 1, "explanation": "Even when listening carefully, most people remember only about 50% of what they hear."},
+        {"q": "What is \"listening apprehension\"?", "options": ["Excitement about listening", "Anxiety about listening, often from fear of misinterpreting a message", "A type of critical listening", "A speech organizational pattern"], "correct": 1, "explanation": "Listening apprehension is anxiety felt about listening, often rooted in fear of misinterpreting the message."}
+      ]
+    }
+  },
+  "Delivery and Apprehension": {
+    "guide": {
+      "explanation": "Effective delivery is conversational (natural, not stiff) and animated (engaged and expressive), supported by strong vocal characteristics and purposeful body language. Public speaking apprehension — the anxiety many people feel before speaking — is extremely common and can be managed through preparation, practice, and specific coping techniques.",
+      "keyTerms": [
+        {"term": "Conversational delivery", "def": "A natural speaking style that feels like genuine communication, not recitation."},
+        {"term": "Vocal characteristics", "def": "Elements of voice like rate, pitch, volume, and pauses that affect delivery."},
+        {"term": "Public speaking apprehension", "def": "The anxiety or fear associated with speaking in front of an audience."},
+        {"term": "Communication apprehension", "def": "Broader anxiety about communicating with others, which can extend beyond public speaking."}
+      ],
+      "examples": [
+        "A speaker varying their vocal pitch and pace to emphasize key points is using vocal characteristics effectively.",
+        "Practicing a speech multiple times in advance is a common technique for managing public speaking apprehension."
+      ],
+      "steps": [
+        "Prepare thoroughly and practice the speech multiple times in advance.",
+        "Focus on the message and audience rather than on personal anxiety.",
+        "Use deep breathing or visualization techniques before speaking.",
+        "Reframe nervous energy as excitement, which can enhance delivery rather than hinder it."
+      ],
+      "remember": [
+        "Conversational delivery feels natural, not recited or stiff.",
+        "Vocal characteristics include rate, pitch, volume, and pauses.",
+        "Public speaking apprehension is extremely common and can be managed through preparation and practice.",
+        "Communication apprehension is a broader anxiety about communication that extends beyond just public speaking."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"conversational delivery\" mean?", "options": ["Reading directly from notes", "A natural speaking style that feels like genuine communication", "Speaking as fast as possible", "Avoiding eye contact"], "correct": 1, "explanation": "Conversational delivery is a natural speaking style that feels like genuine communication."},
+        {"q": "Which of these is a \"vocal characteristic\"?", "options": ["Eye contact", "Pitch", "Posture", "Gestures"], "correct": 1, "explanation": "Pitch is a vocal characteristic, along with rate, volume, and pauses."},
+        {"q": "What is \"public speaking apprehension\"?", "options": ["Excitement about speaking", "Anxiety or fear associated with speaking in front of an audience", "A type of vocal characteristic", "A listening type"], "correct": 1, "explanation": "Public speaking apprehension is the anxiety or fear associated with speaking in front of an audience."},
+        {"q": "What is a common technique for managing public speaking apprehension?", "options": ["Avoiding preparation", "Practicing the speech multiple times in advance", "Speaking as quietly as possible", "Ignoring the audience entirely"], "correct": 1, "explanation": "Practicing the speech multiple times in advance is a common and effective technique for managing apprehension."},
+        {"q": "What is \"communication apprehension\"?", "options": ["A type of vocal characteristic", "A broader anxiety about communicating with others, beyond just public speaking", "Only relevant to written communication", "A positive emotion only"], "correct": 1, "explanation": "Communication apprehension is a broader anxiety about communicating with others."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "Reading": {
+    "guide": {
+      "explanation": "This section tests reading comprehension skills essential for interpreting dental health literature, patient charts, and professional articles — including identifying the main idea, distinguishing supporting details, drawing inferences, and recognizing an author's purpose. Strong comprehension also relies on using context clues to determine unfamiliar word meanings.",
+      "keyTerms": [
+        {"term": "Main idea", "def": "The central point or message of a passage."},
+        {"term": "Supporting detail", "def": "Information that reinforces or explains the main idea."},
+        {"term": "Inference", "def": "A logical conclusion drawn from information implied but not directly stated."},
+        {"term": "Author's purpose", "def": "The reason a text was written (to inform, persuade, entertain, or describe)."},
+        {"term": "Context clues", "def": "Surrounding words or sentences that help determine an unfamiliar word's meaning."}
+      ],
+      "examples": [
+        "A passage about fluoride's role in preventing tooth decay likely has the main idea \"fluoride strengthens enamel,\" supported by details about its chemical action.",
+        "If a passage describes a patient wincing and gripping the chair without directly stating anxiety, a reader can infer the patient is anxious."
+      ],
+      "steps": [
+        "Read the entire passage once for a general understanding.",
+        "Identify the topic — what or who the passage is about.",
+        "Determine what the author is saying about that topic — this is the main idea.",
+        "Check that the other sentences support or explain that main idea."
+      ],
+      "remember": [
+        "The main idea is the central point; supporting details reinforce or explain it.",
+        "An inference is a logical conclusion based on implied information.",
+        "Author's purpose can be to inform, persuade, entertain, or describe.",
+        "Context clues help determine unfamiliar word meanings from surrounding text."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the \"main idea\" of a passage?", "options": ["A minor supporting detail", "The central point or message of the passage", "A direct quote", "The author's biography"], "correct": 1, "explanation": "The main idea is the central point the passage is conveying."},
+        {"q": "What is an \"inference\"?", "options": ["A directly stated fact", "A logical conclusion drawn from implied information", "A supporting detail only", "The author's purpose"], "correct": 1, "explanation": "An inference is drawn from implied, not directly stated, information."},
+        {"q": "What are \"context clues\"?", "options": ["A type of main idea", "Surrounding words that help determine an unfamiliar word's meaning", "The author's purpose", "A supporting detail only"], "correct": 1, "explanation": "Context clues help determine unfamiliar word meanings."},
+        {"q": "What does \"author's purpose\" refer to?", "options": ["The main idea only", "The reason a text was written", "A supporting detail", "A type of inference"], "correct": 1, "explanation": "Author's purpose is the reason a text was written."},
+        {"q": "What is a \"supporting detail\"?", "options": ["The central point of a passage", "Information that reinforces the main idea", "An inference", "The author's tone"], "correct": 1, "explanation": "A supporting detail reinforces or explains the main idea."}
+      ]
+    }
+  },
+  "English and Language Usage": {
+    "guide": {
+      "explanation": "This section tests grammar, sentence structure, and word usage skills essential for clear professional communication and accurate patient documentation. Key areas include subject-verb agreement, correct punctuation, parts of speech, and distinguishing commonly confused words.",
+      "keyTerms": [
+        {"term": "Subject-verb agreement", "def": "Matching a singular or plural verb to its corresponding subject."},
+        {"term": "Parts of speech", "def": "The grammatical categories of words (noun, verb, adjective, adverb, pronoun, preposition, conjunction)."},
+        {"term": "Homophones", "def": "Words that sound alike but have different meanings and spellings."},
+        {"term": "Punctuation", "def": "Marks (commas, periods, semicolons) used to clarify meaning and structure in writing."},
+        {"term": "Sentence fragment", "def": "An incomplete sentence missing a subject, verb, or complete thought."}
+      ],
+      "examples": [
+        "\"The hygienist and the dentist review the X-rays\" uses correct subject-verb agreement for a compound subject.",
+        "\"Its time for the patient's next appointment, and it's on the calendar\" correctly distinguishes \"its\" and \"it's.\""
+      ],
+      "steps": [
+        "Identify the true subject of the sentence, ignoring descriptive phrases in between.",
+        "Determine if that subject is singular or plural.",
+        "Match the verb form to the subject's number.",
+        "Watch for compound subjects, which are usually treated as plural."
+      ],
+      "remember": [
+        "Subject-verb agreement requires matching a singular or plural verb to its subject.",
+        "Homophones sound alike but have distinct meanings and spellings.",
+        "A sentence fragment is missing a subject, verb, or complete thought.",
+        "Correct punctuation clarifies meaning in written communication."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"subject-verb agreement\"?", "options": ["Matching adjectives to nouns", "Matching a singular or plural verb to its subject", "A type of punctuation", "A homophone"], "correct": 1, "explanation": "Subject-verb agreement means matching a verb's number to its subject."},
+        {"q": "Which sentence correctly distinguishes \"its\" from \"it's\"?", "options": ["\"Its time, and its on the calendar.\"", "\"It's time for the patient's next appointment, and it's on the calendar.\"", "\"Its' time and it's' on the calendar.\"", "\"It time and its on calendar.\""], "correct": 1, "explanation": "This sentence correctly uses \"it's\" (it is) in both places."},
+        {"q": "What is a \"sentence fragment\"?", "options": ["A complete sentence", "An incomplete sentence missing a subject, verb, or complete thought", "A type of punctuation", "A homophone"], "correct": 1, "explanation": "A sentence fragment is missing a subject, verb, or complete thought."},
+        {"q": "What are \"parts of speech\"?", "options": ["Types of punctuation", "The grammatical categories of words like noun, verb, and adjective", "A type of sentence fragment", "A homophone pair"], "correct": 1, "explanation": "Parts of speech are the grammatical categories of words."},
+        {"q": "How should a compound subject joined by \"and\" usually be treated for verb agreement?", "options": ["As always singular", "As usually plural", "As irrelevant", "As always past tense"], "correct": 1, "explanation": "A compound subject joined by \"and\" is usually treated as plural."}
+      ]
+    }
+  },
+  "Math – Part 1": {
+    "guide": {
+      "explanation": "This section covers foundational arithmetic and algebra skills — operations with whole numbers, fractions, decimals, and percentages, plus basic algebraic problem-solving. These skills underlie calculations dental professionals use, like mixing material ratios or calculating treatment costs.",
+      "keyTerms": [
+        {"term": "Fraction", "def": "A part of a whole, expressed as a numerator over a denominator."},
+        {"term": "Decimal", "def": "A number expressed using a decimal point to show values less than one."},
+        {"term": "Percentage", "def": "A value expressed as a portion of 100."},
+        {"term": "Order of operations", "def": "The standard sequence (parentheses, exponents, multiplication/division, addition/subtraction) for solving an expression."},
+        {"term": "Ratio", "def": "A comparison of two quantities, such as a powder-to-liquid mixing ratio for dental materials."}
+      ],
+      "examples": [
+        "Converting 3/5 to a decimal: 3 divided by 5 equals 0.6.",
+        "A dental material mixing ratio like \"2:1\" describes the proportion of powder to liquid needed."
+      ],
+      "steps": [
+        "Divide the numerator by the denominator to get a decimal.",
+        "Multiply the decimal by 100.",
+        "Add a percent sign to the result.",
+        "Example: 3/5 becomes 0.6, then 60%."
+      ],
+      "remember": [
+        "Fractions, decimals, and percentages are different ways of representing the same value.",
+        "Order of operations (PEMDAS) ensures consistent results in multi-step expressions.",
+        "Ratios compare two quantities, such as a material mixing proportion.",
+        "Converting between fractions, decimals, and percentages is a foundational math skill."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is 3/5 expressed as a decimal?", "options": ["0.35", "0.6", "3.5", "0.53"], "correct": 1, "explanation": "3 divided by 5 equals 0.6."},
+        {"q": "What does PEMDAS help ensure?", "options": ["Random calculation order", "A consistent order of operations", "Only addition first", "Only division first"], "correct": 1, "explanation": "PEMDAS ensures a consistent order of operations."},
+        {"q": "What is a \"ratio\"?", "options": ["A single number", "A comparison of two quantities", "A type of percentage only", "A fraction's denominator only"], "correct": 1, "explanation": "A ratio compares two quantities, like a material mixing proportion."},
+        {"q": "How do you convert a decimal to a percentage?", "options": ["Divide by 100", "Multiply by 100 and add a percent sign", "Subtract 100", "Add 100"], "correct": 1, "explanation": "Converting a decimal to a percentage requires multiplying by 100."},
+        {"q": "What is a \"fraction\"?", "options": ["A whole number only", "A part of a whole, expressed as a numerator over a denominator", "A type of ratio only", "A percentage"], "correct": 1, "explanation": "A fraction represents a part of a whole."}
+      ]
+    }
+  },
+  "Math – Part 2": {
+    "guide": {
+      "explanation": "This section builds on basic math with multi-step word problems, proportions, and interpreting graphs and tables. Proportions are especially useful in dental settings for calculating material mixing ratios or scaling recipes for dental cements and impression materials.",
+      "keyTerms": [
+        {"term": "Proportion", "def": "An equation stating that two ratios are equal, often solved by cross multiplication."},
+        {"term": "Word problem", "def": "A math problem presented in narrative form, requiring translation into a numerical equation."},
+        {"term": "Cross multiplication", "def": "A method for solving a proportion by multiplying diagonally across the equal sign."},
+        {"term": "Measurement conversion", "def": "Changing a value from one unit of measurement to another."}
+      ],
+      "examples": [
+        "If a mixing ratio calls for 2 grams of powder per 1 mL of liquid, and 5 mL of liquid is needed, setting up \"2/1 = x/5\" gives x = 10 grams of powder.",
+        "A word problem describing appointment times over a workday requires translating the narrative into an equation to find total scheduled time."
+      ],
+      "steps": [
+        "Set up the proportion with equivalent ratios on each side of the equal sign.",
+        "Cross multiply — multiply the numerator of one side by the denominator of the other.",
+        "Solve the resulting equation for the unknown variable.",
+        "Check that the answer makes logical sense in context."
+      ],
+      "remember": [
+        "A proportion states that two ratios are equal, commonly solved by cross multiplication.",
+        "Word problems require translating a narrative description into a numerical equation.",
+        "Proportions are useful for scaling dental material mixing ratios accurately.",
+        "Always check that a calculated answer makes logical sense in context."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"proportion\"?", "options": ["A single ratio", "An equation stating that two ratios are equal", "A type of percentage", "A word problem only"], "correct": 1, "explanation": "A proportion is an equation stating that two ratios are equal."},
+        {"q": "How is a proportion typically solved?", "options": ["By addition", "By cross multiplication", "By subtraction only", "It cannot be solved"], "correct": 1, "explanation": "Proportions are typically solved by cross multiplication."},
+        {"q": "If a ratio calls for 2 grams of powder per 1 mL of liquid, how much powder is needed for 5 mL?", "options": ["5 grams", "8 grams", "10 grams", "12 grams"], "correct": 2, "explanation": "Setting up 2/1 = x/5 and solving gives x = 10 grams."},
+        {"q": "What does a \"word problem\" require?", "options": ["No translation needed", "Translating a narrative description into a numerical equation", "Only memorization", "Ignoring the context"], "correct": 1, "explanation": "A word problem requires translating narrative into a numerical equation."},
+        {"q": "Why are proportions useful in dental settings?", "options": ["They are not useful", "They help accurately scale material mixing ratios", "They only apply to geometry", "They are used only for word problems"], "correct": 1, "explanation": "Proportions help scale dental material mixing ratios accurately."}
+      ]
+    }
+  },
+  "Conversions": {
+    "guide": {
+      "explanation": "This section covers converting between different units of measurement, especially metric units like milligrams, grams, and milliliters — essential for accurately measuring dental materials and understanding patient records documented in different units.",
+      "keyTerms": [
+        {"term": "Metric system", "def": "The decimal-based measurement system used in most clinical settings (grams, liters, meters)."},
+        {"term": "Conversion factor", "def": "A ratio used to convert a quantity from one unit to another without changing its actual value."},
+        {"term": "Milligram (mg) and gram (g)", "def": "Metric units of mass, with 1000 mg equal to 1 gram."},
+        {"term": "Milliliter (mL) and liter (L)", "def": "Metric units of volume, with 1000 mL equal to 1 liter."}
+      ],
+      "examples": [
+        "Converting 500 mg to grams: since 1000 mg = 1 gram, 500 mg equals 0.5 grams.",
+        "Converting 250 mL to liters: since 1000 mL = 1 liter, 250 mL equals 0.25 liters."
+      ],
+      "steps": [
+        "Identify the starting unit and the desired unit.",
+        "Determine the conversion factor between the two units (e.g., 1000 mg = 1 g).",
+        "Multiply or divide by the conversion factor as appropriate.",
+        "Double-check that the converted value makes logical sense."
+      ],
+      "remember": [
+        "1000 milligrams (mg) = 1 gram (g).",
+        "1000 milliliters (mL) = 1 liter (L).",
+        "Converting to a smaller unit yields a larger number, and vice versa.",
+        "Accurate unit conversion supports accurate material measurement and documentation."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "How many milligrams are in 1 gram?", "options": ["10", "100", "1000", "10000"], "correct": 2, "explanation": "There are 1000 milligrams in 1 gram."},
+        {"q": "What is 250 mL expressed in liters?", "options": ["0.025 L", "0.25 L", "2.5 L", "25 L"], "correct": 1, "explanation": "Since 1000 mL equals 1 liter, 250 mL equals 0.25 liters."},
+        {"q": "What is a \"conversion factor\"?", "options": ["A type of material", "A ratio used to convert a quantity from one unit to another", "A percentage", "A fraction only"], "correct": 1, "explanation": "A conversion factor converts units without changing the actual value."},
+        {"q": "When converting a value to a smaller unit, what happens to the resulting number?", "options": ["It gets smaller", "It gets larger", "It stays the same", "It becomes zero"], "correct": 1, "explanation": "Converting to a smaller unit results in a larger number."},
+        {"q": "Why is accurate unit conversion important in dental settings?", "options": ["It is not important", "It supports accurate material measurement and documentation", "It only matters for billing", "It only applies to X-rays"], "correct": 1, "explanation": "Accurate conversion supports accurate material measurement and documentation."}
+      ]
+    }
+  },
+  "Perceptual Ability": {
+    "guide": {
+      "explanation": "This section tests spatial visualization skills — the ability to mentally manipulate and interpret 2D and 3D objects — through categories like apertures (determining if an object can pass through an opening), view recognition (imagining an object from different angles), angle discrimination, paper folding, cube counting, and spatial relations. These skills are best developed through consistent practice, starting with physical objects before moving to abstract mental visualization.",
+      "keyTerms": [
+        {"term": "Aperture", "def": "An opening, hole, or gap; aperture problems test whether a 3D object can pass through a given opening."},
+        {"term": "View recognition", "def": "Imagining how an object appears when viewed from a different angle than shown."},
+        {"term": "Angle discrimination", "def": "Ranking a series of angles from smallest to largest."},
+        {"term": "Paper folding", "def": "Mentally unfolding a piece of paper that has been folded and hole-punched to predict the resulting pattern."},
+        {"term": "Cube counting", "def": "Evaluating a stack of cubes to determine how much of each cube is exposed."}
+      ],
+      "examples": [
+        "An aperture problem shows an irregular 3D object and asks which of five openings it could pass through if inserted the correct way first.",
+        "A cube-counting problem asks how many faces of a specific cube within a larger stack are visible from the outside."
+      ],
+      "steps": [
+        "Start practicing with concrete physical objects, like children's building blocks.",
+        "Practice building and visualizing how each shape could be moved, rotated, or folded.",
+        "Gradually move from physical objects to drawings on paper.",
+        "Eventually practice visualizing the shapes and transformations mentally, without physical aids."
+      ],
+      "remember": [
+        "Perceptual ability tests spatial visualization, not verbal or mathematical reasoning.",
+        "Aperture problems require imagining an object from all sides before determining which opening it fits through.",
+        "Once an object starts through an aperture, it cannot be twisted or turned — only rotated before entry.",
+        "Practicing with physical objects before moving to abstract visualization is the recommended learning approach."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does an \"aperture\" problem test?", "options": ["Verbal reasoning", "Whether a 3D object can pass through a given opening", "Basic arithmetic", "Reading comprehension"], "correct": 1, "explanation": "Aperture problems test whether a three-dimensional object can pass through a specific opening."},
+        {"q": "What does \"view recognition\" test?", "options": ["Ranking angles", "Imagining how an object appears from a different angle", "Folding paper", "Counting cubes"], "correct": 1, "explanation": "View recognition tests the ability to imagine an object from a different viewing angle."},
+        {"q": "What does \"angle discrimination\" require?", "options": ["Folding paper", "Ranking a series of angles from smallest to largest", "Counting cube faces", "Reading a passage"], "correct": 1, "explanation": "Angle discrimination requires ranking angles from smallest to largest."},
+        {"q": "Once an object begins passing through an aperture, what is NOT allowed?", "options": ["Continuing forward", "Twisting or turning it", "Removing it entirely", "Starting over"], "correct": 1, "explanation": "Once an object starts through an aperture, it cannot be twisted or turned."},
+        {"q": "What is the recommended way to practice perceptual ability skills?", "options": ["Skip practice entirely", "Start with physical objects, then move to abstract visualization", "Only memorize formulas", "Only read about the concepts"], "correct": 1, "explanation": "Starting with concrete physical objects before moving to abstract visualization is the recommended approach."}
+      ]
+    }
+  },
+  "Biology of Microorganisms": {
+    "guide": {
+      "explanation": "This chapter covers cell theory and structure, distinguishing prokaryotic cells (like bacteria, which lack a nucleus) from more complex cell types, and describes bacteria by their basic shapes — spherical (coccus), rod-like (bacillus), and spiral (spirillum) — and their characteristic growth arrangements, like chains (strepto-) or clusters (staphylo-).",
+      "keyTerms": [
+        {"term": "Cell theory", "def": "The principle that all living things are made of cells, which are the basic units of life and arise from preexisting cells."},
+        {"term": "Prokaryotic cell", "def": "A cell without a nucleus or membrane-bound organelles, including bacteria and archaea."},
+        {"term": "Coccus", "def": "A spherical-shaped bacterium."},
+        {"term": "Bacillus", "def": "A rod-shaped bacterium."},
+        {"term": "Spirillum", "def": "A spiral-shaped bacterium."}
+      ],
+      "examples": [
+        "Bacteria dividing in one plane and remaining in pairs are described with the prefix \"diplo-\" (e.g., diplococcus).",
+        "Bacteria that divide randomly and cluster like grapes are described with the prefix \"staphylo-\" (e.g., Staphylococcus)."
+      ],
+      "steps": [
+        "Identify the basic shape of a bacterium: spherical (coccus), rod-like (bacillus), or spiral (spirillum/vibrio).",
+        "Identify its growth arrangement: pairs (diplo-), chains (strepto-), clusters (staphylo-), or other patterns.",
+        "Combine the shape and arrangement terms to classify the bacterium (e.g., streptococcus = chains of spherical bacteria).",
+        "Recognize that prokaryotic cells, unlike more complex cells, lack a nucleus and membrane-bound organelles."
+      ],
+      "remember": [
+        "Cell theory states all living things are made of cells, which arise from preexisting cells.",
+        "Prokaryotic cells (bacteria, archaea) lack a nucleus and membrane-bound organelles.",
+        "Bacteria's three basic shapes: coccus (spherical), bacillus (rod-like), spirillum (spiral).",
+        "Growth arrangement prefixes: diplo- (pairs), strepto- (chains), staphylo- (clusters)."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"cell theory\" state?", "options": ["Cells are optional for life", "All living things are made of cells, which arise from preexisting cells", "Only bacteria have cells", "Cells have no function"], "correct": 1, "explanation": "Cell theory states all living things are made of cells, which come from preexisting cells."},
+        {"q": "What defines a \"prokaryotic\" cell?", "options": ["It has a nucleus", "It lacks a nucleus and membrane-bound organelles", "It is always spherical", "It cannot divide"], "correct": 1, "explanation": "Prokaryotic cells lack a nucleus and membrane-bound organelles."},
+        {"q": "What shape describes a \"coccus\" bacterium?", "options": ["Rod-like", "Spherical", "Spiral", "Cube-shaped"], "correct": 1, "explanation": "Coccus refers to a spherical-shaped bacterium."},
+        {"q": "What does the prefix \"strepto-\" indicate about bacterial arrangement?", "options": ["Pairs", "Chains", "Random clusters", "Tetrads"], "correct": 1, "explanation": "The prefix \"strepto-\" indicates bacteria arranged in chains."},
+        {"q": "What shape describes a \"bacillus\" bacterium?", "options": ["Spherical", "Rod-like", "Spiral", "Cube-shaped"], "correct": 1, "explanation": "Bacillus refers to a rod-shaped bacterium."}
+      ]
+    }
+  },
+  "Anatomy & Physiology": {
+    "guide": {
+      "explanation": "Anatomy is the study of the body's internal and external structures, while physiology studies the functions of those structures. Anatomical position — standing erect, facing forward, with palms turned forward — is the standard reference posture used to describe body locations consistently, and the human body is composed of multiple interacting systems, including the integumentary system (skin, hair, nails).",
+      "keyTerms": [
+        {"term": "Anatomy", "def": "The study of the body's internal and external structures and their physical relationships."},
+        {"term": "Physiology", "def": "The study of the functions of the body's structures."},
+        {"term": "Anatomical position", "def": "The standard reference posture: standing erect, facing forward, palms turned forward."},
+        {"term": "Integumentary system", "def": "The body system consisting of skin, hair, nails, and related glands, playing a key role in homeostasis."},
+        {"term": "Pathology", "def": "The study of the effects of disease on organ or system function."}
+      ],
+      "examples": [
+        "Describing a wound as being on the \"anterior\" (front) surface of the forearm relies on the body being in anatomical position.",
+        "The integumentary system helps maintain homeostasis by regulating body temperature through sweat glands."
+      ],
+      "steps": [
+        "Picture the body standing erect, facing forward, with palms turned forward — this is anatomical position.",
+        "Use this reference position to consistently describe the location of any body part or structure.",
+        "Distinguish anatomy (structure) from physiology (function) when studying a body system.",
+        "Apply pathology concepts when studying how a disease affects a specific system's normal function."
+      ],
+      "remember": [
+        "Anatomical position is the standard reference posture: standing, facing forward, palms forward.",
+        "Anatomy studies structure; physiology studies function.",
+        "The integumentary system (skin, hair, nails) plays a key role in maintaining homeostasis.",
+        "Pathology studies how disease affects the function of organs or systems."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"anatomical position\"?", "options": ["Lying down facing up", "Standing erect, facing forward, with palms turned forward", "Sitting with arms crossed", "A type of disease"], "correct": 1, "explanation": "Anatomical position is the standard reference posture: standing erect, facing forward, palms forward."},
+        {"q": "What is the difference between anatomy and physiology?", "options": ["They are the same", "Anatomy studies structure; physiology studies function", "Physiology studies structure; anatomy studies function", "Neither studies the body"], "correct": 1, "explanation": "Anatomy studies structure, while physiology studies the function of those structures."},
+        {"q": "What does the integumentary system consist of?", "options": ["Bones and muscles", "Skin, hair, and nails", "The heart and blood vessels", "The brain and nerves"], "correct": 1, "explanation": "The integumentary system consists of skin, hair, and nails."},
+        {"q": "What does \"pathology\" study?", "options": ["Healthy body structures only", "The effects of disease on organ or system function", "Only anatomical position", "Only the integumentary system"], "correct": 1, "explanation": "Pathology studies the effects of disease on organ or system function."},
+        {"q": "How does the integumentary system help maintain homeostasis?", "options": ["It has no role in homeostasis", "By regulating body temperature through sweat glands", "By pumping blood", "By producing digestive enzymes"], "correct": 1, "explanation": "The integumentary system helps regulate body temperature through sweat glands, supporting homeostasis."}
+      ]
+    }
+  },
+  "General Sciences": {
+    "guide": {
+      "explanation": "This chapter covers the scientific method as a systematic process of observation, hypothesis, prediction, and experimentation, alongside foundational life science concepts like macromolecules and the role of chromosomes, genes, and DNA/RNA in heredity. These concepts underpin the biological and chemical reasoning used throughout dental science coursework.",
+      "keyTerms": [
+        {"term": "Scientific method", "def": "A systematic process of observation, hypothesis formation, prediction, and experimentation used to investigate questions."},
+        {"term": "Hypothesis", "def": "A testable, educated guess about the outcome of an experiment."},
+        {"term": "Macromolecule", "def": "A large, complex molecule (like proteins, carbohydrates, lipids, or nucleic acids) essential to living organisms."},
+        {"term": "DNA", "def": "Deoxyribonucleic acid, the molecule carrying genetic instructions for an organism's development and function."},
+        {"term": "Gene", "def": "A segment of DNA that codes for a specific protein or trait."}
+      ],
+      "examples": [
+        "Testing whether a new toothpaste reduces plaque more effectively than a standard one follows the scientific method: hypothesis, experiment, observation, conclusion.",
+        "Proteins, carbohydrates, lipids, and nucleic acids are the four major classes of macromolecules essential to life."
+      ],
+      "steps": [
+        "Make an observation about something you want to understand.",
+        "Formulate a hypothesis — a testable, educated guess about the outcome.",
+        "Design and conduct an experiment to test the hypothesis.",
+        "Analyze the results and draw a conclusion, refining the hypothesis if needed."
+      ],
+      "remember": [
+        "The scientific method follows observation, hypothesis, prediction, and experimentation.",
+        "Macromolecules include proteins, carbohydrates, lipids, and nucleic acids.",
+        "DNA carries the genetic instructions for an organism's development and function.",
+        "A gene is a segment of DNA coding for a specific protein or trait."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"hypothesis\"?", "options": ["A proven fact", "A testable, educated guess about the outcome of an experiment", "A type of macromolecule", "A chemical reaction"], "correct": 1, "explanation": "A hypothesis is a testable, educated guess about an experiment's outcome."},
+        {"q": "What are the four major classes of macromolecules?", "options": ["Atoms, ions, salts, and acids", "Proteins, carbohydrates, lipids, and nucleic acids", "Bacteria, viruses, fungi, and protozoa", "Solids, liquids, gases, and plasma"], "correct": 1, "explanation": "The four major classes of macromolecules are proteins, carbohydrates, lipids, and nucleic acids."},
+        {"q": "What does DNA carry?", "options": ["Only waste products", "The genetic instructions for an organism's development and function", "Only energy", "Only water"], "correct": 1, "explanation": "DNA carries the genetic instructions for an organism's development and function."},
+        {"q": "What is a \"gene\"?", "options": ["A type of macromolecule only", "A segment of DNA that codes for a specific protein or trait", "A type of hypothesis", "A laboratory tool"], "correct": 1, "explanation": "A gene is a segment of DNA coding for a specific protein or trait."},
+        {"q": "What is the correct order of steps in the scientific method?", "options": ["Experiment, hypothesis, observation, prediction", "Observation, hypothesis, prediction, experiment", "Prediction, experiment, hypothesis, observation", "Hypothesis, observation, experiment, prediction"], "correct": 1, "explanation": "The scientific method follows observation, hypothesis, prediction, and experimentation."}
+      ]
+    }
+  },
+  "Laboratory": {
+    "guide": {
+      "explanation": "This chapter covers basic laboratory techniques and equipment used in scientific and clinical settings — including proper procedures for pouring liquids, measuring volumes accurately, separating solids from liquids, and safely using gas burners and glassware. Familiarity with common laboratory equipment and its correct use is essential for safety and accuracy.",
+      "keyTerms": [
+        {"term": "Graduated cylinder", "def": "A laboratory tool used to measure the volume of a liquid accurately."},
+        {"term": "Meniscus", "def": "The curved surface of a liquid in a container, read at eye level for accurate measurement."},
+        {"term": "Filtration", "def": "A technique used to separate a solid from a liquid by passing the mixture through a filter."},
+        {"term": "Bunsen burner", "def": "A common gas burner used in laboratories for heating substances."},
+        {"term": "Glassware", "def": "Laboratory containers (like beakers, flasks, and test tubes) used to hold, mix, or heat substances."}
+      ],
+      "examples": [
+        "Reading a graduated cylinder's measurement at eye level, at the bottom of the meniscus, ensures an accurate volume reading.",
+        "Filtration is commonly used to separate sand or other solid particles from a liquid mixture."
+      ],
+      "steps": [
+        "Select the appropriate equipment for the task (e.g., a graduated cylinder for precise liquid measurement).",
+        "Pour or measure the substance carefully, avoiding spills or contamination.",
+        "Read measurements at eye level, using the bottom of the meniscus for liquids.",
+        "Follow proper safety procedures when using heat sources like a Bunsen burner."
+      ],
+      "remember": [
+        "A graduated cylinder is used to measure liquid volume accurately.",
+        "The meniscus should be read at eye level for an accurate liquid measurement.",
+        "Filtration separates solids from liquids by passing the mixture through a filter.",
+        "Proper safety procedures are essential when using heat sources like a Bunsen burner."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"graduated cylinder\" used for?", "options": ["Heating substances", "Measuring the volume of a liquid accurately", "Separating solids from liquids", "Storing chemicals long-term"], "correct": 1, "explanation": "A graduated cylinder is used to accurately measure liquid volume."},
+        {"q": "What is the \"meniscus\"?", "options": ["A type of glassware", "The curved surface of a liquid in a container", "A laboratory safety procedure", "A type of filter"], "correct": 1, "explanation": "The meniscus is the curved surface of a liquid, read at eye level for accurate measurement."},
+        {"q": "What is \"filtration\" used for?", "options": ["Measuring liquid volume", "Separating a solid from a liquid", "Heating substances", "Reading a meniscus"], "correct": 1, "explanation": "Filtration separates a solid from a liquid by passing the mixture through a filter."},
+        {"q": "What is a \"Bunsen burner\" used for?", "options": ["Measuring volume", "Heating substances in a laboratory", "Filtering solids", "Reading measurements"], "correct": 1, "explanation": "A Bunsen burner is a common gas burner used for heating substances."},
+        {"q": "Where should you read a liquid's measurement in a graduated cylinder for accuracy?", "options": ["From above, looking down", "At eye level, at the bottom of the meniscus", "From below, looking up", "It doesn't matter"], "correct": 1, "explanation": "Reading at eye level, at the bottom of the meniscus, ensures an accurate measurement."}
+      ]
+    }
+  }
+}

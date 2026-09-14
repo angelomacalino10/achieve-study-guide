@@ -1,0 +1,339 @@
+{
+  "Linear Functions": {
+    "guide": {
+      "explanation": "A linear function has the form f(x) = mx + b, producing a straight-line graph where m is the slope (rate of change) and b is the y-intercept (where the line crosses the y-axis). Slope can be calculated from any two points using the formula (y2-y1)/(x2-x1), and understanding slope and intercepts lets you write, graph, and interpret any linear relationship.",
+      "keyTerms": [
+        {"term": "Slope", "def": "The rate of change of a line, calculated as (y2-y1)/(x2-x1) between any two points."},
+        {"term": "y-intercept", "def": "The point where a line crosses the y-axis (where x = 0)."},
+        {"term": "Slope-intercept form", "def": "y = mx + b, where m is slope and b is the y-intercept."},
+        {"term": "Point-slope form", "def": "y - y1 = m(x - x1), used to write an equation given a point and slope."},
+        {"term": "Parallel lines", "def": "Lines with the same slope that never intersect."},
+        {"term": "Perpendicular lines", "def": "Lines whose slopes are negative reciprocals of each other, intersecting at 90 degrees."}
+      ],
+      "examples": [
+        "A line through (1,3) and (4,9) has slope (9-3)/(4-1) = 6/3 = 2.",
+        "Two lines with slopes 2 and -1/2 are perpendicular, since -1/2 is the negative reciprocal of 2."
+      ],
+      "steps": [
+        "Calculate the slope using (y2-y1)/(x2-x1) from the two given points.",
+        "Choose one point and substitute it, along with the slope, into point-slope form.",
+        "Simplify the equation into slope-intercept form (y = mx + b) if needed.",
+        "Verify by plugging both original points back into the final equation."
+      ],
+      "remember": [
+        "Slope-intercept form: y = mx + b. Slope formula: (y2-y1)/(x2-x1).",
+        "Parallel lines share the same slope; perpendicular lines have slopes that are negative reciprocals.",
+        "The y-intercept is where x = 0; the x-intercept is where y = 0.",
+        "A positive slope rises left to right; a negative slope falls left to right."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the slope of a line passing through (1,3) and (4,9)?", "options": ["1", "2", "3", "6"], "correct": 1, "explanation": "Slope = (9-3)/(4-1) = 6/3 = 2."},
+        {"q": "In y = mx + b, what does \"b\" represent?", "options": ["The slope", "The y-intercept", "The x-intercept", "The x-coordinate"], "correct": 1, "explanation": "In slope-intercept form, \"b\" represents the y-intercept."},
+        {"q": "What is true about the slopes of two parallel lines?", "options": ["They are negative reciprocals", "They are equal", "They always equal zero", "They are always positive"], "correct": 1, "explanation": "Parallel lines share the same slope."},
+        {"q": "What is true about the slopes of two perpendicular lines?", "options": ["They are equal", "They are negative reciprocals of each other", "They are both zero", "They are both undefined"], "correct": 1, "explanation": "Perpendicular lines have slopes that are negative reciprocals of each other."},
+        {"q": "What form is y - y1 = m(x - x1)?", "options": ["Slope-intercept form", "Point-slope form", "Standard form", "Quadratic form"], "correct": 1, "explanation": "This is point-slope form, used to write a line's equation given one point and the slope."}
+      ]
+    }
+  },
+  "Inequalities and Quadratics": {
+    "guide": {
+      "explanation": "Solving inequalities follows most of the same rules as solving equations, with one key exception: multiplying or dividing both sides by a negative number flips the inequality sign. Quadratic equations (ax^2 + bx + c = 0) can be solved by factoring, completing the square, or the quadratic formula, and their graphs form parabolas whose vertex represents either a maximum or minimum point.",
+      "keyTerms": [
+        {"term": "Inequality", "def": "A mathematical statement comparing two expressions using <, >, <=, or >=."},
+        {"term": "Quadratic equation", "def": "An equation of the form ax^2 + bx + c = 0."},
+        {"term": "Parabola", "def": "The U-shaped graph of a quadratic function."},
+        {"term": "Vertex", "def": "The highest or lowest point of a parabola."},
+        {"term": "Discriminant", "def": "The expression b^2 - 4ac, which determines the number and type of solutions to a quadratic equation."},
+        {"term": "Quadratic formula", "def": "x = (-b plus or minus the square root of (b^2-4ac)) divided by 2a."}
+      ],
+      "examples": [
+        "Solving -2x > 6 requires dividing both sides by -2 and flipping the inequality: x < -3.",
+        "The discriminant of x^2 - 4x + 4 = 0 is (-4)^2 - 4(1)(4) = 0, meaning there's exactly one real solution."
+      ],
+      "steps": [
+        "Identify a, b, and c from the equation ax^2 + bx + c = 0.",
+        "Calculate the discriminant: b^2 - 4ac.",
+        "Substitute a, b, and the discriminant into the quadratic formula.",
+        "Simplify to find the one or two solutions (or recognize no real solutions if the discriminant is negative)."
+      ],
+      "remember": [
+        "Flip the inequality sign when multiplying or dividing both sides by a negative number.",
+        "The discriminant tells you how many real solutions a quadratic has: positive = two, zero = one, negative = none (real).",
+        "A parabola's vertex is its maximum point (opens downward) or minimum point (opens upward).",
+        "The quadratic formula always works, even when factoring doesn't."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What happens to an inequality when you multiply or divide both sides by a negative number?", "options": ["Nothing changes", "The inequality sign flips", "The variables cancel out", "The inequality becomes an equation"], "correct": 1, "explanation": "Multiplying or dividing an inequality by a negative number flips the direction of the inequality sign."},
+        {"q": "What does the discriminant (b^2 - 4ac) tell you?", "options": ["The slope of the equation", "The number and type of solutions to a quadratic equation", "The y-intercept", "The vertex location only"], "correct": 1, "explanation": "The discriminant determines how many real solutions a quadratic equation has."},
+        {"q": "If the discriminant of a quadratic equation is negative, how many real solutions does it have?", "options": ["Two", "One", "Zero (no real solutions)", "Infinite"], "correct": 2, "explanation": "A negative discriminant means the quadratic has no real solutions."},
+        {"q": "What shape does a quadratic function's graph form?", "options": ["A straight line", "A parabola", "A circle", "A hyperbola"], "correct": 1, "explanation": "A quadratic function's graph forms a U-shaped curve called a parabola."},
+        {"q": "What is the vertex of a parabola?", "options": ["Where it crosses the x-axis", "Its highest or lowest point", "Its y-intercept only", "Its slope"], "correct": 1, "explanation": "The vertex is the highest or lowest point of the curve, depending on which way it opens."}
+      ]
+    }
+  },
+  "Quadratics II and Complex Numbers": {
+    "guide": {
+      "explanation": "When a quadratic equation's discriminant is negative, its solutions involve the imaginary unit i (defined as the square root of -1), forming complex numbers of the form a + bi. This chapter extends quadratic solving into the complex number system and covers completing the square — a technique for rewriting a quadratic into a form that directly reveals its vertex.",
+      "keyTerms": [
+        {"term": "Imaginary unit (i)", "def": "Defined as the square root of -1."},
+        {"term": "Complex number", "def": "A number of the form a + bi, combining a real part (a) and an imaginary part (bi)."},
+        {"term": "Completing the square", "def": "Rewriting a quadratic expression to isolate a perfect square trinomial."},
+        {"term": "Vertex form", "def": "f(x) = a(x-h)^2 + k, where (h,k) is the vertex of the parabola."},
+        {"term": "Conjugate", "def": "For a complex number a + bi, its conjugate is a - bi."}
+      ],
+      "examples": [
+        "The square root of -9 is 3i, since the square root of -9 equals the square root of 9 times the square root of -1.",
+        "Completing the square on x^2 + 6x + 5 gives (x+3)^2 - 4, revealing a vertex at (-3, -4)."
+      ],
+      "steps": [
+        "Move the constant term to the other side of the equation.",
+        "Take half of the coefficient of x, square it, and add it to both sides.",
+        "Rewrite the left side as a perfect square binomial.",
+        "Solve for x by taking the square root of both sides."
+      ],
+      "remember": [
+        "The imaginary unit i equals the square root of -1.",
+        "A complex number combines a real part and an imaginary part: a + bi.",
+        "Completing the square converts a quadratic into vertex form, directly revealing the vertex.",
+        "The conjugate of a + bi is a - bi; multiplying a complex number by its conjugate eliminates the imaginary part."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the imaginary unit \"i\" defined as?", "options": ["The square root of 1", "The square root of -1", "The square root of 0", "Negative infinity"], "correct": 1, "explanation": "The imaginary unit i is defined as the square root of -1."},
+        {"q": "What is the general form of a complex number?", "options": ["a + b", "a x b", "a + bi", "a - b"], "correct": 2, "explanation": "A complex number has the general form a + bi."},
+        {"q": "What does \"completing the square\" allow you to find directly?", "options": ["The slope of a line", "The vertex of a parabola", "The y-intercept only", "The discriminant"], "correct": 1, "explanation": "Completing the square rewrites a quadratic into vertex form, directly revealing the vertex."},
+        {"q": "What is the conjugate of the complex number 3 + 4i?", "options": ["3 - 4i", "-3 + 4i", "4 + 3i", "-3 - 4i"], "correct": 0, "explanation": "The conjugate of a + bi is a - bi, so the conjugate of 3 + 4i is 3 - 4i."},
+        {"q": "What is the square root of -9?", "options": ["-3", "3", "3i", "-3i"], "correct": 2, "explanation": "The square root of -9 is 3i, since the square root of -1 is i."}
+      ]
+    }
+  },
+  "Higher Degree Polynomials": {
+    "guide": {
+      "explanation": "Polynomials with degree 3 or higher can have multiple real roots (x-intercepts), and this chapter covers tools for finding them: the Rational Root Theorem, synthetic division, and the relationship between a polynomial's degree and its maximum number of turning points and roots.",
+      "keyTerms": [
+        {"term": "Degree", "def": "The highest exponent in a polynomial, determining its maximum number of roots."},
+        {"term": "Root (zero)", "def": "A value of x where the polynomial equals zero."},
+        {"term": "Rational Root Theorem", "def": "A method for identifying possible rational roots of a polynomial based on its leading and constant coefficients."},
+        {"term": "Synthetic division", "def": "A shortcut method for dividing a polynomial by a linear factor."},
+        {"term": "Multiplicity", "def": "How many times a particular root repeats."}
+      ],
+      "examples": [
+        "A degree-4 polynomial can have up to 4 roots and up to 3 turning points on its graph.",
+        "Synthetic division can quickly divide x^3 - 6x^2 + 11x - 6 by (x - 1) to check if 1 is a root."
+      ],
+      "steps": [
+        "Write down the polynomial's coefficients in order.",
+        "Bring down the first coefficient, then repeatedly multiply by the test root and add to the next coefficient.",
+        "If the final remainder is 0, the tested value is a root of the polynomial.",
+        "If not, try another candidate root from the Rational Root Theorem's list."
+      ],
+      "remember": [
+        "A polynomial's degree sets the maximum number of roots it can have.",
+        "The Rational Root Theorem narrows down candidates for rational roots before testing them.",
+        "Synthetic division is a fast way to divide a polynomial by a linear factor and check for roots.",
+        "Multiplicity describes how many times a specific root repeats."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does the \"degree\" of a polynomial determine?", "options": ["Its y-intercept", "The maximum number of roots it can have", "Its slope", "Its discriminant"], "correct": 1, "explanation": "A polynomial's degree determines the maximum number of roots it can have."},
+        {"q": "What is synthetic division used for?", "options": ["Adding polynomials", "Dividing a polynomial by a linear factor", "Graphing quadratics", "Finding the slope of a line"], "correct": 1, "explanation": "Synthetic division is a shortcut method for dividing a polynomial by a linear factor."},
+        {"q": "What does the Rational Root Theorem help identify?", "options": ["The polynomial's degree", "Possible rational roots of a polynomial", "The y-intercept", "The vertex"], "correct": 1, "explanation": "The Rational Root Theorem helps identify possible rational roots based on the polynomial's coefficients."},
+        {"q": "What does \"multiplicity\" describe in relation to a polynomial's roots?", "options": ["The polynomial's degree", "How many times a specific root repeats", "The y-intercept", "The leading coefficient"], "correct": 1, "explanation": "Multiplicity describes how many times a particular root repeats."},
+        {"q": "A degree-4 polynomial can have a maximum of how many roots?", "options": ["2", "3", "4", "Unlimited"], "correct": 2, "explanation": "A polynomial's maximum number of roots equals its degree."}
+      ]
+    }
+  },
+  "Rational Functions": {
+    "guide": {
+      "explanation": "A rational function is a fraction where the numerator and denominator are both polynomials, and its graph often includes asymptotes — lines the graph approaches but never touches. Vertical asymptotes occur where the denominator equals zero, while horizontal asymptotes describe the function's behavior as x approaches positive or negative infinity.",
+      "keyTerms": [
+        {"term": "Rational function", "def": "A function expressed as a ratio of two polynomials."},
+        {"term": "Vertical asymptote", "def": "A vertical line the graph approaches but never crosses, occurring where the denominator equals zero."},
+        {"term": "Horizontal asymptote", "def": "A horizontal line describing the function's end behavior as x approaches infinity."},
+        {"term": "Hole (removable discontinuity)", "def": "A point missing from the graph where a factor cancels between numerator and denominator."},
+        {"term": "Domain restriction", "def": "Values excluded from a function's domain because they make the denominator zero."}
+      ],
+      "examples": [
+        "The function f(x) = 1/(x-2) has a vertical asymptote at x = 2, since the denominator equals zero there.",
+        "If the numerator and denominator of a rational function have the same degree, the horizontal asymptote is the ratio of their leading coefficients."
+      ],
+      "steps": [
+        "Set the denominator equal to zero and solve for x.",
+        "Check whether the same value also makes the numerator zero — if so, it may be a hole instead of an asymptote.",
+        "If only the denominator is zero at that value, it's a vertical asymptote.",
+        "The function is undefined at that x-value."
+      ],
+      "remember": [
+        "Vertical asymptotes occur where the denominator equals zero (and the numerator doesn't).",
+        "Horizontal asymptotes describe end behavior, determined by comparing the degrees of numerator and denominator.",
+        "A hole occurs when a factor cancels between the numerator and denominator at the same x-value.",
+        "The domain of a rational function excludes any x-value that makes the denominator zero."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a rational function?", "options": ["A function with no fractions", "A function expressed as a ratio of two polynomials", "A linear function only", "A function with no variables"], "correct": 1, "explanation": "A rational function is a function expressed as a ratio of two polynomials."},
+        {"q": "Where does a vertical asymptote typically occur?", "options": ["Where the numerator equals zero", "Where the denominator equals zero (and the numerator doesn't)", "At the y-intercept", "At the origin"], "correct": 1, "explanation": "A vertical asymptote occurs where the denominator equals zero, as long as the numerator isn't also zero there."},
+        {"q": "What determines a rational function's horizontal asymptote?", "options": ["The y-intercept", "Comparing the degrees of the numerator and denominator", "The vertical asymptote", "The domain restriction"], "correct": 1, "explanation": "The horizontal asymptote is determined by comparing the degrees of the numerator and denominator."},
+        {"q": "What causes a \"hole\" in a rational function's graph?", "options": ["A vertical asymptote", "A factor that cancels between the numerator and denominator", "A horizontal asymptote", "The y-intercept"], "correct": 1, "explanation": "A hole occurs when a factor cancels between the numerator and denominator at the same x-value."},
+        {"q": "What values are excluded from a rational function's domain?", "options": ["Values that make the numerator zero", "Values that make the denominator zero", "All negative numbers", "All positive numbers"], "correct": 1, "explanation": "The domain excludes any x-value that makes the denominator equal to zero."}
+      ]
+    }
+  },
+  "Functions": {
+    "guide": {
+      "explanation": "A function assigns exactly one output to each input, and this chapter formalizes function notation (f(x)), operations on functions, and how to determine whether a function has an inverse. Composition of functions — plugging one function into another, written (f-o-g)(x) = f(g(x)) — is a key skill, as is understanding domain and range.",
+      "keyTerms": [
+        {"term": "Function notation", "def": "Writing a function as f(x), read \"f of x.\""},
+        {"term": "Domain", "def": "The set of all allowed input values for a function."},
+        {"term": "Range", "def": "The set of all possible output values of a function."},
+        {"term": "Composition of functions", "def": "Applying one function to the result of another, written (f-o-g)(x) = f(g(x))."},
+        {"term": "Inverse function", "def": "A function that reverses another function's mapping, denoted f^-1(x)."},
+        {"term": "One-to-one function", "def": "A function where each output corresponds to exactly one input, required for an inverse to exist."}
+      ],
+      "examples": [
+        "If f(x) = x+2 and g(x) = 3x, then (f-o-g)(x) = f(g(x)) = f(3x) = 3x+2.",
+        "The function f(x) = x^2 is not one-to-one over all real numbers, so it doesn't have a full inverse without restricting its domain."
+      ],
+      "steps": [
+        "Replace f(x) with y.",
+        "Swap x and y in the equation.",
+        "Solve the new equation for y.",
+        "Replace y with f^-1(x) to express the inverse function."
+      ],
+      "remember": [
+        "A function assigns exactly one output to each input.",
+        "Composition (f-o-g)(x) means plugging g(x) into f — apply the inside function first.",
+        "Only one-to-one functions have a true inverse.",
+        "Domain is the set of allowed inputs; range is the set of resulting outputs."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does function composition (f-o-g)(x) mean?", "options": ["f(x) times g(x)", "f(x) plus g(x)", "Applying g first, then plugging its result into f", "Applying f first, then g"], "correct": 2, "explanation": "Composition (f-o-g)(x) means f(g(x)) — apply g first, then plug its result into f."},
+        {"q": "What is required for a function to have a true inverse?", "options": ["It must be quadratic", "It must be one-to-one", "It must have a negative slope", "It must be a polynomial"], "correct": 1, "explanation": "Only one-to-one functions have a true inverse."},
+        {"q": "What is the \"domain\" of a function?", "options": ["The set of all possible outputs", "The set of all allowed input values", "The y-intercept", "The function's degree"], "correct": 1, "explanation": "The domain is the set of all allowed input values for a function."},
+        {"q": "If f(x) = x+2 and g(x) = 3x, what is (f-o-g)(x)?", "options": ["3x+2", "3x+6", "x+6", "3x"], "correct": 0, "explanation": "(f-o-g)(x) = f(g(x)) = f(3x) = 3x + 2."},
+        {"q": "What does f^-1(x) represent?", "options": ["The derivative of f", "The negative of f(x)", "The inverse function of f", "The square of f(x)"], "correct": 2, "explanation": "f^-1(x) denotes the inverse function of f, which reverses its mapping."}
+      ]
+    }
+  },
+  "Exponential & Logarithmic Functions": {
+    "guide": {
+      "explanation": "Exponential functions model rapid growth or decay, while logarithmic functions are their inverse, answering \"what exponent produces this value.\" The natural logarithm (ln, base e) and common logarithm (log, base 10) are the two most frequently used, and logarithm properties let you simplify and solve equations that would otherwise be unsolvable with basic algebra.",
+      "keyTerms": [
+        {"term": "Exponential function", "def": "A function of the form f(x) = a times b^x, where the variable is in the exponent."},
+        {"term": "Logarithm", "def": "The inverse of exponentiation; log base b of x asks \"what power of b gives x?\""},
+        {"term": "Natural logarithm (ln)", "def": "A logarithm with base e (approximately 2.718)."},
+        {"term": "Common logarithm (log)", "def": "A logarithm with base 10."},
+        {"term": "Product property of logs", "def": "log(xy) = log x + log y."},
+        {"term": "Exponential growth/decay", "def": "Growth or decay where the rate of change is proportional to the current amount."}
+      ],
+      "examples": [
+        "log base 2 of 8 equals 3, since 2 cubed equals 8.",
+        "Population growth modeled as P(t) = P0 times e^(rt) is a classic application of exponential functions."
+      ],
+      "steps": [
+        "Isolate the exponential expression on one side of the equation.",
+        "Take the logarithm (or natural log) of both sides.",
+        "Use log properties to bring the exponent down as a coefficient.",
+        "Solve the resulting equation for the variable."
+      ],
+      "remember": [
+        "A logarithm answers \"what exponent gives this result\" — it's the inverse of exponentiation.",
+        "Natural log (ln) uses base e; common log (log) uses base 10.",
+        "log(xy) = log x + log y; log(x/y) = log x - log y; log(x^n) = n times log x.",
+        "Exponential functions model growth or decay proportional to the current amount."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does a logarithm answer?", "options": ["What number added to another gives a result", "What exponent of a base gives a certain result", "The slope of a line", "The degree of a polynomial"], "correct": 1, "explanation": "A logarithm answers what exponent of a given base produces a certain result."},
+        {"q": "What is log base 2 of 8?", "options": ["2", "3", "4", "8"], "correct": 1, "explanation": "log base 2 of 8 equals 3, since 2 cubed equals 8."},
+        {"q": "What base does the natural logarithm (ln) use?", "options": ["10", "2", "e (approximately 2.718)", "1"], "correct": 2, "explanation": "The natural logarithm uses base e, approximately 2.718."},
+        {"q": "According to the product property of logarithms, what does log(xy) equal?", "options": ["log x times log y", "log x + log y", "log x - log y", "log x divided by log y"], "correct": 1, "explanation": "The product property states that log(xy) = log x + log y."},
+        {"q": "What type of function is f(x) = a times b^x?", "options": ["A linear function", "A quadratic function", "An exponential function", "A rational function"], "correct": 2, "explanation": "f(x) = a times b^x, with the variable in the exponent, is an exponential function."}
+      ]
+    }
+  },
+  "Binomial Theorem": {
+    "guide": {
+      "explanation": "The Binomial Theorem provides a formula for expanding expressions like (a+b)^n without multiplying it out term by term, using combinations to determine each term's coefficient. Pascal's Triangle offers a visual shortcut to the same coefficients, and the theorem becomes essential for expanding higher powers efficiently.",
+      "keyTerms": [
+        {"term": "Binomial", "def": "An expression with exactly two terms, like (a+b)."},
+        {"term": "Binomial Theorem", "def": "A formula for expanding (a+b)^n using combinations for each term's coefficient."},
+        {"term": "Combination (nCr)", "def": "The number of ways to choose r items from n items, used as binomial coefficients."},
+        {"term": "Pascal's Triangle", "def": "A triangular array of numbers where each entry is the sum of the two above it, giving binomial coefficients directly."}
+      ],
+      "examples": [
+        "Expanding (a+b)^2 gives a^2 + 2ab + b^2, matching the coefficients 1, 2, 1 found in Pascal's Triangle's third row.",
+        "The coefficient of the x^2y^3 term in the expansion of (x+y)^5 is found using the combination 5 choose 3, which equals 10."
+      ],
+      "steps": [
+        "Identify n (the power) and the two terms of the binomial.",
+        "For each term in the expansion, calculate the combination nCr as the coefficient.",
+        "Decrease the power of the first term and increase the power of the second term as you move through each term.",
+        "Combine all terms to get the full expansion."
+      ],
+      "remember": [
+        "The Binomial Theorem expands (a+b)^n using combinations (nCr) as coefficients.",
+        "Pascal's Triangle gives the same coefficients visually, row by row.",
+        "The exponents in each term of the expansion always add up to n.",
+        "Combinations (nCr) represent the number of ways to choose r items from a set of n."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does the Binomial Theorem help you do?", "options": ["Solve quadratic equations", "Expand expressions like (a+b)^n efficiently", "Find logarithms", "Graph rational functions"], "correct": 1, "explanation": "The Binomial Theorem provides a formula for efficiently expanding expressions like (a+b)^n."},
+        {"q": "What is used to determine the coefficients in a binomial expansion?", "options": ["The quadratic formula", "Combinations (nCr)", "Logarithms", "Synthetic division"], "correct": 1, "explanation": "Combinations (nCr) determine the coefficients of each term in a binomial expansion."},
+        {"q": "What is Pascal's Triangle used for?", "options": ["Solving logarithmic equations", "Visually finding binomial coefficients", "Graphing exponential functions", "Finding roots of polynomials"], "correct": 1, "explanation": "Pascal's Triangle provides a visual shortcut to find binomial coefficients row by row."},
+        {"q": "In the expansion of (a+b)^n, what do the exponents of each term always add up to?", "options": ["1", "n", "2n", "0"], "correct": 1, "explanation": "In each term of a binomial expansion, the exponents of the two variables always add up to n."},
+        {"q": "What does the expansion of (a+b)^2 equal?", "options": ["a^2 + b^2", "a^2 + 2ab + b^2", "2a + 2b", "a^2 - b^2"], "correct": 1, "explanation": "(a+b)^2 expands to a^2 + 2ab + b^2."}
+      ]
+    }
+  },
+  "Sequences and Series": {
+    "guide": {
+      "explanation": "A sequence is an ordered list of numbers following a pattern, while a series is the sum of a sequence's terms. Arithmetic sequences add a constant difference between terms, while geometric sequences multiply by a constant ratio — and each has its own formulas for finding a specific term or summing a set number of terms, including a special formula for the sum of an infinite geometric series when the ratio's absolute value is less than 1.",
+      "keyTerms": [
+        {"term": "Sequence", "def": "An ordered list of numbers following a specific pattern."},
+        {"term": "Series", "def": "The sum of the terms in a sequence."},
+        {"term": "Arithmetic sequence", "def": "A sequence with a constant difference between consecutive terms."},
+        {"term": "Geometric sequence", "def": "A sequence with a constant ratio between consecutive terms."},
+        {"term": "Common difference", "def": "The constant amount added between terms in an arithmetic sequence."},
+        {"term": "Common ratio", "def": "The constant multiplier between terms in a geometric sequence."}
+      ],
+      "examples": [
+        "2, 5, 8, 11 is an arithmetic sequence with a common difference of 3.",
+        "3, 6, 12, 24 is a geometric sequence with a common ratio of 2."
+      ],
+      "steps": [
+        "Identify the first term and the common difference.",
+        "Apply the formula for the nth term of an arithmetic sequence: a_n = a_1 + (n-1)d.",
+        "Substitute the desired term number (n) into the formula.",
+        "Simplify to find the value of that specific term."
+      ],
+      "remember": [
+        "Arithmetic sequences have a constant difference between terms; geometric sequences have a constant ratio.",
+        "The nth term of an arithmetic sequence: a_n = a_1 + (n-1)d.",
+        "The nth term of a geometric sequence: a_n = a_1 times r^(n-1).",
+        "An infinite geometric series only has a finite sum if the absolute value of the common ratio is less than 1."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the common difference in the sequence 2, 5, 8, 11?", "options": ["2", "3", "5", "11"], "correct": 1, "explanation": "Each term increases by 3, so the common difference is 3."},
+        {"q": "What is the common ratio in the sequence 3, 6, 12, 24?", "options": ["2", "3", "4", "6"], "correct": 0, "explanation": "Each term is multiplied by 2 to get the next, so the common ratio is 2."},
+        {"q": "What defines an arithmetic sequence?", "options": ["A constant ratio between terms", "A constant difference between terms", "Random terms with no pattern", "Only positive terms"], "correct": 1, "explanation": "An arithmetic sequence has a constant difference between consecutive terms."},
+        {"q": "What defines a geometric sequence?", "options": ["A constant difference between terms", "A constant ratio between terms", "Only whole number terms", "A sequence with no pattern"], "correct": 1, "explanation": "A geometric sequence has a constant ratio between consecutive terms."},
+        {"q": "For an infinite geometric series to have a finite sum, what must be true of the common ratio?", "options": ["It must be greater than 1", "Its absolute value must be less than 1", "It must be negative", "It must equal 0"], "correct": 1, "explanation": "An infinite geometric series only converges to a finite sum if the absolute value of the common ratio is less than 1."}
+      ]
+    }
+  }
+}

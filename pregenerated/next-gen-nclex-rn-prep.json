@@ -1,0 +1,294 @@
+{
+  "Safe & Effective Care Environment (Management of Care)": {
+    "guide": {
+      "explanation": "RNs coordinate and manage patient care across the healthcare team, often using case management models to organize care for patients with complex or long-term needs. Unlike LPNs, RNs can delegate tasks to both LPNs and unlicensed assistive personnel (UAP), while retaining ultimate accountability for patient outcomes, and must apply nursing care models that organize how care is structured and delivered.",
+      "keyTerms": [
+        {"term": "Case management", "def": "A collaborative process coordinating a patient's care across providers, especially for complex or long-term conditions."},
+        {"term": "Delegation", "def": "An RN assigning a task to an LPN or UAP within their scope, while retaining accountability for the outcome."},
+        {"term": "Nursing care model", "def": "A framework (like team nursing or primary nursing) organizing how nursing care is structured and delivered."},
+        {"term": "Scope of practice", "def": "The legally defined boundaries of tasks a nurse is permitted to perform, which varies by license type."},
+        {"term": "Five Rights of Delegation", "def": "Right task, right circumstance, right person, right direction/communication, right supervision."}
+      ],
+      "examples": [
+        "An RN might delegate taking vital signs to a UAP, but retains responsibility for interpreting and acting on those results.",
+        "Case management is especially useful for patients with chronic conditions requiring coordination across multiple specialists."
+      ],
+      "steps": [
+        "Right task: confirm the task is appropriate to delegate (within the delegatee's scope).",
+        "Right circumstance: confirm the patient's condition is stable enough for the task to be delegated.",
+        "Right person: confirm the delegatee has the skill and training needed.",
+        "Right direction/communication and right supervision: give clear instructions and follow up to ensure safe completion."
+      ],
+      "remember": [
+        "RNs can delegate to both LPNs and UAPs, unlike LPNs who have narrower delegation authority.",
+        "The Five Rights of Delegation: task, circumstance, person, direction/communication, supervision.",
+        "Case management coordinates care for patients with complex or long-term needs across providers.",
+        "Delegating a task never transfers ultimate accountability away from the RN."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "To whom can an RN delegate tasks?", "options": ["Only to other RNs", "To LPNs and unlicensed assistive personnel (UAP)", "Only to physicians", "No one"], "correct": 1, "explanation": "RNs can delegate appropriate tasks to both LPNs and unlicensed assistive personnel."},
+        {"q": "What is \"case management\"?", "options": ["A type of medication", "A collaborative process coordinating a patient's care across providers", "A delegation task only", "A type of restraint"], "correct": 1, "explanation": "Case management coordinates a patient's care across multiple providers."},
+        {"q": "What are the \"Five Rights of Delegation\"?", "options": ["Right patient, medication, dose, route, time", "Right task, circumstance, person, direction/communication, supervision", "Right diagnosis only", "Right billing code"], "correct": 1, "explanation": "The Five Rights of Delegation are right task, circumstance, person, direction/communication, and supervision."},
+        {"q": "Does delegating a task transfer accountability away from the RN?", "options": ["Yes, completely", "No, the RN retains ultimate accountability for the outcome", "Only for UAP tasks", "Only for LPN tasks"], "correct": 1, "explanation": "Delegation transfers the task but not the ultimate accountability, which remains with the RN."},
+        {"q": "What is a \"nursing care model\"?", "options": ["A type of medication schedule", "A framework organizing how nursing care is structured and delivered", "A delegation task", "A patient's diagnosis"], "correct": 1, "explanation": "A nursing care model is a framework for organizing how care is delivered."}
+      ]
+    }
+  },
+  "Safe & Effective Care Environment (Safety & Infection Control)": {
+    "guide": {
+      "explanation": "RNs are responsible for assessing infection risk, implementing standard and transmission-based precautions (contact, droplet, airborne), and leading emergency/disaster response planning within a unit. Beyond individual patient precautions, RNs often oversee broader safety initiatives like fall-prevention programs and root-cause analysis after safety incidents.",
+      "keyTerms": [
+        {"term": "Standard precautions", "def": "Infection control practices used with every patient, regardless of diagnosis."},
+        {"term": "Transmission-based precautions", "def": "Additional precautions for known/suspected infections — contact, droplet, airborne."},
+        {"term": "Root-cause analysis", "def": "A structured review process used after a safety incident to identify underlying causes."},
+        {"term": "Disaster planning", "def": "Preparing a unit or facility to respond to mass casualty or emergency events."},
+        {"term": "Sentinel event", "def": "An unexpected occurrence resulting in serious patient harm, requiring immediate investigation."}
+      ],
+      "examples": [
+        "After a medication error, an RN might participate in a root-cause analysis to identify system failures, not just individual blame.",
+        "A hospital's disaster plan might designate specific RN roles for triage during a mass casualty event."
+      ],
+      "steps": [
+        "Identify the likely mode of transmission (contact, droplet, airborne) based on the suspected pathogen.",
+        "Implement the appropriate transmission-based precaution immediately.",
+        "Notify the infection control team or appropriate department.",
+        "Document the exposure and precautions taken according to facility policy."
+      ],
+      "remember": [
+        "Standard precautions apply to every patient; transmission-based precautions apply to specific pathogens.",
+        "A sentinel event requires immediate investigation due to its serious, unexpected harm.",
+        "Root-cause analysis looks at system failures, not just individual error, after a safety incident.",
+        "RNs often play leadership roles in unit-level disaster planning and safety initiatives."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"sentinel event\"?", "options": ["A routine occurrence", "An unexpected occurrence resulting in serious patient harm", "A type of standard precaution", "A medication order"], "correct": 1, "explanation": "A sentinel event is an unexpected occurrence resulting in serious patient harm."},
+        {"q": "What is \"root-cause analysis\"?", "options": ["A type of medication", "A structured review process identifying underlying causes after a safety incident", "A disaster plan", "A type of precaution"], "correct": 1, "explanation": "Root-cause analysis identifies underlying system causes after a safety incident."},
+        {"q": "Which precautions apply to every patient regardless of diagnosis?", "options": ["Transmission-based precautions", "Standard precautions", "Airborne precautions only", "Contact precautions only"], "correct": 1, "explanation": "Standard precautions are used with every patient, regardless of diagnosis."},
+        {"q": "What role might an RN play during a disaster response?", "options": ["No role at all", "A designated triage or leadership role", "Only administrative paperwork", "Only observing"], "correct": 1, "explanation": "RNs often have designated roles, such as triage, during disaster response."},
+        {"q": "What does root-cause analysis focus on identifying?", "options": ["Individual blame only", "Underlying system failures", "Patient billing errors", "Staffing schedules only"], "correct": 1, "explanation": "Root-cause analysis focuses on identifying underlying system failures."}
+      ]
+    }
+  },
+  "Health Promotion & Maintenance": {
+    "guide": {
+      "explanation": "RNs provide comprehensive health promotion across the lifespan, with particular emphasis on maternal-newborn care and developmental assessment. Beyond routine antepartum, intrapartum, and postpartum monitoring, RNs are responsible for patient education on preventive health measures, recognizing risk factors for complications, and tailoring health promotion strategies to different developmental stages.",
+      "keyTerms": [
+        {"term": "Antepartum, intrapartum, postpartum", "def": "The periods before labor, during labor/delivery, and after childbirth, respectively."},
+        {"term": "Developmental stage", "def": "An expected phase of physical, cognitive, and social growth (e.g., infancy, adolescence, older adulthood)."},
+        {"term": "Risk factor", "def": "A characteristic or behavior that increases the likelihood of a health complication."},
+        {"term": "Health promotion", "def": "Proactive strategies and education aimed at preventing illness and maintaining wellness."}
+      ],
+      "examples": [
+        "An RN assessing a pregnant patient for risk factors like gestational diabetes performs ongoing antepartum risk assessment.",
+        "Educating an older adult patient on fall-prevention strategies at home is a health promotion activity tailored to their developmental stage."
+      ],
+      "steps": [
+        "Identify the patient's current developmental stage (infant, child, adolescent, adult, older adult).",
+        "Consider common health risks and needs specific to that stage.",
+        "Provide targeted education and preventive recommendations.",
+        "Reassess and adjust recommendations as the patient's needs or risk factors change."
+      ],
+      "remember": [
+        "Antepartum = before labor; intrapartum = during labor; postpartum = after childbirth.",
+        "Health promotion strategies should be tailored to a patient's specific developmental stage.",
+        "Risk factor assessment helps identify patients who may need closer monitoring.",
+        "RNs are responsible for both direct care and patient education across health promotion."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"antepartum\" refer to?", "options": ["The period during labor", "The period of pregnancy before labor and delivery", "The period after childbirth", "Only infant care"], "correct": 1, "explanation": "Antepartum refers to the period of pregnancy before labor and delivery."},
+        {"q": "What is a \"risk factor\"?", "options": ["A guaranteed outcome", "A characteristic or behavior that increases the likelihood of a health complication", "A type of medication", "A developmental stage"], "correct": 1, "explanation": "A risk factor increases the likelihood of a health complication."},
+        {"q": "Why should health promotion strategies be tailored to a patient's developmental stage?", "options": ["They shouldn't be tailored at all", "Different stages have different common health risks and needs", "Only children need health promotion", "Health promotion only applies to older adults"], "correct": 1, "explanation": "Different developmental stages have different common risks and needs."},
+        {"q": "What is an example of a health promotion activity for an older adult?", "options": ["Prenatal vitamins", "Fall-prevention education", "Newborn screening", "Adolescent immunizations"], "correct": 1, "explanation": "Fall-prevention education is commonly tailored to older adult patients."},
+        {"q": "What does \"postpartum\" refer to?", "options": ["Before pregnancy", "During labor", "The period following childbirth", "Only fetal development"], "correct": 2, "explanation": "Postpartum refers to the period following childbirth."}
+      ]
+    }
+  },
+  "Psychosocial Integrity": {
+    "guide": {
+      "explanation": "RNs provide comprehensive psychosocial support, using therapeutic communication and recognizing complex coping and defense mechanisms, while also managing more complex mental health presentations, crisis intervention, and coordinating referrals to mental health specialists when needed. Understanding the stages of grief, cultural considerations, and signs of abuse or substance use disorders is essential for holistic patient care.",
+      "keyTerms": [
+        {"term": "Therapeutic communication", "def": "Purposeful communication techniques used to support patient care and understanding."},
+        {"term": "Crisis intervention", "def": "Immediate, short-term support provided to help a patient in acute psychological distress."},
+        {"term": "Defense mechanism", "def": "An unconscious psychological strategy used to cope with anxiety or stress."},
+        {"term": "Cultural competence", "def": "Understanding and respecting how a patient's cultural background shapes their health beliefs and behaviors."},
+        {"term": "Substance use disorder", "def": "A pattern of substance use causing significant impairment or distress."}
+      ],
+      "examples": [
+        "An RN performing crisis intervention with a patient in acute distress focuses on immediate safety and stabilization.",
+        "Recognizing that a patient's reluctance to discuss a diagnosis may stem from cultural beliefs reflects cultural competence."
+      ],
+      "steps": [
+        "Ensure immediate physical and psychological safety for the patient.",
+        "Use therapeutic communication to help the patient express their distress.",
+        "Identify immediate needs and connect the patient with appropriate resources or specialists.",
+        "Follow up to ensure ongoing support is in place after the acute crisis passes."
+      ],
+      "remember": [
+        "Therapeutic communication techniques support psychosocial care across all patient interactions.",
+        "Crisis intervention focuses on immediate safety and stabilization during acute distress.",
+        "Cultural competence means understanding how a patient's background shapes their health beliefs.",
+        "RNs coordinate referrals to mental health specialists when needs exceed general nursing care."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the primary focus of \"crisis intervention\"?", "options": ["Long-term therapy", "Immediate safety and stabilization during acute distress", "Medication administration only", "Insurance paperwork"], "correct": 1, "explanation": "Crisis intervention focuses on immediate psychological safety and stabilization."},
+        {"q": "What is \"cultural competence\"?", "options": ["Ignoring a patient's background", "Understanding and respecting how a patient's culture shapes their health beliefs", "A type of medication", "A legal requirement only"], "correct": 1, "explanation": "Cultural competence involves understanding how a patient's culture shapes their health beliefs and behaviors."},
+        {"q": "What is a \"defense mechanism\"?", "options": ["A physical safety device", "An unconscious psychological strategy used to cope with anxiety", "A type of medication", "A legal document"], "correct": 1, "explanation": "A defense mechanism is an unconscious strategy used to cope with anxiety or stress."},
+        {"q": "When should an RN coordinate a referral to a mental health specialist?", "options": ["Never", "When a patient's needs exceed general nursing care", "Only for children", "Only when requested by family"], "correct": 1, "explanation": "Referrals are coordinated when psychosocial needs exceed general nursing care."},
+        {"q": "What is \"therapeutic communication\"?", "options": ["Casual conversation with no purpose", "Purposeful communication techniques used to support patient care", "Only written communication", "Only used during emergencies"], "correct": 1, "explanation": "Therapeutic communication involves purposeful techniques used to support patient care."}
+      ]
+    }
+  },
+  "Physiological Integrity (Basic Care and Comfort)": {
+    "guide": {
+      "explanation": "RNs assess and manage patients' basic physiological needs — nutrition, elimination, mobility, and comfort — often for patients with more complex or unstable conditions than those typically cared for by LPNs. This includes overseeing non-pharmacological comfort interventions, managing complex nutritional needs like tube feedings, and coordinating mobility plans for patients with significant impairments.",
+      "keyTerms": [
+        {"term": "Activities of Daily Living (ADLs)", "def": "Basic self-care tasks like bathing, dressing, eating, and toileting."},
+        {"term": "Enteral nutrition", "def": "Delivering nutrition directly into the GI tract, such as through a feeding tube, for patients unable to eat normally."},
+        {"term": "Non-pharmacological comfort measures", "def": "Techniques like repositioning or relaxation used to manage discomfort without medication."},
+        {"term": "Mobility plan", "def": "An individualized plan to safely support and improve a patient's movement and independence."}
+      ],
+      "examples": [
+        "An RN managing a patient's tube feeding schedule and monitoring for complications like aspiration oversees enteral nutrition.",
+        "Developing a mobility plan for a stroke patient recovering strength involves coordinating with physical therapy."
+      ],
+      "steps": [
+        "Assess the patient's current mobility level and specific limitations.",
+        "Identify safety risks, such as fall risk, associated with movement.",
+        "Collaborate with physical therapy or other specialists as needed.",
+        "Set realistic, gradual goals and reassess regularly as the patient's condition changes."
+      ],
+      "remember": [
+        "ADLs include bathing, dressing, eating, and toileting.",
+        "Enteral nutrition delivers nutrition directly into the GI tract for patients unable to eat normally.",
+        "Non-pharmacological comfort measures are used alongside or instead of medication.",
+        "Mobility plans should be individualized and reassessed regularly."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"enteral nutrition\"?", "options": ["Nutrition delivered through an IV", "Nutrition delivered directly into the GI tract, such as through a feeding tube", "A type of medication", "A comfort measure only"], "correct": 1, "explanation": "Enteral nutrition delivers nutrition directly into the GI tract, often through a feeding tube."},
+        {"q": "What are ADLs?", "options": ["Medical procedures only", "Basic self-care tasks like bathing, dressing, eating, and toileting", "Diagnostic tests", "Medication orders"], "correct": 1, "explanation": "ADLs are basic self-care tasks like bathing, dressing, eating, and toileting."},
+        {"q": "What should be considered when developing a mobility plan?", "options": ["Only the patient's age", "The patient's mobility level, limitations, and safety risks", "Only the physician's preference", "Nothing needs to be considered"], "correct": 1, "explanation": "A mobility plan should consider mobility level, limitations, and safety risks."},
+        {"q": "What is an example of a non-pharmacological comfort measure?", "options": ["Administering pain medication", "Repositioning or applying heat/cold therapy", "Ordering a lab test", "Restricting visitors"], "correct": 1, "explanation": "Non-pharmacological comfort measures include repositioning or heat/cold therapy."},
+        {"q": "Why should mobility plans be reassessed regularly?", "options": ["They never need reassessment", "A patient's condition and needs can change over time", "Only if requested by the patient", "Only once per hospitalization"], "correct": 1, "explanation": "Mobility plans should be reassessed since a patient's condition and needs can change."}
+      ]
+    }
+  },
+  "Physiological Integrity (Pharmacological and Parenteral Therapies)": {
+    "guide": {
+      "explanation": "RNs manage a broader scope of medication administration than LPNs, including parenteral (injectable/IV) therapies, blood and blood product administration, central venous access device care, and total parenteral nutrition. This requires deep understanding of medication actions, dosage calculations, and how to recognize and respond to adverse reactions or complications from IV therapy.",
+      "keyTerms": [
+        {"term": "Parenteral therapy", "def": "Medication or fluid administration by injection or infusion, bypassing the digestive system (e.g., IV, IM, subcutaneous)."},
+        {"term": "Central venous access device (CVAD)", "def": "A catheter placed in a large vein, used for long-term IV therapy, blood draws, or medication administration."},
+        {"term": "Total parenteral nutrition (TPN)", "def": "Complete nutritional support delivered directly into the bloodstream for patients unable to use their GI tract."},
+        {"term": "Blood product administration", "def": "The process of safely transfusing blood or blood components, requiring careful verification and monitoring."},
+        {"term": "Adverse reaction", "def": "An unintended, harmful response to a medication or therapy."}
+      ],
+      "examples": [
+        "Administering a blood transfusion requires verifying blood type compatibility and closely monitoring the patient for a transfusion reaction.",
+        "A patient receiving TPN through a central line requires careful monitoring of blood glucose and electrolytes."
+      ],
+      "steps": [
+        "Verify the blood product matches the patient's blood type and the physician's order.",
+        "Confirm patient identity using two identifiers before starting the transfusion.",
+        "Begin the infusion slowly and monitor closely for signs of a transfusion reaction in the first 15 minutes.",
+        "Continue monitoring vital signs throughout the transfusion and respond immediately to any adverse signs."
+      ],
+      "remember": [
+        "Parenteral therapy bypasses the digestive system, delivered via injection or infusion.",
+        "A central venous access device (CVAD) supports long-term IV therapy, blood draws, or medication administration.",
+        "Total parenteral nutrition (TPN) delivers complete nutrition directly into the bloodstream.",
+        "Blood product administration requires careful verification and close monitoring for transfusion reactions."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"parenteral therapy\"?", "options": ["Oral medication administration", "Medication or fluid administration by injection or infusion", "A type of nutrition education", "A comfort measure"], "correct": 1, "explanation": "Parenteral therapy delivers medication or fluid by injection or infusion."},
+        {"q": "What is a \"central venous access device\" (CVAD) used for?", "options": ["Only oral medication", "Long-term IV therapy, blood draws, or medication administration", "Only blood pressure monitoring", "A type of comfort measure"], "correct": 1, "explanation": "A CVAD is used for long-term IV therapy, blood draws, or medication administration."},
+        {"q": "What is \"total parenteral nutrition\" (TPN)?", "options": ["Nutrition delivered orally", "Complete nutritional support delivered directly into the bloodstream", "A type of blood product", "A comfort measure"], "correct": 1, "explanation": "TPN delivers complete nutritional support directly into the bloodstream."},
+        {"q": "What should be verified before administering a blood transfusion?", "options": ["Nothing needs verification", "Blood type compatibility and patient identity", "Only the patient's age", "Only the physician's signature"], "correct": 1, "explanation": "Blood type compatibility and patient identity must be verified before a transfusion."},
+        {"q": "When is close monitoring for a transfusion reaction most critical?", "options": ["The last 15 minutes only", "The first 15 minutes of the transfusion", "Only after the transfusion ends", "Monitoring is not necessary"], "correct": 1, "explanation": "Close monitoring during the first 15 minutes is critical for catching an early transfusion reaction."}
+      ]
+    }
+  },
+  "Physiological Integrity (Reduction of Risk Potential)": {
+    "guide": {
+      "explanation": "RNs interpret and act on vital signs, lab values, and diagnostic test results to identify patients at risk for complications, often managing more complex or unstable patients than LPNs. This includes recognizing subtle early warning signs of deterioration and initiating appropriate interventions or escalating care before a situation becomes critical.",
+      "keyTerms": [
+        {"term": "Vital signs", "def": "Baseline measurements (temperature, pulse, respiration, blood pressure, oxygen saturation) reflecting physiological status."},
+        {"term": "Lab values", "def": "Diagnostic test results compared against normal reference ranges to detect abnormalities."},
+        {"term": "Early warning signs", "def": "Subtle changes in a patient's condition that may indicate deterioration before a crisis occurs."},
+        {"term": "Escalation of care", "def": "The process of increasing the level of intervention or notifying higher-level providers as a patient's condition changes."}
+      ],
+      "examples": [
+        "A gradual increase in respiratory rate, even before oxygen saturation drops significantly, can be an early warning sign of respiratory distress.",
+        "An RN noticing a trend of declining urine output over several hours might escalate care by notifying the physician."
+      ],
+      "steps": [
+        "Establish the patient's baseline vital signs and typical presentation.",
+        "Monitor trends over time, not just single isolated values.",
+        "Recognize subtle early warning signs, such as gradual changes in respiratory rate or mental status.",
+        "Escalate care promptly by notifying the appropriate provider before the situation becomes critical."
+      ],
+      "remember": [
+        "Vital signs and lab values should be interpreted as trends over time, not just single readings.",
+        "Early warning signs of deterioration can be subtle and easy to miss if only single values are checked.",
+        "Escalation of care means notifying higher-level providers promptly as a patient's condition changes.",
+        "RNs often manage more complex or unstable patients, requiring vigilant risk monitoring."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "Why is it important to monitor vital sign trends over time, not just single readings?", "options": ["Trends are not clinically useful", "Trends can reveal early warning signs of deterioration that a single reading might miss", "Single readings are always sufficient", "Trends only matter for lab values"], "correct": 1, "explanation": "Monitoring trends can reveal subtle early warning signs that a single isolated reading might miss."},
+        {"q": "What is an \"early warning sign\"?", "options": ["A confirmed diagnosis", "A subtle change in condition that may indicate deterioration before a crisis", "A type of medication", "A billing code"], "correct": 1, "explanation": "An early warning sign is a subtle change that may indicate deterioration before a crisis occurs."},
+        {"q": "What does \"escalation of care\" mean?", "options": ["Reducing the level of intervention", "Increasing intervention or notifying higher-level providers as a patient's condition changes", "Discharging the patient", "Ignoring changes in condition"], "correct": 1, "explanation": "Escalation of care means increasing intervention or notifying higher-level providers."},
+        {"q": "What is an example of an early warning sign of respiratory distress?", "options": ["A stable oxygen saturation reading", "A gradual increase in respiratory rate", "A normal temperature", "A routine lab result"], "correct": 1, "explanation": "A gradual increase in respiratory rate can be an early warning sign, even before oxygen saturation drops."},
+        {"q": "Why might an RN escalate care after noticing declining urine output over several hours?", "options": ["It's not clinically significant", "It could indicate a worsening condition requiring prompt intervention", "Only a single low reading matters", "Urine output is not monitored"], "correct": 1, "explanation": "A trend of declining urine output can indicate a worsening condition, warranting escalation of care."}
+      ]
+    }
+  },
+  "Physiological Integrity (Physiological Adaptation)": {
+    "guide": {
+      "explanation": "RNs manage patients experiencing acute, chronic, or life-threatening physiological changes, applying deep understanding of pathophysiology to anticipate complications and respond to medical emergencies. This includes managing fluid and electrolyte imbalances, recognizing the stages of shock, and understanding how the body's compensatory mechanisms function — and eventually fail — during severe illness.",
+      "keyTerms": [
+        {"term": "Fluid and electrolyte imbalance", "def": "An abnormal level of fluid or electrolytes affecting multiple organ systems."},
+        {"term": "Pathophysiology", "def": "The study of how disease processes affect normal body function."},
+        {"term": "Shock", "def": "A life-threatening condition where the body's tissues do not receive adequate blood flow and oxygen."},
+        {"term": "Compensatory mechanism", "def": "The body's attempt to maintain normal function despite illness or injury, which can eventually fail without intervention."}
+      ],
+      "examples": [
+        "In early (compensated) shock, an increased heart rate helps maintain blood pressure; in late (decompensated) shock, blood pressure drops despite this compensation.",
+        "A patient with severe burns is at high risk for significant fluid and electrolyte shifts, requiring careful monitoring."
+      ],
+      "steps": [
+        "Compensated shock: the body's mechanisms (increased heart rate, vasoconstriction) maintain blood pressure despite reduced perfusion.",
+        "Decompensated shock: compensatory mechanisms begin to fail, and blood pressure starts to drop.",
+        "Irreversible shock: organ damage becomes severe and often unrecoverable without aggressive, timely intervention.",
+        "Early recognition and intervention during compensated shock offers the best chance to prevent progression."
+      ],
+      "remember": [
+        "Fluid and electrolyte imbalances can affect multiple organ systems and require careful monitoring.",
+        "Shock progresses through compensated, decompensated, and irreversible stages.",
+        "Compensatory mechanisms initially maintain function but can eventually fail.",
+        "Early recognition during the compensated stage offers the best chance to prevent life-threatening progression."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What happens during \"compensated shock\"?", "options": ["Blood pressure drops immediately", "The body's mechanisms maintain blood pressure despite reduced perfusion", "Organ damage is already irreversible", "Nothing happens"], "correct": 1, "explanation": "In compensated shock, compensatory mechanisms maintain blood pressure despite reduced perfusion."},
+        {"q": "What happens during \"decompensated shock\"?", "options": ["The body fully recovers", "Compensatory mechanisms begin to fail and blood pressure starts to drop", "Nothing changes from compensated shock", "Blood pressure increases significantly"], "correct": 1, "explanation": "In decompensated shock, compensatory mechanisms begin to fail and blood pressure drops."},
+        {"q": "What is \"pathophysiology\"?", "options": ["A type of medication", "The study of how disease processes affect normal body function", "A nursing role", "A vital sign"], "correct": 1, "explanation": "Pathophysiology is the study of how disease processes disrupt normal body function."},
+        {"q": "Why is early recognition during compensated shock important?", "options": ["It is not important", "It offers the best chance to prevent progression to a life-threatening stage", "Only late-stage shock requires intervention", "Compensated shock resolves on its own"], "correct": 1, "explanation": "Early recognition during compensated shock offers the best chance to intervene before it worsens."},
+        {"q": "What can happen to organ function during \"irreversible shock\"?", "options": ["Full recovery is guaranteed", "Organ damage becomes severe and often unrecoverable", "No changes occur", "Blood pressure returns to normal immediately"], "correct": 1, "explanation": "During irreversible shock, organ damage becomes severe and often cannot be reversed."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "Morality & Ethics": {
+    "guide": {
+      "explanation": "Morality refers to personal or cultural beliefs about right and wrong, while ethics is the systematic philosophical study of those beliefs — examining what makes an action right or wrong and why. Philosophers distinguish descriptive ethics (describing what people actually believe about morality) from normative ethics (determining what people ought to believe or do) and metaethics (examining the nature and meaning of ethical claims themselves).",
+      "keyTerms": [
+        {"term": "Morality", "def": "Personal or cultural beliefs about what is right and wrong."},
+        {"term": "Ethics", "def": "The systematic philosophical study of morality, examining what makes actions right or wrong."},
+        {"term": "Descriptive ethics", "def": "The study of what people actually believe about morality, without judging those beliefs."},
+        {"term": "Normative ethics", "def": "The study of what people ought to believe or how they ought to act."},
+        {"term": "Metaethics", "def": "The study of the nature, meaning, and justification of ethical claims themselves."}
+      ],
+      "examples": [
+        "A descriptive ethics study might survey what different cultures believe about honesty, without judging which view is correct.",
+        "A normative ethics theory, like utilitarianism, argues that people ought to act in ways that maximize overall happiness."
+      ],
+      "steps": [
+        "Descriptive ethics: asks \"what do people actually believe is right or wrong?\"",
+        "Normative ethics: asks \"what should people believe or do?\"",
+        "Metaethics: asks \"what does it even mean for something to be 'right' or 'wrong'?\"",
+        "Recognize that a single ethical question can be approached from any of these three angles."
+      ],
+      "remember": [
+        "Morality is personal/cultural belief; ethics is the systematic philosophical study of those beliefs.",
+        "Descriptive ethics describes what people believe; normative ethics prescribes what they should believe.",
+        "Metaethics examines the nature and meaning of ethical claims themselves.",
+        "These three branches offer different, complementary ways of approaching ethical questions."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the difference between morality and ethics?", "options": ["They are identical", "Morality is personal/cultural belief; ethics is the systematic philosophical study of it", "Ethics is personal belief; morality is philosophical study", "Neither concerns right and wrong"], "correct": 1, "explanation": "Morality refers to beliefs about right and wrong; ethics is the philosophical study of those beliefs."},
+        {"q": "What does \"descriptive ethics\" examine?", "options": ["What people ought to do", "What people actually believe about morality", "The meaning of ethical terms", "Only religious beliefs"], "correct": 1, "explanation": "Descriptive ethics examines what people actually believe about morality."},
+        {"q": "What does \"normative ethics\" examine?", "options": ["What people actually believe", "What people ought to believe or how they ought to act", "The meaning of ethical terms only", "Only cultural practices"], "correct": 1, "explanation": "Normative ethics examines what people ought to believe or do."},
+        {"q": "What does \"metaethics\" examine?", "options": ["Cultural practices only", "The nature, meaning, and justification of ethical claims themselves", "What people actually do", "Only religious ethics"], "correct": 1, "explanation": "Metaethics examines the nature and meaning of ethical claims."},
+        {"q": "Which branch of ethics would ask \"what does it mean for something to be 'good'?\"", "options": ["Descriptive ethics", "Normative ethics", "Metaethics", "None of these"], "correct": 2, "explanation": "Metaethics asks about the meaning and nature of ethical terms."}
+      ]
+    }
+  },
+  "Ethical Relativism, Moral Belief Systems and Meta-ethics": {
+    "guide": {
+      "explanation": "Ethical relativism holds that moral truths are not universal but relative to individual (subjectivism) or cultural (cultural relativism) perspectives, in contrast to moral absolutism, which holds that certain moral truths apply universally. This debate connects closely to metaethical questions about whether moral facts exist independently of human belief (moral realism) or are constructed by human attitudes (moral anti-realism).",
+      "keyTerms": [
+        {"term": "Ethical relativism", "def": "The view that moral truths are relative to individual or cultural perspectives, not universal."},
+        {"term": "Cultural relativism", "def": "The specific view that moral standards are relative to and determined by culture."},
+        {"term": "Moral absolutism", "def": "The view that certain moral truths apply universally, regardless of culture or individual belief."},
+        {"term": "Moral realism", "def": "The metaethical view that objective moral facts exist independently of human belief."},
+        {"term": "Moral anti-realism", "def": "The metaethical view that moral facts are constructed by human attitudes, conventions, or emotions."}
+      ],
+      "examples": [
+        "A cultural relativist might argue that a practice acceptable in one culture cannot be judged wrong by someone from a different culture.",
+        "A moral absolutist might argue that certain acts are wrong in all cultures and circumstances, regardless of local beliefs."
+      ],
+      "steps": [
+        "Identify the moral claim being made (e.g., \"lying is wrong\").",
+        "Ask a relativist perspective: does this claim's truth depend on the culture or individual making it?",
+        "Ask an absolutist perspective: does this claim hold true universally, regardless of culture or individual belief?",
+        "Recognize that this is a genuinely contested philosophical debate without a single settled answer."
+      ],
+      "remember": [
+        "Ethical relativism holds moral truths are relative to individuals or cultures; moral absolutism holds they are universal.",
+        "Cultural relativism specifically ties moral standards to culture.",
+        "Moral realism holds objective moral facts exist; moral anti-realism holds morality is a human construction.",
+        "This is a genuinely contested area of philosophy with strong arguments on multiple sides."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"ethical relativism\" propose?", "options": ["Moral truths are universal", "Moral truths are relative to individual or cultural perspectives", "Morality does not exist", "Only one culture has correct morals"], "correct": 1, "explanation": "Ethical relativism proposes moral truths are relative to perspectives."},
+        {"q": "What does \"moral absolutism\" propose?", "options": ["Moral truths are relative to culture", "Certain moral truths apply universally regardless of culture", "Morality is meaningless", "Only individuals determine morality"], "correct": 1, "explanation": "Moral absolutism holds certain moral truths apply universally."},
+        {"q": "What is \"cultural relativism\"?", "options": ["A universal moral standard", "The view that moral standards are relative to and determined by culture", "A type of moral absolutism", "A metaethical realist position"], "correct": 1, "explanation": "Cultural relativism holds moral standards are relative to culture."},
+        {"q": "What does \"moral realism\" propose?", "options": ["Morality is a human invention only", "Objective moral facts exist independently of human belief", "No moral facts exist", "Morality is purely emotional"], "correct": 1, "explanation": "Moral realism holds objective moral facts exist independently of belief."},
+        {"q": "What does \"moral anti-realism\" propose?", "options": ["Objective moral facts exist independently of humans", "Moral facts are constructed by human attitudes, conventions, or emotions", "Morality is entirely universal", "Ethics has no metaethical questions"], "correct": 1, "explanation": "Moral anti-realism holds morality is a human construction."}
+      ]
+    }
+  },
+  "Theory of Natural and Moral Law": {
+    "guide": {
+      "explanation": "Natural law theory, historically associated with thinkers like Thomas Aquinas, holds that moral principles are grounded in human nature and can be discovered through reason, existing independently of human-made laws. This contrasts with legal positivism, which holds that law and morality are separate — a law's validity depends on its proper enactment, not on whether it aligns with moral principles.",
+      "keyTerms": [
+        {"term": "Natural law theory", "def": "The view that moral principles are grounded in human nature and discoverable through reason, existing independently of human-made law."},
+        {"term": "Legal positivism", "def": "The view that law and morality are separate systems, with a law's validity depending on proper enactment, not moral content."},
+        {"term": "Thomas Aquinas", "def": "A key historical figure in natural law theory, integrating Aristotelian philosophy with Christian theology."},
+        {"term": "Practical reason", "def": "The use of rational thought to determine right action, central to natural law theory's method."},
+        {"term": "Unjust law", "def": "Within natural law theory, a human-made law that conflicts with natural moral law and may lack true legal authority."}
+      ],
+      "examples": [
+        "Natural law theory might argue that certain human rights exist independently of any government's laws, simply based on human nature.",
+        "Legal positivism would hold that a law is valid as long as it was properly enacted, regardless of whether it is moral."
+      ],
+      "steps": [
+        "Identify a principle believed to be grounded in human nature (e.g., the value of human life).",
+        "Use reason to derive moral conclusions from that principle.",
+        "Evaluate human-made laws against this natural moral standard.",
+        "Under natural law theory, a law conflicting with this standard may be considered an \"unjust law.\""
+      ],
+      "remember": [
+        "Natural law theory holds that moral principles are grounded in human nature, discoverable through reason.",
+        "Legal positivism holds that law's validity depends on proper enactment, separate from morality.",
+        "Thomas Aquinas is a key historical figure associated with natural law theory.",
+        "Under natural law theory, an \"unjust law\" is one that conflicts with natural moral principles."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"natural law theory\" propose?", "options": ["Law and morality are entirely separate", "Moral principles are grounded in human nature and discoverable through reason", "Morality is created only by governments", "Laws are always moral"], "correct": 1, "explanation": "Natural law theory grounds moral principles in human nature and reason."},
+        {"q": "What does \"legal positivism\" propose?", "options": ["Law and morality are the same thing", "Law and morality are separate systems, with legal validity independent of moral content", "Only natural law is valid", "Morality determines all laws"], "correct": 1, "explanation": "Legal positivism holds law and morality are separate systems."},
+        {"q": "Which historical figure is closely associated with natural law theory?", "options": ["Karl Marx", "Thomas Aquinas", "Sigmund Freud", "B.F. Skinner"], "correct": 1, "explanation": "Thomas Aquinas is a key figure in natural law theory."},
+        {"q": "What is \"practical reason\" in the context of natural law theory?", "options": ["A type of legal positivism", "The use of rational thought to determine right action", "A type of cultural relativism", "A metaethical position only"], "correct": 1, "explanation": "Practical reason is rational thought used to determine right action."},
+        {"q": "Under natural law theory, what is an \"unjust law\"?", "options": ["Any law passed by government", "A human-made law that conflicts with natural moral law", "A law with no moral content", "A law that is simply unpopular"], "correct": 1, "explanation": "An unjust law conflicts with natural moral principles."}
+      ]
+    }
+  },
+  "The Ancient Greek Views on Ethics": {
+    "guide": {
+      "explanation": "Ancient Greek philosophers laid foundational groundwork for Western ethics: Socrates emphasized self-examination and the pursuit of virtue through questioning, Plato argued that true knowledge of the Good exists beyond the physical world, and Aristotle developed virtue ethics, proposing that a flourishing life (eudaimonia) comes from cultivating virtues as a \"golden mean\" between extremes.",
+      "keyTerms": [
+        {"term": "Socratic method", "def": "A form of inquiry using systematic questioning to examine and challenge assumptions about ethical concepts."},
+        {"term": "Eudaimonia", "def": "An Aristotelian concept often translated as \"flourishing\" or \"the good life,\" achieved through virtuous living."},
+        {"term": "Virtue ethics", "def": "An approach to ethics, developed by Aristotle, focused on cultivating good character traits rather than following rules or calculating consequences."},
+        {"term": "Golden mean", "def": "Aristotle's concept that virtue lies at a moderate point between two extremes (e.g., courage between recklessness and cowardice)."},
+        {"term": "The Forms", "def": "Plato's theory that abstract, perfect concepts (like the Good) exist in a realm beyond the physical world."}
+      ],
+      "examples": [
+        "Aristotle would describe courage as the \"golden mean\" between the extremes of recklessness and cowardice.",
+        "Socrates famously used persistent questioning to expose contradictions in others' assumed ethical beliefs."
+      ],
+      "steps": [
+        "Identify a virtue under consideration (e.g., generosity).",
+        "Identify the extreme of excess related to that virtue (e.g., wastefulness).",
+        "Identify the extreme of deficiency related to that virtue (e.g., stinginess).",
+        "The virtue itself lies at the moderate mean between these two extremes."
+      ],
+      "remember": [
+        "Socrates emphasized self-examination and questioning to pursue ethical understanding.",
+        "Plato argued true knowledge of the Good exists in an abstract realm beyond the physical world.",
+        "Aristotle's virtue ethics focuses on cultivating good character traits, not rules or consequences.",
+        "Aristotle's \"golden mean\" places virtue at a moderate point between two extremes."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the \"Socratic method\"?", "options": ["A rule-based ethical system", "A form of inquiry using systematic questioning to examine assumptions", "A type of consequentialism", "A legal theory"], "correct": 1, "explanation": "The Socratic method uses systematic questioning to examine ethical assumptions."},
+        {"q": "What is \"eudaimonia\"?", "options": ["A type of vice", "An Aristotelian concept often translated as \"flourishing\" or \"the good life\"", "A legal theory", "A type of relativism"], "correct": 1, "explanation": "Eudaimonia is Aristotle's concept of flourishing."},
+        {"q": "What does Aristotle's \"golden mean\" describe?", "options": ["The most extreme version of a virtue", "Virtue as a moderate point between two extremes", "A legal principle", "A type of relativism"], "correct": 1, "explanation": "The golden mean describes virtue as a moderate point between extremes."},
+        {"q": "What did Plato's theory of \"the Forms\" propose?", "options": ["Ethics is entirely subjective", "Abstract, perfect concepts like the Good exist beyond the physical world", "Virtue has no true form", "Morality is culturally relative"], "correct": 1, "explanation": "Plato's Forms proposed perfect abstract concepts existing beyond the physical world."},
+        {"q": "What does \"virtue ethics,\" developed by Aristotle, focus on?", "options": ["Following strict rules", "Calculating consequences only", "Cultivating good character traits", "Cultural relativism"], "correct": 2, "explanation": "Virtue ethics focuses on cultivating good character traits."}
+      ]
+    }
+  },
+  "Consequentialist vs Non-Consequentialist": {
+    "guide": {
+      "explanation": "Consequentialist ethical theories, like utilitarianism, judge the morality of an action solely by its outcomes — the right action is the one producing the best overall consequences. Non-consequentialist (deontological) theories, like Kant's categorical imperative, judge actions by their inherent nature or adherence to duty, regardless of the resulting consequences.",
+      "keyTerms": [
+        {"term": "Consequentialism", "def": "An ethical theory judging the morality of an action solely by its outcomes or consequences."},
+        {"term": "Utilitarianism", "def": "A consequentialist theory holding that the right action maximizes overall happiness or well-being."},
+        {"term": "Deontology (non-consequentialism)", "def": "An ethical theory judging actions by their inherent nature or adherence to duty, regardless of consequences."},
+        {"term": "Categorical imperative", "def": "Immanuel Kant's central principle, holding that one should act only according to rules that could be universally applied to everyone."},
+        {"term": "Greatest happiness principle", "def": "The utilitarian standard that the morally right action produces the greatest good for the greatest number of people."}
+      ],
+      "examples": [
+        "A utilitarian might justify a difficult decision by arguing it produces the greatest overall good, even if it involves some harm to a few individuals.",
+        "A Kantian deontologist might argue that lying is always wrong, regardless of consequences, because it violates a universal duty to honesty."
+      ],
+      "steps": [
+        "Identify all possible actions available in the situation.",
+        "Predict the likely consequences of each possible action.",
+        "Evaluate which action produces the greatest overall good or happiness.",
+        "Choose that action as the morally correct one, according to consequentialism."
+      ],
+      "remember": [
+        "Consequentialism (like utilitarianism) judges morality by outcomes; deontology judges morality by duty.",
+        "Utilitarianism's core principle is producing the greatest good for the greatest number.",
+        "Kant's categorical imperative asks whether a rule could be universally applied to everyone.",
+        "These two approaches often lead to different conclusions about the same moral dilemma."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"consequentialism\" judge the morality of an action by?", "options": ["The action's inherent nature", "Its outcomes or consequences", "Cultural norms only", "Religious doctrine only"], "correct": 1, "explanation": "Consequentialism judges morality solely by an action's outcomes."},
+        {"q": "What is \"utilitarianism\"?", "options": ["A deontological theory", "A consequentialist theory holding the right action maximizes overall happiness", "A theory of cultural relativism", "A type of virtue ethics"], "correct": 1, "explanation": "Utilitarianism is a consequentialist theory maximizing happiness."},
+        {"q": "What does \"deontology\" (non-consequentialism) judge actions by?", "options": ["Only their consequences", "Their inherent nature or adherence to duty, regardless of consequences", "Cultural relativism", "Personal preference only"], "correct": 1, "explanation": "Deontology judges actions by duty, not consequences."},
+        {"q": "What is Kant's \"categorical imperative\"?", "options": ["A consequentialist principle", "The principle that one should act only according to rules that could be universally applied", "A type of utilitarianism", "A cultural relativist principle"], "correct": 1, "explanation": "The categorical imperative asks if a rule could be universally applied."},
+        {"q": "What is the \"greatest happiness principle\"?", "options": ["A deontological rule", "The utilitarian standard that right action produces the greatest good for the greatest number", "A type of natural law", "A legal positivist principle"], "correct": 1, "explanation": "The greatest happiness principle is the utilitarian standard."}
+      ]
+    }
+  },
+  "Morality within the Western World / Religion and Ethics": {
+    "guide": {
+      "explanation": "Religious ethical traditions in the Western world, especially Judeo-Christian ethics, have historically shaped Western moral thought, often grounding morality in divine command (the view that actions are right or wrong because God commands or forbids them). This raises the philosophical \"Euthyphro dilemma,\" questioning whether something is good because God commands it, or whether God commands it because it is already good.",
+      "keyTerms": [
+        {"term": "Divine command theory", "def": "The view that an action's morality is determined by whether God commands or forbids it."},
+        {"term": "Euthyphro dilemma", "def": "A philosophical question, from Plato's dialogue, asking whether something is good because a god commands it, or a god commands it because it is already good."},
+        {"term": "Secular ethics", "def": "Ethical frameworks and reasoning that do not depend on religious belief or divine authority."},
+        {"term": "Judeo-Christian ethics", "def": "The moral traditions rooted in Jewish and Christian religious teachings that have historically influenced Western moral thought."}
+      ],
+      "examples": [
+        "A divine command theorist might argue that murder is wrong simply because God has forbidden it.",
+        "The Euthyphro dilemma challenges this by asking: if God commanded murder, would murder then become morally right?"
+      ],
+      "steps": [
+        "Consider the claim: \"X is good because God commands it.\"",
+        "Ask: if God's commands were different, would morality itself change?",
+        "Consider the alternative claim: \"God commands X because X is already good.\"",
+        "This alternative implies morality exists independently of God's will, raising further philosophical questions."
+      ],
+      "remember": [
+        "Divine command theory holds that morality is determined by God's commands.",
+        "The Euthyphro dilemma questions whether something is good because God commands it, or commanded because it's already good.",
+        "Judeo-Christian ethics has historically shaped much of Western moral thought.",
+        "Secular ethics offers moral frameworks independent of religious belief or divine authority."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"divine command theory\" propose?", "options": ["Morality exists independently of any god", "An action's morality is determined by whether God commands or forbids it", "Only humans determine morality", "Morality is culturally relative"], "correct": 1, "explanation": "Divine command theory holds morality is determined by God's commands."},
+        {"q": "What is the \"Euthyphro dilemma\"?", "options": ["A consequentialist theory", "A question asking whether something is good because God commands it, or commanded because it's good", "A type of virtue ethics", "A legal theory"], "correct": 1, "explanation": "The Euthyphro dilemma questions the relationship between divine command and goodness."},
+        {"q": "What is \"secular ethics\"?", "options": ["Ethics based entirely on religious doctrine", "Ethical frameworks that do not depend on religious belief or divine authority", "A type of divine command theory", "Only applicable to atheists"], "correct": 1, "explanation": "Secular ethics offers moral frameworks independent of religious belief."},
+        {"q": "What tradition has historically shaped much of Western moral thought, according to this chapter?", "options": ["Only ancient Greek philosophy", "Judeo-Christian ethics", "Only secular philosophy", "Only Eastern philosophy"], "correct": 1, "explanation": "Judeo-Christian ethics has historically shaped much of Western moral thought."},
+        {"q": "If God commanded an action, does divine command theory imply that action becomes morally right?", "options": ["No, never", "Yes, according to divine command theory", "Only for religious people", "The theory doesn't address this"], "correct": 1, "explanation": "Divine command theory implies morality follows God's commands, raising the Euthyphro dilemma."}
+      ]
+    }
+  },
+  "Ethics in Life and Death": {
+    "guide": {
+      "explanation": "Bioethical debates surrounding the beginning and end of life — including abortion, euthanasia, and capital punishment — involve competing ethical considerations, such as the moral status of a fetus, personal autonomy, and the value of preserving life. These debates draw on multiple ethical frameworks and remain among the most contested topics in applied ethics, with thoughtful arguments on multiple sides.",
+      "keyTerms": [
+        {"term": "Bioethics", "def": "The branch of ethics dealing with issues arising from advances in biology, medicine, and healthcare."},
+        {"term": "Personal autonomy", "def": "An individual's right to make decisions about their own body and life."},
+        {"term": "Euthanasia", "def": "The act of deliberately ending a life to relieve suffering, distinguished as voluntary, non-voluntary, or involuntary, and active or passive."},
+        {"term": "Sanctity of life", "def": "The ethical principle holding that human life has inherent value and should be protected."},
+        {"term": "Capital punishment", "def": "The practice of executing a person as punishment for a crime, a long-debated bioethical and legal issue."}
+      ],
+      "examples": [
+        "Debates over abortion often center on competing claims about the moral status of a fetus versus a pregnant person's autonomy.",
+        "Debates over euthanasia often weigh a terminally ill patient's autonomy against concerns about the sanctity of life."
+      ],
+      "steps": [
+        "Identify the competing ethical values at stake (e.g., autonomy vs. sanctity of life).",
+        "Consider how a consequentialist framework would evaluate the outcomes of different choices.",
+        "Consider how a deontological framework would evaluate the inherent rightness or wrongness of the actions involved.",
+        "Recognize that thoughtful people disagree on these issues, often due to differing weight given to competing values."
+      ],
+      "remember": [
+        "Bioethics addresses issues arising from advances in biology, medicine, and healthcare.",
+        "Debates over abortion, euthanasia, and capital punishment involve competing ethical considerations.",
+        "Euthanasia can be classified as voluntary, non-voluntary, or involuntary, and active or passive.",
+        "These are genuinely contested ethical debates with thoughtful arguments on multiple sides."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"bioethics\"?", "options": ["A type of legal theory", "The branch of ethics dealing with issues from advances in biology, medicine, and healthcare", "A type of virtue ethics only", "A religious doctrine"], "correct": 1, "explanation": "Bioethics deals with issues from advances in biology, medicine, and healthcare."},
+        {"q": "What is \"personal autonomy\"?", "options": ["A government mandate", "An individual's right to make decisions about their own body and life", "A type of divine command", "A legal positivist principle"], "correct": 1, "explanation": "Personal autonomy is a right to make decisions about one's own body and life."},
+        {"q": "What is \"euthanasia\"?", "options": ["A type of capital punishment", "The act of deliberately ending a life to relieve suffering", "A type of divine command", "A consequentialist theory only"], "correct": 1, "explanation": "Euthanasia is deliberately ending a life to relieve suffering."},
+        {"q": "What is the \"sanctity of life\" principle?", "options": ["A consequentialist theory", "The ethical principle that human life has inherent value and should be protected", "A legal positivist principle", "A type of relativism"], "correct": 1, "explanation": "The sanctity of life principle holds human life has inherent value."},
+        {"q": "Why do debates over abortion and euthanasia remain contested, according to this chapter?", "options": ["There are no ethical considerations involved", "They involve competing ethical values, like autonomy and sanctity of life", "Only religious people have opinions on these topics", "These debates have been fully resolved"], "correct": 1, "explanation": "These debates involve genuinely competing ethical values."}
+      ]
+    }
+  },
+  "Moral Issues in War and Peace": {
+    "guide": {
+      "explanation": "Just war theory provides a framework for evaluating the ethics of war, distinguishing jus ad bellum (justice of resorting to war) from jus in bello (justice within war, including proportionality and discrimination between combatants and civilians). Pacifism, in contrast, holds that war and violence are never or almost never morally justified.",
+      "keyTerms": [
+        {"term": "Just war theory", "def": "An ethical framework for evaluating when going to war is justified and how war should be conducted."},
+        {"term": "Jus ad bellum", "def": "The set of criteria within just war theory determining whether resorting to war is justified (e.g., just cause, last resort)."},
+        {"term": "Jus in bello", "def": "The set of criteria within just war theory determining how a war should be conducted justly (e.g., proportionality, discrimination)."},
+        {"term": "Pacifism", "def": "The ethical position holding that war and violence are never, or almost never, morally justified."},
+        {"term": "Proportionality", "def": "A jus in bello principle requiring that harm caused not be excessive relative to the military objective achieved."}
+      ],
+      "examples": [
+        "Jus ad bellum might ask whether a nation has exhausted diplomatic options (last resort) before declaring war.",
+        "Jus in bello's principle of discrimination requires militaries to distinguish between combatants and civilians."
+      ],
+      "steps": [
+        "Apply jus ad bellum criteria to assess whether going to war itself is justified.",
+        "Apply jus in bello criteria to assess how the war is being conducted.",
+        "A war might satisfy jus ad bellum while violating jus in bello during its conduct, or vice versa.",
+        "Consider the pacifist counterargument that violence is never, or almost never, justified."
+      ],
+      "remember": [
+        "Just war theory evaluates both whether going to war is justified and how war is conducted.",
+        "Jus ad bellum criteria include just cause and last resort; jus in bello criteria include proportionality and discrimination.",
+        "Pacifism holds that war and violence are never, or almost never, morally justified.",
+        "A war's justification and its conduct are evaluated separately under just war theory."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"just war theory\"?", "options": ["A theory that all war is unjustified", "An ethical framework for evaluating when war is justified and how it should be conducted", "A type of pacifism", "A legal positivist theory"], "correct": 1, "explanation": "Just war theory evaluates when war is justified and how it's conducted."},
+        {"q": "What does \"jus ad bellum\" address?", "options": ["How war is conducted", "Whether resorting to war is justified in the first place", "Pacifist arguments only", "Only civilian casualties"], "correct": 1, "explanation": "Jus ad bellum addresses whether resorting to war is justified."},
+        {"q": "What does \"jus in bello\" address?", "options": ["Whether to go to war", "How a war should be conducted justly", "Only diplomatic efforts", "Only pacifist theory"], "correct": 1, "explanation": "Jus in bello addresses how a war should be conducted justly."},
+        {"q": "What is \"pacifism\"?", "options": ["The view that war is always justified", "The view that war and violence are never, or almost never, morally justified", "A jus in bello principle", "A type of just war theory criterion"], "correct": 1, "explanation": "Pacifism holds war and violence are never, or almost never, justified."},
+        {"q": "What does the jus in bello principle of \"proportionality\" require?", "options": ["Unlimited military force", "That harm caused not be excessive relative to the military objective achieved", "Only diplomatic solutions", "Complete avoidance of all conflict"], "correct": 1, "explanation": "Proportionality requires harm not be excessive relative to the objective."}
+      ]
+    }
+  },
+  "Moral Issues in the Economy": {
+    "guide": {
+      "explanation": "Economic ethics examines questions of fairness in wealth distribution, labor practices, and market regulation, often contrasting libertarian views (emphasizing free markets) with more egalitarian views (emphasizing redistribution to reduce economic inequality). Corporate social responsibility raises additional questions about whether businesses have ethical obligations beyond maximizing profit for shareholders.",
+      "keyTerms": [
+        {"term": "Distributive justice", "def": "The ethical study of how resources, wealth, and opportunities should be fairly distributed within society."},
+        {"term": "Libertarianism (economic)", "def": "A view emphasizing free markets, individual property rights, and minimal government interference in the economy."},
+        {"term": "Egalitarianism", "def": "A view emphasizing greater equality in the distribution of wealth and resources."},
+        {"term": "Corporate social responsibility (CSR)", "def": "The idea that businesses have ethical obligations to society beyond maximizing profit for shareholders."},
+        {"term": "Living wage", "def": "A wage sufficient to meet a worker's basic needs, often proposed as an ethical minimum standard."}
+      ],
+      "examples": [
+        "An economic libertarian might argue that voluntary market transactions are inherently fair, and redistribution unjustly interferes with property rights.",
+        "An egalitarian might argue that significant wealth inequality is unjust and that redistribution through taxation is ethically required."
+      ],
+      "steps": [
+        "Consider a libertarian perspective: does this policy respect individual property rights and market freedom?",
+        "Consider an egalitarian perspective: does this policy reduce unjust inequality and promote fairness?",
+        "Consider corporate social responsibility: does a business have ethical obligations here beyond profit maximization?",
+        "Recognize that these perspectives can lead to very different conclusions about the same economic policy."
+      ],
+      "remember": [
+        "Distributive justice examines how wealth and resources should be fairly distributed.",
+        "Economic libertarianism emphasizes free markets; egalitarianism emphasizes reducing inequality.",
+        "Corporate social responsibility questions whether businesses have ethical obligations beyond profit.",
+        "A \"living wage\" is proposed as an ethical minimum standard for meeting basic needs."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"distributive justice\" examine?", "options": ["Criminal punishment only", "How resources, wealth, and opportunities should be fairly distributed", "Only religious ethics", "Only military ethics"], "correct": 1, "explanation": "Distributive justice examines fair distribution of wealth and resources."},
+        {"q": "What does economic \"libertarianism\" emphasize?", "options": ["Government control of markets", "Free markets, individual property rights, and minimal government interference", "Complete wealth redistribution", "Only corporate responsibility"], "correct": 1, "explanation": "Economic libertarianism emphasizes free markets and minimal interference."},
+        {"q": "What does \"egalitarianism\" emphasize?", "options": ["Free markets only", "Greater equality in the distribution of wealth and resources", "Minimal government involvement", "Only individual property rights"], "correct": 1, "explanation": "Egalitarianism emphasizes greater equality in wealth distribution."},
+        {"q": "What does \"corporate social responsibility\" (CSR) propose?", "options": ["Businesses have no ethical obligations", "Businesses have ethical obligations to society beyond maximizing profit", "Only government has ethical obligations", "Profit maximization is the only goal"], "correct": 1, "explanation": "CSR proposes ethical obligations beyond profit maximization."},
+        {"q": "What is a \"living wage\"?", "options": ["The minimum legal wage only", "A wage sufficient to meet a worker's basic needs", "A type of corporate profit", "A tax policy"], "correct": 1, "explanation": "A living wage is sufficient to meet basic needs."}
+      ]
+    }
+  },
+  "The Justice System": {
+    "guide": {
+      "explanation": "The ethics of criminal justice examines competing theories of punishment — retributive justice (punishment as deserved consequence) versus utilitarian justifications like deterrence and rehabilitation. The justice system also raises ongoing ethical questions about fairness, proportionality of punishment, and disparities in how justice is administered.",
+      "keyTerms": [
+        {"term": "Retributive justice", "def": "A theory of punishment holding that offenders deserve punishment proportional to their wrongdoing, as a matter of justice itself."},
+        {"term": "Deterrence", "def": "A consequentialist justification for punishment, aiming to prevent future crime by the offender or others."},
+        {"term": "Rehabilitation", "def": "A justification for punishment focused on reforming an offender so they can reintegrate into society."},
+        {"term": "Restorative justice", "def": "An approach to justice focused on repairing harm done to victims and communities, rather than solely punishing offenders."},
+        {"term": "Proportionality (in punishment)", "def": "The principle that punishment should be proportional to the severity of the offense committed."}
+      ],
+      "examples": [
+        "A retributivist justifies punishment because the offender deserves it as a matter of justice, regardless of future crime prevention.",
+        "A deterrence-focused justification might support harsher sentences specifically to discourage others from similar crimes."
+      ],
+      "steps": [
+        "Retributive justice: punishment is deserved as a matter of justice, based on the wrongdoing itself.",
+        "Deterrence: punishment is justified by its effect in preventing future crime.",
+        "Rehabilitation: punishment is justified by its effect in reforming the offender.",
+        "Restorative justice: justice is achieved primarily by repairing harm to victims and communities."
+      ],
+      "remember": [
+        "Retributive justice justifies punishment as deserved, independent of future consequences.",
+        "Deterrence and rehabilitation are consequentialist justifications focused on preventing crime or reforming offenders.",
+        "Restorative justice focuses on repairing harm to victims and communities.",
+        "Proportionality requires that punishment match the severity of the offense."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"retributive justice\" hold?", "options": ["Punishment should prevent future crime only", "Offenders deserve punishment proportional to their wrongdoing, as a matter of justice", "Punishment should only rehabilitate offenders", "Punishment is never justified"], "correct": 1, "explanation": "Retributive justice holds punishment is deserved as a matter of justice."},
+        {"q": "What is \"deterrence\" as a justification for punishment?", "options": ["Punishment as deserved consequence only", "A consequentialist justification aiming to prevent future crime", "A restorative justice principle", "A type of proportionality"], "correct": 1, "explanation": "Deterrence aims to prevent future crime."},
+        {"q": "What is \"rehabilitation\" as a justification for punishment?", "options": ["Punishment as deserved consequence", "A justification focused on reforming an offender to reintegrate into society", "A retributive principle", "A type of deterrence only"], "correct": 1, "explanation": "Rehabilitation focuses on reforming an offender."},
+        {"q": "What does \"restorative justice\" focus on?", "options": ["Only punishing offenders", "Repairing harm done to victims and communities", "Only deterrence", "Only retribution"], "correct": 1, "explanation": "Restorative justice focuses on repairing harm to victims and communities."},
+        {"q": "What does \"proportionality\" in punishment require?", "options": ["All punishments should be equal", "Punishment should be proportional to the severity of the offense", "Punishment should always be maximum severity", "Punishment has no relation to the offense"], "correct": 1, "explanation": "Proportionality requires punishment match the severity of the offense."}
+      ]
+    }
+  },
+  "Human Rights Ethics": {
+    "guide": {
+      "explanation": "Human rights ethics examines the philosophical basis for universal rights — moral entitlements believed to belong to all people simply by virtue of being human, regardless of law, culture, or government recognition. Debates continue over whether human rights are grounded in natural law, social contract theory, or other philosophical foundations.",
+      "keyTerms": [
+        {"term": "Human rights", "def": "Moral entitlements believed to belong to all people simply by virtue of being human."},
+        {"term": "Natural rights", "def": "Rights believed to exist inherently, independent of any government or legal system granting them."},
+        {"term": "Social contract theory", "def": "A theory proposing that rights and obligations arise from an implicit agreement among members of a society."},
+        {"term": "Universal Declaration of Human Rights", "def": "A foundational international document, adopted by the United Nations in 1948, outlining fundamental human rights."},
+        {"term": "Positive and negative rights", "def": "Negative rights require others to refrain from interfering; positive rights require active provision of something."}
+      ],
+      "examples": [
+        "The right to be free from torture is often described as a negative right — requiring others to refrain from an action.",
+        "A right to education is often described as a positive right — requiring active provision of resources and opportunity."
+      ],
+      "steps": [
+        "Determine whether the claimed right is negative (requiring non-interference) or positive (requiring active provision).",
+        "Consider its philosophical grounding — natural right, or derived from social contract theory?",
+        "Consider how this right might be balanced against competing rights or collective interests.",
+        "Recognize that human rights theory remains an area of ongoing philosophical debate."
+      ],
+      "remember": [
+        "Human rights are moral entitlements believed to belong to all people by virtue of being human.",
+        "Natural rights exist independently of government; social contract theory grounds rights in societal agreement.",
+        "The Universal Declaration of Human Rights (1948) is a foundational international document.",
+        "Negative rights require non-interference; positive rights require active provision."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What are \"human rights\"?", "options": ["Rights granted only by specific governments", "Moral entitlements believed to belong to all people by virtue of being human", "Only legal privileges", "Rights that vary entirely by culture"], "correct": 1, "explanation": "Human rights belong to all people by virtue of being human."},
+        {"q": "What are \"natural rights\"?", "options": ["Rights created by government", "Rights believed to exist inherently, independent of government or legal systems", "Only cultural privileges", "Rights that don't exist"], "correct": 1, "explanation": "Natural rights exist inherently, independent of government."},
+        {"q": "What does \"social contract theory\" propose about rights?", "options": ["Rights exist independently of society", "Rights and obligations arise from an implicit agreement among society members", "Only governments have rights", "Rights are meaningless"], "correct": 1, "explanation": "Social contract theory grounds rights in societal agreement."},
+        {"q": "What is the \"Universal Declaration of Human Rights\"?", "options": ["A national law only", "A foundational international document adopted by the UN in 1948 outlining human rights", "A type of social contract", "A type of natural law theory"], "correct": 1, "explanation": "It's a foundational UN document from 1948."},
+        {"q": "What is a \"negative right\"?", "options": ["A right requiring active provision of something", "A right requiring others to refrain from interfering", "A type of positive right", "A right that doesn't exist"], "correct": 1, "explanation": "A negative right requires non-interference, like freedom from torture."}
+      ]
+    }
+  },
+  "Ethics in Relationships and Sexuality": {
+    "guide": {
+      "explanation": "Sexual ethics examines questions of consent, fidelity, and the moral frameworks people apply to intimate relationships, with different ethical traditions offering different perspectives — from traditional religious views often emphasizing marriage and procreation, to more liberal frameworks emphasizing consent and autonomy. These remain actively debated topics where thoughtful people hold a range of views informed by different values and traditions.",
+      "keyTerms": [
+        {"term": "Consent", "def": "Voluntary, informed agreement to engage in an activity, considered a foundational ethical requirement in most modern frameworks."},
+        {"term": "Sexual autonomy", "def": "An individual's right to make their own decisions about their sexual life and relationships."},
+        {"term": "Fidelity", "def": "Faithfulness to a commitment made within a relationship, often considered an ethical obligation within monogamous partnerships."},
+        {"term": "Consequentialist approaches to sexual ethics", "def": "Evaluating sexual choices based on their outcomes, such as effects on wellbeing or relationships."},
+        {"term": "Traditional/religious approaches to sexual ethics", "def": "Frameworks often grounding sexual ethics in religious teachings, frequently emphasizing marriage and procreation."}
+      ],
+      "examples": [
+        "Modern liberal ethical frameworks generally hold that consent between autonomous adults is the primary ethical consideration.",
+        "Traditional religious frameworks have historically emphasized sexual activity within marriage, often connecting it to procreation."
+      ],
+      "steps": [
+        "Identify the ethical framework being applied (e.g., consequentialist, traditional/religious, autonomy-based).",
+        "Consider how each framework would evaluate the situation differently.",
+        "Recognize that consent is treated as a foundational requirement across most modern ethical frameworks.",
+        "Acknowledge that this remains an area where people hold genuinely different views based on differing values."
+      ],
+      "remember": [
+        "Consent is considered a foundational ethical requirement in most modern frameworks for sexual ethics.",
+        "Sexual autonomy refers to an individual's right to make their own decisions about their sexual life.",
+        "Traditional/religious frameworks often emphasize marriage and procreation; liberal frameworks emphasize consent and autonomy.",
+        "This remains a genuinely contested area of applied ethics with a range of thoughtful perspectives."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"consent\" in the context of sexual ethics?", "options": ["A religious requirement only", "Voluntary, informed agreement to engage in an activity", "A legal technicality", "A type of fidelity"], "correct": 1, "explanation": "Consent is voluntary, informed agreement."},
+        {"q": "What is \"sexual autonomy\"?", "options": ["A religious doctrine", "An individual's right to make their own decisions about their sexual life and relationships", "A type of consequentialism", "A legal requirement only"], "correct": 1, "explanation": "Sexual autonomy is a right to make one's own decisions about sexual life."},
+        {"q": "What is \"fidelity\" in the context of relationship ethics?", "options": ["A type of consent", "Faithfulness to a commitment made within a relationship", "A consequentialist theory", "A legal requirement"], "correct": 1, "explanation": "Fidelity refers to faithfulness to a relationship commitment."},
+        {"q": "What do traditional/religious approaches to sexual ethics often emphasize?", "options": ["Only consent", "Marriage and procreation", "Only autonomy", "Only consequentialism"], "correct": 1, "explanation": "Traditional/religious approaches often emphasize marriage and procreation."},
+        {"q": "What do more liberal ethical frameworks for sexuality generally emphasize as the primary consideration?", "options": ["Marriage only", "Consent and autonomy between adults", "Procreation only", "Religious doctrine only"], "correct": 1, "explanation": "Liberal frameworks generally emphasize consent and autonomy."}
+      ]
+    }
+  },
+  "Ethics in Healthcare": {
+    "guide": {
+      "explanation": "Medical ethics is guided by core principles — autonomy, beneficence (acting in the patient's best interest), nonmaleficence (\"do no harm\"), and justice (fair distribution of healthcare resources). These principles can sometimes conflict, requiring healthcare providers to balance competing ethical obligations in difficult situations.",
+      "keyTerms": [
+        {"term": "Autonomy (medical ethics)", "def": "Respecting a patient's right to make informed decisions about their own healthcare."},
+        {"term": "Beneficence", "def": "The ethical obligation to act in the patient's best interest."},
+        {"term": "Nonmaleficence", "def": "The ethical obligation to avoid causing harm (\"do no harm\")."},
+        {"term": "Justice (medical ethics)", "def": "The fair and equitable distribution of healthcare resources and treatment."},
+        {"term": "Informed consent", "def": "A patient's voluntary agreement to a treatment after understanding its risks, benefits, and alternatives."}
+      ],
+      "examples": [
+        "A patient refusing a recommended treatment, even if medically advisable, is generally respected under the principle of autonomy.",
+        "Allocating scarce medical resources, like organ transplants, fairly among patients raises questions of justice in healthcare ethics."
+      ],
+      "steps": [
+        "Autonomy: does the decision respect the patient's right to make their own informed choice?",
+        "Beneficence: does the action serve the patient's best interest?",
+        "Nonmaleficence: does the action avoid causing unnecessary harm?",
+        "Justice: is the decision fair in terms of how resources or treatment are distributed?"
+      ],
+      "remember": [
+        "The four core principles of medical ethics: autonomy, beneficence, nonmaleficence, and justice.",
+        "Autonomy respects a patient's right to make their own healthcare decisions.",
+        "Beneficence requires acting in the patient's best interest; nonmaleficence requires avoiding harm.",
+        "Justice concerns the fair distribution of healthcare resources and treatment."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does the principle of \"autonomy\" in medical ethics respect?", "options": ["A doctor's authority only", "A patient's right to make informed decisions about their own healthcare", "Hospital policy only", "Insurance company decisions"], "correct": 1, "explanation": "Autonomy respects a patient's right to make their own decisions."},
+        {"q": "What does \"beneficence\" require?", "options": ["Avoiding all treatment", "Acting in the patient's best interest", "Following hospital policy only", "Charging fair prices only"], "correct": 1, "explanation": "Beneficence requires acting in the patient's best interest."},
+        {"q": "What does \"nonmaleficence\" require?", "options": ["Acting in the patient's best interest only", "Avoiding causing harm (\"do no harm\")", "Fair distribution of resources", "Respecting patient autonomy only"], "correct": 1, "explanation": "Nonmaleficence requires avoiding causing harm."},
+        {"q": "What does \"justice\" in medical ethics concern?", "options": ["Only legal matters", "The fair and equitable distribution of healthcare resources and treatment", "Only patient autonomy", "Only beneficence"], "correct": 1, "explanation": "Justice concerns fair distribution of healthcare resources."},
+        {"q": "What is \"informed consent\" in medical ethics?", "options": ["A doctor's decision alone", "A patient's voluntary agreement to treatment after understanding risks, benefits, and alternatives", "A type of nonmaleficence", "A hospital policy only"], "correct": 1, "explanation": "Informed consent is a patient's voluntary, informed agreement to treatment."}
+      ]
+    }
+  },
+  "Ethics in the Environment": {
+    "guide": {
+      "explanation": "Environmental ethics examines humanity's moral obligations toward nature, contrasting anthropocentric views (nature has value only insofar as it benefits humans) with biocentric and ecocentric views (individual living things, or entire ecosystems, have inherent value). Questions of intergenerational justice are central to modern environmental ethics debates like climate change.",
+      "keyTerms": [
+        {"term": "Anthropocentrism", "def": "The view that nature has value only insofar as it benefits humans."},
+        {"term": "Biocentrism", "def": "The view that individual living things have inherent value, independent of their usefulness to humans."},
+        {"term": "Ecocentrism", "def": "The view that entire ecosystems, not just individual living things, have inherent moral value."},
+        {"term": "Intergenerational justice", "def": "Ethical obligations toward future generations, particularly regarding the environmental consequences of current actions."},
+        {"term": "Sustainability", "def": "Meeting present needs without compromising the ability of future generations to meet their own needs."}
+      ],
+      "examples": [
+        "An anthropocentric view might justify environmental protection primarily because it benefits human health and economic interests.",
+        "A biocentric view would argue that an endangered species has inherent value worth protecting, regardless of any benefit to humans."
+      ],
+      "steps": [
+        "Anthropocentric perspective: does this policy benefit human interests and wellbeing?",
+        "Biocentric perspective: does this policy respect the inherent value of individual living things?",
+        "Ecocentric perspective: does this policy protect the integrity of entire ecosystems?",
+        "Intergenerational justice: does this policy consider the interests of future generations?"
+      ],
+      "remember": [
+        "Anthropocentrism values nature based on human benefit; biocentrism and ecocentrism attribute inherent value to living things or ecosystems.",
+        "Intergenerational justice concerns ethical obligations to future generations regarding environmental choices.",
+        "Sustainability means meeting present needs without compromising future generations' ability to meet their own.",
+        "Climate change is a central modern issue raising questions of intergenerational environmental justice."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"anthropocentrism\" propose about nature's value?", "options": ["Nature has inherent value regardless of humans", "Nature has value only insofar as it benefits humans", "Only ecosystems have value", "Nature has no value at all"], "correct": 1, "explanation": "Anthropocentrism holds nature has value only for human benefit."},
+        {"q": "What does \"biocentrism\" propose?", "options": ["Only humans have value", "Individual living things have inherent value, independent of usefulness to humans", "Only ecosystems have value", "Nature has no moral status"], "correct": 1, "explanation": "Biocentrism holds individual living things have inherent value."},
+        {"q": "What does \"ecocentrism\" propose?", "options": ["Only individual organisms have value", "Entire ecosystems have inherent moral value", "Only humans have value", "Nature has no value"], "correct": 1, "explanation": "Ecocentrism holds entire ecosystems have inherent moral value."},
+        {"q": "What is \"intergenerational justice\" concerned with?", "options": ["Justice between different cultures", "Ethical obligations toward future generations regarding today's environmental choices", "Only present-day economic policy", "Only legal punishment"], "correct": 1, "explanation": "Intergenerational justice concerns obligations to future generations."},
+        {"q": "What does \"sustainability\" mean?", "options": ["Maximizing present resource use regardless of future impact", "Meeting present needs without compromising future generations' ability to meet their own", "Ignoring environmental impact", "Only benefiting current generations"], "correct": 1, "explanation": "Sustainability meets present needs without compromising future generations."}
+      ]
+    }
+  }
+}

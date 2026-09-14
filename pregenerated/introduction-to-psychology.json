@@ -1,0 +1,483 @@
+{
+  "The Nature and History of Psychology": {
+    "guide": {
+      "explanation": "Psychology is the scientific study of the mind and behavior, having evolved from philosophical roots into distinct schools of thought: structuralism (Wilhelm Wundt, analyzing the mind's basic components), functionalism (William James, focusing on the purpose of mental processes), and later behaviorism (B.F. Skinner, focusing only on observable behavior) and cognitive psychology (focusing on internal mental processes). Today's field integrates multiple perspectives, including the biopsychosocial model.",
+      "keyTerms": [
+        {"term": "Structuralism", "def": "An early school of psychology, led by Wilhelm Wundt, focused on breaking down the mind into its basic components."},
+        {"term": "Functionalism", "def": "A school of psychology, led by William James, focused on the purpose and function of mental processes."},
+        {"term": "Behaviorism", "def": "A school of psychology, led by figures like B.F. Skinner, focused solely on observable behavior."},
+        {"term": "Cognitive psychology", "def": "A perspective focused on internal mental processes like thinking, memory, and problem-solving."},
+        {"term": "Biopsychosocial model", "def": "An approach considering biological, psychological, and social factors together in understanding behavior."}
+      ],
+      "examples": [
+        "Wilhelm Wundt is often credited with establishing the first psychology laboratory, marking psychology's emergence as a distinct discipline.",
+        "B.F. Skinner's behaviorist experiments focused entirely on observable behavior, avoiding speculation about internal mental states."
+      ],
+      "steps": [
+        "If focused on breaking the mind into basic components, that's structuralism.",
+        "If focused on the purpose/function of mental processes, that's functionalism.",
+        "If focused solely on observable behavior, that's behaviorism.",
+        "If focused on internal mental processes like thinking and memory, that's cognitive psychology."
+      ],
+      "remember": [
+        "Wilhelm Wundt (structuralism) and William James (functionalism) represent two of psychology's earliest schools.",
+        "Behaviorism (Skinner) focuses only on observable behavior, not internal mental states.",
+        "Cognitive psychology focuses on internal mental processes like thinking and memory.",
+        "Modern psychology often integrates biological, psychological, and social factors."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "Who is associated with establishing the first psychology laboratory and founding structuralism?", "options": ["William James", "Wilhelm Wundt", "B.F. Skinner", "Sigmund Freud"], "correct": 1, "explanation": "Wilhelm Wundt established the first psychology laboratory and founded structuralism."},
+        {"q": "What did functionalism, led by William James, focus on?", "options": ["Breaking the mind into basic components", "The purpose and function of mental processes", "Only observable behavior", "Only childhood development"], "correct": 1, "explanation": "Functionalism focused on the purpose and function of mental processes."},
+        {"q": "What does behaviorism focus on?", "options": ["Internal mental processes", "Only observable behavior", "Childhood development only", "Social influences only"], "correct": 1, "explanation": "Behaviorism focuses solely on observable behavior."},
+        {"q": "What does cognitive psychology focus on?", "options": ["Only observable behavior", "Internal mental processes like thinking and memory", "Only biological factors", "Only social factors"], "correct": 1, "explanation": "Cognitive psychology focuses on internal mental processes."},
+        {"q": "What does the \"biopsychosocial model\" consider?", "options": ["Only biological factors", "Biological, psychological, and social factors together", "Only social factors", "Only psychological factors"], "correct": 1, "explanation": "The biopsychosocial model considers biological, psychological, and social factors together."}
+      ]
+    }
+  },
+  "Research": {
+    "guide": {
+      "explanation": "Psychological research relies on the scientific method, using methods like experiments (which manipulate variables to establish cause and effect), correlational studies, and case studies. Ethical research requires informed consent, protection from harm, and debriefing participants afterward.",
+      "keyTerms": [
+        {"term": "Independent variable", "def": "The variable manipulated by the researcher in an experiment."},
+        {"term": "Dependent variable", "def": "The variable measured to see the effect of the independent variable."},
+        {"term": "Correlation", "def": "A statistical relationship between two variables, which does not by itself establish causation."},
+        {"term": "Case study", "def": "An in-depth examination of a single individual, group, or event."},
+        {"term": "Informed consent", "def": "A research ethics principle requiring participants to understand and agree to a study before participating."}
+      ],
+      "examples": [
+        "In an experiment testing whether sleep affects memory, sleep duration is the independent variable, and memory test performance is the dependent variable.",
+        "A case study of a single patient with a rare brain injury can provide detailed insight, though its findings may not generalize."
+      ],
+      "steps": [
+        "Identify the independent variable (what you will manipulate).",
+        "Identify the dependent variable (what you will measure).",
+        "Randomly assign participants to experimental and control groups to reduce bias.",
+        "Compare outcomes between groups to determine the effect of the independent variable."
+      ],
+      "remember": [
+        "The independent variable is manipulated; the dependent variable is measured.",
+        "Correlation does not establish causation — a third variable might explain the relationship.",
+        "Case studies provide in-depth insight but may not generalize to a broader population.",
+        "Ethical research requires informed consent, protection from harm, and debriefing."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the \"independent variable\" in an experiment?", "options": ["The variable that is measured", "The variable manipulated by the researcher", "A type of case study", "A research ethics principle"], "correct": 1, "explanation": "The independent variable is the one manipulated by the researcher."},
+        {"q": "What is the \"dependent variable\"?", "options": ["The variable manipulated by the researcher", "The variable measured to see the effect of the independent variable", "A type of correlation", "A research method"], "correct": 1, "explanation": "The dependent variable is measured to observe the effect of the independent variable."},
+        {"q": "Does correlation establish causation?", "options": ["Yes, always", "No, correlation alone does not establish causation", "Only in case studies", "Only in experiments"], "correct": 1, "explanation": "Correlation does not by itself establish causation."},
+        {"q": "What is a \"case study\"?", "options": ["A large-scale survey", "An in-depth examination of a single individual, group, or event", "A controlled experiment", "A type of correlation"], "correct": 1, "explanation": "A case study is an in-depth examination of a single individual, group, or event."},
+        {"q": "What does ethical psychological research require?", "options": ["No special considerations", "Informed consent, protection from harm, and debriefing", "Only informed consent", "Only debriefing"], "correct": 1, "explanation": "Ethical research requires informed consent, protection from harm, and debriefing."}
+      ]
+    }
+  },
+  "Biological Influences on Behavior": {
+    "guide": {
+      "explanation": "The nervous system, composed of neurons that communicate through electrical and chemical signals, underlies all behavior and mental processes. The brain's major regions — including the frontal lobe, amygdala, and hippocampus — each play distinct roles, while neurotransmitters like dopamine and serotonin influence mood, motivation, and mental health.",
+      "keyTerms": [
+        {"term": "Neuron", "def": "The basic cell of the nervous system, transmitting electrical and chemical signals."},
+        {"term": "Neurotransmitter", "def": "A chemical messenger that transmits signals across the synapse between neurons."},
+        {"term": "Frontal lobe", "def": "The brain region responsible for decision-making, planning, and impulse control."},
+        {"term": "Amygdala", "def": "The brain region primarily involved in processing emotions, especially fear."},
+        {"term": "Hippocampus", "def": "The brain region primarily involved in forming new memories."}
+      ],
+      "examples": [
+        "Low levels of the neurotransmitter serotonin have been linked to depression.",
+        "Damage to the hippocampus can impair a person's ability to form new long-term memories."
+      ],
+      "steps": [
+        "An electrical signal travels down a neuron's axon.",
+        "At the synapse, the neuron releases neurotransmitters into the gap between it and the next neuron.",
+        "The neurotransmitters bind to receptors on the next neuron, triggering a new electrical signal.",
+        "This process repeats across networks of neurons, enabling communication throughout the nervous system."
+      ],
+      "remember": [
+        "Neurons transmit electrical and chemical signals, communicating via neurotransmitters at synapses.",
+        "The frontal lobe handles decision-making; the amygdala processes fear; the hippocampus forms new memories.",
+        "Neurotransmitters like dopamine and serotonin influence mood, motivation, and mental health.",
+        "Biological factors, like neurotransmitter levels, are linked to conditions like depression."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"neuron\"?", "options": ["A brain region", "The basic cell of the nervous system, transmitting signals", "A type of neurotransmitter", "A memory disorder"], "correct": 1, "explanation": "A neuron is the basic cell of the nervous system."},
+        {"q": "What is the primary function of the \"amygdala\"?", "options": ["Decision-making", "Processing emotions, especially fear", "Forming new memories", "Regulating heart rate"], "correct": 1, "explanation": "The amygdala is primarily involved in processing fear and emotion."},
+        {"q": "What is the primary function of the \"hippocampus\"?", "options": ["Decision-making", "Processing fear", "Forming new memories", "Controlling movement"], "correct": 2, "explanation": "The hippocampus is primarily involved in forming new memories."},
+        {"q": "What is a \"neurotransmitter\"?", "options": ["A brain region", "A chemical messenger transmitting signals across the synapse between neurons", "A type of memory", "A research method"], "correct": 1, "explanation": "A neurotransmitter is a chemical messenger between neurons."},
+        {"q": "What has low serotonin been linked to?", "options": ["Improved memory", "Depression", "Increased decision-making ability", "Better vision"], "correct": 1, "explanation": "Low serotonin has been linked to depression."}
+      ]
+    }
+  },
+  "Sensation and Perception": {
+    "guide": {
+      "explanation": "Sensation is the process of detecting physical stimuli through sensory organs, while perception is the brain's process of organizing and interpreting that sensory information into meaningful experience. Concepts like absolute threshold and selective attention explain how the brain manages the vast amount of sensory information it receives.",
+      "keyTerms": [
+        {"term": "Sensation", "def": "The process of detecting physical stimuli through sensory organs."},
+        {"term": "Perception", "def": "The brain's process of organizing and interpreting sensory information into meaningful experience."},
+        {"term": "Absolute threshold", "def": "The minimum intensity of a stimulus needed for it to be detected."},
+        {"term": "Selective attention", "def": "The process of focusing on specific stimuli while filtering out others."},
+        {"term": "Perceptual set", "def": "A mental predisposition to perceive something in a particular way based on expectations or past experience."}
+      ],
+      "examples": [
+        "Sensation occurs when light hits the retina; perception occurs when the brain interprets that light pattern as a recognizable face.",
+        "The \"cocktail party effect,\" where a person can focus on one conversation in a noisy room, illustrates selective attention."
+      ],
+      "steps": [
+        "Ask: is this the raw detection of a physical stimulus? That's sensation.",
+        "Ask: is this the brain's interpretation or organization of that stimulus into meaning? That's perception.",
+        "Recognize that perception can be influenced by expectations (perceptual set).",
+        "Consider how selective attention determines which sensory information receives conscious focus."
+      ],
+      "remember": [
+        "Sensation is detecting a stimulus; perception is interpreting it into meaningful experience.",
+        "Absolute threshold is the minimum stimulus intensity needed for detection.",
+        "Selective attention allows focus on specific stimuli while filtering out others.",
+        "Perceptual set describes how expectations shape how something is perceived."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"sensation\"?", "options": ["The brain's interpretation of stimuli", "The process of detecting physical stimuli through sensory organs", "A type of memory", "A research method"], "correct": 1, "explanation": "Sensation is the process of detecting physical stimuli."},
+        {"q": "What is \"perception\"?", "options": ["The detection of raw stimuli", "The brain's process of organizing and interpreting sensory information", "A type of neuron", "A research method"], "correct": 1, "explanation": "Perception is the brain's process of interpreting sensory information."},
+        {"q": "What is the \"absolute threshold\"?", "options": ["The maximum stimulus intensity", "The minimum intensity of a stimulus needed for detection", "A type of perception", "A research method"], "correct": 1, "explanation": "The absolute threshold is the minimum stimulus intensity for detection."},
+        {"q": "What does \"selective attention\" describe?", "options": ["Detecting all stimuli equally", "Focusing on specific stimuli while filtering out others", "A type of memory", "A brain region"], "correct": 1, "explanation": "Selective attention focuses on specific stimuli while filtering out others."},
+        {"q": "What is a \"perceptual set\"?", "options": ["A type of sensation", "A mental predisposition to perceive something in a particular way based on expectations", "A brain region", "A research method"], "correct": 1, "explanation": "A perceptual set is shaped by expectations or past experience."}
+      ]
+    }
+  },
+  "Consciousness": {
+    "guide": {
+      "explanation": "Consciousness refers to awareness of oneself and one's environment, existing on a spectrum from full alertness to sleep and altered states. Sleep cycles through distinct stages, including REM sleep, associated with vivid dreaming, and psychoactive drugs can alter consciousness by affecting neurotransmitter activity.",
+      "keyTerms": [
+        {"term": "Consciousness", "def": "Awareness of oneself and one's environment."},
+        {"term": "REM sleep", "def": "A stage of sleep characterized by rapid eye movement and vivid dreaming."},
+        {"term": "Circadian rhythm", "def": "The body's internal biological clock, regulating sleep-wake cycles over approximately 24 hours."},
+        {"term": "Psychoactive drug", "def": "A substance that alters consciousness by affecting brain chemistry."},
+        {"term": "Altered state of consciousness", "def": "A state, like meditation or hypnosis, distinctly different from ordinary waking awareness."}
+      ],
+      "examples": [
+        "Most vivid dreaming occurs during REM sleep, identifiable by increased brain activity and rapid eye movements.",
+        "Caffeine, a psychoactive drug, alters consciousness by increasing alertness through its effects on brain chemistry."
+      ],
+      "steps": [
+        "Sleep progresses through several non-REM stages, becoming progressively deeper.",
+        "After the deepest non-REM stage, the body transitions into REM sleep.",
+        "REM sleep is associated with vivid dreaming and increased brain activity.",
+        "This cycle of non-REM and REM stages repeats several times throughout a night's sleep."
+      ],
+      "remember": [
+        "Consciousness exists on a spectrum, from full alertness to sleep and altered states.",
+        "REM sleep is associated with vivid dreaming and rapid eye movement.",
+        "Circadian rhythm regulates the body's sleep-wake cycle over approximately 24 hours.",
+        "Psychoactive drugs alter consciousness by affecting brain chemistry."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"consciousness\"?", "options": ["A type of memory", "Awareness of oneself and one's environment", "A brain region", "A research method"], "correct": 1, "explanation": "Consciousness is awareness of oneself and one's environment."},
+        {"q": "What is \"REM sleep\" associated with?", "options": ["Deep, dreamless sleep", "Vivid dreaming and rapid eye movement", "Full wakefulness", "A type of psychoactive drug"], "correct": 1, "explanation": "REM sleep is associated with vivid dreaming and rapid eye movement."},
+        {"q": "What does \"circadian rhythm\" regulate?", "options": ["Memory formation", "The body's sleep-wake cycle over approximately 24 hours", "Emotional responses", "Decision-making"], "correct": 1, "explanation": "Circadian rhythm regulates the sleep-wake cycle over about 24 hours."},
+        {"q": "What is a \"psychoactive drug\"?", "options": ["A type of memory", "A substance that alters consciousness by affecting brain chemistry", "A brain region", "A research method"], "correct": 1, "explanation": "A psychoactive drug alters consciousness through brain chemistry."},
+        {"q": "What is an example of an \"altered state of consciousness\"?", "options": ["Ordinary waking awareness", "Meditation or hypnosis", "Basic reflexes", "A type of neuron"], "correct": 1, "explanation": "Meditation and hypnosis are altered states of consciousness."}
+      ]
+    }
+  },
+  "Thinking and Intelligence": {
+    "guide": {
+      "explanation": "Cognitive psychology studies how people think, solve problems, and reason, including through heuristics (mental shortcuts) and algorithms (step-by-step procedures). Intelligence itself is a debated concept, with theories ranging from a single general intelligence factor to multiple distinct intelligences (Howard Gardner's theory).",
+      "keyTerms": [
+        {"term": "Heuristic", "def": "A mental shortcut that speeds up decision-making but can introduce bias or error."},
+        {"term": "Algorithm", "def": "A step-by-step procedure that, if followed correctly, guarantees a correct solution."},
+        {"term": "General intelligence (g)", "def": "The theory that a single underlying intelligence factor influences performance across cognitive tasks."},
+        {"term": "Multiple intelligences", "def": "Howard Gardner's theory proposing several distinct types of intelligence, rather than one general factor."},
+        {"term": "Confirmation bias", "def": "The tendency to search for or favor information that confirms one's existing beliefs."}
+      ],
+      "examples": [
+        "Judging how likely an event is based on how easily examples come to mind can lead to overestimating rare but memorable events, like plane crashes.",
+        "Gardner's theory proposes distinct intelligences like musical, spatial, and interpersonal intelligence."
+      ],
+      "steps": [
+        "Ask: does this method guarantee a correct solution if followed exactly? That's an algorithm.",
+        "Ask: does this method offer a quick, often accurate shortcut, but without a guarantee? That's a heuristic.",
+        "Recognize that heuristics are faster but more prone to error and bias.",
+        "Consider whether accuracy or speed is more important for the situation at hand."
+      ],
+      "remember": [
+        "A heuristic is a fast mental shortcut that can introduce bias; an algorithm guarantees a correct solution.",
+        "General intelligence (g) proposes one underlying factor; Gardner's theory proposes multiple intelligences.",
+        "Confirmation bias is the tendency to favor information that confirms existing beliefs.",
+        "Heuristics are faster but more error-prone than algorithms."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"heuristic\"?", "options": ["A guaranteed correct procedure", "A mental shortcut that speeds up decision-making but can introduce bias", "A type of intelligence", "A research method"], "correct": 1, "explanation": "A heuristic is a mental shortcut that can introduce bias."},
+        {"q": "What is an \"algorithm\"?", "options": ["A biased mental shortcut", "A step-by-step procedure that guarantees a correct solution if followed correctly", "A type of intelligence", "A research method"], "correct": 1, "explanation": "An algorithm guarantees a correct solution."},
+        {"q": "What does the theory of \"general intelligence\" (g) propose?", "options": ["Multiple distinct intelligences", "A single underlying intelligence factor influencing performance across cognitive tasks", "No such thing as intelligence", "Intelligence is unmeasurable"], "correct": 1, "explanation": "General intelligence proposes a single underlying factor."},
+        {"q": "Who developed the theory of \"multiple intelligences\"?", "options": ["Sigmund Freud", "Howard Gardner", "B.F. Skinner", "William James"], "correct": 1, "explanation": "Howard Gardner developed the theory of multiple intelligences."},
+        {"q": "What is \"confirmation bias\"?", "options": ["Seeking out contradicting information", "The tendency to search for or favor information confirming existing beliefs", "A type of algorithm", "A research method"], "correct": 1, "explanation": "Confirmation bias favors information confirming existing beliefs."}
+      ]
+    }
+  },
+  "Learning and Memory": {
+    "guide": {
+      "explanation": "Learning occurs through processes like classical conditioning (associating stimuli, as in Pavlov's experiments) and operant conditioning (learning through consequences). Memory involves encoding, storage, and retrieval, and can be divided into short-term and long-term memory, with long-term memory further divided into explicit and implicit memory.",
+      "keyTerms": [
+        {"term": "Classical conditioning", "def": "Learning through association, pairing a neutral stimulus with a meaningful one until it triggers a similar response."},
+        {"term": "Operant conditioning", "def": "Learning through consequences, using reinforcement to increase behavior and punishment to decrease it."},
+        {"term": "Encoding", "def": "The process of converting sensory information into a form the brain can store as memory."},
+        {"term": "Long-term memory", "def": "Memory storage capable of holding information for extended periods, potentially a lifetime."},
+        {"term": "Reinforcement", "def": "A consequence that increases the likelihood a behavior will be repeated."}
+      ],
+      "examples": [
+        "Pavlov's dogs learned to salivate at the sound of a bell after it was repeatedly paired with food.",
+        "Giving a child a reward for completing homework is positive reinforcement."
+      ],
+      "steps": [
+        "Ask: does learning occur through associating two stimuli together? That's classical conditioning.",
+        "Ask: does learning occur through the consequences that follow a behavior? That's operant conditioning.",
+        "In classical conditioning, the response is typically automatic/involuntary.",
+        "In operant conditioning, the behavior is typically voluntary, shaped by its consequences."
+      ],
+      "remember": [
+        "Classical conditioning learns through association; operant conditioning learns through consequences.",
+        "Memory involves encoding, storage, and retrieval.",
+        "Long-term memory is divided into explicit (conscious) and implicit (unconscious) memory.",
+        "Reinforcement increases the likelihood of a behavior; punishment decreases it."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"classical conditioning\"?", "options": ["Learning through consequences", "Learning through association between stimuli", "A type of memory storage", "A research method"], "correct": 1, "explanation": "Classical conditioning is learning through association."},
+        {"q": "What is \"operant conditioning\"?", "options": ["Learning through association", "Learning through consequences like reinforcement and punishment", "A type of encoding", "A research method"], "correct": 1, "explanation": "Operant conditioning is learning through consequences."},
+        {"q": "What are the three key processes of memory?", "options": ["Encoding, storage, and retrieval", "Sensation, perception, and cognition", "Classical and operant conditioning", "Short-term and long-term only"], "correct": 0, "explanation": "Memory involves encoding, storage, and retrieval."},
+        {"q": "What does \"reinforcement\" do?", "options": ["Decreases the likelihood of a behavior", "Increases the likelihood a behavior will be repeated", "Has no effect on behavior", "Only applies to classical conditioning"], "correct": 1, "explanation": "Reinforcement increases the likelihood a behavior will be repeated."},
+        {"q": "In Pavlov's experiment, what type of learning occurred when dogs salivated at the sound of a bell?", "options": ["Operant conditioning", "Classical conditioning", "Cognitive learning", "Social learning"], "correct": 1, "explanation": "Pavlov's experiment is a classic example of classical conditioning."}
+      ]
+    }
+  },
+  "Motivation and Emotion": {
+    "guide": {
+      "explanation": "Motivation theories explain why people act as they do, including Maslow's hierarchy of needs and drive-reduction theory. Emotion theories, like the Cannon-Bard theory and the James-Lange theory, offer different explanations for how emotions arise in relation to physiological arousal.",
+      "keyTerms": [
+        {"term": "Maslow's hierarchy of needs", "def": "A theory proposing that basic needs must be met before higher needs like self-actualization."},
+        {"term": "Drive-reduction theory", "def": "A theory proposing that behavior is motivated by the need to reduce internal biological tensions, like hunger."},
+        {"term": "Self-actualization", "def": "The top of Maslow's hierarchy, representing the realization of one's full potential."},
+        {"term": "James-Lange theory", "def": "A theory proposing that physiological arousal occurs first and causes the subsequent emotional experience."},
+        {"term": "Cannon-Bard theory", "def": "A theory proposing that physiological arousal and emotional experience occur simultaneously."}
+      ],
+      "examples": [
+        "Someone struggling to meet basic needs like food and shelter is unlikely to prioritize self-actualization goals.",
+        "The James-Lange theory would explain fear as occurring because you notice your heart racing first, and that sensation causes the feeling of fear."
+      ],
+      "steps": [
+        "Physiological needs (food, water, sleep) must be met first.",
+        "Safety needs (security, stability) come next.",
+        "Belonging and esteem needs (relationships, self-respect) follow.",
+        "Self-actualization sits at the top, pursued once lower needs are satisfied."
+      ],
+      "remember": [
+        "Maslow's hierarchy proposes basic needs must be met before higher needs like self-actualization.",
+        "Drive-reduction theory explains motivation as reducing internal biological tensions.",
+        "James-Lange theory: physiological arousal causes the emotional experience.",
+        "Cannon-Bard theory: physiological arousal and emotion occur simultaneously."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does Maslow's hierarchy of needs propose?", "options": ["All needs are equally important at all times", "Basic needs must be met before higher needs like self-actualization", "Only self-actualization matters", "Needs have no hierarchy"], "correct": 1, "explanation": "Maslow's hierarchy proposes basic needs are met first."},
+        {"q": "What is \"self-actualization\"?", "options": ["The most basic physiological need", "The realization of one's full potential, at the top of Maslow's hierarchy", "A type of drive-reduction", "A research method"], "correct": 1, "explanation": "Self-actualization is at the top of Maslow's hierarchy."},
+        {"q": "What does \"drive-reduction theory\" propose?", "options": ["Behavior has no motivation", "Behavior is motivated by reducing internal biological tensions, like hunger", "Motivation is purely social", "Motivation is unrelated to biology"], "correct": 1, "explanation": "Drive-reduction theory involves reducing biological tensions."},
+        {"q": "What does the \"James-Lange theory\" propose about emotion?", "options": ["Emotion occurs before physiological arousal", "Physiological arousal occurs first and causes the emotional experience", "Emotion and arousal are unrelated", "Emotion never involves the body"], "correct": 1, "explanation": "James-Lange theory proposes arousal causes the emotion."},
+        {"q": "What does the \"Cannon-Bard theory\" propose about emotion?", "options": ["Physiological arousal causes emotion", "Physiological arousal and emotion occur simultaneously", "Emotion causes physiological arousal", "Emotion and arousal never occur together"], "correct": 1, "explanation": "Cannon-Bard theory proposes simultaneous occurrence."}
+      ]
+    }
+  },
+  "Theories on Human Development": {
+    "guide": {
+      "explanation": "Human development theories explain how people change across the lifespan. Jean Piaget's theory of cognitive development proposes four stages children progress through, while Erik Erikson's theory of psychosocial development describes eight stages, each centered on a specific social conflict, spanning from infancy to late adulthood.",
+      "keyTerms": [
+        {"term": "Piaget's stages of cognitive development", "def": "Four stages (sensorimotor, preoperational, concrete operational, formal operational) describing how children's thinking matures."},
+        {"term": "Object permanence", "def": "The understanding that objects continue to exist even when they cannot be seen."},
+        {"term": "Erikson's psychosocial stages", "def": "Eight stages of development, each centered on resolving a specific social conflict, spanning the entire lifespan."},
+        {"term": "Attachment", "def": "The emotional bond formed between an infant and their primary caregiver."},
+        {"term": "Nature versus nurture", "def": "The ongoing debate over how much genetics versus environment shapes development."}
+      ],
+      "examples": [
+        "A baby who searches for a toy after it's hidden under a blanket demonstrates object permanence.",
+        "Erikson's \"identity vs. role confusion\" stage, occurring during adolescence, centers on developing a stable sense of self."
+      ],
+      "steps": [
+        "Sensorimotor stage (birth-2 years): learning through senses and motor actions; object permanence develops.",
+        "Preoperational stage (2-7 years): developing language and imagination, but still egocentric thinking.",
+        "Concrete operational stage (7-11 years): logical thinking about concrete events and objects develops.",
+        "Formal operational stage (12+ years): abstract and hypothetical reasoning develops."
+      ],
+      "remember": [
+        "Piaget's four stages: sensorimotor, preoperational, concrete operational, formal operational.",
+        "Object permanence develops during the sensorimotor stage.",
+        "Erikson's theory describes eight psychosocial stages, each centered on a specific conflict.",
+        "The nature versus nurture debate concerns genetics versus environment shaping development."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"object permanence\"?", "options": ["A type of psychosocial stage", "The understanding that objects continue to exist even when they cannot be seen", "A type of attachment", "A research method"], "correct": 1, "explanation": "Object permanence is understanding objects exist even when unseen."},
+        {"q": "During which of Piaget's stages does object permanence typically develop?", "options": ["Preoperational stage", "Sensorimotor stage", "Concrete operational stage", "Formal operational stage"], "correct": 1, "explanation": "Object permanence develops during the sensorimotor stage."},
+        {"q": "How many stages does Erikson's theory of psychosocial development include?", "options": ["Four", "Six", "Eight", "Ten"], "correct": 2, "explanation": "Erikson's theory includes eight psychosocial stages."},
+        {"q": "What does the \"nature versus nurture\" debate concern?", "options": ["Only genetics", "Only environment", "How much genetics versus environment shapes development", "Neither genetics nor environment matters"], "correct": 2, "explanation": "The debate concerns genetics versus environment's relative influence."},
+        {"q": "What develops during Piaget's \"formal operational\" stage?", "options": ["Object permanence", "Abstract and hypothetical reasoning", "Basic motor skills only", "Egocentric thinking"], "correct": 1, "explanation": "Abstract reasoning develops in the formal operational stage."}
+      ]
+    }
+  },
+  "Physical Human Development": {
+    "guide": {
+      "explanation": "Physical development follows a predictable sequence across the lifespan — from prenatal growth and infant motor development to the hormonal changes of puberty and the gradual physical changes of aging. Motor development in infancy follows a generally predictable sequence, though the exact timing varies between individuals.",
+      "keyTerms": [
+        {"term": "Prenatal development", "def": "Physical development occurring before birth, divided into germinal, embryonic, and fetal periods."},
+        {"term": "Motor development", "def": "The gradual development of physical movement abilities, like sitting, crawling, and walking."},
+        {"term": "Puberty", "def": "The period of physical development during which a person becomes sexually mature."},
+        {"term": "Menarche", "def": "A female's first menstrual period, marking a milestone of puberty."},
+        {"term": "Senescence", "def": "The gradual physical decline associated with aging."}
+      ],
+      "examples": [
+        "Infants typically progress through a predictable motor development sequence: rolling over, sitting up, crawling, and walking.",
+        "Puberty brings hormonal changes that trigger the development of secondary sex characteristics."
+      ],
+      "steps": [
+        "Germinal period (weeks 1-2): the fertilized egg divides and begins to implant in the uterus.",
+        "Embryonic period (weeks 3-8): major organs and body structures begin to form.",
+        "Fetal period (week 9 to birth): continued growth and maturation of organs and body systems.",
+        "Throughout all periods, exposure to teratogens can disrupt normal development."
+      ],
+      "remember": [
+        "Prenatal development progresses through germinal, embryonic, and fetal periods.",
+        "Infant motor development follows a generally predictable sequence, though timing varies.",
+        "Puberty involves hormonal changes leading to sexual maturity and secondary sex characteristics.",
+        "Senescence describes the gradual physical decline associated with aging."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What are the three periods of prenatal development?", "options": ["Infancy, childhood, adolescence", "Germinal, embryonic, and fetal", "Sensorimotor, preoperational, concrete", "Puberty, adulthood, senescence"], "correct": 1, "explanation": "Prenatal development has germinal, embryonic, and fetal periods."},
+        {"q": "During which prenatal period do major organs begin to form?", "options": ["Germinal period", "Embryonic period", "Fetal period", "After birth"], "correct": 1, "explanation": "Major organs form during the embryonic period."},
+        {"q": "What is \"puberty\"?", "options": ["A prenatal period", "The period of physical development during which a person becomes sexually mature", "A motor development milestone", "A type of senescence"], "correct": 1, "explanation": "Puberty is when a person becomes sexually mature."},
+        {"q": "What is \"menarche\"?", "options": ["A male puberty milestone", "A female's first menstrual period", "A prenatal stage", "A motor development milestone"], "correct": 1, "explanation": "Menarche is a female's first menstrual period."},
+        {"q": "What is \"senescence\"?", "options": ["A prenatal period", "The gradual physical decline associated with aging", "A motor development milestone", "A type of puberty"], "correct": 1, "explanation": "Senescence is the gradual physical decline of aging."}
+      ]
+    }
+  },
+  "Personality": {
+    "guide": {
+      "explanation": "Personality psychology studies the relatively stable patterns of thoughts, feelings, and behaviors that make each person unique, through theories like Freud's psychoanalytic theory and the modern trait-based Big Five model (openness, conscientiousness, extraversion, agreeableness, and neuroticism).",
+      "keyTerms": [
+        {"term": "Personality", "def": "The relatively stable patterns of thoughts, feelings, and behaviors that make a person unique."},
+        {"term": "Id, ego, superego", "def": "Freud's three components of personality — instinctual drives, the reality-balancing mediator, and internalized morals."},
+        {"term": "Big Five personality traits", "def": "Five broad dimensions of personality — openness, conscientiousness, extraversion, agreeableness, and neuroticism."},
+        {"term": "Trait theory", "def": "An approach to personality that identifies and measures stable individual characteristics."},
+        {"term": "Self-concept", "def": "An individual's overall sense of their own identity and characteristics."}
+      ],
+      "examples": [
+        "A person high in the Big Five trait of \"conscientiousness\" tends to be organized, responsible, and dependable.",
+        "Freud's theory would attribute an adult's anxiety to unresolved unconscious conflicts from childhood."
+      ],
+      "steps": [
+        "Openness: assess a person's curiosity and openness to new experiences.",
+        "Conscientiousness: assess their level of organization and responsibility.",
+        "Extraversion: assess their sociability and energy in social situations.",
+        "Agreeableness and neuroticism: assess their compassion/cooperation and emotional stability."
+      ],
+      "remember": [
+        "Personality refers to relatively stable patterns of thoughts, feelings, and behaviors unique to each person.",
+        "Freud's theory includes the id (instinct), ego (reality-balancing), and superego (morals).",
+        "The Big Five traits: openness, conscientiousness, extraversion, agreeableness, neuroticism.",
+        "Trait theory identifies and measures stable individual personality characteristics."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does Freud's \"id\" represent?", "options": ["Internalized morals", "Instinctual drives seeking immediate gratification", "The reality-balancing mediator", "A Big Five trait"], "correct": 1, "explanation": "The id represents instinctual drives."},
+        {"q": "Which of these is one of the \"Big Five\" personality traits?", "options": ["Intelligence", "Conscientiousness", "Memory", "Motivation"], "correct": 1, "explanation": "Conscientiousness is one of the Big Five traits."},
+        {"q": "What does Freud's \"superego\" represent?", "options": ["Instinctual drives", "The reality-balancing mediator", "Internalized morals and conscience", "A Big Five trait"], "correct": 2, "explanation": "The superego represents internalized morals."},
+        {"q": "What does \"trait theory\" focus on?", "options": ["Unconscious conflicts", "Identifying and measuring stable individual personality characteristics", "Only childhood development", "Only social influences"], "correct": 1, "explanation": "Trait theory measures stable individual traits."},
+        {"q": "What is \"self-concept\"?", "options": ["A Big Five trait", "An individual's overall sense of their own identity and characteristics", "A type of unconscious conflict", "A research method"], "correct": 1, "explanation": "Self-concept is one's overall sense of identity."}
+      ]
+    }
+  },
+  "Psychological Disorders and Therapy": {
+    "guide": {
+      "explanation": "Psychological disorders are diagnosed using standardized criteria, like those in the DSM, covering categories like anxiety disorders, mood disorders, and psychotic disorders. Treatment approaches include psychotherapy (like CBT) and biomedical treatments (like medication targeting neurotransmitter imbalances).",
+      "keyTerms": [
+        {"term": "DSM (Diagnostic and Statistical Manual of Mental Disorders)", "def": "The standardized manual used to diagnose psychological disorders."},
+        {"term": "Anxiety disorder", "def": "A category of disorders characterized by excessive fear or worry."},
+        {"term": "Mood disorder", "def": "A category of disorders involving significant disturbances in emotional state, like depression."},
+        {"term": "Cognitive-behavioral therapy (CBT)", "def": "A therapy approach addressing distorted thinking patterns and their effect on behavior."},
+        {"term": "Psychotropic medication", "def": "Medication that affects mental processes by altering neurotransmitter activity in the brain."}
+      ],
+      "examples": [
+        "Generalized anxiety disorder, characterized by persistent, excessive worry, is a common anxiety disorder.",
+        "Cognitive-behavioral therapy might help a person with depression identify and challenge negative, distorted thought patterns."
+      ],
+      "steps": [
+        "Identify a specific distorted or unhelpful thought pattern (e.g., \"I always fail\").",
+        "Examine the evidence for and against that thought.",
+        "Develop a more balanced, realistic alternative thought.",
+        "Practice applying this new thought pattern in relevant situations over time."
+      ],
+      "remember": [
+        "The DSM is the standardized manual used to diagnose psychological disorders.",
+        "Anxiety disorders involve excessive fear/worry; mood disorders involve emotional disturbances.",
+        "CBT addresses distorted thinking patterns and their effect on behavior.",
+        "Psychotropic medications work by altering neurotransmitter activity in the brain."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the \"DSM\"?", "options": ["A type of therapy", "The standardized manual used to diagnose psychological disorders", "A type of medication", "A research method"], "correct": 1, "explanation": "The DSM is used to diagnose psychological disorders."},
+        {"q": "What characterizes an \"anxiety disorder\"?", "options": ["Excessive fear or worry", "Significant mood disturbances only", "Psychotic symptoms only", "No emotional component"], "correct": 0, "explanation": "Anxiety disorders involve excessive fear or worry."},
+        {"q": "What does \"cognitive-behavioral therapy\" (CBT) address?", "options": ["Only biological factors", "Distorted thinking patterns and their effect on behavior", "Only childhood memories", "Only medication side effects"], "correct": 1, "explanation": "CBT addresses distorted thinking patterns."},
+        {"q": "How do \"psychotropic medications\" work?", "options": ["By changing a person's environment", "By altering neurotransmitter activity in the brain", "By addressing thinking patterns only", "By providing social support only"], "correct": 1, "explanation": "Psychotropic medications alter neurotransmitter activity."},
+        {"q": "Which of these is an example of a \"mood disorder\"?", "options": ["Generalized anxiety disorder", "Depression", "Schizophrenia", "A personality trait"], "correct": 1, "explanation": "Depression is an example of a mood disorder."}
+      ]
+    }
+  },
+  "Social Psychology": {
+    "guide": {
+      "explanation": "Social psychology studies how individuals think, feel, and behave in social contexts, including concepts like conformity, obedience (as demonstrated in Stanley Milgram's famous experiments), and attribution theory (how people explain the causes of behavior).",
+      "keyTerms": [
+        {"term": "Conformity", "def": "Adjusting one's behavior or beliefs to match those of a group."},
+        {"term": "Obedience", "def": "Complying with the demands of an authority figure."},
+        {"term": "Attribution theory", "def": "A theory explaining how people determine the causes of behavior, either dispositional or situational."},
+        {"term": "Fundamental attribution error", "def": "The tendency to overemphasize dispositional causes and underemphasize situational causes when explaining others' behavior."},
+        {"term": "Groupthink", "def": "A phenomenon where a group's desire for harmony leads to poor, uncritical decision-making."}
+      ],
+      "examples": [
+        "Solomon Asch's conformity experiments showed that people would often give an obviously incorrect answer just to match the group.",
+        "Stanley Milgram's obedience experiments demonstrated that many participants would follow an authority figure's instructions, even to administer what they believed were harmful shocks."
+      ],
+      "steps": [
+        "Observe a person's behavior that requires explanation.",
+        "Consider dispositional factors: is the behavior due to their personality or internal traits?",
+        "Consider situational factors: is the behavior due to external circumstances or pressures?",
+        "Recognize the fundamental attribution error's tendency to favor dispositional explanations for others."
+      ],
+      "remember": [
+        "Conformity is adjusting behavior to match a group; obedience is complying with an authority figure.",
+        "Milgram's experiments demonstrated high rates of obedience to authority.",
+        "Attribution theory explains behavior through dispositional or situational causes.",
+        "The fundamental attribution error overemphasizes dispositional causes when explaining others' behavior."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"conformity\"?", "options": ["Complying with an authority figure", "Adjusting one's behavior or beliefs to match those of a group", "A type of attribution", "A research method"], "correct": 1, "explanation": "Conformity is adjusting behavior to match a group."},
+        {"q": "What is \"obedience\"?", "options": ["Adjusting behavior to match a group", "Complying with the demands of an authority figure", "A type of groupthink", "A research method"], "correct": 1, "explanation": "Obedience is complying with an authority figure."},
+        {"q": "What did Stanley Milgram's famous experiments study?", "options": ["Conformity to peer groups", "Obedience to authority figures", "Attribution theory only", "Groupthink only"], "correct": 1, "explanation": "Milgram's experiments studied obedience to authority."},
+        {"q": "What is the \"fundamental attribution error\"?", "options": ["Overemphasizing situational causes", "Overemphasizing dispositional causes and underemphasizing situational causes", "Never attributing behavior to any cause", "A type of conformity"], "correct": 1, "explanation": "The fundamental attribution error overemphasizes dispositional causes."},
+        {"q": "What is \"groupthink\"?", "options": ["Individual decision-making", "A phenomenon where a group's desire for harmony leads to poor, uncritical decision-making", "A type of obedience", "A research method"], "correct": 1, "explanation": "Groupthink is when group harmony leads to poor decisions."}
+      ]
+    }
+  }
+}

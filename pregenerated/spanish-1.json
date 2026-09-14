@@ -1,0 +1,78 @@
+{
+  "Unit 1: Capítulos 1 & 2": {
+    "guide": {
+      "explanation": "This unit covers foundational Spanish vocabulary and grammar: greetings and introductions, classroom objects, colors, descriptive adjectives, and nationalities. Grammatically, it introduces the verb \"ser\" (to be) and regular -ar, -er, and -ir verb conjugation patterns in the present tense, along with gender and number agreement for nouns and adjectives.",
+      "keyTerms": [
+        {"term": "Buenos días / Buenas tardes / Buenas noches", "def": "Good morning / Good afternoon / Good evening."},
+        {"term": "¿Cómo te llamas? / Me llamo...", "def": "What's your name? / My name is..."},
+        {"term": "Mucho gusto", "def": "Nice to meet you."},
+        {"term": "ser", "def": "To be (irregular verb — soy, eres, es, somos, son)."},
+        {"term": "alto/a, bajo/a, guapo/a, joven, viejo/a", "def": "Tall, short, good-looking, young, old (descriptive adjectives)."},
+        {"term": "estudiar, hablar, comer, vivir", "def": "To study, to talk, to eat, to live (regular -ar/-er/-ir verbs)."}
+      ],
+      "examples": [
+        "\"¿Cómo te llamas?\" \"Me llamo Ana. Mucho gusto.\" (What's your name? My name is Ana. Nice to meet you.)",
+        "\"Yo soy alta y ella es baja.\" (I am tall and she is short.) — adjective agreement with gender."
+      ],
+      "steps": [
+        "Drop the -ar ending from the infinitive (hablar becomes habl-).",
+        "Add the ending matching the subject: yo -o, tú -as, él/ella -a, nosotros -amos, ellos -an.",
+        "Example: yo hablo, tú hablas, él habla, nosotros hablamos, ellos hablan.",
+        "-er and -ir verbs follow the same subject-ending pattern with slightly different vowels."
+      ],
+      "remember": [
+        "\"Ser\" is irregular: soy, eres, es, somos, son.",
+        "Adjectives must agree in gender and number with the noun they describe (alto/alta, altos/altas).",
+        "Regular -ar verbs conjugate with endings: -o, -as, -a, -amos, -an.",
+        "Nationality adjectives are not capitalized in Spanish, unlike in English."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "How do you say \"Nice to meet you\" in Spanish?", "options": ["Buenos días", "Mucho gusto", "Hasta luego", "De nada"], "correct": 1, "explanation": "\"Mucho gusto\" means \"Nice to meet you\" in Spanish."},
+        {"q": "What is the correct present-tense conjugation of \"ser\" for \"yo\" (I)?", "options": ["es", "eres", "soy", "son"], "correct": 2, "explanation": "\"Soy\" is the correct form of \"ser\" for \"yo\" (I am)."},
+        {"q": "How would a male speaker say \"I am tall\" in Spanish?", "options": ["Soy alta", "Soy alto", "Es alto", "Eres alto"], "correct": 1, "explanation": "\"Soy alto\" is correct — the adjective must agree with the masculine subject."},
+        {"q": "What is the correct present-tense conjugation of \"hablar\" for \"nosotros\" (we)?", "options": ["hablo", "hablas", "habla", "hablamos"], "correct": 3, "explanation": "The \"nosotros\" form of a regular -ar verb ends in -amos: hablamos."},
+        {"q": "What does \"¿Cómo te llamas?\" mean?", "options": ["How are you?", "What's your name?", "Where are you from?", "What time is it?"], "correct": 1, "explanation": "\"¿Cómo te llamas?\" means \"What's your name?\" (informal)."}
+      ]
+    }
+  },
+  "Unidad 2: Capítulos 3 & 4": {
+    "guide": {
+      "explanation": "This unit builds on Spanish 1's foundation with academic vocabulary and campus buildings, family members, and possessive adjectives. It also introduces key idiomatic expressions using \"tener\" (to have) that describe states of being — like tener hambre (to be hungry) or tener frío (to be cold) — where English uses \"to be\" but Spanish uses \"to have.\"",
+      "keyTerms": [
+        {"term": "tener hambre / tener sed / tener sueño", "def": "To be hungry / to be thirsty / to be sleepy (literally \"to have hunger/thirst/sleep\")."},
+        {"term": "tener...años", "def": "To be ... years old."},
+        {"term": "la biblioteca, el gimnasio, la cafetería", "def": "The library, the gymnasium, the cafeteria."},
+        {"term": "las matemáticas, la biología, la historia", "def": "Mathematics, biology, history (academic subjects)."},
+        {"term": "ir", "def": "To go (irregular verb — voy, vas, va, vamos, van)."},
+        {"term": "Possessive adjectives (mi, tu, su, nuestro)", "def": "My, your, his/her, our."}
+      ],
+      "examples": [
+        "\"Tengo hambre y tengo sed.\" (I'm hungry and I'm thirsty.)",
+        "\"Mi clase de biología está cerca de la biblioteca.\" (My biology class is near the library.)"
+      ],
+      "steps": [
+        "Conjugate \"tener\" to match the subject (tengo, tienes, tiene, tenemos, tienen).",
+        "Follow it directly with the noun describing the state (hambre, sed, frío, sueño, prisa, miedo).",
+        "Unlike English, do not use \"estar\" (to be) for these expressions — \"tener\" is required.",
+        "Example: \"Ella tiene miedo\" (She is afraid), not \"Ella está miedo.\""
+      ],
+      "remember": [
+        "Many \"to be\" states in English use \"tener\" (to have) in Spanish: tener hambre, tener frío, tener sueño, tener miedo, tener prisa.",
+        "\"Ir\" (to go) is irregular: voy, vas, va, vamos, van.",
+        "Possessive adjectives (mi, tu, su, nuestro) must agree in number with the noun they describe.",
+        "Academic building names often start with \"la Facultad de...\" (the School of...)."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "How do you say \"I am hungry\" in Spanish?", "options": ["Estoy hambre", "Tengo hambre", "Soy hambre", "Hago hambre"], "correct": 1, "explanation": "Spanish uses \"tener\" (to have) for hunger: \"Tengo hambre\" literally means \"I have hunger.\""},
+        {"q": "What is the correct conjugation of \"ir\" for \"nosotros\" (we)?", "options": ["voy", "va", "van", "vamos"], "correct": 3, "explanation": "The \"nosotros\" form of \"ir\" is \"vamos\" (we go)."},
+        {"q": "What does \"tener sueño\" mean?", "options": ["To be thirsty", "To be sleepy", "To be afraid", "To be in a hurry"], "correct": 1, "explanation": "\"Tener sueño\" means \"to be sleepy.\""},
+        {"q": "What Spanish word means \"library\"?", "options": ["el gimnasio", "la biblioteca", "la cafetería", "el teatro"], "correct": 1, "explanation": "\"La biblioteca\" means \"the library.\""},
+        {"q": "What does \"tener...años\" express?", "options": ["To be hungry", "A person's age", "To be afraid", "To be in a hurry"], "correct": 1, "explanation": "\"Tener...años\" is used to express a person's age, e.g., \"Tengo veinte años\" (I am twenty years old)."}
+      ]
+    }
+  }
+}

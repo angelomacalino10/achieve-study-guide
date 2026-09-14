@@ -1,0 +1,230 @@
+{
+  "Unidad 3: Capítulos 5 & 6": {
+    "guide": {
+      "explanation": "This unit covers daily routine vocabulary using reflexive verbs — verbs where the subject performs the action on themselves, like levantarse (to get up) or ducharse (to shower). It also introduces comparisons (more/less than, as...as) and the verb gustar (to like), which grammatically works backward from English: the thing liked is the subject, and the person doing the liking takes an indirect object pronoun.",
+      "keyTerms": [
+        {"term": "levantarse, ducharse, acostarse", "def": "To get up, to shower, to go to bed (reflexive verbs)."},
+        {"term": "despertarse (ie)", "def": "To wake up (stem-changing reflexive verb)."},
+        {"term": "más...que / menos...que", "def": "More...than / less...than (comparisons of inequality)."},
+        {"term": "tan...como", "def": "As...as (comparisons of equality)."},
+        {"term": "gustar", "def": "To like (literally \"to be pleasing to\")."},
+        {"term": "me gusta / te gusta / le gusta", "def": "I like / you like / he-she likes."}
+      ],
+      "examples": [
+        "\"Me levanto a las siete y me ducho.\" (I get up at seven and I shower.)",
+        "\"Me gusta el chocolate\" literally means \"chocolate is pleasing to me\" — the food is the grammatical subject, not the person."
+      ],
+      "steps": [
+        "Choose the reflexive pronoun matching the subject: me, te, se, nos, se.",
+        "Conjugate the verb normally for that subject.",
+        "Place the reflexive pronoun directly before the conjugated verb.",
+        "Example: \"levantarse\" for \"yo\" becomes \"me levanto\" (I get up)."
+      ],
+      "remember": [
+        "Reflexive verbs use pronouns (me, te, se, nos, se) because the subject acts on itself.",
+        "\"Gustar\" works backward from English — the liked thing is the subject: \"Me gustan los perros\" (I like dogs).",
+        "\"Más...que\" = more than; \"menos...que\" = less than; \"tan...como\" = as...as.",
+        "Reflexive pronouns go directly before the conjugated verb."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "How do you say \"I get up\" in Spanish, using the reflexive verb levantarse?", "options": ["Levanto", "Me levanto", "Te levantas", "Se levanta"], "correct": 1, "explanation": "\"Me levanto\" is the correct reflexive form for \"yo\" (I get up)."},
+        {"q": "What does \"Me gusta el chocolate\" literally mean?", "options": ["I like chocolate very much", "Chocolate is pleasing to me", "Chocolate likes me", "I want chocolate"], "correct": 1, "explanation": "\"Gustar\" works backward from English — literally, \"Chocolate is pleasing to me.\""},
+        {"q": "What does \"tan...como\" express?", "options": ["More than", "Less than", "As...as (equality)", "A reflexive action"], "correct": 2, "explanation": "\"Tan...como\" expresses equality — \"as...as.\""},
+        {"q": "What does \"despertarse\" mean?", "options": ["To go to bed", "To wake up", "To shower", "To get dressed"], "correct": 1, "explanation": "\"Despertarse\" means \"to wake up.\""},
+        {"q": "Where does a reflexive pronoun go in relation to the conjugated verb?", "options": ["After the verb only", "Directly before the conjugated verb", "At the end of the sentence", "It doesn't matter"], "correct": 1, "explanation": "A reflexive pronoun is placed directly before the conjugated verb."}
+      ]
+    }
+  },
+  "Unidad 4: Capítulos 7 & 8": {
+    "guide": {
+      "explanation": "This unit covers vocabulary for free time, sports, and shopping, alongside two major past-tense grammar points: the preterit (used for completed actions with a clear beginning/end) and the imperfect (used for ongoing or habitual past actions). Choosing between preterit and imperfect is one of the most important skills in intermediate Spanish, since both translate to English's simple past tense.",
+      "keyTerms": [
+        {"term": "el tiempo libre", "def": "Free time."},
+        {"term": "los deportes", "def": "Sports."},
+        {"term": "la ropa", "def": "Clothes."},
+        {"term": "preterit tense", "def": "Used for a completed action with a definite beginning and end in the past."},
+        {"term": "imperfect tense", "def": "Used for ongoing, repeated, or habitual actions in the past, or to set a scene."},
+        {"term": "ir de compras", "def": "To go shopping."}
+      ],
+      "examples": [
+        "Preterit: \"Ayer jugué al fútbol.\" (Yesterday I played soccer — a single, completed event.)",
+        "Imperfect: \"Cuando era niño, jugaba al fútbol todos los días.\" (When I was a child, I used to play soccer every day.)"
+      ],
+      "steps": [
+        "Ask: is this a specific, completed action with a clear start and end? Use the preterit.",
+        "Ask: is this a habitual, repeated, or ongoing action, or does it describe a background scene? Use the imperfect.",
+        "Often, both appear in the same sentence: the imperfect sets the scene, and the preterit describes what happened.",
+        "Example: \"Llovía (imperfect) cuando salí (preterit) de casa.\""
+      ],
+      "remember": [
+        "Preterit = a completed action with a clear beginning and end.",
+        "Imperfect = ongoing, habitual, or background actions in the past.",
+        "Both preterit and imperfect translate to English's simple past tense, but they aren't interchangeable in Spanish.",
+        "\"Ir de compras\" means \"to go shopping.\""
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "When should you use the preterit tense?", "options": ["For ongoing habitual actions", "For a completed action with a clear beginning and end", "For setting a scene", "Only for the verb \"ser\""], "correct": 1, "explanation": "The preterit tense is used for a completed action with a definite beginning and end."},
+        {"q": "When should you use the imperfect tense?", "options": ["For a single completed action", "For ongoing, repeated, or habitual past actions", "Only for questions", "Only in the future tense"], "correct": 1, "explanation": "The imperfect tense is used for ongoing, repeated, or habitual actions in the past."},
+        {"q": "What does \"el tiempo libre\" mean?", "options": ["The weather", "Free time", "The clock", "A deadline"], "correct": 1, "explanation": "\"El tiempo libre\" means \"free time.\""},
+        {"q": "In the sentence \"Llovía cuando salí de casa,\" which verb is in the imperfect tense?", "options": ["Salí", "Llovía", "De casa", "Cuando"], "correct": 1, "explanation": "\"Llovía\" (it was raining) is in the imperfect tense, describing the ongoing background action."},
+        {"q": "What does \"ir de compras\" mean?", "options": ["To go to the beach", "To go shopping", "To go to work", "To go home"], "correct": 1, "explanation": "\"Ir de compras\" means \"to go shopping.\""}
+      ]
+    }
+  },
+  "Unidad 5: Capítulos 9 & 10": {
+    "guide": {
+      "explanation": "This unit covers travel and airport vocabulary alongside an introduction to the Spanish subjunctive mood — used to express influence, doubt, emotion, or things that aren't yet certain facts. Unlike the indicative mood (used for statements of fact), the subjunctive appears after phrases like \"quiero que\" (I want that), since you're expressing a wish or requirement, not a guaranteed fact.",
+      "keyTerms": [
+        {"term": "el boleto / el pasaje", "def": "The ticket / the fare."},
+        {"term": "la aduana", "def": "Customs."},
+        {"term": "el aeropuerto", "def": "The airport."},
+        {"term": "subjunctive mood", "def": "A verb form used to express wishes, doubts, emotions, or influence over someone else's actions, rather than stating fact."},
+        {"term": "Formal commands", "def": "Verb forms used to give instructions to someone addressed formally (usted/ustedes)."},
+        {"term": "las partes del cuerpo", "def": "Parts of the body."}
+      ],
+      "examples": [
+        "\"Quiero que tú vayas al aeropuerto\" (I want you to go to the airport) uses the subjunctive \"vayas\" because it expresses a wish.",
+        "A formal command like \"Hable más despacio, por favor\" (Speak more slowly, please) is used with someone addressed as \"usted.\""
+      ],
+      "steps": [
+        "Ask: is the sentence expressing a wish, doubt, emotion, or influence over someone's actions (rather than a simple fact)?",
+        "Look for trigger phrases like \"quiero que,\" \"es necesario que,\" \"espero que,\" or \"dudo que.\"",
+        "If a trigger phrase is present and the subject changes between clauses, use the subjunctive in the second clause.",
+        "If the sentence simply states a fact, use the regular indicative mood instead."
+      ],
+      "remember": [
+        "The subjunctive expresses wishes, doubts, emotions, or influence — not simple facts.",
+        "Common subjunctive triggers: \"quiero que,\" \"es necesario que,\" \"espero que,\" \"dudo que.\"",
+        "Formal commands are used with people addressed as \"usted\" or \"ustedes.\"",
+        "\"La aduana\" means \"customs\" (at an airport or border)."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the subjunctive mood used to express?", "options": ["Simple facts only", "Wishes, doubts, emotions, or influence over someone's actions", "Only past actions", "Only future actions"], "correct": 1, "explanation": "The subjunctive mood expresses wishes, doubts, emotions, or influence."},
+        {"q": "Which phrase would trigger the subjunctive mood in the following clause?", "options": ["Sé que...", "Quiero que...", "Es verdad que...", "Miro que..."], "correct": 1, "explanation": "\"Quiero que\" (I want that) expresses a wish, triggering the subjunctive."},
+        {"q": "What does \"la aduana\" mean?", "options": ["The airplane", "Customs", "The ticket", "The suitcase"], "correct": 1, "explanation": "\"La aduana\" means \"customs.\""},
+        {"q": "Who would you use a formal command with?", "options": ["A close friend", "Someone addressed as \"usted\"", "A pet", "A sibling"], "correct": 1, "explanation": "Formal commands are used with people addressed formally, using \"usted\" or \"ustedes.\""},
+        {"q": "What does \"las partes del cuerpo\" mean?", "options": ["The parts of the body", "The travel documents", "The airport sections", "The types of food"], "correct": 0, "explanation": "\"Las partes del cuerpo\" means \"the parts of the body.\""}
+      ]
+    }
+  },
+  "Unidad 6: Capítulos 11 & 12": {
+    "guide": {
+      "explanation": "This unit covers professions and job-searching vocabulary, alongside informal (tú) commands, the present perfect tense (used for actions connecting the past to the present), and the future and conditional tenses for talking about what will happen or what would happen.",
+      "keyTerms": [
+        {"term": "el oficio / la profesión", "def": "The trade / the profession."},
+        {"term": "la búsqueda de empleo", "def": "The job search."},
+        {"term": "Present perfect tense", "def": "Formed with \"haber\" + past participle, used for actions connecting the past to the present (e.g., \"he trabajado\" — I have worked)."},
+        {"term": "Tú commands", "def": "Informal command forms used to instruct someone addressed as \"tú.\""},
+        {"term": "Future tense", "def": "Used to describe what will happen."},
+        {"term": "Conditional tense", "def": "Used to describe what would happen."}
+      ],
+      "examples": [
+        "\"He terminado mi tarea\" (I have finished my homework) uses the present perfect.",
+        "An informal command: \"¡Estudia más!\" (Study more!) is the tú command form of \"estudiar.\""
+      ],
+      "steps": [
+        "Conjugate \"haber\" to match the subject: he, has, ha, hemos, han.",
+        "Form the past participle of the main verb by replacing -ar with -ado, or -er/-ir with -ido.",
+        "Combine the conjugated \"haber\" with the past participle.",
+        "Example: \"yo he hablado\" (I have talked), \"ella ha comido\" (she has eaten)."
+      ],
+      "remember": [
+        "The present perfect uses \"haber\" + past participle to connect a past action to the present.",
+        "Regular past participles: -ar verbs end in -ado; -er/-ir verbs end in -ido.",
+        "Tú commands give informal instructions to someone addressed as \"tú.\"",
+        "The conditional tense expresses what \"would\" happen; the future tense expresses what \"will\" happen."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "How is the present perfect tense formed in Spanish?", "options": ["Haber + infinitive", "Haber + past participle", "Ser + past participle", "Estar + gerund"], "correct": 1, "explanation": "The present perfect is formed with a conjugated form of \"haber\" plus the past participle."},
+        {"q": "What is the regular past participle ending for an -ar verb like \"hablar\"?", "options": ["-ido", "-ado", "-iendo", "-ando"], "correct": 1, "explanation": "Regular -ar verbs form their past participle by adding -ado."},
+        {"q": "What does \"la búsqueda de empleo\" mean?", "options": ["The job interview", "The job search", "The job offer", "The resignation"], "correct": 1, "explanation": "\"La búsqueda de empleo\" means \"the job search.\""},
+        {"q": "Who would you address using a \"tú command\"?", "options": ["A stranger you address formally", "Someone you address informally as \"tú\"", "A large group", "A business client"], "correct": 1, "explanation": "Tú commands are informal commands used with someone addressed as \"tú.\""},
+        {"q": "What does the conditional tense express?", "options": ["What is happening right now", "What will happen", "What would happen", "What happened yesterday"], "correct": 2, "explanation": "The conditional tense expresses what \"would\" happen under certain conditions."}
+      ]
+    }
+  },
+  "Unidad 7: Capítulos 13 & 14": {
+    "guide": {
+      "explanation": "This unit covers media and entertainment vocabulary — newspapers, movies, music — alongside the imperfect subjunctive, \"hacer\" used in time expressions (like \"hace dos años\" — two years ago), and the pluperfect tense, used to describe an action that had already happened before another past action.",
+      "keyTerms": [
+        {"term": "la prensa", "def": "The press."},
+        {"term": "el cine", "def": "The movies/cinema."},
+        {"term": "hace + time period", "def": "Ago (e.g., \"hace dos años\" — two years ago)."},
+        {"term": "Pluperfect tense", "def": "Formed with the imperfect of \"haber\" + past participle, describing an action that had happened before another past action."},
+        {"term": "Nosotros commands", "def": "Command forms used to suggest \"let's do\" something."},
+        {"term": "la moda", "def": "Fashion."}
+      ],
+      "examples": [
+        "\"Hace tres años que estudio español\" (I have been studying Spanish for three years) uses \"hace\" in a time expression.",
+        "\"Cuando llegué, ella ya había salido\" (When I arrived, she had already left) uses the pluperfect."
+      ],
+      "steps": [
+        "Conjugate \"haber\" in the imperfect tense: había, habías, había, habíamos, habían.",
+        "Form the past participle of the main verb (-ado for -ar verbs, -ido for -er/-ir verbs).",
+        "Combine the imperfect \"haber\" with the past participle.",
+        "Use this to describe an action that occurred before another past event already mentioned."
+      ],
+      "remember": [
+        "\"Hace\" + time period means \"ago\" in Spanish (hace dos años = two years ago).",
+        "The pluperfect describes an action that had already happened before another past event.",
+        "Nosotros commands mean \"let's...\" — e.g., \"Vamos\" (Let's go).",
+        "\"La prensa\" refers to the press/print media; \"el cine\" refers to movies."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"hace dos años\" mean?", "options": ["In two years", "Two years ago", "For two years starting now", "Two years from today"], "correct": 1, "explanation": "\"Hace dos años\" means \"two years ago.\""},
+        {"q": "How is the pluperfect tense formed?", "options": ["Present tense of haber + past participle", "Imperfect tense of haber + past participle", "Future tense of haber + infinitive", "Preterit of ser + gerund"], "correct": 1, "explanation": "The pluperfect uses the imperfect form of \"haber\" plus the past participle."},
+        {"q": "What does the pluperfect tense describe?", "options": ["An action happening now", "An action that had happened before another past action", "A future action", "A command"], "correct": 1, "explanation": "The pluperfect describes an action that had already occurred before another past event."},
+        {"q": "What does a \"nosotros command\" express?", "options": ["A formal instruction", "A \"let's do\" suggestion", "A past action", "A question"], "correct": 1, "explanation": "Nosotros commands express a \"let's...\" suggestion, like \"Vamos\" (Let's go)."},
+        {"q": "What does \"la prensa\" refer to?", "options": ["Movies", "The press/print media", "Music", "Fashion"], "correct": 1, "explanation": "\"La prensa\" refers to the press or print media, like newspapers."}
+      ]
+    }
+  },
+  "Unidad 8: Capítulo 15": {
+    "guide": {
+      "explanation": "This final unit covers vocabulary for political and economic issues — war, poverty, human rights, government — alongside relative pronouns (que, quien, lo que) used to combine sentences, and the impersonal \"se\" construction used to describe unplanned or accidental occurrences.",
+      "keyTerms": [
+        {"term": "la guerra", "def": "War."},
+        {"term": "la pobreza", "def": "Poverty."},
+        {"term": "los derechos humanos", "def": "Human rights."},
+        {"term": "que / quien / lo que", "def": "Relative pronouns meaning \"that/which,\" \"who,\" and \"what/that which.\""},
+        {"term": "se for unplanned occurrences", "def": "A construction describing accidental events, removing blame from a specific subject (e.g., \"se me perdió el boleto\")."},
+        {"term": "pero / sino", "def": "\"But\" (contradicting an idea) / \"but rather\" (correcting a negative statement)."}
+      ],
+      "examples": [
+        "\"El libro que compré es interesante\" (The book that I bought is interesting) uses \"que\" as a relative pronoun.",
+        "\"Se me rompió el vaso\" (I broke the glass, literally \"the glass broke on me\") uses the impersonal \"se\" construction."
+      ],
+      "steps": [
+        "Use \"se\" plus an indirect object pronoun (me, te, le, nos, les) to show who was affected.",
+        "Conjugate the verb to match the thing that underwent the action, not the person.",
+        "This removes direct blame from the person, framing it as something that \"happened to\" them.",
+        "Example: \"Se le olvidó la tarea\" (He/she forgot the homework, literally \"the homework got forgotten on him/her\")."
+      ],
+      "remember": [
+        "\"Que\" is the most common relative pronoun, meaning \"that\" or \"which.\"",
+        "The impersonal \"se\" construction describes accidental events without directly blaming the subject.",
+        "\"Pero\" means \"but\" (adding a contrast); \"sino\" means \"but rather\" (correcting a previous negative statement).",
+        "Key vocabulary: la guerra (war), la pobreza (poverty), los derechos humanos (human rights)."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does the relative pronoun \"que\" typically mean?", "options": ["Who", "That/which", "What", "Why"], "correct": 1, "explanation": "\"Que\" is the most common relative pronoun, generally meaning \"that\" or \"which.\""},
+        {"q": "What is the purpose of the impersonal \"se\" construction?", "options": ["To directly blame someone for an action", "To describe an unplanned or accidental occurrence", "To form a question", "To express a command"], "correct": 1, "explanation": "The impersonal \"se\" construction describes accidental or unplanned events."},
+        {"q": "What is the difference between \"pero\" and \"sino\"?", "options": ["They mean the same thing", "\"Pero\" adds a contrast; \"sino\" corrects a previous negative statement", "\"Sino\" is used only in questions", "\"Pero\" is used only with negative statements"], "correct": 1, "explanation": "\"Pero\" means \"but\" (adding contrast), while \"sino\" means \"but rather\" (correcting a negative statement)."},
+        {"q": "What does \"los derechos humanos\" mean?", "options": ["Human resources", "Human rights", "Human development", "Human relations"], "correct": 1, "explanation": "\"Los derechos humanos\" means \"human rights.\""},
+        {"q": "In \"Se le olvidó la tarea,\" what is being expressed?", "options": ["He/she deliberately forgot the homework", "The homework got forgotten on him/her (unplanned)", "He/she completed the homework", "He/she is doing homework"], "correct": 1, "explanation": "This impersonal \"se\" construction frames forgetting the homework as something that happened to the person."}
+      ]
+    }
+  }
+}

@@ -139,6 +139,17 @@
     margin:4px 6px 4px 0;
   }
   .chip:hover{ background:var(--purp-1); }
+  .stat-badge{
+    display:inline-flex;
+    align-items:center;
+    background:var(--purp-3);
+    color:var(--ink);
+    opacity:0.75;
+    border-radius:20px;
+    padding:6px 13px;
+    font-size:11.5px;
+    font-weight:500;
+  }
   .divider{
     border:none;
     border-top:1px solid var(--purp-2);
@@ -214,7 +225,12 @@
     font-weight:600;
     font-size:18px;
     margin:0 0 10px;
+    display:flex;
+    align-items:center;
+    gap:9px;
+    color:var(--ink);
   }
+  section.guide-section h2 svg{ flex-shrink:0; color:var(--purple); }
   section.guide-section p{ font-size:14.5px; line-height:1.7; margin:0 0 10px; }
   ul.clean{ padding-left:0; list-style:none; margin:0; }
   ul.clean li{
@@ -332,7 +348,7 @@
         <button class="doc-close" id="doc-close-btn">&times;</button>
       </div>
       <select id="doc-course-select"></select>
-      <button class="btn btn-ghost" id="doc-back-btn" style="width:100%;justify-content:center;margin-top:12px;">‹ Back</button>
+      <a class="btn btn-ghost" id="doc-original-link" href="#" target="_blank" rel="noopener" style="width:100%;justify-content:center;margin-top:12px;text-decoration:none;">Printable Study Guide</a>
     </div>
   </div>
   <div class="doc-panel-body" id="doc-panel-body">
@@ -354,6 +370,10 @@
   <section class="view active" id="view-home">
     <h1 class="headline">What are you studying today?</h1>
     <p class="sub">Pick a course, then type or choose a topic — Achieve will build a study guide around what you actually need help with.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px;">
+      <span class="stat-badge">25 courses</span>
+      <span class="stat-badge">Guide + quiz for every topic</span>
+    </div>
 
     <label class="field-label" for="course-select">Course</label>
     <select id="course-select">
@@ -366,10 +386,6 @@
     <div class="error-text" id="home-error">Pick a course and enter a topic to continue.</div>
 
     <button class="btn btn-primary" id="start-btn">Start studying</button>
-
-    <hr class="divider">
-    <label class="field-label">Try an example</label>
-    <button class="chip" id="example-chip">American Government · United States Government Background</button>
   </section>
 
   <!-- ===================== NEEDS VIEW ===================== -->
@@ -388,7 +404,7 @@
     <div class="context-pill" id="guide-context"></div>
     <div id="guide-loading" class="loading">
       <div class="spin"></div>
-      <span>Building your study guide…</span>
+      <span id="guide-loading-text">Reading the chapter…</span>
     </div>
     <div id="guide-body" style="display:none;"></div>
   </section>
@@ -398,7 +414,7 @@
     <button class="back-link" data-back="view-guide">‹ Back to guide</button>
     <div id="quiz-loading" class="loading" style="display:none;">
       <div class="spin"></div>
-      <span>Building your quiz…</span>
+      <span id="quiz-loading-text">Writing your questions…</span>
     </div>
     <div id="quiz-active">
       <div class="quiz-progress" id="quiz-progress"></div>
@@ -418,7 +434,7 @@
     </div>
   </section>
 
-  <footer class="note">Achieve study guide. Study guides and quizzes are generated live by Claude, grounded in your course material.</footer>
+  <footer class="note">Achieve study guide. Study guides and quizzes are written in advance for every topic, grounded in your course material.</footer>
 </div>
 
 <script>
@@ -490,10 +506,16 @@ const NEEDS = [
   "I want a complete review"
 ];
 
-const DEMO_COURSE = "American Government";
-const DEMO_TOPIC = "United States Government Background";
-
 // ---------- State ----------
+// Small line icons (matching your outline icon set style) used next to guide section headings
+const ICONS = {
+  remember: '<svg viewBox="0 0 18 18" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"><path d="M9 1.5l2 4.2 4.6.4-3.5 3 1 4.5L9 11.3l-4.1 2.3 1-4.5-3.5-3 4.6-.4Z"/></svg>',
+  explanation: '<svg viewBox="0 0 18 18" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M9 1.5a4.5 4.5 0 0 0-2.5 8.25c.35.25.5.5.5.9v1.1h4v-1.1c0-.4.15-.65.5-.9A4.5 4.5 0 0 0 9 1.5Z"/><path d="M7 14.5h4M7.5 16.5h3"/></svg>',
+  terms: '<svg viewBox="0 0 18 18" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><path d="M4.5 2.5h9v13l-4.5-3-4.5 3v-13Z"/></svg>',
+  examples: '<svg viewBox="0 0 18 18" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M9 2 2 6l7 4 7-4-7-4Z"/><path d="M2 10l7 4 7-4"/></svg>',
+  steps: '<svg viewBox="0 0 18 18" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M3 4.5h2M3 9h2M3 13.5h2"/><path d="M7.5 4.5h7M7.5 9h7M7.5 13.5h7"/></svg>'
+};
+
 let state = { course:"", topic:"", needs:[], quizIndex:0, quizScore:0, quizAnswered:false, quizMissed:[], quizQuestions:[] };
 
 // ---------- Populate selects ----------
@@ -528,16 +550,16 @@ document.querySelectorAll('[data-back]').forEach(btn=>{
 });
 
 // ---------- Home -> Needs ----------
-document.getElementById('example-chip').addEventListener('click', ()=>{
-  courseSelect.value = DEMO_COURSE;
-  populateTopics(DEMO_COURSE);
-  topicInput.value = DEMO_TOPIC;
-});
 
 document.getElementById('start-btn').addEventListener('click', ()=>{
-  const course = courseSelect.value, topic = topicInput.value.trim();
+  const course = courseSelect.value;
+  const topic = topicInput.value.trim();
   const err = document.getElementById('home-error');
-  if(!course || !topic){ err.style.display = 'block'; return; }
+  if(!course || !topic){
+    err.textContent = "Pick a course and enter a topic to continue.";
+    err.style.display = 'block';
+    return;
+  }
   err.style.display = 'none';
   state.course = course; state.topic = topic; state.needs = [];
   document.getElementById('needs-context').textContent = `Studying: ${course} — ${topic}`;
@@ -556,30 +578,56 @@ document.getElementById('start-btn').addEventListener('click', ()=>{
   showView('view-needs');
 });
 
-// ---------- Needs -> Guide (calls the real Netlify Function) ----------
-document.getElementById('build-btn').addEventListener('click', async ()=>{
+// ---------- Needs -> Guide (reads from pre-written /pregenerated/<slug>.json) ----------
+const GUIDE_LOADING_MESSAGES = ["Reading the chapter…", "Pulling out the key points…", "Shaping it around what you need…"];
+function cycleLoadingText(elId, messages){
+  const el = document.getElementById(elId);
+  let i = 0;
+  el.textContent = messages[0];
+  const timer = setInterval(()=>{
+    i = (i+1) % messages.length;
+    el.textContent = messages[i];
+  }, 1400);
+  return () => clearInterval(timer);
+}
+
+// Cache of loaded /pregenerated/<slug>.json files, keyed by course name, so switching
+// topics within the same course never re-fetches.
+const pregeneratedCache = {};
+async function loadPregenerated(course){
+  if(pregeneratedCache[course]) return pregeneratedCache[course];
+  const slug = DOC_SLUG[course];
+  const resp = await fetch(`/pregenerated/${slug}.json`);
+  if(!resp.ok) throw new Error(`Could not load content for ${course}`);
+  const data = await resp.json();
+  pregeneratedCache[course] = data;
+  return data;
+}
+
+async function buildGuide(){
   document.getElementById('guide-context').textContent = `${state.course} — ${state.topic}`;
   document.getElementById('guide-loading').style.display = 'flex';
   document.getElementById('guide-body').style.display = 'none';
   showView('view-guide');
+  const stopCycling = cycleLoadingText('guide-loading-text', GUIDE_LOADING_MESSAGES);
 
   let payload;
   try{
-    const resp = await fetch('/api/study-guide', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ course: state.course, topic: state.topic, needs: state.needs })
-    });
-    payload = await resp.json();
-    if(!resp.ok) throw new Error(payload.error || 'Request failed');
+    const courseData = await loadPregenerated(state.course);
+    payload = courseData[state.topic];
+    if(!payload) throw new Error(`No pre-written guide found for "${state.topic}".`);
   } catch(err){
+    stopCycling();
     document.getElementById('guide-loading').style.display = 'none';
     const body = document.getElementById('guide-body');
     body.style.display = 'block';
-    body.innerHTML = `<div class="proto-note error"><strong>Couldn't generate this guide</strong>${(err && err.message) || 'Something went wrong talking to the AI.'} Double-check that ANTHROPIC_API_KEY is set in this site's environment variables.</div>`;
+    body.innerHTML = `<div class="proto-note error"><strong>Couldn't load this guide</strong>${(err && err.message) || 'Something went wrong loading this topic.'}</div>
+      <div class="actions-row"><button class="btn btn-ghost" id="regenerate-btn">Try again</button></div>`;
+    document.getElementById('regenerate-btn').addEventListener('click', buildGuide);
     return;
   }
 
+  stopCycling();
   document.getElementById('guide-loading').style.display = 'none';
   const body = document.getElementById('guide-body');
   body.style.display = 'block';
@@ -598,59 +646,62 @@ document.getElementById('build-btn').addEventListener('click', async ()=>{
 
   let html = '';
   if(show.remember && guide.remember){
-    html += `<section class="guide-section"><h2>Remember this</h2><ul class="clean">` +
+    html += `<section class="guide-section"><h2>${ICONS.remember}Remember this</h2><ul class="clean">` +
       guide.remember.map(r=>`<li>${r}</li>`).join('') + `</ul></section>`;
   }
   if(show.explanation && guide.explanation){
-    html += `<section class="guide-section"><h2>Simple explanation</h2><p>${guide.explanation}</p></section>`;
+    html += `<section class="guide-section"><h2>${ICONS.explanation}Simple explanation</h2><p>${guide.explanation}</p></section>`;
   }
   if(show.terms && guide.keyTerms){
-    html += `<section class="guide-section"><h2>Key terms</h2><ul class="clean">` +
+    html += `<section class="guide-section"><h2>${ICONS.terms}Key terms</h2><ul class="clean">` +
       guide.keyTerms.map(k=>`<li><span class="kterm-chip">${k.term}</span>${k.def}</li>`).join('') + `</ul></section>`;
   }
   if(show.examples && guide.examples){
-    html += `<section class="guide-section"><h2>Examples</h2><ul class="clean">` +
+    html += `<section class="guide-section"><h2>${ICONS.examples}Examples</h2><ul class="clean">` +
       guide.examples.map(e=>`<li>${e}</li>`).join('') + `</ul></section>`;
   }
   if(show.steps && guide.steps){
-    html += `<section class="guide-section"><h2>Step by step</h2><ul class="clean">` +
+    html += `<section class="guide-section"><h2>${ICONS.steps}Step by step</h2><ul class="clean">` +
       guide.steps.map((s,i)=>`<li>${i+1}. ${s}</li>`).join('') + `</ul></section>`;
   }
   if(show.quizNudge){
     html += `<div class="proto-note" style="margin-bottom:24px;"><strong>Ready to practice?</strong>Your practice questions are ready below.</div>`;
   }
-  html += `<button class="btn btn-primary" id="take-quiz-btn">Take a quiz</button>`;
+  html += `<div class="actions-row">
+    <button class="btn btn-primary" id="take-quiz-btn">Take a quiz</button>
+  </div>`;
   body.innerHTML = html;
   document.getElementById('take-quiz-btn').addEventListener('click', startQuiz);
-});
+}
+document.getElementById('build-btn').addEventListener('click', buildGuide);
 
-// ---------- Quiz (calls the real Netlify Function) ----------
+// ---------- Quiz (reads from the same pre-written /pregenerated/<slug>.json) ----------
+const QUIZ_LOADING_MESSAGES = ["Writing your questions…", "Mixing up the answer choices…", "Double-checking the explanations…"];
 async function startQuiz(){
   state.quizIndex = 0; state.quizScore = 0; state.quizAnswered = false; state.quizMissed = []; state.quizQuestions = [];
   document.getElementById('quiz-active').style.display = 'none';
   document.getElementById('quiz-results').style.display = 'none';
   document.getElementById('quiz-loading').style.display = 'flex';
   showView('view-quiz');
+  const stopCycling = cycleLoadingText('quiz-loading-text', QUIZ_LOADING_MESSAGES);
 
   let payload;
   try{
-    const resp = await fetch('/api/quiz', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ course: state.course, topic: state.topic })
-    });
-    payload = await resp.json();
-    if(!resp.ok) throw new Error(payload.error || 'Request failed');
+    const courseData = await loadPregenerated(state.course);
+    payload = courseData[state.topic];
+    if(!payload) throw new Error(`No pre-written quiz found for "${state.topic}".`);
   } catch(err){
+    stopCycling();
     document.getElementById('quiz-loading').style.display = 'none';
     document.getElementById('quiz-active').style.display = 'block';
     document.getElementById('quiz-question').textContent = '';
     document.getElementById('quiz-options').innerHTML =
-      `<div class="proto-note error"><strong>Couldn't generate this quiz</strong>${(err && err.message) || 'Something went wrong talking to the AI.'}</div>`;
+      `<div class="proto-note error"><strong>Couldn't load this quiz</strong>${(err && err.message) || 'Something went wrong loading this topic.'}</div>`;
     document.getElementById('quiz-next-btn').style.display = 'none';
     return;
   }
 
+  stopCycling();
   state.quizQuestions = (payload.quiz && payload.quiz.questions) || [];
   document.getElementById('quiz-loading').style.display = 'none';
   document.getElementById('quiz-active').style.display = 'block';
@@ -719,9 +770,15 @@ document.getElementById('quiz-next-btn').addEventListener('click', ()=>{
     document.getElementById('quiz-active').style.display = 'none';
     document.getElementById('quiz-results').style.display = 'block';
     document.getElementById('score-text').textContent = `${state.quizScore} / ${state.quizQuestions.length}`;
+    const pct = state.quizScore / state.quizQuestions.length;
+    let headline;
+    if(pct === 1) headline = 'Clean sweep — nice work.';
+    else if(pct >= 0.8) headline = 'Almost perfect — just a little more review.';
+    else if(pct >= 0.5) headline = "Solid start — a few spots worth revisiting.";
+    else headline = "Good effort — let's go over the material again.";
     document.getElementById('score-note').textContent = state.quizMissed.length
-      ? `Worth another look: ${state.quizMissed.join(' · ')}`
-      : 'Clean sweep — nice work.';
+      ? `${headline} Worth another look: ${state.quizMissed.join(' · ')}`
+      : headline;
   }
 });
 document.getElementById('retry-quiz-btn').addEventListener('click', startQuiz);
@@ -783,6 +840,35 @@ function renderDocHTML(raw){
   return html;
 }
 
+// Direct links to each course's original source file in the shared Drive folder
+const DRIVE_LINKS = {
+  "American Government": "https://drive.google.com/file/d/1KHC2Zf8Rdy3EWr1dCzIpBzBTvZiOwN72/view?usp=sharing",
+  "Art of the Western World": "https://drive.google.com/file/d/1pGioakQYuoLMei7W6spkqpexEB7qklpQ/view?usp=sharing",
+  "Chemistry": "https://drive.google.com/file/d/1N-dhCGq9fk_hIPgYuOMgfHN5TBC26ORj/view?usp=sharing",
+  "College Algebra": "https://drive.google.com/file/d/15xNw5hjUf1NYKb3e29jQkq4bvf-B7GU-/view?usp=sharing",
+  "College Composition": "https://drive.google.com/file/d/1UlA2MkiyKHVFffwqVvHgPfObIaJqtjw4/view?usp=sharing",
+  "College Composition (with modular)": "https://drive.google.com/file/d/1UlA2MkiyKHVFffwqVvHgPfObIaJqtjw4/view?usp=sharing",
+  "College Mathematics": "https://drive.google.com/file/d/1GLVxlxUmFOhpqYgVnlKakquRMUWzZ47T/view?usp=sharing",
+  "Dental Hygiene Entrance Exam Prep": "https://drive.google.com/file/d/14WqIRppNyMB31kv3swBCFXQDk6m_Ao3q/view?usp=sharing",
+  "Ethics in America": "https://drive.google.com/file/d/1cRpIRRR0BrszeoxkFPT2bVtttEH3ZihE/view?usp=sharing",
+  "Fundamentals of Math": "https://drive.google.com/file/d/17Y6oLpmeIcXuKIN7DQISxU82vSOeQqfh/view?usp=sharing",
+  "History of the United States 1": "https://drive.google.com/file/d/13FigbaA3xs2DJHP_0qaejk69YPHLCLCE/view?usp=sharing",
+  "Human Growth and Development": "https://drive.google.com/file/d/1YmnLCka0lZNAe90PaAvcccV_SHhYkKSP/view?usp=sharing",
+  "Humanities": "https://drive.google.com/file/d/1P6dgAE74JP4-nQl8a0gNNRlrREZi9qNK/view?usp=sharing",
+  "Introduction to Psychology": "https://drive.google.com/file/d/1wd_KpiU3Fej84yjDNiaw3x_iri06lafS/view?usp=sharing",
+  "Macroeconomics": "https://drive.google.com/file/d/11Obas8QZHdq3Liu9FLhmGfG_io91oX0r/view?usp=sharing",
+  "Microeconomics": "https://drive.google.com/file/d/1_JKRrmSW9-eHVqmIFFwBClaIfNRJDqGB/view?usp=sharing",
+  "Next Gen NCLEX PN Prep": "https://drive.google.com/file/d/1qOwf8cm16XrMw9QrsAtXXuHbmOav28gv/view?usp=sharing",
+  "Next Gen NCLEX RN Prep": "https://drive.google.com/file/d/11ra3k02K5nIz_yaZx9mqVGWHmXvOK4cQ/view?usp=sharing",
+  "Nursing Entrance Exam Prep": "https://drive.google.com/file/d/1k8qW47t5yxncvpHLZP5nudv9PAk39jDk/view?usp=sharing",
+  "Sociology": "https://drive.google.com/file/d/1eSxX5LOwT2liFbF2o8Iymbsqx4AnwElP/view?usp=sharing",
+  "Spanish 1": "https://drive.google.com/file/d/1Z3WUnWJ6n20rQ2nfqOlyxkcI_UYxBkeB/view?usp=sharing",
+  "Spanish 2": "https://drive.google.com/file/d/1Z3WUnWJ6n20rQ2nfqOlyxkcI_UYxBkeB/view?usp=sharing",
+  "Speech": "https://drive.google.com/file/d/1AjKoFhZssOF-xiGAqqwbzGIyjdk9daNY/view?usp=sharing",
+  "Statistics": "https://drive.google.com/file/d/1GAtxItPdtlY6N_tf5rPuhXmP4HolbKI9/view?usp=sharing",
+  "World Religions": "https://drive.google.com/file/d/1EwHxcKM5jdOf9cxY6bzF9vZl0Ed1CTTb/view?usp=sharing"
+};
+
 function openDocPanel(course){
   docCourseSelect.value = course;
   loadDocFor(course);
@@ -796,6 +882,8 @@ function closeDocPanel(){
   document.getElementById('doc-toggle-btn').style.display = '';
 }
 async function loadDocFor(course){
+  const link = document.getElementById('doc-original-link');
+  link.href = DRIVE_LINKS[course] || '#';
   const slug = DOC_SLUG[course];
   if(!slug){ docPanelBody.innerHTML = '<div class="doc-loading">No source guide mapped for this course.</div>'; return; }
   if(docCache[slug]){ renderTopicPicker(course, docCache[slug]); return; }
@@ -832,7 +920,6 @@ document.getElementById('doc-toggle-btn').addEventListener('click', ()=>{
   openDocPanel(course);
 });
 document.getElementById('doc-close-btn').addEventListener('click', closeDocPanel);
-document.getElementById('doc-back-btn').addEventListener('click', closeDocPanel);
 docBackdrop.addEventListener('click', closeDocPanel);
 docCourseSelect.addEventListener('change', ()=> loadDocFor(docCourseSelect.value));
 </script>

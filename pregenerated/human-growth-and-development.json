@@ -1,0 +1,194 @@
+{
+  "Foundations of Development": {
+    "guide": {
+      "explanation": "Human development is now understood as a lifelong process spanning eight overlapping stages, from the prenatal period through late adulthood, rather than something that stops after adolescence. Three major theoretical lenses explain how it happens: individual learning theories (like Darwin's evolutionary theory) focus on biology and environment shaping the person; stage-based theories describe distinct, discontinuous phases people pass through; and contextual theories emphasize how family, culture, and socioeconomic status shape the path. Development follows several core principles — it's lifelong, multidimensional (physical, cognitive, and social changes all interact), and multidirectional, meaning growth in one area can happen alongside decline in another.",
+      "keyTerms": [
+        {"term": "Lifespan", "def": "The time from birth to death."},
+        {"term": "Life expectancy", "def": "How long a person is likely to live, based on health, lifestyle, and environment."},
+        {"term": "Plasticity", "def": "The brain and body's ability to adapt to new experiences throughout life."},
+        {"term": "Continuous development", "def": "Gradual, incremental change (e.g., steady vocabulary growth)."},
+        {"term": "Discontinuous development", "def": "Change that happens in distinct stages (e.g., Piaget's cognitive stages)."},
+        {"term": "Biosocial, cognitive, psychosocial domains", "def": "The three broad areas developmental psychologists study — physical/social growth, thinking/learning, and emotions/relationships."}
+      ],
+      "examples": [
+        "Life expectancy has risen dramatically over history — from under 30 years in prehistoric times to over 70-80 years in many developed countries today, thanks to healthcare, nutrition, and sanitation.",
+        "Piaget's stages of cognitive development, like moving from the preoperational to the concrete operational stage, are a classic example of discontinuous, stage-based development."
+      ],
+      "steps": [
+        "Prenatal (conception to birth) and Infancy (birth to 2 years).",
+        "Early Childhood (2\u20135 years) and Middle Childhood (6\u201311 years).",
+        "Adolescence (12\u201318 years).",
+        "Early Adulthood (19\u201334) and Middle Adulthood (35\u201364).",
+        "Late Adulthood (65 years and older)."
+      ],
+      "remember": [
+        "Development is lifelong — it doesn't stop after childhood or adolescence.",
+        "Continuous development is gradual (vocabulary growth); discontinuous development happens in distinct stages (Piaget).",
+        "The three domains: biosocial (physical/social), cognitive (thinking/learning), psychosocial (emotions/relationships).",
+        "Development is multidirectional — growth in one area (like wisdom) can occur alongside decline in another (like physical strength)."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "Which of the following best describes \"discontinuous\" development?", "options": ["Gradual, steady change over time", "Change that happens in distinct, abrupt stages", "Change that only happens in childhood", "Change caused only by genetics"], "correct": 1, "explanation": "Discontinuous development, like Piaget's cognitive stages, involves abrupt, distinct stages rather than gradual change."},
+        {"q": "Approximately what is the maximum recorded human lifespan?", "options": ["90 years", "100 years", "120 years", "150 years"], "correct": 2, "explanation": "The maximum lifespan for humans is around 120 years."},
+        {"q": "Which domain of development focuses specifically on thinking, learning, and problem-solving?", "options": ["Biosocial domain", "Cognitive domain", "Psychosocial domain", "Contextual domain"], "correct": 1, "explanation": "The cognitive domain focuses on mental processes like thinking, learning, problem-solving, and language."},
+        {"q": "What does it mean that development is \"multidirectional\"?", "options": ["Development only moves forward, never backward", "Growth in one area can occur while decline happens in another", "Development happens the same way for everyone", "Development can be reversed entirely"], "correct": 1, "explanation": "Multidirectional means growth and decline can happen simultaneously in different areas — for example, physical strength may decline while wisdom increases."},
+        {"q": "Which historical period saw life expectancy rise into the 50-60 year range due to vaccines and sanitation advances?", "options": ["The Middle Ages", "The 18th century", "The 20th century", "Prehistoric times"], "correct": 2, "explanation": "Advances in healthcare, vaccines, sanitation, and nutrition during the 20th century raised global average life expectancy to 50-60 years."}
+      ]
+    }
+  },
+  "Building Blocks of Development": {
+    "guide": {
+      "explanation": "Human biological development begins at fertilization, when a sperm and egg combine to form a zygote carrying 46 chromosomes — 23 from each parent. From there, genes and environment interact continuously: some traits are purely genetic, others depend on gene-environment interaction, and prenatal development can be disrupted by teratogens like alcohol, environmental toxins, or maternal infections. This chapter also covers the nervous system's basic architecture, laying the biological foundation for everything covered in later chapters.",
+      "keyTerms": [
+        {"term": "Zygote", "def": "The first cell of a developing organism, formed when sperm and egg combine."},
+        {"term": "Chromosome", "def": "A structure inside cell nuclei carrying genetic information; humans have 46 (23 pairs)."},
+        {"term": "Genotype vs. phenotype", "def": "A person's genetic code vs. their observable, expressed traits."},
+        {"term": "Teratogen", "def": "A substance (like alcohol, tobacco, or environmental toxins) that can harm a developing fetus."},
+        {"term": "Meiosis", "def": "Cell division that creates sex cells (gametes), each with 23 chromosomes."},
+        {"term": "Monozygotic vs. dizygotic twins", "def": "Identical twins (100% shared genes, one egg) vs. fraternal twins (about 50% shared genes, two eggs)."}
+      ],
+      "examples": [
+        "Down Syndrome results from an extra copy of chromosome 21 — a chromosomal error occurring during cell division.",
+        "Fetal Alcohol Spectrum Disorders (FASD) are a well-documented result of teratogen exposure (alcohol) during pregnancy, affecting cognitive and physical development."
+      ],
+      "steps": [
+        "Fertilization: sperm and egg combine to form a zygote.",
+        "Cell division begins (mitosis for growth; meiosis already formed the gametes).",
+        "Chromosomes pair up — 23 from each parent — determining traits and biological sex (XX or XY).",
+        "The developing embryo/fetus is vulnerable to teratogens, maternal health, and nutrition throughout gestation.",
+        "Labor begins with Braxton Hicks contractions (false labor) before true labor stages progress toward birth."
+      ],
+      "remember": [
+        "Every somatic cell has 46 chromosomes (23 pairs) — 23 from the mother, 23 from the father.",
+        "Meiosis creates sex cells (23 chromosomes each); mitosis creates identical body cells (46 chromosomes each) for growth and repair.",
+        "Teratogens (alcohol, toxins, some medications) can cause lasting developmental harm — timing and dose both matter.",
+        "Identical twins share 100% of genes (one fertilized egg); fraternal twins share about 50% (two separate eggs)."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "How many chromosomes does a typical human somatic (body) cell contain?", "options": ["23", "46", "92", "21"], "correct": 1, "explanation": "Somatic cells contain 46 chromosomes (23 pairs) — 23 from the mother and 23 from the father."},
+        {"q": "What is a teratogen?", "options": ["A type of chromosome", "A substance that can harm a developing fetus", "A stage of labor", "A gene that determines eye color"], "correct": 1, "explanation": "Teratogens are substances — like alcohol, tobacco, or environmental toxins — that can harm fetal development."},
+        {"q": "What causes Down Syndrome?", "options": ["A missing chromosome 5", "An extra copy of chromosome 21", "A mutation in the X chromosome", "Exposure to teratogens only"], "correct": 1, "explanation": "Down Syndrome is caused by a chromosomal error resulting in an extra copy of chromosome 21."},
+        {"q": "What percentage of genes do identical (monozygotic) twins share?", "options": ["25%", "50%", "75%", "100%"], "correct": 3, "explanation": "Identical twins come from one fertilized egg that splits, so they share 100% of their genes."},
+        {"q": "What is the difference between genotype and phenotype?", "options": ["Genotype is observable traits; phenotype is genetic code", "Genotype is genetic code; phenotype is observable traits", "They are the same thing", "Genotype only applies to twins"], "correct": 1, "explanation": "Genotype refers to a person's underlying genetic code, while phenotype refers to their observable, expressed traits."}
+      ]
+    }
+  },
+  "Cognitive and Social Domains": {
+    "guide": {
+      "explanation": "Cognitive development covers how attention, memory, and information processing mature from infancy through adulthood — working memory strengthens through childhood and adolescence, then often declines somewhat in the 50s and 60s, even as semantic (factual) knowledge keeps growing. Social development runs alongside this, most notably through attachment: research from Harry Harlow, John Bowlby, and Mary Ainsworth established that early emotional bonds with caregivers — not just having basic needs met — shape a person's relationships for life. Erik Erikson later connected these ideas into eight stages of psychosocial development, each centered on a specific conflict to resolve.",
+      "keyTerms": [
+        {"term": "Selective attention", "def": "The ability to focus on one thing while ignoring distractions, developing around 4-6 months."},
+        {"term": "Working (short-term) memory", "def": "Holds about 5-9 items briefly; used for tasks like remembering a phone number."},
+        {"term": "Encoding, storage, retrieval", "def": "The three stages of information processing in memory."},
+        {"term": "Secure attachment", "def": "A healthy caregiver bond associated with positive social, emotional, and cognitive outcomes."},
+        {"term": "Separation anxiety", "def": "Distress a child shows when a caregiver is absent, showing the importance of emotional security."},
+        {"term": "Semantic vs. episodic memory", "def": "General knowledge/facts vs. memory of personal events."}
+      ],
+      "examples": [
+        "Harry Harlow's monkey studies showed infants sought comfort from a soft \"cloth mother\" over a \"wire mother\" that provided food — proving attachment isn't just about nourishment.",
+        "Mary Ainsworth's \"Stranger Situation\" experiment identified distinct attachment styles by observing how children reacted to a caregiver leaving and returning."
+      ],
+      "steps": [
+        "Infancy: babies react to sounds/sights; selective attention emerges around 4-6 months.",
+        "Early-Middle Childhood: sustained attention grows; divided attention (multitasking) improves between ages 6-12.",
+        "Childhood/Adolescence: working memory improves as the frontal lobes and hippocampus strengthen.",
+        "Adulthood/Aging: working memory may decline in the 50s-60s, while semantic memory often keeps growing even as episodic memory fades."
+      ],
+      "remember": [
+        "Attachment research (Harlow, Bowlby, Ainsworth) proved emotional comfort — not just food — drives infant bonding.",
+        "Working memory holds roughly 5-9 items and needs rehearsal or chunking to retain information longer.",
+        "Semantic memory (facts) tends to hold up better with age than episodic memory (personal events).",
+        "Erikson's theory frames development as eight stages, each built around resolving a specific conflict."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What did Harry Harlow's monkey studies demonstrate about attachment?", "options": ["Attachment is based only on food", "Comfort and emotional security are key to bonding", "Monkeys don't form attachments", "Attachment only forms after age 2"], "correct": 1, "explanation": "Harlow's studies showed infant monkeys preferred a soft \"cloth mother\" for comfort over a food-providing \"wire mother,\" proving comfort matters more than nourishment alone."},
+        {"q": "Approximately how many items can short-term (working) memory hold?", "options": ["1-2 items", "5-9 items", "20-30 items", "Unlimited items"], "correct": 1, "explanation": "Short-term memory has a limited capacity of about 5 to 9 items."},
+        {"q": "Which researcher developed the \"Stranger Situation\" experiment to study attachment styles?", "options": ["Sigmund Freud", "John Bowlby", "Mary Ainsworth", "Erik Erikson"], "correct": 2, "explanation": "Mary Ainsworth developed the Stranger Situation study, which identified different attachment styles in young children."},
+        {"q": "Which type of memory tends to keep growing even as episodic memory fades with age?", "options": ["Sensory memory", "Semantic memory", "Procedural memory only", "Working memory"], "correct": 1, "explanation": "Semantic memory (general facts and knowledge) often continues to grow with age, even as episodic memory (specific personal events) may fade."},
+        {"q": "At approximately what age does selective attention begin developing in infants?", "options": ["Birth", "4-6 months", "2 years", "5 years"], "correct": 1, "explanation": "Selective attention — focusing on one thing while ignoring distractions — starts developing around 4-6 months of age."}
+      ]
+    }
+  },
+  "Contextual Influences": {
+    "guide": {
+      "explanation": "Family, home, and society shape development just as much as biology does. Diana Baumrind's four parenting styles — authoritarian, permissive, authoritative, and uninvolved — show how different balances of warmth and discipline lead to different outcomes, with authoritative parenting generally linked to the most positive results. Birth order, sibling relationships, and even grandparenting style (as studied by Bernice Neugarten) add further layers, while dysfunctional patterns like scapegoating or enmeshment can cause lasting harm. These contextual forces continue well beyond childhood, shaping life transitions, school and work experiences, and eventually how people face death and dying.",
+      "keyTerms": [
+        {"term": "Authoritative parenting", "def": "High warmth combined with clear expectations; generally linked to the best developmental outcomes."},
+        {"term": "Authoritarian parenting", "def": "Strict rules and high expectations with little warmth; can produce obedience but weaker independence."},
+        {"term": "Birth order theory", "def": "Alfred Adler's idea that birth position (only, first, middle, youngest child) shapes personality tendencies."},
+        {"term": "Latchkey children", "def": "Children who return home alone after school due to working parents."},
+        {"term": "Scapegoating", "def": "A dysfunctional family pattern where one child is unfairly blamed or mistreated."},
+        {"term": "Enmeshment", "def": "Blurred boundaries between parent and child that limit the child's independence."}
+      ],
+      "examples": [
+        "A permissive parenting style (high warmth, low discipline) is linked to children who may struggle with self-control, while an uninvolved style (low warmth, low guidance) is linked to struggles with emotional regulation and academics.",
+        "Bernice Neugarten's three grandparenting styles — remote, involved, and companionate — show how the same family role can look completely different depending on level of involvement."
+      ],
+      "steps": [
+        "Authoritarian: strict rules, low warmth, high expectations — children tend to be obedient but less independent.",
+        "Permissive: high warmth, low discipline — children may lack self-control.",
+        "Authoritative: high warmth plus clear limits — linked to independence and the best overall outcomes.",
+        "Uninvolved: low warmth, low guidance — linked to struggles with emotional regulation and academic success."
+      ],
+      "remember": [
+        "Baumrind's four parenting styles: authoritarian, permissive, authoritative, uninvolved — authoritative is generally the healthiest.",
+        "No single parenting style is universally \"correct\" — culture and individual child needs matter too.",
+        "Alfred Adler linked birth order (only, first, middle, youngest) to general personality tendencies.",
+        "Dysfunctional patterns like scapegoating and enmeshment can cause lasting psychological effects on children."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "Which parenting style combines high warmth with clear limits and is generally linked to the most positive outcomes?", "options": ["Authoritarian", "Permissive", "Authoritative", "Uninvolved"], "correct": 2, "explanation": "Authoritative parenting combines warmth with clear expectations and is generally linked to independent, well-adjusted children."},
+        {"q": "Who proposed birth order theory, linking birth position to personality traits?", "options": ["Diana Baumrind", "Alfred Adler", "Bernice Neugarten", "Erik Erikson"], "correct": 1, "explanation": "Alfred Adler studied how birth order (only, first, middle, youngest child) influences personality development."},
+        {"q": "What term describes children who return home alone after school due to working parents?", "options": ["Scapegoat children", "Latchkey children", "Enmeshed children", "Companionate children"], "correct": 1, "explanation": "\"Latchkey children\" is the term for kids who return home alone after school, a phrase dating back to a 1944 documentary."},
+        {"q": "Which parenting style is characterized by low warmth and low involvement?", "options": ["Authoritative", "Permissive", "Uninvolved", "Authoritarian"], "correct": 2, "explanation": "The uninvolved parenting style features low warmth and minimal guidance, often leading to struggles with emotional regulation."},
+        {"q": "What is \"scapegoating\" in a family context?", "options": ["A grandparenting style", "A form of secure attachment", "Unfairly blaming or mistreating one child", "A healthy form of discipline"], "correct": 2, "explanation": "Scapegoating is a dysfunctional family pattern where one child is unfairly blamed or mistreated, harming their self-esteem."}
+      ]
+    }
+  },
+  "Individual Differences": {
+    "guide": {
+      "explanation": "This chapter looks at what makes each person psychologically unique, starting with major personality theories. Freud divided the mind into the id, ego, and superego, arguing unconscious childhood conflicts shape adult behavior, while Erikson reframed development around eight social conflicts spanning the entire lifespan, from trust vs. mistrust in infancy to integrity vs. despair in old age. The chapter also covers emotional intelligence, ageism, and how mental health conditions are diagnosed and classified — connecting personality theory to real clinical practice.",
+      "keyTerms": [
+        {"term": "Id, ego, superego", "def": "Freud's three levels of the mind — instinctual drives, the reality-balancing mediator, and internalized morals/conscience."},
+        {"term": "Psychosocial development", "def": "Erikson's theory that personality develops through eight stages, each centered on resolving a specific social conflict."},
+        {"term": "Defense mechanism", "def": "An unconscious strategy (like repression) the ego uses to manage anxiety."},
+        {"term": "Emotional intelligence", "def": "The ability to understand and manage one's own emotions and recognize others'."},
+        {"term": "Ageism", "def": "Discrimination or stereotyping based on a person's age."}
+      ],
+      "examples": [
+        "Erikson's \"identity vs. role confusion\" stage (ages 12-18) captures the classic adolescent struggle to figure out who they are — resolving it successfully builds fidelity to a chosen identity.",
+        "Freud's concept of repression — blocking unacceptable thoughts from conscious awareness — is a defense mechanism the ego uses to manage internal conflict."
+      ],
+      "steps": [
+        "Infancy (birth-1): Trust vs. Mistrust.",
+        "Early childhood (2-3): Autonomy vs. Shame and Doubt. Ages 4-5: Initiative vs. Guilt.",
+        "Middle childhood (6-11): Industry vs. Inferiority. Adolescence (12-18): Identity vs. Role Confusion.",
+        "Young adulthood: Intimacy vs. Isolation. Middle adulthood: Generativity vs. Stagnation.",
+        "Late adulthood: Integrity vs. Despair."
+      ],
+      "remember": [
+        "Freud's three levels of mind: id (instinct), ego (reality-balancing), superego (conscience) — the ego develops around age 3, superego around age 5.",
+        "Erikson proposed eight psychosocial stages, each centered on a specific conflict, spanning birth to late adulthood.",
+        "Repression is a classic ego defense mechanism — blocking unacceptable thoughts from conscious awareness.",
+        "Ageism is discrimination or stereotyping specifically based on age."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "According to Freud, which part of the mind operates on the \"pleasure principle,\" seeking immediate gratification?", "options": ["The ego", "The superego", "The id", "The conscience"], "correct": 2, "explanation": "The id is the most basic part of personality, driven by instinct and seeking immediate pleasure."},
+        {"q": "In Erikson's theory, which stage centers on the conflict \"Identity vs. Role Confusion\"?", "options": ["Infancy", "Adolescence", "Young adulthood", "Late adulthood"], "correct": 1, "explanation": "Adolescence (ages 12-18) centers on Identity vs. Role Confusion, as teens explore roles and establish a sense of self."},
+        {"q": "At approximately what age does the superego, representing moral values, begin to form according to Freud?", "options": ["Birth", "Age 3", "Age 5", "Age 12"], "correct": 2, "explanation": "Freud proposed that the superego forms around age 5, developing through childhood interactions with parents and caregivers."},
+        {"q": "What is a \"defense mechanism\" in Freudian theory?", "options": ["A conscious decision-making process", "An unconscious strategy the ego uses to manage anxiety", "A stage of psychosocial development", "A type of memory"], "correct": 1, "explanation": "Defense mechanisms, like repression, are unconscious strategies the ego uses to manage anxiety from internal conflicts."},
+        {"q": "What is ageism?", "options": ["A stage of Erikson's theory", "A defense mechanism", "Discrimination or stereotyping based on age", "A type of parenting style"], "correct": 2, "explanation": "Ageism refers to discrimination or stereotyping against individuals based on their age."}
+      ]
+    }
+  }
+}

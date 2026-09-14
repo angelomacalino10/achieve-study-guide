@@ -1,0 +1,296 @@
+{
+  "Operations with Real Numbers": {
+    "guide": {
+      "explanation": "This chapter covers the building blocks of arithmetic: the basic operations, key properties of real numbers (commutative, associative, distributive), and how factors and multiples relate to a number. It also covers signed number rules for adding, subtracting, multiplying, and dividing integers, and finishes with the order of operations — the agreed-upon sequence that ensures everyone gets the same answer to the same expression.",
+      "keyTerms": [
+        {"term": "Commutative property", "def": "Changing the order of addition or multiplication doesn't change the result (a+b = b+a)."},
+        {"term": "Associative property", "def": "Changing the grouping of addition or multiplication doesn't change the result."},
+        {"term": "Distributive property", "def": "a(b+c) = ab + ac."},
+        {"term": "Factor", "def": "A number that divides evenly into another number."},
+        {"term": "Multiple", "def": "The product of a number and any integer."},
+        {"term": "Order of operations (PEMDAS)", "def": "Parentheses, Exponents, Multiplication/Division, Addition/Subtraction, performed left to right."}
+      ],
+      "examples": [
+        "Commutative property: 3 + 5 = 5 + 3.",
+        "Multiplying two negative integers gives a positive result: (-4) x (-3) = 12."
+      ],
+      "steps": [
+        "Solve anything inside Parentheses first.",
+        "Simplify Exponents.",
+        "Perform Multiplication and Division, left to right.",
+        "Perform Addition and Subtraction, left to right."
+      ],
+      "remember": [
+        "PEMDAS: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction.",
+        "Multiplying or dividing two negatives gives a positive; a positive and a negative gives a negative.",
+        "Factors divide evenly into a number; multiples are the results of multiplying that number.",
+        "The distributive property lets you multiply a sum by \"distributing\" the multiplication to each term inside."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the correct order of operations under PEMDAS?", "options": ["Addition, Multiplication, Parentheses, Exponents", "Parentheses, Exponents, Multiplication/Division, Addition/Subtraction", "Exponents, Parentheses, Addition, Multiplication", "Multiplication, Addition, Parentheses, Exponents"], "correct": 1, "explanation": "PEMDAS stands for Parentheses, Exponents, Multiplication/Division, Addition/Subtraction, in that order."},
+        {"q": "What is the result of multiplying two negative integers?", "options": ["A negative number", "A positive number", "Zero", "It depends on the numbers"], "correct": 1, "explanation": "Multiplying two negative integers always results in a positive number."},
+        {"q": "Which property states that a(b+c) = ab + ac?", "options": ["Commutative property", "Associative property", "Distributive property", "Identity property"], "correct": 2, "explanation": "The distributive property states that a(b+c) equals ab + ac."},
+        {"q": "What is a \"factor\" of a number?", "options": ["The result of multiplying a number by any integer", "A number that divides evenly into another number", "Any even number", "The square root of a number"], "correct": 1, "explanation": "A factor is a number that divides evenly into another number, with no remainder."},
+        {"q": "Which property is demonstrated by 3 + 5 = 5 + 3?", "options": ["Associative property", "Distributive property", "Commutative property", "Identity property"], "correct": 2, "explanation": "The commutative property states that changing the order of addition doesn't change the result."}
+      ]
+    }
+  },
+  "Fractions, Decimals, and Percentages": {
+    "guide": {
+      "explanation": "Fractions, decimals, and percentages are three different ways of representing the same underlying value, and this chapter focuses on converting fluently between them. Multiplying fractions is straightforward, but dividing fractions requires flipping the second fraction and multiplying, while adding or subtracting fractions requires a common denominator first. Percentages are just another way to express decimals and fractions out of 100, which is why \"decimal to percent\" is as simple as moving the decimal point two places.",
+      "keyTerms": [
+        {"term": "Equivalent fractions", "def": "Different fractions that represent the same value (e.g., 1/2 = 2/4)."},
+        {"term": "Common denominator", "def": "A shared denominator needed to add or subtract fractions."},
+        {"term": "Reciprocal", "def": "A fraction flipped upside down; used when dividing fractions."},
+        {"term": "Percent", "def": "A value expressed as a portion of 100."}
+      ],
+      "examples": [
+        "Dividing fractions: 1/2 divided by 1/4 = 1/2 x 4/1 = 2 (flip the second fraction, then multiply).",
+        "Converting 0.75 to a percent: move the decimal two places right = 75%."
+      ],
+      "steps": [
+        "Fraction to decimal: divide the numerator by the denominator.",
+        "Decimal to percent: move the decimal point two places to the right and add a % sign.",
+        "Percent to decimal: move the decimal point two places to the left and remove the % sign.",
+        "Percent to fraction: write the percent over 100, then simplify."
+      ],
+      "remember": [
+        "To divide fractions, flip the second one (its reciprocal) and multiply.",
+        "Adding or subtracting fractions requires a common denominator first.",
+        "Decimal to percent: move the decimal two places right. Percent to decimal: move it two places left.",
+        "Fractions, decimals, and percentages are just three different formats for the same value."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "How do you divide one fraction by another?", "options": ["Multiply them directly", "Flip the second fraction and multiply", "Add their numerators", "Find a common denominator and divide"], "correct": 1, "explanation": "Dividing fractions requires flipping the second fraction, then multiplying."},
+        {"q": "What must you find before adding or subtracting two fractions with different denominators?", "options": ["Their reciprocals", "A common denominator", "Their percentages", "Their squares"], "correct": 1, "explanation": "Fractions need a common denominator before they can be added or subtracted."},
+        {"q": "How do you convert 0.75 to a percentage?", "options": ["Divide by 100", "Move the decimal point two places right: 75%", "Move the decimal point two places left: 0.0075%", "Multiply by 10: 7.5%"], "correct": 1, "explanation": "Converting a decimal to a percent means moving the decimal point two places to the right."},
+        {"q": "What is the reciprocal of 3/4?", "options": ["4/3", "3/4", "-3/4", "0.75"], "correct": 0, "explanation": "The reciprocal of a fraction is found by flipping the numerator and denominator."},
+        {"q": "What does \"equivalent fractions\" mean?", "options": ["Fractions that add up to 1", "Different fractions representing the same value", "Fractions with the same numerator", "Fractions that cannot be simplified"], "correct": 1, "explanation": "Equivalent fractions are different fractions that represent the exact same value, like 1/2 and 2/4."}
+      ]
+    }
+  },
+  "Beginning Algebra": {
+    "guide": {
+      "explanation": "This chapter introduces the algebra toolkit: exponent rules, square and cube roots, and how to simplify expressions by combining like terms before solving equations. Solving linear equations often means getting variables onto one side (even when they start on both sides of the equal sign), and this chapter also covers ratios, proportions (solved by cross multiplication), and percent change.",
+      "keyTerms": [
+        {"term": "Exponent", "def": "Indicates how many times a base number is multiplied by itself."},
+        {"term": "Radical (square/cube root)", "def": "The inverse of squaring or cubing a number."},
+        {"term": "Like terms", "def": "Terms with the same variable raised to the same power, which can be combined by adding/subtracting their coefficients."},
+        {"term": "Cross multiplication", "def": "A method for solving proportions by multiplying diagonally across the equal sign."},
+        {"term": "Percent change", "def": "The amount a value has increased or decreased, expressed as a percentage of the original value."}
+      ],
+      "examples": [
+        "Combining like terms: 3x + 5x = 8x.",
+        "Solving a proportion by cross multiplication: if 2/3 = x/9, then 2 x 9 = 3 x x, so x = 6."
+      ],
+      "steps": [
+        "Combine like terms on each side of the equation separately.",
+        "Move all variable terms to one side by adding/subtracting them from both sides.",
+        "Move all constant terms to the other side.",
+        "Divide both sides by the coefficient of the variable to isolate it."
+      ],
+      "remember": [
+        "Only like terms (same variable, same exponent) can be combined.",
+        "Cross multiplication solves proportions: if a/b = c/d, then a x d = b x c.",
+        "Percent change = (change in value divided by original value) x 100.",
+        "A square root asks \"what number times itself gives this result\"; a cube root does the same three times."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What are \"like terms\"?", "options": ["Any two numbers", "Terms with the same variable raised to the same power", "Terms that are both negative", "Terms with different exponents"], "correct": 1, "explanation": "Like terms share the same variable raised to the same power, allowing their coefficients to be combined."},
+        {"q": "How do you solve the proportion 2/3 = x/9 using cross multiplication?", "options": ["2 x 3 = 9 x x", "2 x 9 = 3 x x", "x = 2 + 9", "x = 3 - 2"], "correct": 1, "explanation": "Cross multiplication multiplies diagonally: 2 x 9 = 3 x x, giving x = 6."},
+        {"q": "What is the result of combining 3x + 5x?", "options": ["8x", "15x", "8x^2", "2x"], "correct": 0, "explanation": "Since both terms share the variable x to the same power, their coefficients add: 3x + 5x = 8x."},
+        {"q": "What does a square root ask?", "options": ["What number added to itself gives this result", "What number times itself gives this result", "What number divided by itself gives this result", "What number minus itself gives this result"], "correct": 1, "explanation": "A square root asks what number, multiplied by itself, produces the given result."},
+        {"q": "How is percent change calculated?", "options": ["Original value divided by new value", "(Change in value divided by original value) x 100", "New value minus original value only", "Original value x 100"], "correct": 1, "explanation": "Percent change is calculated as the change in value divided by the original value, multiplied by 100."}
+      ]
+    }
+  },
+  "Intermediate Algebra": {
+    "guide": {
+      "explanation": "This chapter moves from solving equations to visualizing them — graphing linear and quadratic functions using either a table of values or slope-intercept form, and identifying x- and y-intercepts. It also formalizes the concept of a function, how to evaluate a function at a given input, and how to multiply two binomials together.",
+      "keyTerms": [
+        {"term": "x-intercept", "def": "The point where a graph crosses the x-axis (where y = 0)."},
+        {"term": "y-intercept", "def": "The point where a graph crosses the y-axis (where x = 0)."},
+        {"term": "Slope-intercept form", "def": "y = mx + b, where m is the slope and b is the y-intercept."},
+        {"term": "Function", "def": "A rule that assigns exactly one output to each input."},
+        {"term": "Binomial", "def": "An expression with exactly two terms, like (x + 3)."}
+      ],
+      "examples": [
+        "In y = 2x + 5, the slope is 2 and the y-intercept is 5.",
+        "Multiplying binomials (x+2)(x+3) using FOIL gives x^2 + 5x + 6."
+      ],
+      "steps": [
+        "Identify m (slope) and b (y-intercept) from the equation y = mx + b.",
+        "Plot the y-intercept (0, b) as the starting point.",
+        "Use the slope to find a second point (rise over run from the y-intercept).",
+        "Draw a straight line through both points."
+      ],
+      "remember": [
+        "Slope-intercept form is y = mx + b, where m is slope and b is the y-intercept.",
+        "The x-intercept occurs where y = 0; the y-intercept occurs where x = 0.",
+        "A function assigns exactly one output to every input — never two.",
+        "FOIL (First, Outer, Inner, Last) is a common method for multiplying two binomials."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "In the equation y = 2x + 5, what is the y-intercept?", "options": ["2", "5", "0", "-5"], "correct": 1, "explanation": "In slope-intercept form y = mx + b, the y-intercept is b, which is 5."},
+        {"q": "Where does the x-intercept of a graph occur?", "options": ["Where x = 0", "Where y = 0", "Where x equals y", "At the origin only"], "correct": 1, "explanation": "The x-intercept is the point where the graph crosses the x-axis, which occurs where y = 0."},
+        {"q": "What defines a function?", "options": ["A rule that can assign multiple outputs to one input", "A rule that assigns exactly one output to each input", "Any equation with an x and y", "A graph that is always a straight line"], "correct": 1, "explanation": "A function assigns exactly one output to each input — never more than one."},
+        {"q": "What does the \"m\" represent in slope-intercept form (y = mx + b)?", "options": ["The y-intercept", "The slope", "The x-intercept", "A constant term"], "correct": 1, "explanation": "In y = mx + b, \"m\" represents the slope of the line."},
+        {"q": "What method is commonly used to multiply two binomials?", "options": ["PEMDAS", "FOIL", "Cross multiplication", "The Pythagorean Theorem"], "correct": 1, "explanation": "FOIL (First, Outer, Inner, Last) is a common method for multiplying two binomials."}
+      ]
+    }
+  },
+  "Geometry": {
+    "guide": {
+      "explanation": "This chapter applies algebra to geometric shapes — starting with triangle properties and the Pythagorean Theorem, which relates the sides of any right triangle. From there it covers calculating perimeter and area for various shapes, including quadrilaterals and circles, plus the concept of similar figures — shapes with the same proportions but different sizes.",
+      "keyTerms": [
+        {"term": "Pythagorean Theorem", "def": "a^2 + b^2 = c^2, relating the two legs (a, b) and hypotenuse (c) of a right triangle."},
+        {"term": "Perimeter", "def": "The total distance around the outside of a shape."},
+        {"term": "Area", "def": "The amount of space inside a two-dimensional shape."},
+        {"term": "Similar figures", "def": "Shapes with the same proportions (angles equal, sides proportional) but different sizes."},
+        {"term": "Circumference", "def": "The perimeter (distance around) a circle."}
+      ],
+      "examples": [
+        "A right triangle with legs 3 and 4 has a hypotenuse of 5, since 3^2 + 4^2 = 9 + 16 = 25 = 5^2.",
+        "The area of a circle is found using A = pi r^2, while its circumference is C = 2 pi r."
+      ],
+      "steps": [
+        "Identify the two legs (a, b) and the hypotenuse (c) of the right triangle — the hypotenuse is always the longest side, opposite the right angle.",
+        "Apply the formula a^2 + b^2 = c^2.",
+        "Substitute the two known values and solve for the missing one.",
+        "Take the square root if solving for a side length directly."
+      ],
+      "remember": [
+        "Pythagorean Theorem: a^2 + b^2 = c^2, where c is always the hypotenuse (longest side).",
+        "Perimeter measures distance around a shape; area measures the space inside it.",
+        "Circle formulas: Circumference = 2 pi r; Area = pi r^2.",
+        "Similar figures have equal angles and proportional sides, but aren't necessarily the same size."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does the Pythagorean Theorem state?", "options": ["a + b = c", "a^2 + b^2 = c^2", "a x b = c", "a^2 - b^2 = c^2"], "correct": 1, "explanation": "The Pythagorean Theorem states that a^2 + b^2 = c^2, where c is the hypotenuse of a right triangle."},
+        {"q": "If a right triangle has legs of 3 and 4, what is the hypotenuse?", "options": ["5", "6", "7", "25"], "correct": 0, "explanation": "3^2 + 4^2 = 9 + 16 = 25, and the square root of 25 is 5."},
+        {"q": "What is the formula for the area of a circle?", "options": ["C = 2 pi r", "A = pi r^2", "A = 2 pi r", "C = pi r^2"], "correct": 1, "explanation": "The area of a circle is calculated using A = pi r^2."},
+        {"q": "What is \"perimeter\"?", "options": ["The space inside a shape", "The total distance around a shape", "The diagonal of a shape", "The height of a shape"], "correct": 1, "explanation": "Perimeter is the total distance around the outside of a shape."},
+        {"q": "What defines \"similar figures\"?", "options": ["Shapes that are identical in size", "Shapes with equal angles and proportional sides", "Shapes with the same perimeter only", "Shapes with the same area only"], "correct": 1, "explanation": "Similar figures have equal corresponding angles and proportional side lengths, though they may differ in size."}
+      ]
+    }
+  },
+  "Data Analysis": {
+    "guide": {
+      "explanation": "This chapter covers how to choose and read the right type of graph for a given data set: line graphs for showing change over time, pie charts for showing parts of a whole, bar graphs for comparing categories, histograms for showing frequency distributions of continuous data, and scatter plots for showing the relationship between two variables. A good graph is clearly labeled, uses an appropriate scale, and doesn't distort the data it represents.",
+      "keyTerms": [
+        {"term": "Line graph", "def": "Shows how a value changes over time using connected points."},
+        {"term": "Pie chart", "def": "Shows parts of a whole as slices of a circle, usually in percentages."},
+        {"term": "Bar graph", "def": "Compares quantities across different categories using rectangular bars."},
+        {"term": "Histogram", "def": "Shows the frequency distribution of continuous numerical data grouped into ranges."},
+        {"term": "Scatter plot", "def": "Shows the relationship (correlation) between two variables using individual plotted points."}
+      ],
+      "examples": [
+        "A line graph is ideal for showing a company's revenue over the past 12 months.",
+        "A scatter plot could show the relationship between hours studied and test scores."
+      ],
+      "steps": [
+        "Showing change over time? Use a line graph.",
+        "Showing parts of a whole? Use a pie chart.",
+        "Comparing distinct categories? Use a bar graph.",
+        "Showing the frequency distribution of continuous data? Use a histogram.",
+        "Showing the relationship between two variables? Use a scatter plot."
+      ],
+      "remember": [
+        "Line graphs show change over time; pie charts show parts of a whole.",
+        "Bar graphs compare categories; histograms show frequency of continuous data ranges.",
+        "Scatter plots reveal relationships (correlations) between two variables.",
+        "A good graph is clearly labeled and uses a scale that doesn't distort the data."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "Which type of graph is best for showing change over time?", "options": ["Pie chart", "Line graph", "Histogram", "Scatter plot"], "correct": 1, "explanation": "Line graphs are ideal for showing how a value changes over time using connected points."},
+        {"q": "Which graph type shows parts of a whole?", "options": ["Bar graph", "Pie chart", "Histogram", "Scatter plot"], "correct": 1, "explanation": "Pie charts show parts of a whole as slices of a circle, typically in percentages."},
+        {"q": "What does a scatter plot show?", "options": ["Change over time", "Parts of a whole", "The relationship between two variables", "Category comparisons"], "correct": 2, "explanation": "A scatter plot shows the relationship, or correlation, between two variables."},
+        {"q": "What is a histogram used for?", "options": ["Comparing distinct categories", "Showing the frequency distribution of continuous data", "Showing parts of a whole", "Tracking change over time"], "correct": 1, "explanation": "Histograms show the frequency distribution of continuous numerical data grouped into ranges."},
+        {"q": "What makes a graph \"good,\" according to this chapter?", "options": ["Using as many colors as possible", "Being clearly labeled with an appropriate, non-distorting scale", "Always being a bar graph", "Including no numbers"], "correct": 1, "explanation": "A good graph is clearly labeled and uses a scale that accurately represents the data without distortion."}
+      ]
+    }
+  },
+  "Statistics": {
+    "guide": {
+      "explanation": "This short chapter focuses on the three measures of central tendency: mean (the average), median (the middle value), and mode (the most frequent value). Each tells a different story about a data set's \"typical\" value, and choosing the right one — or looking at all three together — depends on what the data looks like, especially whether there are extreme outliers.",
+      "keyTerms": [
+        {"term": "Mean", "def": "The sum of all values divided by the number of values."},
+        {"term": "Median", "def": "The middle value when data is arranged in order."},
+        {"term": "Mode", "def": "The value that appears most often in a data set."}
+      ],
+      "examples": [
+        "For the data set 3, 3, 6, 9, 10: the mean is 6.2, the median is 6, and the mode is 3.",
+        "A data set can have no mode (all values unique), one mode, or multiple modes."
+      ],
+      "steps": [
+        "Mean: add all values, then divide by the total count of values.",
+        "Median: sort the values in order, then find the middle one (average the two middle values for an even count).",
+        "Mode: count how often each value appears and identify the most frequent one."
+      ],
+      "remember": [
+        "Mean is the average; median is the middle value; mode is the most frequent value.",
+        "A data set can have zero, one, or multiple modes.",
+        "The median is more resistant to outliers than the mean.",
+        "Sort the data first before finding the median."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the \"mean\" of a data set?", "options": ["The middle value", "The most frequent value", "The sum of all values divided by the count", "The largest value"], "correct": 2, "explanation": "The mean is calculated by summing all values and dividing by the number of values."},
+        {"q": "For the data set 3, 3, 6, 9, 10, what is the median?", "options": ["3", "6", "9", "6.2"], "correct": 1, "explanation": "Sorted, the data set is 3, 3, 6, 9, 10 — the middle value is 6."},
+        {"q": "Can a data set have more than one mode?", "options": ["No, only one mode is ever possible", "Yes, a data set can have multiple modes", "Only if all values are different", "Only in statistics, never in general math"], "correct": 1, "explanation": "A data set can have zero, one, or multiple modes, depending on how frequently values repeat."},
+        {"q": "Which measure of central tendency is most affected by extreme outliers?", "options": ["Median", "Mode", "Mean", "None of them"], "correct": 2, "explanation": "The mean is most affected by extreme outliers, since every value factors directly into the calculation."},
+        {"q": "What must you do before finding the median of a data set?", "options": ["Find the mean first", "Sort the values in order", "Multiply all the values", "Convert to percentages"], "correct": 1, "explanation": "The values must be sorted in order before the middle (median) value can be identified."}
+      ]
+    }
+  },
+  "Logic": {
+    "guide": {
+      "explanation": "This chapter formalizes reasoning using truth tables to determine when compound statements are true or false. A conjunction (\"and\") is true only when both parts are true; a disjunction (\"or\") is true if at least one part is true; a conditional (\"if...then\") is only false when the first part is true and the second is false; and a biconditional (\"if and only if\") is true only when both parts match. The chapter also covers counterexamples — a single case that disproves a general claim.",
+      "keyTerms": [
+        {"term": "Conjunction (and)", "def": "True only when both parts of the statement are true."},
+        {"term": "Disjunction (or)", "def": "True when at least one part of the statement is true."},
+        {"term": "Conditional (if...then)", "def": "False only when the first part is true and the second part is false."},
+        {"term": "Biconditional (if and only if)", "def": "True only when both parts share the same truth value."},
+        {"term": "Counterexample", "def": "A single case that disproves a general claim."}
+      ],
+      "examples": [
+        "The conditional \"If it is a dog, then it is an animal\" is always true, since a dog can't fail to be an animal.",
+        "A counterexample to \"all birds can fly\" would be a penguin, since penguins are birds that cannot fly."
+      ],
+      "steps": [
+        "Identify the \"if\" part (the hypothesis) and the \"then\" part (the conclusion).",
+        "Check whether the hypothesis is true or false.",
+        "If the hypothesis is true and the conclusion is false, the conditional is false.",
+        "In every other combination, the conditional is true."
+      ],
+      "remember": [
+        "Conjunction (\"and\") needs both parts true; disjunction (\"or\") needs only one part true.",
+        "A conditional is false only in the one case where the hypothesis is true but the conclusion is false.",
+        "A biconditional (\"if and only if\") is true only when both parts match (both true or both false).",
+        "A single counterexample is enough to disprove a general claim."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "When is a conditional statement (\"if P then Q\") false?", "options": ["When both P and Q are true", "Only when P is true and Q is false", "When both P and Q are false", "Whenever P is false"], "correct": 1, "explanation": "A conditional statement is false only when the hypothesis (P) is true but the conclusion (Q) is false."},
+        {"q": "What is a counterexample?", "options": ["A proof that a claim is always true", "A single case that disproves a general claim", "A type of truth table", "A biconditional statement"], "correct": 1, "explanation": "A counterexample is a single case that shows a general claim is not always true."},
+        {"q": "When is a biconditional statement (\"P if and only if Q\") true?", "options": ["Only when P is true", "Only when Q is true", "When both P and Q share the same truth value", "Whenever P or Q is true"], "correct": 2, "explanation": "A biconditional is true only when both parts have the same truth value."},
+        {"q": "What is a valid counterexample to the claim \"all birds can fly\"?", "options": ["An eagle", "A penguin", "A sparrow", "A hawk"], "correct": 1, "explanation": "A penguin is a bird that cannot fly, making it a valid counterexample."},
+        {"q": "When is a disjunction (\"P or Q\") false?", "options": ["When either P or Q is true", "Only when both P and Q are false", "When both P and Q are true", "Never"], "correct": 1, "explanation": "A disjunction is false only when both parts of the statement are false."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,1328 @@
+{
+  "Introduction to The Art of the Western World": {
+    "guide": {
+      "explanation": "Studying art history reveals how visual art reflects and shapes the values, beliefs, and events of the culture that produced it, with each era's art connected to its social, religious, and political context. Art historians use formal analysis (examining visual elements like line, color, and composition) alongside historical and cultural context to interpret a work's meaning and significance.",
+      "keyTerms": [
+        {
+          "term": "Art history",
+          "def": "The academic study of art's development over time, in relation to the cultures that produced it."
+        },
+        {
+          "term": "Formal analysis",
+          "def": "Examining a work's visual elements — line, color, composition, form — to understand how it achieves its effect."
+        },
+        {
+          "term": "Context",
+          "def": "The historical, cultural, religious, and political circumstances surrounding a work's creation."
+        },
+        {
+          "term": "Patron",
+          "def": "An individual or institution (like the Church or a wealthy family) who commissions and funds a work of art."
+        },
+        {
+          "term": "Iconography",
+          "def": "The study of symbolic images and their meanings within a work of art."
+        }
+      ],
+      "examples": [
+        "A Renaissance painting's iconography, like a lily symbolizing purity, only makes full sense within its religious and cultural context.",
+        "Wealthy patrons, like the Medici family, funded much of the art produced during the Italian Renaissance."
+      ],
+      "steps": [
+        "Examine the work's formal elements: line, color, composition, and form.",
+        "Research the historical and cultural context in which the work was created.",
+        "Identify the patron and consider how their interests may have shaped the work.",
+        "Interpret any iconography or symbolism present in the piece."
+      ],
+      "remember": [
+        "Art reflects and shapes the values, beliefs, and events of the culture that produced it.",
+        "Formal analysis examines visual elements like line, color, and composition.",
+        "A patron is an individual or institution funding a work's creation.",
+        "Iconography is the study of symbolic images and their meanings in art."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What is \"formal analysis\" in art history?",
+          "options": [
+            "Studying only the artist's biography",
+            "Examining a work's visual elements like line, color, and composition",
+            "Only studying the patron",
+            "A type of iconography"
+          ],
+          "correct": 1,
+          "explanation": "Formal analysis examines a work's visual elements."
+        },
+        {
+          "q": "What is a \"patron\" in the context of art history?",
+          "options": [
+            "An art critic",
+            "An individual or institution who commissions and funds a work of art",
+            "A type of iconography",
+            "A museum curator only"
+          ],
+          "correct": 1,
+          "explanation": "A patron commissions and funds a work of art."
+        },
+        {
+          "q": "What is \"iconography\"?",
+          "options": [
+            "A type of paint",
+            "The study of symbolic images and their meanings within a work of art",
+            "A formal analysis technique only",
+            "A type of patron"
+          ],
+          "correct": 1,
+          "explanation": "Iconography studies symbolic images and their meanings."
+        },
+        {
+          "q": "Why is historical \"context\" important when studying art?",
+          "options": [
+            "It isn't important",
+            "It helps explain the circumstances surrounding a work's creation and meaning",
+            "Only the artist's biography matters",
+            "Context only matters for modern art"
+          ],
+          "correct": 1,
+          "explanation": "Context helps explain the circumstances and meaning of a work."
+        },
+        {
+          "q": "Which family is a famous example of art patrons during the Italian Renaissance?",
+          "options": [
+            "The Tudors",
+            "The Medici family",
+            "The Habsburgs",
+            "The Romanovs"
+          ],
+          "correct": 1,
+          "explanation": "The Medici family were famous art patrons of the Italian Renaissance."
+        }
+      ]
+    }
+  },
+  "Overview of the Arts": {
+    "guide": {
+      "explanation": "Art is analyzed through its formal elements — line, shape, color, texture, space, and form — and organized through principles of design like balance, contrast, and unity. Different artistic media (painting, sculpture, architecture) each have unique properties that shape how an artist can use these elements to create meaning and visual effect.",
+      "keyTerms": [
+        {
+          "term": "Elements of art",
+          "def": "The basic visual components of a work: line, shape, color, texture, space, and form."
+        },
+        {
+          "term": "Principles of design",
+          "def": "How elements of art are organized within a work, including balance, contrast, and unity."
+        },
+        {
+          "term": "Medium",
+          "def": "The physical material or technique used to create a work of art, such as oil paint, marble, or bronze."
+        },
+        {
+          "term": "Composition",
+          "def": "The overall arrangement of visual elements within a work of art."
+        },
+        {
+          "term": "Perspective",
+          "def": "A technique for creating the illusion of depth and three-dimensional space on a flat surface."
+        }
+      ],
+      "examples": [
+        "A painting using warm colors (reds, oranges) in the foreground and cool colors (blues) in the background can create a sense of depth.",
+        "Linear perspective, developed during the Renaissance, uses converging lines to create a convincing illusion of three-dimensional space."
+      ],
+      "steps": [
+        "Identify the basic elements present in a work: line, shape, color, texture, space, form.",
+        "Analyze how these elements are organized according to design principles like balance and contrast.",
+        "Consider the medium used and how its properties shape the finished work.",
+        "Examine the composition to understand how the artist guides the viewer's eye."
+      ],
+      "remember": [
+        "The elements of art include line, shape, color, texture, space, and form.",
+        "Principles of design (balance, contrast, unity) describe how these elements are organized.",
+        "The medium (paint, marble, bronze) shapes what an artist can achieve.",
+        "Perspective techniques create the illusion of depth on a flat surface."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "Which of these is one of the \"elements of art\"?",
+          "options": [
+            "Balance",
+            "Color",
+            "Unity",
+            "Contrast"
+          ],
+          "correct": 1,
+          "explanation": "Color is one of the basic elements of art."
+        },
+        {
+          "q": "Which of these is a \"principle of design\"?",
+          "options": [
+            "Line",
+            "Balance",
+            "Texture",
+            "Form"
+          ],
+          "correct": 1,
+          "explanation": "Balance is a principle of design, describing how elements are organized."
+        },
+        {
+          "q": "What is a \"medium\" in art?",
+          "options": [
+            "A type of composition",
+            "The physical material or technique used to create a work of art",
+            "A principle of design",
+            "A type of perspective"
+          ],
+          "correct": 1,
+          "explanation": "A medium is the physical material used to create art."
+        },
+        {
+          "q": "What does \"perspective\" achieve in a work of art?",
+          "options": [
+            "Balance only",
+            "The illusion of depth and three-dimensional space on a flat surface",
+            "Texture only",
+            "Color harmony only"
+          ],
+          "correct": 1,
+          "explanation": "Perspective creates the illusion of depth on a flat surface."
+        },
+        {
+          "q": "What is \"composition\" in art?",
+          "options": [
+            "A type of medium",
+            "The overall arrangement of visual elements within a work",
+            "A color scheme only",
+            "A type of texture"
+          ],
+          "correct": 1,
+          "explanation": "Composition is the overall arrangement of visual elements."
+        }
+      ]
+    }
+  },
+  "Prehistoric Era (290,000–5,000 BCE)": {
+    "guide": {
+      "explanation": "Prehistoric art, created before written language, includes cave paintings depicting animals (like those at Lascaux, France), small carved figurines like the Venus of Willendorf (believed to relate to fertility), and megalithic structures like Stonehenge, likely serving ritual or astronomical purposes. These works, though ancient, demonstrate sophisticated symbolic thinking and technical skill.",
+      "keyTerms": [
+        {
+          "term": "Cave painting",
+          "def": "Early prehistoric artwork painted on cave walls, often depicting animals, found at sites like Lascaux, France."
+        },
+        {
+          "term": "Venus of Willendorf",
+          "def": "A small prehistoric carved figurine, believed to relate to fertility, dating back tens of thousands of years."
+        },
+        {
+          "term": "Megalith",
+          "def": "A large stone structure, like Stonehenge, likely built for ritual, ceremonial, or astronomical purposes."
+        },
+        {
+          "term": "Paleolithic era",
+          "def": "The earliest period of human prehistory, associated with cave paintings and early carved figurines."
+        },
+        {
+          "term": "Neolithic era",
+          "def": "The later prehistoric period associated with the development of agriculture and megalithic structures."
+        }
+      ],
+      "examples": [
+        "The Lascaux cave paintings in France depict animals like bison and horses with remarkable naturalism, using pigments made from natural materials.",
+        "Stonehenge, a megalithic structure in England, is believed to have served ritual and possibly astronomical purposes for Neolithic peoples."
+      ],
+      "steps": [
+        "Paleolithic peoples create cave paintings, depicting animals with symbolic or ritual significance.",
+        "Small carved figurines, like the Venus of Willendorf, are created, likely related to fertility.",
+        "As agriculture develops in the Neolithic era, larger, more permanent megalithic structures emerge.",
+        "These structures, like Stonehenge, likely served ritual, ceremonial, or astronomical functions."
+      ],
+      "remember": [
+        "Cave paintings, like those at Lascaux, depict animals with symbolic or ritual significance.",
+        "The Venus of Willendorf is a small prehistoric figurine believed to relate to fertility.",
+        "Megaliths like Stonehenge likely served ritual or astronomical purposes.",
+        "The Paleolithic era is associated with cave art; the Neolithic era with megalithic structures."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "Where are famous prehistoric cave paintings located?",
+          "options": [
+            "Egypt",
+            "Lascaux, France",
+            "Athens, Greece",
+            "Rome, Italy"
+          ],
+          "correct": 1,
+          "explanation": "The Lascaux cave paintings are located in France."
+        },
+        {
+          "q": "What is the \"Venus of Willendorf\"?",
+          "options": [
+            "A megalithic structure",
+            "A small prehistoric carved figurine believed to relate to fertility",
+            "A cave painting",
+            "A Neolithic tool"
+          ],
+          "correct": 1,
+          "explanation": "The Venus of Willendorf is a small prehistoric figurine related to fertility."
+        },
+        {
+          "q": "What is a \"megalith\"?",
+          "options": [
+            "A small carved figurine",
+            "A large stone structure, like Stonehenge",
+            "A type of cave painting",
+            "A prehistoric tool"
+          ],
+          "correct": 1,
+          "explanation": "A megalith is a large stone structure like Stonehenge."
+        },
+        {
+          "q": "What era is associated with the development of agriculture and megalithic structures?",
+          "options": [
+            "Paleolithic era",
+            "Neolithic era",
+            "Classical era",
+            "Renaissance era"
+          ],
+          "correct": 1,
+          "explanation": "The Neolithic era is associated with agriculture and megaliths."
+        },
+        {
+          "q": "What is Stonehenge believed to have served as?",
+          "options": [
+            "A marketplace",
+            "A ritual or astronomical structure",
+            "A cave dwelling",
+            "A painted tomb"
+          ],
+          "correct": 1,
+          "explanation": "Stonehenge likely served ritual or astronomical purposes."
+        }
+      ]
+    }
+  },
+  "The Ancient World (5000 BCE–500 CE)": {
+    "guide": {
+      "explanation": "Ancient Mesopotamian art, produced by civilizations like the Sumerians and Babylonians, includes monumental architecture like ziggurats and detailed relief carvings, often depicting rulers and religious scenes. Ancient Egyptian art followed strict conventions for thousands of years — figures shown in a composite pose (frontal torso, profile head and legs), hierarchical scale (importance shown through size), and monumental architecture like the pyramids, largely serving religious and funerary purposes tied to beliefs about the afterlife.",
+      "keyTerms": [
+        {
+          "term": "Ziggurat",
+          "def": "A massive stepped, pyramid-shaped temple structure built by ancient Mesopotamian civilizations."
+        },
+        {
+          "term": "Composite pose",
+          "def": "An Egyptian artistic convention showing the torso from the front, and the head and legs in profile."
+        },
+        {
+          "term": "Hierarchical scale",
+          "def": "An artistic convention where the size of a figure indicates its relative importance, common in Egyptian art."
+        },
+        {
+          "term": "Pyramid",
+          "def": "Monumental Egyptian funerary structures, built to house and protect the remains of pharaohs."
+        },
+        {
+          "term": "Relief carving",
+          "def": "A sculptural technique where figures are carved to project from a flat background."
+        }
+      ],
+      "examples": [
+        "Egyptian tomb paintings consistently used the composite pose and hierarchical scale, conventions that persisted for thousands of years.",
+        "The Great Pyramids of Giza exemplify monumental Egyptian architecture built for funerary and religious purposes."
+      ],
+      "steps": [
+        "Mesopotamian civilizations build monumental ziggurats for religious purposes.",
+        "Egyptian art develops strict conventions, including the composite pose and hierarchical scale.",
+        "Egyptian architecture produces monumental structures like the pyramids, serving funerary purposes.",
+        "These artistic conventions remain remarkably consistent across thousands of years of Egyptian art."
+      ],
+      "remember": [
+        "Ziggurats were massive stepped temple structures built by ancient Mesopotamian civilizations.",
+        "Egyptian art used the composite pose (frontal torso, profile head/legs) as a standard convention.",
+        "Hierarchical scale showed a figure's importance through its relative size.",
+        "Egyptian pyramids were monumental funerary structures tied to beliefs about the afterlife."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What is a \"ziggurat\"?",
+          "options": [
+            "An Egyptian pyramid",
+            "A massive stepped, pyramid-shaped temple structure built by Mesopotamian civilizations",
+            "A type of relief carving",
+            "A Greek temple"
+          ],
+          "correct": 1,
+          "explanation": "A ziggurat is a stepped temple structure built by Mesopotamian civilizations."
+        },
+        {
+          "q": "What is the \"composite pose\" in Egyptian art?",
+          "options": [
+            "Showing the entire body in profile",
+            "Showing the torso from the front, and the head and legs in profile",
+            "A type of hierarchical scale",
+            "A Mesopotamian convention"
+          ],
+          "correct": 1,
+          "explanation": "The composite pose combines frontal torso with profile head and legs."
+        },
+        {
+          "q": "What does \"hierarchical scale\" indicate in Egyptian art?",
+          "options": [
+            "The age of a figure",
+            "The relative importance of a figure through its size",
+            "The location of a scene",
+            "The material used"
+          ],
+          "correct": 1,
+          "explanation": "Hierarchical scale shows importance through relative size."
+        },
+        {
+          "q": "What was the primary purpose of Egyptian pyramids?",
+          "options": [
+            "Marketplaces",
+            "Funerary structures tied to beliefs about the afterlife",
+            "Government buildings",
+            "Military fortresses"
+          ],
+          "correct": 1,
+          "explanation": "Pyramids were funerary structures related to afterlife beliefs."
+        },
+        {
+          "q": "What is a \"relief carving\"?",
+          "options": [
+            "A painting technique",
+            "A sculptural technique where figures project from a flat background",
+            "A type of pyramid",
+            "A Mesopotamian ziggurat"
+          ],
+          "correct": 1,
+          "explanation": "Relief carving is a technique where figures project from a flat background."
+        }
+      ]
+    }
+  },
+  "The Classical Age": {
+    "guide": {
+      "explanation": "Ancient Greek art pursued an ideal of balance, proportion, and naturalistic beauty, evident in sculptures like the Discobolus and in the development of the classical architectural orders (Doric, Ionic, and Corinthian), each distinguished by their column style. Roman art, heavily influenced by Greek precedents, emphasized realistic portraiture, monumental civic architecture (like the Colosseum and aqueducts), and innovations in engineering like the arch and concrete.",
+      "keyTerms": [
+        {
+          "term": "Classical ideal",
+          "def": "The Greek pursuit of balance, proportion, and naturalistic beauty in art and sculpture."
+        },
+        {
+          "term": "Doric, Ionic, Corinthian orders",
+          "def": "The three classical architectural column styles, each with a distinct capital design."
+        },
+        {
+          "term": "Contrapposto",
+          "def": "A sculptural pose where the figure's weight rests on one leg, creating a naturalistic, relaxed stance."
+        },
+        {
+          "term": "Roman portraiture",
+          "def": "A Roman artistic tradition emphasizing realistic, individualized depictions of the subject, including imperfections."
+        },
+        {
+          "term": "The arch",
+          "def": "A key Roman architectural and engineering innovation, enabling larger, more open structures."
+        }
+      ],
+      "examples": [
+        "The Discobolus sculpture exemplifies the Greek classical ideal, capturing dynamic movement while maintaining idealized proportion and balance.",
+        "The Roman Colosseum demonstrates advanced Roman engineering, including extensive use of the arch and concrete."
+      ],
+      "steps": [
+        "Greek sculptors pursue an ideal of balance and naturalistic beauty, using techniques like contrapposto.",
+        "Greek architecture develops three distinct classical orders: Doric, Ionic, and Corinthian.",
+        "Roman art adapts Greek influences while emphasizing realistic portraiture.",
+        "Roman engineering innovations, like the arch and concrete, enable monumental civic architecture."
+      ],
+      "remember": [
+        "Greek art pursued balance, proportion, and naturalistic beauty (the classical ideal).",
+        "The three classical architectural orders are Doric, Ionic, and Corinthian.",
+        "Contrapposto is a sculptural pose with weight on one leg, creating a naturalistic stance.",
+        "Roman art emphasized realistic portraiture and engineering innovations like the arch."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did Greek classical art pursue as its ideal?",
+          "options": [
+            "Abstract distortion",
+            "Balance, proportion, and naturalistic beauty",
+            "Realistic imperfection",
+            "Religious symbolism only"
+          ],
+          "correct": 1,
+          "explanation": "Greek classical art pursued balance and naturalistic beauty."
+        },
+        {
+          "q": "What are the three classical architectural orders?",
+          "options": [
+            "Gothic, Baroque, Rococo",
+            "Doric, Ionic, Corinthian",
+            "Romanesque, Byzantine, Renaissance",
+            "Egyptian, Mesopotamian, Greek"
+          ],
+          "correct": 1,
+          "explanation": "The three classical orders are Doric, Ionic, and Corinthian."
+        },
+        {
+          "q": "What is \"contrapposto\"?",
+          "options": [
+            "A type of column",
+            "A sculptural pose with weight on one leg, creating a naturalistic stance",
+            "A Roman engineering technique",
+            "A type of relief carving"
+          ],
+          "correct": 1,
+          "explanation": "Contrapposto is a naturalistic sculptural pose with weight on one leg."
+        },
+        {
+          "q": "What did Roman portraiture emphasize?",
+          "options": [
+            "Idealized, flawless features only",
+            "Realistic, individualized depictions, including imperfections",
+            "Abstract distortion",
+            "Religious symbolism only"
+          ],
+          "correct": 1,
+          "explanation": "Roman portraiture emphasized realistic depictions, including imperfections."
+        },
+        {
+          "q": "What key architectural innovation enabled larger Roman structures?",
+          "options": [
+            "The column",
+            "The arch",
+            "The pyramid",
+            "The ziggurat"
+          ],
+          "correct": 1,
+          "explanation": "The arch was a key Roman architectural innovation."
+        }
+      ]
+    }
+  },
+  "Christianity, Rome and Byzantine Art (272–1453 CE)": {
+    "guide": {
+      "explanation": "Early Christian art, developing within the Roman Empire, adapted existing Roman artistic forms to new religious purposes, using symbols like the fish and shepherd to convey Christian meaning discreetly. Byzantine art, centered in Constantinople, developed a distinct style featuring flat, stylized figures, elaborate gold-ground mosaics, and icons — religious images believed to provide a spiritual connection to the sacred figure depicted.",
+      "keyTerms": [
+        {
+          "term": "Early Christian art",
+          "def": "Art produced by Christian communities within the Roman Empire, adapting Roman forms to religious purposes."
+        },
+        {
+          "term": "Byzantine art",
+          "def": "The distinct artistic style of the Byzantine Empire, centered in Constantinople, featuring flat, stylized figures and gold mosaics."
+        },
+        {
+          "term": "Icon",
+          "def": "A religious image, especially in Byzantine and Orthodox tradition, believed to provide a spiritual connection to the sacred figure depicted."
+        },
+        {
+          "term": "Mosaic",
+          "def": "An artistic technique using small pieces of colored glass or stone (tesserae) to create an image."
+        },
+        {
+          "term": "Hagia Sophia",
+          "def": "A monumental Byzantine church in Constantinople, famous for its massive dome and interior mosaics."
+        }
+      ],
+      "examples": [
+        "Early Christians used symbols like the fish (an acronym for \"Jesus Christ, Son of God, Savior\" in Greek) to discreetly signal their faith.",
+        "The Hagia Sophia's massive dome and gold-ground mosaics exemplify the grandeur of Byzantine religious architecture."
+      ],
+      "steps": [
+        "Early Christian communities adapt existing Roman artistic forms for religious purposes.",
+        "Discreet symbols, like the fish, convey Christian meaning during periods of persecution.",
+        "As Christianity spreads, Byzantine art develops a distinct style, centered in Constantinople.",
+        "This style features flat, stylized figures, gold-ground mosaics, and venerated icons."
+      ],
+      "remember": [
+        "Early Christian art adapted Roman forms, using discreet symbols like the fish.",
+        "Byzantine art, centered in Constantinople, featured flat, stylized figures and gold mosaics.",
+        "Icons are religious images believed to provide spiritual connection to the sacred figure depicted.",
+        "The Hagia Sophia is a famous Byzantine church known for its dome and mosaics."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did early Christians use symbols like the fish for?",
+          "options": [
+            "Decoration only",
+            "To discreetly convey Christian meaning, especially during persecution",
+            "To represent Roman gods",
+            "To mark trade routes"
+          ],
+          "correct": 1,
+          "explanation": "Symbols like the fish discreetly conveyed Christian meaning."
+        },
+        {
+          "q": "Where was Byzantine art primarily centered?",
+          "options": [
+            "Rome",
+            "Constantinople",
+            "Athens",
+            "Alexandria"
+          ],
+          "correct": 1,
+          "explanation": "Byzantine art was centered in Constantinople."
+        },
+        {
+          "q": "What is an \"icon\" in Byzantine art?",
+          "options": [
+            "A type of mosaic tool",
+            "A religious image believed to provide spiritual connection to the sacred figure depicted",
+            "A type of column",
+            "A Roman portrait"
+          ],
+          "correct": 1,
+          "explanation": "An icon is a religious image providing spiritual connection."
+        },
+        {
+          "q": "What is a \"mosaic\"?",
+          "options": [
+            "A type of sculpture",
+            "An artistic technique using small pieces of colored glass or stone to create an image",
+            "A type of painting only",
+            "A Roman architectural order"
+          ],
+          "correct": 1,
+          "explanation": "A mosaic uses small pieces of colored glass or stone."
+        },
+        {
+          "q": "What is the Hagia Sophia famous for?",
+          "options": [
+            "Its small size",
+            "Its massive dome and interior mosaics",
+            "Its Egyptian style",
+            "Its Gothic architecture"
+          ],
+          "correct": 1,
+          "explanation": "The Hagia Sophia is famous for its massive dome and mosaics."
+        }
+      ]
+    }
+  },
+  "The Middle Ages (500–1500 CE)": {
+    "guide": {
+      "explanation": "Medieval art developed through two major architectural styles: Romanesque (heavy, fortress-like stone churches with rounded arches and thick walls) followed by Gothic (soaring cathedrals with pointed arches, ribbed vaults, and flying buttresses, allowing taller structures and larger stained-glass windows). Illuminated manuscripts, richly decorated handwritten books, were another major medieval art form, often produced by monks in monasteries.",
+      "keyTerms": [
+        {
+          "term": "Romanesque architecture",
+          "def": "An early medieval architectural style featuring rounded arches, thick walls, and a heavy, fortress-like appearance."
+        },
+        {
+          "term": "Gothic architecture",
+          "def": "A later medieval architectural style featuring pointed arches, ribbed vaults, and flying buttresses, allowing taller structures."
+        },
+        {
+          "term": "Flying buttress",
+          "def": "An external structural support in Gothic architecture, allowing thinner walls and larger windows."
+        },
+        {
+          "term": "Illuminated manuscript",
+          "def": "A richly decorated handwritten book, often religious, produced primarily by monks during the Middle Ages."
+        },
+        {
+          "term": "Stained glass",
+          "def": "Colored glass windows, especially prominent in Gothic cathedrals, often depicting religious scenes."
+        }
+      ],
+      "examples": [
+        "Chartres Cathedral in France exemplifies Gothic architecture, with its pointed arches and famous stained-glass windows.",
+        "The Book of Kells is a famous example of an illuminated manuscript, richly decorated by medieval monks."
+      ],
+      "steps": [
+        "Romanesque architecture develops first, featuring rounded arches and thick, heavy walls.",
+        "Gothic architecture later emerges, introducing pointed arches and ribbed vaults.",
+        "Flying buttresses allow Gothic builders to construct taller structures with thinner walls.",
+        "This structural innovation permits larger stained-glass windows, filling cathedrals with colored light."
+      ],
+      "remember": [
+        "Romanesque architecture features rounded arches and thick, fortress-like walls.",
+        "Gothic architecture features pointed arches, ribbed vaults, and flying buttresses.",
+        "Flying buttresses allowed for taller structures and larger stained-glass windows.",
+        "Illuminated manuscripts were richly decorated handwritten books, often produced by monks."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What characterizes \"Romanesque\" architecture?",
+          "options": [
+            "Pointed arches and thin walls",
+            "Rounded arches, thick walls, and a fortress-like appearance",
+            "Flying buttresses",
+            "Stained glass only"
+          ],
+          "correct": 1,
+          "explanation": "Romanesque architecture features rounded arches and thick walls."
+        },
+        {
+          "q": "What characterizes \"Gothic\" architecture?",
+          "options": [
+            "Rounded arches only",
+            "Pointed arches, ribbed vaults, and flying buttresses",
+            "No windows at all",
+            "Flat roofs"
+          ],
+          "correct": 1,
+          "explanation": "Gothic architecture features pointed arches and flying buttresses."
+        },
+        {
+          "q": "What is a \"flying buttress\"?",
+          "options": [
+            "A type of stained glass",
+            "An external structural support allowing thinner walls and larger windows",
+            "A type of manuscript",
+            "A rounded arch"
+          ],
+          "correct": 1,
+          "explanation": "A flying buttress is an external support allowing thinner walls."
+        },
+        {
+          "q": "What is an \"illuminated manuscript\"?",
+          "options": [
+            "A stained-glass window",
+            "A richly decorated handwritten book, often produced by monks",
+            "A type of cathedral",
+            "A Romanesque arch"
+          ],
+          "correct": 1,
+          "explanation": "An illuminated manuscript is a richly decorated handwritten book."
+        },
+        {
+          "q": "What did flying buttresses enable in Gothic cathedrals?",
+          "options": [
+            "Smaller windows",
+            "Taller structures and larger stained-glass windows",
+            "Thicker walls",
+            "Rounded domes only"
+          ],
+          "correct": 1,
+          "explanation": "Flying buttresses enabled taller structures and larger windows."
+        }
+      ]
+    }
+  },
+  "The Renaissance, Art and Reformation": {
+    "guide": {
+      "explanation": "The Italian Renaissance (14th-16th centuries) revived classical ideals of proportion and naturalism, developing techniques like linear perspective to create convincing three-dimensional space, exemplified by masters like Leonardo da Vinci, Michelangelo, and Raphael. The Northern Renaissance, centered in Flanders and Germany, developed its own distinct style emphasizing minute realistic detail (as in the work of Jan van Eyck), while the Protestant Reformation significantly impacted religious art commissions and subject matter across Europe.",
+      "keyTerms": [
+        {
+          "term": "Linear perspective",
+          "def": "A technique developed during the Italian Renaissance using converging lines to create the illusion of three-dimensional depth."
+        },
+        {
+          "term": "Humanism",
+          "def": "A Renaissance intellectual movement emphasizing human potential, classical learning, and individual achievement."
+        },
+        {
+          "term": "Leonardo da Vinci",
+          "def": "A leading Italian Renaissance artist and polymath, known for works like the Mona Lisa and The Last Supper."
+        },
+        {
+          "term": "Northern Renaissance",
+          "def": "The Renaissance movement centered in Flanders and Germany, emphasizing minute realistic detail and oil painting technique."
+        },
+        {
+          "term": "Protestant Reformation",
+          "def": "A 16th-century religious movement that significantly impacted religious art commissions and subject matter across Europe."
+        }
+      ],
+      "examples": [
+        "Leonardo da Vinci's The Last Supper demonstrates masterful use of linear perspective to organize the composition.",
+        "Jan van Eyck's paintings, associated with the Northern Renaissance, are known for their extraordinary attention to minute realistic detail."
+      ],
+      "steps": [
+        "Italian Renaissance artists revive classical ideals of proportion and develop linear perspective.",
+        "Humanism shapes Renaissance art, emphasizing human potential and individual achievement.",
+        "The Northern Renaissance develops its own distinct emphasis on minute realistic detail.",
+        "The Protestant Reformation subsequently reshapes religious art commissions and subject matter."
+      ],
+      "remember": [
+        "Linear perspective, developed in the Italian Renaissance, creates the illusion of three-dimensional depth.",
+        "Humanism emphasized human potential, classical learning, and individual achievement.",
+        "The Northern Renaissance (Flanders, Germany) emphasized minute realistic detail.",
+        "The Protestant Reformation significantly impacted religious art commissions across Europe."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What is \"linear perspective\"?",
+          "options": [
+            "A painting color scheme",
+            "A technique using converging lines to create the illusion of three-dimensional depth",
+            "A type of religious symbolism",
+            "A Gothic architectural feature"
+          ],
+          "correct": 1,
+          "explanation": "Linear perspective creates the illusion of depth using converging lines."
+        },
+        {
+          "q": "What did Renaissance \"humanism\" emphasize?",
+          "options": [
+            "Only religious devotion",
+            "Human potential, classical learning, and individual achievement",
+            "Only Gothic architecture",
+            "Byzantine icon veneration"
+          ],
+          "correct": 1,
+          "explanation": "Humanism emphasized human potential and individual achievement."
+        },
+        {
+          "q": "Which artist is known for The Last Supper and the Mona Lisa?",
+          "options": [
+            "Michelangelo",
+            "Leonardo da Vinci",
+            "Raphael",
+            "Jan van Eyck"
+          ],
+          "correct": 1,
+          "explanation": "Leonardo da Vinci created The Last Supper and the Mona Lisa."
+        },
+        {
+          "q": "What did the Northern Renaissance particularly emphasize?",
+          "options": [
+            "Abstract distortion",
+            "Minute realistic detail",
+            "Byzantine gold mosaics",
+            "Egyptian hierarchical scale"
+          ],
+          "correct": 1,
+          "explanation": "The Northern Renaissance emphasized minute realistic detail."
+        },
+        {
+          "q": "How did the Protestant Reformation impact art?",
+          "options": [
+            "It had no impact",
+            "It significantly impacted religious art commissions and subject matter",
+            "It only affected architecture",
+            "It ended all religious art"
+          ],
+          "correct": 1,
+          "explanation": "The Reformation significantly impacted religious art commissions and subject matter."
+        }
+      ]
+    }
+  },
+  "The Baroque Period (1584–1723 CE)": {
+    "guide": {
+      "explanation": "Baroque art (17th-early 18th centuries) emphasized dramatic emotion, movement, and contrast, using techniques like tenebrism (dramatic contrasts of light and dark) exemplified by Caravaggio's intensely theatrical paintings. Gian Lorenzo Bernini's dynamic, emotionally charged sculptures and the grand, ornate architecture of the period reflected both the era's religious fervor (tied to the Catholic Counter-Reformation) and the era's absolute monarchies seeking to display power and grandeur.",
+      "keyTerms": [
+        {
+          "term": "Tenebrism",
+          "def": "A dramatic painting technique using strong contrasts between light and dark, closely associated with Caravaggio."
+        },
+        {
+          "term": "Caravaggio",
+          "def": "An influential Italian Baroque painter known for his intensely theatrical use of tenebrism."
+        },
+        {
+          "term": "Gian Lorenzo Bernini",
+          "def": "A leading Baroque sculptor and architect known for dynamic, emotionally charged works."
+        },
+        {
+          "term": "Counter-Reformation",
+          "def": "The Catholic Church's response to the Protestant Reformation, which influenced dramatic, emotionally engaging Baroque religious art."
+        },
+        {
+          "term": "Chiaroscuro",
+          "def": "A broader painting technique using contrasts of light and shadow to create the illusion of three-dimensional form."
+        }
+      ],
+      "examples": [
+        "Caravaggio's paintings use tenebrism to create intense, spotlight-like drama, drawing the viewer's attention to key figures.",
+        "Bernini's sculpture \"The Ecstasy of Saint Teresa\" exemplifies the Baroque's dynamic movement and intense emotional expression."
+      ],
+      "steps": [
+        "The Catholic Counter-Reformation encourages dramatic, emotionally engaging religious art.",
+        "Caravaggio pioneers tenebrism, using intense light and dark contrasts for dramatic effect.",
+        "Bernini creates dynamic, emotionally charged sculptures and architecture.",
+        "Absolute monarchies also commission grand, ornate Baroque art and architecture to display power."
+      ],
+      "remember": [
+        "Tenebrism uses dramatic contrasts of light and dark, closely associated with Caravaggio.",
+        "Bernini was a leading Baroque sculptor known for dynamic, emotionally charged works.",
+        "The Counter-Reformation influenced dramatic, emotionally engaging Baroque religious art.",
+        "Absolute monarchies used grand Baroque art and architecture to display power and grandeur."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What is \"tenebrism\"?",
+          "options": [
+            "A type of Gothic architecture",
+            "A dramatic painting technique using strong contrasts between light and dark",
+            "A Renaissance perspective technique",
+            "A type of illuminated manuscript"
+          ],
+          "correct": 1,
+          "explanation": "Tenebrism uses strong light-dark contrasts, associated with Caravaggio."
+        },
+        {
+          "q": "Which artist is closely associated with tenebrism?",
+          "options": [
+            "Leonardo da Vinci",
+            "Caravaggio",
+            "Michelangelo",
+            "Jan van Eyck"
+          ],
+          "correct": 1,
+          "explanation": "Caravaggio is closely associated with tenebrism."
+        },
+        {
+          "q": "Who was Gian Lorenzo Bernini?",
+          "options": [
+            "A Renaissance painter",
+            "A leading Baroque sculptor and architect known for dynamic works",
+            "A Gothic architect",
+            "A Byzantine mosaic artist"
+          ],
+          "correct": 1,
+          "explanation": "Bernini was a leading Baroque sculptor and architect."
+        },
+        {
+          "q": "What was the \"Counter-Reformation\"?",
+          "options": [
+            "A Protestant movement",
+            "The Catholic Church's response to the Protestant Reformation",
+            "A Renaissance art style",
+            "A Gothic architectural movement"
+          ],
+          "correct": 1,
+          "explanation": "The Counter-Reformation was the Catholic response to the Protestant Reformation."
+        },
+        {
+          "q": "Why did absolute monarchies commission grand Baroque art?",
+          "options": [
+            "To reduce their visibility",
+            "To display power and grandeur",
+            "To follow Gothic tradition",
+            "To avoid religious themes"
+          ],
+          "correct": 1,
+          "explanation": "Absolute monarchies used Baroque art to display power and grandeur."
+        }
+      ]
+    }
+  },
+  "The Rococo Style and Neoclassicism": {
+    "guide": {
+      "explanation": "Rococo art (early-mid 18th century) developed as a lighter, more playful and ornate style than the Baroque, favoring pastel colors, delicate curves, and lighthearted, often romantic subject matter, as seen in the work of Jean-Honoré Fragonard. Neoclassicism emerged later in the 18th century as a deliberate reaction against Rococo excess, reviving the order, restraint, and moral seriousness of classical Greek and Roman art, exemplified by Jacques-Louis David's paintings.",
+      "keyTerms": [
+        {
+          "term": "Rococo",
+          "def": "An 18th-century artistic style favoring pastel colors, delicate curves, and lighthearted, ornate subject matter."
+        },
+        {
+          "term": "Jean-Honoré Fragonard",
+          "def": "A leading Rococo painter, known for playful, romantic scenes like The Swing."
+        },
+        {
+          "term": "Neoclassicism",
+          "def": "A late 18th-century style reviving the order, restraint, and moral seriousness of classical Greek and Roman art."
+        },
+        {
+          "term": "Jacques-Louis David",
+          "def": "A leading Neoclassical painter, known for works like The Oath of the Horatii, emphasizing moral and civic virtue."
+        },
+        {
+          "term": "Grand Tour",
+          "def": "A traditional European travel itinerary, especially to Italy, that fueled renewed interest in classical antiquity."
+        }
+      ],
+      "examples": [
+        "Fragonard's painting The Swing exemplifies Rococo's playful, romantic, and lighthearted subject matter.",
+        "David's The Oath of the Horatii exemplifies Neoclassicism's emphasis on order, restraint, and moral seriousness."
+      ],
+      "steps": [
+        "Rococo art develops as a lighter, more playful alternative to the grandeur of the Baroque.",
+        "Rococo favors pastel colors, delicate curves, and romantic, lighthearted subject matter.",
+        "Neoclassicism later emerges as a reaction against Rococo's perceived excess and frivolity.",
+        "Neoclassical artists like David revive classical order, restraint, and moral seriousness."
+      ],
+      "remember": [
+        "Rococo favored pastel colors, delicate curves, and lighthearted, romantic subject matter.",
+        "Fragonard was a leading Rococo painter, known for playful romantic scenes.",
+        "Neoclassicism revived the order and moral seriousness of classical Greek and Roman art.",
+        "David was a leading Neoclassical painter, emphasizing civic and moral virtue."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What characterized \"Rococo\" art?",
+          "options": [
+            "Dark, dramatic contrasts",
+            "Pastel colors, delicate curves, and lighthearted subject matter",
+            "Strict classical order",
+            "Religious devotion only"
+          ],
+          "correct": 1,
+          "explanation": "Rococo favored pastel colors and lighthearted subject matter."
+        },
+        {
+          "q": "Who painted \"The Swing,\" a famous Rococo work?",
+          "options": [
+            "Jacques-Louis David",
+            "Jean-Honoré Fragonard",
+            "Caravaggio",
+            "Leonardo da Vinci"
+          ],
+          "correct": 1,
+          "explanation": "Jean-Honoré Fragonard painted The Swing."
+        },
+        {
+          "q": "What did Neoclassicism revive?",
+          "options": [
+            "Rococo playfulness",
+            "The order, restraint, and moral seriousness of classical Greek and Roman art",
+            "Baroque drama",
+            "Byzantine iconography"
+          ],
+          "correct": 1,
+          "explanation": "Neoclassicism revived classical order and moral seriousness."
+        },
+        {
+          "q": "Who painted \"The Oath of the Horatii,\" a famous Neoclassical work?",
+          "options": [
+            "Fragonard",
+            "Jacques-Louis David",
+            "Bernini",
+            "Caravaggio"
+          ],
+          "correct": 1,
+          "explanation": "Jacques-Louis David painted The Oath of the Horatii."
+        },
+        {
+          "q": "What was Neoclassicism largely a reaction against?",
+          "options": [
+            "Gothic architecture",
+            "Rococo's perceived excess and frivolity",
+            "Byzantine art",
+            "Egyptian conventions"
+          ],
+          "correct": 1,
+          "explanation": "Neoclassicism reacted against Rococo's perceived excess."
+        }
+      ]
+    }
+  },
+  "Romanticism (c. 1780–1850)": {
+    "guide": {
+      "explanation": "Romanticism emerged as a reaction against Neoclassicism's emphasis on reason and order, instead prioritizing intense emotion, individualism, and an awe-inspired connection to nature, often depicting dramatic, sublime landscapes as seen in the work of Caspar David Friedrich. Romantic artists like Francisco Goya and Eugène Delacroix also used dramatic, emotionally intense imagery to address political and social themes, including the horrors of war and revolution.",
+      "keyTerms": [
+        {
+          "term": "Romanticism",
+          "def": "An artistic movement prioritizing intense emotion, individualism, and connection to nature, in reaction against Neoclassical order."
+        },
+        {
+          "term": "The sublime",
+          "def": "An aesthetic concept describing awe-inspiring, often overwhelming natural grandeur, central to Romantic landscape painting."
+        },
+        {
+          "term": "Caspar David Friedrich",
+          "def": "A German Romantic painter known for atmospheric, awe-inspiring landscape paintings."
+        },
+        {
+          "term": "Francisco Goya",
+          "def": "A Spanish Romantic painter known for emotionally intense works addressing war and human suffering, like The Third of May 1808."
+        },
+        {
+          "term": "Eugène Delacroix",
+          "def": "A French Romantic painter known for dramatic, emotionally charged works, like Liberty Leading the People."
+        }
+      ],
+      "examples": [
+        "Friedrich's painting \"Wanderer above the Sea of Fog\" exemplifies the Romantic fascination with the sublime power of nature.",
+        "Goya's \"The Third of May 1808\" depicts the horrors of war with raw emotional intensity, reflecting Romanticism's political engagement."
+      ],
+      "steps": [
+        "Romanticism emerges as a reaction against Neoclassicism's emphasis on reason and order.",
+        "Romantic artists prioritize intense emotion, individualism, and connection to nature.",
+        "Landscape painters like Friedrich depict the sublime, awe-inspiring power of nature.",
+        "Artists like Goya and Delacroix use dramatic imagery to address political and social themes."
+      ],
+      "remember": [
+        "Romanticism prioritized intense emotion, individualism, and connection to nature.",
+        "\"The sublime\" describes awe-inspiring, overwhelming natural grandeur central to Romantic landscapes.",
+        "Goya addressed the horrors of war with raw emotional intensity.",
+        "Delacroix created dramatic, emotionally charged political works like Liberty Leading the People."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did Romanticism prioritize?",
+          "options": [
+            "Reason and order",
+            "Intense emotion, individualism, and connection to nature",
+            "Classical restraint",
+            "Religious symbolism only"
+          ],
+          "correct": 1,
+          "explanation": "Romanticism prioritized emotion, individualism, and nature."
+        },
+        {
+          "q": "What is \"the sublime\" in Romantic art?",
+          "options": [
+            "A calm, peaceful scene",
+            "Awe-inspiring, overwhelming natural grandeur",
+            "A type of classical order",
+            "A Rococo pastel color"
+          ],
+          "correct": 1,
+          "explanation": "The sublime describes awe-inspiring natural grandeur."
+        },
+        {
+          "q": "Which artist is known for atmospheric, awe-inspiring landscape paintings?",
+          "options": [
+            "Jacques-Louis David",
+            "Caspar David Friedrich",
+            "Fragonard",
+            "Bernini"
+          ],
+          "correct": 1,
+          "explanation": "Caspar David Friedrich was known for atmospheric landscapes."
+        },
+        {
+          "q": "Which artist depicted the horrors of war in \"The Third of May 1808\"?",
+          "options": [
+            "Delacroix",
+            "Francisco Goya",
+            "Friedrich",
+            "David"
+          ],
+          "correct": 1,
+          "explanation": "Francisco Goya painted The Third of May 1808."
+        },
+        {
+          "q": "Romanticism emerged largely as a reaction against which movement?",
+          "options": [
+            "Baroque",
+            "Neoclassicism",
+            "Gothic art",
+            "Byzantine art"
+          ],
+          "correct": 1,
+          "explanation": "Romanticism reacted against Neoclassicism's emphasis on reason and order."
+        }
+      ]
+    }
+  },
+  "Modernism in Art (c. 1800–1945)": {
+    "guide": {
+      "explanation": "Modernism encompasses a rapid succession of artistic movements that broke from traditional representation: Impressionism (capturing fleeting light and everyday scenes, as with Claude Monet), Post-Impressionism (more structured, expressive approaches, as with Vincent van Gogh), Cubism (fragmenting forms into geometric shapes, pioneered by Pablo Picasso), and Surrealism (exploring the unconscious mind and dreamlike imagery, as with Salvador Dalí). Each movement pushed further from realistic representation toward new ways of expressing perception, emotion, and idea.",
+      "keyTerms": [
+        {
+          "term": "Impressionism",
+          "def": "A late 19th-century movement capturing fleeting light and everyday scenes with visible, loose brushstrokes."
+        },
+        {
+          "term": "Post-Impressionism",
+          "def": "A movement building on Impressionism with more structured composition and expressive, symbolic use of color and form."
+        },
+        {
+          "term": "Cubism",
+          "def": "A movement, pioneered by Pablo Picasso and Georges Braque, fragmenting forms into geometric shapes shown from multiple angles."
+        },
+        {
+          "term": "Surrealism",
+          "def": "A movement exploring the unconscious mind and dreamlike, irrational imagery, associated with Salvador Dalí."
+        },
+        {
+          "term": "Abstract art",
+          "def": "Art that does not attempt to represent recognizable objects or scenes, focusing instead on shape, color, and form."
+        }
+      ],
+      "examples": [
+        "Claude Monet's paintings of water lilies use loose brushstrokes to capture the fleeting effects of light, exemplifying Impressionism.",
+        "Picasso's painting \"Les Demoiselles d'Avignon\" fragments the human figure into geometric shapes, exemplifying early Cubism."
+      ],
+      "steps": [
+        "Impressionism breaks from tradition, capturing fleeting light and everyday scenes with loose brushwork.",
+        "Post-Impressionism builds on this with more structured, expressive approaches to color and form.",
+        "Cubism further fragments forms into geometric shapes shown from multiple perspectives simultaneously.",
+        "Surrealism later explores the unconscious mind, producing dreamlike, irrational imagery."
+      ],
+      "remember": [
+        "Impressionism captured fleeting light and everyday scenes with loose brushstrokes (Monet).",
+        "Cubism, pioneered by Picasso and Braque, fragmented forms into geometric shapes.",
+        "Surrealism explored the unconscious mind and dreamlike imagery (Dalí).",
+        "Modernism represents a rapid succession of movements breaking from traditional representation."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did Impressionism aim to capture?",
+          "options": [
+            "Precise geometric shapes",
+            "Fleeting light and everyday scenes with loose brushstrokes",
+            "Dreamlike, unconscious imagery",
+            "Classical mythology only"
+          ],
+          "correct": 1,
+          "explanation": "Impressionism captured fleeting light with loose brushstrokes."
+        },
+        {
+          "q": "Who pioneered Cubism?",
+          "options": [
+            "Claude Monet",
+            "Pablo Picasso and Georges Braque",
+            "Salvador Dalí",
+            "Vincent van Gogh"
+          ],
+          "correct": 1,
+          "explanation": "Picasso and Braque pioneered Cubism."
+        },
+        {
+          "q": "What did Cubism do to forms?",
+          "options": [
+            "Kept them perfectly realistic",
+            "Fragmented them into geometric shapes shown from multiple angles",
+            "Softened them with pastel colors",
+            "Erased them entirely"
+          ],
+          "correct": 1,
+          "explanation": "Cubism fragmented forms into geometric shapes from multiple angles."
+        },
+        {
+          "q": "What did Surrealism explore?",
+          "options": [
+            "Classical mythology",
+            "The unconscious mind and dreamlike, irrational imagery",
+            "Precise realism",
+            "Fleeting natural light"
+          ],
+          "correct": 1,
+          "explanation": "Surrealism explored the unconscious mind and dreamlike imagery."
+        },
+        {
+          "q": "Which artist is closely associated with Surrealism?",
+          "options": [
+            "Claude Monet",
+            "Salvador Dalí",
+            "Pablo Picasso",
+            "Vincent van Gogh"
+          ],
+          "correct": 1,
+          "explanation": "Salvador Dalí is closely associated with Surrealism."
+        }
+      ]
+    }
+  },
+  "Postmodern and Contemporary Art (1950s–Present)": {
+    "guide": {
+      "explanation": "Postmodern and contemporary art has embraced enormous stylistic diversity, from Pop Art's celebration of mass consumer culture and imagery (as with Andy Warhol) to Abstract Expressionism's emphasis on spontaneous, gestural mark-making (as with Jackson Pollock). Contemporary art since the late 20th century has increasingly expanded beyond painting and sculpture into new media, including installation art, performance art, and digital art, often directly engaging with social and political issues.",
+      "keyTerms": [
+        {
+          "term": "Pop Art",
+          "def": "A mid-20th-century movement celebrating and critiquing mass consumer culture and popular imagery, associated with Andy Warhol."
+        },
+        {
+          "term": "Abstract Expressionism",
+          "def": "A mid-20th-century movement emphasizing spontaneous, gestural mark-making and non-representational form, associated with Jackson Pollock."
+        },
+        {
+          "term": "Installation art",
+          "def": "A contemporary art form creating an immersive, three-dimensional environment for the viewer to experience."
+        },
+        {
+          "term": "Performance art",
+          "def": "A contemporary art form in which the artist's live actions constitute the work itself."
+        },
+        {
+          "term": "Andy Warhol",
+          "def": "A leading Pop artist known for works celebrating and critiquing consumer culture and celebrity, like his Campbell's Soup Cans."
+        }
+      ],
+      "examples": [
+        "Andy Warhol's Campbell's Soup Cans exemplify Pop Art's engagement with mass consumer imagery.",
+        "Jackson Pollock's drip paintings exemplify Abstract Expressionism's spontaneous, gestural approach to mark-making."
+      ],
+      "steps": [
+        "Abstract Expressionism emerges mid-century, emphasizing spontaneous, gestural, non-representational mark-making.",
+        "Pop Art later emerges, engaging directly with mass consumer culture and popular imagery.",
+        "Contemporary art expands beyond traditional painting and sculpture into new media.",
+        "Installation and performance art increasingly engage directly with social and political issues."
+      ],
+      "remember": [
+        "Pop Art celebrated and critiqued mass consumer culture, associated with Andy Warhol.",
+        "Abstract Expressionism emphasized spontaneous, gestural mark-making, associated with Jackson Pollock.",
+        "Installation art creates an immersive, three-dimensional environment for viewers.",
+        "Performance art treats the artist's live actions as the artwork itself."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did Pop Art engage with?",
+          "options": [
+            "Classical mythology",
+            "Mass consumer culture and popular imagery",
+            "Byzantine iconography",
+            "Gothic architecture"
+          ],
+          "correct": 1,
+          "explanation": "Pop Art engaged with mass consumer culture and popular imagery."
+        },
+        {
+          "q": "Which artist is associated with Pop Art's Campbell's Soup Cans?",
+          "options": [
+            "Jackson Pollock",
+            "Andy Warhol",
+            "Salvador Dalí",
+            "Pablo Picasso"
+          ],
+          "correct": 1,
+          "explanation": "Andy Warhol created the Campbell's Soup Cans."
+        },
+        {
+          "q": "What characterizes \"Abstract Expressionism\"?",
+          "options": [
+            "Precise geometric realism",
+            "Spontaneous, gestural mark-making and non-representational form",
+            "Mass consumer imagery",
+            "Classical restraint"
+          ],
+          "correct": 1,
+          "explanation": "Abstract Expressionism emphasized spontaneous, gestural mark-making."
+        },
+        {
+          "q": "Which artist is known for spontaneous \"drip paintings\"?",
+          "options": [
+            "Andy Warhol",
+            "Jackson Pollock",
+            "Salvador Dalí",
+            "Claude Monet"
+          ],
+          "correct": 1,
+          "explanation": "Jackson Pollock is known for his drip paintings."
+        },
+        {
+          "q": "What is \"installation art\"?",
+          "options": [
+            "A type of painting only",
+            "A contemporary art form creating an immersive, three-dimensional environment",
+            "A Renaissance technique",
+            "A type of Gothic architecture"
+          ],
+          "correct": 1,
+          "explanation": "Installation art creates an immersive, three-dimensional environment."
+        }
+      ]
+    }
+  }
+}

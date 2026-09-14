@@ -1,0 +1,262 @@
+{
+  "Basic Economic Concepts": {
+    "guide": {
+      "explanation": "Macroeconomics studies the economy as a whole — total output, overall price levels, and national employment — while microeconomics focuses on individual markets, firms, and consumers. Every economic decision involves scarcity (limited resources vs. unlimited wants) and opportunity cost (what you give up to get something else), concepts often illustrated with a production possibilities curve showing the maximum combinations of two goods an economy can produce with its resources.",
+      "keyTerms": [
+        {"term": "Scarcity", "def": "The basic economic problem of limited resources relative to unlimited wants."},
+        {"term": "Opportunity cost", "def": "The value of the next best alternative given up when making a choice."},
+        {"term": "Macroeconomics", "def": "The study of the economy as a whole — total output, price levels, employment."},
+        {"term": "Microeconomics", "def": "The study of individual markets, firms, and consumer behavior."},
+        {"term": "Production Possibilities Curve (PPC)", "def": "A graph showing the maximum output combinations of two goods given fixed resources."},
+        {"term": "Comparative advantage", "def": "The ability to produce a good at a lower opportunity cost than another producer."}
+      ],
+      "examples": [
+        "If a farmer can grow either wheat or corn on the same land, the opportunity cost of growing wheat is the corn not grown.",
+        "The PPC shifts outward when an economy gains resources or improves technology, expanding what's possible to produce."
+      ],
+      "steps": [
+        "Points on the curve represent full, efficient use of all resources.",
+        "Points inside the curve represent underutilized resources (inefficiency).",
+        "Points outside the curve are currently unattainable with existing resources.",
+        "Moving along the curve from one good to another shows the opportunity cost of that trade-off."
+      ],
+      "remember": [
+        "Macroeconomics = the whole economy; Microeconomics = individual markets and firms.",
+        "Opportunity cost is the next best alternative given up, not just a dollar cost.",
+        "Points on the PPC represent full efficiency; points inside represent waste.",
+        "Comparative advantage — not just being better overall — determines who should specialize in producing what."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"opportunity cost\"?", "options": ["The total cost of an item", "The value of the next best alternative given up", "The cost of scarce resources only", "The price paid in a market"], "correct": 1, "explanation": "Opportunity cost is the value of the next best alternative that is given up when a choice is made."},
+        {"q": "Which branch of economics focuses on the economy as a whole?", "options": ["Microeconomics", "Macroeconomics", "Behavioral economics", "Comparative economics"], "correct": 1, "explanation": "Macroeconomics studies the economy as a whole, including total output, price levels, and employment."},
+        {"q": "What does a point inside the Production Possibilities Curve represent?", "options": ["Maximum efficient output", "Unattainable output", "Underutilized resources (inefficiency)", "A trade deficit"], "correct": 2, "explanation": "Points inside the PPC represent an economy not using its resources fully or efficiently."},
+        {"q": "What determines comparative advantage?", "options": ["Being better at producing everything", "Having a lower opportunity cost of production than another producer", "Having more total resources", "Having a larger population"], "correct": 1, "explanation": "Comparative advantage is based on having a lower opportunity cost of production, not overall superiority."},
+        {"q": "What is the basic economic problem that scarcity describes?", "options": ["Too many resources and not enough wants", "Limited resources relative to unlimited wants", "Government intervention in markets", "Excess production of goods"], "correct": 1, "explanation": "Scarcity describes the fundamental economic problem of limited resources relative to unlimited human wants."}
+      ]
+    }
+  },
+  "Measurement of Economic Performance": {
+    "guide": {
+      "explanation": "Economists measure how well an economy is performing primarily through Gross Domestic Product (GDP) — the total value of all final goods and services produced within a country in a given period. The circular flow model shows how money moves between households, businesses, and the government, illustrating that one person's spending is another's income. GDP can be measured in nominal terms (not adjusted for inflation) or real terms (adjusted for inflation, allowing fair comparison across years).",
+      "keyTerms": [
+        {"term": "GDP (Gross Domestic Product)", "def": "The total value of all final goods and services produced within a country in a given period."},
+        {"term": "Nominal GDP", "def": "GDP measured in current prices, not adjusted for inflation."},
+        {"term": "Real GDP", "def": "GDP adjusted for inflation, allowing accurate comparison across time periods."},
+        {"term": "Circular flow model", "def": "A diagram showing how money flows between households, businesses, and government."},
+        {"term": "GDP per capita", "def": "GDP divided by population, used to compare living standards."}
+      ],
+      "examples": [
+        "If nominal GDP rises but real GDP stays flat, that growth is due to inflation, not actual increased production.",
+        "In the circular flow, households provide labor to businesses in exchange for wages, which they then spend on goods and services from those same businesses."
+      ],
+      "steps": [
+        "Nominal GDP is calculated using current-year prices.",
+        "Real GDP adjusts nominal GDP using a price index to remove the effect of inflation.",
+        "Comparing real GDP across years shows actual changes in production, not just price changes.",
+        "GDP per capita divides GDP by population to allow fair comparisons between countries of different sizes."
+      ],
+      "remember": [
+        "GDP measures the total value of final goods and services produced within a country.",
+        "Nominal GDP is not inflation-adjusted; real GDP is inflation-adjusted.",
+        "The circular flow model shows money continuously moving between households, businesses, and government.",
+        "GDP per capita adjusts for population size when comparing living standards across countries."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does GDP measure?", "options": ["Total government spending only", "The total value of all final goods and services produced in a country", "The total population of a country", "The unemployment rate"], "correct": 1, "explanation": "GDP measures the total value of all final goods and services produced within a country in a given period."},
+        {"q": "What is the difference between nominal and real GDP?", "options": ["There is no difference", "Real GDP is adjusted for inflation; nominal GDP is not", "Nominal GDP is always higher", "Real GDP only applies to exports"], "correct": 1, "explanation": "Real GDP adjusts for inflation, allowing fair comparison across time periods."},
+        {"q": "In the circular flow model, what do households provide to businesses?", "options": ["Taxes only", "Labor, in exchange for wages", "Government subsidies", "Interest rates"], "correct": 1, "explanation": "In the circular flow model, households provide labor to businesses in exchange for wages."},
+        {"q": "What is GDP per capita used for?", "options": ["Measuring inflation only", "Comparing living standards by adjusting for population size", "Measuring unemployment", "Calculating tax rates"], "correct": 1, "explanation": "GDP per capita divides GDP by population, allowing fair comparisons of living standards."},
+        {"q": "If nominal GDP rises but real GDP stays flat, what does that indicate?", "options": ["Actual production increased significantly", "The increase is due to inflation, not real growth", "Unemployment has decreased", "The population has grown"], "correct": 1, "explanation": "If nominal GDP rises while real GDP stays flat, the apparent growth is due to rising prices, not real increased production."}
+      ]
+    }
+  },
+  "National Income and Price Determination": {
+    "guide": {
+      "explanation": "The Aggregate Demand (AD) and Aggregate Supply (AS) model explains how an economy's overall price level and output are determined, similar to supply and demand for an individual product but applied to the whole economy. Aggregate Demand slopes downward because lower price levels increase real wealth, lower interest rates, and make domestic goods cheaper relative to foreign goods — all of which increase total spending.",
+      "keyTerms": [
+        {"term": "Aggregate Demand (AD)", "def": "The total demand for all goods and services in an economy at a given overall price level."},
+        {"term": "Aggregate Supply (AS)", "def": "The total supply of goods and services an economy produces at a given price level."},
+        {"term": "Equilibrium price level", "def": "The price level where Aggregate Demand equals Aggregate Supply."},
+        {"term": "Movement along the AD curve", "def": "Caused by a change in the overall price level itself."},
+        {"term": "Shift of the AD curve", "def": "Caused by a change in a non-price factor, like consumer confidence or government spending."}
+      ],
+      "examples": [
+        "An increase in government spending shifts the entire AD curve to the right, not just a movement along it.",
+        "A drop in the overall price level increases the real value of money people hold, encouraging more spending — a movement along the AD curve."
+      ],
+      "steps": [
+        "Ask: did the overall price level change? If yes, that's a movement ALONG the existing AD curve.",
+        "If a non-price factor changed instead (consumer confidence, government spending, foreign income), that's a SHIFT of the entire AD curve.",
+        "An increase in a non-price factor that boosts spending shifts AD to the right.",
+        "A decrease in that same factor shifts AD to the left."
+      ],
+      "remember": [
+        "AD and AS together determine the equilibrium price level and output for an entire economy.",
+        "A change in the price level moves you ALONG the AD curve; a change in a non-price factor SHIFTS the whole curve.",
+        "Government spending increases shift AD to the right (more total demand).",
+        "The equilibrium point is where Aggregate Demand equals Aggregate Supply."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does the Aggregate Demand curve represent?", "options": ["The supply of one product", "The total demand for all goods and services in an economy", "The unemployment rate", "The exchange rate"], "correct": 1, "explanation": "Aggregate Demand represents the total demand for all goods and services in an economy at a given price level."},
+        {"q": "What causes a movement ALONG the Aggregate Demand curve, rather than a shift of the curve itself?", "options": ["A change in government spending", "A change in the overall price level", "A change in consumer confidence", "A change in foreign income"], "correct": 1, "explanation": "A change in the overall price level causes a movement along the existing AD curve, not a shift."},
+        {"q": "What happens to the AD curve when government spending increases?", "options": ["It shifts left", "It shifts right", "It stays the same", "It becomes vertical"], "correct": 1, "explanation": "An increase in government spending increases total demand, shifting the entire AD curve to the right."},
+        {"q": "What determines the equilibrium price level in an economy?", "options": ["Government-set prices only", "Where Aggregate Demand equals Aggregate Supply", "The unemployment rate", "The exchange rate only"], "correct": 1, "explanation": "The equilibrium price level occurs where Aggregate Demand equals Aggregate Supply."},
+        {"q": "Why does a lower overall price level tend to increase total spending?", "options": ["It has no effect on spending", "It increases real wealth and makes domestic goods relatively cheaper", "It always increases unemployment", "It only affects government spending"], "correct": 1, "explanation": "A lower price level increases real wealth, lowers interest rates, and makes domestic goods cheaper relative to foreign goods."}
+      ]
+    }
+  },
+  "Financial Sector": {
+    "guide": {
+      "explanation": "Money serves three key functions — a medium of exchange, a store of value, and a unit of account — and solves the inefficiency of barter, where both parties had to want exactly what the other was offering. Stocks and bonds represent two different ways businesses and governments raise money: a stock represents partial ownership in a company, while a bond represents a loan that must be repaid with interest.",
+      "keyTerms": [
+        {"term": "Medium of exchange", "def": "Money's function of being widely accepted in trade for goods and services."},
+        {"term": "Store of value", "def": "Money's function of preserving purchasing power over time."},
+        {"term": "Unit of account", "def": "Money's function as a standard measure for comparing the value of goods."},
+        {"term": "Barter", "def": "Trading goods or services directly, without money, requiring a mutual match of wants."},
+        {"term": "Stock", "def": "A share representing partial ownership in a company."},
+        {"term": "Bond", "def": "A loan to a company or government that must be repaid with interest."}
+      ],
+      "examples": [
+        "Barter requires a \"double coincidence of wants\" — both parties must want exactly what the other has to offer, which money eliminates.",
+        "Buying a company's stock makes you a partial owner, entitled to a share of profits; buying its bond makes you a lender, entitled to repayment with interest."
+      ],
+      "steps": [
+        "Medium of exchange: money is accepted in trade for goods and services, replacing barter.",
+        "Store of value: money holds its purchasing power over time (though inflation erodes this).",
+        "Unit of account: money provides a standard way to compare the value of different goods and services."
+      ],
+      "remember": [
+        "Money's three functions: medium of exchange, store of value, unit of account.",
+        "Barter requires a \"double coincidence of wants\"; money eliminates that requirement.",
+        "A stock represents ownership in a company; a bond represents a loan to it.",
+        "Bonds pay back with interest; stocks pay through potential profit-sharing and value appreciation."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What problem does money solve that barter creates?", "options": ["The need for interest rates", "The \"double coincidence of wants\" requirement", "The need for stocks", "The need for government spending"], "correct": 1, "explanation": "Barter requires both parties to want exactly what the other offers; money eliminates this problem."},
+        {"q": "Which of these is NOT one of money's three basic functions?", "options": ["Medium of exchange", "Store of value", "Unit of account", "Method of taxation"], "correct": 3, "explanation": "Money's three functions are medium of exchange, store of value, and unit of account — not a method of taxation."},
+        {"q": "What does owning a company's stock represent?", "options": ["A loan to the company", "Partial ownership in the company", "A government bond", "A tax obligation"], "correct": 1, "explanation": "Owning stock represents partial ownership in a company, unlike a bond, which represents a loan."},
+        {"q": "What does owning a bond represent?", "options": ["Partial ownership in a company", "A loan that must be repaid with interest", "A form of barter", "A government tax"], "correct": 1, "explanation": "A bond represents a loan to a company or government, which must be repaid with interest."},
+        {"q": "Which function of money refers to its ability to hold purchasing power over time?", "options": ["Medium of exchange", "Unit of account", "Store of value", "Double coincidence of wants"], "correct": 2, "explanation": "\"Store of value\" refers to money's ability to preserve purchasing power over time."}
+      ]
+    }
+  },
+  "Inflation, Unemployment, and Stabilization Policies": {
+    "guide": {
+      "explanation": "Fiscal policy — government adjustments to spending and taxation — is one of the main tools used to stabilize the economy. Expansionary fiscal policy (increased spending or lower taxes) is used to fight recessions by boosting total demand, while contractionary fiscal policy (decreased spending or higher taxes) is used to cool down an overheating, inflation-prone economy.",
+      "keyTerms": [
+        {"term": "Fiscal policy", "def": "Government use of spending and taxation to influence the economy."},
+        {"term": "Expansionary fiscal policy", "def": "Increased government spending or lower taxes, used to fight a recession."},
+        {"term": "Contractionary fiscal policy", "def": "Decreased government spending or higher taxes, used to fight inflation."},
+        {"term": "Inflation", "def": "A general, sustained rise in the overall price level."},
+        {"term": "Unemployment", "def": "The percentage of the labor force that is jobless and actively seeking work."}
+      ],
+      "examples": [
+        "During a recession, a government might cut taxes to put more money in consumers' hands, boosting spending (expansionary fiscal policy).",
+        "To cool an overheating economy with high inflation, a government might raise taxes or cut spending (contractionary fiscal policy)."
+      ],
+      "steps": [
+        "Identify the economic problem: recession/high unemployment, or high inflation/overheating.",
+        "If fighting a recession: increase government spending and/or decrease taxes (expansionary).",
+        "If fighting inflation: decrease government spending and/or increase taxes (contractionary).",
+        "Monitor the resulting effect on total demand and adjust as needed."
+      ],
+      "remember": [
+        "Expansionary fiscal policy (more spending, lower taxes) fights recessions.",
+        "Contractionary fiscal policy (less spending, higher taxes) fights inflation.",
+        "Fiscal policy is controlled by the government, distinct from monetary policy (controlled by the central bank).",
+        "Inflation is a sustained rise in overall prices; unemployment measures the jobless share of the labor force."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is expansionary fiscal policy used for?", "options": ["Fighting inflation", "Fighting a recession", "Increasing taxes only", "Reducing government spending only"], "correct": 1, "explanation": "Expansionary fiscal policy — increased spending or lower taxes — is used to fight a recession by boosting demand."},
+        {"q": "What does contractionary fiscal policy involve?", "options": ["Increased government spending", "Decreased government spending and/or higher taxes", "Lower interest rates", "Lower unemployment only"], "correct": 1, "explanation": "Contractionary fiscal policy involves decreased spending and/or higher taxes, used to cool an overheating economy."},
+        {"q": "What is \"fiscal policy\"?", "options": ["Central bank control of interest rates", "Government use of spending and taxation to influence the economy", "Private company hiring decisions", "International trade agreements"], "correct": 1, "explanation": "Fiscal policy refers to the government's use of spending and taxation to influence the economy."},
+        {"q": "What is inflation?", "options": ["A decrease in unemployment", "A general, sustained rise in the overall price level", "An increase in GDP only", "A decrease in government spending"], "correct": 1, "explanation": "Inflation is a general, sustained rise in the overall price level across the economy."},
+        {"q": "Which policy tool would a government most likely use during a recession?", "options": ["Raise taxes", "Cut government spending", "Increase government spending or cut taxes", "Do nothing"], "correct": 2, "explanation": "During a recession, expansionary fiscal policy — increasing spending or cutting taxes — is used to boost demand."}
+      ]
+    }
+  },
+  "Economic Growth and Productivity": {
+    "guide": {
+      "explanation": "Long-run economic growth is measured by increases in real GDP per capita — meaning growth that outpaces population increase, actually raising average living standards. This growth comes primarily from increases in productivity: better technology, more capital investment, and a more skilled workforce all allow an economy to produce more output from the same resources over time.",
+      "keyTerms": [
+        {"term": "Economic growth", "def": "A sustained increase in an economy's real GDP over time."},
+        {"term": "Real GDP per capita", "def": "Real GDP divided by population; the standard measure of average living standards."},
+        {"term": "Productivity", "def": "Output produced per unit of input (like per worker or per hour worked)."},
+        {"term": "Human capital", "def": "The skills, education, and training that make workers more productive."},
+        {"term": "Physical capital", "def": "The tools, machinery, and infrastructure used in production."}
+      ],
+      "examples": [
+        "If real GDP grows 3% but population also grows 3%, real GDP per capita stays flat — no actual improvement in average living standards.",
+        "Investing in worker education and training builds human capital, which raises long-run productivity."
+      ],
+      "steps": [
+        "Increases in physical capital (better tools, machinery, infrastructure).",
+        "Increases in human capital (education, training, skill development).",
+        "Technological advancement, allowing more output from the same inputs.",
+        "All combine to raise productivity, which drives real GDP per capita growth over time."
+      ],
+      "remember": [
+        "Real GDP per capita — not just real GDP — measures actual improvement in average living standards.",
+        "If population growth matches GDP growth, GDP per capita doesn't improve.",
+        "Productivity growth comes from more/better capital, more human capital, and technological advancement.",
+        "Human capital refers to worker skills and education; physical capital refers to tools and machinery."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"real GDP per capita\" measure?", "options": ["Total government spending", "Real GDP divided by population, a measure of average living standards", "The unemployment rate", "The trade deficit"], "correct": 1, "explanation": "Real GDP per capita divides real GDP by population, serving as the standard measure of average living standards."},
+        {"q": "If real GDP grows at the same rate as population, what happens to real GDP per capita?", "options": ["It increases significantly", "It stays roughly flat", "It always decreases", "It doubles"], "correct": 1, "explanation": "If GDP growth matches population growth, real GDP per capita stays roughly flat."},
+        {"q": "What is \"human capital\"?", "options": ["Physical machinery and tools", "The skills, education, and training that make workers more productive", "Government tax revenue", "The total population of a country"], "correct": 1, "explanation": "Human capital refers to the skills, education, and training that increase worker productivity."},
+        {"q": "Which of these is a driver of long-run economic growth?", "options": ["A decrease in productivity", "Increases in physical and human capital", "A decrease in technology", "A shrinking labor force with no other changes"], "correct": 1, "explanation": "Increases in physical capital and human capital both drive long-run economic growth."},
+        {"q": "What does \"productivity\" measure?", "options": ["Total government spending", "Output produced per unit of input", "The unemployment rate", "The trade balance"], "correct": 1, "explanation": "Productivity measures the amount of output produced per unit of input, such as per worker or per hour worked."}
+      ]
+    }
+  },
+  "Open Economy: International Trade and Finance": {
+    "guide": {
+      "explanation": "In an open economy — one that trades and exchanges currency with other countries — governments can use tariffs, quotas, and subsidies to protect domestic industries, though these tools typically raise prices for consumers and can invite retaliation. Exchange rates connect financial and goods markets internationally: a stronger domestic currency makes imports cheaper but exports more expensive, while a weaker currency does the reverse.",
+      "keyTerms": [
+        {"term": "Open economy", "def": "An economy that trades goods, services, and currency with other countries."},
+        {"term": "Tariff", "def": "A tax placed on imported goods, raising their price to protect domestic producers."},
+        {"term": "Quota", "def": "A limit on the quantity of a good that can be imported."},
+        {"term": "Subsidy", "def": "Government financial support given to a domestic industry to help it compete."},
+        {"term": "Exchange rate", "def": "The value of one currency expressed in terms of another."}
+      ],
+      "examples": [
+        "A tariff on imported steel raises the price of that steel, protecting domestic steel producers but raising costs for industries that use steel.",
+        "If the U.S. dollar strengthens against the euro, American exports become more expensive for European buyers, while European imports become cheaper for Americans."
+      ],
+      "steps": [
+        "A stronger currency means it takes more foreign currency to buy one unit of the domestic currency.",
+        "Imports become cheaper for domestic consumers, since domestic currency buys more abroad.",
+        "Exports become more expensive for foreign buyers, since it now takes more of their currency to buy the same domestic good.",
+        "This tends to increase imports and decrease exports, affecting the trade balance."
+      ],
+      "remember": [
+        "Tariffs tax imports; quotas limit import quantities; subsidies support domestic producers directly.",
+        "A stronger domestic currency: cheaper imports, more expensive exports.",
+        "A weaker domestic currency: more expensive imports, cheaper exports.",
+        "Trade protection tools generally raise prices for domestic consumers even as they protect domestic industries."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a tariff?", "options": ["A limit on import quantity", "A tax on imported goods", "Government support for domestic industry", "A currency exchange rate"], "correct": 1, "explanation": "A tariff is a tax placed on imported goods, raising their price to protect domestic producers."},
+        {"q": "What is a quota?", "options": ["A tax on imports", "A limit on the quantity of a good that can be imported", "A subsidy for exporters", "An exchange rate policy"], "correct": 1, "explanation": "A quota is a limit on the quantity of a good that can be imported, regardless of price."},
+        {"q": "What happens to a country's exports when its currency strengthens?", "options": ["Exports become cheaper for foreign buyers", "Exports become more expensive for foreign buyers", "Exports are unaffected", "Exports automatically increase"], "correct": 1, "explanation": "A stronger domestic currency makes exports more expensive for foreign buyers."},
+        {"q": "What is a subsidy?", "options": ["A tax on imports", "A limit on imports", "Government financial support given to a domestic industry", "A type of exchange rate"], "correct": 2, "explanation": "A subsidy is government financial support given to help a domestic industry compete."},
+        {"q": "What happens to imports when a country's currency weakens?", "options": ["Imports become cheaper", "Imports become more expensive", "Imports are unaffected", "Imports are banned"], "correct": 1, "explanation": "A weaker domestic currency makes imports more expensive, since it takes more domestic currency to buy the same foreign good."}
+      ]
+    }
+  }
+}

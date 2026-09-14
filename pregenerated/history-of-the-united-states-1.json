@@ -1,0 +1,1532 @@
+{
+  "First Americans and Age of Exploration": {
+    "guide": {
+      "explanation": "Scholars propose three main theories for how the first humans arrived in the Americas: the Bering Land Bridge Theory (crossing a land bridge from Siberia to Alaska during the last Ice Age), the Atlantic Theory (the Solutreans crossing by boat from Europe), and the Oceania/Pacific Crossing Theory (crossing the Pacific and moving north from South America), with the latter now considered most widely accepted. These early peoples developed complex Mesoamerican civilizations long before European contact.",
+      "keyTerms": [
+        {
+          "term": "Bering Land Bridge Theory",
+          "def": "The theory that early humans crossed a land bridge connecting Siberia and Alaska around 15,000-20,000 years ago."
+        },
+        {
+          "term": "Clovis spearheads",
+          "def": "Early human-made tools found in Clovis, New Mexico, supporting evidence of early Bering Land Bridge migration."
+        },
+        {
+          "term": "Atlantic Theory (Solutreans)",
+          "def": "A theory proposing that people from France, Spain, and Portugal crossed the Atlantic Ocean by boat."
+        },
+        {
+          "term": "Oceania Theory (Pacific Crossing Theory)",
+          "def": "The currently most accepted theory, proposing migration across the Pacific Ocean into South America."
+        },
+        {
+          "term": "Monte Verde",
+          "def": "An archaeological site in southern Chile, one of the oldest known sites of human habitation in the Americas."
+        }
+      ],
+      "examples": [
+        "Clovis spearheads found in New Mexico provide physical evidence supporting the Bering Land Bridge Theory.",
+        "The Monte Verde site in Chile provides evidence supporting very early human habitation in South America, relevant to the Oceania Theory."
+      ],
+      "steps": [
+        "Bering Land Bridge Theory: humans cross from Siberia to Alaska via a land bridge during the last Ice Age.",
+        "Atlantic Theory: the Solutreans cross the Atlantic Ocean by boat from Europe.",
+        "Oceania Theory: humans cross the Pacific Ocean, arriving in South America before migrating north.",
+        "Evidence like Clovis spearheads and the Monte Verde site helps evaluate these competing theories."
+      ],
+      "remember": [
+        "Three main theories: Bering Land Bridge, Atlantic (Solutreans), and Oceania (Pacific Crossing).",
+        "The Oceania Theory is currently the most widely accepted explanation.",
+        "Clovis spearheads support the Bering Land Bridge Theory.",
+        "Monte Verde, Chile, is one of the oldest known sites of human habitation in the Americas."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What does the Bering Land Bridge Theory propose?",
+          "options": [
+            "Humans crossed the Atlantic by boat",
+            "Humans crossed a land bridge connecting Siberia and Alaska",
+            "Humans originated in South America",
+            "Humans arrived by crossing the Pacific only"
+          ],
+          "correct": 1,
+          "explanation": "The Bering Land Bridge Theory proposes migration via a land bridge from Siberia to Alaska."
+        },
+        {
+          "q": "Who are the \"Solutreans\" associated with in the Atlantic Theory?",
+          "options": [
+            "Native Americans",
+            "People from France, Spain, and Portugal",
+            "Pacific Islanders",
+            "Mesoamerican civilizations"
+          ],
+          "correct": 1,
+          "explanation": "The Solutreans, from France, Spain, and Portugal, are central to the Atlantic Theory."
+        },
+        {
+          "q": "Which theory is currently considered most widely accepted?",
+          "options": [
+            "Atlantic Theory",
+            "Bering Land Bridge Theory only",
+            "Oceania Theory (Pacific Crossing Theory)",
+            "None are accepted"
+          ],
+          "correct": 2,
+          "explanation": "The Oceania Theory is currently the most widely accepted explanation."
+        },
+        {
+          "q": "What do Clovis spearheads provide evidence for?",
+          "options": [
+            "The Atlantic Theory",
+            "The Bering Land Bridge Theory",
+            "The Oceania Theory",
+            "European colonization"
+          ],
+          "correct": 1,
+          "explanation": "Clovis spearheads support the Bering Land Bridge Theory."
+        },
+        {
+          "q": "Where is the Monte Verde archaeological site located?",
+          "options": [
+            "Mexico",
+            "Southern Chile",
+            "Alaska",
+            "Spain"
+          ],
+          "correct": 1,
+          "explanation": "Monte Verde is located in southern Chile."
+        }
+      ]
+    }
+  },
+  "Age of Exploration": {
+    "guide": {
+      "explanation": "The Age of Exploration, beginning in the late 15th century, was driven by European nations seeking new trade routes, wealth, and territory, leading to Christopher Columbus's 1492 voyage and subsequent Spanish, Portuguese, French, and English exploration and colonization of the Americas. This era also triggered the Columbian Exchange — the widespread transfer of plants, animals, diseases, and culture between the Old and New Worlds, with devastating demographic consequences for Native American populations.",
+      "keyTerms": [
+        {
+          "term": "Christopher Columbus",
+          "def": "The Italian explorer whose 1492 voyage, funded by Spain, initiated sustained European contact with the Americas."
+        },
+        {
+          "term": "Columbian Exchange",
+          "def": "The widespread transfer of plants, animals, diseases, and culture between the Old World and New World following Columbus's voyages."
+        },
+        {
+          "term": "Conquistadors",
+          "def": "Spanish soldiers and explorers who conquered territories in the Americas, such as Hernán Cortés and Francisco Pizarro."
+        },
+        {
+          "term": "Northwest Passage",
+          "def": "A sought-after sea route through North America to Asia, motivating early French and English exploration."
+        },
+        {
+          "term": "Mercantilism",
+          "def": "An economic system in which European nations sought colonies to supply raw materials and markets, increasing national wealth and power."
+        }
+      ],
+      "examples": [
+        "Hernán Cortés conquered the Aztec Empire, and Francisco Pizarro conquered the Inca Empire, both major conquistador campaigns.",
+        "The Columbian Exchange introduced European diseases like smallpox to the Americas, devastating Native American populations who had no prior immunity."
+      ],
+      "steps": [
+        "European nations sought new trade routes to Asia, motivated by wealth and competition.",
+        "Christopher Columbus's 1492 voyage, funded by Spain, made sustained contact with the Americas.",
+        "Spanish conquistadors conquered major civilizations, including the Aztec and Inca Empires.",
+        "The resulting Columbian Exchange transferred plants, animals, diseases, and culture between the Old and New Worlds."
+      ],
+      "remember": [
+        "Christopher Columbus's 1492 voyage, funded by Spain, began sustained European contact with the Americas.",
+        "The Columbian Exchange transferred plants, animals, diseases, and culture between the Old and New Worlds.",
+        "Conquistadors like Cortés and Pizarro conquered major Mesoamerican and South American civilizations.",
+        "European diseases like smallpox devastated Native American populations who lacked immunity."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "Who funded Christopher Columbus's 1492 voyage?",
+          "options": [
+            "Portugal",
+            "Spain",
+            "England",
+            "France"
+          ],
+          "correct": 1,
+          "explanation": "Spain funded Columbus's 1492 voyage."
+        },
+        {
+          "q": "What was the \"Columbian Exchange\"?",
+          "options": [
+            "A trade agreement between England and France",
+            "The transfer of plants, animals, diseases, and culture between the Old and New Worlds",
+            "A Native American alliance",
+            "A type of currency"
+          ],
+          "correct": 1,
+          "explanation": "The Columbian Exchange was the transfer of goods, diseases, and culture between the Old and New Worlds."
+        },
+        {
+          "q": "Who conquered the Aztec Empire?",
+          "options": [
+            "Francisco Pizarro",
+            "Hernán Cortés",
+            "Christopher Columbus",
+            "Ferdinand Magellan"
+          ],
+          "correct": 1,
+          "explanation": "Hernán Cortés conquered the Aztec Empire."
+        },
+        {
+          "q": "What devastated Native American populations following European contact?",
+          "options": [
+            "Only warfare",
+            "European diseases like smallpox, to which Natives had no immunity",
+            "Only trade disputes",
+            "Only religious conflict"
+          ],
+          "correct": 1,
+          "explanation": "European diseases like smallpox devastated Native American populations."
+        },
+        {
+          "q": "What was the \"Northwest Passage\" that motivated early exploration?",
+          "options": [
+            "A land route through Europe",
+            "A sought-after sea route through North America to Asia",
+            "A trade agreement",
+            "A Native American trail"
+          ],
+          "correct": 1,
+          "explanation": "The Northwest Passage was a sought-after sea route to Asia through North America."
+        }
+      ]
+    }
+  },
+  "Early Settlements and Colonial Life": {
+    "guide": {
+      "explanation": "England's first permanent colony, Jamestown (1607), struggled initially but survived through the cultivation of tobacco as a cash crop, while the Pilgrims and Puritans established New England colonies (starting with Plymouth in 1620) seeking religious freedom. These early colonies developed distinct regional economies and social structures — the Southern colonies relying heavily on plantation agriculture and enslaved labor, while New England developed around small farms, fishing, and trade.",
+      "keyTerms": [
+        {
+          "term": "Jamestown",
+          "def": "The first permanent English colony in North America, founded in 1607 in Virginia."
+        },
+        {
+          "term": "Tobacco",
+          "def": "The cash crop that made the Jamestown colony economically viable."
+        },
+        {
+          "term": "Plymouth Colony",
+          "def": "The colony founded by the Pilgrims in 1620, seeking religious freedom in New England."
+        },
+        {
+          "term": "Puritans",
+          "def": "English religious dissenters who settled in Massachusetts Bay seeking to build a strict religious community."
+        },
+        {
+          "term": "Indentured servitude",
+          "def": "A labor system in which individuals worked for a set period in exchange for passage to the colonies."
+        }
+      ],
+      "examples": [
+        "Jamestown nearly failed due to disease and starvation before tobacco cultivation made the colony profitable.",
+        "The Puritans in Massachusetts Bay sought to create a religious community based on strict moral and religious codes."
+      ],
+      "steps": [
+        "Jamestown (1607) becomes England's first permanent colony, struggling initially before tobacco cultivation stabilizes it economically.",
+        "The Pilgrims found Plymouth Colony (1620) seeking religious freedom.",
+        "Puritans establish Massachusetts Bay Colony, seeking to build a strict religious community.",
+        "Distinct regional economies develop: Southern plantation agriculture versus New England farming, fishing, and trade."
+      ],
+      "remember": [
+        "Jamestown (1607) was England's first permanent colony, made viable through tobacco cultivation.",
+        "The Pilgrims founded Plymouth Colony (1620); the Puritans founded Massachusetts Bay Colony.",
+        "Indentured servitude was a common early labor system in the colonies.",
+        "Southern colonies developed plantation agriculture; New England developed farming, fishing, and trade."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What was Jamestown?",
+          "options": [
+            "The first Spanish colony",
+            "England's first permanent colony in North America, founded in 1607",
+            "A Native American settlement",
+            "A French trading post"
+          ],
+          "correct": 1,
+          "explanation": "Jamestown was England's first permanent colony, founded in 1607."
+        },
+        {
+          "q": "What cash crop made Jamestown economically viable?",
+          "options": [
+            "Cotton",
+            "Tobacco",
+            "Wheat",
+            "Rice"
+          ],
+          "correct": 1,
+          "explanation": "Tobacco cultivation made Jamestown economically viable."
+        },
+        {
+          "q": "Who founded Plymouth Colony?",
+          "options": [
+            "The Puritans",
+            "The Pilgrims",
+            "Spanish conquistadors",
+            "French traders"
+          ],
+          "correct": 1,
+          "explanation": "The Pilgrims founded Plymouth Colony in 1620."
+        },
+        {
+          "q": "What is \"indentured servitude\"?",
+          "options": [
+            "Permanent slavery",
+            "A labor system where individuals worked for a set period in exchange for passage to the colonies",
+            "A type of religious practice",
+            "A form of colonial government"
+          ],
+          "correct": 1,
+          "explanation": "Indentured servitude involved working for a set period in exchange for passage."
+        },
+        {
+          "q": "What type of economy did the Southern colonies primarily develop?",
+          "options": [
+            "Fishing and trade",
+            "Plantation agriculture",
+            "Manufacturing",
+            "Mining"
+          ],
+          "correct": 1,
+          "explanation": "The Southern colonies developed plantation agriculture."
+        }
+      ]
+    }
+  },
+  "Colonial Life and Culture": {
+    "guide": {
+      "explanation": "Colonial society developed distinct social hierarchies, religious practices, and cultural institutions, with the Great Awakening (a religious revival movement in the 1730s-40s) reshaping religious life and emphasizing personal religious experience over formal church hierarchy. Colonial education, largely religiously motivated, and early forms of colonial self-government, like town meetings and colonial assemblies, laid groundwork for later political developments.",
+      "keyTerms": [
+        {
+          "term": "Great Awakening",
+          "def": "A religious revival movement in the American colonies during the 1730s-40s, emphasizing personal religious experience."
+        },
+        {
+          "term": "Jonathan Edwards",
+          "def": "A prominent preacher of the Great Awakening, known for his emotionally intense sermons."
+        },
+        {
+          "term": "Town meeting",
+          "def": "A form of local colonial self-government, especially common in New England, where citizens gathered to make community decisions."
+        },
+        {
+          "term": "Colonial assembly",
+          "def": "An early representative legislative body in the colonies, providing colonists some degree of self-governance."
+        },
+        {
+          "term": "Triangular trade",
+          "def": "A trade network connecting Europe, Africa, and the Americas, including the transatlantic slave trade."
+        }
+      ],
+      "examples": [
+        "Jonathan Edwards's sermon \"Sinners in the Hands of an Angry God\" exemplifies the emotionally intense preaching style of the Great Awakening.",
+        "New England town meetings allowed colonists to directly participate in local governance decisions."
+      ],
+      "steps": [
+        "The Great Awakening spreads through the colonies in the 1730s-40s, emphasizing personal religious experience.",
+        "This religious revival encourages a more individualistic, less hierarchical approach to religious practice.",
+        "Colonial self-government develops through town meetings and colonial assemblies.",
+        "These early self-governing institutions lay groundwork for later revolutionary political ideas."
+      ],
+      "remember": [
+        "The Great Awakening (1730s-40s) was a religious revival emphasizing personal religious experience.",
+        "Jonathan Edwards was a prominent preacher associated with the Great Awakening.",
+        "Town meetings and colonial assemblies provided early forms of colonial self-government.",
+        "The triangular trade connected Europe, Africa, and the Americas, including the transatlantic slave trade."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What was the \"Great Awakening\"?",
+          "options": [
+            "A political revolution",
+            "A religious revival movement emphasizing personal religious experience",
+            "A trade agreement",
+            "A military conflict"
+          ],
+          "correct": 1,
+          "explanation": "The Great Awakening was a religious revival movement in the colonies."
+        },
+        {
+          "q": "Who was Jonathan Edwards?",
+          "options": [
+            "A colonial governor",
+            "A prominent preacher of the Great Awakening",
+            "A military general",
+            "A trade merchant"
+          ],
+          "correct": 1,
+          "explanation": "Jonathan Edwards was a prominent Great Awakening preacher."
+        },
+        {
+          "q": "What was a \"town meeting\"?",
+          "options": [
+            "A religious ceremony",
+            "A form of local colonial self-government, especially in New England",
+            "A trade negotiation",
+            "A military strategy session"
+          ],
+          "correct": 1,
+          "explanation": "Town meetings were a form of local colonial self-government."
+        },
+        {
+          "q": "What was the \"triangular trade\"?",
+          "options": [
+            "A trade network only within Europe",
+            "A trade network connecting Europe, Africa, and the Americas, including the slave trade",
+            "A religious institution",
+            "A colonial assembly"
+          ],
+          "correct": 1,
+          "explanation": "The triangular trade connected Europe, Africa, and the Americas."
+        },
+        {
+          "q": "What did colonial assemblies provide?",
+          "options": [
+            "Religious authority only",
+            "Colonists some degree of self-governance through representative bodies",
+            "Military command",
+            "Trade regulation only"
+          ],
+          "correct": 1,
+          "explanation": "Colonial assemblies provided colonists with representative self-governance."
+        }
+      ]
+    }
+  },
+  "Road to Independence": {
+    "guide": {
+      "explanation": "Rising tensions between Britain and its American colonies stemmed from new taxes and regulations imposed after the costly French and Indian War — including the Stamp Act (1765) and the Townshend Acts — met with colonial resistance under the rallying cry \"no taxation without representation.\" Escalating incidents, including the Boston Massacre (1770) and the Boston Tea Party (1773), pushed the colonies toward organized resistance through the Continental Congress.",
+      "keyTerms": [
+        {
+          "term": "French and Indian War",
+          "def": "A conflict (1754-1763) between Britain and France for control of North American territory, leaving Britain in debt."
+        },
+        {
+          "term": "Stamp Act",
+          "def": "A 1765 British tax requiring colonists to pay for stamps on printed materials, sparking significant colonial protest."
+        },
+        {
+          "term": "No taxation without representation",
+          "def": "The colonial rallying cry protesting British taxes imposed without colonial representation in Parliament."
+        },
+        {
+          "term": "Boston Tea Party",
+          "def": "A 1773 protest in which colonists destroyed a shipment of British tea to protest taxation."
+        },
+        {
+          "term": "Continental Congress",
+          "def": "A convention of colonial delegates formed to coordinate resistance to British policies."
+        }
+      ],
+      "examples": [
+        "The Stamp Act of 1765 sparked widespread colonial protest, leading to its repeal the following year.",
+        "The Boston Tea Party (1773) was a direct protest against the Tea Act, resulting in British retaliation through the Coercive Acts."
+      ],
+      "steps": [
+        "The French and Indian War (1754-1763) leaves Britain deeply in debt.",
+        "Britain imposes new taxes on the colonies, like the Stamp Act, to help pay this debt.",
+        "Colonists protest under the principle of \"no taxation without representation.\"",
+        "Escalating incidents, like the Boston Tea Party, lead to the formation of the Continental Congress."
+      ],
+      "remember": [
+        "The French and Indian War left Britain in debt, prompting new colonial taxes.",
+        "The Stamp Act (1765) sparked major colonial protest over \"no taxation without representation.\"",
+        "The Boston Tea Party (1773) was a direct protest against British tea taxation.",
+        "The Continental Congress coordinated organized colonial resistance to British policy."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What conflict left Britain deeply in debt, prompting new colonial taxes?",
+          "options": [
+            "The Revolutionary War",
+            "The French and Indian War",
+            "The Civil War",
+            "The War of 1812"
+          ],
+          "correct": 1,
+          "explanation": "The French and Indian War left Britain in debt."
+        },
+        {
+          "q": "What was the \"Stamp Act\"?",
+          "options": [
+            "A trade agreement",
+            "A 1765 British tax requiring colonists to pay for stamps on printed materials",
+            "A military draft",
+            "A religious law"
+          ],
+          "correct": 1,
+          "explanation": "The Stamp Act was a 1765 tax on printed materials."
+        },
+        {
+          "q": "What did \"no taxation without representation\" protest?",
+          "options": [
+            "Religious taxes",
+            "British taxes imposed without colonial representation in Parliament",
+            "Trade with France",
+            "Military conscription"
+          ],
+          "correct": 1,
+          "explanation": "This slogan protested taxation without colonial representation."
+        },
+        {
+          "q": "What was the \"Boston Tea Party\"?",
+          "options": [
+            "A social gathering",
+            "A 1773 protest destroying a shipment of British tea",
+            "A trade agreement",
+            "A military battle"
+          ],
+          "correct": 1,
+          "explanation": "The Boston Tea Party was a 1773 protest against British tea taxation."
+        },
+        {
+          "q": "What was the purpose of the \"Continental Congress\"?",
+          "options": [
+            "To negotiate trade with France",
+            "To coordinate colonial resistance to British policies",
+            "To establish a new religion",
+            "To fight the French and Indian War"
+          ],
+          "correct": 1,
+          "explanation": "The Continental Congress coordinated colonial resistance to Britain."
+        }
+      ]
+    }
+  },
+  "The American Revolutionary War (1775–1783)": {
+    "guide": {
+      "explanation": "The Revolutionary War began with the battles of Lexington and Concord (1775) and formally launched American independence with the Declaration of Independence (1776), primarily authored by Thomas Jefferson. Key turning points included the American victory at Saratoga (1777), which helped secure French support, and the eventual British surrender at Yorktown (1781), effectively ending major combat and leading to the Treaty of Paris (1783).",
+      "keyTerms": [
+        {
+          "term": "Lexington and Concord",
+          "def": "The first battles of the Revolutionary War, fought in Massachusetts in April 1775."
+        },
+        {
+          "term": "Declaration of Independence",
+          "def": "The 1776 document, primarily authored by Thomas Jefferson, formally declaring American independence from Britain."
+        },
+        {
+          "term": "Battle of Saratoga",
+          "def": "A pivotal 1777 American victory that helped secure French support for the American cause."
+        },
+        {
+          "term": "Battle of Yorktown",
+          "def": "The decisive 1781 battle where British General Cornwallis surrendered, effectively ending major combat."
+        },
+        {
+          "term": "Treaty of Paris (1783)",
+          "def": "The treaty formally ending the Revolutionary War and recognizing American independence."
+        }
+      ],
+      "examples": [
+        "The American victory at Saratoga in 1777 convinced France to formally ally with the American cause, providing crucial military support.",
+        "General Cornwallis's surrender at Yorktown in 1781 effectively ended major fighting in the war."
+      ],
+      "steps": [
+        "The war begins with the battles of Lexington and Concord in April 1775.",
+        "The Declaration of Independence formally declares American independence in July 1776.",
+        "The American victory at Saratoga in 1777 secures crucial French support.",
+        "British surrender at Yorktown in 1781 leads to the Treaty of Paris in 1783, ending the war."
+      ],
+      "remember": [
+        "The Revolutionary War began with the battles of Lexington and Concord in 1775.",
+        "Thomas Jefferson primarily authored the Declaration of Independence (1776).",
+        "The Battle of Saratoga (1777) secured crucial French support for the American cause.",
+        "The Battle of Yorktown (1781) and the Treaty of Paris (1783) ended the war."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What were the first battles of the Revolutionary War?",
+          "options": [
+            "Saratoga and Yorktown",
+            "Lexington and Concord",
+            "Bunker Hill and Trenton",
+            "Gettysburg and Antietam"
+          ],
+          "correct": 1,
+          "explanation": "Lexington and Concord were the first battles, fought in 1775."
+        },
+        {
+          "q": "Who primarily authored the Declaration of Independence?",
+          "options": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Benjamin Franklin",
+            "John Adams"
+          ],
+          "correct": 1,
+          "explanation": "Thomas Jefferson primarily authored the Declaration of Independence."
+        },
+        {
+          "q": "What was significant about the Battle of Saratoga (1777)?",
+          "options": [
+            "It ended the war",
+            "It helped secure French support for the American cause",
+            "It was a British victory",
+            "It was fought at sea"
+          ],
+          "correct": 1,
+          "explanation": "Saratoga helped secure crucial French support."
+        },
+        {
+          "q": "What happened at the Battle of Yorktown (1781)?",
+          "options": [
+            "The war began",
+            "British General Cornwallis surrendered, effectively ending major combat",
+            "France withdrew support",
+            "The Declaration of Independence was signed"
+          ],
+          "correct": 1,
+          "explanation": "Yorktown was where Cornwallis surrendered, ending major combat."
+        },
+        {
+          "q": "What did the Treaty of Paris (1783) accomplish?",
+          "options": [
+            "It started the war",
+            "It formally ended the Revolutionary War and recognized American independence",
+            "It created the Constitution",
+            "It established the Continental Congress"
+          ],
+          "correct": 1,
+          "explanation": "The Treaty of Paris formally ended the war and recognized independence."
+        }
+      ]
+    }
+  },
+  "Creating a Government and a Nation": {
+    "guide": {
+      "explanation": "The Articles of Confederation, America's first governing document, created a weak central government that struggled with issues like interstate trade disputes and Shays' Rebellion (1786-87), prompting the Constitutional Convention (1787) to draft a stronger federal Constitution. Key compromises, like the Great Compromise (balancing large and small state representation) and the Three-Fifths Compromise, made ratification possible, alongside the addition of the Bill of Rights to protect individual liberties.",
+      "keyTerms": [
+        {
+          "term": "Articles of Confederation",
+          "def": "America's first governing document, creating a weak central government with limited federal power."
+        },
+        {
+          "term": "Shays' Rebellion",
+          "def": "An armed uprising (1786-87) by indebted farmers, exposing weaknesses in the Articles of Confederation."
+        },
+        {
+          "term": "Great Compromise",
+          "def": "The constitutional agreement creating a bicameral Congress, balancing representation for large and small states."
+        },
+        {
+          "term": "Three-Fifths Compromise",
+          "def": "A constitutional agreement counting enslaved people as three-fifths of a person for representation and taxation purposes."
+        },
+        {
+          "term": "Bill of Rights",
+          "def": "The first ten amendments to the Constitution, protecting individual liberties, ratified in 1791."
+        }
+      ],
+      "examples": [
+        "Shays' Rebellion exposed the federal government's inability under the Articles of Confederation to respond effectively to internal unrest.",
+        "The Great Compromise created the House of Representatives (based on population) and the Senate (equal representation) to balance large and small state interests."
+      ],
+      "steps": [
+        "The Articles of Confederation create a weak central government after independence.",
+        "Weaknesses, exposed by events like Shays' Rebellion, prompt calls for a stronger government.",
+        "The Constitutional Convention (1787) drafts a new Constitution, using compromises like the Great Compromise.",
+        "The Bill of Rights is added in 1791 to protect individual liberties and secure ratification."
+      ],
+      "remember": [
+        "The Articles of Confederation created a weak central government, exposed by Shays' Rebellion.",
+        "The Great Compromise balanced large and small state representation through a bicameral Congress.",
+        "The Three-Fifths Compromise counted enslaved people as three-fifths of a person for representation.",
+        "The Bill of Rights (1791) added protections for individual liberties to the Constitution."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What were the \"Articles of Confederation\"?",
+          "options": [
+            "The final Constitution",
+            "America's first governing document, creating a weak central government",
+            "A treaty with Britain",
+            "A state law only"
+          ],
+          "correct": 1,
+          "explanation": "The Articles of Confederation was America's first governing document."
+        },
+        {
+          "q": "What was \"Shays' Rebellion\"?",
+          "options": [
+            "A slave revolt",
+            "An armed uprising by indebted farmers exposing weaknesses in the Articles of Confederation",
+            "A British invasion",
+            "A Native American conflict"
+          ],
+          "correct": 1,
+          "explanation": "Shays' Rebellion exposed weaknesses in the Articles of Confederation."
+        },
+        {
+          "q": "What did the \"Great Compromise\" establish?",
+          "options": [
+            "A unicameral Congress",
+            "A bicameral Congress balancing large and small state representation",
+            "The Bill of Rights",
+            "The Three-Fifths Compromise"
+          ],
+          "correct": 1,
+          "explanation": "The Great Compromise established a bicameral Congress."
+        },
+        {
+          "q": "What did the \"Three-Fifths Compromise\" address?",
+          "options": [
+            "Voting rights for women",
+            "Counting enslaved people as three-fifths of a person for representation and taxation",
+            "Presidential term limits",
+            "State boundaries"
+          ],
+          "correct": 1,
+          "explanation": "The Three-Fifths Compromise counted enslaved people as three-fifths for representation."
+        },
+        {
+          "q": "What is the \"Bill of Rights\"?",
+          "options": [
+            "The original Constitution",
+            "The first ten amendments protecting individual liberties, ratified in 1791",
+            "A state law",
+            "A treaty with France"
+          ],
+          "correct": 1,
+          "explanation": "The Bill of Rights consists of the first ten constitutional amendments."
+        }
+      ]
+    }
+  },
+  "The Federalist Era and Jeffersonian Era": {
+    "guide": {
+      "explanation": "George Washington's presidency established key precedents, including a two-term tradition and a neutral foreign policy, while the emergence of Federalists (led by Alexander Hamilton, favoring strong federal power) and Democratic-Republicans (led by Thomas Jefferson, favoring states' rights) created America's first political party system. Jefferson's presidency, beginning in 1801, included the Louisiana Purchase (1803), which doubled the nation's size, despite his party's general preference for limited federal power.",
+      "keyTerms": [
+        {
+          "term": "Federalists",
+          "def": "An early political party, led by Alexander Hamilton, favoring a strong federal government."
+        },
+        {
+          "term": "Democratic-Republicans",
+          "def": "An early political party, led by Thomas Jefferson, favoring states' rights and limited federal power."
+        },
+        {
+          "term": "Louisiana Purchase",
+          "def": "The 1803 purchase of French territory that doubled the size of the United States."
+        },
+        {
+          "term": "Alexander Hamilton",
+          "def": "The first Secretary of the Treasury, advocate for a strong federal government and national bank."
+        },
+        {
+          "term": "Judicial review",
+          "def": "The power of courts to declare laws unconstitutional, established by Marbury v. Madison (1803)."
+        }
+      ],
+      "examples": [
+        "Alexander Hamilton's plan for a national bank reflected the Federalist preference for a strong, active federal government.",
+        "Thomas Jefferson's Louisiana Purchase (1803) doubled the size of the nation, despite his party's usual preference for limited federal power."
+      ],
+      "steps": [
+        "George Washington's presidency establishes key precedents, like the two-term tradition.",
+        "Federalists and Democratic-Republicans emerge as America's first political parties, with opposing views on federal power.",
+        "Thomas Jefferson becomes president in 1801, representing the Democratic-Republicans.",
+        "The Louisiana Purchase (1803) doubles the nation's size during Jefferson's presidency."
+      ],
+      "remember": [
+        "Federalists (Hamilton) favored strong federal power; Democratic-Republicans (Jefferson) favored states' rights.",
+        "The Louisiana Purchase (1803) doubled the size of the United States.",
+        "Marbury v. Madison (1803) established the principle of judicial review.",
+        "George Washington's presidency established key precedents, including a two-term tradition."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "Who led the Federalist party?",
+          "options": [
+            "Thomas Jefferson",
+            "Alexander Hamilton",
+            "George Washington",
+            "James Madison"
+          ],
+          "correct": 1,
+          "explanation": "Alexander Hamilton led the Federalist party."
+        },
+        {
+          "q": "What did the Democratic-Republicans favor?",
+          "options": [
+            "A strong federal government",
+            "States' rights and limited federal power",
+            "A national bank",
+            "A monarchy"
+          ],
+          "correct": 1,
+          "explanation": "Democratic-Republicans favored states' rights and limited federal power."
+        },
+        {
+          "q": "What was the \"Louisiana Purchase\"?",
+          "options": [
+            "A trade agreement with Britain",
+            "The 1803 purchase of French territory that doubled the size of the United States",
+            "A treaty with Spain",
+            "A Native American land cession"
+          ],
+          "correct": 1,
+          "explanation": "The Louisiana Purchase doubled the size of the United States in 1803."
+        },
+        {
+          "q": "What did Marbury v. Madison (1803) establish?",
+          "options": [
+            "The Louisiana Purchase",
+            "Judicial review — the power of courts to declare laws unconstitutional",
+            "The two-party system",
+            "The Bill of Rights"
+          ],
+          "correct": 1,
+          "explanation": "Marbury v. Madison established the principle of judicial review."
+        },
+        {
+          "q": "What precedent did George Washington's presidency establish?",
+          "options": [
+            "A monarchy",
+            "A two-term tradition and neutral foreign policy",
+            "A one-party system",
+            "State secession"
+          ],
+          "correct": 1,
+          "explanation": "Washington established the two-term tradition and neutral foreign policy."
+        }
+      ]
+    }
+  },
+  "The Era of Good Feelings until John Quincy Adams Administration": {
+    "guide": {
+      "explanation": "The \"Era of Good Feelings\" (roughly 1815-1825) followed the War of 1812, marked by a temporary decline in partisan conflict as the Federalist party collapsed, though sectional tensions over slavery and economic policy began to resurface, notably during the Missouri Compromise debates (1820). The disputed 1824 election, decided by the House of Representatives in favor of John Quincy Adams over Andrew Jackson (despite Jackson winning more popular and electoral votes), was controversially dubbed a \"corrupt bargain\" by Jackson's supporters.",
+      "keyTerms": [
+        {
+          "term": "Era of Good Feelings",
+          "def": "A period (roughly 1815-1825) marked by a temporary decline in partisan political conflict following the War of 1812."
+        },
+        {
+          "term": "War of 1812",
+          "def": "A conflict between the United States and Britain, fostering a surge of American nationalism afterward."
+        },
+        {
+          "term": "Missouri Compromise",
+          "def": "An 1820 agreement addressing the balance of slave and free states, admitting Missouri as a slave state and Maine as a free state."
+        },
+        {
+          "term": "Election of 1824",
+          "def": "A disputed presidential election decided by the House of Representatives in favor of John Quincy Adams over Andrew Jackson."
+        },
+        {
+          "term": "Corrupt bargain",
+          "def": "The term Jackson's supporters used to describe the 1824 election outcome, alleging political favoritism."
+        }
+      ],
+      "examples": [
+        "The collapse of the Federalist party after the War of 1812 contributed to the relative political calm of the Era of Good Feelings.",
+        "Andrew Jackson's supporters called the 1824 election a \"corrupt bargain\" after he lost the presidency despite winning more popular and electoral votes than John Quincy Adams."
+      ],
+      "steps": [
+        "The War of 1812 concludes, fostering a surge of American nationalism.",
+        "The Federalist party collapses, temporarily reducing partisan political conflict.",
+        "Sectional tensions over slavery resurface, addressed temporarily by the Missouri Compromise (1820).",
+        "The disputed 1824 election is decided by the House of Representatives in favor of John Quincy Adams."
+      ],
+      "remember": [
+        "The Era of Good Feelings followed the War of 1812, marked by reduced partisan conflict.",
+        "The Missouri Compromise (1820) addressed the balance of slave and free states.",
+        "The 1824 election was decided by the House of Representatives in favor of John Quincy Adams over Jackson.",
+        "Jackson's supporters called the 1824 outcome a \"corrupt bargain.\""
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What followed the War of 1812, contributing to the \"Era of Good Feelings\"?",
+          "options": [
+            "Increased partisan conflict",
+            "The collapse of the Federalist party and reduced partisan conflict",
+            "A new civil war",
+            "European invasion"
+          ],
+          "correct": 1,
+          "explanation": "The Federalist party's collapse contributed to reduced partisan conflict."
+        },
+        {
+          "q": "What did the Missouri Compromise (1820) address?",
+          "options": [
+            "Foreign trade",
+            "The balance of slave and free states",
+            "Presidential term limits",
+            "Native American treaties"
+          ],
+          "correct": 1,
+          "explanation": "The Missouri Compromise addressed the balance of slave and free states."
+        },
+        {
+          "q": "Who won the disputed 1824 presidential election?",
+          "options": [
+            "Andrew Jackson",
+            "John Quincy Adams",
+            "James Monroe",
+            "Henry Clay"
+          ],
+          "correct": 1,
+          "explanation": "John Quincy Adams won the disputed 1824 election, decided by the House of Representatives."
+        },
+        {
+          "q": "What did Jackson's supporters call the outcome of the 1824 election?",
+          "options": [
+            "A fair election",
+            "A \"corrupt bargain\"",
+            "A landslide victory",
+            "A peaceful transition"
+          ],
+          "correct": 1,
+          "explanation": "Jackson's supporters called it a \"corrupt bargain.\""
+        },
+        {
+          "q": "Which state was admitted as a free state under the Missouri Compromise?",
+          "options": [
+            "Missouri",
+            "Maine",
+            "Kansas",
+            "Texas"
+          ],
+          "correct": 1,
+          "explanation": "Maine was admitted as a free state under the Missouri Compromise."
+        }
+      ]
+    }
+  },
+  "Jacksonian Democracy and the Antebellum Era": {
+    "guide": {
+      "explanation": "Andrew Jackson's presidency (1829-1837) expanded suffrage for white men and championed the \"common man,\" while also implementing controversial policies like the Indian Removal Act (1830), which led to the forced relocation of Native American tribes, including the deadly Trail of Tears. Jackson also fought the \"Bank War\" against the Second Bank of the United States, which he viewed as favoring wealthy elites over ordinary citizens.",
+      "keyTerms": [
+        {
+          "term": "Jacksonian Democracy",
+          "def": "A political movement associated with Andrew Jackson, emphasizing expanded voting rights for white men and appeals to the \"common man.\""
+        },
+        {
+          "term": "Indian Removal Act",
+          "def": "An 1830 law authorizing the forced relocation of Native American tribes from their ancestral lands."
+        },
+        {
+          "term": "Trail of Tears",
+          "def": "The forced, deadly relocation of the Cherokee and other tribes to territory west of the Mississippi River."
+        },
+        {
+          "term": "Bank War",
+          "def": "Andrew Jackson's political conflict against the Second Bank of the United States, which he opposed as favoring wealthy elites."
+        },
+        {
+          "term": "Spoils system",
+          "def": "The practice of rewarding political supporters with government jobs, expanded significantly under Jackson."
+        }
+      ],
+      "examples": [
+        "The Trail of Tears resulted in thousands of Cherokee deaths during their forced relocation to Indian Territory.",
+        "Jackson's veto of the Second Bank of the United States' recharter reflected his \"Bank War\" against concentrated financial power."
+      ],
+      "steps": [
+        "Jacksonian Democracy expands voting rights for white men and champions the \"common man.\"",
+        "The Indian Removal Act (1830) authorizes the forced relocation of Native American tribes.",
+        "The resulting Trail of Tears leads to thousands of deaths among relocated tribes.",
+        "Jackson's \"Bank War\" leads to the destruction of the Second Bank of the United States."
+      ],
+      "remember": [
+        "Jacksonian Democracy expanded suffrage for white men and championed the \"common man.\"",
+        "The Indian Removal Act (1830) led to the forced relocation of Native American tribes.",
+        "The Trail of Tears was the deadly forced relocation of the Cherokee and other tribes.",
+        "Jackson's \"Bank War\" targeted the Second Bank of the United States."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did \"Jacksonian Democracy\" emphasize?",
+          "options": [
+            "Restricted voting rights",
+            "Expanded voting rights for white men and appeals to the \"common man\"",
+            "Only elite voting rights",
+            "Native American self-governance"
+          ],
+          "correct": 1,
+          "explanation": "Jacksonian Democracy emphasized expanded suffrage for white men."
+        },
+        {
+          "q": "What did the \"Indian Removal Act\" (1830) authorize?",
+          "options": [
+            "Native American voting rights",
+            "The forced relocation of Native American tribes from their ancestral lands",
+            "A new Native American government",
+            "Land grants to tribes"
+          ],
+          "correct": 1,
+          "explanation": "The Indian Removal Act authorized forced relocation of Native American tribes."
+        },
+        {
+          "q": "What was the \"Trail of Tears\"?",
+          "options": [
+            "A trade route",
+            "The deadly forced relocation of the Cherokee and other tribes",
+            "A military campaign against Britain",
+            "A religious pilgrimage"
+          ],
+          "correct": 1,
+          "explanation": "The Trail of Tears was the deadly forced relocation of Native American tribes."
+        },
+        {
+          "q": "What was Jackson's \"Bank War\" directed against?",
+          "options": [
+            "Foreign banks",
+            "The Second Bank of the United States",
+            "State governments",
+            "Native American tribes"
+          ],
+          "correct": 1,
+          "explanation": "The Bank War targeted the Second Bank of the United States."
+        },
+        {
+          "q": "What was the \"spoils system\"?",
+          "options": [
+            "A tax policy",
+            "The practice of rewarding political supporters with government jobs",
+            "A trade agreement",
+            "A military draft"
+          ],
+          "correct": 1,
+          "explanation": "The spoils system rewarded political supporters with government jobs."
+        }
+      ]
+    }
+  },
+  "Manifest Destiny and Westward Expansion (1820–1860)": {
+    "guide": {
+      "explanation": "Manifest Destiny — the widely held belief that American expansion across the continent was inevitable and divinely sanctioned — drove westward migration and territorial acquisition throughout the mid-19th century, including the annexation of Texas (1845) and the Mexican-American War (1846-1848), which resulted in the U.S. gaining vast Southwestern territory. This rapid expansion intensified debates over whether new territories would permit or prohibit slavery.",
+      "keyTerms": [
+        {
+          "term": "Manifest Destiny",
+          "def": "The widely held 19th-century belief that American expansion across the continent was inevitable and divinely sanctioned."
+        },
+        {
+          "term": "Texas Annexation",
+          "def": "The 1845 addition of Texas as a U.S. state, following its independence from Mexico."
+        },
+        {
+          "term": "Mexican-American War",
+          "def": "A conflict (1846-1848) resulting in the U.S. gaining significant Southwestern territory from Mexico."
+        },
+        {
+          "term": "Treaty of Guadalupe Hidalgo",
+          "def": "The 1848 treaty ending the Mexican-American War, ceding vast territory to the United States."
+        },
+        {
+          "term": "Oregon Trail",
+          "def": "A major overland route used by settlers migrating to the Pacific Northwest during westward expansion."
+        }
+      ],
+      "examples": [
+        "The Treaty of Guadalupe Hidalgo (1848) transferred present-day California, Nevada, Utah, and parts of other states to the United States.",
+        "Thousands of settlers used the Oregon Trail to migrate westward in pursuit of new land and opportunity."
+      ],
+      "steps": [
+        "Manifest Destiny fuels the belief that American expansion across the continent is inevitable.",
+        "Texas is annexed as a U.S. state in 1845, following its earlier independence from Mexico.",
+        "The Mexican-American War (1846-1848) results in significant U.S. territorial gains.",
+        "The Treaty of Guadalupe Hidalgo (1848) formalizes this territorial acquisition, intensifying slavery debates in new territories."
+      ],
+      "remember": [
+        "Manifest Destiny was the belief that American continental expansion was inevitable and divinely sanctioned.",
+        "Texas was annexed as a U.S. state in 1845.",
+        "The Mexican-American War (1846-1848) resulted in major U.S. territorial gains in the Southwest.",
+        "The Treaty of Guadalupe Hidalgo (1848) formalized this territorial transfer."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What was \"Manifest Destiny\"?",
+          "options": [
+            "A trade policy",
+            "The belief that American expansion across the continent was inevitable and divinely sanctioned",
+            "A military alliance",
+            "A religious denomination"
+          ],
+          "correct": 1,
+          "explanation": "Manifest Destiny was the belief in inevitable American continental expansion."
+        },
+        {
+          "q": "When was Texas annexed as a U.S. state?",
+          "options": [
+            "1836",
+            "1845",
+            "1848",
+            "1850"
+          ],
+          "correct": 1,
+          "explanation": "Texas was annexed as a U.S. state in 1845."
+        },
+        {
+          "q": "What resulted from the Mexican-American War (1846-1848)?",
+          "options": [
+            "Mexico gained U.S. territory",
+            "The U.S. gained significant Southwestern territory from Mexico",
+            "No territorial changes occurred",
+            "Texas became independent again"
+          ],
+          "correct": 1,
+          "explanation": "The war resulted in the U.S. gaining significant Southwestern territory."
+        },
+        {
+          "q": "What did the Treaty of Guadalupe Hidalgo (1848) accomplish?",
+          "options": [
+            "It started the Mexican-American War",
+            "It ended the Mexican-American War, ceding territory to the U.S.",
+            "It annexed Texas",
+            "It abolished slavery"
+          ],
+          "correct": 1,
+          "explanation": "The treaty ended the war and ceded territory to the United States."
+        },
+        {
+          "q": "What was the \"Oregon Trail\"?",
+          "options": [
+            "A railroad line",
+            "A major overland route used by settlers migrating to the Pacific Northwest",
+            "A naval route",
+            "A trade agreement with Mexico"
+          ],
+          "correct": 1,
+          "explanation": "The Oregon Trail was a major overland migration route to the Pacific Northwest."
+        }
+      ]
+    }
+  },
+  "Events Leading to the Civil War": {
+    "guide": {
+      "explanation": "A series of escalating sectional crises over slavery in the 1850s pushed the nation toward civil war: the Compromise of 1850 attempted to balance competing interests, the Kansas-Nebraska Act (1854) reignited conflict by allowing popular sovereignty to decide slavery's status in new territories, and the Dred Scott decision (1857) ruled that enslaved people were not citizens and could not sue in federal court. Abraham Lincoln's 1860 election, without any Southern electoral votes, triggered the secession of Southern states.",
+      "keyTerms": [
+        {
+          "term": "Compromise of 1850",
+          "def": "A set of laws attempting to balance sectional interests over slavery, including a stronger Fugitive Slave Act."
+        },
+        {
+          "term": "Kansas-Nebraska Act",
+          "def": "An 1854 law allowing popular sovereignty to determine slavery's status in the Kansas and Nebraska territories, reigniting sectional conflict."
+        },
+        {
+          "term": "Popular sovereignty",
+          "def": "The principle that residents of a territory should vote to decide whether to permit slavery."
+        },
+        {
+          "term": "Dred Scott v. Sandford",
+          "def": "An 1857 Supreme Court decision ruling that enslaved people were not citizens and could not sue in federal court."
+        },
+        {
+          "term": "Secession",
+          "def": "The formal withdrawal of Southern states from the United States following Lincoln's 1860 election."
+        }
+      ],
+      "examples": [
+        "The Kansas-Nebraska Act led to violent conflict known as \"Bleeding Kansas,\" as pro- and anti-slavery settlers clashed over the territory's future.",
+        "The Dred Scott decision inflamed sectional tensions by ruling that Congress could not prohibit slavery in the territories."
+      ],
+      "steps": [
+        "The Compromise of 1850 attempts to balance sectional interests over slavery.",
+        "The Kansas-Nebraska Act (1854) reignites conflict by introducing popular sovereignty.",
+        "The Dred Scott decision (1857) further inflames tensions by denying citizenship to enslaved people.",
+        "Lincoln's 1860 election, without Southern electoral support, triggers Southern secession."
+      ],
+      "remember": [
+        "The Compromise of 1850 attempted to balance sectional interests through several laws, including a stronger Fugitive Slave Act.",
+        "The Kansas-Nebraska Act (1854) introduced popular sovereignty, reigniting sectional conflict.",
+        "The Dred Scott decision (1857) ruled enslaved people were not citizens and could not sue in federal court.",
+        "Lincoln's 1860 election triggered the secession of Southern states."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did the \"Compromise of 1850\" attempt to do?",
+          "options": [
+            "Start the Civil War",
+            "Balance competing sectional interests over slavery",
+            "Abolish slavery entirely",
+            "Annex new Mexican territory"
+          ],
+          "correct": 1,
+          "explanation": "The Compromise of 1850 attempted to balance sectional interests."
+        },
+        {
+          "q": "What did the \"Kansas-Nebraska Act\" (1854) introduce?",
+          "options": [
+            "The abolition of slavery",
+            "Popular sovereignty to decide slavery's status in new territories",
+            "A new compromise ending sectional conflict",
+            "Southern secession"
+          ],
+          "correct": 1,
+          "explanation": "The Kansas-Nebraska Act introduced popular sovereignty."
+        },
+        {
+          "q": "What did the \"Dred Scott\" decision (1857) rule?",
+          "options": [
+            "Enslaved people were citizens",
+            "Enslaved people were not citizens and could not sue in federal court",
+            "Slavery was unconstitutional",
+            "Popular sovereignty was illegal"
+          ],
+          "correct": 1,
+          "explanation": "The Dred Scott decision ruled enslaved people were not citizens."
+        },
+        {
+          "q": "What triggered Southern secession in 1860-61?",
+          "options": [
+            "The Compromise of 1850",
+            "Abraham Lincoln's election without Southern electoral support",
+            "The Kansas-Nebraska Act alone",
+            "The Dred Scott decision alone"
+          ],
+          "correct": 1,
+          "explanation": "Lincoln's 1860 election triggered Southern secession."
+        },
+        {
+          "q": "What is \"popular sovereignty\" in this context?",
+          "options": [
+            "A federal mandate on slavery",
+            "The principle that territory residents vote to decide on slavery",
+            "A Supreme Court ruling",
+            "A presidential decree"
+          ],
+          "correct": 1,
+          "explanation": "Popular sovereignty allowed territory residents to vote on slavery."
+        }
+      ]
+    }
+  },
+  "Antebellum Culture (1820–1860)": {
+    "guide": {
+      "explanation": "The antebellum period saw significant cultural and social reform movements, including the abolitionist movement (seeking to end slavery), the temperance movement (opposing alcohol consumption), and the early women's rights movement, which gained momentum at the 1848 Seneca Falls Convention. This era also produced a distinct American literary and artistic identity, exemplified by transcendentalist writers like Ralph Waldo Emerson and Henry David Thoreau, who emphasized individualism and a spiritual connection to nature.",
+      "keyTerms": [
+        {
+          "term": "Abolitionist movement",
+          "def": "A social and political movement seeking to end slavery in the United States."
+        },
+        {
+          "term": "Seneca Falls Convention",
+          "def": "An 1848 gathering considered the start of the organized women's rights movement in the United States."
+        },
+        {
+          "term": "Transcendentalism",
+          "def": "A philosophical and literary movement emphasizing individualism, self-reliance, and a spiritual connection to nature."
+        },
+        {
+          "term": "Temperance movement",
+          "def": "A social reform movement advocating for the reduction or elimination of alcohol consumption."
+        },
+        {
+          "term": "Frederick Douglass",
+          "def": "A formerly enslaved man who became a prominent abolitionist writer and orator."
+        }
+      ],
+      "examples": [
+        "Frederick Douglass's autobiography and speeches were powerful tools in the abolitionist movement, exposing the brutal realities of slavery.",
+        "The Seneca Falls Convention (1848) produced the Declaration of Sentiments, outlining demands for women's rights, including suffrage."
+      ],
+      "steps": [
+        "The abolitionist movement grows, using writings and speeches from figures like Frederick Douglass to oppose slavery.",
+        "The temperance movement advocates for reduced or eliminated alcohol consumption.",
+        "The women's rights movement gains momentum, culminating in the Seneca Falls Convention (1848).",
+        "Transcendentalist writers like Emerson and Thoreau shape a distinct American literary and philosophical identity."
+      ],
+      "remember": [
+        "The abolitionist movement sought to end slavery, with figures like Frederick Douglass playing key roles.",
+        "The Seneca Falls Convention (1848) marked the start of the organized women's rights movement.",
+        "Transcendentalism, led by Emerson and Thoreau, emphasized individualism and connection to nature.",
+        "The temperance movement advocated against alcohol consumption during this period."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "What did the \"abolitionist movement\" seek?",
+          "options": [
+            "To expand slavery",
+            "To end slavery in the United States",
+            "To reduce alcohol consumption",
+            "To expand voting rights for men only"
+          ],
+          "correct": 1,
+          "explanation": "The abolitionist movement sought to end slavery."
+        },
+        {
+          "q": "What is the \"Seneca Falls Convention\" (1848) considered the start of?",
+          "options": [
+            "The abolitionist movement",
+            "The organized women's rights movement in the United States",
+            "The temperance movement",
+            "The Civil War"
+          ],
+          "correct": 1,
+          "explanation": "Seneca Falls is considered the start of the organized women's rights movement."
+        },
+        {
+          "q": "What did \"transcendentalism\" emphasize?",
+          "options": [
+            "Strict religious doctrine",
+            "Individualism, self-reliance, and a spiritual connection to nature",
+            "Government control",
+            "Alcohol temperance only"
+          ],
+          "correct": 1,
+          "explanation": "Transcendentalism emphasized individualism and connection to nature."
+        },
+        {
+          "q": "Who was Frederick Douglass?",
+          "options": [
+            "A transcendentalist writer only",
+            "A formerly enslaved man who became a prominent abolitionist writer and orator",
+            "A temperance movement leader",
+            "A U.S. President"
+          ],
+          "correct": 1,
+          "explanation": "Frederick Douglass was a formerly enslaved man and prominent abolitionist."
+        },
+        {
+          "q": "What did the \"temperance movement\" advocate for?",
+          "options": [
+            "Expanding alcohol production",
+            "Reducing or eliminating alcohol consumption",
+            "Ending slavery",
+            "Women's suffrage"
+          ],
+          "correct": 1,
+          "explanation": "The temperance movement advocated against alcohol consumption."
+        }
+      ]
+    }
+  },
+  "It All Started with Missouri": {
+    "guide": {
+      "explanation": "Missouri's 1819 application for statehood as a slave state ignited a major sectional crisis, since its admission threatened to upset the balance between slave and free states in the Senate. The resulting Missouri Compromise (1820) admitted Missouri as a slave state and Maine as a free state, while prohibiting slavery in the remaining Louisiana Purchase territory north of the 36°30' latitude line — a fragile compromise that temporarily calmed tensions but foreshadowed later sectional conflict.",
+      "keyTerms": [
+        {
+          "term": "Missouri Compromise",
+          "def": "An 1820 agreement admitting Missouri as a slave state and Maine as a free state, while setting a boundary for future slavery expansion."
+        },
+        {
+          "term": "36°30' line",
+          "def": "The latitude line established by the Missouri Compromise, prohibiting slavery in Louisiana Purchase territory north of it."
+        },
+        {
+          "term": "Sectional balance",
+          "def": "The political effort to maintain an equal number of slave and free states, particularly to balance Senate representation."
+        },
+        {
+          "term": "Henry Clay",
+          "def": "A prominent U.S. senator, known as the \"Great Compromiser,\" instrumental in brokering the Missouri Compromise."
+        },
+        {
+          "term": "Louisiana Purchase territory",
+          "def": "The vast territory acquired in 1803, whose future status regarding slavery became a major point of contention."
+        }
+      ],
+      "examples": [
+        "Missouri's admission as a slave state was paired with Maine's admission as a free state specifically to maintain the Senate's sectional balance.",
+        "Henry Clay played a central role in negotiating the Missouri Compromise, earning his reputation as the \"Great Compromiser.\""
+      ],
+      "steps": [
+        "Missouri applies for statehood as a slave state in 1819, threatening the Senate's sectional balance.",
+        "Congress debates how to admit Missouri without upsetting the slave/free state balance.",
+        "The Missouri Compromise (1820) admits Missouri as a slave state and Maine as a free state simultaneously.",
+        "The compromise also draws the 36°30' line, prohibiting slavery in territory north of it."
+      ],
+      "remember": [
+        "Missouri's 1819 statehood application as a slave state threatened the Senate's sectional balance.",
+        "The Missouri Compromise (1820) admitted Missouri as a slave state and Maine as a free state together.",
+        "The 36°30' line prohibited slavery in Louisiana Purchase territory north of that latitude.",
+        "Henry Clay, the \"Great Compromiser,\" was instrumental in brokering this agreement."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "Why did Missouri's 1819 statehood application cause a crisis?",
+          "options": [
+            "It had no population",
+            "Its admission as a slave state threatened the Senate's sectional balance",
+            "It rejected the Constitution",
+            "It wanted to remain a territory"
+          ],
+          "correct": 1,
+          "explanation": "Missouri's admission threatened the Senate's slave/free state balance."
+        },
+        {
+          "q": "What did the Missouri Compromise (1820) do?",
+          "options": [
+            "Admitted only Missouri",
+            "Admitted Missouri as a slave state and Maine as a free state together",
+            "Abolished slavery entirely",
+            "Ended the Louisiana Purchase"
+          ],
+          "correct": 1,
+          "explanation": "The compromise admitted Missouri and Maine together to maintain balance."
+        },
+        {
+          "q": "What did the \"36°30' line\" establish?",
+          "options": [
+            "A new state boundary only",
+            "A boundary prohibiting slavery in Louisiana Purchase territory north of it",
+            "A trade route",
+            "A military demarcation"
+          ],
+          "correct": 1,
+          "explanation": "The 36°30' line prohibited slavery north of that latitude in the territory."
+        },
+        {
+          "q": "Who was known as the \"Great Compromiser\" for his role in the Missouri Compromise?",
+          "options": [
+            "Andrew Jackson",
+            "Henry Clay",
+            "Thomas Jefferson",
+            "John Quincy Adams"
+          ],
+          "correct": 1,
+          "explanation": "Henry Clay was known as the \"Great Compromiser.\""
+        },
+        {
+          "q": "What was the main goal of \"sectional balance\" in this era?",
+          "options": [
+            "Equal representation in the House only",
+            "Maintaining an equal number of slave and free states, especially for Senate balance",
+            "Ending all sectional conflict permanently",
+            "Abolishing the Senate"
+          ],
+          "correct": 1,
+          "explanation": "Sectional balance aimed to maintain equal slave/free state representation in the Senate."
+        }
+      ]
+    }
+  },
+  "Whigs to Republican": {
+    "guide": {
+      "explanation": "The Whig Party, formed in the 1830s in opposition to Andrew Jackson, eventually collapsed in the 1850s due to internal divisions over slavery, paving the way for the emergence of the Republican Party (1854), which united former Whigs, anti-slavery Democrats, and others opposed to slavery's expansion into new territories. This political realignment set the stage for Abraham Lincoln's rise and the sectional political landscape leading into the Civil War.",
+      "keyTerms": [
+        {
+          "term": "Whig Party",
+          "def": "A political party formed in the 1830s in opposition to Andrew Jackson, eventually collapsing over internal divisions on slavery."
+        },
+        {
+          "term": "Republican Party (1854)",
+          "def": "A new political party formed in 1854, uniting former Whigs and others opposed to slavery's expansion into new territories."
+        },
+        {
+          "term": "Free Soil Party",
+          "def": "A short-lived political party opposing the expansion of slavery into new U.S. territories, whose members later joined the Republican Party."
+        },
+        {
+          "term": "Political realignment",
+          "def": "A significant, lasting shift in political party structures and coalitions, as occurred in the 1850s."
+        },
+        {
+          "term": "Abraham Lincoln",
+          "def": "A former Whig who became a leading figure in the new Republican Party, elected president in 1860."
+        }
+      ],
+      "examples": [
+        "The Whig Party's inability to maintain a unified position on slavery's expansion contributed directly to its collapse in the 1850s.",
+        "Abraham Lincoln transitioned from the Whig Party to become a prominent leader of the new Republican Party."
+      ],
+      "steps": [
+        "The Whig Party forms in the 1830s in opposition to Andrew Jackson's policies.",
+        "Internal divisions over slavery's expansion weaken and eventually collapse the Whig Party in the 1850s.",
+        "The Republican Party forms in 1854, uniting former Whigs and others opposed to slavery's expansion.",
+        "This realignment positions Abraham Lincoln as a leading Republican figure, setting the stage for his 1860 election."
+      ],
+      "remember": [
+        "The Whig Party formed in the 1830s in opposition to Andrew Jackson, collapsing in the 1850s over slavery divisions.",
+        "The Republican Party formed in 1854, uniting groups opposed to slavery's expansion.",
+        "The Free Soil Party's members later contributed to the new Republican Party.",
+        "Abraham Lincoln transitioned from the Whig Party to become a leading Republican figure."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "q": "Why was the Whig Party originally formed in the 1830s?",
+          "options": [
+            "To support Andrew Jackson",
+            "In opposition to Andrew Jackson's policies",
+            "To abolish slavery immediately",
+            "To support the Democratic-Republicans"
+          ],
+          "correct": 1,
+          "explanation": "The Whig Party formed in opposition to Andrew Jackson."
+        },
+        {
+          "q": "Why did the Whig Party eventually collapse in the 1850s?",
+          "options": [
+            "It won every election",
+            "Internal divisions over slavery's expansion",
+            "It merged with the Federalists",
+            "It had no members left"
+          ],
+          "correct": 1,
+          "explanation": "Internal divisions over slavery caused the Whig Party's collapse."
+        },
+        {
+          "q": "When was the Republican Party formed?",
+          "options": [
+            "1830",
+            "1854",
+            "1860",
+            "1865"
+          ],
+          "correct": 1,
+          "explanation": "The Republican Party was formed in 1854."
+        },
+        {
+          "q": "What united the new Republican Party's members?",
+          "options": [
+            "Support for slavery's expansion",
+            "Opposition to slavery's expansion into new territories",
+            "Support for the Whig Party",
+            "Loyalty to Andrew Jackson"
+          ],
+          "correct": 1,
+          "explanation": "Republicans were united by opposition to slavery's expansion."
+        },
+        {
+          "q": "Who transitioned from the Whig Party to become a leading Republican figure?",
+          "options": [
+            "Andrew Jackson",
+            "Abraham Lincoln",
+            "Henry Clay",
+            "John Quincy Adams"
+          ],
+          "correct": 1,
+          "explanation": "Abraham Lincoln transitioned from the Whig Party to the Republican Party."
+        }
+      ]
+    }
+  }
+}

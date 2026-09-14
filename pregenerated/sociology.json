@@ -1,0 +1,484 @@
+{
+  "Introduction to Sociology": {
+    "guide": {
+      "explanation": "Sociology is the systematic study of society, social relationships, and social institutions, using three major theoretical perspectives to interpret social life: functionalism (society as an interconnected system of parts each serving a purpose), conflict theory (society shaped by inequality and competition over resources), and symbolic interactionism (society built from everyday interactions and shared meanings). Auguste Comte, considered the father of sociology, coined the term and advocated studying society scientifically.",
+      "keyTerms": [
+        {"term": "Sociology", "def": "The systematic study of society, social relationships, and social institutions."},
+        {"term": "Functionalism", "def": "A theory viewing society as an interconnected system where each part serves a function to maintain stability."},
+        {"term": "Conflict theory", "def": "A theory viewing society as shaped by competition and inequality between groups over limited resources."},
+        {"term": "Symbolic interactionism", "def": "A theory focusing on how individuals create society through everyday interactions and shared symbols/meanings."},
+        {"term": "Sociological imagination", "def": "The ability to see the connection between personal experiences and broader social forces."}
+      ],
+      "examples": [
+        "Functionalism might explain schools as serving the function of socializing children and preparing them for the workforce.",
+        "Conflict theory might explain the same schools as reproducing social inequality between economic classes."
+      ],
+      "steps": [
+        "Functionalism: ask how a social institution or practice contributes to society's overall stability.",
+        "Conflict theory: ask how a social institution or practice reflects or reinforces inequality between groups.",
+        "Symbolic interactionism: ask how individuals create meaning through everyday interactions within that institution.",
+        "Applying all three perspectives to the same topic often reveals different, complementary insights."
+      ],
+      "remember": [
+        "The three major sociological perspectives: functionalism, conflict theory, symbolic interactionism.",
+        "Functionalism focuses on stability and each part's function; conflict theory focuses on inequality and competition.",
+        "Symbolic interactionism focuses on everyday interactions and shared meanings.",
+        "Auguste Comte, considered the father of sociology, advocated studying society scientifically."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "Which sociological perspective views society as an interconnected system where each part serves a function?", "options": ["Conflict theory", "Functionalism", "Symbolic interactionism", "Feminist theory"], "correct": 1, "explanation": "Functionalism views society as an interconnected system where each part serves a function."},
+        {"q": "Which perspective focuses on inequality and competition over resources?", "options": ["Functionalism", "Conflict theory", "Symbolic interactionism", "None of these"], "correct": 1, "explanation": "Conflict theory views society as shaped by competition and inequality between groups."},
+        {"q": "Which perspective focuses on everyday interactions and shared meanings?", "options": ["Functionalism", "Conflict theory", "Symbolic interactionism", "Structural theory"], "correct": 2, "explanation": "Symbolic interactionism focuses on everyday interactions and shared symbols."},
+        {"q": "Who is considered the father of sociology?", "options": ["Karl Marx", "Auguste Comte", "Max Weber", "Emile Durkheim"], "correct": 1, "explanation": "Auguste Comte coined the term \"sociology\" and advocated studying society scientifically."},
+        {"q": "What is the \"sociological imagination\"?", "options": ["A type of research method", "The ability to see the connection between personal experiences and broader social forces", "A theory of deviance", "A type of social institution"], "correct": 1, "explanation": "The sociological imagination connects personal experiences to broader social forces."}
+      ]
+    }
+  },
+  "Sociological Research": {
+    "guide": {
+      "explanation": "Sociologists use the scientific method to study social phenomena, choosing from several research methods depending on their question — surveys, participant observation, experiments, and secondary data analysis. Ethical research requires informed consent, confidentiality, and avoiding harm to participants.",
+      "keyTerms": [
+        {"term": "Survey", "def": "A research method gathering data from a large number of respondents, often through questionnaires."},
+        {"term": "Participant observation", "def": "A research method where the researcher immerses themselves in a group to observe firsthand."},
+        {"term": "Correlation", "def": "A relationship between two variables, which does not by itself prove causation."},
+        {"term": "Causation", "def": "A relationship where one variable directly causes a change in another."},
+        {"term": "Informed consent", "def": "A research ethics principle requiring participants to understand and agree to the study before participating."}
+      ],
+      "examples": [
+        "A survey of 1,000 college students about study habits is a quantitative research method gathering broad data.",
+        "Participant observation might involve a researcher living within a community for months to understand its social dynamics firsthand."
+      ],
+      "steps": [
+        "Identify whether two variables tend to change together (correlation).",
+        "Consider whether a third, unaccounted variable might explain the relationship (a confounding variable).",
+        "Determine whether a controlled experiment has established that one variable directly causes change in the other.",
+        "Avoid assuming causation from correlation alone without further evidence."
+      ],
+      "remember": [
+        "Common research methods: surveys, participant observation, experiments, secondary data analysis.",
+        "Correlation does not by itself prove causation — a third variable might explain the relationship.",
+        "Ethical research requires informed consent, confidentiality, and avoiding harm to participants.",
+        "Participant observation involves the researcher immersing themselves directly in the group being studied."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"survey\" research method?", "options": ["Immersing oneself in a group", "Gathering data from many respondents, often through questionnaires", "A controlled experiment", "Using only existing data"], "correct": 1, "explanation": "A survey gathers data from many respondents, often through questionnaires."},
+        {"q": "What is \"participant observation\"?", "options": ["A type of survey", "A researcher immersing themselves in a group to observe firsthand", "A controlled experiment", "Secondary data analysis"], "correct": 1, "explanation": "Participant observation involves a researcher immersing themselves in a group."},
+        {"q": "Does correlation prove causation?", "options": ["Yes, always", "No, correlation alone does not prove causation", "Only in surveys", "Only in experiments"], "correct": 1, "explanation": "Correlation does not by itself prove causation."},
+        {"q": "What is \"informed consent\"?", "options": ["A statistical method", "A research ethics principle requiring participants to understand and agree to a study", "A type of survey", "A theory of deviance"], "correct": 1, "explanation": "Informed consent requires participants to understand and agree to a study."},
+        {"q": "What ethical considerations are required in sociological research?", "options": ["None are required", "Informed consent, confidentiality, and avoiding harm to participants", "Only informed consent", "Only confidentiality"], "correct": 1, "explanation": "Ethical research requires informed consent, confidentiality, and avoiding harm."}
+      ]
+    }
+  },
+  "Culture": {
+    "guide": {
+      "explanation": "Culture encompasses the shared beliefs, values, norms, and practices of a group, including both material culture (physical objects) and nonmaterial culture (ideas, values, and symbols). Cultural relativism (understanding a culture on its own terms) contrasts with ethnocentrism (judging other cultures by one's own standards).",
+      "keyTerms": [
+        {"term": "Culture", "def": "The shared beliefs, values, norms, and practices of a group."},
+        {"term": "Material culture", "def": "The physical objects created and used by a culture."},
+        {"term": "Nonmaterial culture", "def": "The ideas, values, beliefs, and symbols shared by a culture."},
+        {"term": "Norms", "def": "Shared rules and expectations guiding behavior within a culture."},
+        {"term": "Ethnocentrism", "def": "Judging other cultures by the standards of one's own culture."},
+        {"term": "Cultural relativism", "def": "Understanding and evaluating a culture based on its own standards, not another's."}
+      ],
+      "examples": [
+        "A country's flag is an example of material culture; the patriotic values it represents are nonmaterial culture.",
+        "Ethnocentrism might lead someone to judge unfamiliar food customs as \"wrong,\" while cultural relativism would seek to understand those customs within their own context."
+      ],
+      "steps": [
+        "Ask: is this a physical, tangible object? If yes, it's material culture.",
+        "Ask: is this an idea, value, belief, or symbol? If yes, it's nonmaterial culture.",
+        "Recognize that material and nonmaterial culture are often linked.",
+        "Apply cultural relativism, rather than ethnocentrism, when evaluating unfamiliar cultural practices."
+      ],
+      "remember": [
+        "Material culture consists of physical objects; nonmaterial culture consists of ideas, values, and symbols.",
+        "Norms are shared rules and expectations guiding behavior within a culture.",
+        "Ethnocentrism judges other cultures by one's own standards; cultural relativism evaluates a culture on its own terms.",
+        "Subcultures and countercultures show variation within a larger, dominant culture."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"material culture\"?", "options": ["Ideas and values", "The physical objects created and used by a culture", "A type of norm", "A research method"], "correct": 1, "explanation": "Material culture consists of physical objects."},
+        {"q": "What is \"nonmaterial culture\"?", "options": ["Physical objects", "The ideas, values, beliefs, and symbols shared by a culture", "A type of survey", "A research method"], "correct": 1, "explanation": "Nonmaterial culture consists of ideas, values, beliefs, and symbols."},
+        {"q": "What is \"ethnocentrism\"?", "options": ["Understanding a culture on its own terms", "Judging other cultures by the standards of one's own culture", "A type of material culture", "A research ethic"], "correct": 1, "explanation": "Ethnocentrism is judging other cultures by one's own standards."},
+        {"q": "What is \"cultural relativism\"?", "options": ["Judging cultures by one's own standards", "Understanding and evaluating a culture based on its own standards", "A type of subculture", "A research method"], "correct": 1, "explanation": "Cultural relativism evaluates a culture based on its own standards."},
+        {"q": "What are \"norms\"?", "options": ["Physical objects", "Shared rules and expectations guiding behavior within a culture", "A research method", "A type of ethnocentrism"], "correct": 1, "explanation": "Norms are shared rules and expectations guiding behavior."}
+      ]
+    }
+  },
+  "Society and Social Interaction": {
+    "guide": {
+      "explanation": "Societies can be classified by their level of technological and economic development, from hunting-and-gathering societies to industrial and postindustrial societies. Social interaction is shaped by status (a recognized social position) and role (the expected behaviors associated with that status).",
+      "keyTerms": [
+        {"term": "Society", "def": "A group of people who share a culture and territory."},
+        {"term": "Status", "def": "A recognized social position within a society."},
+        {"term": "Role", "def": "The expected behaviors associated with a particular status."},
+        {"term": "Ascribed status", "def": "A social position assigned at birth or involuntarily."},
+        {"term": "Achieved status", "def": "A social position gained through effort or choice."}
+      ],
+      "examples": [
+        "Being someone's daughter is an ascribed status; becoming a nurse through years of education is an achieved status.",
+        "A person holding the status of \"teacher\" is expected to fulfill the role of preparing lessons and grading assignments."
+      ],
+      "steps": [
+        "Ask: was this status assigned at birth or involuntarily? If yes, it's ascribed.",
+        "Ask: was this status earned through effort, choice, or achievement? If yes, it's achieved.",
+        "Recognize that a person holds multiple statuses simultaneously (a status set).",
+        "Identify the role expectations associated with each specific status."
+      ],
+      "remember": [
+        "A status is a recognized social position; a role is the expected behavior associated with that status.",
+        "Ascribed status is assigned at birth or involuntarily; achieved status is earned through effort.",
+        "Societies can be classified by their level of technological/economic development.",
+        "Everyday social interactions rely on shared, often unspoken, understandings of appropriate behavior."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"status\" in sociology?", "options": ["A type of role", "A recognized social position within a society", "A research method", "A type of society"], "correct": 1, "explanation": "A status is a recognized social position within a society."},
+        {"q": "What is a \"role\"?", "options": ["A social position", "The expected behaviors associated with a particular status", "A type of culture", "A research method"], "correct": 1, "explanation": "A role is the expected behaviors associated with a status."},
+        {"q": "What is an example of an \"ascribed status\"?", "options": ["Becoming a doctor", "Being born into a specific family", "Earning a promotion", "Choosing a career"], "correct": 1, "explanation": "Being born into a specific family is an ascribed status."},
+        {"q": "What is an example of an \"achieved status\"?", "options": ["Being someone's son", "Being born in a certain country", "Becoming a nurse through education", "Being a certain age"], "correct": 2, "explanation": "Becoming a nurse through education is an achieved status."},
+        {"q": "What does everyday social interaction rely on?", "options": ["No shared understanding at all", "Shared, often unspoken, understandings of appropriate behavior", "Only formal written rules", "Random behavior"], "correct": 1, "explanation": "Social interaction relies on shared, often unspoken, understandings."}
+      ]
+    }
+  },
+  "Socialization": {
+    "guide": {
+      "explanation": "Socialization is the lifelong process through which individuals learn the norms, values, and behaviors of their society, occurring through key agents like family, school, peers, and media. Theorists like Charles Cooley (the \"looking-glass self\") and George Herbert Mead (role-taking) explain how social interaction shapes personal identity.",
+      "keyTerms": [
+        {"term": "Socialization", "def": "The lifelong process through which individuals learn the norms, values, and behaviors of their society."},
+        {"term": "Agents of socialization", "def": "The sources through which socialization occurs, including family, school, peers, and media."},
+        {"term": "Looking-glass self", "def": "Charles Cooley's concept that self-image is shaped by how we believe others perceive us."},
+        {"term": "Role-taking", "def": "George Herbert Mead's concept describing how children learn to take on the perspective of others."},
+        {"term": "Resocialization", "def": "The process of learning new norms and values, often in a new social context, that replace previously learned ones."}
+      ],
+      "examples": [
+        "A child adjusting their behavior after imagining how a teacher perceives them demonstrates the \"looking-glass self.\"",
+        "A new employee learning workplace norms and expectations undergoes a form of resocialization."
+      ],
+      "steps": [
+        "We imagine how we appear to others in a given social situation.",
+        "We imagine how others judge that appearance.",
+        "We develop a self-feeling (like pride or embarrassment) based on that imagined judgment.",
+        "This process shapes our ongoing self-image and behavior."
+      ],
+      "remember": [
+        "Socialization is lifelong and occurs through agents like family, school, peers, and media.",
+        "The \"looking-glass self\" (Cooley) describes how self-image is shaped by perceived judgments of others.",
+        "Mead's role-taking explains how children develop a sense of self by taking on others' perspectives.",
+        "Resocialization involves learning new norms that replace previously learned ones."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"socialization\"?", "options": ["A single childhood event", "The lifelong process of learning a society's norms, values, and behaviors", "A research method", "A type of status"], "correct": 1, "explanation": "Socialization is the lifelong process of learning a society's norms and values."},
+        {"q": "What are \"agents of socialization\"?", "options": ["Government agencies only", "The sources through which socialization occurs, like family and school", "A type of status", "A research method"], "correct": 1, "explanation": "Agents of socialization include family, school, peers, and media."},
+        {"q": "What is the \"looking-glass self\"?", "options": ["A research method", "The concept that self-image is shaped by how we believe others perceive us", "A type of agent of socialization", "A theory of deviance"], "correct": 1, "explanation": "The looking-glass self describes how self-image is shaped by perceived judgments of others."},
+        {"q": "Who developed the concept of \"role-taking\" in the development of self?", "options": ["Auguste Comte", "Charles Cooley", "George Herbert Mead", "Karl Marx"], "correct": 2, "explanation": "George Herbert Mead developed the concept of role-taking."},
+        {"q": "What is \"resocialization\"?", "options": ["A one-time childhood process", "Learning new norms and values that replace previously learned ones", "A type of ascribed status", "A research method"], "correct": 1, "explanation": "Resocialization is learning new norms that replace previously learned ones."}
+      ]
+    }
+  },
+  "Groups and Organization": {
+    "guide": {
+      "explanation": "Sociologists distinguish primary groups (small, intimate, long-term, like family) from secondary groups (larger, impersonal, goal-oriented, like a workplace), and study how group dynamics shift with size. Formal organizations, especially bureaucracies, are characterized by hierarchy, division of labor, and written rules.",
+      "keyTerms": [
+        {"term": "Primary group", "def": "A small, intimate group with strong emotional bonds and long-term interaction, like family."},
+        {"term": "Secondary group", "def": "A larger, more impersonal group organized around a specific goal, like a workplace."},
+        {"term": "Dyad", "def": "A group of two people, considered the most unstable group size since either person can end it."},
+        {"term": "Bureaucracy", "def": "A formal organization characterized by hierarchy, division of labor, and written rules."},
+        {"term": "In-group and out-group", "def": "A group to which one belongs (in-group) versus a group one does not belong to (out-group)."}
+      ],
+      "examples": [
+        "A person's immediate family is a primary group, while their coworkers at a large company form a secondary group.",
+        "A large hospital's administrative structure, with clear hierarchy and specialized departments, is an example of a bureaucracy."
+      ],
+      "steps": [
+        "Ask: is the group small and based on strong, personal, long-term emotional bonds? That's a primary group.",
+        "Ask: is the group larger, more impersonal, and organized around a specific goal? That's a secondary group.",
+        "Recognize that the same person can belong to both types of groups simultaneously.",
+        "Consider how group size affects dynamics — a dyad is inherently less stable than larger groups."
+      ],
+      "remember": [
+        "Primary groups are small and intimate (family); secondary groups are larger and goal-oriented (workplace).",
+        "A dyad (two people) is considered the least stable group size.",
+        "Bureaucracies are characterized by hierarchy, division of labor, and written rules.",
+        "In-groups are groups one belongs to; out-groups are groups one does not belong to."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"primary group\"?", "options": ["A large, impersonal group", "A small, intimate group with strong emotional bonds", "A type of bureaucracy", "A research method"], "correct": 1, "explanation": "A primary group is small and intimate, like family."},
+        {"q": "What is a \"secondary group\"?", "options": ["A small, intimate group", "A larger, impersonal group organized around a specific goal", "A type of dyad", "A research method"], "correct": 1, "explanation": "A secondary group is larger and organized around a specific goal, like a workplace."},
+        {"q": "Why is a \"dyad\" considered the least stable group size?", "options": ["It is too large to manage", "Either person can end the group at any time", "It has too many rules", "It is a type of bureaucracy"], "correct": 1, "explanation": "A dyad is unstable because either person can end the relationship or group."},
+        {"q": "What characterizes a \"bureaucracy\"?", "options": ["No rules or structure", "Hierarchy, division of labor, and written rules", "Only informal relationships", "A single-person organization"], "correct": 1, "explanation": "A bureaucracy is characterized by hierarchy, division of labor, and written rules."},
+        {"q": "What is an \"out-group\"?", "options": ["A group one belongs to", "A group one does not belong to, sometimes viewed with bias", "A type of primary group", "A type of bureaucracy"], "correct": 1, "explanation": "An out-group is a group one does not belong to."}
+      ]
+    }
+  },
+  "Deviance, Crime, and Social Control": {
+    "guide": {
+      "explanation": "Deviance refers to behavior that violates widely accepted social norms, and sociologists explain it through theories like strain theory (deviance results from a gap between societal goals and the means available to achieve them) and labeling theory (deviance is defined by social reaction, not the act itself). Social control works to regulate behavior and maintain social order.",
+      "keyTerms": [
+        {"term": "Deviance", "def": "Behavior that violates widely accepted social norms."},
+        {"term": "Strain theory", "def": "Robert Merton's theory that deviance results from a gap between societal goals and the legitimate means available to achieve them."},
+        {"term": "Labeling theory", "def": "A theory holding that deviance is defined by society's reaction to a behavior, not the behavior itself."},
+        {"term": "Social control", "def": "Mechanisms, both informal and formal, that regulate behavior to maintain social order."},
+        {"term": "Recidivism", "def": "The tendency of a convicted criminal to reoffend after release."}
+      ],
+      "examples": [
+        "Strain theory might explain that someone unable to achieve financial success through legitimate means may turn to illegitimate means, like theft.",
+        "Labeling theory suggests that once someone is labeled a \"criminal,\" that label can shape how they are treated and even how they see themselves."
+      ],
+      "steps": [
+        "Identify the culturally approved goal (e.g., financial success).",
+        "Identify the legitimate means available to achieve that goal (e.g., education, employment).",
+        "Recognize the \"strain\" that occurs when legitimate means are blocked or unavailable.",
+        "Understand that this strain can lead some individuals toward deviant or illegitimate means to achieve the same goal."
+      ],
+      "remember": [
+        "Deviance is behavior that violates widely accepted social norms.",
+        "Strain theory explains deviance as resulting from a gap between goals and legitimate means.",
+        "Labeling theory holds that deviance is defined by society's reaction, not the act itself.",
+        "Social control includes informal (social disapproval) and formal (laws, criminal justice) mechanisms."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"deviance\"?", "options": ["A type of social control", "Behavior that violates widely accepted social norms", "A research method", "A type of status"], "correct": 1, "explanation": "Deviance is behavior that violates widely accepted social norms."},
+        {"q": "What does \"strain theory\" propose?", "options": ["Deviance is entirely random", "Deviance results from a gap between societal goals and legitimate means to achieve them", "Deviance is defined only by labeling", "Deviance never occurs"], "correct": 1, "explanation": "Strain theory proposes deviance results from a gap between goals and legitimate means."},
+        {"q": "What does \"labeling theory\" propose?", "options": ["Deviance is an inherent trait", "Deviance is defined by society's reaction to a behavior, not the behavior itself", "Deviance is always criminal", "Deviance cannot be studied"], "correct": 1, "explanation": "Labeling theory holds that deviance is defined by society's reaction."},
+        {"q": "What is \"social control\"?", "options": ["A type of deviance", "Mechanisms that regulate behavior to maintain social order", "A research method", "A type of status"], "correct": 1, "explanation": "Social control includes informal and formal mechanisms regulating behavior."},
+        {"q": "What is \"recidivism\"?", "options": ["A type of social control", "The tendency of a convicted criminal to reoffend after release", "A theory of deviance", "A research method"], "correct": 1, "explanation": "Recidivism is the tendency to reoffend after release."}
+      ]
+    }
+  },
+  "Media and Technology": {
+    "guide": {
+      "explanation": "Media and technology shape society by influencing how information spreads, how people interact, and how cultural norms and values are transmitted. The digital divide describes unequal access to technology across different social groups, while theories about media influence range from direct effects to recognizing audiences as active interpreters of media messages.",
+      "keyTerms": [
+        {"term": "Digital divide", "def": "The gap in access to technology and the internet between different social groups."},
+        {"term": "Media", "def": "The means of mass communication, including television, the internet, and print."},
+        {"term": "Technological determinism", "def": "The theory that technology is a primary driver of social change."},
+        {"term": "Agenda-setting", "def": "The media's ability to influence which topics the public considers important."},
+        {"term": "Cyberbullying", "def": "The use of digital technology to harass or harm another person."}
+      ],
+      "examples": [
+        "Rural areas with limited broadband access illustrate the \"digital divide,\" compared to well-connected urban areas.",
+        "News outlets choosing to extensively cover certain stories over others demonstrates agenda-setting."
+      ],
+      "steps": [
+        "Consider who has access to specific media and technology, and who is excluded (the digital divide).",
+        "Consider how media coverage shapes public perception of which issues matter (agenda-setting).",
+        "Consider how technology itself might drive social change (technological determinism).",
+        "Recognize that audiences actively interpret media messages, rather than passively absorbing them."
+      ],
+      "remember": [
+        "The digital divide describes unequal access to technology across social groups.",
+        "Agenda-setting refers to media's influence on which topics the public considers important.",
+        "Technological determinism holds that technology is a primary driver of social change.",
+        "Modern theories recognize audiences as active interpreters of media, not passive recipients."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the \"digital divide\"?", "options": ["A type of media theory", "The gap in access to technology and the internet between social groups", "A research method", "A type of deviance"], "correct": 1, "explanation": "The digital divide describes unequal access to technology across social groups."},
+        {"q": "What is \"agenda-setting\"?", "options": ["A type of digital divide", "The media's ability to influence which topics the public considers important", "A research method", "A type of technology"], "correct": 1, "explanation": "Agenda-setting refers to media's influence on which topics the public considers important."},
+        {"q": "What does \"technological determinism\" propose?", "options": ["Technology has no social impact", "Technology is a primary driver of social change", "Only media determines culture", "Technology cannot change over time"], "correct": 1, "explanation": "Technological determinism holds that technology drives social change."},
+        {"q": "How do modern media theories generally view audiences?", "options": ["As passive recipients only", "As active interpreters of media messages", "As entirely unaffected by media", "As identical to media producers"], "correct": 1, "explanation": "Modern theories recognize audiences as active interpreters of media messages."},
+        {"q": "What is \"cyberbullying\"?", "options": ["A type of digital divide", "The use of digital technology to harass or harm another person", "A research method", "A type of agenda-setting"], "correct": 1, "explanation": "Cyberbullying is the use of digital technology to harass or harm another person."}
+      ]
+    }
+  },
+  "Social Stratification": {
+    "guide": {
+      "explanation": "Social stratification refers to society's system of ranking people hierarchically based on factors like wealth, power, and prestige, with sociologists distinguishing class systems (based on achieved economic position, allowing some mobility) from caste systems (based on ascribed status, typically fixed at birth). Social mobility describes movement within this hierarchy.",
+      "keyTerms": [
+        {"term": "Social stratification", "def": "Society's system of ranking people hierarchically based on wealth, power, and prestige."},
+        {"term": "Class system", "def": "A stratification system based on achieved economic position, allowing some social mobility."},
+        {"term": "Caste system", "def": "A stratification system based on ascribed status, typically fixed at birth with little mobility."},
+        {"term": "Social mobility", "def": "Movement within a society's stratification hierarchy, either upward or downward."},
+        {"term": "Life chances", "def": "An individual's opportunities to obtain material goods and favorable life experiences, often shaped by their stratification position."}
+      ],
+      "examples": [
+        "A person born into a working-class family who becomes a wealthy business owner demonstrates upward social mobility within a class system.",
+        "A traditional caste system, where a person's social position at birth largely determines their status for life, allows for very limited mobility."
+      ],
+      "steps": [
+        "Ask: is social position primarily based on achieved economic factors, with the possibility of mobility? That's a class system.",
+        "Ask: is social position primarily based on ascribed status at birth, with little to no mobility? That's a caste system.",
+        "Recognize that social mobility can be intergenerational or intragenerational.",
+        "Consider how \"life chances\" are shaped by one's position within either system."
+      ],
+      "remember": [
+        "Social stratification ranks people hierarchically based on wealth, power, and prestige.",
+        "Class systems are based on achieved economic position, allowing mobility; caste systems are based on ascribed status.",
+        "Social mobility can be intergenerational (across generations) or intragenerational (within one's lifetime).",
+        "\"Life chances\" describe an individual's opportunities, often shaped by their stratification position."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"social stratification\"?", "options": ["A research method", "Society's system of ranking people hierarchically based on wealth, power, and prestige", "A type of deviance", "A theory of media"], "correct": 1, "explanation": "Social stratification ranks people hierarchically based on wealth, power, and prestige."},
+        {"q": "What characterizes a \"class system\"?", "options": ["Fixed status at birth with no mobility", "Achieved economic position, allowing some social mobility", "No hierarchy at all", "Only informal social control"], "correct": 1, "explanation": "A class system is based on achieved economic position, allowing mobility."},
+        {"q": "What characterizes a \"caste system\"?", "options": ["Achieved status with high mobility", "Ascribed status, typically fixed at birth with little mobility", "No stratification at all", "Random social ranking"], "correct": 1, "explanation": "A caste system is based on ascribed status, fixed at birth."},
+        {"q": "What is \"social mobility\"?", "options": ["A fixed social position", "Movement within a society's stratification hierarchy", "A type of caste system", "A research method"], "correct": 1, "explanation": "Social mobility is movement within a stratification hierarchy."},
+        {"q": "What are \"life chances\"?", "options": ["A type of caste system", "An individual's opportunities for material goods and favorable life experiences", "A research method", "A type of deviance"], "correct": 1, "explanation": "Life chances describe an individual's opportunities, shaped by stratification position."}
+      ]
+    }
+  },
+  "Race and Ethnicity": {
+    "guide": {
+      "explanation": "Sociologists distinguish race (categorization based on perceived physical characteristics, a social construct rather than a fixed biological category) from ethnicity (shared cultural heritage, including language, traditions, and ancestry). Prejudice and discrimination are related but distinct concepts, operating at both individual and institutional levels.",
+      "keyTerms": [
+        {"term": "Race", "def": "A categorization based on perceived physical characteristics, understood by sociologists as a social construct."},
+        {"term": "Ethnicity", "def": "Shared cultural heritage, including language, traditions, and ancestry."},
+        {"term": "Prejudice", "def": "A biased attitude, often negative, toward a group based on a perceived characteristic."},
+        {"term": "Discrimination", "def": "Unfair treatment of individuals based on their group membership."},
+        {"term": "Institutional discrimination", "def": "Discrimination embedded within the policies and practices of social institutions."}
+      ],
+      "examples": [
+        "Two people with similar physical characteristics might be racially categorized differently across different countries, illustrating race as a social construct.",
+        "A hiring policy that disproportionately disadvantages a specific ethnic group illustrates institutional discrimination."
+      ],
+      "steps": [
+        "Ask: is this an internal attitude or belief about a group? That's prejudice.",
+        "Ask: is this an actual unfair action or behavior toward a group? That's discrimination.",
+        "Recognize that prejudice can exist without discrimination, and vice versa.",
+        "Consider whether the discrimination is individual or institutional."
+      ],
+      "remember": [
+        "Sociologists treat race as a social construct, not a fixed biological category.",
+        "Ethnicity refers to shared cultural heritage, including language and traditions.",
+        "Prejudice is a biased attitude; discrimination is unfair treatment based on group membership.",
+        "Institutional discrimination is embedded in policies and practices, beyond individual actions alone."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "How do sociologists generally understand \"race\"?", "options": ["As a fixed biological category", "As a social construct based on perceived physical characteristics", "As identical to ethnicity", "As irrelevant to social life"], "correct": 1, "explanation": "Sociologists understand race as a social construct."},
+        {"q": "What is \"ethnicity\"?", "options": ["A fixed biological category", "Shared cultural heritage, including language, traditions, and ancestry", "The same as race", "A type of discrimination"], "correct": 1, "explanation": "Ethnicity refers to shared cultural heritage."},
+        {"q": "What is the difference between prejudice and discrimination?", "options": ["They are identical", "Prejudice is an attitude; discrimination is unfair treatment based on that attitude", "Discrimination is an attitude; prejudice is an action", "Neither involves group membership"], "correct": 1, "explanation": "Prejudice is an attitude; discrimination is actual unfair treatment."},
+        {"q": "What is \"institutional discrimination\"?", "options": ["Discrimination by a single individual only", "Discrimination embedded within the policies and practices of social institutions", "A type of prejudice only", "A biological category"], "correct": 1, "explanation": "Institutional discrimination is embedded within institutional policies."},
+        {"q": "Can discrimination occur without explicit personal prejudice?", "options": ["No, never", "Yes, as in the case of institutional discrimination", "Only in caste systems", "Only in class systems"], "correct": 1, "explanation": "Discrimination can occur through institutional policies without explicit individual prejudice."}
+      ]
+    }
+  },
+  "Gender, Sex, and Sexuality": {
+    "guide": {
+      "explanation": "Sociologists distinguish sex (biological characteristics) from gender (the socially constructed roles, behaviors, and expectations associated with being male or female), noting that gender roles and gender socialization vary significantly across cultures and historical periods. Sexism illustrates ongoing gender-based inequality studied within sociology.",
+      "keyTerms": [
+        {"term": "Sex", "def": "The biological characteristics distinguishing male and female bodies."},
+        {"term": "Gender", "def": "The socially constructed roles, behaviors, and expectations associated with being male or female."},
+        {"term": "Gender role", "def": "The set of behaviors and attitudes considered appropriate for a given gender within a society."},
+        {"term": "Gender socialization", "def": "The process by which individuals learn the gender roles and expectations of their society."},
+        {"term": "Sexism", "def": "Discrimination or prejudice based on a person's gender."}
+      ],
+      "examples": [
+        "The biological ability to bear children is a matter of sex, while societal expectations that women should be primary caregivers are a matter of gender.",
+        "The gender pay gap, where women are often paid less than men for comparable work, is a widely studied example of gender-based inequality."
+      ],
+      "steps": [
+        "Ask: is this a biological characteristic (like chromosomes or reproductive anatomy)? That's sex.",
+        "Ask: is this a socially constructed role, behavior, or expectation? That's gender.",
+        "Recognize that gender roles and expectations vary significantly across cultures and time periods.",
+        "Consider how gender socialization shapes individuals' understanding of \"appropriate\" gendered behavior."
+      ],
+      "remember": [
+        "Sex refers to biological characteristics; gender refers to socially constructed roles and expectations.",
+        "Gender roles vary significantly across different cultures and historical periods.",
+        "Gender socialization is the process of learning a society's gender roles and expectations.",
+        "Sexism refers to discrimination or prejudice based on gender."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the difference between \"sex\" and \"gender\"?", "options": ["They are identical", "Sex refers to biological characteristics; gender refers to socially constructed roles", "Gender is biological; sex is social", "Neither has a clear definition"], "correct": 1, "explanation": "Sex is biological; gender is socially constructed."},
+        {"q": "What is a \"gender role\"?", "options": ["A biological trait", "The set of behaviors and attitudes considered appropriate for a given gender in a society", "A type of sexism", "A research method"], "correct": 1, "explanation": "A gender role is the set of behaviors considered appropriate for a gender."},
+        {"q": "What is \"gender socialization\"?", "options": ["A biological process", "The process by which individuals learn their society's gender roles and expectations", "A type of sexism", "A research method"], "correct": 1, "explanation": "Gender socialization is learning a society's gender roles and expectations."},
+        {"q": "Do gender roles vary across cultures and time periods?", "options": ["No, they are universal and fixed", "Yes, they vary significantly", "Only sex varies", "Neither varies"], "correct": 1, "explanation": "Gender roles vary significantly across cultures and historical periods."},
+        {"q": "What is \"sexism\"?", "options": ["A biological characteristic", "Discrimination or prejudice based on a person's gender", "A type of gender role", "A research method"], "correct": 1, "explanation": "Sexism is discrimination or prejudice based on gender."}
+      ]
+    }
+  },
+  "Aging and the Elderly": {
+    "guide": {
+      "explanation": "Sociologists study aging through theories like disengagement theory (older adults gradually withdraw from social roles, which is seen as natural and beneficial) and activity theory (older adults maintain wellbeing by staying socially and physically active). Ageism affects older adults' treatment in society, employment, and healthcare.",
+      "keyTerms": [
+        {"term": "Ageism", "def": "Discrimination or prejudice based on a person's age."},
+        {"term": "Disengagement theory", "def": "A theory proposing that older adults naturally and beneficially withdraw from social roles as they age."},
+        {"term": "Activity theory", "def": "A theory proposing that older adults maintain wellbeing by staying socially and physically engaged."},
+        {"term": "Gerontology", "def": "The scientific study of aging and the challenges faced by older adults."},
+        {"term": "Sandwich generation", "def": "Adults who care for both their aging parents and their own children simultaneously."}
+      ],
+      "examples": [
+        "Disengagement theory might explain a retired person gradually reducing social commitments as a natural, healthy transition.",
+        "Activity theory would instead encourage that same retired person to join clubs or volunteer to maintain wellbeing."
+      ],
+      "steps": [
+        "Disengagement theory: withdrawal from social roles in older age is natural and beneficial for both individual and society.",
+        "Activity theory: maintaining social and physical engagement in older age supports wellbeing and life satisfaction.",
+        "Consider which theory better explains a given older adult's experience and preferences.",
+        "Recognize that both theories offer only partial explanations — individual experiences of aging vary widely."
+      ],
+      "remember": [
+        "Ageism is discrimination or prejudice based on age.",
+        "Disengagement theory holds that withdrawal from social roles is natural and beneficial in older age.",
+        "Activity theory holds that staying socially and physically engaged supports wellbeing in older age.",
+        "The \"sandwich generation\" refers to adults caring for both aging parents and their own children."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"ageism\"?", "options": ["A theory of aging", "Discrimination or prejudice based on a person's age", "A research method", "A type of gender role"], "correct": 1, "explanation": "Ageism is discrimination or prejudice based on age."},
+        {"q": "What does \"disengagement theory\" propose?", "options": ["Older adults should stay highly active", "Older adults naturally and beneficially withdraw from social roles as they age", "Aging has no social impact", "Older adults should avoid retirement"], "correct": 1, "explanation": "Disengagement theory proposes withdrawal is natural and beneficial."},
+        {"q": "What does \"activity theory\" propose?", "options": ["Withdrawal from social roles is beneficial", "Staying socially and physically engaged supports wellbeing in older age", "Aging has no effect on wellbeing", "Older adults should isolate themselves"], "correct": 1, "explanation": "Activity theory proposes engagement supports wellbeing."},
+        {"q": "What is \"gerontology\"?", "options": ["The study of childhood development", "The scientific study of aging and challenges faced by older adults", "A type of ageism", "A research method only"], "correct": 1, "explanation": "Gerontology is the scientific study of aging."},
+        {"q": "What does the \"sandwich generation\" refer to?", "options": ["Adults with no family responsibilities", "Adults caring for both aging parents and their own children simultaneously", "Only older adults", "Only young children"], "correct": 1, "explanation": "The sandwich generation cares for both aging parents and children."}
+      ]
+    }
+  },
+  "Marriage and Family": {
+    "guide": {
+      "explanation": "Family, one of society's core institutions, takes varied forms across cultures — including nuclear families, extended families, and increasingly diverse family structures like single-parent and blended families. Sociologists study family through lenses like functionalism and conflict theory.",
+      "keyTerms": [
+        {"term": "Nuclear family", "def": "A family unit consisting of parents and their children."},
+        {"term": "Extended family", "def": "A family unit including additional relatives beyond parents and children, like grandparents."},
+        {"term": "Family of orientation", "def": "The family into which a person is born and raised."},
+        {"term": "Family of procreation", "def": "The family a person forms through marriage or partnership and childbearing."},
+        {"term": "Endogamy and exogamy", "def": "Marrying within one's social group (endogamy) versus marrying outside of it (exogamy)."}
+      ],
+      "examples": [
+        "A household with two parents and their children living together is a classic example of a nuclear family.",
+        "A multigenerational household including grandparents, parents, and children together illustrates an extended family structure."
+      ],
+      "steps": [
+        "Ask: is this the family a person was born into and raised by? That's the family of orientation.",
+        "Ask: is this the family a person forms later through marriage/partnership and childbearing? That's the family of procreation.",
+        "Recognize that a single person typically belongs to both types of family at different points in life.",
+        "Consider how family structures vary across cultures, from nuclear to extended forms."
+      ],
+      "remember": [
+        "A nuclear family consists of parents and children; an extended family includes additional relatives.",
+        "The family of orientation is the family one is born into; the family of procreation is formed later.",
+        "Endogamy is marrying within one's social group; exogamy is marrying outside of it.",
+        "Family structures and functions are studied through lenses like functionalism and conflict theory."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"nuclear family\"?", "options": ["A family including extended relatives", "A family unit consisting of parents and their children", "A single-person household", "A type of research method"], "correct": 1, "explanation": "A nuclear family consists of parents and their children."},
+        {"q": "What is an \"extended family\"?", "options": ["Only parents and children", "A family unit including additional relatives like grandparents or aunts/uncles", "A single-parent household only", "A type of endogamy"], "correct": 1, "explanation": "An extended family includes additional relatives."},
+        {"q": "What is the \"family of orientation\"?", "options": ["The family formed through marriage", "The family into which a person is born and raised", "A type of extended family only", "A research method"], "correct": 1, "explanation": "The family of orientation is the family one is born into."},
+        {"q": "What is the \"family of procreation\"?", "options": ["The family one is born into", "The family a person forms through marriage/partnership and childbearing", "A type of nuclear family only", "A research method"], "correct": 1, "explanation": "The family of procreation is formed through marriage and childbearing."},
+        {"q": "What is \"endogamy\"?", "options": ["Marrying outside one's social group", "Marrying within one's social group", "A type of extended family", "A research method"], "correct": 1, "explanation": "Endogamy refers to marrying within one's own social group."}
+      ]
+    }
+  }
+}

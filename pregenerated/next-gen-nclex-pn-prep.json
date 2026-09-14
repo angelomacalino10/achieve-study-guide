@@ -1,0 +1,295 @@
+{
+  "Safe & Effective Care Environment (Coordinated Care)": {
+    "guide": {
+      "explanation": "This category covers how LPNs coordinate care within the healthcare team, including the eight core roles of the LPN — clinician, manager, advocate, educator, counselor, consultant, researcher, and collaborator. It also covers delegation, prioritization of patient needs, and legal/ethical considerations like informed consent and advance directives.",
+      "keyTerms": [
+        {"term": "Scope of practice", "def": "The legally defined boundaries of tasks an LPN is permitted to perform."},
+        {"term": "Delegation", "def": "Assigning a task to another qualified team member while retaining accountability for the outcome."},
+        {"term": "Advance directive", "def": "A legal document expressing a patient's wishes for care if they become unable to communicate."},
+        {"term": "Informed consent", "def": "A patient's voluntary agreement to treatment after understanding its risks, benefits, and alternatives."},
+        {"term": "Prioritization", "def": "Determining which patient needs require the most immediate attention."}
+      ],
+      "examples": [
+        "An LPN acting as an \"advocate\" ensures a patient's wishes and rights are respected within the care team.",
+        "Using a framework like ABCs (Airway, Breathing, Circulation) or Maslow's hierarchy helps nurses prioritize which patient to see first."
+      ],
+      "steps": [
+        "Confirm the task falls within the scope of practice for the person receiving it.",
+        "Provide clear instructions and expectations for the task.",
+        "Ensure the delegatee has the necessary skill and training.",
+        "Follow up to confirm the task was completed safely and correctly — the delegating nurse remains accountable."
+      ],
+      "remember": [
+        "The eight roles of the LPN: clinician, manager, advocate, educator, counselor, consultant, researcher, collaborator.",
+        "Delegation transfers a task but not accountability — the delegating nurse remains responsible for outcomes.",
+        "Prioritization frameworks like ABCs or Maslow's hierarchy help determine which patient needs come first.",
+        "Advance directives express a patient's wishes for care if they become unable to communicate."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"delegation\" in nursing practice?", "options": ["Transferring both the task and all accountability", "Assigning a task while retaining accountability for the outcome", "Refusing to assign tasks to others", "A type of advance directive"], "correct": 1, "explanation": "Delegation means assigning a task while the delegating nurse retains accountability for the outcome."},
+        {"q": "What is an \"advance directive\"?", "options": ["A prescription order", "A legal document expressing a patient's wishes for care if unable to communicate", "A type of delegation", "A staffing schedule"], "correct": 1, "explanation": "An advance directive is a legal document expressing a patient's care wishes in case they become unable to communicate."},
+        {"q": "Which of these is one of the eight roles of the LPN?", "options": ["Surgeon", "Advocate", "Pharmacist", "Administrator only"], "correct": 1, "explanation": "Advocate is one of the eight core roles of the LPN."},
+        {"q": "What does \"informed consent\" require?", "options": ["Only a verbal agreement", "A patient's voluntary agreement after understanding risks, benefits, and alternatives", "Consent from family members only", "No explanation of risks"], "correct": 1, "explanation": "Informed consent requires a patient to voluntarily agree to treatment after understanding its risks, benefits, and alternatives."},
+        {"q": "What frameworks help nurses prioritize patient care?", "options": ["Alphabetical order only", "ABCs (Airway, Breathing, Circulation) and Maslow's hierarchy", "Random assignment", "Seniority of staff only"], "correct": 1, "explanation": "Frameworks like ABCs and Maslow's hierarchy help nurses determine which patient needs are most urgent."}
+      ]
+    }
+  },
+  "Safe & Effective Care Environment (Safety & Infection Control)": {
+    "guide": {
+      "explanation": "This category covers protecting patients and staff from harm and infection — including standard precautions versus transmission-based precautions (contact, droplet, airborne), fall prevention strategies, safe use of restraints, and medical versus surgical asepsis. Understanding which precaution type applies to which situation is essential for preventing the spread of infection.",
+      "keyTerms": [
+        {"term": "Standard precautions", "def": "Infection control practices used with every patient, regardless of diagnosis (hand hygiene, PPE, safe injection practices)."},
+        {"term": "Transmission-based precautions", "def": "Additional precautions used for specific known or suspected infections — contact, droplet, and airborne."},
+        {"term": "Medical asepsis", "def": "\"Clean technique,\" reducing the number of microorganisms present."},
+        {"term": "Surgical asepsis", "def": "\"Sterile technique,\" eliminating all microorganisms from a specific area."},
+        {"term": "Restraint", "def": "A device or method used to limit a patient's movement, used only when necessary and with proper documentation."}
+      ],
+      "examples": [
+        "Airborne precautions (used for diseases like tuberculosis) require an N95 respirator and a negative-pressure room.",
+        "Contact precautions (used for diseases like MRSA) require gloves and a gown."
+      ],
+      "steps": [
+        "Identify how the specific pathogen spreads: contact, droplet, or airborne.",
+        "Contact precautions: gloves and gown, for pathogens spread by direct/indirect contact.",
+        "Droplet precautions: surgical mask, for pathogens spread by respiratory droplets over short distances.",
+        "Airborne precautions: N95 respirator and negative-pressure room, for pathogens that travel through the air over longer distances."
+      ],
+      "remember": [
+        "Standard precautions apply to every patient, regardless of diagnosis.",
+        "Transmission-based precautions: contact (gloves/gown), droplet (surgical mask), airborne (N95 respirator, negative-pressure room).",
+        "Medical asepsis reduces microorganisms (\"clean\"); surgical asepsis eliminates them entirely (\"sterile\").",
+        "Restraints should be used only when necessary, with proper documentation and regular monitoring."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What are \"standard precautions\"?", "options": ["Precautions used only for known infections", "Infection control practices used with every patient regardless of diagnosis", "A type of restraint", "A surgical technique only"], "correct": 1, "explanation": "Standard precautions are infection control practices applied to every patient, regardless of diagnosis."},
+        {"q": "Which precaution type requires an N95 respirator and a negative-pressure room?", "options": ["Contact precautions", "Droplet precautions", "Airborne precautions", "Standard precautions only"], "correct": 2, "explanation": "Airborne precautions, used for diseases like tuberculosis, require an N95 respirator and negative-pressure room."},
+        {"q": "What is the difference between medical and surgical asepsis?", "options": ["They are the same", "Medical asepsis reduces microorganisms; surgical asepsis eliminates them entirely", "Surgical asepsis reduces microorganisms; medical asepsis eliminates them", "Neither reduces microorganisms"], "correct": 1, "explanation": "Medical asepsis (\"clean technique\") reduces microorganisms, while surgical asepsis (\"sterile technique\") eliminates them entirely."},
+        {"q": "Which precaution type uses gloves and a gown for pathogens like MRSA?", "options": ["Airborne precautions", "Droplet precautions", "Contact precautions", "No precautions needed"], "correct": 2, "explanation": "Contact precautions, used for pathogens like MRSA, require gloves and a gown."},
+        {"q": "When should a restraint be used on a patient?", "options": ["Whenever convenient for staff", "Only when necessary, with proper documentation and monitoring", "Never, under any circumstances", "Only for pediatric patients"], "correct": 1, "explanation": "Restraints should be used only when necessary, with proper documentation and ongoing monitoring."}
+      ]
+    }
+  },
+  "Health Promotion & Maintenance": {
+    "guide": {
+      "explanation": "This category covers care across the lifespan, with special emphasis on maternal and child health — antepartum, intrapartum, postpartum, and newborn care — alongside developmental milestones and preventive health screening at every life stage. LPNs play a key role in monitoring both maternal and fetal health throughout pregnancy and educating patients on healthy practices.",
+      "keyTerms": [
+        {"term": "Antepartum", "def": "The period of pregnancy before labor and delivery."},
+        {"term": "Intrapartum", "def": "The period of labor and delivery."},
+        {"term": "Postpartum", "def": "The period following childbirth."},
+        {"term": "Growth and development", "def": "The physical, cognitive, and social milestones expected at each life stage."},
+        {"term": "Health screening", "def": "Preventive testing used to detect health issues early."}
+      ],
+      "examples": [
+        "Monitoring fetal heart rate during labor is an intrapartum nursing responsibility.",
+        "Tracking a toddler's developmental milestones, like walking and talking, falls under growth and development monitoring."
+      ],
+      "steps": [
+        "Antepartum: monitor maternal vital signs, fetal growth, and screen for complications like gestational diabetes.",
+        "Intrapartum: monitor labor progression, fetal heart rate, and maternal vital signs during delivery.",
+        "Postpartum: monitor for hemorrhage, infection, and support the mother's physical and emotional recovery.",
+        "Newborn care: assess the newborn's vital signs, reflexes, and adaptation to life outside the womb."
+      ],
+      "remember": [
+        "Antepartum = before labor; intrapartum = during labor/delivery; postpartum = after childbirth.",
+        "LPNs monitor both maternal and fetal health throughout pregnancy and delivery.",
+        "Growth and development milestones vary by life stage and should be tracked at every well visit.",
+        "Health screenings help detect potential health issues early, across all age groups."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"antepartum\" refer to?", "options": ["The period during labor", "The period of pregnancy before labor and delivery", "The period after childbirth", "The newborn period only"], "correct": 1, "explanation": "Antepartum refers to the period of pregnancy before labor and delivery."},
+        {"q": "What does \"intrapartum\" refer to?", "options": ["Before pregnancy", "The period of labor and delivery", "After childbirth", "Only fetal development"], "correct": 1, "explanation": "Intrapartum refers specifically to the period of labor and delivery."},
+        {"q": "What does \"postpartum\" refer to?", "options": ["Before pregnancy", "During labor", "The period following childbirth", "Only prenatal care"], "correct": 2, "explanation": "Postpartum refers to the period following childbirth."},
+        {"q": "What is monitored during the intrapartum period?", "options": ["Only the mother's diet", "Labor progression, fetal heart rate, and maternal vital signs", "Only postpartum recovery", "Only newborn reflexes"], "correct": 1, "explanation": "During the intrapartum period, nurses monitor labor progression, fetal heart rate, and maternal vital signs."},
+        {"q": "Why are growth and development milestones important to track?", "options": ["They are not clinically relevant", "They help identify whether a child is developing typically for their age", "They only matter for infants", "They are only tracked once"], "correct": 1, "explanation": "Tracking growth and development milestones helps identify whether a child is developing typically for their age group."}
+      ]
+    }
+  },
+  "Psychosocial Integrity": {
+    "guide": {
+      "explanation": "This category covers supporting patients' mental, emotional, and social well-being — including therapeutic communication techniques, recognizing coping and defense mechanisms, understanding grief and loss, and identifying signs of abuse or substance use disorders. LPNs must also consider cultural, spiritual, and family factors that shape how patients experience illness and cope with stress.",
+      "keyTerms": [
+        {"term": "Therapeutic communication", "def": "Purposeful communication techniques (like active listening and open-ended questions) used to support patient care."},
+        {"term": "Defense mechanism", "def": "An unconscious psychological strategy (like denial or projection) used to cope with anxiety or stress."},
+        {"term": "Grief", "def": "The emotional response to loss, often described through stages (denial, anger, bargaining, depression, acceptance)."},
+        {"term": "Therapeutic milieu", "def": "A structured, supportive treatment environment designed to promote psychological healing."},
+        {"term": "Substance use disorder", "def": "A pattern of substance use causing significant impairment or distress."}
+      ],
+      "examples": [
+        "Using an open-ended question like \"How are you feeling about your diagnosis?\" is an example of therapeutic communication.",
+        "A patient in denial after a serious diagnosis may initially insist \"there's nothing wrong with me\" — a defense mechanism helping them cope."
+      ],
+      "steps": [
+        "Use active listening — give full attention and reflect back what the patient says.",
+        "Ask open-ended questions to encourage the patient to share more.",
+        "Avoid judgmental or dismissive responses that could shut down communication.",
+        "Validate the patient's feelings without necessarily agreeing with every belief they express."
+      ],
+      "remember": [
+        "Therapeutic communication uses techniques like active listening and open-ended questions.",
+        "Defense mechanisms (denial, projection, etc.) are unconscious strategies for coping with anxiety.",
+        "The stages of grief include denial, anger, bargaining, depression, and acceptance — though not everyone experiences them in the same order.",
+        "Cultural, spiritual, and family factors significantly shape how patients cope with illness."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"therapeutic communication\"?", "options": ["Casual conversation with no purpose", "Purposeful communication techniques used to support patient care", "Only written communication", "Communication used only in emergencies"], "correct": 1, "explanation": "Therapeutic communication involves purposeful techniques, like active listening, used to support patient care."},
+        {"q": "What is a \"defense mechanism\"?", "options": ["A physical safety device", "An unconscious psychological strategy used to cope with anxiety or stress", "A type of medication", "A legal document"], "correct": 1, "explanation": "A defense mechanism is an unconscious psychological strategy, like denial, used to cope with anxiety or stress."},
+        {"q": "Which of these is a stage of grief?", "options": ["Celebration", "Denial", "Negotiation only", "Confusion"], "correct": 1, "explanation": "Denial is one of the recognized stages of grief."},
+        {"q": "What is an example of therapeutic communication?", "options": ["Giving orders without explanation", "Asking an open-ended question like \"How are you feeling?\"", "Ignoring the patient's concerns", "Only using yes/no questions"], "correct": 1, "explanation": "Asking open-ended questions encourages patients to share more."},
+        {"q": "What factors can shape how a patient copes with illness, according to this chapter?", "options": ["Only their diagnosis", "Cultural, spiritual, and family factors", "Only their age", "Only their insurance status"], "correct": 1, "explanation": "Cultural, spiritual, and family factors significantly influence how patients cope with illness."}
+      ]
+    }
+  },
+  "Physiological Integrity (Basic Care and Comfort)": {
+    "guide": {
+      "explanation": "This category covers fundamental nursing care that supports patient comfort and daily functioning — nutrition, elimination, mobility, personal hygiene, and rest/sleep. LPNs assess and support these basic needs directly, and also implement non-pharmacological comfort measures to manage patient discomfort without medication.",
+      "keyTerms": [
+        {"term": "Activities of Daily Living (ADLs)", "def": "Basic self-care tasks like bathing, dressing, eating, and toileting."},
+        {"term": "Elimination", "def": "The process of removing waste from the body, including urinary and bowel function."},
+        {"term": "Mobility", "def": "A patient's ability to move independently or with assistance."},
+        {"term": "Non-pharmacological comfort measures", "def": "Techniques like repositioning, heat/cold therapy, or relaxation used to manage discomfort without medication."}
+      ],
+      "examples": [
+        "Repositioning a bedridden patient every two hours helps prevent pressure injuries and supports comfort.",
+        "Assisting a patient with ambulation using a gait belt supports both mobility and safety."
+      ],
+      "steps": [
+        "Assess the patient's ability to independently perform ADLs (bathing, dressing, eating, toileting).",
+        "Assess elimination patterns, noting any changes in urinary or bowel function.",
+        "Assess mobility level and fall risk before assisting with movement.",
+        "Implement non-pharmacological comfort measures as appropriate before considering medication."
+      ],
+      "remember": [
+        "ADLs include bathing, dressing, eating, and toileting — basic self-care tasks nurses assess and support.",
+        "Elimination assessment covers both urinary and bowel function.",
+        "Repositioning patients regularly helps prevent pressure injuries and supports comfort.",
+        "Non-pharmacological comfort measures should often be tried before or alongside medication."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What are \"Activities of Daily Living\" (ADLs)?", "options": ["Medical procedures only", "Basic self-care tasks like bathing, dressing, eating, and toileting", "Only mobility exercises", "Laboratory tests"], "correct": 1, "explanation": "ADLs are basic self-care tasks like bathing, dressing, eating, and toileting."},
+        {"q": "Why should a bedridden patient be repositioned every two hours?", "options": ["To increase discomfort", "To help prevent pressure injuries", "It has no clinical purpose", "Only for patient entertainment"], "correct": 1, "explanation": "Regular repositioning helps prevent pressure injuries in patients who cannot move independently."},
+        {"q": "What does \"elimination\" refer to in basic nursing care?", "options": ["Removing a patient's medication", "The process of removing waste from the body", "A type of mobility assessment", "A comfort measure only"], "correct": 1, "explanation": "Elimination refers to the process of removing waste from the body."},
+        {"q": "What is an example of a non-pharmacological comfort measure?", "options": ["Administering a pain medication", "Repositioning or applying heat/cold therapy", "Ordering a lab test", "Restricting patient visitors"], "correct": 1, "explanation": "Non-pharmacological comfort measures include repositioning or heat/cold therapy, used without medication."},
+        {"q": "What should be assessed before assisting a patient with mobility?", "options": ["Only their appetite", "Their mobility level and fall risk", "Only their vital signs", "Nothing needs to be assessed"], "correct": 1, "explanation": "Assessing mobility level and fall risk is essential before assisting a patient with movement."}
+      ]
+    }
+  },
+  "Physiological Integrity (Pharmacological Therapies)": {
+    "guide": {
+      "explanation": "This category covers the safe administration of medications — including accurate dosage calculation, understanding therapeutic versus adverse effects, and recognizing potential drug interactions. LPNs must also understand the \"rights\" of medication administration and how to respond if an adverse reaction occurs.",
+      "keyTerms": [
+        {"term": "The Rights of Medication Administration", "def": "Right patient, right medication, right dose, right route, right time (and additional rights like documentation and refusal)."},
+        {"term": "Therapeutic effect", "def": "The intended, beneficial effect of a medication."},
+        {"term": "Adverse effect", "def": "An unintended, harmful response to a medication."},
+        {"term": "Drug interaction", "def": "When one medication affects the action of another, potentially increasing risk or reducing effectiveness."},
+        {"term": "Dosage calculation", "def": "The process of determining the correct amount of medication to administer based on a prescribed order."}
+      ],
+      "examples": [
+        "Before administering any medication, a nurse verifies the \"rights\": confirming the right patient, medication, dose, route, and time.",
+        "Combining certain blood thinners with specific over-the-counter medications can create a dangerous drug interaction."
+      ],
+      "steps": [
+        "Verify the medication order against the patient's chart and confirm patient identity.",
+        "Check for allergies and potential drug interactions before administering.",
+        "Calculate the correct dosage, double-checking the math if needed.",
+        "Administer via the correct route and monitor the patient for therapeutic or adverse effects afterward."
+      ],
+      "remember": [
+        "The Rights of Medication Administration include right patient, medication, dose, route, and time.",
+        "A therapeutic effect is the intended benefit; an adverse effect is an unintended harm.",
+        "Drug interactions can increase risk or reduce a medication's effectiveness.",
+        "Dosage calculations should always be double-checked before administration."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What are the \"Rights of Medication Administration\"?", "options": ["A patient's legal rights only", "Right patient, medication, dose, route, and time", "Only the right to refuse medication", "A hospital policy document"], "correct": 1, "explanation": "The Rights of Medication Administration include confirming the right patient, medication, dose, route, and time."},
+        {"q": "What is a \"therapeutic effect\"?", "options": ["An unintended harmful response", "The intended, beneficial effect of a medication", "A drug interaction", "A dosage calculation error"], "correct": 1, "explanation": "A therapeutic effect is the intended, beneficial effect a medication is meant to produce."},
+        {"q": "What is an \"adverse effect\"?", "options": ["The intended benefit of a medication", "An unintended, harmful response to a medication", "A type of dosage calculation", "A patient's right"], "correct": 1, "explanation": "An adverse effect is an unintended, harmful response to a medication."},
+        {"q": "What is a \"drug interaction\"?", "options": ["A therapeutic effect only", "When one medication affects the action of another", "A type of dosage error", "A nursing role"], "correct": 1, "explanation": "A drug interaction occurs when one medication affects the action of another."},
+        {"q": "What should a nurse do before administering any medication?", "options": ["Skip checking for allergies to save time", "Verify the medication order and confirm patient identity", "Administer immediately without verification", "Only check the dose, not the route"], "correct": 1, "explanation": "Nurses must verify the medication order and confirm patient identity before administering any medication."}
+      ]
+    }
+  },
+  "Physiological Integrity (Reduction of Risk Potential)": {
+    "guide": {
+      "explanation": "This category focuses on monitoring patients for potential complications — through vital signs, lab values, and diagnostic test results — to catch problems early before they become serious. LPNs must recognize normal versus abnormal findings and understand which changes signal a need for immediate intervention or physician notification.",
+      "keyTerms": [
+        {"term": "Vital signs", "def": "Baseline measurements (temperature, pulse, respiration, blood pressure, oxygen saturation) reflecting a patient's basic physiological status."},
+        {"term": "Lab values", "def": "Results from blood or other diagnostic tests, compared against normal reference ranges."},
+        {"term": "Diagnostic test", "def": "A procedure used to identify or monitor a health condition."},
+        {"term": "Risk potential", "def": "The likelihood that a patient may develop a complication based on their condition or treatment."}
+      ],
+      "examples": [
+        "A sudden drop in blood pressure combined with a rapid pulse could signal internal bleeding, requiring immediate intervention.",
+        "An elevated white blood cell count on a lab report can indicate an infection."
+      ],
+      "steps": [
+        "Obtain baseline vital signs and lab values upon admission or before a procedure.",
+        "Regularly reassess vital signs and relevant lab values throughout care.",
+        "Compare current findings against normal reference ranges and the patient's baseline.",
+        "Report any significant abnormal findings to the appropriate provider promptly."
+      ],
+      "remember": [
+        "Vital signs include temperature, pulse, respiration, blood pressure, and oxygen saturation.",
+        "Lab values are compared against normal reference ranges to detect abnormalities.",
+        "Sudden changes in vital signs (like a blood pressure drop with a rapid pulse) can signal serious complications.",
+        "Prompt recognition and reporting of abnormal findings helps reduce a patient's risk potential."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What are \"vital signs\"?", "options": ["Only blood test results", "Baseline measurements like temperature, pulse, and blood pressure", "A type of diagnostic test only", "A medication order"], "correct": 1, "explanation": "Vital signs include temperature, pulse, respiration, blood pressure, and oxygen saturation."},
+        {"q": "What might a sudden drop in blood pressure combined with a rapid pulse indicate?", "options": ["A normal, healthy response", "Possible internal bleeding, requiring immediate attention", "A dietary preference", "No clinical significance"], "correct": 1, "explanation": "A sudden blood pressure drop with a rapid pulse can warn of internal bleeding."},
+        {"q": "What does an elevated white blood cell count on a lab report often indicate?", "options": ["A normal healthy state", "A possible infection", "A dosage calculation error", "A dietary deficiency"], "correct": 1, "explanation": "An elevated white blood cell count often indicates the body is responding to an infection."},
+        {"q": "What should be compared to detect an abnormal lab result?", "options": ["Only the patient's age", "The result against normal reference ranges and the patient's baseline", "Only the time of day", "Nothing needs to be compared"], "correct": 1, "explanation": "Lab values are compared against normal reference ranges and the patient's own baseline."},
+        {"q": "Why is prompt reporting of abnormal findings important?", "options": ["It is not important", "It helps reduce a patient's risk of developing serious complications", "It only matters for administrative records", "It delays patient care"], "correct": 1, "explanation": "Prompt recognition and reporting helps catch and address potential complications early."}
+      ]
+    }
+  },
+  "Physiological Integrity (Physiological Adaptation)": {
+    "guide": {
+      "explanation": "This category covers managing patients with acute, chronic, or life-threatening physiological conditions — including fluid and electrolyte imbalances, medical emergencies, and the pathophysiology behind various illnesses. LPNs must recognize signs of a worsening condition and understand how the body adapts (or fails to adapt) to illness and treatment.",
+      "keyTerms": [
+        {"term": "Fluid and electrolyte imbalance", "def": "An abnormal level of fluid or electrolytes (like sodium or potassium) in the body, which can affect multiple organ systems."},
+        {"term": "Pathophysiology", "def": "The study of how disease processes affect normal body function."},
+        {"term": "Medical emergency", "def": "An acute, life-threatening situation requiring immediate intervention."},
+        {"term": "Compensatory mechanism", "def": "The body's attempt to maintain normal function despite illness or injury."}
+      ],
+      "examples": [
+        "Severe vomiting or diarrhea can cause a significant fluid and electrolyte imbalance, requiring careful monitoring and replacement.",
+        "In early shock, the body's compensatory mechanisms (like an increased heart rate) may temporarily maintain blood pressure before eventually failing."
+      ],
+      "steps": [
+        "Establish the patient's baseline vital signs and typical presentation.",
+        "Monitor for early signs of compensatory mechanisms, like an increasing heart rate.",
+        "Recognize when compensatory mechanisms begin to fail, such as a subsequent drop in blood pressure.",
+        "Intervene promptly and notify the appropriate provider before the condition becomes life-threatening."
+      ],
+      "remember": [
+        "Fluid and electrolyte imbalances (like low potassium or sodium) can affect multiple organ systems.",
+        "Pathophysiology explains how a disease process disrupts normal body function.",
+        "The body uses compensatory mechanisms to maintain function during illness, but these can eventually fail.",
+        "Early recognition of a worsening condition allows for prompt, potentially life-saving intervention."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"fluid and electrolyte imbalance\"?", "options": ["A normal healthy state", "An abnormal level of fluid or electrolytes affecting body function", "A type of medication", "A diagnostic test only"], "correct": 1, "explanation": "A fluid and electrolyte imbalance is an abnormal level of fluid or electrolytes that can affect multiple organ systems."},
+        {"q": "What is \"pathophysiology\"?", "options": ["A type of medication", "The study of how disease processes affect normal body function", "A nursing role", "A vital sign"], "correct": 1, "explanation": "Pathophysiology is the study of how disease processes disrupt normal body function."},
+        {"q": "What is a \"compensatory mechanism\"?", "options": ["A medication side effect", "The body's attempt to maintain normal function despite illness or injury", "A type of lab test", "A legal document"], "correct": 1, "explanation": "A compensatory mechanism is the body's attempt to maintain normal function despite illness or injury."},
+        {"q": "What might cause a significant fluid and electrolyte imbalance?", "options": ["A balanced diet", "Severe vomiting or diarrhea", "Regular exercise", "Adequate hydration"], "correct": 1, "explanation": "Severe vomiting or diarrhea can cause significant fluid and electrolyte loss."},
+        {"q": "What happens when the body's compensatory mechanisms begin to fail during early shock?", "options": ["Blood pressure stabilizes permanently", "Blood pressure may eventually drop as the mechanisms are overwhelmed", "The patient fully recovers immediately", "Nothing changes"], "correct": 1, "explanation": "As compensatory mechanisms become overwhelmed, blood pressure may eventually drop, signaling a worsening condition."}
+      ]
+    }
+  }
+}

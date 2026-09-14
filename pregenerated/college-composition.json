@@ -1,0 +1,268 @@
+{
+  "Grammar Fundamentals": {
+    "guide": {
+      "explanation": "This chapter covers the eight parts of speech (noun, verb, pronoun, adjective, adverb, preposition, conjunction, interjection) and how they combine into a proper sentence — a subject, a predicate, and often an object. The chapter's biggest practical focus is agreement: subjects and verbs must match in number, pronouns must match the nouns they replace, and verb tense must stay consistent within a sentence or paragraph. It also draws a sharp distinction between active voice (preferred in academic writing) and passive voice, and between plural forms (adding -s) and possessive forms (adding -'s).",
+      "keyTerms": [
+        {"term": "Subject", "def": "The noun that performs the action in a sentence."},
+        {"term": "Predicate", "def": "The part of the sentence containing the verb, describing the action or state."},
+        {"term": "Subject-verb agreement", "def": "Singular subjects take singular verbs; plural subjects take plural verbs."},
+        {"term": "Active voice", "def": "The subject performs the action (preferred in academic writing)."},
+        {"term": "Passive voice", "def": "The subject receives the action (wordier, generally discouraged)."},
+        {"term": "Tense", "def": "Indicates when an action occurs — past, present, or future."}
+      ],
+      "examples": [
+        "\"The monkeys have escaped\" (plural subject, plural verb) vs. \"The monkey has escaped\" (singular subject, singular verb).",
+        "Active: \"Michael hit the baseball.\" Passive: \"The baseball was hit by Michael\" — the active version is clearer and preferred in formal writing."
+      ],
+      "steps": [
+        "Identify the subject and determine if it's singular or plural.",
+        "Match the verb's number to the subject — watch for words or phrases separating them that can obscure the true subject.",
+        "Check that group nouns (family, committee, team) take a singular verb, even though they refer to multiple people.",
+        "Confirm verb tense stays consistent throughout the sentence or paragraph.",
+        "Choose active voice over passive voice wherever possible for clarity."
+      ],
+      "remember": [
+        "Group nouns like \"family\" or \"committee\" take a singular verb, even though they describe multiple people.",
+        "Plural = add -s. Possessive = add -'s. (\"boys\" vs. \"boy's\").",
+        "Active voice is clearer and preferred in academic writing; passive voice is wordier.",
+        "Watch for words that separate the subject and verb — they can hide agreement errors."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "Which sentence uses correct subject-verb agreement?", "options": ["\"The family of monkeys have escaped.\"", "\"The family of monkeys has escaped.\"", "\"The family of monkeys is escaping their.\"", "\"The families of monkeys has escaped.\""], "correct": 1, "explanation": "\"Family\" is a group noun that is grammatically singular, so it takes the singular verb \"has,\" even though it refers to multiple monkeys."},
+        {"q": "Which of these is written in active voice?", "options": ["\"The baseball was hit by Michael.\"", "\"Michael hit the baseball.\"", "\"The baseball had been hit.\"", "\"Hitting was done by Michael.\""], "correct": 1, "explanation": "In active voice, the subject (Michael) performs the action directly."},
+        {"q": "What is the difference between \"boys\" and \"boy's\"?", "options": ["There is no difference", "\"boys\" is possessive and \"boy's\" is plural", "\"boys\" is plural and \"boy's\" is possessive", "Both are always interchangeable"], "correct": 2, "explanation": "The plural form adds -s (\"boys\"), while the possessive form adds -'s (\"boy's mother\")."},
+        {"q": "In the sentence \"The committee made a decision. It took a break immediately afterward,\" what type of noun is \"committee\"?", "options": ["A plural noun requiring a plural pronoun", "A singular noun that refers to a group", "A proper noun", "An adjective"], "correct": 1, "explanation": "\"Committee\" is a singular noun that refers to a group, so it correctly takes the singular pronoun \"it.\""},
+        {"q": "Which voice does Standard Written English generally prefer, and why?", "options": ["Passive voice, because it sounds more formal", "Active voice, because it is clearer and more concise", "Passive voice, because it hides the subject", "Neither voice is preferred"], "correct": 1, "explanation": "Active voice is generally preferred because it is more direct, clear, and concise than passive voice."}
+      ]
+    }
+  },
+  "Constructing Sentences": {
+    "guide": {
+      "explanation": "Beyond the basic parts of speech, strong sentences depend on phrases and clauses working together correctly, and on choosing the right sentence type — simple, compound, complex, or compound-complex — for the idea being expressed. Punctuation ties it all together: commas, semicolons, and colons each have specific jobs, and misusing them (like joining two independent clauses with just a comma, a \"comma splice\") is one of the most common writing errors.",
+      "keyTerms": [
+        {"term": "Phrase", "def": "A group of words without both a subject and a verb."},
+        {"term": "Clause", "def": "A group of words with both a subject and a verb; can be independent or dependent."},
+        {"term": "Independent clause", "def": "A clause that can stand alone as a complete sentence."},
+        {"term": "Dependent clause", "def": "A clause that cannot stand alone; needs an independent clause to complete its meaning."},
+        {"term": "Comma splice", "def": "An error where two independent clauses are joined by only a comma."},
+        {"term": "Compound sentence", "def": "Two independent clauses joined by a conjunction (and, but, or) or semicolon."}
+      ],
+      "examples": [
+        "Simple sentence: \"The dog barked.\" Compound: \"The dog barked, and the cat ran.\" Complex: \"Because the dog barked, the cat ran.\"",
+        "A semicolon can join two independent clauses without a conjunction: \"The dog barked; the cat ran.\""
+      ],
+      "steps": [
+        "Count the independent clauses (clauses that could stand alone as complete sentences).",
+        "If there's only one independent clause and no dependent clause, it's simple.",
+        "If there are two or more independent clauses joined by a conjunction or semicolon, it's compound.",
+        "If there's one independent clause plus one or more dependent clauses, it's complex.",
+        "If there are two or more independent clauses plus at least one dependent clause, it's compound-complex."
+      ],
+      "remember": [
+        "A comma splice happens when two independent clauses are joined by only a comma — a very common error.",
+        "A phrase lacks either a subject or a verb; a clause has both.",
+        "Independent clauses can stand alone; dependent clauses cannot.",
+        "Semicolons can join two independent clauses without needing a conjunction."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"comma splice\"?", "options": ["A sentence with too many commas", "Two independent clauses joined by only a comma", "A missing comma before a conjunction", "A comma used inside a quotation"], "correct": 1, "explanation": "A comma splice occurs when two independent clauses are incorrectly joined using only a comma, without a conjunction or semicolon."},
+        {"q": "What is the key difference between a phrase and a clause?", "options": ["A phrase is longer than a clause", "A clause has both a subject and a verb; a phrase does not", "A phrase always starts a sentence", "There is no real difference"], "correct": 1, "explanation": "A clause contains both a subject and a verb, while a phrase lacks one or both of these elements."},
+        {"q": "Which sentence type contains one independent clause and one dependent clause?", "options": ["Simple sentence", "Compound sentence", "Complex sentence", "Run-on sentence"], "correct": 2, "explanation": "A complex sentence combines one independent clause with at least one dependent clause."},
+        {"q": "Can a semicolon join two independent clauses without a conjunction?", "options": ["No, semicolons can never join clauses", "Yes, a semicolon can join two independent clauses", "Only if a comma is also used", "Only in informal writing"], "correct": 1, "explanation": "A semicolon can correctly join two independent clauses without needing a coordinating conjunction."},
+        {"q": "What defines a dependent clause?", "options": ["It can stand alone as a complete sentence", "It cannot stand alone and needs an independent clause", "It never contains a verb", "It is always the first clause in a sentence"], "correct": 1, "explanation": "A dependent clause has a subject and verb but cannot stand alone as a complete sentence."}
+      ]
+    }
+  },
+  "Thinking Rhetorically": {
+    "guide": {
+      "explanation": "Reading rhetorically means going beyond the surface content of a text to analyze how and why it was written. SQ3R (Survey, Question, Read, Recite, Review) is a structured technique for actively reading any text, while SOAPSTone (Speaker, Occasion, Audience, Purpose, Subject, Tone) is a framework specifically for analyzing an author's rhetorical choices. Together, these tools help a reader move from \"what does this say\" to \"how is this trying to persuade me.\"",
+      "keyTerms": [
+        {"term": "Rhetoric", "def": "The art of effective or persuasive writing and speaking."},
+        {"term": "SQ3R", "def": "A reading strategy — Survey, Question, Read, Recite, Review."},
+        {"term": "SOAPSTone", "def": "A rhetorical analysis framework — Speaker, Occasion, Audience, Purpose, Subject, Tone."},
+        {"term": "Speaker (in SOAPSTone)", "def": "Who is writing, and what is their background or bias?"},
+        {"term": "Occasion", "def": "The event or circumstance that prompted the writing."},
+        {"term": "Tone", "def": "The author's attitude toward the subject and audience."}
+      ],
+      "examples": [
+        "Using SOAPSTone on a political speech: the Speaker is the politician, the Occasion might be an election, the Audience is voters, and the Tone might be urgent or persuasive.",
+        "SQ3R applied to a textbook chapter: Survey the headings first, turn them into Questions, Read for answers, Recite what you learned, then Review before moving on."
+      ],
+      "steps": [
+        "Survey: skim headings, subheadings, and summaries before reading in depth.",
+        "Question: turn headings into questions you expect the text to answer.",
+        "Read: read actively, looking for answers to your questions.",
+        "Recite: summarize what you just read in your own words.",
+        "Review: revisit the material to reinforce understanding before moving on."
+      ],
+      "remember": [
+        "SQ3R stands for Survey, Question, Read, Recite, Review.",
+        "SOAPSTone stands for Speaker, Occasion, Audience, Purpose, Subject, Tone.",
+        "Rhetorical analysis asks \"how is this persuading me,\" not just \"what does this say.\"",
+        "Tone reveals the author's attitude — formal vs. casual, urgent vs. relaxed."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does the \"Q\" in SQ3R stand for?", "options": ["Quote", "Question", "Quick-read", "Quiz"], "correct": 1, "explanation": "SQ3R stands for Survey, Question, Read, Recite, Review."},
+        {"q": "In the SOAPSTone framework, what does the \"O\" stand for?", "options": ["Organization", "Occasion", "Opinion", "Objective"], "correct": 1, "explanation": "SOAPSTone's \"O\" stands for Occasion — the event or circumstance prompting the writing."},
+        {"q": "What is the main goal of rhetorical analysis?", "options": ["To summarize a text's plot", "To understand how a text tries to persuade its audience", "To check a text for grammar errors", "To translate a text into another language"], "correct": 1, "explanation": "Rhetorical analysis focuses on how and why a text works to persuade its audience."},
+        {"q": "Which SOAPSTone element focuses on the author's attitude toward the subject?", "options": ["Speaker", "Purpose", "Tone", "Subject"], "correct": 2, "explanation": "Tone captures the author's attitude toward the subject and audience — formal or casual, serious or lighthearted."},
+        {"q": "What is the first step in the SQ3R reading method?", "options": ["Read", "Recite", "Survey", "Review"], "correct": 2, "explanation": "SQ3R begins with Survey — skimming headings and structure before reading in depth."}
+      ]
+    }
+  },
+  "Writing Basics": {
+    "guide": {
+      "explanation": "A strong essay is built from paragraphs that each do a specific job: an introduction hooks the reader and states the thesis, body paragraphs each develop one supporting point with evidence, and a conclusion ties everything back together without simply repeating the introduction word-for-word. Incorporating outside sources smoothly — through quotes, paraphrases, or summaries — is what separates a well-supported essay from a list of opinions.",
+      "keyTerms": [
+        {"term": "Thesis statement", "def": "The sentence (usually in the introduction) that states the essay's central argument."},
+        {"term": "Topic sentence", "def": "The sentence that states the main idea of a body paragraph."},
+        {"term": "Body paragraph", "def": "A paragraph that develops one supporting point of the thesis with evidence."},
+        {"term": "Conclusion", "def": "The closing paragraph that reinforces the thesis without merely repeating it."},
+        {"term": "Paraphrase", "def": "Restating a source's idea in your own words, still requiring citation."},
+        {"term": "Summary", "def": "Condensing a source's overall point into a shorter form."}
+      ],
+      "examples": [
+        "An introduction might open with a relevant statistic or anecdote (the \"hook\") before narrowing down to the thesis statement.",
+        "A body paragraph on the benefits of exercise might open with a topic sentence, then support it with a cited study before transitioning to the next point."
+      ],
+      "steps": [
+        "Introduction: hook the reader, provide context, and state the thesis.",
+        "Body paragraph 1: topic sentence plus evidence supporting one point of the thesis.",
+        "Additional body paragraphs: each develops one more supporting point, in a logical order.",
+        "Conclusion: restate the significance of the thesis without just repeating the introduction."
+      ],
+      "remember": [
+        "Every body paragraph should focus on one main idea, stated in a topic sentence.",
+        "The thesis statement is the backbone of the essay — every paragraph should support it.",
+        "A conclusion reinforces the argument's significance; it shouldn't just copy the introduction.",
+        "Sources can be incorporated as direct quotes, paraphrases, or summaries — all need citation."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the purpose of a topic sentence?", "options": ["To restate the thesis", "To state the main idea of a body paragraph", "To cite a source", "To hook the reader"], "correct": 1, "explanation": "A topic sentence states the main idea that a specific body paragraph will develop."},
+        {"q": "Where does the thesis statement typically appear?", "options": ["In the conclusion only", "In the introduction", "In every body paragraph", "In the works cited page"], "correct": 1, "explanation": "The thesis statement, presenting the essay's central argument, typically appears in the introduction."},
+        {"q": "What is a \"paraphrase\"?", "options": ["A word-for-word copy of a source", "Restating a source's idea in your own words", "A summary of the whole essay", "An unsupported opinion"], "correct": 1, "explanation": "A paraphrase restates a source's idea in the writer's own words — and still requires citation."},
+        {"q": "What should a strong conclusion do?", "options": ["Introduce a brand new argument", "Simply repeat the introduction word-for-word", "Reinforce the thesis's significance", "Cite every source used in the essay"], "correct": 2, "explanation": "A strong conclusion reinforces why the thesis matters, rather than just restating the introduction."},
+        {"q": "What should each body paragraph in an essay focus on?", "options": ["Multiple unrelated ideas", "One main supporting point", "Only quotations from sources", "The essay's title"], "correct": 1, "explanation": "Each body paragraph should develop one main supporting point of the thesis."}
+      ]
+    }
+  },
+  "Argumentation": {
+    "guide": {
+      "explanation": "A strong argument combines a clear claim, solid supporting evidence, and sound reasoning — but even well-intentioned writers can fall into logical fallacies that undermine their credibility. Hasty generalizations (drawing conclusions from too little evidence), ad hominem attacks (attacking the person instead of the argument), and guilt by association (dismissing an idea because of who's associated with it) are three of the most common traps. Recognizing these fallacies is essential to both writing and evaluating persuasive arguments.",
+      "keyTerms": [
+        {"term": "Claim", "def": "The central position or argument a writer is making."},
+        {"term": "Hasty generalization", "def": "A conclusion drawn from insufficient or weak evidence."},
+        {"term": "Ad hominem", "def": "Attacking the person making an argument instead of the argument itself."},
+        {"term": "Guilt by association", "def": "Dismissing an idea because of who or what it's associated with, rather than its actual merit."},
+        {"term": "Logical fallacy", "def": "An error in reasoning that undermines the validity of an argument."},
+        {"term": "Reasoning", "def": "The logical process connecting evidence to a claim."}
+      ],
+      "examples": [
+        "An ad hominem fallacy in politics: dismissing a policy proposal by attacking the character of the person who proposed it, rather than addressing the policy itself.",
+        "Guilt by association: dismissing an idea because it's associated with an unpopular person or group, without evaluating the idea on its own merits."
+      ],
+      "steps": [
+        "Check whether the evidence is sufficient and representative — not a hasty generalization.",
+        "Confirm the argument addresses the actual claim, not the character of the person making it (avoiding ad hominem).",
+        "Check whether an idea is being judged on its own merits, not dismissed due to its associations (avoiding guilt by association).",
+        "Verify the reasoning logically connects the evidence to the claim without circular logic."
+      ],
+      "remember": [
+        "Hasty generalizations happen when a claim is supported by too little or too weak evidence.",
+        "Ad hominem attacks the person, not the argument — common in political debates.",
+        "Guilt by association dismisses an idea based on who it's connected to, not its actual quality.",
+        "A valid argument needs a clear claim, sufficient evidence, and logically sound reasoning."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"hasty generalization\"?", "options": ["An argument that is too long", "A conclusion drawn from insufficient or weak evidence", "An attack on someone's character", "A properly cited claim"], "correct": 1, "explanation": "A hasty generalization occurs when a claim is made without sufficient or representative supporting evidence."},
+        {"q": "What defines an \"ad hominem\" fallacy?", "options": ["Attacking the argument's logic", "Attacking the person making the argument instead of their argument", "Using too many sources", "Failing to cite evidence"], "correct": 1, "explanation": "Ad hominem fallacies attack the character of the person making an argument rather than the argument itself."},
+        {"q": "What is \"guilt by association\"?", "options": ["Citing too many sources", "Dismissing an idea due to its connection to an unpopular person or group", "A type of hasty generalization only", "A form of proper citation"], "correct": 1, "explanation": "Guilt by association dismisses an idea based on who or what it's associated with, rather than its actual merit."},
+        {"q": "What three elements does a strong argument need?", "options": ["Length, formatting, and citations", "A clear claim, sufficient evidence, and sound reasoning", "Humor, emotion, and repetition", "Only a strong thesis statement"], "correct": 1, "explanation": "A strong argument requires a clear claim, evidence that sufficiently supports it, and reasoning that logically connects the two."},
+        {"q": "Which of these fallacies is most closely related to \"guilt by association\"?", "options": ["Ad hominem", "Hasty generalization", "Circular reasoning", "False cause"], "correct": 0, "explanation": "Guilt by association is closely related to ad hominem — both involve judging based on identity rather than the actual argument."}
+      ]
+    }
+  },
+  "Synthesizing Sources": {
+    "guide": {
+      "explanation": "Using outside sources well means more than just finding them — writers need to evaluate a source's credibility, cite it correctly in a recognized format (MLA, APA, or Chicago), and weave multiple sources together into an original synthesis essay rather than just stringing quotes together. MLA style cites by author and page number; APA cites by author and publication date — reflecting each discipline's differing emphasis on when versus where information appears.",
+      "keyTerms": [
+        {"term": "Synthesis essay", "def": "An essay that combines and analyzes ideas from multiple sources to build an original argument."},
+        {"term": "MLA style", "def": "Cites sources by author's last name and page number; common in humanities."},
+        {"term": "APA style", "def": "Cites sources by author's last name and publication year; common in social sciences."},
+        {"term": "Works cited page", "def": "The MLA term for the list of full source citations at the end of a paper."},
+        {"term": "In-text citation", "def": "A brief citation within the body of the text pointing to the full source entry."}
+      ],
+      "examples": [
+        "MLA in-text citation: (Carnegie 13) — author's last name and page number.",
+        "APA in-text citation would instead emphasize the publication year, reflecting a field's focus on how recent the research is."
+      ],
+      "steps": [
+        "Evaluate the source's credibility — who wrote it, when, and is it relevant and trustworthy?",
+        "Decide whether to quote directly, paraphrase, or summarize the source's information.",
+        "Add the appropriate in-text citation (author/page for MLA, author/year for APA).",
+        "List the full citation on the works cited (MLA) or reference (APA) page, alphabetized and properly formatted."
+      ],
+      "remember": [
+        "MLA cites by author and page number; APA cites by author and publication date.",
+        "A synthesis essay combines multiple sources into one original argument — it's not just a string of quotes.",
+        "Works cited/reference page entries are alphabetized by the first word of the citation.",
+        "Every in-text citation needs a matching full entry on the works cited or reference page."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does MLA in-text citation format emphasize?", "options": ["Author and publication date", "Author and page number", "Title and publisher", "Publication date only"], "correct": 1, "explanation": "MLA format cites sources using the author's last name and the page number where the information appears."},
+        {"q": "What does APA in-text citation format emphasize?", "options": ["Author and page number", "Author and publication date", "Title and page number", "Publisher only"], "correct": 1, "explanation": "APA format cites sources using the author's last name and the publication date."},
+        {"q": "What is a synthesis essay?", "options": ["A single-source summary", "An essay combining multiple sources into an original argument", "A list of quotations", "A grammar exercise"], "correct": 1, "explanation": "A synthesis essay combines and analyzes ideas from multiple sources to build an original, cohesive argument."},
+        {"q": "How should entries be ordered on an MLA works cited page?", "options": ["By date", "By page number", "Alphabetically by the first word of the citation", "Randomly"], "correct": 2, "explanation": "Works cited entries are listed alphabetically by the first word of the full citation."},
+        {"q": "What must every in-text citation have?", "options": ["A direct quote only", "A matching full entry on the works cited or reference page", "A footnote", "A hyperlink"], "correct": 1, "explanation": "Every in-text citation must correspond to a full citation entry on the works cited or reference page."}
+      ]
+    }
+  },
+  "Revising and Editing": {
+    "guide": {
+      "explanation": "Revising and editing are two distinct stages of the writing process, often confused as the same thing. Revision happens first and focuses on the big picture — does the argument make sense, is the organization logical, is anything missing — while editing comes after and focuses on smaller-scale correctness: grammar, punctuation, word choice, and sentence-level clarity. Because different learners catch errors differently, using more than one revision strategy helps catch what a single read-through might miss.",
+      "keyTerms": [
+        {"term": "Revision", "def": "Big-picture review of an essay's argument, organization, and content."},
+        {"term": "Editing", "def": "Fine-tuning grammar, punctuation, word choice, and sentence clarity."},
+        {"term": "Reading aloud", "def": "A revision strategy that helps writers catch awkward phrasing by hearing it."},
+        {"term": "Reverse order review", "def": "A proofreading strategy of checking sentences from last to first to catch errors missed when reading in normal order."}
+      ],
+      "examples": [
+        "During revision, a writer might notice a body paragraph doesn't actually support the thesis and needs to be cut or reworked entirely.",
+        "During editing, the same writer would instead catch a subject-verb agreement error or a misplaced comma."
+      ],
+      "steps": [
+        "Draft the essay fully before revising — don't edit line-by-line while still drafting.",
+        "Revise for big-picture issues: does the organization make sense, does every paragraph support the thesis?",
+        "Use varied revision strategies — reading aloud, getting outside feedback, reviewing in reverse order — since different methods catch different errors.",
+        "Edit only after revision is complete: check grammar, punctuation, word choice, and sentence-level clarity."
+      ],
+      "remember": [
+        "Revision comes first and focuses on big-picture content; editing comes after and focuses on smaller details.",
+        "Reading a draft aloud is a simple but effective revision strategy for catching awkward phrasing.",
+        "Different learners catch different errors — using more than one revision strategy is more effective than relying on just one.",
+        "Don't edit for grammar before you've finished revising the big-picture content — it wastes effort if that section gets cut."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the main difference between revision and editing?", "options": ["They are the same process", "Revision focuses on big-picture content; editing focuses on grammar and clarity", "Editing always comes before revision", "Revision only applies to the introduction"], "correct": 1, "explanation": "Revision addresses big-picture issues like argument and organization, while editing addresses smaller-scale grammar and clarity."},
+        {"q": "Why might a writer read their essay aloud during revision?", "options": ["To check formatting", "To catch awkward phrasing by hearing it", "To count words", "To find citation errors only"], "correct": 1, "explanation": "Reading aloud helps writers catch awkward phrasing or unclear sentences that might be missed when reading silently."},
+        {"q": "Why is it recommended to use more than one revision strategy?", "options": ["It's required by most style guides", "Different learners and strategies catch different types of errors", "It makes the essay longer", "Only one strategy is ever needed"], "correct": 1, "explanation": "Different revision strategies catch different kinds of errors, so combining approaches is more effective."},
+        {"q": "Which of these is an example of an editing task, not a revision task?", "options": ["Reworking a paragraph that doesn't support the thesis", "Fixing a subject-verb agreement error", "Reorganizing the essay's structure", "Cutting an unnecessary body paragraph"], "correct": 1, "explanation": "Fixing a grammar error like subject-verb agreement is a small-scale editing task, not a big-picture revision task."},
+        {"q": "What should typically happen before detailed editing begins?", "options": ["Choosing a font", "Completing the big-picture revision first", "Writing the works cited page", "Selecting a citation style"], "correct": 1, "explanation": "Big-picture revision should happen before detailed editing, since content changes during revision could make earlier edits unnecessary."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "United States Government Background": {
+    "guide": {
+      "explanation": "The United States is a representative democracy — a republic with no monarch, where citizens elect officials to make decisions on their behalf rather than voting directly on every issue. The Constitution, signed on September 17, 1787, replaced the earlier Articles of Confederation and split government authority across three branches — legislative, executive, and judicial — specifically so no single branch could accumulate too much power.",
+      "keyTerms": [
+        {"term": "Representative democracy", "def": "Citizens elect officials to represent their interests and make decisions in government."},
+        {"term": "Republic", "def": "A government with no monarch."},
+        {"term": "Separation of powers", "def": "Government authority divided across three branches: legislative, executive, and judicial."},
+        {"term": "Checks and balances", "def": "Each branch can limit the actions of the others, so no one branch dominates."},
+        {"term": "Federalism", "def": "Power is divided between the national government and state governments."},
+        {"term": "Suffrage", "def": "The legal right to vote."}
+      ],
+      "examples": [
+        "The 1787 Constitutional Convention: James Madison drafted the framework and George Washington presided — the result divided power among Congress, the President, and the federal courts.",
+        "Voting rights expanded gradually rather than all at once: property requirements for white men were mostly gone by the 1820s, the 15th Amendment (1870) enfranchised Black men, and the 19th Amendment (1920) enfranchised women."
+      ],
+      "steps": [
+        "The founders rejected a single all-powerful ruler.",
+        "Power was split into three branches: legislative (Congress), executive (President), judicial (courts).",
+        "Each branch was given ways to check the others, so none could dominate.",
+        "The Constitution was ratified in 1787, replacing the Articles of Confederation as the governing document."
+      ],
+      "remember": [
+        "No monarch — the U.S. is a republic.",
+        "Three branches, and each can check the others.",
+        "James Madison is known as the \"Father of the Constitution.\"",
+        "Voting rights were not universal at the start — they expanded over more than a century."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What type of government is the United States?", "options": ["Direct democracy", "Representative democracy", "Monarchy", "Oligarchy"], "correct": 1, "explanation": "The U.S. is a representative democracy — citizens elect officials to make decisions on their behalf, rather than voting directly on every issue."},
+        {"q": "Who is known as the \"Father of the Constitution\"?", "options": ["George Washington", "Thomas Jefferson", "James Madison", "Benjamin Franklin"], "correct": 2, "explanation": "James Madison played a leading role in drafting the Constitution and later authored the Bill of Rights."},
+        {"q": "What document did the U.S. Constitution replace?", "options": ["The Bill of Rights", "The Declaration of Independence", "The Articles of Confederation", "The Federalist Papers"], "correct": 2, "explanation": "The Constitution, signed in 1787, replaced the Articles of Confederation as the country's governing document."},
+        {"q": "What is the purpose of \"checks and balances\"?", "options": ["To let the President override Congress", "To prevent any one branch from gaining too much power", "To combine all three branches into one", "To let states override federal law"], "correct": 1, "explanation": "Each branch can limit the actions of the others, which keeps power balanced across the system."},
+        {"q": "Which amendment secured women's right to vote nationally?", "options": ["14th Amendment", "15th Amendment", "19th Amendment", "26th Amendment"], "correct": 2, "explanation": "The 19th Amendment, ratified in 1920, secured women's suffrage nationally."}
+      ]
+    }
+  },
+  "Political Parties and Congress": {
+    "guide": {
+      "explanation": "America runs on a two-party system that developed on its own — the Constitution never mentions political parties, but disagreements over federal power split the founders into rival camps almost immediately. Today's Democratic and Republican parties trace back to those early divisions, while third parties, though they rarely win elections themselves, have repeatedly pushed both major parties toward reforms like women's suffrage and Social Security. Congress itself is bicameral: a House of Representatives elected every two years by population, and a Senate with two members per state serving staggered six-year terms.",
+      "keyTerms": [
+        {"term": "Political party", "def": "A group of people who organize to win elections, run government, and shape public policy."},
+        {"term": "Third party (minor party)", "def": "A party outside the two major ones; rarely wins but can shift the political conversation."},
+        {"term": "Bicameral legislature", "def": "A lawmaking body split into two chambers — here, the House and the Senate."},
+        {"term": "Incumbent", "def": "The current holder of an office up for election."},
+        {"term": "Impeachment", "def": "The House's formal charge against a federal official for wrongdoing; a Senate conviction removes them from office."},
+        {"term": "17th Amendment", "def": "Changed Senate elections from selection by state legislatures to a direct vote by the people."}
+      ],
+      "examples": [
+        "The Democratic Party (founded 1828) and Republican Party (founded 1854) grew out of splits over slavery, federal power, and the Civil War.",
+        "In 1912, Theodore Roosevelt's \"Bull Moose\" Progressive Party split Republican votes and helped elect Democrat Woodrow Wilson — a classic example of a third party acting as a \"spoiler.\""
+      ],
+      "steps": [
+        "House of Representatives: at least 25 years old, a U.S. citizen for 7+ years, and a resident of the state represented.",
+        "Senate: at least 30 years old, a U.S. citizen for 9+ years, and a resident of the state represented — deliberately higher bars for what the founders intended as the \"upper\" chamber.",
+        "House members are elected every 2 years, with all 435 seats reapportioned every 10 years based on the census.",
+        "Senators serve staggered 6-year terms, with about one-third of the Senate up for election every 2 years."
+      ],
+      "remember": [
+        "The Constitution doesn't mention political parties at all — the two-party system developed on its own.",
+        "House: 25 years old / 7 years citizenship. Senate: 30 years old / 9 years citizenship.",
+        "Third parties rarely win, but have historically pushed major reforms (women's suffrage, child labor laws, Social Security).",
+        "The 17th Amendment gave voters, not state legislatures, the power to elect Senators directly."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the minimum age to serve in the U.S. House of Representatives?", "options": ["18", "21", "25", "30"], "correct": 2, "explanation": "Article I, Section 2 sets the minimum age for House members at 25, with at least 7 years of U.S. citizenship."},
+        {"q": "Which amendment changed Senators from being chosen by state legislatures to being elected directly by voters?", "options": ["15th Amendment", "17th Amendment", "19th Amendment", "26th Amendment"], "correct": 1, "explanation": "The 17th Amendment established direct election of Senators by the people of each state."},
+        {"q": "Which of these is an example of a third party acting as a political \"spoiler\"?", "options": ["The Federalist Party under Washington", "The Bull Moose Party in the 1912 election", "The Democratic Party after the Civil War", "The Republican Party under Lincoln"], "correct": 1, "explanation": "Theodore Roosevelt's 1912 Progressive \"Bull Moose\" Party split Republican votes, helping Democrat Woodrow Wilson win the presidency."},
+        {"q": "How long is a U.S. Senator's term?", "options": ["2 years", "4 years", "6 years", "8 years"], "correct": 2, "explanation": "Senators serve six-year terms, staggered so about one-third of the Senate is up for election every two years."},
+        {"q": "Which two parties have been the dominant parties in Congress since the 1850s?", "options": ["Federalists and Whigs", "Democrats and Republicans", "Libertarians and Greens", "Populists and Progressives"], "correct": 1, "explanation": "The Democratic Party (1828) and Republican Party (1854) have been the two primary parties since the mid-1800s."}
+      ]
+    }
+  },
+  "Congress: Rules and Operations Overview": {
+    "guide": {
+      "explanation": "Congress runs mostly through its committee system — roughly 200 committees and subcommittees do the actual work of researching, drafting, and vetting legislation before it ever reaches a floor vote. Each chamber also sets its own internal rules, since the Constitution grants them that authority directly. Turning a bill into a law is a multi-step process requiring approval from both chambers, plus either the President's signature or a two-thirds vote in both houses to override a veto.",
+      "keyTerms": [
+        {"term": "Standing committee", "def": "A permanent committee (20 in the House, 16 in the Senate) that reviews bills on an ongoing topic like education or the budget."},
+        {"term": "Quorum", "def": "The minimum number of members who must be present for a chamber to conduct business."},
+        {"term": "Veto", "def": "The President's power to reject a bill; Congress can override it with a two-thirds vote in both chambers."},
+        {"term": "Pocket veto", "def": "If the President doesn't sign a bill and Congress adjourns within 10 days, the bill dies without a formal veto."},
+        {"term": "Lobbying", "def": "Paid advocacy where special interest groups try to influence legislation."},
+        {"term": "Conference committee", "def": "A temporary committee formed to reconcile differing House and Senate versions of the same bill."}
+      ],
+      "examples": [
+        "A discharge petition can force a bill stuck in committee onto the House floor — but between 1995 and 2007, only 1 of 73 such petitions actually succeeded, showing how much power committees really hold.",
+        "The Senate Judiciary Committee, established in 1816, plays a central role in judicial confirmations and constitutional debates — one of the most influential standing committees in Congress."
+      ],
+      "steps": [
+        "A bill is introduced and assigned to the relevant committee, which researches, debates, and can amend it.",
+        "It must pass a vote in its chamber of origin, then move to the other chamber for the same process.",
+        "If both chambers pass different versions, a conference committee reconciles them into one bill.",
+        "The President signs the bill (it becomes law) or vetoes it, sending it back with objections.",
+        "If vetoed, the originating chamber can override with a two-thirds vote in both chambers; otherwise, the bill dies."
+      ],
+      "remember": [
+        "Congress divides its work across roughly 200 committees and subcommittees — most of the real work happens there, not on the floor.",
+        "A bill becomes law if the President signs it, or if he doesn't act within 10 days while Congress is in session.",
+        "A pocket veto only happens if Congress adjourns within that same 10-day window.",
+        "Overriding a veto requires a two-thirds vote in both the House and the Senate."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What happens to a bill if the President neither signs nor vetoes it within 10 days while Congress is in session?", "options": ["It automatically dies", "It becomes law without a signature", "It returns to committee", "It requires a new vote"], "correct": 1, "explanation": "If Congress is in session and the President takes no action within 10 days, the bill becomes law by default."},
+        {"q": "What vote is required in Congress to override a presidential veto?", "options": ["A simple majority in one chamber", "A two-thirds vote in both chambers", "A unanimous vote in the Senate", "A three-fifths vote in the House only"], "correct": 1, "explanation": "Overriding a veto requires a two-thirds vote in both the House and the Senate."},
+        {"q": "What is a \"pocket veto\"?", "options": ["A veto the President can never undo", "When Congress adjourns within 10 days and an unsigned bill dies", "A veto that only applies to budget bills", "An automatic veto of any bill over 100 pages"], "correct": 1, "explanation": "A pocket veto occurs when the President doesn't sign a bill and Congress adjourns within 10 days, killing the bill without a formal veto."},
+        {"q": "Roughly how many committees and subcommittees does Congress use to divide its work?", "options": ["About 20", "About 50", "About 100", "About 200"], "correct": 3, "explanation": "Congress divides its legislative and oversight work across approximately 200 committees and subcommittees."},
+        {"q": "What is formed when the House and Senate pass different versions of the same bill?", "options": ["A discharge petition", "A conference committee", "A standing committee", "A judiciary panel"], "correct": 1, "explanation": "A conference committee is created to reconcile differing House and Senate versions of a bill into one version."}
+      ]
+    }
+  },
+  "The Presidency, Federal Bureaucracy, and the Media": {
+    "guide": {
+      "explanation": "The President leads the executive branch, supported by a wide circle of advisors — the Vice President, Chief of Staff, National Security Advisor, and the Cabinet, made up of the heads of the 15 executive departments. Beyond the President's inner circle, the federal bureaucracy carries out the day-to-day work of government, while the media has become such an influential check on all three branches that it's often informally called the \"fourth branch of government.\" If a President can't serve, a clear line of succession — refined across several Succession Acts — determines exactly who steps in.",
+      "keyTerms": [
+        {"term": "Cabinet", "def": "The heads of the 15 executive departments, appointed by the President and confirmed by the Senate."},
+        {"term": "Chief of Staff", "def": "Manages White House operations, staffing, and the President's schedule."},
+        {"term": "National Security Advisor", "def": "Briefs the President on military and intelligence matters and guides the National Security Council."},
+        {"term": "Line of succession", "def": "The order in which officials would assume the presidency if the President and Vice President cannot serve."},
+        {"term": "Fourth branch of government", "def": "An informal term for the media's influence in checking the other three branches."}
+      ],
+      "examples": [
+        "Cabinet secretaries need Senate confirmation to be appointed, but the President alone can remove them — Congress can only remove them through impeachment.",
+        "The 1947 Presidential Succession Act placed the Speaker of the House ahead of the Senate's President Pro Tempore in the line of succession, right after the Vice President."
+      ],
+      "steps": [
+        "Vice President — first in line if the President cannot serve.",
+        "Speaker of the House of Representatives — next, under the 1947 Succession Act.",
+        "President Pro Tempore of the Senate — follows the Speaker.",
+        "Cabinet secretaries, in the order their departments were created, starting with the Secretary of State."
+      ],
+      "remember": [
+        "The Cabinet has 15 department heads; the President appoints them, but the Senate must confirm them.",
+        "Succession order: Vice President \u2192 Speaker of the House \u2192 Senate President Pro Tempore \u2192 Cabinet secretaries by department age.",
+        "The Chief of Staff runs White House operations; the National Security Advisor focuses specifically on military/intelligence briefings.",
+        "The media is sometimes informally called the \"fourth branch\" for its role in shaping public accountability."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "How many executive departments make up the President's Cabinet?", "options": ["10", "12", "15", "20"], "correct": 2, "explanation": "The Cabinet is composed of the heads of the 15 executive departments."},
+        {"q": "Who confirms the President's Cabinet appointments?", "options": ["The House of Representatives", "The Senate", "The Supreme Court", "State governors"], "correct": 1, "explanation": "The President appoints Cabinet members, but a majority vote of the Senate is required to confirm them."},
+        {"q": "Under the Presidential Succession Act of 1947, who is second in line after the Vice President?", "options": ["The Secretary of State", "The President Pro Tempore of the Senate", "The Speaker of the House", "The Chief of Staff"], "correct": 2, "explanation": "The 1947 Act placed the Speaker of the House ahead of the Senate's President Pro Tempore, right after the Vice President."},
+        {"q": "Who advises the President specifically on military and intelligence matters?", "options": ["The Chief of Staff", "The National Security Advisor", "The Vice President", "The Attorney General"], "correct": 1, "explanation": "The National Security Advisor briefs the President on national security issues and guides the National Security Council."},
+        {"q": "What is the media sometimes informally called, due to its influence on government accountability?", "options": ["The Fifth Estate", "The Fourth Branch", "The Shadow Cabinet", "The Silent Chamber"], "correct": 1, "explanation": "Because of its role in checking the other three branches, the media is often informally referred to as the \"fourth branch of government.\""}
+      ]
+    }
+  },
+  "Federal Courts, Civil Rights and Public Opinion": {
+    "guide": {
+      "explanation": "The U.S. runs on a dual court system — each state has its own courts alongside a separate federal court system, with federal courts stepping in specifically for cases involving the Constitution, federal law, or disputes between citizens of different states. Federal judges are appointed by the President, confirmed by the Senate, and, for Article III judges, serve lifetime terms specifically to keep them insulated from political pressure. These courts play a central role in civil rights, ruling on contentious federalism questions like education standards, reproductive rights, and immigration policy — areas where state and federal authority frequently overlap and clash.",
+      "keyTerms": [
+        {"term": "Jurisdiction", "def": "A court's authority to hear and decide a particular case."},
+        {"term": "Limited jurisdiction", "def": "Federal courts only hear cases involving the Constitution, federal law, or treaties — not everyday state matters."},
+        {"term": "Article III judges", "def": "Supreme Court justices, circuit judges, and district judges, all with lifetime appointments."},
+        {"term": "Article I judges", "def": "Judges like magistrates, not nominated by the President, serving 14\u201315 year terms instead of lifetime ones."},
+        {"term": "Civil rights", "def": "Legal protections against discrimination based on traits like race, ethnicity, or gender."},
+        {"term": "Federalism", "def": "The division of power between national and state governments."}
+      ],
+      "examples": [
+        "The Civil Rights Act of 1964 and Voting Rights Act of 1965 are federal laws enforced by the Department of Justice, while states can independently strengthen protections through their own constitutions and courts.",
+        "Reproductive rights sit at the intersection of federal law (like the Affordable Care Act) and state regulation, making it one of the most legally contested federalism issues today."
+      ],
+      "steps": [
+        "A case begins in a lower trial court — state or federal, depending on jurisdiction.",
+        "It can be appealed to an intermediate appellate court if a party disputes the ruling.",
+        "From there, it can be appealed to the State Supreme Court (for state cases) or a federal Circuit Court of Appeals.",
+        "Federal cases can ultimately reach the U.S. Supreme Court, though it chooses which cases to hear."
+      ],
+      "remember": [
+        "Federal courts only have \"limited jurisdiction\" — cases involving the Constitution, federal statutes, or treaties.",
+        "Article III judges (Supreme Court, Circuit, District) get lifetime appointments; Article I judges (like magistrates) don't.",
+        "Civil rights protections come from both federal law (Civil Rights Act, Voting Rights Act) and individual state constitutions.",
+        "Federalism tensions show up clearly in education, reproductive rights, and immigration policy."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"limited jurisdiction\" mean for federal courts?", "options": ["They can only hear criminal cases", "They can only hear cases involving the Constitution, federal law, or treaties", "They can only operate in Washington D.C.", "They can only hear appeals, not new cases"], "correct": 1, "explanation": "Limited jurisdiction means federal courts only hear cases tied to the Constitution, federal statutes, or treaties — not general state matters."},
+        {"q": "What is the key difference between Article III and Article I federal judges?", "options": ["Article III judges are elected; Article I are appointed", "Article III judges get lifetime appointments; Article I judges do not", "Article I judges outrank Article III judges", "There is no meaningful difference"], "correct": 1, "explanation": "Article III judges (Supreme Court, Circuit, District) receive lifetime appointments, while Article I judges, like magistrates, serve fixed terms of about 14-15 years."},
+        {"q": "Which federal law is specifically aimed at protecting the right to vote?", "options": ["The Affordable Care Act", "The Voting Rights Act of 1965", "The Individuals with Disabilities Education Act", "The 17th Amendment"], "correct": 1, "explanation": "The Voting Rights Act of 1965 is a federal law protecting citizens' voting rights, enforced by the Department of Justice."},
+        {"q": "Who appoints federal judges, and who confirms them?", "options": ["Congress appoints; the President confirms", "The President appoints; the Senate confirms", "State governors appoint; the House confirms", "The Supreme Court appoints; the Senate confirms"], "correct": 1, "explanation": "Federal judges are appointed by the President and must be confirmed by the Senate."},
+        {"q": "Which of these is an example of a federalism tension mentioned in this chapter?", "options": ["Reproductive rights policy", "National Anthem protocol", "Presidential term limits", "The size of the House of Representatives"], "correct": 0, "explanation": "Reproductive rights sit at the intersection of federal law and state regulation, making them one of the clearest ongoing federalism disputes."}
+      ]
+    }
+  }
+}

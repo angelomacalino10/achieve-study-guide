@@ -1,0 +1,339 @@
+{
+  "Basic Economic Concepts": {
+    "guide": {
+      "explanation": "Microeconomics studies individual decision-makers — consumers, firms, and specific markets — rather than the economy as a whole. Every choice involves scarcity and opportunity cost, illustrated through the Production Possibilities Curve (PPC), and specialization based on comparative advantage allows individuals, firms, and countries to produce more collectively than they could alone.",
+      "keyTerms": [
+        {"term": "Scarcity", "def": "Limited resources relative to unlimited wants."},
+        {"term": "Opportunity cost", "def": "The value of the next best alternative given up when making a choice."},
+        {"term": "Production Possibilities Curve (PPC)", "def": "A graph showing the maximum combinations of two goods an economy can produce with fixed resources."},
+        {"term": "Absolute advantage", "def": "The ability to produce more of a good than another producer, using the same resources."},
+        {"term": "Comparative advantage", "def": "The ability to produce a good at a lower opportunity cost than another producer."},
+        {"term": "Specialization", "def": "Focusing production on the good(s) a producer has a comparative advantage in."}
+      ],
+      "examples": [
+        "A country that can produce both wine and cloth more efficiently than another still benefits from trade if each specializes based on comparative advantage.",
+        "Moving along the PPC from producing more of good A to more of good B illustrates the opportunity cost of that trade-off."
+      ],
+      "steps": [
+        "Calculate each producer's opportunity cost of producing each good.",
+        "Compare the opportunity costs between the two producers for the same good.",
+        "Whichever producer has the LOWER opportunity cost for a good has the comparative advantage in it.",
+        "Each producer should specialize in the good where they hold the comparative advantage."
+      ],
+      "remember": [
+        "Microeconomics studies individual markets and decision-makers, not the whole economy.",
+        "Comparative advantage (lower opportunity cost) — not absolute advantage — determines optimal specialization.",
+        "Points on the PPC represent full efficiency; points inside represent unused resources.",
+        "Trade based on comparative advantage benefits all parties involved."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does microeconomics study?", "options": ["The economy as a whole", "Individual markets, firms, and consumers", "Only government policy", "International trade only"], "correct": 1, "explanation": "Microeconomics focuses on individual decision-makers, markets, and firms."},
+        {"q": "What determines comparative advantage?", "options": ["Having more total resources", "Having a lower opportunity cost of production", "Producing more of everything", "Population size"], "correct": 1, "explanation": "Comparative advantage is based on having a lower opportunity cost of production than another producer."},
+        {"q": "What does a point on the Production Possibilities Curve represent?", "options": ["Inefficient resource use", "Full, efficient use of resources", "An impossible outcome", "A trade deficit"], "correct": 1, "explanation": "Points ON the PPC represent full, efficient use of all available resources."},
+        {"q": "What is the difference between absolute and comparative advantage?", "options": ["They are the same thing", "Absolute advantage means producing more; comparative advantage means a lower opportunity cost", "Comparative advantage only applies to countries", "Absolute advantage doesn't exist"], "correct": 1, "explanation": "Absolute advantage means producing more of a good; comparative advantage means a lower opportunity cost."},
+        {"q": "Why does specialization based on comparative advantage benefit trading partners?", "options": ["It doesn't benefit anyone", "It allows more total output than if each tried to produce everything alone", "It eliminates opportunity cost", "It only benefits the larger economy"], "correct": 1, "explanation": "Specializing according to comparative advantage allows trading partners to produce more collectively."}
+      ]
+    }
+  },
+  "Market Equilibrium": {
+    "guide": {
+      "explanation": "Market equilibrium occurs where the quantity demanded by consumers equals the quantity supplied by producers, determining the market price. When price is above equilibrium, a surplus occurs; when price is below equilibrium, a shortage occurs — in both cases, market forces naturally push price back toward equilibrium.",
+      "keyTerms": [
+        {"term": "Demand", "def": "The quantity of a good consumers are willing and able to buy at various prices."},
+        {"term": "Supply", "def": "The quantity of a good producers are willing and able to sell at various prices."},
+        {"term": "Equilibrium price", "def": "The price where quantity demanded equals quantity supplied."},
+        {"term": "Surplus", "def": "Occurs when price is above equilibrium, causing quantity supplied to exceed quantity demanded."},
+        {"term": "Shortage", "def": "Occurs when price is below equilibrium, causing quantity demanded to exceed quantity supplied."},
+        {"term": "Law of demand", "def": "As price increases, quantity demanded decreases (all else equal)."}
+      ],
+      "examples": [
+        "If a concert ticket is priced above equilibrium, unsold tickets (a surplus) pressure sellers to lower the price.",
+        "If rent control sets price below equilibrium, more people want apartments than are available — a shortage."
+      ],
+      "steps": [
+        "Graph the demand curve (downward-sloping) and supply curve (upward-sloping) on the same axes.",
+        "Identify the point where the two curves intersect.",
+        "The price at that intersection is the equilibrium price.",
+        "The quantity at that intersection is the equilibrium quantity."
+      ],
+      "remember": [
+        "Equilibrium occurs where quantity demanded equals quantity supplied.",
+        "A price above equilibrium creates a surplus; a price below equilibrium creates a shortage.",
+        "The law of demand: price up, quantity demanded down (all else equal).",
+        "Market forces naturally push price back toward equilibrium when a surplus or shortage exists."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What defines market equilibrium?", "options": ["When supply exceeds demand", "When quantity demanded equals quantity supplied", "When price is at its highest", "When there is a shortage"], "correct": 1, "explanation": "Market equilibrium occurs at the price where quantity demanded equals quantity supplied."},
+        {"q": "What happens when price is set above the equilibrium price?", "options": ["A shortage occurs", "A surplus occurs", "Equilibrium is unaffected", "Demand increases"], "correct": 1, "explanation": "A price above equilibrium causes quantity supplied to exceed quantity demanded, creating a surplus."},
+        {"q": "What happens when price is set below the equilibrium price?", "options": ["A surplus occurs", "A shortage occurs", "Nothing changes", "Supply increases"], "correct": 1, "explanation": "A price below equilibrium causes quantity demanded to exceed quantity supplied, creating a shortage."},
+        {"q": "According to the law of demand, what happens to quantity demanded as price increases?", "options": ["It increases", "It decreases", "It stays the same", "It becomes zero"], "correct": 1, "explanation": "The law of demand states that as price increases, quantity demanded decreases, all else equal."},
+        {"q": "What happens to price when a market experiences a surplus?", "options": ["Price tends to rise", "Price tends to fall toward equilibrium", "Price stays fixed", "Supply disappears"], "correct": 1, "explanation": "A surplus creates downward pressure on price, pushing it back toward equilibrium."}
+      ]
+    }
+  },
+  "Elasticity": {
+    "guide": {
+      "explanation": "Elasticity measures how responsive quantity demanded or supplied is to a change in price. A good with elastic demand sees a large change in quantity demanded for a small price change (like luxury goods), while a good with inelastic demand sees little change (like necessities) — this directly determines how a price change affects total revenue.",
+      "keyTerms": [
+        {"term": "Price elasticity of demand", "def": "Measures how much quantity demanded changes in response to a price change."},
+        {"term": "Elastic demand", "def": "Quantity demanded changes significantly with price (elasticity greater than 1)."},
+        {"term": "Inelastic demand", "def": "Quantity demanded changes little with price (elasticity less than 1)."},
+        {"term": "Unit elastic", "def": "Quantity demanded changes proportionally with price (elasticity equal to 1)."},
+        {"term": "Total revenue", "def": "Price multiplied by quantity sold."}
+      ],
+      "examples": [
+        "Insulin tends to have inelastic demand — people need it regardless of price changes, since there are few substitutes.",
+        "Luxury vacations tend to have elastic demand — a price increase causes a large drop in quantity purchased."
+      ],
+      "steps": [
+        "Determine whether the good has elastic or inelastic demand.",
+        "If demand is elastic, a price increase leads to a proportionally larger decrease in quantity, decreasing total revenue.",
+        "If demand is inelastic, a price increase leads to a proportionally smaller decrease in quantity, increasing total revenue.",
+        "If demand is unit elastic, total revenue stays roughly the same regardless of the price change."
+      ],
+      "remember": [
+        "Elastic demand: quantity responds strongly to price changes (elasticity greater than 1).",
+        "Inelastic demand: quantity responds weakly to price changes (elasticity less than 1).",
+        "For elastic goods, raising price DECREASES total revenue; for inelastic goods, raising price INCREASES total revenue.",
+        "Necessities and goods with few substitutes tend to have inelastic demand."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"elastic demand\" mean?", "options": ["Quantity demanded doesn't change with price", "Quantity demanded changes significantly with price", "Price never changes", "Supply is unaffected by price"], "correct": 1, "explanation": "Elastic demand means quantity demanded changes significantly in response to a price change."},
+        {"q": "What happens to total revenue when price increases for a good with elastic demand?", "options": ["Total revenue increases", "Total revenue decreases", "Total revenue stays the same", "Total revenue becomes negative"], "correct": 1, "explanation": "For elastic goods, a price increase leads to a proportionally larger drop in quantity, decreasing total revenue."},
+        {"q": "What happens to total revenue when price increases for a good with inelastic demand?", "options": ["Total revenue decreases", "Total revenue increases", "Total revenue stays exactly the same", "Total revenue becomes zero"], "correct": 1, "explanation": "For inelastic goods, a price increase leads to a proportionally smaller drop in quantity, increasing total revenue."},
+        {"q": "Which type of good tends to have inelastic demand?", "options": ["Luxury goods", "Necessities with few substitutes", "Goods with many substitutes", "Goods with high price sensitivity"], "correct": 1, "explanation": "Necessities with few substitutes, like essential medications, tend to have inelastic demand."},
+        {"q": "What does \"unit elastic\" mean?", "options": ["Quantity doesn't respond to price at all", "Quantity changes proportionally with price", "Quantity always increases", "Demand curve is vertical"], "correct": 1, "explanation": "Unit elastic means quantity demanded changes proportionally with price."}
+      ]
+    }
+  },
+  "Markets and Welfare": {
+    "guide": {
+      "explanation": "Consumer surplus (the difference between what consumers are willing to pay and what they actually pay) and producer surplus (the difference between what producers receive and their minimum acceptable price) together measure the total benefit a market creates. A free, competitive market at equilibrium maximizes this combined surplus, while price controls typically create deadweight loss, reducing overall efficiency.",
+      "keyTerms": [
+        {"term": "Consumer surplus", "def": "The difference between what consumers are willing to pay and what they actually pay."},
+        {"term": "Producer surplus", "def": "The difference between the price producers receive and their minimum acceptable price."},
+        {"term": "Total welfare (social surplus)", "def": "The combined consumer surplus and producer surplus in a market."},
+        {"term": "Deadweight loss", "def": "The loss of total welfare that occurs when a market is not at its efficient equilibrium."},
+        {"term": "Price ceiling", "def": "A legal maximum price, which can cause deadweight loss if set below equilibrium."},
+        {"term": "Price floor", "def": "A legal minimum price, which can cause deadweight loss if set above equilibrium."}
+      ],
+      "examples": [
+        "If someone would pay $50 for a concert ticket but only pays $30, they gain $20 in consumer surplus.",
+        "Rent control (a price ceiling below equilibrium) creates deadweight loss by causing a housing shortage."
+      ],
+      "steps": [
+        "Identify the market's free equilibrium price and quantity.",
+        "Compare the imposed price ceiling or floor to that equilibrium.",
+        "If the control forces quantity below the equilibrium quantity, some mutually beneficial trades no longer happen.",
+        "The lost surplus from those un-made trades is the deadweight loss."
+      ],
+      "remember": [
+        "Consumer surplus plus producer surplus equals total welfare (social surplus).",
+        "A free market at equilibrium maximizes total welfare.",
+        "Price ceilings below equilibrium and price floors above equilibrium both create deadweight loss.",
+        "Deadweight loss represents the value of trades that would have benefited both buyers and sellers but don't happen."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"consumer surplus\"?", "options": ["The price producers receive", "The difference between what consumers are willing to pay and what they actually pay", "A government subsidy", "A type of tax"], "correct": 1, "explanation": "Consumer surplus is the difference between what consumers are willing to pay and what they actually pay."},
+        {"q": "What is \"deadweight loss\"?", "options": ["A type of consumer surplus", "The loss of total welfare when a market isn't at efficient equilibrium", "A government tax revenue", "A form of producer surplus"], "correct": 1, "explanation": "Deadweight loss is the loss of total welfare that occurs when a market is not at its efficient equilibrium."},
+        {"q": "When does a price ceiling cause deadweight loss?", "options": ["When it's set above equilibrium", "When it's set below equilibrium", "When it equals equilibrium", "Price ceilings never cause deadweight loss"], "correct": 1, "explanation": "A price ceiling causes deadweight loss when set below the market's equilibrium price, creating a shortage."},
+        {"q": "What does total welfare (social surplus) equal?", "options": ["Consumer surplus minus producer surplus", "Consumer surplus plus producer surplus", "Only producer surplus", "Only government revenue"], "correct": 1, "explanation": "Total welfare equals the sum of consumer surplus and producer surplus."},
+        {"q": "What maximizes total welfare in a market?", "options": ["A price ceiling below equilibrium", "A price floor above equilibrium", "A free market at its natural equilibrium", "Government price controls"], "correct": 2, "explanation": "A free, competitive market operating at its natural equilibrium maximizes total welfare."}
+      ]
+    }
+  },
+  "Theory of Consumer Choice": {
+    "guide": {
+      "explanation": "Consumers aim to maximize utility given a limited budget, choosing a combination of goods where the marginal utility per dollar spent is equal across all goods purchased. The law of diminishing marginal utility explains why consuming more of a good eventually yields smaller and smaller additional satisfaction, which is why consumers naturally spread their spending across multiple goods.",
+      "keyTerms": [
+        {"term": "Utility", "def": "The satisfaction or benefit a consumer gets from consuming a good or service."},
+        {"term": "Marginal utility", "def": "The additional utility gained from consuming one more unit of a good."},
+        {"term": "Law of diminishing marginal utility", "def": "As more units of a good are consumed, the additional utility from each new unit decreases."},
+        {"term": "Budget constraint", "def": "The limit on what combinations of goods a consumer can afford given their income and prices."},
+        {"term": "Utility-maximizing rule", "def": "A consumer maximizes utility when the marginal utility per dollar is equal across all goods purchased."}
+      ],
+      "examples": [
+        "The first slice of pizza brings high satisfaction, but the fifth slice brings much less — demonstrating diminishing marginal utility.",
+        "A consumer with $20 to split between snacks and drinks maximizes utility by allocating spending until marginal utility per dollar is equal for both."
+      ],
+      "steps": [
+        "Calculate the marginal utility of the next unit of each good being considered.",
+        "Divide each good's marginal utility by its price to get marginal utility per dollar.",
+        "Compare marginal utility per dollar across goods.",
+        "Keep reallocating spending toward whichever good offers higher marginal utility per dollar, until they are equal across all goods."
+      ],
+      "remember": [
+        "Marginal utility is the additional satisfaction from consuming one more unit.",
+        "The law of diminishing marginal utility: each additional unit brings less added satisfaction than the last.",
+        "Utility is maximized when marginal utility per dollar is equal across all goods purchased.",
+        "A budget constraint limits which combinations of goods a consumer can actually afford."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"marginal utility\"?", "options": ["The total satisfaction from all units consumed", "The additional utility gained from consuming one more unit", "The price of a good", "A type of budget constraint"], "correct": 1, "explanation": "Marginal utility is the additional satisfaction gained from consuming one more unit of a good."},
+        {"q": "What does the law of diminishing marginal utility state?", "options": ["Utility always increases with consumption", "Additional utility from each new unit decreases as consumption increases", "Utility is always constant", "Marginal utility is always negative"], "correct": 1, "explanation": "The law of diminishing marginal utility states that each additional unit consumed brings less added satisfaction than the last."},
+        {"q": "When is a consumer's utility maximized, according to the utility-maximizing rule?", "options": ["When they spend all their money on one good", "When marginal utility per dollar is equal across all goods purchased", "When marginal utility is zero", "When their budget constraint is ignored"], "correct": 1, "explanation": "Utility is maximized when the marginal utility per dollar spent is equal across all goods purchased."},
+        {"q": "What is a \"budget constraint\"?", "options": ["A government tax", "A limit on affordable combinations of goods given income and prices", "A type of marginal utility", "A production possibility curve"], "correct": 1, "explanation": "A budget constraint limits which combinations of goods a consumer can afford given their income and prices."},
+        {"q": "Why does the fifth slice of pizza typically bring less satisfaction than the first?", "options": ["Prices increase with each slice", "The law of diminishing marginal utility", "Budget constraints", "Elasticity of demand"], "correct": 1, "explanation": "The law of diminishing marginal utility explains why each additional unit consumed brings progressively less added satisfaction."}
+      ]
+    }
+  },
+  "Production and Costs": {
+    "guide": {
+      "explanation": "In the short run, firms face fixed costs (unavoidable regardless of output) and variable costs (which change with production level), and understanding marginal cost is essential for deciding how much to produce. The law of diminishing marginal returns explains why, beyond a certain point, adding more of a variable input to fixed inputs yields smaller and smaller increases in output.",
+      "keyTerms": [
+        {"term": "Fixed cost", "def": "A cost that does not change with the level of output (e.g., rent)."},
+        {"term": "Variable cost", "def": "A cost that changes with the level of output (e.g., raw materials)."},
+        {"term": "Marginal cost", "def": "The additional cost of producing one more unit of output."},
+        {"term": "Average total cost", "def": "Total cost divided by quantity produced."},
+        {"term": "Law of diminishing marginal returns", "def": "Adding more of a variable input to fixed inputs eventually yields smaller increases in output."}
+      ],
+      "examples": [
+        "A factory's rent is a fixed cost regardless of output; the raw materials used are a variable cost that rises with output.",
+        "Adding more workers to a fixed-size kitchen eventually leads to overcrowding, where each new worker adds less additional output than the last."
+      ],
+      "steps": [
+        "Ask: does this cost change if production level changes?",
+        "If no, it's a fixed cost (like rent or insurance).",
+        "If yes, it's a variable cost (like raw materials or hourly wages tied to output).",
+        "Total cost equals fixed cost plus variable cost at any given output level."
+      ],
+      "remember": [
+        "Fixed costs don't change with output; variable costs do.",
+        "Marginal cost is the cost of producing one additional unit.",
+        "The law of diminishing marginal returns explains why adding more of one input eventually yields smaller output gains.",
+        "Total cost = fixed cost + variable cost."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"fixed cost\"?", "options": ["A cost that changes with output", "A cost that does not change with output", "The cost of one additional unit", "Total cost divided by quantity"], "correct": 1, "explanation": "A fixed cost does not change regardless of the level of output, like rent."},
+        {"q": "What is \"marginal cost\"?", "options": ["The total cost of production", "The additional cost of producing one more unit", "A fixed cost only", "Average total cost"], "correct": 1, "explanation": "Marginal cost is the additional cost incurred from producing one more unit of output."},
+        {"q": "What does the law of diminishing marginal returns describe?", "options": ["Fixed costs always increase", "Adding more of a variable input eventually yields smaller increases in output", "Variable costs never change", "Marginal cost is always constant"], "correct": 1, "explanation": "The law of diminishing marginal returns describes how adding more of a variable input eventually yields smaller output gains."},
+        {"q": "How is total cost calculated?", "options": ["Fixed cost minus variable cost", "Fixed cost plus variable cost", "Marginal cost times quantity", "Average cost divided by quantity"], "correct": 1, "explanation": "Total cost equals fixed cost plus variable cost at a given output level."},
+        {"q": "Which of these is an example of a variable cost?", "options": ["Rent on a factory", "Insurance premiums", "Raw materials used in production", "Property taxes"], "correct": 2, "explanation": "Raw materials are a variable cost, since the amount used changes with the level of production."}
+      ]
+    }
+  },
+  "Firm Behavior and Market Structure": {
+    "guide": {
+      "explanation": "Market structures range from perfect competition (many small firms, identical products, easy entry/exit) to monopoly (a single firm with no close substitutes), with monopolistic competition and oligopoly falling in between. A profit-maximizing firm in any structure produces where marginal revenue equals marginal cost, but the level of competition determines how much market power a firm has to set prices above that competitive level.",
+      "keyTerms": [
+        {"term": "Perfect competition", "def": "A market structure with many firms, identical products, and easy entry/exit, where firms are price takers."},
+        {"term": "Monopoly", "def": "A market structure with a single firm and no close substitutes, giving it significant pricing power."},
+        {"term": "Monopolistic competition", "def": "Many firms selling similar but differentiated products, each with some pricing power."},
+        {"term": "Oligopoly", "def": "A market dominated by a few large firms, often interdependent in their pricing and output decisions."},
+        {"term": "Marginal revenue", "def": "The additional revenue gained from selling one more unit."},
+        {"term": "Profit-maximizing rule", "def": "A firm maximizes profit by producing where marginal revenue equals marginal cost (MR = MC)."}
+      ],
+      "examples": [
+        "Agricultural commodities like wheat closely resemble perfect competition, since many farmers sell nearly identical products.",
+        "A local utility company is often a monopoly, since it's the only provider of a service with no close substitute."
+      ],
+      "steps": [
+        "Determine the firm's marginal revenue and marginal cost at different output levels.",
+        "Find the output level where marginal revenue equals marginal cost (MR = MC).",
+        "Producing at this level maximizes the firm's profit, regardless of market structure.",
+        "Compare price to average total cost at that output to determine if the firm earns a profit or loss."
+      ],
+      "remember": [
+        "Perfect competition: many firms, identical products, firms are price takers.",
+        "Monopoly: single firm, no close substitutes, significant pricing power.",
+        "The profit-maximizing rule (MR = MC) applies across all market structures.",
+        "Monopolistic competition and oligopoly fall between perfect competition and monopoly."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What characterizes perfect competition?", "options": ["A single firm with no substitutes", "Many firms, identical products, and easy entry/exit", "A few large interdependent firms", "Firms with significant pricing power"], "correct": 1, "explanation": "Perfect competition features many firms selling identical products, with easy entry and exit."},
+        {"q": "What characterizes a monopoly?", "options": ["Many firms competing", "A single firm with no close substitutes", "Firms that are price takers", "Easy market entry"], "correct": 1, "explanation": "A monopoly features a single firm with no close substitutes, giving it significant pricing power."},
+        {"q": "What rule determines a firm's profit-maximizing output level?", "options": ["Price equals average cost", "Marginal revenue equals marginal cost (MR = MC)", "Total revenue equals total cost", "Fixed cost equals variable cost"], "correct": 1, "explanation": "A firm maximizes profit by producing at the output level where marginal revenue equals marginal cost."},
+        {"q": "What describes monopolistic competition?", "options": ["A single firm dominates", "Many firms selling similar but differentiated products", "Only two firms in the market", "No firms have any pricing power"], "correct": 1, "explanation": "Monopolistic competition features many firms selling similar but differentiated products, each with some pricing power."},
+        {"q": "What characterizes an oligopoly?", "options": ["Many small firms", "A market dominated by a few large, interdependent firms", "A single firm with no competitors", "Perfectly identical products only"], "correct": 1, "explanation": "An oligopoly is a market structure dominated by a few large firms whose decisions are interdependent."}
+      ]
+    }
+  },
+  "Factor Markets": {
+    "guide": {
+      "explanation": "Just as goods markets determine the price of products, factor markets determine the price of inputs like labor — through the same basic supply and demand framework. The demand for labor is a \"derived demand,\" coming from the demand for the goods and services that labor produces, and a firm hires workers up to the point where the additional revenue from one more worker (marginal revenue product) equals that worker's wage.",
+      "keyTerms": [
+        {"term": "Factor market", "def": "A market where the inputs of production (labor, capital, land) are bought and sold."},
+        {"term": "Derived demand", "def": "Demand for a factor of production that comes from the demand for the good or service it helps produce."},
+        {"term": "Marginal revenue product (MRP)", "def": "The additional revenue a firm gains from hiring one more unit of a factor, like labor."},
+        {"term": "Marginal factor cost (MFC)", "def": "The additional cost of hiring one more unit of a factor."},
+        {"term": "Wage", "def": "The price paid for labor in a factor market."}
+      ],
+      "examples": [
+        "Demand for construction workers is a derived demand, coming from the demand for new buildings and homes.",
+        "A firm should keep hiring workers as long as each additional worker's marginal revenue product exceeds their wage."
+      ],
+      "steps": [
+        "Calculate the marginal revenue product (MRP) of each additional worker.",
+        "Compare MRP to the wage (marginal factor cost) of hiring that worker.",
+        "Continue hiring workers as long as MRP exceeds the wage.",
+        "Stop hiring at the point where MRP equals the wage — hiring beyond this point would reduce profit."
+      ],
+      "remember": [
+        "Factor markets determine prices for inputs like labor, capital, and land.",
+        "Demand for a factor of production is a \"derived demand\" from the demand for the final good it helps produce.",
+        "A firm hires workers up to the point where marginal revenue product equals wage.",
+        "Marginal revenue product is the additional revenue gained from hiring one more unit of a factor."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"factor market\"?", "options": ["A market for finished consumer goods", "A market where inputs of production are bought and sold", "A market only for labor", "A type of monopoly"], "correct": 1, "explanation": "A factor market is where inputs of production — labor, capital, land — are bought and sold."},
+        {"q": "What is \"derived demand\"?", "options": ["Demand created by the government", "Demand for a factor of production that comes from demand for the good it helps produce", "Demand with no cause", "Demand only for luxury goods"], "correct": 1, "explanation": "Derived demand is demand for a factor of production that stems from demand for the final good it produces."},
+        {"q": "What is \"marginal revenue product\" (MRP)?", "options": ["The wage paid to a worker", "The additional revenue gained from hiring one more unit of a factor", "The total revenue of a firm", "The cost of raw materials"], "correct": 1, "explanation": "Marginal revenue product is the additional revenue a firm gains from hiring one more unit of a factor."},
+        {"q": "At what point should a firm stop hiring additional workers?", "options": ["When MRP exceeds the wage", "When MRP equals the wage", "When wages are highest", "When MRP is negative only"], "correct": 1, "explanation": "A firm should stop hiring additional workers at the point where marginal revenue product equals the wage."},
+        {"q": "What determines the demand for construction workers, according to derived demand?", "options": ["The workers' personal preferences", "The demand for new buildings and homes", "Government regulation only", "The supply of raw materials"], "correct": 1, "explanation": "Demand for construction workers is derived from the demand for the buildings and homes they help produce."}
+      ]
+    }
+  },
+  "Market Failure and the Role of the Government": {
+    "guide": {
+      "explanation": "Markets don't always allocate resources efficiently on their own — externalities and public goods are two classic examples of market failure that justify government intervention. Negative externalities (like pollution) lead markets to overproduce a good relative to the socially optimal level, while positive externalities (like education) lead to underproduction, unless corrected through taxes, subsidies, or regulation.",
+      "keyTerms": [
+        {"term": "Market failure", "def": "A situation where the free market fails to allocate resources efficiently."},
+        {"term": "Externality", "def": "A cost or benefit affecting a third party not directly involved in a transaction."},
+        {"term": "Negative externality", "def": "A cost imposed on a third party, like pollution, leading to market overproduction."},
+        {"term": "Positive externality", "def": "A benefit received by a third party, like the societal benefits of education, leading to market underproduction."},
+        {"term": "Public good", "def": "A good that is non-excludable and non-rival."}
+      ],
+      "examples": [
+        "A factory that pollutes a river imposes a negative externality on nearby residents who weren't part of the transaction.",
+        "National defense is a classic public good — non-excludable (everyone is protected) and non-rival (one person's protection doesn't reduce another's)."
+      ],
+      "steps": [
+        "Identify the external cost imposed on third parties (e.g., pollution's effect on public health).",
+        "Recognize that the market price doesn't reflect this full social cost, leading to overproduction.",
+        "Governments can impose a tax equal to the externality's cost, raising the price toward the true social cost.",
+        "This reduces production toward the socially optimal (efficient) quantity."
+      ],
+      "remember": [
+        "Market failure occurs when the free market fails to allocate resources efficiently.",
+        "Negative externalities (like pollution) lead to overproduction; positive externalities (like education) lead to underproduction.",
+        "Public goods are non-excludable and non-rival, like national defense.",
+        "Governments can correct externalities through taxes (on negative externalities) or subsidies (for positive externalities)."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is an \"externality\"?", "options": ["A cost or benefit only affecting the buyer", "A cost or benefit affecting a third party not involved in the transaction", "A government tax", "A type of public good"], "correct": 1, "explanation": "An externality is a cost or benefit that affects a third party not directly involved in a transaction."},
+        {"q": "What effect does a negative externality (like pollution) typically have on a market?", "options": ["Underproduction of the good", "Overproduction of the good", "No effect on production", "Increased efficiency"], "correct": 1, "explanation": "Negative externalities lead to overproduction, since the market price doesn't reflect the full social cost."},
+        {"q": "What defines a \"public good\"?", "options": ["Excludable and rival", "Non-excludable and non-rival", "Only provided by private companies", "A type of negative externality"], "correct": 1, "explanation": "A public good is non-excludable and non-rival."},
+        {"q": "What tool can governments use to correct a negative externality?", "options": ["A subsidy", "A tax equal to the externality's cost", "Eliminating the market entirely", "Lowering prices only"], "correct": 1, "explanation": "Governments can impose a tax on the good, raising its price to reflect the true social cost."},
+        {"q": "What effect does a positive externality (like education) typically have on a market?", "options": ["Overproduction of the good", "Underproduction of the good", "No effect", "Complete market failure"], "correct": 1, "explanation": "Positive externalities lead to underproduction, since the market price doesn't reflect the full social benefit."}
+      ]
+    }
+  }
+}

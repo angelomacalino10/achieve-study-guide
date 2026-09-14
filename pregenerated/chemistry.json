@@ -1,0 +1,304 @@
+{
+  "Structure of Matter": {
+    "guide": {
+      "explanation": "Atoms are built from protons and neutrons in a dense nucleus, surrounded by electrons in shells at different energy levels. The periodic table organizes all known elements by atomic number, arranging them into groups (columns) that share similar chemical properties and periods (rows) that reflect increasing atomic number, with families like alkali metals, halogens, and noble gases each having a distinct reactivity pattern based on their electron configuration.",
+      "keyTerms": [
+        {"term": "Atomic number", "def": "The number of protons in an atom's nucleus, defining which element it is."},
+        {"term": "Isotope", "def": "Atoms of the same element with different numbers of neutrons."},
+        {"term": "Electron shell", "def": "An energy level around the nucleus where electrons are located."},
+        {"term": "Alkali metals", "def": "Group 1 elements, highly reactive with a single valence electron."},
+        {"term": "Noble gases", "def": "Group 18 elements, extremely stable due to a full outer electron shell."},
+        {"term": "Periodic trend", "def": "A predictable pattern in element properties (like atomic radius or electronegativity) across the periodic table."}
+      ],
+      "examples": [
+        "Carbon-12 and Carbon-14 are isotopes of carbon — same number of protons (6), different numbers of neutrons.",
+        "Sodium (an alkali metal) reacts violently with water because it readily gives up its single valence electron."
+      ],
+      "steps": [
+        "Find the element's atomic number to identify it and its number of protons.",
+        "Note its group (column) to predict its general reactivity and valence electron count.",
+        "Note its period (row) to understand its electron shell configuration.",
+        "Use periodic trends (moving across or down the table) to predict properties like atomic size and electronegativity."
+      ],
+      "remember": [
+        "Atomic number = number of protons; it defines the element.",
+        "Isotopes have the same number of protons but different numbers of neutrons.",
+        "Alkali metals (Group 1) are highly reactive; noble gases (Group 18) are extremely stable.",
+        "Periodic trends let you predict properties like reactivity and atomic size based on position on the table."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What determines an atom's atomic number?", "options": ["Number of neutrons", "Number of protons", "Number of electrons only", "Atomic mass"], "correct": 1, "explanation": "Atomic number is defined by the number of protons in an atom's nucleus."},
+        {"q": "What is an isotope?", "options": ["An atom with a different number of protons", "Atoms of the same element with different numbers of neutrons", "An atom with no electrons", "A type of chemical bond"], "correct": 1, "explanation": "Isotopes are atoms of the same element that have different numbers of neutrons."},
+        {"q": "Why are noble gases so chemically stable?", "options": ["They have no electrons", "They have a full outer electron shell", "They have only one proton", "They are always liquids"], "correct": 1, "explanation": "Noble gases have a full outer electron shell, making them highly stable and unreactive."},
+        {"q": "Which group of the periodic table contains the alkali metals?", "options": ["Group 18", "Group 1", "Group 17", "Group 2"], "correct": 1, "explanation": "Alkali metals are located in Group 1 of the periodic table."},
+        {"q": "What is a \"periodic trend\"?", "options": ["A random pattern with no predictive value", "A predictable pattern in element properties across the periodic table", "A type of isotope", "A chemical reaction"], "correct": 1, "explanation": "A periodic trend is a predictable pattern in properties across the periodic table."}
+      ]
+    }
+  },
+  "Chemical Bonding": {
+    "guide": {
+      "explanation": "Atoms bond to achieve a stable electron configuration, typically by satisfying the octet rule (having eight electrons in their outer shell). Ionic bonds form when electrons are transferred between atoms (usually metal to nonmetal), while covalent bonds form when electrons are shared between atoms (usually nonmetal to nonmetal). VSEPR theory then predicts a molecule's 3D shape based on how electron pairs around the central atom repel each other and arrange themselves as far apart as possible.",
+      "keyTerms": [
+        {"term": "Octet rule", "def": "Atoms tend to bond in ways that give them eight electrons in their outermost shell."},
+        {"term": "Ionic bond", "def": "A bond formed by the transfer of electrons, typically between a metal and a nonmetal."},
+        {"term": "Covalent bond", "def": "A bond formed by the sharing of electron pairs, typically between nonmetals."},
+        {"term": "Lewis dot structure", "def": "A diagram showing an atom's valence electrons as dots around its symbol."},
+        {"term": "VSEPR theory", "def": "Predicts molecular shape based on electron pairs repelling each other around a central atom."},
+        {"term": "Polarity/dipole", "def": "An uneven distribution of electron density in a bond or molecule, creating partial positive and negative charges."}
+      ],
+      "examples": [
+        "Sodium chloride (table salt) forms through an ionic bond: sodium transfers an electron to chlorine.",
+        "Water (H2O) forms covalent bonds and has a bent molecular shape due to VSEPR repulsion between electron pairs on the oxygen atom."
+      ],
+      "steps": [
+        "Identify whether the atoms are metals or nonmetals.",
+        "Metal + nonmetal typically forms an ionic bond (electron transfer).",
+        "Nonmetal + nonmetal typically forms a covalent bond (electron sharing).",
+        "Check the electronegativity difference — a large difference favors ionic bonding; a small difference favors covalent bonding."
+      ],
+      "remember": [
+        "The octet rule: atoms bond to achieve eight electrons in their outer shell.",
+        "Ionic bonds transfer electrons (metal + nonmetal); covalent bonds share electrons (nonmetal + nonmetal).",
+        "VSEPR theory predicts molecular shape based on electron pair repulsion.",
+        "Polarity arises from uneven electron sharing, creating partial charges within a molecule."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does the octet rule describe?", "options": ["Atoms bonding to have eight neutrons", "Atoms bonding to achieve eight electrons in their outer shell", "A rule about atomic mass", "A type of covalent bond only"], "correct": 1, "explanation": "The octet rule describes atoms' tendency to bond in ways that give them eight electrons in their outermost shell."},
+        {"q": "What type of bond typically forms between a metal and a nonmetal?", "options": ["Covalent bond", "Ionic bond", "Metallic bond", "Hydrogen bond"], "correct": 1, "explanation": "Ionic bonds typically form between a metal and a nonmetal through the transfer of electrons."},
+        {"q": "What does VSEPR theory predict?", "options": ["Atomic mass", "The molecular shape of a compound", "Radioactive decay rates", "Periodic trends"], "correct": 1, "explanation": "VSEPR theory predicts molecular shape based on electron pair repulsion."},
+        {"q": "What type of bond involves sharing electrons, typically between nonmetals?", "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Radioactive bond"], "correct": 1, "explanation": "Covalent bonds form when electrons are shared between atoms, typically nonmetals."},
+        {"q": "What creates polarity in a molecule?", "options": ["Equal sharing of electrons", "Uneven distribution of electron density", "Radioactive decay", "A full octet"], "correct": 1, "explanation": "Polarity arises from an uneven distribution of electron density, creating partial charges."}
+      ]
+    }
+  },
+  "Organic Compound Naming": {
+    "guide": {
+      "explanation": "Organic chemistry is built around carbon's unique ability to form long chains and rings, starting with hydrocarbons — compounds of only carbon and hydrogen. Alkanes (single bonds), alkenes (double bonds), and alkynes (triple bonds) form the basic hydrocarbon families, and adding different functional groups creates entirely new classes of compounds with distinct properties, eventually building up to biological molecules like lipids, carbohydrates, and proteins.",
+      "keyTerms": [
+        {"term": "Hydrocarbon", "def": "A compound made of only carbon and hydrogen atoms."},
+        {"term": "Alkane", "def": "A hydrocarbon with only single bonds between carbon atoms."},
+        {"term": "Alkene", "def": "A hydrocarbon containing at least one carbon-carbon double bond."},
+        {"term": "Alkyne", "def": "A hydrocarbon containing at least one carbon-carbon triple bond."},
+        {"term": "Functional group", "def": "A specific group of atoms within a molecule responsible for its characteristic chemical reactions."},
+        {"term": "Carboxylic acid", "def": "An organic compound containing a -COOH functional group."}
+      ],
+      "examples": [
+        "Ethane (C2H6) is an alkane with a single bond between its two carbons; ethene (C2H4) is the corresponding alkene with a double bond.",
+        "Ethanol (containing -OH) and acetic acid (containing -COOH) are both derived from a two-carbon backbone but behave very differently due to their functional groups."
+      ],
+      "steps": [
+        "Check the bonds between carbon atoms in the molecule.",
+        "All single bonds between carbons: it's an alkane.",
+        "At least one double bond between carbons: it's an alkene.",
+        "At least one triple bond between carbons: it's an alkyne."
+      ],
+      "remember": [
+        "Hydrocarbons contain only carbon and hydrogen.",
+        "Alkanes have single bonds; alkenes have at least one double bond; alkynes have at least one triple bond.",
+        "A functional group determines a molecule's characteristic chemical behavior.",
+        "Carboxylic acids contain the -COOH functional group; alcohols contain -OH."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a hydrocarbon?", "options": ["A compound with only oxygen and hydrogen", "A compound made of only carbon and hydrogen atoms", "Any organic molecule", "A type of protein"], "correct": 1, "explanation": "A hydrocarbon is a compound made of only carbon and hydrogen atoms."},
+        {"q": "What distinguishes an alkene from an alkane?", "options": ["Alkenes have no carbon", "Alkenes contain at least one carbon-carbon double bond", "Alkenes have triple bonds only", "There is no difference"], "correct": 1, "explanation": "Alkenes contain at least one carbon-carbon double bond, while alkanes contain only single bonds."},
+        {"q": "What functional group defines a carboxylic acid?", "options": ["-OH", "-COOH", "-NH2", "-C=C-"], "correct": 1, "explanation": "Carboxylic acids are defined by the -COOH functional group."},
+        {"q": "What type of bond is found in an alkyne?", "options": ["Single bond only", "Double bond only", "Triple bond", "No carbon-carbon bond"], "correct": 2, "explanation": "An alkyne contains at least one carbon-carbon triple bond."},
+        {"q": "What is a \"functional group\"?", "options": ["A group of carbon atoms only", "A specific group of atoms responsible for a molecule's characteristic reactions", "A type of hydrocarbon", "The overall molecular formula"], "correct": 1, "explanation": "A functional group is a specific group of atoms responsible for a molecule's characteristic chemical behavior."}
+      ]
+    }
+  },
+  "Radioactivity": {
+    "guide": {
+      "explanation": "Radioactive decay occurs when an unstable atomic nucleus releases energy and particles to become more stable, happening in three main forms: alpha decay (releasing a helium nucleus, reducing atomic number by 2), beta decay (converting a neutron to a proton or vice versa, changing atomic number by 1), and gamma decay (releasing pure energy with no change in atomic number or mass). These decay patterns follow predictable mathematical formulas involving half-life, used in applications from medical imaging to carbon dating.",
+      "keyTerms": [
+        {"term": "Radioactive decay", "def": "The process by which an unstable atomic nucleus loses energy by emitting radiation."},
+        {"term": "Alpha decay", "def": "Emission of an alpha particle (2 protons, 2 neutrons), reducing atomic number by 2 and mass number by 4."},
+        {"term": "Beta decay", "def": "A neutron converts to a proton (or vice versa), changing the atomic number by 1 while mass number stays the same."},
+        {"term": "Gamma decay", "def": "Emission of pure energy (gamma rays), with no change in atomic number or mass number."},
+        {"term": "Half-life", "def": "The time required for half of a radioactive sample to decay."}
+      ],
+      "examples": [
+        "Uranium-238 undergoing alpha decay becomes Thorium-234, losing 2 protons and 2 neutrons.",
+        "Carbon dating uses the known half-life of Carbon-14 to estimate the age of ancient organic material."
+      ],
+      "steps": [
+        "Identify the original element's atomic number and mass number.",
+        "Subtract 2 from the atomic number (alpha particles carry 2 protons).",
+        "Subtract 4 from the mass number (alpha particles carry 2 protons plus 2 neutrons).",
+        "Identify the new element based on the resulting atomic number."
+      ],
+      "remember": [
+        "Alpha decay reduces atomic number by 2 and mass number by 4.",
+        "Beta decay changes atomic number by 1 but leaves mass number unchanged.",
+        "Gamma decay releases pure energy with no change in atomic or mass number.",
+        "Half-life is the time it takes for half of a radioactive sample to decay."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What happens to an element's atomic number during alpha decay?", "options": ["It increases by 2", "It decreases by 2", "It stays the same", "It decreases by 4"], "correct": 1, "explanation": "Alpha decay releases 2 protons, decreasing the atomic number by 2."},
+        {"q": "What is emitted during gamma decay?", "options": ["A helium nucleus", "A neutron", "Pure energy (gamma rays)", "A proton"], "correct": 2, "explanation": "Gamma decay releases pure energy in the form of gamma rays, with no change in atomic or mass number."},
+        {"q": "What is \"half-life\"?", "options": ["Half of an atom's mass", "The time required for half of a radioactive sample to decay", "The number of protons in an atom", "A type of chemical bond"], "correct": 1, "explanation": "Half-life is the time required for half of a radioactive sample to decay."},
+        {"q": "What changes during beta decay?", "options": ["The mass number only", "The atomic number by 1", "Nothing changes", "The atomic number by 2"], "correct": 1, "explanation": "Beta decay changes the atomic number by 1 while mass number stays the same."},
+        {"q": "What does alpha decay release?", "options": ["Pure energy", "A helium nucleus (2 protons, 2 neutrons)", "An electron", "A photon only"], "correct": 1, "explanation": "Alpha decay releases an alpha particle, a helium nucleus containing 2 protons and 2 neutrons."}
+      ]
+    }
+  },
+  "Chemical Reactions": {
+    "guide": {
+      "explanation": "A balanced chemical equation obeys the law of conservation of mass — the same number of each type of atom must appear on both sides. Stoichiometry uses these balanced equations to calculate exact quantities of reactants and products, identifying the limiting reactant (which runs out first and determines how much product forms) versus the excess reactant. Reactions can also be classified by type — acid-base, redox (oxidation-reduction), and others — each following different rules for what's actually happening at the electron level.",
+      "keyTerms": [
+        {"term": "Balanced equation", "def": "A chemical equation with equal numbers of each atom type on both sides, reflecting conservation of mass."},
+        {"term": "Stoichiometry", "def": "Using balanced equations to calculate quantities of reactants and products."},
+        {"term": "Limiting reactant", "def": "The reactant that runs out first, determining the maximum amount of product formed."},
+        {"term": "Molarity", "def": "A measure of concentration, defined as moles of solute per liter of solution."},
+        {"term": "Redox reaction", "def": "A reaction involving the transfer of electrons, with one substance oxidized and another reduced."},
+        {"term": "Dynamic equilibrium", "def": "A state where the forward and reverse reactions occur at equal rates, so concentrations remain constant."}
+      ],
+      "examples": [
+        "In the reaction 2H2 + O2 -> 2H2O, if you have plenty of oxygen but run out of hydrogen first, hydrogen is the limiting reactant.",
+        "In a redox reaction, one substance loses electrons (is oxidized) while another gains electrons (is reduced) — like iron rusting."
+      ],
+      "steps": [
+        "Write and balance the chemical equation.",
+        "Convert the given amounts of each reactant to moles.",
+        "Use the balanced equation's mole ratios to calculate how much product each reactant could produce on its own.",
+        "Whichever reactant produces the LESS product is the limiting reactant."
+      ],
+      "remember": [
+        "A balanced equation has equal numbers of each atom type on both sides (conservation of mass).",
+        "The limiting reactant runs out first and determines the maximum product formed.",
+        "Molarity = moles of solute divided by liters of solution.",
+        "In a redox reaction, one substance is oxidized (loses electrons) and another is reduced (gains electrons)."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What must be true of a properly balanced chemical equation?", "options": ["More atoms on the product side", "More atoms on the reactant side", "Equal numbers of each atom type on both sides", "No atoms need to match"], "correct": 2, "explanation": "A balanced equation must have equal numbers of each type of atom on both sides."},
+        {"q": "What is the \"limiting reactant\"?", "options": ["The reactant present in the largest amount", "The reactant that runs out first, determining the maximum product", "A catalyst", "A reactant that doesn't react"], "correct": 1, "explanation": "The limiting reactant runs out first, determining the maximum amount of product that can form."},
+        {"q": "How is molarity calculated?", "options": ["Grams of solute per liter", "Moles of solute per liter of solution", "Liters of solute per mole", "Grams of solvent per gram of solute"], "correct": 1, "explanation": "Molarity is calculated as moles of solute divided by liters of solution."},
+        {"q": "In a redox reaction, what happens to the substance that is \"oxidized\"?", "options": ["It gains electrons", "It loses electrons", "It stays neutral", "It becomes a catalyst"], "correct": 1, "explanation": "In a redox reaction, the substance that is oxidized loses electrons."},
+        {"q": "What characterizes dynamic equilibrium?", "options": ["The reaction stops completely", "The forward and reverse reactions occur at equal rates", "Only the forward reaction occurs", "Concentrations change constantly"], "correct": 1, "explanation": "Dynamic equilibrium occurs when the forward and reverse reactions proceed at equal rates."}
+      ]
+    }
+  },
+  "States of Matter": {
+    "guide": {
+      "explanation": "Matter exists primarily as solid, liquid, or gas, distinguished by how tightly particles are packed and how much they move, as described by the Kinetic Molecular Theory. Gas laws (like Boyle's and Charles's Laws) mathematically relate pressure, volume, and temperature for gases, while phase changes — melting, freezing, boiling, condensing — occur at specific temperatures that can be tracked visually on a heating or cooling curve.",
+      "keyTerms": [
+        {"term": "Kinetic Molecular Theory", "def": "Explains the behavior of gases based on particles in constant, random motion."},
+        {"term": "Boyle's Law", "def": "At constant temperature, pressure and volume of a gas are inversely related (P1V1 = P2V2)."},
+        {"term": "Charles's Law", "def": "At constant pressure, volume and temperature of a gas are directly related."},
+        {"term": "Phase change", "def": "A transition between states of matter (solid, liquid, gas) at a specific temperature."},
+        {"term": "Heating curve", "def": "A graph showing temperature change as a substance absorbs heat, with flat sections during phase changes."},
+        {"term": "Colligative properties", "def": "Properties of a solution (like boiling point elevation) that depend on the number of dissolved particles, not their identity."}
+      ],
+      "examples": [
+        "Boyle's Law explains why a gas compressed into a smaller volume experiences increased pressure, if temperature stays constant.",
+        "On a heating curve, temperature stays flat while ice melts into water, even though heat is still being added."
+      ],
+      "steps": [
+        "As heat is added to a solid, its temperature rises until it reaches its melting point.",
+        "At the melting point, temperature stays flat (a plateau) while the solid melts into liquid.",
+        "Once fully melted, temperature rises again until it reaches the boiling point.",
+        "At the boiling point, temperature stays flat again while the liquid becomes gas."
+      ],
+      "remember": [
+        "Kinetic Molecular Theory explains gas behavior through constant particle motion.",
+        "Boyle's Law: pressure and volume are inversely related at constant temperature.",
+        "Charles's Law: volume and temperature are directly related at constant pressure.",
+        "On a heating curve, temperature plateaus during phase changes, since that energy breaks bonds rather than raising temperature."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does Boyle's Law describe?", "options": ["The relationship between temperature and volume", "The inverse relationship between pressure and volume at constant temperature", "The relationship between mass and energy", "Radioactive decay"], "correct": 1, "explanation": "Boyle's Law describes the inverse relationship between pressure and volume of a gas at constant temperature."},
+        {"q": "What does Charles's Law describe?", "options": ["The inverse relationship between pressure and volume", "The direct relationship between volume and temperature at constant pressure", "The relationship between mass and moles", "A type of chemical bond"], "correct": 1, "explanation": "Charles's Law describes the direct relationship between a gas's volume and temperature at constant pressure."},
+        {"q": "What happens to temperature during a phase change, like melting, on a heating curve?", "options": ["Temperature rises steadily", "Temperature stays flat (plateaus)", "Temperature drops suddenly", "Temperature becomes negative"], "correct": 1, "explanation": "During a phase change, temperature plateaus because added energy is used to break bonds rather than raise temperature."},
+        {"q": "What does Kinetic Molecular Theory explain?", "options": ["Radioactive decay rates", "The behavior of gases based on particle motion", "Chemical bonding types", "Acid-base reactions"], "correct": 1, "explanation": "Kinetic Molecular Theory explains gas behavior based on particles being in constant, random motion."},
+        {"q": "What are \"colligative properties\"?", "options": ["Properties that depend on the identity of dissolved particles", "Properties of a solution that depend on the number of dissolved particles", "Properties of solids only", "Properties related to radioactive decay"], "correct": 1, "explanation": "Colligative properties depend on the number of dissolved particles in a solution, not their specific identity."}
+      ]
+    }
+  },
+  "Thermodynamics": {
+    "guide": {
+      "explanation": "Thermodynamics tracks energy changes in chemical reactions through key quantities: enthalpy (H, heat content), entropy (S, disorder), and free energy (G, which determines if a reaction happens spontaneously). The four laws of thermodynamics govern all energy behavior, with the Second Law's principle — that overall entropy always increases — being especially fundamental to why some reactions happen spontaneously and others don't.",
+      "keyTerms": [
+        {"term": "Enthalpy (H)", "def": "A measure of the total heat content of a system."},
+        {"term": "Entropy (S)", "def": "A measure of disorder or randomness in a system."},
+        {"term": "Free energy (G)", "def": "Determines whether a reaction is spontaneous; calculated from enthalpy and entropy."},
+        {"term": "First Law of Thermodynamics", "def": "Energy cannot be created or destroyed, only transferred or converted."},
+        {"term": "Second Law of Thermodynamics", "def": "The total entropy of an isolated system always increases over time."},
+        {"term": "Spontaneity", "def": "A reaction that occurs on its own without continuous outside energy input, generally when free energy is negative."}
+      ],
+      "examples": [
+        "Ice melting at room temperature is spontaneous because the increase in entropy outweighs the enthalpy required.",
+        "The First Law of Thermodynamics explains why a chemical reaction's total energy is conserved, even as it changes form."
+      ],
+      "steps": [
+        "Calculate free energy (G) using the relationship between enthalpy (H) and entropy (S) at a given temperature.",
+        "If G is negative, the reaction is spontaneous.",
+        "If G is positive, the reaction is non-spontaneous (requires outside energy).",
+        "If G is zero, the system is at equilibrium."
+      ],
+      "remember": [
+        "Enthalpy measures heat content; entropy measures disorder; free energy determines spontaneity.",
+        "First Law: energy is conserved, only transferred or converted, never created or destroyed.",
+        "Second Law: total entropy of an isolated system always increases over time.",
+        "A negative free energy (G) means a reaction is spontaneous."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does enthalpy (H) measure?", "options": ["Disorder in a system", "The total heat content of a system", "Spontaneity directly", "Radioactive decay"], "correct": 1, "explanation": "Enthalpy measures the total heat content of a system."},
+        {"q": "What does the First Law of Thermodynamics state?", "options": ["Entropy always decreases", "Energy cannot be created or destroyed, only transferred or converted", "Temperature is always constant", "Free energy is always positive"], "correct": 1, "explanation": "The First Law states that energy cannot be created or destroyed, only transferred or converted between forms."},
+        {"q": "What does the Second Law of Thermodynamics state?", "options": ["Entropy always decreases", "The total entropy of an isolated system always increases over time", "Energy is always conserved", "Enthalpy is always zero"], "correct": 1, "explanation": "The Second Law states that the total entropy of an isolated system always increases over time."},
+        {"q": "What does a negative free energy (G) value indicate about a reaction?", "options": ["It is non-spontaneous", "It is spontaneous", "It is at equilibrium only", "It has no entropy"], "correct": 1, "explanation": "A negative free energy value indicates that a reaction is spontaneous."},
+        {"q": "What does entropy (S) measure?", "options": ["Heat content", "Disorder or randomness in a system", "Spontaneity directly", "Molarity"], "correct": 1, "explanation": "Entropy measures the degree of disorder or randomness in a system."}
+      ]
+    }
+  },
+  "Dimensional Analysis": {
+    "guide": {
+      "explanation": "Dimensional analysis is the practice of converting between units while keeping physical equations mathematically consistent — essential for chemistry, where measurements constantly move between metric units, molar quantities, and other scales. This chapter also covers significant figures (which digits in a measurement are actually meaningful) and scientific notation, plus basic laboratory safety and technique.",
+      "keyTerms": [
+        {"term": "Dimensional analysis", "def": "Using unit conversions to check and solve physical equations."},
+        {"term": "SI units", "def": "The International System of Units, the standard set of measurement units used in science."},
+        {"term": "Significant figures", "def": "The digits in a measurement that carry meaningful precision."},
+        {"term": "Scientific notation", "def": "Writing a number as a decimal between 1 and 10 multiplied by a power of 10."},
+        {"term": "Conversion factor", "def": "A ratio used to convert a quantity from one unit to another without changing its actual value."}
+      ],
+      "examples": [
+        "Converting 5 kilometers to meters uses the conversion factor 1 km = 1000 m, giving 5,000 meters.",
+        "The number 0.00042 in scientific notation is written as 4.2 x 10^-4."
+      ],
+      "steps": [
+        "Identify the given quantity and its starting unit.",
+        "Identify the conversion factor(s) needed to reach the desired unit.",
+        "Multiply the given quantity by the conversion factor(s), arranging them so unwanted units cancel out.",
+        "Confirm the final answer is in the correct desired unit."
+      ],
+      "remember": [
+        "SI units are the standard scientific measurement system (meters, kilograms, seconds, etc.).",
+        "Significant figures represent the meaningful precision of a measurement.",
+        "Scientific notation writes numbers as a decimal between 1-10 times a power of 10.",
+        "Dimensional analysis works by canceling out unwanted units using conversion factors."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the purpose of dimensional analysis?", "options": ["To measure radioactive decay", "To convert between units while keeping equations consistent", "To balance chemical equations only", "To calculate entropy"], "correct": 1, "explanation": "Dimensional analysis uses unit conversions to check and solve physical equations consistently."},
+        {"q": "What does \"significant figures\" refer to?", "options": ["The total digits in any number", "The digits in a measurement that carry meaningful precision", "Only whole numbers", "Numbers written in scientific notation only"], "correct": 1, "explanation": "Significant figures are the digits in a measurement that carry meaningful precision."},
+        {"q": "How is 0.00042 written in scientific notation?", "options": ["4.2 x 10^4", "4.2 x 10^-4", "42 x 10^-3", "0.42 x 10^-3"], "correct": 1, "explanation": "0.00042 in scientific notation is written as 4.2 x 10^-4."},
+        {"q": "What are SI units?", "options": ["A system of chemical bonds", "The International System of Units, the standard scientific measurement system", "A type of radioactive decay", "A laboratory safety protocol"], "correct": 1, "explanation": "SI units are the International System of Units, the standard set of measurement units used in science."},
+        {"q": "How does a conversion factor work in dimensional analysis?", "options": ["It changes the actual value of a quantity", "It's a ratio used to convert units without changing the actual value", "It only applies to temperature", "It eliminates significant figures"], "correct": 1, "explanation": "A conversion factor is a ratio used to convert a quantity from one unit to another without changing its actual value."}
+      ]
+    }
+  }
+}

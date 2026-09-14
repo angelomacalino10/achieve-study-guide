@@ -1,0 +1,228 @@
+{
+  "Introduction to Algebra and Functions": {
+    "guide": {
+      "explanation": "This chapter builds the algebra toolkit used throughout the course: working with real numbers and scientific notation, translating word problems into equations and inequalities, and solving them — including systems of two linear equations, which can have exactly one solution, infinitely many solutions, or no solution depending on how the lines relate. From there it moves into polynomials, quadratic equations, and the three major function families used in higher math: linear, exponential, and logarithmic.",
+      "keyTerms": [
+        {"term": "Scientific notation", "def": "Writing very large or small numbers as a decimal times a power of 10."},
+        {"term": "System of linear equations", "def": "Two or more equations solved together; can have one solution, infinite solutions, or no solution."},
+        {"term": "Quadratic equation", "def": "An equation with a squared variable, typically solved by factoring, completing the square, or the quadratic formula."},
+        {"term": "Function", "def": "A rule assigning exactly one output to each input."},
+        {"term": "Exponential function", "def": "A function where the variable appears in the exponent, modeling rapid growth or decay."},
+        {"term": "Logarithm", "def": "The inverse operation of exponentiation; asks \"what power gives this result?\""}
+      ],
+      "examples": [
+        "A system of equations with \"no solution\" graphically means two parallel lines that never intersect.",
+        "Scientific notation: 45,000,000 is written as 4.5 x 10^7."
+      ],
+      "steps": [
+        "Solve one equation for one variable (e.g., solve for y in terms of x).",
+        "Substitute that expression into the second equation.",
+        "Solve the resulting equation for the remaining variable.",
+        "Substitute back to find the other variable — if the equation simplifies to something always true, there are infinite solutions; if it simplifies to something false, there's no solution."
+      ],
+      "remember": [
+        "A system of equations can have exactly one solution, infinitely many solutions, or no solution.",
+        "Scientific notation expresses numbers as a decimal between 1-10 times a power of 10.",
+        "Logarithms and exponents are inverse operations of each other.",
+        "The quadratic formula solves any quadratic equation, even when factoring doesn't work cleanly."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does it mean when a system of two linear equations has \"no solution\"?", "options": ["The lines are identical", "The lines are parallel and never intersect", "The lines intersect at exactly one point", "The equations are quadratic"], "correct": 1, "explanation": "A system with no solution means the two lines are parallel and never intersect."},
+        {"q": "How is 45,000,000 written in scientific notation?", "options": ["4.5 x 10^6", "4.5 x 10^7", "45 x 10^6", "0.45 x 10^8"], "correct": 1, "explanation": "45,000,000 in scientific notation is 4.5 x 10^7."},
+        {"q": "What is a logarithm the inverse of?", "options": ["Addition", "Subtraction", "Exponentiation", "Division"], "correct": 2, "explanation": "A logarithm is the inverse operation of exponentiation."},
+        {"q": "If solving a system of equations leads to a statement that is always true (like 0=0), what does that indicate?", "options": ["No solution exists", "Exactly one solution exists", "Infinitely many solutions exist", "The system is quadratic"], "correct": 2, "explanation": "If the equation simplifies to something always true, the system has infinitely many solutions."},
+        {"q": "Which method can always be used to solve a quadratic equation, even when factoring is difficult?", "options": ["Scientific notation", "The quadratic formula", "Systems substitution", "Logarithms"], "correct": 1, "explanation": "The quadratic formula can solve any quadratic equation, regardless of whether it factors nicely."}
+      ]
+    }
+  },
+  "Financial Mathematics": {
+    "guide": {
+      "explanation": "This chapter applies algebra to real financial situations — calculating percentages, discounts, markups, profit and loss, and especially interest. Simple interest is calculated only on the original principal, while compound interest calculates interest on both the principal and any previously earned interest, which is why compounding periods (annually, quarterly, monthly) significantly change the final amount, even at the same stated rate.",
+      "keyTerms": [
+        {"term": "Simple interest", "def": "Interest calculated only on the original principal amount."},
+        {"term": "Compound interest", "def": "Interest calculated on both principal and previously earned interest."},
+        {"term": "Principal", "def": "The original sum of money invested or borrowed."},
+        {"term": "Present value", "def": "What a future sum of money is worth today."},
+        {"term": "Future value", "def": "What a sum of money invested today will be worth at a future date."},
+        {"term": "Effective Annual Rate (EAR)", "def": "The true annual interest rate once compounding is taken into account."}
+      ],
+      "examples": [
+        "$8,000 borrowed at 7.5% annually for 6 years grows to about $12,346.41 with annual compounding, but to about $12,494.33 if compounded quarterly.",
+        "A $100 item with a 20% markup becomes $120, while a $100 item with a 20% discount becomes $80."
+      ],
+      "steps": [
+        "Identify the principal (P), annual rate as a decimal (r), compounding periods per year (n), and time in years (t).",
+        "Apply the formula: A = P(1 + r/n)^(nt).",
+        "Solve for the maturity amount (A).",
+        "Subtract the principal from A to find the compound interest earned: CI = A minus P."
+      ],
+      "remember": [
+        "Simple interest only applies to the principal; compound interest applies to principal plus prior interest.",
+        "More frequent compounding (quarterly vs. annually) produces a higher final amount at the same stated rate.",
+        "The compound interest formula is A = P(1 + r/n)^(nt).",
+        "Present value asks \"what's it worth now\"; future value asks \"what will it be worth later.\""
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the key difference between simple and compound interest?", "options": ["Simple interest is always higher", "Compound interest only applies to loans", "Compound interest is calculated on principal plus prior interest", "There is no real difference"], "correct": 2, "explanation": "Compound interest is calculated on both the principal and any previously earned interest."},
+        {"q": "In the compound interest formula A = P(1 + r/n)^(nt), what does \"n\" represent?", "options": ["The total time in years", "The number of compounding periods per year", "The principal amount", "The interest rate"], "correct": 1, "explanation": "\"n\" represents the number of times interest compounds per year."},
+        {"q": "If a $100 item has a 20% markup, what is its new price?", "options": ["$80", "$100", "$120", "$140"], "correct": 2, "explanation": "A 20% markup on $100 adds $20, making the new price $120."},
+        {"q": "Why does quarterly compounding produce a higher amount than annual compounding at the same stated rate?", "options": ["It doesn't — they're always equal", "Interest is calculated and added more frequently", "Quarterly compounding uses a different formula entirely", "The principal changes each quarter"], "correct": 1, "explanation": "More frequent compounding means interest is calculated and added to the balance more often."},
+        {"q": "What does \"present value\" represent?", "options": ["What money will be worth in the future", "What a future sum of money is worth today", "The original loan amount only", "The interest rate only"], "correct": 1, "explanation": "Present value represents what a future sum of money is worth in today's terms."}
+      ]
+    }
+  },
+  "Geometry": {
+    "guide": {
+      "explanation": "This chapter covers the core shapes and relationships of plane geometry: triangles (classified by side lengths and angles), quadrilaterals (four-sided shapes like squares, rectangles, and parallelograms), and circles, including key theorems about angles, chords, and tangent lines. Parallel and perpendicular lines set up the angle relationships that underpin many geometric proofs.",
+      "keyTerms": [
+        {"term": "Triangle classifications", "def": "Equilateral (all sides equal), isosceles (two sides equal), scalene (no sides equal); also right, acute, and obtuse by angle."},
+        {"term": "Quadrilateral", "def": "Any four-sided polygon, including squares, rectangles, parallelograms, and trapezoids."},
+        {"term": "Parallel lines", "def": "Lines that never intersect and maintain a constant distance apart."},
+        {"term": "Perpendicular lines", "def": "Lines that intersect at a 90-degree angle."},
+        {"term": "Chord", "def": "A line segment connecting two points on a circle."},
+        {"term": "Tangent line", "def": "A line that touches a circle at exactly one point."}
+      ],
+      "examples": [
+        "A square is a special case of both a rectangle and a rhombus — a quadrilateral with four equal sides and four right angles.",
+        "When a transversal crosses two parallel lines, corresponding angles are equal — a relationship used constantly in geometric proofs."
+      ],
+      "steps": [
+        "Check the side lengths: all equal (equilateral), two equal (isosceles), or none equal (scalene).",
+        "Check the angles: one 90-degree angle (right), all angles under 90 degrees (acute), or one angle over 90 degrees (obtuse).",
+        "Combine both classifications if needed (e.g., \"right isosceles triangle\")."
+      ],
+      "remember": [
+        "Triangle side classifications: equilateral, isosceles, scalene. Angle classifications: right, acute, obtuse.",
+        "Parallel lines never intersect; perpendicular lines intersect at exactly 90 degrees.",
+        "A tangent line touches a circle at exactly one point; a chord connects two points on a circle.",
+        "A square satisfies the definitions of both a rectangle and a rhombus simultaneously."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is an isosceles triangle?", "options": ["A triangle with no equal sides", "A triangle with exactly two equal sides", "A triangle with all equal sides", "A triangle with a 90-degree angle"], "correct": 1, "explanation": "An isosceles triangle has exactly two sides of equal length."},
+        {"q": "What defines perpendicular lines?", "options": ["Lines that never intersect", "Lines that intersect at a 90-degree angle", "Lines that are always the same length", "Lines that curve"], "correct": 1, "explanation": "Perpendicular lines intersect at exactly a 90-degree angle."},
+        {"q": "What is a tangent line to a circle?", "options": ["A line connecting two points on the circle", "A line that touches the circle at exactly one point", "A line through the circle's center", "A curved line inside the circle"], "correct": 1, "explanation": "A tangent line touches a circle at exactly one point."},
+        {"q": "What is a chord?", "options": ["A line touching a circle at one point", "A line segment connecting two points on a circle", "The circle's radius", "A type of triangle"], "correct": 1, "explanation": "A chord is a line segment that connects two points on a circle's circumference."},
+        {"q": "Which shape satisfies the definitions of both a rectangle and a rhombus?", "options": ["A trapezoid", "A square", "A scalene triangle", "A parallelogram only"], "correct": 1, "explanation": "A square is a special case of both a rectangle (four right angles) and a rhombus (four equal sides)."}
+      ]
+    }
+  },
+  "Counting and Probability": {
+    "guide": {
+      "explanation": "Counting problems ask \"how many ways can this happen,\" while probability asks \"how likely is this to happen\" — and the two are deeply connected, since probability is often calculated by counting favorable outcomes over total outcomes. Permutations count arrangements where order matters, while combinations count selections where order doesn't matter; from there, the chapter builds up to mutually exclusive events, independence, and conditional probability.",
+      "keyTerms": [
+        {"term": "Permutation", "def": "An arrangement of items where order matters."},
+        {"term": "Combination", "def": "A selection of items where order does not matter."},
+        {"term": "Fundamental counting principle", "def": "If one event can happen in m ways and a second in n ways, both together can happen in m x n ways."},
+        {"term": "Mutually exclusive events", "def": "Two events that cannot both happen at the same time."},
+        {"term": "Independent events", "def": "Events where one occurring doesn't affect the probability of the other."},
+        {"term": "Conditional probability", "def": "The probability of an event occurring, given that another event has already occurred."}
+      ],
+      "examples": [
+        "Choosing a 1st, 2nd, and 3rd place winner from 5 people is a permutation (order matters); choosing any 3 people for a committee from 5 is a combination (order doesn't matter).",
+        "Rolling a 3 and rolling a 5 on a single die roll are mutually exclusive — they can't both happen on the same roll."
+      ],
+      "steps": [
+        "Ask: does the order of selection matter for this problem?",
+        "If yes (e.g., ranking, assigning distinct roles), use a permutation.",
+        "If no (e.g., forming a group or committee), use a combination.",
+        "Apply the fundamental counting principle first if the problem involves multiple independent choices in sequence."
+      ],
+      "remember": [
+        "Permutations care about order; combinations do not.",
+        "The fundamental counting principle multiplies the number of ways each independent choice can happen.",
+        "Mutually exclusive events cannot happen at the same time; independent events don't affect each other's probability.",
+        "Conditional probability calculates the likelihood of an event given that another has already occurred."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the key difference between a permutation and a combination?", "options": ["Permutations are always larger numbers", "Permutations care about order; combinations do not", "Combinations only apply to probability", "There is no real difference"], "correct": 1, "explanation": "Permutations count arrangements where order matters, while combinations count selections where order does not matter."},
+        {"q": "What does the fundamental counting principle state?", "options": ["Add the number of ways each event can occur", "Multiply the number of ways each independent event can occur", "Divide favorable outcomes by total outcomes", "Subtract impossible outcomes"], "correct": 1, "explanation": "The fundamental counting principle says if one event can happen in m ways and another in n ways, together they can happen in m x n ways."},
+        {"q": "What does it mean for two events to be \"mutually exclusive\"?", "options": ["They always happen together", "They cannot both happen at the same time", "One always causes the other", "They have equal probability"], "correct": 1, "explanation": "Mutually exclusive events cannot both occur at the same time."},
+        {"q": "What is conditional probability?", "options": ["The probability of two independent events happening", "The probability of an event given that another has already occurred", "The probability of an impossible event", "The total number of possible outcomes"], "correct": 1, "explanation": "Conditional probability calculates the likelihood of an event occurring, given that another has already happened."},
+        {"q": "Choosing 3 committee members from a group of 8, where order doesn't matter, is an example of what?", "options": ["A permutation", "A combination", "A conditional probability", "A mutually exclusive event"], "correct": 1, "explanation": "Since order doesn't matter when selecting committee members, this is a combination problem."}
+      ]
+    }
+  },
+  "Data Analysis and Statistics": {
+    "guide": {
+      "explanation": "This chapter covers how to read and interpret data displayed in tables, bar graphs, line graphs, and pie charts, plus the core statistical measures used to summarize a data set. Measures of central tendency — mean, median, and mode — describe the \"typical\" value in a data set, while measures of dispersion like standard deviation and variance describe how spread out the data actually is around that typical value.",
+      "keyTerms": [
+        {"term": "Mean", "def": "The average of a data set, found by summing all values and dividing by the count."},
+        {"term": "Median", "def": "The middle value in a data set when arranged in order."},
+        {"term": "Mode", "def": "The value that appears most frequently in a data set."},
+        {"term": "Standard deviation", "def": "A measure of how spread out data values are from the mean."},
+        {"term": "Variance", "def": "The average of the squared differences from the mean; standard deviation is its square root."}
+      ],
+      "examples": [
+        "For the data set 2, 4, 4, 6, 8: the mean is 4.8, the median is 4, and the mode is 4.",
+        "A data set with a small standard deviation has values clustered tightly around the mean; a large standard deviation means values are spread widely."
+      ],
+      "steps": [
+        "Mean: add all the values together, then divide by the number of values.",
+        "Median: arrange the values in order and find the middle value (average the two middle values if there's an even count).",
+        "Mode: identify the value that appears most often (a data set can have no mode, one mode, or multiple modes).",
+        "Standard deviation: measure how far, on average, each value is from the mean."
+      ],
+      "remember": [
+        "Mean, median, and mode are all \"measures of central tendency\" — describing a typical value.",
+        "The median is less affected by extreme outliers than the mean.",
+        "Standard deviation and variance describe how spread out the data is, not just its center.",
+        "Variance is the square of the standard deviation."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the median of a data set?", "options": ["The average of all values", "The most frequently occurring value", "The middle value when data is arranged in order", "The largest value"], "correct": 2, "explanation": "The median is the middle value of a data set when arranged in numerical order."},
+        {"q": "Which measure of central tendency is least affected by extreme outliers?", "options": ["Mean", "Median", "Standard deviation", "Variance"], "correct": 1, "explanation": "The median is less affected by extreme outliers than the mean."},
+        {"q": "What does a small standard deviation indicate about a data set?", "options": ["The data is spread widely", "The data values are clustered tightly around the mean", "The mean is incorrect", "The data has no mode"], "correct": 1, "explanation": "A small standard deviation indicates the data values are clustered closely around the mean."},
+        {"q": "What is the relationship between variance and standard deviation?", "options": ["They are unrelated", "Standard deviation is the square root of variance", "Variance is always larger than the mean", "Variance is the square root of standard deviation"], "correct": 1, "explanation": "Standard deviation is calculated as the square root of the variance."},
+        {"q": "What is the \"mode\" of a data set?", "options": ["The average value", "The middle value", "The value that appears most frequently", "The range of the data"], "correct": 2, "explanation": "The mode is the value that appears most frequently in a data set."}
+      ]
+    }
+  },
+  "Logic and Sets": {
+    "guide": {
+      "explanation": "Formal logic studies how to combine and evaluate statements using operations like negation (\"not\"), conjunction (\"and\"), and disjunction (\"or\"), and how to determine whether an argument is valid using truth tables. From a single conditional statement (\"if P, then Q\"), you can derive its converse, inverse, and contrapositive — and only the contrapositive is guaranteed to share the same truth value as the original. Sets, meanwhile, describe collections of objects and how they combine through union, intersection, and other operations.",
+      "keyTerms": [
+        {"term": "Negation", "def": "The logical opposite of a statement (\"not P\")."},
+        {"term": "Conjunction", "def": "A statement joining two others with \"and\"; true only when both parts are true."},
+        {"term": "Disjunction", "def": "A statement joining two others with \"or\"; true when at least one part is true."},
+        {"term": "Conditional statement", "def": "An \"if P, then Q\" statement."},
+        {"term": "Contrapositive", "def": "Formed by negating and switching both parts of a conditional; always shares the same truth value as the original."},
+        {"term": "Union and intersection", "def": "Set operations — union combines all elements from both sets; intersection includes only elements in both sets."}
+      ],
+      "examples": [
+        "The conditional \"If it rains, the ground gets wet\" has the contrapositive \"If the ground is not wet, it did not rain\" — logically equivalent to the original.",
+        "For sets A = {1,2,3} and B = {2,3,4}: the union is {1,2,3,4}, and the intersection is {2,3}."
+      ],
+      "steps": [
+        "Original: If P, then Q.",
+        "Converse: switch the parts — If Q, then P.",
+        "Inverse: negate both parts — If not P, then not Q.",
+        "Contrapositive: negate and switch both parts — If not Q, then not P (always logically equivalent to the original)."
+      ],
+      "remember": [
+        "Conjunction (\"and\") is only true when both parts are true; disjunction (\"or\") is true if at least one part is true.",
+        "The contrapositive of a conditional statement always shares the same truth value as the original — the converse and inverse do not.",
+        "Union combines all elements from two sets; intersection keeps only the elements common to both.",
+        "Truth tables systematically show every possible true/false combination for a logical statement."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "When is a conjunction (\"P and Q\") true?", "options": ["When either P or Q is true", "Only when both P and Q are true", "When neither P nor Q is true", "Always"], "correct": 1, "explanation": "A conjunction is true only when both parts of the statement are true."},
+        {"q": "Which of the following is always logically equivalent to the original conditional statement?", "options": ["The converse", "The inverse", "The contrapositive", "None of these"], "correct": 2, "explanation": "The contrapositive always shares the same truth value as the original conditional."},
+        {"q": "For sets A = {1,2,3} and B = {2,3,4}, what is A union B?", "options": ["{2,3}", "{1,2,3,4}", "{1,4}", "{}"], "correct": 1, "explanation": "The union combines all elements from both sets: {1,2,3,4}."},
+        {"q": "For sets A = {1,2,3} and B = {2,3,4}, what is A intersection B?", "options": ["{1,2,3,4}", "{2,3}", "{1,4}", "{}"], "correct": 1, "explanation": "The intersection includes only elements present in both sets: {2,3}."},
+        {"q": "When is a disjunction (\"P or Q\") true?", "options": ["Only when both are true", "When at least one of P or Q is true", "Only when both are false", "Never"], "correct": 1, "explanation": "A disjunction is true when at least one of the two statements is true."}
+      ]
+    }
+  }
+}

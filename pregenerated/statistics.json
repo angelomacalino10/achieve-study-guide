@@ -1,0 +1,297 @@
+{
+  "An Introduction to Statistics": {
+    "guide": {
+      "explanation": "This opening chapter reviews the basic math and algebra needed for the course, then introduces the core vocabulary of statistics: the difference between a population (everyone/everything you want to study) and a sample (the subset you actually measure), and the different scales of measurement used to classify data. These foundational terms are used constantly throughout every later chapter.",
+      "keyTerms": [
+        {"term": "Population", "def": "The entire group of individuals or items a researcher wants to study."},
+        {"term": "Sample", "def": "A subset of the population that is actually measured or surveyed."},
+        {"term": "Variable", "def": "A characteristic that can take different values across individuals in a study."},
+        {"term": "Data", "def": "Individual pieces of information collected from a sample or population."},
+        {"term": "Parameter", "def": "A numerical value describing a characteristic of a population."},
+        {"term": "Statistic", "def": "A numerical value describing a characteristic of a sample."}
+      ],
+      "examples": [
+        "A survey of 500 registered voters is a sample; all registered voters in the country would be the population.",
+        "The average height of all adult men in a country is a parameter; the average height calculated from a sample of 200 men is a statistic."
+      ],
+      "steps": [
+        "Identify who or what the researcher ultimately wants to draw conclusions about — that's the population.",
+        "Identify who or what was actually measured — that's the sample.",
+        "A value describing the population is a parameter; a value describing the sample is a statistic.",
+        "Samples are used to estimate population parameters when studying the entire population isn't practical."
+      ],
+      "remember": [
+        "Population = the whole group of interest; sample = the subset actually measured.",
+        "Parameter describes a population; statistic describes a sample.",
+        "Samples are used to estimate population values when studying everyone isn't feasible.",
+        "These foundational terms are used throughout every later chapter."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"population\" in statistics?", "options": ["A subset of data actually measured", "The entire group of individuals or items being studied", "A single data point", "A type of graph"], "correct": 1, "explanation": "A population is the entire group of individuals or items a researcher wants to study."},
+        {"q": "What is a \"sample\"?", "options": ["The entire population", "A subset of the population that is actually measured", "A parameter", "A hypothesis"], "correct": 1, "explanation": "A sample is a subset of the population that is actually measured or surveyed."},
+        {"q": "What is the difference between a parameter and a statistic?", "options": ["They are the same thing", "A parameter describes a population; a statistic describes a sample", "A parameter describes a sample; a statistic describes a population", "Parameters only apply to small groups"], "correct": 1, "explanation": "A parameter is a numerical value describing a population, while a statistic describes a sample."},
+        {"q": "Why do researchers use samples instead of studying an entire population?", "options": ["Samples are always more accurate", "Studying an entire population usually isn't practical", "Populations don't have parameters", "Samples require no math"], "correct": 1, "explanation": "Samples are used because studying an entire population is often impractical, expensive, or impossible."},
+        {"q": "What is a \"variable\" in statistics?", "options": ["A fixed number that never changes", "A characteristic that can take different values across individuals", "A type of sample", "A hypothesis test"], "correct": 1, "explanation": "A variable is a characteristic that can take different values across the individuals in a study."}
+      ]
+    }
+  },
+  "Summarizing, Organizing, and Describing Data": {
+    "guide": {
+      "explanation": "Before you can analyze data, you need to organize and summarize it clearly — through frequency tables, appropriate graphs, and descriptive statistics that capture a data set's center and spread. This chapter builds the vocabulary for describing what a data set looks like before moving into more advanced analysis.",
+      "keyTerms": [
+        {"term": "Frequency", "def": "How many times a specific value or range of values occurs in a data set."},
+        {"term": "Frequency distribution", "def": "A table or graph showing how often each value or range occurs."},
+        {"term": "Qualitative data", "def": "Categorical data describing qualities (e.g., color, gender)."},
+        {"term": "Quantitative data", "def": "Numerical data that can be measured or counted (e.g., height, age)."},
+        {"term": "Discrete data", "def": "Quantitative data that can only take specific, countable values (e.g., number of children)."},
+        {"term": "Continuous data", "def": "Quantitative data that can take any value within a range (e.g., height, weight)."}
+      ],
+      "examples": [
+        "Eye color is qualitative data; the number of pets someone owns is quantitative and discrete; a person's exact height is quantitative and continuous.",
+        "A frequency distribution table might show how many students scored in each 10-point range on an exam."
+      ],
+      "steps": [
+        "Ask: is the data describing a category/quality, or a number? Category = qualitative; number = quantitative.",
+        "If quantitative, ask: can it only take specific countable values, or any value in a range?",
+        "Countable, specific values = discrete data.",
+        "Any value within a range = continuous data."
+      ],
+      "remember": [
+        "Qualitative data describes categories; quantitative data describes measurable quantities.",
+        "Discrete data has specific countable values; continuous data can take any value in a range.",
+        "A frequency distribution shows how often each value or range of values occurs.",
+        "Organizing data clearly is a necessary first step before deeper statistical analysis."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"qualitative data\"?", "options": ["Numerical data that can be measured", "Categorical data describing qualities", "Data with no variation", "Only continuous data"], "correct": 1, "explanation": "Qualitative data describes categories or qualities, like color or gender."},
+        {"q": "Which of these is an example of discrete data?", "options": ["A person's exact height", "The number of children in a family", "The temperature outside", "The weight of a package"], "correct": 1, "explanation": "The number of children is discrete data, since it can only take specific, countable values."},
+        {"q": "What does a frequency distribution show?", "options": ["The exact value of every data point", "How often each value or range of values occurs", "Only the mean of a data set", "The population size"], "correct": 1, "explanation": "A frequency distribution shows how often each value or range of values occurs in a data set."},
+        {"q": "Which of these is an example of continuous data?", "options": ["Number of pets owned", "Number of siblings", "A person's exact weight", "Number of cars in a parking lot"], "correct": 2, "explanation": "A person's exact weight is continuous data, since it can take any value within a range."},
+        {"q": "What is \"quantitative data\"?", "options": ["Categorical data only", "Numerical data that can be measured or counted", "Data that cannot be graphed", "Only discrete data"], "correct": 1, "explanation": "Quantitative data is numerical data that can be measured or counted."}
+      ]
+    }
+  },
+  "Regression and Correlation": {
+    "guide": {
+      "explanation": "Correlation measures the strength and direction of a relationship between two variables, while regression goes a step further, creating an equation that can predict one variable based on the other. Pearson's correlation coefficient (r) is the standard measure of correlation strength, ranging from -1 (a perfect negative relationship) to +1 (a perfect positive relationship), with 0 meaning no linear relationship at all.",
+      "keyTerms": [
+        {"term": "Correlation", "def": "A measure of the strength and direction of the relationship between two variables."},
+        {"term": "Regression analysis", "def": "A statistical method that models the relationship between variables to make predictions."},
+        {"term": "Pearson's correlation coefficient (r)", "def": "A value from -1 to +1 measuring the strength and direction of a linear relationship."},
+        {"term": "Positive correlation", "def": "As one variable increases, the other also increases."},
+        {"term": "Negative correlation", "def": "As one variable increases, the other decreases."}
+      ],
+      "examples": [
+        "Height and weight tend to show a positive correlation — taller people tend to weigh more, on average.",
+        "Hours spent studying and number of errors on a test tend to show a negative correlation."
+      ],
+      "steps": [
+        "r close to +1: strong positive correlation (both variables increase together).",
+        "r close to -1: strong negative correlation (one increases as the other decreases).",
+        "r close to 0: little to no linear relationship between the variables.",
+        "The closer r is to either -1 or +1 (regardless of sign), the stronger the relationship."
+      ],
+      "remember": [
+        "Correlation measures strength and direction of a relationship; regression predicts one variable from another.",
+        "Pearson's r ranges from -1 (perfect negative) to +1 (perfect positive), with 0 meaning no linear relationship.",
+        "Correlation does not prove causation — a strong relationship doesn't mean one variable causes the other.",
+        "Positive correlation: both variables move together. Negative correlation: they move oppositely."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does Pearson's correlation coefficient (r) measure?", "options": ["The average of two variables", "The strength and direction of a linear relationship between two variables", "The sample size", "The population parameter"], "correct": 1, "explanation": "Pearson's r measures the strength and direction of a linear relationship, ranging from -1 to +1."},
+        {"q": "What does an r value close to 0 indicate?", "options": ["A perfect positive relationship", "A perfect negative relationship", "Little to no linear relationship", "An error in calculation"], "correct": 2, "explanation": "An r value close to 0 indicates little to no linear relationship between the two variables."},
+        {"q": "What is a \"negative correlation\"?", "options": ["When both variables increase together", "When one variable increases as the other decreases", "When there is no relationship", "When r equals 0"], "correct": 1, "explanation": "A negative correlation means that as one variable increases, the other tends to decrease."},
+        {"q": "What is the purpose of regression analysis?", "options": ["To measure sample size", "To model the relationship between variables and make predictions", "To calculate the mean", "To classify data as qualitative or quantitative"], "correct": 1, "explanation": "Regression analysis models the relationship between variables in order to make predictions."},
+        {"q": "Does a strong correlation between two variables prove that one causes the other?", "options": ["Yes, always", "No, correlation does not prove causation", "Only if r equals 1", "Only for negative correlations"], "correct": 1, "explanation": "Correlation measures relationship strength, but does not prove that one variable causes changes in the other."}
+      ]
+    }
+  },
+  "Basic Probability Theory": {
+    "guide": {
+      "explanation": "Probability quantifies how likely an event is to occur, expressed as a number between 0 (impossible) and 1 (certain). This chapter also distinguishes between different types of variables used in probability and statistics, laying the groundwork for the probability distributions and hypothesis tests covered in later chapters.",
+      "keyTerms": [
+        {"term": "Probability", "def": "A number between 0 and 1 representing how likely an event is to occur."},
+        {"term": "Discrete random variable", "def": "A variable that can only take specific, countable values."},
+        {"term": "Continuous random variable", "def": "A variable that can take any value within a range."},
+        {"term": "Independent events", "def": "Events where the outcome of one doesn't affect the probability of the other."},
+        {"term": "Complement of an event", "def": "The probability that an event does NOT occur (1 minus the probability it does occur)."}
+      ],
+      "examples": [
+        "The probability of flipping a fair coin and getting heads is 0.5 (or 50%).",
+        "If the probability of rain tomorrow is 0.3, the complement — the probability it does NOT rain — is 0.7."
+      ],
+      "steps": [
+        "Determine the probability that the event DOES occur.",
+        "Subtract that probability from 1.",
+        "The result is the probability that the event does NOT occur (its complement)."
+      ],
+      "remember": [
+        "Probability is always a number between 0 (impossible) and 1 (certain).",
+        "Discrete random variables take specific countable values; continuous random variables take any value in a range.",
+        "The complement of an event's probability is 1 minus that event's probability.",
+        "Independent events don't affect each other's probability of occurring."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What range of values can probability take?", "options": ["-1 to 1", "0 to 1", "0 to 100 only", "Any number"], "correct": 1, "explanation": "Probability is always expressed as a number between 0 (impossible) and 1 (certain)."},
+        {"q": "If the probability of an event is 0.3, what is its complement?", "options": ["0.3", "0.7", "1.3", "0"], "correct": 1, "explanation": "The complement of an event's probability is 1 minus the event's probability: 1 - 0.3 = 0.7."},
+        {"q": "What is a discrete random variable?", "options": ["A variable that can take any value in a range", "A variable that can only take specific, countable values", "A variable with no probability", "A type of correlation"], "correct": 1, "explanation": "A discrete random variable can only take specific, countable values."},
+        {"q": "What does it mean for two events to be \"independent\"?", "options": ["They always happen together", "One event's outcome doesn't affect the other's probability", "They have the same probability", "They are mutually exclusive"], "correct": 1, "explanation": "Independent events are those where the outcome of one doesn't affect the probability of the other occurring."},
+        {"q": "What is the probability of flipping a fair coin and getting heads?", "options": ["0", "0.25", "0.5", "1"], "correct": 2, "explanation": "A fair coin has an equal chance of heads or tails, so the probability of heads is 0.5."}
+      ]
+    }
+  },
+  "Probability Distributions": {
+    "guide": {
+      "explanation": "A probability distribution describes all the possible outcomes of a random variable and the probability of each one occurring. Different types of distributions — like the normal distribution (a symmetric bell curve) and the binomial distribution (outcomes from a fixed number of yes/no trials) — apply to different kinds of data and questions.",
+      "keyTerms": [
+        {"term": "Probability distribution", "def": "A description of all possible outcomes of a random variable and their probabilities."},
+        {"term": "Normal distribution", "def": "A symmetric, bell-shaped distribution where most values cluster around the mean."},
+        {"term": "Binomial distribution", "def": "A distribution describing the number of successes in a fixed number of independent yes/no trials."},
+        {"term": "Mean of a distribution", "def": "The expected average value of the random variable."}
+      ],
+      "examples": [
+        "Human height roughly follows a normal distribution — most people cluster near the average, with fewer at the extremes.",
+        "Flipping a coin 10 times and counting the number of heads follows a binomial distribution."
+      ],
+      "steps": [
+        "Ask: does the data cluster symmetrically around a central average, tapering off at both extremes? That suggests a normal distribution.",
+        "Ask: is this counting successes/failures across a fixed number of independent trials? That suggests a binomial distribution.",
+        "Match the distribution type to the data before applying distribution-specific formulas or tables."
+      ],
+      "remember": [
+        "A probability distribution lists every possible outcome and its probability.",
+        "The normal distribution is symmetric and bell-shaped, with most values near the mean.",
+        "The binomial distribution counts successes across a fixed number of independent yes/no trials.",
+        "Choosing the right distribution type is essential before applying formulas or statistical tables."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does a probability distribution describe?", "options": ["Only the mean of a data set", "All possible outcomes of a random variable and their probabilities", "Only the sample size", "A single data point"], "correct": 1, "explanation": "A probability distribution describes all possible outcomes of a random variable along with their probabilities."},
+        {"q": "What shape does a normal distribution have?", "options": ["A flat line", "A symmetric, bell-shaped curve", "A sharp spike at one end", "A random scatter"], "correct": 1, "explanation": "The normal distribution is symmetric and bell-shaped, with most values clustering around the mean."},
+        {"q": "What does a binomial distribution describe?", "options": ["Continuous measurements only", "The number of successes in a fixed number of independent yes/no trials", "The correlation between two variables", "The sample mean"], "correct": 1, "explanation": "A binomial distribution describes the number of successes across a fixed number of independent yes/no trials."},
+        {"q": "Which of these is a real-world example that roughly follows a normal distribution?", "options": ["The number of heads in 10 coin flips", "Human height across a population", "A single yes/no trial", "The correlation coefficient"], "correct": 1, "explanation": "Human height tends to roughly follow a normal, bell-shaped distribution across a population."},
+        {"q": "What is required for a variable to follow a binomial distribution?", "options": ["An infinite number of trials", "A fixed number of independent yes/no trials", "Continuous data only", "A correlation coefficient of 1"], "correct": 1, "explanation": "A binomial distribution requires a fixed number of independent trials, each with a yes/no outcome."}
+      ]
+    }
+  },
+  "Statistical Sampling": {
+    "guide": {
+      "explanation": "Since studying an entire population is rarely practical, this chapter covers how to select a sample that fairly represents it. Simple random sampling gives every subset an equal chance of selection, while systematic, stratified, cluster, and panel sampling each organize or narrow the population differently before selecting — each with its own trade-offs depending on the situation.",
+      "keyTerms": [
+        {"term": "Simple random sample", "def": "Every subset of the population has an equal chance of being selected."},
+        {"term": "Systematic sampling", "def": "Selecting from the population at a fixed interval after an initial random start."},
+        {"term": "Stratified sampling", "def": "Dividing the population into distinct categories (strata) and sampling randomly within each."},
+        {"term": "Cluster sampling", "def": "Grouping the population by geography or another characteristic and sampling entire clusters."},
+        {"term": "Panel sampling", "def": "Starting with a broad sample and narrowing it down by asking screening questions."}
+      ],
+      "examples": [
+        "Systematic sampling of a city might involve sampling every 20th block instead of every single block.",
+        "Stratified sampling might divide a population by age group first, then randomly sample within each age group."
+      ],
+      "steps": [
+        "Need every subset to have an equal chance? Use simple random sampling.",
+        "Want to sample at a fixed interval after a random start? Use systematic sampling.",
+        "Need distinct subgroups fairly represented? Use stratified sampling.",
+        "Working with a large, geographically spread population? Use cluster sampling.",
+        "Need to narrow a broad sample down by specific characteristics? Use panel sampling."
+      ],
+      "remember": [
+        "Simple random sampling gives every subset an equal chance of selection.",
+        "Stratified sampling divides the population into categories (strata) before sampling within each.",
+        "Cluster sampling groups the population by geography or shared characteristics before sampling.",
+        "Systematic sampling selects at a fixed interval after a random starting point."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What defines a simple random sample?", "options": ["Sampling only every 10th person", "Every subset of the population has an equal chance of being selected", "Dividing the population into strata first", "Grouping the population by geography"], "correct": 1, "explanation": "In a simple random sample, every subset of the population has an equal opportunity of being selected."},
+        {"q": "What does stratified sampling involve?", "options": ["Selecting at a fixed interval", "Dividing the population into distinct categories and sampling within each", "Grouping by geography only", "Narrowing a sample with screening questions"], "correct": 1, "explanation": "Stratified sampling organizes the population into categories (strata) and samples randomly within each."},
+        {"q": "What is systematic sampling?", "options": ["Selecting from the population at a fixed interval after a random start", "Sampling the entire population", "Only sampling one category", "Randomly discarding data points"], "correct": 0, "explanation": "Systematic sampling begins with a random start and then selects from the population at a fixed interval."},
+        {"q": "What is cluster sampling most useful for?", "options": ["Small populations only", "Large populations spread across geography or other characteristics", "Populations with no variation", "Only qualitative data"], "correct": 1, "explanation": "Cluster sampling is useful for large populations, grouping and sampling by geography or another defining characteristic."},
+        {"q": "What does panel sampling involve?", "options": ["Sampling every single member of a population", "Starting with a broad sample and narrowing it with screening questions", "Dividing a population into strata", "Sampling only once"], "correct": 1, "explanation": "Panel sampling starts with a broader sample and narrows it down by asking screening questions."}
+      ]
+    }
+  },
+  "Statistical Estimations": {
+    "guide": {
+      "explanation": "Once you have sample data, you can use it to estimate unknown population parameters — like the true population mean — along with a margin of error expressing how confident you are in that estimate. A confidence interval combines a point estimate with a margin of error to give a range that likely contains the true population value.",
+      "keyTerms": [
+        {"term": "Point estimate", "def": "A single value used to estimate an unknown population parameter."},
+        {"term": "Margin of error", "def": "The range of uncertainty around a point estimate."},
+        {"term": "Confidence interval", "def": "A range of values, built around a point estimate, likely to contain the true population parameter."},
+        {"term": "Confidence level", "def": "The probability that the confidence interval method produces an interval containing the true parameter (commonly 95%)."}
+      ],
+      "examples": [
+        "A poll might report \"52% support, with a margin of error of 3%\" — meaning the true population value likely falls between 49% and 55%.",
+        "A 95% confidence interval means that if you repeated the sampling process many times, about 95% of the resulting intervals would contain the true population parameter."
+      ],
+      "steps": [
+        "Calculate the point estimate from the sample (e.g., the sample mean).",
+        "Determine the margin of error, based on the sample's variability and the desired confidence level.",
+        "Add and subtract the margin of error from the point estimate to get the interval's upper and lower bounds.",
+        "Report the confidence interval alongside its confidence level (e.g., \"95% confidence interval\")."
+      ],
+      "remember": [
+        "A point estimate is a single best guess at a population parameter; a confidence interval is a range around it.",
+        "Margin of error expresses the uncertainty around a point estimate.",
+        "A 95% confidence level means about 95% of intervals built this way would contain the true value, over repeated sampling.",
+        "Confidence intervals combine a point estimate with a margin of error."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"point estimate\"?", "options": ["A range of values", "A single value used to estimate a population parameter", "The margin of error", "A hypothesis test"], "correct": 1, "explanation": "A point estimate is a single value used to estimate an unknown population parameter."},
+        {"q": "What does a confidence interval provide?", "options": ["A single exact value", "A range of values likely to contain the true population parameter", "The sample size only", "A correlation coefficient"], "correct": 1, "explanation": "A confidence interval provides a range of values, built around a point estimate, likely to contain the true population parameter."},
+        {"q": "What does a 95% confidence level mean?", "options": ["There is a 95% chance the sample is wrong", "About 95% of intervals built this way would contain the true value over repeated sampling", "The sample is 95% of the population", "The margin of error is always 95%"], "correct": 1, "explanation": "A 95% confidence level means that, over repeated sampling, about 95% of the resulting intervals would contain the true population parameter."},
+        {"q": "What does \"margin of error\" represent?", "options": ["The exact population parameter", "The range of uncertainty around a point estimate", "The sample size", "The correlation coefficient"], "correct": 1, "explanation": "Margin of error represents the range of uncertainty surrounding a point estimate."},
+        {"q": "How is a confidence interval typically constructed?", "options": ["By using only the population parameter", "By adding and subtracting the margin of error from the point estimate", "By ignoring sample variability", "By using only qualitative data"], "correct": 1, "explanation": "A confidence interval is built by adding and subtracting the margin of error from the point estimate."}
+      ]
+    }
+  },
+  "Hypothesis Testing": {
+    "guide": {
+      "explanation": "Hypothesis testing is a formal method for deciding whether sample data provides enough evidence to reject a \"null hypothesis\" — typically a claim of no effect or no difference. The p-value indicates how likely the observed data would be if the null hypothesis were actually true — a small p-value (commonly below 0.05) suggests the null hypothesis should be rejected. Two types of errors can occur: a Type I error (rejecting a true null hypothesis) and a Type II error (failing to reject a false null hypothesis).",
+      "keyTerms": [
+        {"term": "Null hypothesis", "def": "The default claim being tested, typically stating no effect or no difference."},
+        {"term": "P-value", "def": "The probability of observing data this extreme (or more) if the null hypothesis were true."},
+        {"term": "Significance level (alpha)", "def": "The threshold p-value below which the null hypothesis is rejected, commonly 0.05."},
+        {"term": "Type I error", "def": "Rejecting the null hypothesis when it is actually true."},
+        {"term": "Type II error", "def": "Failing to reject the null hypothesis when it is actually false."}
+      ],
+      "examples": [
+        "If a p-value of 0.02 is calculated and the significance level is 0.05, the null hypothesis is rejected, since 0.02 is less than 0.05.",
+        "A Type I error would be concluding a new drug works when it actually doesn't; a Type II error would be concluding it doesn't work when it actually does."
+      ],
+      "steps": [
+        "State the null hypothesis (no effect/no difference) and the alternative hypothesis.",
+        "Choose a significance level (alpha), commonly 0.05.",
+        "Calculate the test statistic and corresponding p-value from the sample data.",
+        "If the p-value is less than alpha, reject the null hypothesis; otherwise, fail to reject it."
+      ],
+      "remember": [
+        "A small p-value (typically below 0.05) leads to rejecting the null hypothesis.",
+        "Type I error: rejecting a true null hypothesis. Type II error: failing to reject a false null hypothesis.",
+        "Alpha (the significance level) is the threshold for rejecting the null hypothesis.",
+        "The null hypothesis is the default claim of \"no effect\" being tested against the data."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does a p-value represent?", "options": ["The population mean", "The probability of observing data this extreme if the null hypothesis were true", "The sample size", "The confidence interval width"], "correct": 1, "explanation": "The p-value represents the probability of observing data this extreme (or more) if the null hypothesis were actually true."},
+        {"q": "What is a Type I error?", "options": ["Failing to reject a false null hypothesis", "Rejecting a true null hypothesis", "Correctly rejecting a null hypothesis", "Accepting the alternative hypothesis correctly"], "correct": 1, "explanation": "A Type I error occurs when a true null hypothesis is incorrectly rejected."},
+        {"q": "What is a Type II error?", "options": ["Rejecting a true null hypothesis", "Failing to reject a false null hypothesis", "Correctly rejecting a null hypothesis", "Calculating an incorrect p-value"], "correct": 1, "explanation": "A Type II error occurs when a false null hypothesis is not rejected."},
+        {"q": "What is the significance level (alpha) commonly set to?", "options": ["0.50", "0.05", "1.00", "0.95"], "correct": 1, "explanation": "The significance level (alpha) is commonly set at 0.05 in hypothesis testing."},
+        {"q": "If a p-value is smaller than the significance level, what should you do?", "options": ["Fail to reject the null hypothesis", "Reject the null hypothesis", "Increase the sample size", "Ignore the result"], "correct": 1, "explanation": "If the p-value is smaller than the significance level, the null hypothesis is rejected."}
+      ]
+    }
+  }
+}

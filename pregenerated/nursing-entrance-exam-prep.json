@@ -1,0 +1,333 @@
+{
+  "Reading": {
+    "guide": {
+      "explanation": "This section tests reading comprehension skills essential for interpreting nursing texts, medication labels, and patient education materials — including identifying the main idea, distinguishing supporting details, drawing logical inferences, and recognizing an author's purpose or tone. Strong reading comprehension also involves understanding context clues to determine the meaning of unfamiliar words.",
+      "keyTerms": [
+        {"term": "Main idea", "def": "The central point or message of a passage."},
+        {"term": "Supporting detail", "def": "Information that reinforces or explains the main idea."},
+        {"term": "Inference", "def": "A logical conclusion drawn from information implied but not directly stated in a text."},
+        {"term": "Author's purpose", "def": "The reason a text was written (to inform, persuade, entertain, or describe)."},
+        {"term": "Context clues", "def": "Surrounding words or sentences that help determine the meaning of an unfamiliar word."}
+      ],
+      "examples": [
+        "A passage about the benefits of hand hygiene likely has the main idea \"hand hygiene prevents the spread of infection,\" supported by details like infection rate statistics.",
+        "If a passage never directly states a patient is frightened but describes trembling hands and a shaky voice, a reader can infer fear."
+      ],
+      "steps": [
+        "Read the entire passage once for a general understanding.",
+        "Identify the topic — what or who the passage is about.",
+        "Determine what the author is saying about that topic — this is the main idea.",
+        "Check that the other sentences in the passage support or explain that main idea."
+      ],
+      "remember": [
+        "The main idea is the central point; supporting details reinforce or explain it.",
+        "An inference is a logical conclusion based on implied, not directly stated, information.",
+        "Author's purpose can be to inform, persuade, entertain, or describe.",
+        "Context clues help determine unfamiliar word meanings from surrounding text."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the \"main idea\" of a passage?", "options": ["A minor supporting detail", "The central point or message of the passage", "A direct quote", "The author's biography"], "correct": 1, "explanation": "The main idea is the central point or message the passage is conveying."},
+        {"q": "What is an \"inference\"?", "options": ["A directly stated fact", "A logical conclusion drawn from implied information", "A supporting detail only", "The author's purpose"], "correct": 1, "explanation": "An inference is a logical conclusion drawn from implied information."},
+        {"q": "What are \"context clues\"?", "options": ["A type of main idea", "Surrounding words or sentences that help determine an unfamiliar word's meaning", "The author's purpose", "A supporting detail only"], "correct": 1, "explanation": "Context clues help a reader determine the meaning of an unfamiliar word."},
+        {"q": "What does \"author's purpose\" refer to?", "options": ["The main idea only", "The reason a text was written (to inform, persuade, entertain, or describe)", "A supporting detail", "A type of inference"], "correct": 1, "explanation": "Author's purpose refers to the reason a text was written."},
+        {"q": "What is a \"supporting detail\"?", "options": ["The central point of a passage", "Information that reinforces or explains the main idea", "An inference", "The author's tone"], "correct": 1, "explanation": "A supporting detail reinforces or explains the main idea."}
+      ]
+    }
+  },
+  "English and Language Usage": {
+    "guide": {
+      "explanation": "This section tests grammar, sentence structure, and word usage skills essential for clear written and verbal communication in nursing documentation. Key areas include subject-verb agreement, correct punctuation, identifying parts of speech, and distinguishing between commonly confused words like \"their,\" \"there,\" and \"they're.\"",
+      "keyTerms": [
+        {"term": "Subject-verb agreement", "def": "Matching a singular or plural verb to its corresponding subject."},
+        {"term": "Parts of speech", "def": "The grammatical categories of words (noun, verb, adjective, adverb, pronoun, preposition, conjunction)."},
+        {"term": "Homophones", "def": "Words that sound alike but have different meanings and spellings (e.g., \"their\" vs. \"there\" vs. \"they're\")."},
+        {"term": "Punctuation", "def": "Marks (commas, periods, semicolons) used to clarify meaning and structure in writing."},
+        {"term": "Sentence fragment", "def": "An incomplete sentence missing a subject, verb, or complete thought."}
+      ],
+      "examples": [
+        "\"The nurse and the doctor discuss the patient's care\" uses correct subject-verb agreement for a plural (compound) subject.",
+        "\"Their car is parked there, and they're going inside\" correctly uses all three homophones."
+      ],
+      "steps": [
+        "Identify the true subject of the sentence, ignoring any descriptive phrases in between.",
+        "Determine if that subject is singular or plural.",
+        "Match the verb form to the subject's number.",
+        "Watch for compound subjects (joined by \"and\"), which are usually treated as plural."
+      ],
+      "remember": [
+        "Subject-verb agreement requires matching a singular or plural verb to its subject.",
+        "Homophones like \"their,\" \"there,\" and \"they're\" sound alike but have distinct meanings.",
+        "A sentence fragment is missing a subject, verb, or complete thought.",
+        "Correct punctuation clarifies meaning and structure in written communication."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"subject-verb agreement\"?", "options": ["Matching adjectives to nouns", "Matching a singular or plural verb to its corresponding subject", "A type of punctuation", "A homophone"], "correct": 1, "explanation": "Subject-verb agreement means matching a verb's number to its subject."},
+        {"q": "Which sentence correctly uses \"their,\" \"there,\" and \"they're\"?", "options": ["\"There going to they're car over their.\"", "\"Their car is parked there, and they're going inside.\"", "\"They're car is their, over there.\"", "\"Their going there car.\""], "correct": 1, "explanation": "This sentence correctly uses all three homophones in their proper contexts."},
+        {"q": "What is a \"sentence fragment\"?", "options": ["A complete sentence", "An incomplete sentence missing a subject, verb, or complete thought", "A type of punctuation", "A homophone"], "correct": 1, "explanation": "A sentence fragment is an incomplete sentence missing a subject, verb, or complete thought."},
+        {"q": "What are \"parts of speech\"?", "options": ["Types of punctuation", "The grammatical categories of words like noun, verb, and adjective", "A type of sentence fragment", "A homophone pair"], "correct": 1, "explanation": "Parts of speech are the grammatical categories of words."},
+        {"q": "How should a compound subject joined by \"and\" usually be treated for verb agreement?", "options": ["As always singular", "As usually plural", "As irrelevant to verb choice", "As always past tense"], "correct": 1, "explanation": "A compound subject joined by \"and\" is usually treated as plural."}
+      ]
+    }
+  },
+  "Math – Part 1": {
+    "guide": {
+      "explanation": "This section covers foundational arithmetic and algebra skills used in everyday nursing calculations — operations with whole numbers, fractions, decimals, and percentages, along with basic algebraic problem-solving. These skills form the basis for accurate medication dosage calculations later in a nursing career.",
+      "keyTerms": [
+        {"term": "Fraction", "def": "A part of a whole, expressed as a numerator over a denominator."},
+        {"term": "Decimal", "def": "A number expressed using a decimal point to show values less than one."},
+        {"term": "Percentage", "def": "A value expressed as a portion of 100."},
+        {"term": "Order of operations", "def": "The standard sequence (parentheses, exponents, multiplication/division, addition/subtraction) for solving a math expression."},
+        {"term": "Ratio", "def": "A comparison of two quantities, often used in dosage calculations."}
+      ],
+      "examples": [
+        "Converting 3/4 to a decimal: 3 divided by 4 equals 0.75.",
+        "A medication ratio like \"1:1000\" describes the concentration of a solution, essential for accurate dosing."
+      ],
+      "steps": [
+        "Divide the numerator by the denominator to get a decimal.",
+        "Multiply the decimal by 100.",
+        "Add a percent sign to the result.",
+        "Example: 3/4 becomes 0.75, then 75%."
+      ],
+      "remember": [
+        "Fractions, decimals, and percentages are different ways of representing the same value.",
+        "Order of operations (PEMDAS) ensures consistent results when solving multi-step expressions.",
+        "Ratios compare two quantities and are essential for dosage-related calculations.",
+        "Converting between fractions, decimals, and percentages is a foundational nursing math skill."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is 3/4 expressed as a decimal?", "options": ["0.34", "0.75", "3.4", "0.43"], "correct": 1, "explanation": "3 divided by 4 equals 0.75."},
+        {"q": "What does PEMDAS help ensure?", "options": ["Random calculation order", "A consistent order of operations when solving expressions", "Only addition first", "Only division first"], "correct": 1, "explanation": "PEMDAS ensures a consistent order of operations."},
+        {"q": "What is a \"ratio\"?", "options": ["A single number", "A comparison of two quantities", "A type of percentage only", "A fraction's denominator only"], "correct": 1, "explanation": "A ratio compares two quantities, often used in dosage calculations."},
+        {"q": "How do you convert a decimal to a percentage?", "options": ["Divide by 100", "Multiply by 100 and add a percent sign", "Subtract 100", "Add 100"], "correct": 1, "explanation": "Converting a decimal to a percentage requires multiplying by 100."},
+        {"q": "What is a \"fraction\"?", "options": ["A whole number only", "A part of a whole, expressed as a numerator over a denominator", "A type of ratio only", "A percentage"], "correct": 1, "explanation": "A fraction represents a part of a whole."}
+      ]
+    }
+  },
+  "Math – Part 2": {
+    "guide": {
+      "explanation": "This section builds on basic math with more advanced problem-solving: word problems requiring multiple steps, working with proportions (often used to calculate medication dosages), interpreting graphs and tables, and basic geometry and measurement concepts. Proportions are especially critical in nursing, since many dosage calculations rely on setting up and solving a proportion correctly.",
+      "keyTerms": [
+        {"term": "Proportion", "def": "An equation stating that two ratios are equal, often solved by cross multiplication."},
+        {"term": "Word problem", "def": "A math problem presented in narrative form, requiring translation into a numerical equation."},
+        {"term": "Cross multiplication", "def": "A method for solving a proportion by multiplying diagonally across the equal sign."},
+        {"term": "Measurement conversion", "def": "Changing a value from one unit of measurement to another (e.g., inches to centimeters)."}
+      ],
+      "examples": [
+        "Solving a dosage proportion: if 1 tablet contains 50mg and a patient needs 150mg, setting up \"1/50 = x/150\" and solving gives x = 3 tablets.",
+        "A word problem describing a patient's fluid intake over several hours requires translating the narrative into an equation."
+      ],
+      "steps": [
+        "Set up the proportion with equivalent ratios on each side of the equal sign.",
+        "Cross multiply — multiply the numerator of one side by the denominator of the other.",
+        "Solve the resulting equation for the unknown variable.",
+        "Check that the answer makes logical sense in the context of the problem."
+      ],
+      "remember": [
+        "A proportion states that two ratios are equal, commonly solved by cross multiplication.",
+        "Word problems require translating a narrative description into a numerical equation.",
+        "Proportions are essential for accurate medication dosage calculations.",
+        "Always check that a calculated answer makes logical sense in context."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"proportion\"?", "options": ["A single ratio", "An equation stating that two ratios are equal", "A type of percentage", "A word problem only"], "correct": 1, "explanation": "A proportion is an equation stating that two ratios are equal."},
+        {"q": "How is a proportion typically solved?", "options": ["By addition", "By cross multiplication", "By subtraction only", "It cannot be solved"], "correct": 1, "explanation": "Proportions are typically solved by cross multiplication."},
+        {"q": "If 1 tablet contains 50mg and a patient needs 150mg, how many tablets are needed?", "options": ["1", "2", "3", "4"], "correct": 2, "explanation": "Setting up the proportion 1/50 = x/150 and solving gives x = 3 tablets."},
+        {"q": "What does a \"word problem\" require?", "options": ["No translation needed", "Translating a narrative description into a numerical equation", "Only memorization", "Ignoring the context"], "correct": 1, "explanation": "A word problem requires translating a narrative into a numerical equation."},
+        {"q": "Why are proportions especially important in nursing math?", "options": ["They are not important", "They are essential for accurate medication dosage calculations", "They only apply to geometry", "They are used only for word problems"], "correct": 1, "explanation": "Proportions are essential for accurately calculating medication dosages."}
+      ]
+    }
+  },
+  "Conversions": {
+    "guide": {
+      "explanation": "This section covers converting between different units of measurement — most critically between metric units (like milligrams and grams) and household or standard units — since medication dosages, fluid intake, and patient weight are often documented differently across contexts. Accuracy in conversions is essential for patient safety.",
+      "keyTerms": [
+        {"term": "Metric system", "def": "The decimal-based measurement system used in most medical settings (grams, liters, meters)."},
+        {"term": "Conversion factor", "def": "A ratio used to convert a quantity from one unit to another without changing its actual value."},
+        {"term": "Milligram (mg) and gram (g)", "def": "Metric units of mass, with 1000 mg equal to 1 gram."},
+        {"term": "Milliliter (mL) and liter (L)", "def": "Metric units of volume, with 1000 mL equal to 1 liter."}
+      ],
+      "examples": [
+        "Converting 2000 mg to grams: since 1000 mg = 1 gram, 2000 mg equals 2 grams.",
+        "Converting 1.5 liters to milliliters: since 1 liter = 1000 mL, 1.5 liters equals 1500 mL."
+      ],
+      "steps": [
+        "Identify the starting unit and the desired unit.",
+        "Determine the conversion factor between the two units (e.g., 1000 mg = 1 g).",
+        "Multiply or divide by the conversion factor as appropriate.",
+        "Double-check that the converted value makes logical sense."
+      ],
+      "remember": [
+        "1000 milligrams (mg) = 1 gram (g).",
+        "1000 milliliters (mL) = 1 liter (L).",
+        "Converting to a smaller unit yields a larger number; converting to a larger unit yields a smaller number.",
+        "Accurate unit conversion is essential for medication safety."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "How many milligrams are in 1 gram?", "options": ["10", "100", "1000", "10000"], "correct": 2, "explanation": "There are 1000 milligrams in 1 gram."},
+        {"q": "How many milliliters are in 1.5 liters?", "options": ["15", "150", "1500", "15000"], "correct": 2, "explanation": "Since 1 liter equals 1000 mL, 1.5 liters equals 1500 mL."},
+        {"q": "What is a \"conversion factor\"?", "options": ["A type of medication", "A ratio used to convert a quantity from one unit to another", "A percentage", "A fraction only"], "correct": 1, "explanation": "A conversion factor is a ratio used to convert units without changing the value."},
+        {"q": "When converting a value to a smaller unit, what happens to the resulting number?", "options": ["It gets smaller", "It gets larger", "It stays the same", "It becomes zero"], "correct": 1, "explanation": "Converting to a smaller unit results in a larger number."},
+        {"q": "Why is accurate unit conversion especially important in nursing?", "options": ["It is not important", "It is essential for medication safety", "It only matters for research", "It only applies to fluid intake"], "correct": 1, "explanation": "Accurate unit conversion is essential for medication safety and correct dosing."}
+      ]
+    }
+  },
+  "Human Anatomy & Physiology – Part 1": {
+    "guide": {
+      "explanation": "This section introduces foundational anatomy and physiology concepts — anatomical position, homeostasis, and the basics of water balance, gas exchange, and electrolytes. It also covers three body systems: integumentary (skin), skeletal (bones), and nervous.",
+      "keyTerms": [
+        {"term": "Anatomical position", "def": "The standard reference posture (standing, facing forward, palms facing forward) used to describe body locations."},
+        {"term": "Homeostasis", "def": "The body's ability to maintain a stable, balanced internal environment despite external changes."},
+        {"term": "Electrolytes", "def": "Charged minerals (like sodium and potassium) essential for nerve and muscle function."},
+        {"term": "Integumentary system", "def": "The body system including skin, hair, and nails, providing protection and regulation."},
+        {"term": "Skeletal system", "def": "The body system providing structural support, protection, and mineral storage through bones."}
+      ],
+      "examples": [
+        "The body maintains homeostasis by regulating temperature — sweating to cool down, shivering to warm up.",
+        "The skeletal system protects vital organs, such as the ribs protecting the heart and lungs."
+      ],
+      "steps": [
+        "The body detects a change in its internal environment (e.g., rising temperature).",
+        "A regulatory mechanism activates in response (e.g., sweating).",
+        "The mechanism works to return the internal environment to its stable, balanced state.",
+        "This continuous process maintains homeostasis despite ongoing external changes."
+      ],
+      "remember": [
+        "Anatomical position is the standard reference posture for describing body locations.",
+        "Homeostasis is the body's ability to maintain a stable internal environment.",
+        "Electrolytes like sodium and potassium are essential for nerve and muscle function.",
+        "The integumentary system (skin) and skeletal system (bones) both provide protection for the body."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"anatomical position\"?", "options": ["A type of disease", "The standard reference posture used to describe body locations", "A body system", "A type of electrolyte"], "correct": 1, "explanation": "Anatomical position is the standard reference posture used to describe body locations."},
+        {"q": "What is \"homeostasis\"?", "options": ["A disease process", "The body's ability to maintain a stable internal environment", "A type of bone", "A body system"], "correct": 1, "explanation": "Homeostasis is the body's ability to maintain a stable internal environment."},
+        {"q": "Which of these is an example of an electrolyte?", "options": ["Water", "Sodium", "Oxygen", "Glucose"], "correct": 1, "explanation": "Sodium is an electrolyte essential for nerve and muscle function."},
+        {"q": "What is the primary function of the integumentary system?", "options": ["Producing hormones", "Providing protection and regulation through skin, hair, and nails", "Pumping blood", "Digesting food"], "correct": 1, "explanation": "The integumentary system provides protection and regulation."},
+        {"q": "What is one function of the skeletal system?", "options": ["Producing digestive enzymes", "Providing structural support and protection for organs", "Regulating hormones", "Filtering blood"], "correct": 1, "explanation": "The skeletal system provides structural support and protection for organs."}
+      ]
+    }
+  },
+  "Human Anatomy & Physiology – Part 2": {
+    "guide": {
+      "explanation": "This section covers the brain and nervous system's major regions and functions, the sensory system's ability to detect and interpret stimuli, and three additional body systems: endocrine (hormone regulation), cardiovascular (heart and blood flow), and immune (body defense).",
+      "keyTerms": [
+        {"term": "Blood-brain barrier", "def": "A protective barrier that regulates which substances can pass from the bloodstream into brain tissue."},
+        {"term": "Cardiac cycle", "def": "The sequence of the heart's contraction (systole) and relaxation (diastole) phases that pump blood."},
+        {"term": "Endocrine system", "def": "The body system that regulates function through hormones released into the bloodstream."},
+        {"term": "Immune system", "def": "The body system that defends against pathogens through nonspecific and specific defenses."},
+        {"term": "Sensory receptor", "def": "A specialized cell that detects a specific type of stimulus (like light, sound, or pressure)."}
+      ],
+      "examples": [
+        "The blood-brain barrier prevents many pathogens and toxins from crossing from the blood into brain tissue.",
+        "During the cardiac cycle, the heart's systole phase pumps blood out, while diastole allows the chambers to refill."
+      ],
+      "steps": [
+        "Diastole: the heart's chambers relax and fill with blood.",
+        "Systole: the heart's chambers contract, pumping blood out to the lungs and body.",
+        "This cycle repeats continuously to maintain blood flow throughout the body.",
+        "Heart valves ensure blood flows in the correct direction during each phase."
+      ],
+      "remember": [
+        "The blood-brain barrier regulates which substances can pass into brain tissue.",
+        "The cardiac cycle alternates between systole (contraction) and diastole (relaxation).",
+        "The endocrine system regulates function through hormones; the immune system defends against pathogens.",
+        "Sensory receptors detect specific types of stimuli, like light, sound, or pressure."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does the \"blood-brain barrier\" do?", "options": ["Pumps blood through the brain", "Regulates which substances can pass from the bloodstream into brain tissue", "Produces hormones", "Detects sensory stimuli"], "correct": 1, "explanation": "The blood-brain barrier regulates which substances pass into brain tissue."},
+        {"q": "What happens during \"systole\" in the cardiac cycle?", "options": ["The heart's chambers relax and fill with blood", "The heart's chambers contract, pumping blood out", "The heart stops", "Blood flow reverses"], "correct": 1, "explanation": "Systole is the contraction phase that pumps blood out."},
+        {"q": "What does the endocrine system regulate function through?", "options": ["Nerve impulses only", "Hormones released into the bloodstream", "Bone structure", "Skin protection"], "correct": 1, "explanation": "The endocrine system regulates function through hormones."},
+        {"q": "What is the primary role of the immune system?", "options": ["Pumping blood", "Defending the body against pathogens", "Regulating temperature", "Producing bone marrow only"], "correct": 1, "explanation": "The immune system defends the body against pathogens."},
+        {"q": "What is a \"sensory receptor\"?", "options": ["A type of hormone", "A specialized cell that detects a specific type of stimulus", "A heart valve", "A type of bone"], "correct": 1, "explanation": "A sensory receptor detects a specific type of stimulus, like light or sound."}
+      ]
+    }
+  },
+  "Anatomy & Physiology – Part 3": {
+    "guide": {
+      "explanation": "This section covers the respiratory system (inhalation and exhalation), digestive system (breaking down food for nutrient absorption), genitourinary system (waste filtration and elimination), and reproductive system. Each system is explored through its functions, components, common disorders, and related medical terminology.",
+      "keyTerms": [
+        {"term": "Inhalation", "def": "The process of drawing air into the lungs."},
+        {"term": "Exhalation", "def": "The process of expelling air from the lungs."},
+        {"term": "Digestive system", "def": "The body system responsible for breaking down food and absorbing nutrients."},
+        {"term": "Genitourinary system", "def": "The body system responsible for filtering waste from the blood and eliminating it as urine."},
+        {"term": "Reproductive system", "def": "The body system responsible for producing offspring."}
+      ],
+      "examples": [
+        "During inhalation, the diaphragm contracts and moves downward, allowing the lungs to expand and fill with air.",
+        "The kidneys, part of the genitourinary system, filter waste products from the blood to form urine."
+      ],
+      "steps": [
+        "Inhalation: the diaphragm contracts, the chest cavity expands, and air is drawn into the lungs.",
+        "Gas exchange occurs in the lungs — oxygen enters the blood, and carbon dioxide is removed.",
+        "Exhalation: the diaphragm relaxes, the chest cavity contracts, and air is expelled from the lungs.",
+        "This cycle repeats continuously to support the body's oxygen needs."
+      ],
+      "remember": [
+        "Inhalation draws air into the lungs; exhalation expels it.",
+        "The digestive system breaks down food and absorbs nutrients.",
+        "The genitourinary system filters waste from the blood and eliminates it as urine.",
+        "The reproductive system is responsible for producing offspring."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What happens during \"inhalation\"?", "options": ["Air is expelled from the lungs", "Air is drawn into the lungs", "The heart stops beating", "Digestion begins"], "correct": 1, "explanation": "Inhalation is the process of drawing air into the lungs."},
+        {"q": "What is the primary function of the digestive system?", "options": ["Filtering blood", "Breaking down food and absorbing nutrients", "Producing hormones", "Pumping blood"], "correct": 1, "explanation": "The digestive system breaks down food and absorbs nutrients."},
+        {"q": "What is the primary function of the genitourinary system?", "options": ["Producing offspring", "Filtering waste from the blood and eliminating it as urine", "Breaking down food", "Detecting sensory stimuli"], "correct": 1, "explanation": "The genitourinary system filters waste and eliminates it as urine."},
+        {"q": "What happens to the diaphragm during inhalation?", "options": ["It relaxes and moves upward", "It contracts and moves downward", "It stops moving", "It has no role in breathing"], "correct": 1, "explanation": "During inhalation, the diaphragm contracts and moves downward."},
+        {"q": "What is the primary function of the reproductive system?", "options": ["Filtering waste", "Producing offspring", "Breaking down food", "Regulating temperature"], "correct": 1, "explanation": "The reproductive system is responsible for producing offspring."}
+      ]
+    }
+  },
+  "General Sciences": {
+    "guide": {
+      "explanation": "This section covers the scientific method as a systematic process for investigation, foundational genetics (including Mendel's laws of heredity and Punnett squares), and basic chemistry concepts like atomic structure, the periodic table, and different types of chemical reactions. Together, these topics build the scientific reasoning skills needed to understand disease processes and treatments.",
+      "keyTerms": [
+        {"term": "Scientific method", "def": "A systematic process of observation, hypothesis formation, prediction, and experimentation used to investigate questions."},
+        {"term": "Hypothesis", "def": "A testable, educated guess about the outcome of an experiment."},
+        {"term": "Punnett square", "def": "A diagram used to predict the possible genotypes of offspring based on their parents' genes."},
+        {"term": "Atom", "def": "The basic unit of matter, consisting of protons, neutrons, and electrons."},
+        {"term": "Redox reaction", "def": "A chemical reaction involving the transfer of electrons between substances."}
+      ],
+      "examples": [
+        "A Punnett square can predict the probability that offspring of two brown-eyed parents (each carrying one recessive blue-eye gene) will have blue eyes.",
+        "Testing whether a new hand sanitizer reduces bacteria more effectively than soap follows the scientific method."
+      ],
+      "steps": [
+        "Make an observation about something you want to understand.",
+        "Formulate a hypothesis — a testable, educated guess about the outcome.",
+        "Design and conduct an experiment to test the hypothesis.",
+        "Analyze the results and draw a conclusion, refining the hypothesis if needed."
+      ],
+      "remember": [
+        "The scientific method follows observation, hypothesis, prediction, and experimentation.",
+        "A Punnett square predicts possible offspring genotypes based on parental genes.",
+        "An atom consists of protons, neutrons, and electrons.",
+        "A redox reaction involves the transfer of electrons between substances."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is a \"hypothesis\"?", "options": ["A proven fact", "A testable, educated guess about the outcome of an experiment", "A type of atom", "A chemical reaction"], "correct": 1, "explanation": "A hypothesis is a testable, educated guess about an experiment's outcome."},
+        {"q": "What is a \"Punnett square\" used for?", "options": ["Measuring atomic mass", "Predicting the possible genotypes of offspring based on parental genes", "Balancing chemical equations", "Measuring temperature"], "correct": 1, "explanation": "A Punnett square predicts possible offspring genotypes."},
+        {"q": "What are the three basic components of an atom?", "options": ["Protons, neutrons, and electrons", "Genes, chromosomes, and DNA", "Acids, bases, and salts", "Solids, liquids, and gases"], "correct": 0, "explanation": "An atom consists of protons, neutrons, and electrons."},
+        {"q": "What is a \"redox reaction\"?", "options": ["A type of Punnett square", "A chemical reaction involving the transfer of electrons between substances", "A biological process only", "A type of hypothesis"], "correct": 1, "explanation": "A redox reaction involves the transfer of electrons between substances."},
+        {"q": "What is the correct order of steps in the scientific method?", "options": ["Experiment, hypothesis, observation, prediction", "Observation, hypothesis, prediction, experiment", "Prediction, experiment, hypothesis, observation", "Hypothesis, observation, experiment, prediction"], "correct": 1, "explanation": "The scientific method follows observation, hypothesis, prediction, and experimentation."}
+      ]
+    }
+  }
+}

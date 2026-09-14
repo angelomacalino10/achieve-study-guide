@@ -1,0 +1,336 @@
+{
+  "Defining Religion": {
+    "guide": {
+      "explanation": "Religion is a cultural system built around beliefs, rituals, sacred texts, and ethics that gives followers a way to understand life, death, and their relationship to the divine. Scholars use several categories to describe how many gods a religion recognizes: monotheism (one god), polytheism (many gods), pantheism (God as one with the universe, impersonal), panentheism (God as part of, and more than, the universe, personal), and henotheism (worship of one god while accepting others exist).",
+      "keyTerms": [
+        {"term": "Myth", "def": "A story within a religion carrying historical or symbolic meaning, not necessarily meaning \"untrue.\""},
+        {"term": "Ritual", "def": "A repeated sequence of actions (prayers, words, objects) practiced by believers."},
+        {"term": "Doctrine", "def": "The codified, written beliefs and laws of a religion, used to teach followers."},
+        {"term": "Monotheism", "def": "Belief in one all-powerful god."},
+        {"term": "Polytheism", "def": "Belief in many gods or goddesses."},
+        {"term": "Pantheism", "def": "Belief that everything in the universe is one with an impersonal god."}
+      ],
+      "examples": [
+        "A ritual might be a specific prayer said at a set time of day, or the ordered sequence of a worship service.",
+        "Panentheism differs from pantheism because panentheists believe in a personal god who speaks and loves, even while holding that god and the universe are one."
+      ],
+      "steps": [
+        "Ask: does the religion believe in exactly one all-powerful god? That's monotheism.",
+        "Ask: does it recognize many gods or goddesses? That's polytheism.",
+        "Ask: does it see God as an impersonal force identical with the universe? That's pantheism.",
+        "Ask: does it see God as both part of, and more than, the universe, while remaining personal? That's panentheism."
+      ],
+      "remember": [
+        "Religion combines beliefs, rituals, sacred texts, and ethics to explain life, death, and the divine.",
+        "Monotheism = one god; polytheism = many gods; pantheism = God as an impersonal universe; panentheism = God as personal, part of and beyond the universe.",
+        "A \"myth\" in religious studies isn't necessarily false — it's a story carrying symbolic or historical meaning.",
+        "Doctrine is the codified, written set of beliefs used to teach a religion's followers."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"monotheism\"?", "options": ["Belief in many gods", "Belief in one all-powerful god", "Belief that God is the universe", "Belief in no gods"], "correct": 1, "explanation": "Monotheism is the belief that there is one all-powerful god."},
+        {"q": "What does \"polytheism\" mean?", "options": ["Belief in one god", "Belief in many gods or goddesses", "Belief in no god", "A type of ritual"], "correct": 1, "explanation": "Polytheism is the belief that many gods and/or goddesses exist."},
+        {"q": "In religious studies, what does the term \"myth\" refer to?", "options": ["Something proven false", "A story carrying historical or symbolic meaning within a religion", "A type of ritual only", "A holy text"], "correct": 1, "explanation": "In religious studies, a myth is a story carrying historical or symbolic meaning."},
+        {"q": "What is the key difference between pantheism and panentheism?", "options": ["There is no difference", "Panentheism holds a personal god who is part of, and more than, the universe; pantheism sees God as impersonal", "Pantheism believes in many gods", "Panentheism rejects the existence of God"], "correct": 1, "explanation": "Panentheists believe in a personal god who is both part of the universe and more than it, while pantheists see God as an impersonal force identical to the universe."},
+        {"q": "What is \"doctrine\"?", "options": ["A type of myth", "The codified, written beliefs and laws used to teach a religion's followers", "A sacred ritual only", "A holy place"], "correct": 1, "explanation": "Doctrine refers to the codified, written beliefs of a religion, used to teach its principles to followers."}
+      ]
+    }
+  },
+  "Indigenous Religions": {
+    "guide": {
+      "explanation": "Many Native American religious traditions are animistic (believing all objects, places, and creatures have a spiritual essence) or pantheistic, emphasizing harmony with nature rather than dominion over it. Rather than worshipping in a fixed institution like a church, many Native traditions practice in the open, recognizing a Great Spirit known by different names across tribes — like Wakan Tanka (Sioux) or Gitchi Manitou (Ojibwe).",
+      "keyTerms": [
+        {"term": "Animism", "def": "The belief that all objects, places, and creatures have a spiritual essence."},
+        {"term": "Wakan Tanka", "def": "The Sioux name for the \"Great Mystery\" or Great Spirit."},
+        {"term": "Great Spirit", "def": "A widely-shared concept across many Native American traditions, understood differently by different tribes."},
+        {"term": "Harmony with nature", "def": "A core value in many indigenous traditions, holding that no creature has dominion over another."}
+      ],
+      "examples": [
+        "Giving thanks to an animal after a hunt reflects the belief that the animal's life is as valuable as the hunter's, not a ritual to avoid punishment.",
+        "Different tribes have different names for the same broad concept of a divine creator: Tam Apo (Shoshone), Ababinili (Chickasaw), Apistotoke (Blackfoot)."
+      ],
+      "steps": [
+        "Recognize that animism holds all natural elements (water, land, animals) as having a spiritual essence.",
+        "Note that worship often occurs outdoors, in response to natural beauty, rather than in a fixed building.",
+        "Understand that harmony, not dominion, defines the relationship between humans and nature in this worldview.",
+        "Recognize that each tribe has its own specific name and understanding of the Great Spirit."
+      ],
+      "remember": [
+        "Animism holds that all natural objects and creatures have a spiritual essence.",
+        "Many Native traditions worship outdoors rather than in a fixed institution.",
+        "The concept of a Great Spirit appears across many tribes, but with different names and nuances.",
+        "Harmony with nature — not dominion over it — is a central value in these traditions."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"animism\"?", "options": ["Belief in one god only", "The belief that all objects, places, and creatures have a spiritual essence", "A type of written doctrine", "A form of pilgrimage"], "correct": 1, "explanation": "Animism is the belief that all objects, places, and creatures have a spiritual essence."},
+        {"q": "What is \"Wakan Tanka\"?", "options": ["A Native American ritual", "The Sioux name for the Great Spirit or \"Great Mystery\"", "A sacred text", "A type of animal sacrifice"], "correct": 1, "explanation": "Wakan Tanka is the Sioux name for the Great Spirit, translating to \"Great Mystery.\""},
+        {"q": "How do many Native American traditions typically practice worship?", "options": ["Only inside a formal church building", "Often outdoors, in connection with nature", "Only through written scripture", "Only through animal sacrifice"], "correct": 1, "explanation": "Many Native American traditions worship outdoors, connecting spiritually with natural scenes and elements."},
+        {"q": "What core value defines the relationship between humans and nature in many indigenous traditions?", "options": ["Dominion over nature", "Harmony with nature", "Avoidance of nature", "Fear of nature"], "correct": 1, "explanation": "Harmony with nature, rather than dominion over it, is a central value in many indigenous traditions."},
+        {"q": "Why might a Native American give thanks to an animal after a hunt?", "options": ["To avoid a curse", "To signify the animal's life was as valuable as the hunter's", "Because it's required by written doctrine", "To convert the animal's spirit"], "correct": 1, "explanation": "Giving thanks reflects the belief that the animal's life and sacrifice are as significant as the hunter's."}
+      ]
+    }
+  },
+  "Hinduism": {
+    "guide": {
+      "explanation": "Hinduism, the world's oldest living religion, has no single founder and blends diverse traditions rather than following one systematic set of rules. Central concepts include Brahman (the one true, formless God), the Vedas (the eternal, ultimate sacred scripture), and the three linked ideas of truth, dharma (righteous duty), and karma — all working toward the ultimate goal of ending the cycle of reincarnation and liberating the spirit.",
+      "keyTerms": [
+        {"term": "Brahman", "def": "The one true God of Hinduism — formless, limitless, and eternal."},
+        {"term": "Vedas", "def": "The ultimate sacred scriptures of Hinduism, believed to be timeless."},
+        {"term": "Dharma", "def": "The concept of righteousness, moral law, and duty central to Hindu life."},
+        {"term": "Karma", "def": "The principle that actions in this life affect one's future, including future reincarnations."},
+        {"term": "Reincarnation", "def": "The belief that the soul is repeatedly reborn into new bodies."}
+      ],
+      "examples": [
+        "The Ganges River is considered sacred and serves as a spiritual lifeline for Hindu practitioners.",
+        "The Bhagavad Gita, Mahabharata, and Ramayana are among Hinduism's major scriptures, covering theology, philosophy, and ritual."
+      ],
+      "steps": [
+        "Recognize dharma as the duty to live righteously and morally.",
+        "Understand karma as the consequence of one's actions, shaping future rebirths.",
+        "Recognize reincarnation as the ongoing cycle of birth, death, and rebirth.",
+        "Understand that the ultimate goal is to end this cycle and liberate the spirit."
+      ],
+      "remember": [
+        "Hinduism has no single founder — it blends diverse traditions rather than one systematic doctrine.",
+        "Brahman is the one true God: formless, limitless, and eternal.",
+        "The three key concepts are truth, dharma (duty), and karma (consequence of action).",
+        "The ultimate spiritual goal is to end the cycle of reincarnation and liberate the spirit."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is \"Brahman\" in Hinduism?", "options": ["A sacred text", "The one true God — formless, limitless, and eternal", "A type of ritual", "A caste system"], "correct": 1, "explanation": "Brahman is the one true God of Hinduism, described as formless, limitless, and eternal."},
+        {"q": "What is \"dharma\"?", "options": ["A sacred river", "The concept of righteousness, moral law, and duty", "A form of reincarnation", "A Hindu scripture"], "correct": 1, "explanation": "Dharma is the concept of righteousness, moral law, and duty central to Hindu life."},
+        {"q": "What does \"karma\" refer to in Hindu belief?", "options": ["A sacred text", "The principle that actions affect one's future, including future rebirths", "A type of prayer", "A holy river"], "correct": 1, "explanation": "Karma is the principle that one's actions affect their future, including future reincarnations."},
+        {"q": "What is the ultimate spiritual goal in Hinduism, related to reincarnation?", "options": ["To be reincarnated as many times as possible", "To end the cycle of reincarnation and liberate the spirit", "To avoid all dharma", "To reject the Vedas"], "correct": 1, "explanation": "The ultimate goal is to end the cycle of reincarnation and liberate one's spirit."},
+        {"q": "Which river is considered sacred to Hindus?", "options": ["The Nile", "The Ganges", "The Amazon", "The Jordan"], "correct": 1, "explanation": "The Ganges River is considered sacred and serves as a spiritual lifeline for Hindu practitioners."}
+      ]
+    }
+  },
+  "Buddhism": {
+    "guide": {
+      "explanation": "Buddhism was founded by Siddhartha Gautama, later known as the Buddha, after he abandoned his royal life following his encounter with \"the four sights\" — an old man, a corpse, an ascetic, and a sick man — that revealed the reality of human suffering. His teachings center on the Three Refuges (Samsara, Karma, and Rebirth), the Four Noble Truths, and the Noble Eightfold Path, all aimed at ending the cycle of suffering and rebirth.",
+      "keyTerms": [
+        {"term": "Buddha", "def": "The title of Siddhartha Gautama, meaning \"the awakened one.\""},
+        {"term": "Samsara", "def": "The cycle of birth, death, and rebirth driven by craving and aversion."},
+        {"term": "Karma", "def": "In Buddhism, the force generated by good and bad deeds that shapes future rebirths."},
+        {"term": "Rebirth", "def": "The belief that a person is reborn into a new form after death, without a permanent unchanging soul."},
+        {"term": "The Four Sights", "def": "An old man, a corpse, an ascetic, and a sick man — the encounters that led Siddhartha to his spiritual quest."}
+      ],
+      "examples": [
+        "Siddhartha was born a prince but abandoned his royal life after witnessing suffering he had been shielded from.",
+        "Different Buddhist traditions view karma differently: Theravada Buddhists see it as impersonal, while Mahayana Buddhists believe hearing certain sacred texts can remove negative karma."
+      ],
+      "steps": [
+        "Samsara: the involuntary cycle of birth, death, and rebirth driven by craving pleasure and avoiding pain.",
+        "Karma: the force, generated by intentional good and bad deeds, that drives Samsara forward.",
+        "Rebirth: the process of being reborn into one of several possible forms after death.",
+        "Buddhists strive, through practice, to end this cycle entirely."
+      ],
+      "remember": [
+        "Buddha means \"the awakened one\" — the title given to Siddhartha Gautama after his enlightenment.",
+        "The Four Sights (an old man, a corpse, an ascetic, a sick man) prompted Siddhartha's spiritual quest.",
+        "The Three Refuges are Samsara (the cycle), Karma (the driving force), and Rebirth (the outcome).",
+        "Buddhists do not believe in a permanent, unchanging soul."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does the title \"Buddha\" mean?", "options": ["\"The king\"", "\"The awakened one\"", "\"The messenger\"", "\"The prophet\""], "correct": 1, "explanation": "\"Buddha\" comes from \"Budhi,\" meaning \"to awaken.\""},
+        {"q": "What are \"the Four Sights\" that influenced Siddhartha's spiritual quest?", "options": ["Four sacred texts", "An old man, a corpse, an ascetic, and a sick man", "Four types of meditation", "Four Buddhist temples"], "correct": 1, "explanation": "The Four Sights revealed human suffering to Siddhartha."},
+        {"q": "What is \"Samsara\" in Buddhism?", "options": ["A sacred text", "The cycle of birth, death, and rebirth", "A type of meditation", "A Buddhist temple"], "correct": 1, "explanation": "Samsara is the involuntary cycle of birth, death, and rebirth driven by craving and aversion."},
+        {"q": "Do Buddhists believe in a permanent, unchanging soul?", "options": ["Yes, always", "No, they do not believe in a permanent unchanging soul", "Only Theravada Buddhists believe this", "Only Mahayana Buddhists believe this"], "correct": 1, "explanation": "Buddhists do not believe in a permanent self or an unchanging eternal soul."},
+        {"q": "What role does karma play in Buddhism?", "options": ["It has no role", "It is the force generated by good and bad deeds that shapes future rebirths", "It is a sacred text", "It is a type of temple"], "correct": 1, "explanation": "Karma is the force, driven by intentional good and bad deeds, that shapes a person's future rebirths."}
+      ]
+    }
+  },
+  "Asian Religions": {
+    "guide": {
+      "explanation": "Religious life across Asia is often pluralistic and blended rather than exclusive — in China, folk religion, Taoism, and Buddhism coexist alongside a large agnostic/atheist population, while in Japan, most people don't identify with a single religion but instead blend elements of Shinto and Buddhism. Shinto, Japan's indigenous religion, is polytheistic, centering on kami (spirits/deities) associated with nature, sacred sites, and ritual purification.",
+      "keyTerms": [
+        {"term": "Taoism (Daoism)", "def": "A Chinese philosophy/religion emphasizing living in harmony with the Tao (the natural order)."},
+        {"term": "Kami", "def": "The spirits or deities central to Shinto belief, often associated with nature."},
+        {"term": "Shinto", "def": "Japan's indigenous religion, meaning \"the way of the gods,\" with no single founder or canon."},
+        {"term": "Religious pluralism", "def": "The coexistence of multiple religious traditions within one society, often blended rather than exclusive."},
+        {"term": "Ritual purification", "def": "A practice in Shinto performed before visiting a shrine."}
+      ],
+      "examples": [
+        "In China, many people practice elements of Buddhism and Taoism without identifying either as a strict, exclusive \"religion.\"",
+        "A person visiting a Shinto shrine performs a ritual purification beforehand, honoring the kami associated with that sacred site."
+      ],
+      "steps": [
+        "Recognize that most Japanese people do not identify with a single, exclusive religion.",
+        "Understand that Shinto and Buddhism are viewed as complementary rather than competing.",
+        "Note that family religious association is often tied to birth location and family shrine/temple ties, not personal practice.",
+        "Recognize that about 70% of Japanese people do not profess formal religious membership, despite cultural participation."
+      ],
+      "remember": [
+        "Chinese religious life is pluralistic, blending folk religion, Taoism, Buddhism, and a large agnostic/atheist population.",
+        "Shinto means \"the way of the gods\" and centers on kami — spirits or deities tied to nature and sacred sites.",
+        "Shinto and Buddhism in Japan are viewed as complementary, not competing, traditions.",
+        "Ritual purification precedes visits to Shinto shrines."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What does \"kami\" refer to in Shinto belief?", "options": ["A sacred text", "Spirits or deities, often associated with nature", "A type of meditation", "A Buddhist temple"], "correct": 1, "explanation": "Kami are the spirits or deities central to Shinto belief, often associated with nature."},
+        {"q": "What does \"Shinto\" mean?", "options": ["\"The eternal path\"", "\"The way of the gods\"", "\"The sacred fire\"", "\"The great mystery\""], "correct": 1, "explanation": "Shinto means \"the way of the gods.\""},
+        {"q": "How are Shinto and Buddhism generally viewed in Japan?", "options": ["As strictly competing faiths", "As complementary traditions that can be blended", "As entirely unrelated", "As banned by the government"], "correct": 1, "explanation": "Shinto and Japanese Buddhism are viewed in a complex, complementary way rather than as competing faiths."},
+        {"q": "What best describes religious life in China, according to this chapter?", "options": ["Strictly monotheistic", "Pluralistic, blending folk religion, Taoism, Buddhism, and a large agnostic/atheist population", "Entirely atheist", "Dominated by one official religion"], "correct": 1, "explanation": "Chinese religious life is pluralistic, with multiple traditions and a significant agnostic/atheist population coexisting."},
+        {"q": "What is performed before visiting a Shinto shrine?", "options": ["A written exam", "A ritual purification", "A pilgrimage to Mecca", "A sacred fast"], "correct": 1, "explanation": "Individuals practice a ritual purification before visiting Shinto shrines."}
+      ]
+    }
+  },
+  "Judaism": {
+    "guide": {
+      "explanation": "Judaism is the oldest monotheistic religion, dating back over 3,000 years, based on the Hebrew Bible (the Tanakh) and later interpreted through the Talmud. Different branches — Orthodox, Conservative, and Reform Judaism — differ mainly in how strictly they interpret Jewish Law, with Orthodox Judaism holding the Torah as divine, eternal, and unalterable, while Reform Judaism treats it more as a set of guidelines.",
+      "keyTerms": [
+        {"term": "Tanakh", "def": "The Hebrew Bible, the foundational sacred text of Judaism."},
+        {"term": "Talmud", "def": "A later body of Jewish texts interpreting and expanding on Jewish Law."},
+        {"term": "Torah", "def": "The core teachings and laws found in the first five books of the Tanakh."},
+        {"term": "Orthodox Judaism", "def": "A branch holding that Jewish Law is divine, eternal, and unalterable."},
+        {"term": "Reform Judaism", "def": "A more liberal branch treating Jewish Law more as guidelines than strict restrictions."},
+        {"term": "Ethnoreligious group", "def": "A group defined by both ethnicity and shared religion, as Jews are often described."}
+      ],
+      "examples": [
+        "An Orthodox Jew follows Jewish Law as strictly binding, while a Reform Jew may interpret the same laws more flexibly.",
+        "Roughly 42% of the world's Jewish population lives in Israel, and another 42% lives in the United States and Canada."
+      ],
+      "steps": [
+        "Orthodox Judaism: Torah and Jewish Law are divine, eternal, and unalterable — strictly followed.",
+        "Conservative Judaism: promotes a traditional, though somewhat more flexible, interpretation of Jewish Law.",
+        "Reform Judaism: treats Jewish Law more as guidelines than fixed restrictions.",
+        "All branches draw on the same foundational texts (Tanakh, Talmud) but differ in interpretation and practice."
+      ],
+      "remember": [
+        "Judaism is the oldest monotheistic religion, based on the Tanakh (Hebrew Bible) and Talmud.",
+        "Orthodox Judaism holds Jewish Law as divine and unalterable; Reform Judaism treats it more flexibly.",
+        "Jews are considered an ethnoreligious group, including both those born Jewish and converts.",
+        "About 42% of Jews worldwide live in Israel, and another 42% live in the U.S. and Canada."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the Tanakh?", "options": ["A later interpretive text", "The Hebrew Bible, the foundational sacred text of Judaism", "A branch of Judaism", "A Jewish court"], "correct": 1, "explanation": "The Tanakh is the Hebrew Bible, the foundational sacred text of Judaism."},
+        {"q": "Which branch of Judaism holds that Jewish Law is divine, eternal, and unalterable?", "options": ["Reform Judaism", "Orthodox Judaism", "Conservative Judaism only", "None of them"], "correct": 1, "explanation": "Orthodox Judaism maintains that the Torah and Jewish Law are divine in origin and unalterable."},
+        {"q": "How does Reform Judaism generally treat Jewish Law?", "options": ["As strictly binding and unalterable", "As more of a set of guidelines than restrictions", "As entirely irrelevant", "The same as Orthodox Judaism"], "correct": 1, "explanation": "Reform Judaism teaches that Jewish Law is more of a set of guidelines than fixed restrictions."},
+        {"q": "What best describes Jews, according to this chapter?", "options": ["A political party", "An ethnoreligious group", "A single denomination only", "A modern religious movement"], "correct": 1, "explanation": "Jews are described as an ethnoreligious group, including those born Jewish and those who convert."},
+        {"q": "Approximately what percentage of the world's Jewish population lives in Israel?", "options": ["About 10%", "About 42%", "About 75%", "About 90%"], "correct": 1, "explanation": "Approximately 42% of the world's Jewish population resides in Israel, with another 42% in the U.S. and Canada."}
+      ]
+    }
+  },
+  "Christianity": {
+    "guide": {
+      "explanation": "Christianity is a monotheistic, Abrahamic religion centered on the belief that Jesus Christ is the Son of God — fully divine and fully human — whose crucifixion and resurrection offer eternal life to believers. Beginning in 1st-century Judea, Christianity later split into three major branches: the Roman Catholic Church, the Eastern Orthodox Church (following the 1054 CE East-West Schism), and Protestantism (following the 16th-century Reformation led by Martin Luther).",
+      "keyTerms": [
+        {"term": "Jesus Christ", "def": "Believed by Christians to be the Son of God, fully divine and fully human."},
+        {"term": "New Testament", "def": "The portion of the Christian Bible recounting Jesus's life, teachings, death, and resurrection."},
+        {"term": "East-West Schism (1054 CE)", "def": "The split between the Roman Catholic Church and the Eastern Orthodox Church."},
+        {"term": "Protestant Reformation", "def": "The 16th-century movement, led by Martin Luther, that split Protestantism from Catholicism."},
+        {"term": "Resurrection", "def": "The Christian belief that Jesus rose from the dead after his crucifixion."}
+      ],
+      "examples": [
+        "Martin Luther challenged the Roman Catholic Church, teaching that ordinary people should be able to understand scripture directly, sparking the Protestant Reformation.",
+        "The three largest branches of Christianity today are the Roman Catholic Church, the Eastern Orthodox Church, and various Protestant denominations."
+      ],
+      "steps": [
+        "Christianity begins in Judea in the mid-1st century CE, based on the life and teachings of Jesus.",
+        "It spreads throughout the Roman Empire and becomes its official state religion.",
+        "In 1054 CE, the East-West Schism splits the Roman Catholic Church from the Eastern Orthodox Church.",
+        "In the 16th century, the Protestant Reformation, led by Martin Luther, splits Protestantism from Catholicism."
+      ],
+      "remember": [
+        "Christians believe Jesus is the Son of God — fully divine and fully human.",
+        "The three largest branches: Roman Catholic, Eastern Orthodox, and Protestant.",
+        "The East-West Schism (1054 CE) split Catholic and Orthodox Christianity.",
+        "The Protestant Reformation (16th century), led by Martin Luther, split Protestantism from Catholicism."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What do Christians believe about Jesus Christ?", "options": ["He was only human", "He is the Son of God, fully divine and fully human", "He was only divine, not human", "He is one of many prophets equally"], "correct": 1, "explanation": "Christians believe Jesus is the Son of God, both fully divine and fully human."},
+        {"q": "What event in 1054 CE split the Roman Catholic and Eastern Orthodox Churches?", "options": ["The Protestant Reformation", "The East-West Schism", "The Council of Nicaea", "The Crusades"], "correct": 1, "explanation": "The East-West Schism in 1054 CE split the Roman Catholic Church from the Eastern Orthodox Church."},
+        {"q": "Who led the Protestant Reformation?", "options": ["Jesus Christ", "Martin Luther", "Muhammad", "Siddhartha Gautama"], "correct": 1, "explanation": "Martin Luther led the Protestant Reformation, challenging the Roman Catholic Church in the 16th century."},
+        {"q": "What are the three largest branches of Christianity?", "options": ["Buddhism, Hinduism, Islam", "Roman Catholic, Eastern Orthodox, and Protestant", "Sunni, Shia, and Sufi", "Orthodox, Reform, and Conservative"], "correct": 1, "explanation": "The three largest branches of Christianity are the Roman Catholic Church, the Eastern Orthodox Church, and Protestantism."},
+        {"q": "What do Christians believe happened to Jesus after his crucifixion?", "options": ["Nothing further happened", "He was resurrected", "He was reincarnated", "He became a prophet only"], "correct": 1, "explanation": "Christians believe Jesus was resurrected after his crucifixion, offering eternal life to believers."}
+      ]
+    }
+  },
+  "Islam": {
+    "guide": {
+      "explanation": "Islam is a monotheistic, Abrahamic religion centered on submission to Allah (God) and the belief that Muhammad is God's final messenger, with the Qur'an regarded as the verbatim word of God. Practice centers on the Five Pillars of Islam — including the Shahada (testimony of faith), Salat (prayer five times daily), and Zakat (almsgiving) — and the religion is projected to become the world's largest within the coming decades.",
+      "keyTerms": [
+        {"term": "Allah", "def": "The Arabic term for God, used by Muslims and also by Arabic-speaking Christians and Jews."},
+        {"term": "Qur'an", "def": "Islam's holy text, considered by Muslims to be the verbatim word of God."},
+        {"term": "Shahada", "def": "The Islamic testimony of faith: \"I testify there are no deities other than God alone, and Muhammad is the Messenger of God.\""},
+        {"term": "Salat", "def": "The ritual prayer performed five times daily, a core obligation in Islam."},
+        {"term": "Zakat", "def": "Almsgiving — donating a fixed portion (2.5%) of one's income to the poor."},
+        {"term": "Sunni and Shi'a", "def": "The two major denominations of Islam."}
+      ],
+      "examples": [
+        "Reciting the Shahada is required both in daily prayers and for anyone formally converting to Islam.",
+        "Salat prayers are recited in Arabic, five times a day, focusing the worshipper's mind on God."
+      ],
+      "steps": [
+        "Shahada: publicly testifying belief in one God and Muhammad as His messenger.",
+        "Salat: performing ritual prayer five times daily.",
+        "Zakat: giving a fixed portion of income (2.5%) to those in need.",
+        "Sawm and Hajj: fasting during Ramadan, and pilgrimage to Mecca at least once, if able."
+      ],
+      "remember": [
+        "Muslims believe the Qur'an is the verbatim word of God, delivered through the Prophet Muhammad.",
+        "The Shahada is the foundational testimony of faith in Islam.",
+        "Zakat requires giving a fixed 2.5% of income to the poor.",
+        "Sunni and Shi'a are the two major denominations of Islam."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What is the Shahada?", "options": ["A daily prayer", "The testimony of faith recited by Muslims", "A pilgrimage to Mecca", "An almsgiving practice"], "correct": 1, "explanation": "The Shahada is the basic testimony of faith recited by Muslims."},
+        {"q": "What does \"Zakat\" require?", "options": ["Prayer five times daily", "Giving a fixed portion (2.5%) of income to the poor", "A pilgrimage to Mecca", "Fasting during Ramadan"], "correct": 1, "explanation": "Zakat is almsgiving — giving a fixed 2.5% of one's income to those in need."},
+        {"q": "What do Muslims believe about the Qur'an?", "options": ["It is a human-written commentary", "It is the verbatim word of God", "It is one of several equally valid texts", "It was written after Muhammad's death by his followers only"], "correct": 1, "explanation": "Muslims consider the Qur'an to be the verbatim word of God, delivered through Muhammad."},
+        {"q": "What are the two major denominations of Islam?", "options": ["Orthodox and Reform", "Sunni and Shi'a", "Catholic and Protestant", "Mahayana and Theravada"], "correct": 1, "explanation": "Sunni and Shi'a are the two major denominations of Islam."},
+        {"q": "What is \"Salat\"?", "options": ["Almsgiving", "Ritual prayer performed five times daily", "A pilgrimage", "A fasting practice"], "correct": 1, "explanation": "Salat is the ritual prayer performed five times daily, a core obligation in Islam."}
+      ]
+    }
+  },
+  "Modern Times": {
+    "guide": {
+      "explanation": "The Age of Enlightenment (17th-18th centuries) was a cultural movement emphasizing reason and the scientific method over tradition and unquestioned faith, and it shaped how different nations related to religion and government — with France's reaction turning sharply anti-Church, while Germany's remained more moderate and nationalistic. In the modern era, myths and religious narratives that were once transmitted orally are now spread globally through film, television, and other media.",
+      "keyTerms": [
+        {"term": "Age of Enlightenment (Age of Reason)", "def": "A cultural movement in 17th-18th century Europe emphasizing reason over tradition and faith."},
+        {"term": "Scientific method", "def": "A systematic approach to knowledge promoted during the Enlightenment."},
+        {"term": "Demythologization", "def": "The process of reinterpreting or removing mythological elements from religious narratives."},
+        {"term": "Carl Jung", "def": "A psychologist who argued that myths express a culture's goals, fears, ambitions, and dreams."}
+      ],
+      "examples": [
+        "France's government responded to Enlightenment ideas with hostility, imprisoning or exiling thinkers who embraced them.",
+        "Britain, by contrast, largely tolerated Enlightenment thinkers — even knighting Isaac Newton and giving him a government position."
+      ],
+      "steps": [
+        "The movement began in Europe in the 17th-18th centuries, emphasizing reason and challenging tradition.",
+        "It spread to the American colonies, influencing documents used to gain independence from Britain.",
+        "Different nations reacted differently — France with hostility, Germany with moderate acceptance, Britain with general tolerance.",
+        "The movement promoted the scientific method as a new way of understanding the world."
+      ],
+      "remember": [
+        "The Age of Enlightenment emphasized reason and the scientific method over tradition and faith.",
+        "Different countries reacted very differently: France was hostile, Germany moderate, Britain largely tolerant.",
+        "The Enlightenment influenced documents used in the American colonies' fight for independence.",
+        "Carl Jung argued that myths express a culture's collective goals, fears, and dreams — and today, film and media carry that same function."
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {"q": "What did the Age of Enlightenment emphasize?", "options": ["Tradition over reason", "Reason and the scientific method over tradition and faith", "Only religious authority", "Only military power"], "correct": 1, "explanation": "The Age of Enlightenment emphasized reason and the scientific method."},
+        {"q": "How did France's government generally respond to Enlightenment ideas?", "options": ["With full support", "With hostility, imprisoning or exiling thinkers", "With complete indifference", "By adopting them as official policy"], "correct": 1, "explanation": "France's government was hostile to Enlightenment ideas, often imprisoning or exiling those who embraced them."},
+        {"q": "How did Britain generally respond to the Enlightenment, according to this chapter?", "options": ["With violent suppression", "With general tolerance, even honoring figures like Isaac Newton", "By banning all scientific inquiry", "The same way as France"], "correct": 1, "explanation": "Britain largely tolerated Enlightenment thinkers, even knighting Isaac Newton."},
+        {"q": "What did Carl Jung argue about myths?", "options": ["They are meaningless", "They express a culture's goals, fears, ambitions, and dreams", "They only exist in ancient societies", "They have no modern equivalent"], "correct": 1, "explanation": "Carl Jung argued that myths express a culture's collective goals, fears, ambitions, and dreams."},
+        {"q": "According to this chapter, how are myths primarily transmitted in the modern era?", "options": ["Only through oral tradition", "Through film, television, and other media", "They are no longer transmitted", "Only through written scripture"], "correct": 1, "explanation": "In the modern era, myths are primarily transmitted through film, television, and other mass media."}
+      ]
+    }
+  }
+}
