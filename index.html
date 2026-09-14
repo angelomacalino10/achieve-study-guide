@@ -627,6 +627,7 @@ async function logActivity(event_type, course, topic){
     if(!user) return;
     await sb.from('activity_log').insert({
       user_id: user.id,
+      email: user.email || null,
       event_type: event_type,
       course: course || null,
       topic: topic || null
