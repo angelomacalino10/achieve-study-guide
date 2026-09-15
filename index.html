@@ -19,6 +19,23 @@
     --purp-2:#EAE2FF;
     --purp-3:#F6F3FF;
     --white:#FFFFFF;
+    --success-bg:#F3FBE4;
+    --success-border:#639922;
+  }
+  [data-theme="dark"]{
+    --ink:#EDE7FA;
+    --orange:#D94E1F;
+    --purple:#B49CFF;
+    --highlight:#35431C;
+    --peach-1:#362840;
+    --peach-2:#2A2038;
+    --peach-3:#15101F;
+    --purp-1:#7C68B8;
+    --purp-2:#362B54;
+    --purp-3:#241C3A;
+    --white:#221934;
+    --success-bg:#1F3018;
+    --success-border:#8FCB4A;
   }
   *{box-sizing:border-box;}
   body{
@@ -156,6 +173,14 @@
     text-decoration:underline;
   }
   .signout-link:hover{ opacity:0.85; }
+  .theme-toggle-btn{
+    margin-left:auto; margin-right:4px;
+    background:none; border:none; cursor:pointer; padding:5px;
+    color:var(--ink); opacity:0.55; display:inline-flex; align-items:center;
+    border-radius:6px;
+  }
+  .theme-toggle-btn:hover{ opacity:1; background:var(--purp-3); }
+  .theme-toggle-btn svg{ width:18px; height:18px; }
   .btn{
     font-family:'Inter',sans-serif;
     font-weight:600;
@@ -405,10 +430,10 @@
   }
   .quiz-option:hover{ border-color:var(--purple); }
   .quiz-option.picked{ border-color:var(--purple); background:var(--purp-3); }
-  .quiz-option.correct{ border-color:#639922; background:var(--highlight); }
+  .quiz-option.correct{ border-color:var(--success-border); background:var(--highlight); }
   .quiz-option.incorrect{ border-color:var(--orange); background:var(--peach-2); }
   .quiz-feedback{ font-size:13.5px; line-height:1.6; padding:14px 16px; border-radius:10px; background:var(--peach-3); margin:14px 0 20px; }
-  .quiz-feedback.ok{ background:#F3FBE4; }
+  .quiz-feedback.ok{ background:var(--success-bg); }
   .score-big{ font-family:'Bitter',serif; font-weight:600; font-size:40px; margin:6px 0 4px; }
   .actions-row{ display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
   footer.note{ font-size:11.5px; color:var(--ink); opacity:0.4; margin-top:40px; line-height:1.6; }
@@ -416,7 +441,7 @@
   /* ---- Full guide side panel ---- */
   .doc-toggle{
     position:fixed; top:18px; left:18px; z-index:41;
-    background:var(--ink); color:#fff; border:none; border-radius:20px;
+    background:#2D1559; color:#fff; border:none; border-radius:20px;
     padding:10px 18px; font-family:'Inter',sans-serif; font-size:13px;
     font-weight:600; cursor:pointer; box-shadow:0 4px 14px rgba(45,21,89,0.25);
     display:inline-flex; align-items:center; gap:7px;
@@ -424,7 +449,7 @@
   .doc-toggle svg{ width:20px; height:20px; flex-shrink:0; }
   .grades-toggle{
     position:fixed; top:18px; right:18px; z-index:41;
-    background:var(--ink); color:#fff; border:none; border-radius:20px;
+    background:#2D1559; color:#fff; border:none; border-radius:20px;
     padding:10px 18px; font-family:'Inter',sans-serif; font-size:13px;
     font-weight:600; cursor:pointer; box-shadow:0 4px 14px rgba(45,21,89,0.25);
     display:inline-flex; align-items:center; gap:7px;
@@ -457,6 +482,10 @@
     padding:12px 0; border-bottom:1px solid var(--purp-2); font-size:13.5px; }
   .rank-row:last-child{ border-bottom:none; }
   .rank-count{ font-weight:600; color:var(--purple); font-size:13px; white-space:nowrap; }
+  .grades-stats{ display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin-bottom:22px; }
+  .grades-stat{ background:var(--purp-3); border-radius:10px; padding:14px 10px; text-align:center; }
+  .grades-stat .num{ font-family:'Bitter',serif; font-weight:700; font-size:22px; color:var(--ink); line-height:1.1; }
+  .grades-stat .label{ font-size:11px; color:var(--ink); opacity:0.6; margin-top:4px; line-height:1.3; }
   .doc-panel-head{ padding:20px 20px 14px; border-bottom:1px solid var(--purp-2); flex-shrink:0; }
   .doc-panel-head-inner{ max-width:760px; margin:0 auto; }
   .doc-panel-head-row{ display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
@@ -467,6 +496,13 @@
 </style>
 </head>
 <body>
+<script>
+  // Applied immediately, before the rest of the page renders, so returning
+  // visitors don't see a flash of the wrong theme.
+  if(localStorage.getItem('theme') === 'dark'){
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+</script>
 
 <div class="auth-gate" id="auth-gate">
   <div class="auth-title">
@@ -475,8 +511,8 @@
     <div class="line2">Study Guide</div>
   </div>
   <div class="auth-box">
-    <h1 class="headline" style="margin-top:0;">Sign in to Achieve</h1>
-    <p class="sub">Use the email and password your instructor gave you.</p>
+    <h1 class="headline" style="margin-top:0;">Sign in to Access</h1>
+    <p class="sub">Use the email and password that our Customer Support team gave you.</p>
     <label class="field-label" for="login-email">Email</label>
     <input type="email" id="login-email" autocomplete="username">
     <label class="field-label" for="login-password">Password</label>
@@ -492,7 +528,7 @@
 </button>
 <button class="grades-toggle" id="my-grades-btn">
   <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="10" cy="10" r="7.5"/><path d="M6.8 10.3l2 2 4.4-5"/></svg>
-  My Grades
+  Study Progress
 </button>
 <div class="doc-backdrop" id="doc-backdrop"></div>
 <aside class="doc-panel" id="doc-panel">
@@ -513,13 +549,14 @@
   <div class="doc-panel-head">
     <div class="doc-panel-head-inner">
       <div class="doc-panel-head-row">
-        <h2>My Grades</h2>
+        <h2>Study Progress</h2>
         <button class="doc-close" id="grades-close-btn">&times;</button>
       </div>
-      <p class="card-sub" style="margin:0;font-size:13px;color:var(--ink);opacity:0.65;">Every quiz you've taken, with the grade you received.</p>
+      <p class="card-sub" style="margin:0;font-size:13px;color:var(--ink);opacity:0.65;">What you've studied, and every grade you've received.</p>
     </div>
   </div>
   <div style="padding:18px 20px 30px;overflow-y:auto;flex:1;">
+    <div id="grades-summary"></div>
     <div id="grades-list"><p class="empty-note">Loading…</p></div>
   </div>
 </aside>
@@ -530,6 +567,9 @@
     <img src="data:image/png;base64,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" alt="Achieve">
     <span class="word">Achieve Test Prep</span>
     <span class="tag">Study Guide</span>
+    <button class="theme-toggle-btn" id="theme-toggle-btn" title="Dark Mode">
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M16.5 12.5A7 7 0 0 1 7.5 3.5a7 7 0 1 0 9 9Z"/></svg>
+    </button>
     <button class="signout-link" id="signout-btn">Sign out</button>
   </header>
 
@@ -644,7 +684,18 @@ async function loadCurrentUserAccess(){
     const { data: userData } = await sb.auth.getUser();
     const user = userData && userData.user;
     if(!user){ currentUserRole = null; currentUserAssignedCourses = []; return; }
-    const { data: profile } = await sb.from('profiles').select('role, assigned_courses').eq('id', user.id).single();
+    const { data: profile } = await sb.from('profiles').select('role, assigned_courses, hidden').eq('id', user.id).single();
+    // Catches an already-signed-in session for someone who's since been
+    // hidden — not just new sign-in attempts, which the ban already blocks.
+    if(profile && profile.hidden){
+      await sb.auth.signOut();
+      currentUserRole = null; currentUserAssignedCourses = [];
+      showAuthGate();
+      const errEl = document.getElementById('login-error');
+      errEl.textContent = 'Please contact our Customer Support team for assistance with your account.';
+      errEl.style.display = 'block';
+      return;
+    }
     currentUserRole = profile ? profile.role : null;
     currentUserAssignedCourses = (profile && profile.assigned_courses) || [];
   }catch(e){
@@ -702,7 +753,10 @@ document.getElementById('login-btn').addEventListener('click', async ()=>{
   const { error } = await sb.auth.signInWithPassword({ email, password });
   loginBtn.disabled = false; loginBtn.textContent = 'Sign in';
   if(error){
-    errEl.textContent = 'Incorrect email or password.';
+    const isBanned = error.code === 'user_banned' || /banned/i.test(error.message || '');
+    errEl.textContent = isBanned
+      ? 'Please contact our Customer Support team for assistance with your account.'
+      : 'Incorrect email or password.';
     errEl.style.display = 'block';
     return;
   }
@@ -718,6 +772,17 @@ document.getElementById('signout-btn').addEventListener('click', async ()=>{
   await logActivity('logout');
   await sb.auth.signOut();
   showAuthGate();
+});
+
+document.getElementById('theme-toggle-btn').addEventListener('click', ()=>{
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  if(isDark){
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
 });
 
 // On page load, pick up an existing session if there is one (so people
@@ -858,7 +923,7 @@ function renderCourseGrid(){
   courseGrid.innerHTML = '';
   const courses = getAccessibleCourses();
   if(courses.length === 0){
-    courseGrid.innerHTML = `<p class="empty-note" style="padding:8px 0;">No course has been assigned to your account yet — contact your instructor.</p>`;
+    courseGrid.innerHTML = `<p class="empty-note" style="padding:8px 0;">No course has been assigned to your account yet — contact our Customer Support team.</p>`;
     return;
   }
   courses.forEach(course=>{
@@ -1235,7 +1300,7 @@ document.getElementById('doc-close-btn').addEventListener('click', closeDocPanel
 docBackdrop.addEventListener('click', ()=>{ closeDocPanel(); closeGradesPanel(); });
 docCourseSelect.addEventListener('change', ()=> loadDocFor(docCourseSelect.value));
 
-// ================= My Grades side panel =================
+// ================= Study Progress side panel =================
 const gradesPanel = document.getElementById('grades-panel');
 
 function openGradesPanel(){
@@ -1252,7 +1317,9 @@ function closeGradesPanel(){
 }
 
 async function loadMyGrades(){
+  const summaryEl = document.getElementById('grades-summary');
   const el = document.getElementById('grades-list');
+  summaryEl.innerHTML = '';
   el.innerHTML = '<p class="empty-note">Loading…</p>';
   try{
     const { data: userData } = await sb.auth.getUser();
@@ -1262,14 +1329,38 @@ async function loadMyGrades(){
       .from('activity_log')
       .select('*')
       .eq('user_id', user.id)
-      .eq('event_type', 'quiz_result')
+      .in('event_type', ['view_topic', 'quiz_result'])
       .order('created_at', { ascending: false });
     if(error) throw error;
-    if(!data || data.length === 0){
+
+    const quizRows = (data || []).filter(r => r.event_type === 'quiz_result');
+    const topicsStudied = new Set(
+      (data || [])
+        .filter(r => r.event_type === 'view_topic' && r.course && r.topic)
+        .map(r => `${r.course}|||${r.topic}`)
+    );
+
+    let avgPct = 0;
+    if(quizRows.length){
+      const totalPct = quizRows.reduce((sum, r)=>{
+        const total = r.score_total || 0;
+        const correct = r.score_correct || 0;
+        return sum + (total ? correct/total : 0);
+      }, 0);
+      avgPct = Math.round((totalPct / quizRows.length) * 100);
+    }
+
+    summaryEl.innerHTML = `<div class="grades-stats">
+      <div class="grades-stat"><div class="num">${topicsStudied.size}</div><div class="label">Total Topics Studied</div></div>
+      <div class="grades-stat"><div class="num">${quizRows.length}</div><div class="label">Total Quizzes Completed</div></div>
+      <div class="grades-stat"><div class="num">${quizRows.length ? avgPct + '%' : '—'}</div><div class="label">Average Score on Quiz</div></div>
+    </div>`;
+
+    if(quizRows.length === 0){
       el.innerHTML = '<p class="empty-note">No quizzes taken yet — your grades will show up here once you do.</p>';
       return;
     }
-    el.innerHTML = data.map(r=>{
+    el.innerHTML = quizRows.map(r=>{
       const total = r.score_total || 0;
       const correct = r.score_correct || 0;
       const pct = total ? Math.round((correct/total)*100) : 0;

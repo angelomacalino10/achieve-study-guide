@@ -12,6 +12,17 @@
     --orange:#FF4500; --purple:#9F7DFF; --ink:#2D1559; --highlight:#DDFF7D;
     --peach-1:#FFE3D9; --peach-2:#FFEFE9; --peach-3:#FFF5F2;
     --purp-1:#DDD1FF; --purp-2:#EAE2FF; --purp-3:#F6F3FF; --white:#FFFFFF;
+    --pill-login-bg:#E1F5EE; --pill-login-text:#085041;
+    --pill-quiz-bg:#FFE9CC; --pill-quiz-text:#8A4B00;
+    --success-text:#0F6E56;
+  }
+  [data-theme="dark"]{
+    --orange:#D94E1F; --purple:#B49CFF; --ink:#EDE7FA; --highlight:#35431C;
+    --peach-1:#362840; --peach-2:#2A2038; --peach-3:#15101F;
+    --purp-1:#7C68B8; --purp-2:#362B54; --purp-3:#241C3A; --white:#221934;
+    --pill-login-bg:#14332B; --pill-login-text:#6FE3B8;
+    --pill-quiz-bg:#3D2A0A; --pill-quiz-text:#FFC069;
+    --success-text:#6FE3B8;
   }
   *{ box-sizing:border-box; }
   body{
@@ -37,6 +48,13 @@
   .btn:hover{ opacity:0.92; }
   .error-text{ font-size:12.5px; color:var(--orange); margin:-8px 0 14px; display:none; }
   .dash-header{ display:flex; align-items:center; justify-content:space-between; margin-bottom:28px; }
+  .theme-toggle-btn{
+    background:none; border:none; cursor:pointer; padding:5px;
+    color:var(--ink); opacity:0.55; display:inline-flex; align-items:center;
+    border-radius:6px;
+  }
+  .theme-toggle-btn:hover{ opacity:1; background:var(--purp-3); }
+  .theme-toggle-btn svg{ width:18px; height:18px; }
   .dash-header img{ width:30px; height:auto; vertical-align:-8px; margin-right:8px; }
   .dash-header .title{ font-family:'Bitter',serif; font-weight:700; font-size:19px; }
   .dash-header .sub{ font-family:'Inter',sans-serif; font-size:12.5px; color:var(--ink); opacity:0.55; font-weight:400; margin:2px 0 0; }
@@ -59,10 +77,18 @@
   td{ padding:9px 10px 9px 0; border-bottom:1px solid var(--purp-3); vertical-align:top; }
   tr:last-child td{ border-bottom:none; }
   .pill{ display:inline-block; font-size:11px; font-weight:600; padding:3px 9px; border-radius:20px; }
-  .pill.login{ background:#E1F5EE; color:#085041; }
+  .pill.login{ background:var(--pill-login-bg); color:var(--pill-login-text); }
   .pill.logout{ background:var(--purp-3); color:var(--ink); opacity:0.75; }
   .pill.view_topic{ background:var(--peach-1); color:var(--ink); }
-  .pill.quiz_result{ background:#FFE9CC; color:#8A4B00; }
+  .pill.quiz_result{ background:var(--pill-quiz-bg); color:var(--pill-quiz-text); }
+  .icon-btn{
+    display:inline-flex; align-items:center; justify-content:center;
+    width:28px; height:28px; border-radius:6px; border:none; background:none;
+    color:var(--ink); opacity:0.5; cursor:pointer; padding:0;
+  }
+  .icon-btn:hover{ opacity:1; background:var(--purp-3); }
+  .icon-btn svg{ width:16px; height:16px; }
+  .action-cell{ display:flex; align-items:center; gap:4px; }
   .empty-note{ font-size:13px; color:var(--ink); opacity:0.55; padding:8px 0; }
   .loading-note{ font-size:13.5px; color:var(--ink); opacity:0.6; padding:24px 0; text-align:center; }
   .dash-grid{ display:grid; grid-template-columns:380px 1fr; gap:22px; align-items:start; }
@@ -75,15 +101,21 @@
 </style>
 </head>
 <body>
+<script>
+  if(localStorage.getItem('theme') === 'dark'){
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+</script>
 
 <div class="auth-gate" id="auth-gate">
   <div class="auth-title">
+    <img src="data:image/png;base64,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" alt="">
     <div class="line1">Achieve Test Prep</div>
     <div class="line2">Activity Dashboard</div>
   </div>
   <div class="auth-box">
-    <h1 class="headline">Owner sign in</h1>
-    <p class="sub">This page is only visible to Achieve staff accounts.</p>
+    <h1 class="headline">Sign in</h1>
+    <p class="sub">This page is only accessible for Admin Accounts.</p>
     <label for="login-email">Email</label>
     <input type="email" id="login-email" autocomplete="username">
     <label for="login-password">Password</label>
@@ -99,7 +131,12 @@
       <span class="title">Activity dashboard</span>
       <p class="sub">Who's using the study guide, and what they're studying.</p>
     </div>
-    <button class="signout-link" id="signout-btn">Sign out</button>
+    <div style="display:flex;align-items:center;gap:4px;">
+      <button class="theme-toggle-btn" id="theme-toggle-btn" title="Dark Mode">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M16.5 12.5A7 7 0 0 1 7.5 3.5a7 7 0 1 0 9 9Z"/></svg>
+      </button>
+      <button class="signout-link" id="signout-btn">Sign out</button>
+    </div>
   </div>
 
   <div class="dash-grid">
@@ -118,14 +155,21 @@
         </select>
         <p class="card-sub" style="margin-top:-6px;">For Viewers, you'll pick which courses they can access afterward, in the Users list below.</p>
         <div class="error-text" id="create-error"></div>
-        <div class="error-text" id="create-success" style="color:#0F6E56;"></div>
+        <div class="error-text" id="create-success" style="color:var(--success-text);"></div>
         <button class="btn" id="create-account-btn" style="width:auto;padding:11px 22px;">Create account</button>
       </div>
 
       <div class="card">
         <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="6.5" cy="6.5" r="2.8"/><circle cx="14" cy="7.5" r="2.4"/><path d="M1.5 17c0-3 2.3-5 5-5s5 2 5 3.3"/><path d="M10.8 15.2c.3-2 2-3.4 4-3.4 2.1 0 3.7 1.6 3.7 3.9"/></svg>Users</h2>
-        <p class="card-sub">Angelo and Maryke are Admins and can see this dashboard. Everyone else is a Viewer.</p>
+        <p class="card-sub">Admins can see this dashboard. Everyone else is a Viewer.</p>
+        <input type="text" id="team-search" placeholder="Search by email…" style="margin-bottom:14px;">
         <div id="team-body"><div class="loading-note">Loading…</div></div>
+      </div>
+
+      <div class="card">
+        <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 4h9l3 3v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z"/><path d="M7 9h6M7 12h6M7 15h3"/></svg>Admin actions</h2>
+        <p class="card-sub">Who hid, unhid, deleted, or reassigned an account, and when.</p>
+        <div id="audit-log-body"><div class="loading-note">Loading…</div></div>
       </div>
     </div>
 
@@ -155,6 +199,7 @@ function showDashboard(){
   document.getElementById('dashboard').style.display = 'block';
   loadActivity();
   loadTeam();
+  loadAuditLog();
 }
 function showAuthGate(){
   document.getElementById('auth-gate').style.display = 'flex';
@@ -209,6 +254,23 @@ document.getElementById('login-password').addEventListener('keydown', (e)=>{
 document.getElementById('signout-btn').addEventListener('click', async ()=>{
   await sb.auth.signOut();
   showAuthGate();
+});
+
+document.getElementById('theme-toggle-btn').addEventListener('click', ()=>{
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  if(isDark){
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
+});
+
+document.getElementById('team-search').addEventListener('input', (e)=>{
+  const term = e.target.value.trim().toLowerCase();
+  const filtered = term ? allProfilesData.filter(p => (p.email || '').toLowerCase().includes(term)) : allProfilesData;
+  renderTeamList(filtered);
 });
 
 document.getElementById('create-account-btn').addEventListener('click', async ()=>{
@@ -271,6 +333,62 @@ function renderPaged(items, toRowHtml, containerSelector, label){
   return { rowsHtml, btnHtml };
 }
 
+const EYE_ICON = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M1.5 10S4.5 4 10 4s8.5 6 8.5 6-3 6-8.5 6S1.5 10 1.5 10Z"/><circle cx="10" cy="10" r="2.3"/></svg>`;
+const TRASH_ICON = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 6h12M8 6V4.5A1 1 0 0 1 9 3.5h2a1 1 0 0 1 1 1V6M6 6l.6 10a1.2 1.2 0 0 0 1.2 1.1h4.4a1.2 1.2 0 0 0 1.2-1.1L14 6"/></svg>`;
+function iconBtn(action, id, label){
+  const icon = action === 'delete' ? TRASH_ICON : EYE_ICON;
+  return `<button class="icon-btn manage-user-btn" data-action="${action}" data-id="${id}" title="${label}">${icon}</button>`;
+}
+
+async function callManageUser(action, userId, extra){
+  const { data: sessionData } = await sb.auth.getSession();
+  const token = sessionData && sessionData.session && sessionData.session.access_token;
+  const resp = await fetch('/api/manage-user', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', 'authorization': `Bearer ${token}` },
+    body: JSON.stringify({ action, userId, ...(extra || {}) })
+  });
+  const payload = await resp.json();
+  if(!resp.ok){ alert(payload.error || 'Something went wrong.'); return false; }
+  return true;
+}
+
+let allProfilesData = [];
+
+async function loadAuditLog(){
+  const el = document.getElementById('audit-log-body');
+  const AUDIT_CAP = 100;
+  const { data, error } = await sb
+    .from('admin_audit_log')
+    .select('*')
+    .order('created_at', { ascending: false })
+    .limit(AUDIT_CAP);
+
+  if(error){
+    el.innerHTML = `<p class="empty-note">Couldn't load the admin actions log.</p>`;
+    return;
+  }
+  if(!data || data.length === 0){
+    el.innerHTML = `<p class="empty-note">No admin actions recorded yet.</p>`;
+    return;
+  }
+
+  const actionLabel = { hide: 'Hide', unhide: 'Unhide', delete: 'Delete', role_change: 'Role change', course_change: 'Course access' };
+  const auditRow = r => `
+      <tr>
+        <td>${r.actor_email}</td>
+        <td>${actionLabel[r.action] || r.action}</td>
+        <td>${r.target_email}</td>
+        <td style="font-size:12px;opacity:0.75;">${r.details || ''}</td>
+        <td>${timeAgo(r.created_at)}</td>
+      </tr>`;
+  const { rowsHtml, btnHtml } = renderPaged(data, auditRow, '#audit-log-table', 'actions');
+  el.innerHTML = `<table id="audit-log-table">
+    <tr><th>Admin</th><th>Action</th><th>Account</th><th>Details</th><th>When</th></tr>
+    ${rowsHtml}
+  </table>${btnHtml}`;
+}
+
 async function loadTeam(){
   const el = document.getElementById('team-body');
   const { data, error } = await sb
@@ -282,18 +400,33 @@ async function loadTeam(){
     el.innerHTML = `<p class="empty-note">Couldn't load the team list.</p>`;
     return;
   }
+  allProfilesData = data || [];
+  renderTeamList(allProfilesData);
+}
+
+function renderTeamList(data){
+  const el = document.getElementById('team-body');
+  const searchTerm = (document.getElementById('team-search').value || '').trim();
   if(!data || data.length === 0){
-    el.innerHTML = `<p class="empty-note">No accounts yet.</p>`;
+    el.innerHTML = searchTerm
+      ? `<p class="empty-note">No accounts match "${searchTerm}".</p>`
+      : `<p class="empty-note">No accounts yet.</p>`;
     return;
   }
 
   const toAdminRow = p => `
       <tr>
         <td>${p.email}</td>
-        <td><button class="role-toggle-btn" data-id="${p.id}" data-role="${p.role}"
-              style="background:none;border:none;cursor:pointer;font-size:12.5px;color:var(--purple);text-decoration:underline;font-family:'Inter',sans-serif;">
-          Make Viewer
-        </button></td>
+        <td>
+          <div class="action-cell">
+            <button class="role-toggle-btn" data-id="${p.id}" data-role="${p.role}"
+                  style="background:none;border:none;cursor:pointer;font-size:12.5px;color:var(--purple);text-decoration:underline;font-family:'Inter',sans-serif;">
+              Make Viewer
+            </button>
+            ${iconBtn('hide', p.id, 'Hide')}
+            ${iconBtn('delete', p.id, 'Delete')}
+          </div>
+        </td>
       </tr>`;
 
   const toViewerRow = p => {
@@ -311,18 +444,38 @@ async function loadTeam(){
             <button class="save-courses-btn" data-id="${p.id}" style="background:var(--purple);color:#fff;border:none;border-radius:6px;padding:6px 14px;font-size:12px;cursor:pointer;font-family:'Inter',sans-serif;">Save</button>
           </details>
         </td>
-        <td><button class="role-toggle-btn" data-id="${p.id}" data-role="${p.role}"
-              style="background:none;border:none;cursor:pointer;font-size:12.5px;color:var(--purple);text-decoration:underline;font-family:'Inter',sans-serif;">
-          Make Admin
-        </button></td>
+        <td>
+          <div class="action-cell">
+            <button class="role-toggle-btn" data-id="${p.id}" data-role="${p.role}"
+                  style="background:none;border:none;cursor:pointer;font-size:12.5px;color:var(--purple);text-decoration:underline;font-family:'Inter',sans-serif;">
+              Make Admin
+            </button>
+            ${iconBtn('hide', p.id, 'Hide')}
+            ${iconBtn('delete', p.id, 'Delete')}
+          </div>
+        </td>
       </tr>`;
   };
+
+  const toHiddenRow = p => `
+      <tr>
+        <td>${p.email}</td>
+        <td style="text-transform:capitalize;">${p.role}</td>
+        <td>
+          <div class="action-cell">
+            ${iconBtn('unhide', p.id, 'Unhide')}
+            ${iconBtn('delete', p.id, 'Delete')}
+          </div>
+        </td>
+      </tr>`;
 
   const groupLabel = (title, count) =>
     `<p style="font-size:12px;font-weight:600;color:var(--ink);opacity:0.6;margin:0 0 8px;text-transform:uppercase;letter-spacing:0.04em;">${title} (${count})</p>`;
 
-  const admins = data.filter(p => p.role === 'admin');
-  const viewers = data.filter(p => p.role === 'viewer');
+  const visible = data.filter(p => !p.hidden);
+  const hiddenAccounts = data.filter(p => p.hidden);
+  const admins = visible.filter(p => p.role === 'admin');
+  const viewers = visible.filter(p => p.role === 'viewer');
 
   let html = groupLabel('Admins', admins.length);
   if(admins.length === 0){
@@ -341,6 +494,13 @@ async function loadTeam(){
     html += `<table id="viewers-list"><tr><th>Email</th><th>Course access</th><th></th></tr>${rowsHtml}</table>${btnHtml}`;
   }
 
+  if(hiddenAccounts.length > 0){
+    html += `<div style="height:22px;"></div>`;
+    html += groupLabel('Hidden', hiddenAccounts.length);
+    const { rowsHtml, btnHtml } = renderPaged(hiddenAccounts, toHiddenRow, '#hidden-list', 'hidden accounts');
+    html += `<table id="hidden-list"><tr><th>Email</th><th>Role</th><th></th></tr>${rowsHtml}</table>${btnHtml}`;
+  }
+
   el.innerHTML = html;
 
   el.querySelectorAll('.save-courses-btn').forEach(btn => {
@@ -349,9 +509,9 @@ async function loadTeam(){
       const details = btn.closest('.course-manager');
       const checked = Array.from(details.querySelectorAll('input[type=checkbox]:checked')).map(cb => cb.value);
       btn.disabled = true; btn.textContent = 'Saving…';
-      const { error } = await sb.from('profiles').update({ assigned_courses: checked }).eq('id', id);
-      if(error){ alert('Could not update course access — you may not have permission.'); }
-      loadTeam();
+      const success = await callManageUser('set_courses', id, { courses: checked });
+      if(success) loadTeam();
+      else { btn.disabled = false; btn.textContent = 'Save'; }
     });
   });
 
@@ -360,9 +520,24 @@ async function loadTeam(){
       const id = btn.dataset.id;
       const newRole = btn.dataset.role === 'admin' ? 'viewer' : 'admin';
       btn.disabled = true;
-      const { error } = await sb.from('profiles').update({ role: newRole }).eq('id', id);
-      if(error){ alert('Could not update role — you may not have permission.'); }
-      loadTeam();
+      const success = await callManageUser('set_role', id, { newRole });
+      if(success) loadTeam();
+      else btn.disabled = false;
+    });
+  });
+
+  el.querySelectorAll('.manage-user-btn').forEach(btn => {
+    btn.addEventListener('click', async ()=>{
+      const action = btn.dataset.action;
+      const id = btn.dataset.id;
+      if(action === 'delete'){
+        const ok = confirm('This permanently deletes this account and all of its quiz/activity history. This can\'t be undone. Continue?');
+        if(!ok) return;
+      }
+      btn.disabled = true;
+      const success = await callManageUser(action, id);
+      if(success) loadTeam();
+      else btn.disabled = false;
     });
   });
 }
