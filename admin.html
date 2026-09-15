@@ -73,6 +73,15 @@
   .card h2{ font-family:'Bitter',serif; font-size:16px; font-weight:600; margin:0 0 4px;
     display:flex; align-items:center; gap:8px; }
   .card h2 svg{ width:19px; height:19px; flex-shrink:0; color:var(--purple); }
+  .card-head-row{ display:flex; justify-content:space-between; align-items:flex-start; gap:10px; }
+  .export-csv-btn{
+    display:flex; align-items:center; gap:5px; flex-shrink:0;
+    background:var(--purp-3); border:1.5px solid var(--purp-1); border-radius:8px;
+    padding:6px 10px; font-size:11.5px; font-weight:600; color:var(--ink);
+    font-family:'Inter',sans-serif; cursor:pointer; white-space:nowrap;
+  }
+  .export-csv-btn:hover{ background:var(--purp-2); }
+  .export-csv-btn svg{ width:13px; height:13px; flex-shrink:0; }
   .card .card-sub{ font-size:12.5px; color:var(--ink); opacity:0.55; margin:0 0 16px; }
   .rank-row{ display:flex; align-items:center; gap:12px; padding:9px 0; border-bottom:1px solid var(--purp-3); font-size:13.5px; }
   .rank-row:last-child{ border-bottom:none; }
@@ -182,14 +191,20 @@
       </div>
 
       <div class="card">
-        <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="6.5" cy="6.5" r="2.8"/><circle cx="14" cy="7.5" r="2.4"/><path d="M1.5 17c0-3 2.3-5 5-5s5 2 5 3.3"/><path d="M10.8 15.2c.3-2 2-3.4 4-3.4 2.1 0 3.7 1.6 3.7 3.9"/></svg>Users</h2>
+        <div class="card-head-row">
+          <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="6.5" cy="6.5" r="2.8"/><circle cx="14" cy="7.5" r="2.4"/><path d="M1.5 17c0-3 2.3-5 5-5s5 2 5 3.3"/><path d="M10.8 15.2c.3-2 2-3.4 4-3.4 2.1 0 3.7 1.6 3.7 3.9"/></svg>Users</h2>
+          <button class="export-csv-btn" data-section="users" title="Export CSV"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3v9m0 0-3-3m3 3 3-3"/><path d="M3 14v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2"/></svg>Export CSV</button>
+        </div>
         <p class="card-sub">Admins can see this dashboard. Everyone else is a Viewer.</p>
         <input type="text" id="team-search" placeholder="Search by name or email…" style="margin-bottom:14px;">
         <div id="team-body"><div class="loading-note">Loading…</div></div>
       </div>
 
       <div class="card">
-        <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 4h9l3 3v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z"/><path d="M7 9h6M7 12h6M7 15h3"/></svg>Admin actions</h2>
+        <div class="card-head-row">
+          <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 4h9l3 3v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z"/><path d="M7 9h6M7 12h6M7 15h3"/></svg>Admin actions</h2>
+          <button class="export-csv-btn" data-section="auditLog" title="Export CSV"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3v9m0 0-3-3m3 3 3-3"/><path d="M3 14v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2"/></svg>Export CSV</button>
+        </div>
         <p class="card-sub">Who hid, unhid, deleted, or reassigned an account, and when.</p>
         <div id="audit-log-body"><div class="loading-note">Loading…</div></div>
       </div>
@@ -360,6 +375,36 @@ document.getElementById('create-account-btn').addEventListener('click', async ()
 
 // Renders up to 10 rows normally; anything past that gets a "row-extra"
 // class (hidden by CSS) plus a "View all" button that reveals the rest.
+let exportData = {};
+
+function csvEscape(val){
+  const s = (val === null || val === undefined) ? '' : String(val);
+  if(/[",\n]/.test(s)) return '"' + s.replace(/"/g, '""') + '"';
+  return s;
+}
+function downloadCSV(filename, headers, rows){
+  const lines = [headers.map(csvEscape).join(',')];
+  rows.forEach(row => lines.push(row.map(csvEscape).join(',')));
+  const csv = lines.join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+const EXPORT_ICON = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3v9m0 0-3-3m3 3 3-3"/><path d="M3 14v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2"/></svg>`;
+function exportBtn(section){
+  return `<button class="export-csv-btn" data-section="${section}" title="Export CSV">${EXPORT_ICON}Export CSV</button>`;
+}
+document.addEventListener('click', (e)=>{
+  const btn = e.target.closest('.export-csv-btn');
+  if(!btn) return;
+  const entry = exportData[btn.dataset.section];
+  if(!entry) return;
+  downloadCSV(entry.filename, entry.headers, entry.rows);
+});
+
 function renderPaged(items, toRowHtml, containerSelector, label, limit){
   const LIMIT = limit || 10;
   const rowsHtml = items.map((item, i) => {
@@ -368,7 +413,13 @@ function renderPaged(items, toRowHtml, containerSelector, label, limit){
     return html.replace(/^<tr/, '<tr class="row-extra"').replace(/^<div class="rank-row"/, '<div class="rank-row row-extra"');
   }).join('');
   const btnHtml = items.length > LIMIT
-    ? `<button class="view-all-btn" onclick="document.querySelectorAll('${containerSelector} .row-extra').forEach(el=>el.style.display=(el.tagName==='TR'?'table-row':'flex'));this.style.display='none';">View all ${items.length} ${label}</button>`
+    ? `<button class="view-all-btn" data-container="${containerSelector}" data-total="${items.length}" data-label="${label}" data-expanded="false" onclick="
+        const b=this;
+        const exp=b.dataset.expanded==='true';
+        document.querySelectorAll(b.dataset.container+' .row-extra').forEach(function(el){ el.style.display = exp ? 'none' : (el.tagName==='TR'?'table-row':'flex'); });
+        b.dataset.expanded = exp ? 'false' : 'true';
+        b.textContent = exp ? ('View all ' + b.dataset.total + ' ' + b.dataset.label) : 'Show fewer';
+      ">View all ${items.length} ${label}</button>`
     : '';
   return { rowsHtml, btnHtml };
 }
@@ -414,7 +465,7 @@ async function loadAuditLog(){
     return;
   }
 
-  const actionLabel = { hide: 'Hide', unhide: 'Unhide', delete: 'Delete', role_change: 'Role change', course_change: 'Course access' };
+  const actionLabel = { hide: 'Hide', unhide: 'Unhide', delete: 'Delete', role_change: 'Role change', course_change: 'Course access', profile_edit: 'Profile edit' };
   const auditRow = r => `
       <tr>
         <td>${r.actor_email}</td>
@@ -423,6 +474,11 @@ async function loadAuditLog(){
         <td style="font-size:12px;opacity:0.75;">${r.details || ''}</td>
         <td>${timeAgo(r.created_at)}</td>
       </tr>`;
+  exportData.auditLog = {
+    filename: 'admin-actions.csv',
+    headers: ['Admin', 'Action', 'Account', 'Details', 'When'],
+    rows: data.map(r => [r.actor_email, actionLabel[r.action] || r.action, r.target_email, r.details || '', new Date(r.created_at).toLocaleString()])
+  };
   const { rowsHtml, btnHtml } = renderPaged(data, auditRow, '#audit-log-table', 'actions');
   el.innerHTML = `<table id="audit-log-table">
     <tr><th>Admin</th><th>Action</th><th>Account</th><th>Details</th><th>When</th></tr>
@@ -442,6 +498,11 @@ async function loadTeam(){
     return;
   }
   allProfilesData = data || [];
+  exportData.users = {
+    filename: 'users.csv',
+    headers: ['Email', 'First Name', 'Last Name', 'Role', 'Hidden', 'Course Access'],
+    rows: allProfilesData.map(p => [p.email, p.first_name || '', p.last_name || '', p.role, p.hidden ? 'Yes' : 'No', (p.assigned_courses || []).join('; ')])
+  };
   renderTeamList(allProfilesData);
 }
 
@@ -563,9 +624,11 @@ function renderTeamList(data){
     html += `<table id="viewers-list"><tr><th>Email</th><th>Course access</th><th></th></tr>${rowsHtml}</table>${btnHtml}`;
   }
 
-  if(hiddenAccounts.length > 0){
-    html += `<div style="height:22px;"></div>`;
-    html += groupLabel('Hidden', hiddenAccounts.length);
+  html += `<div style="height:22px;"></div>`;
+  html += groupLabel('Hidden', hiddenAccounts.length);
+  if(hiddenAccounts.length === 0){
+    html += `<p class="empty-note">No hidden accounts.</p>`;
+  } else {
     const { rowsHtml, btnHtml } = renderPaged(hiddenAccounts, toHiddenRow, '#hidden-list', 'hidden accounts');
     html += `<table id="hidden-list"><tr><th>Email</th><th>Role</th><th></th></tr>${rowsHtml}</table>${btnHtml}`;
   }
@@ -721,19 +784,45 @@ async function loadActivity(){
   const coursesPaged = rankListHtml(topCourses, '#courses-rank', 'courses', 'No study guides opened yet.');
   const topicsPaged = rankListHtml(topTopics, '#topics-rank', 'topics', 'No study guides opened yet.');
 
+  exportData.courses = { filename: 'most-viewed-courses.csv', headers: ['Course', 'Views'], rows: topCourses.map(([label, count]) => [label, count]) };
+  exportData.topics = { filename: 'most-viewed-topics.csv', headers: ['Topic', 'Views'], rows: topTopics.map(([label, count]) => [label, count]) };
+  exportData.logins = { filename: 'login-logout-activity.csv', headers: ['Who', 'Event', 'When'], rows: loginEvents.map(r => [r.email || '(unknown)', r.event_type, new Date(r.created_at).toLocaleString()]) };
+  exportData.recent = {
+    filename: 'recent-activity.csv',
+    headers: ['Who', 'Event', 'Course / Topic', 'When'],
+    rows: data.slice(0, HISTORY_CAP).map(r => {
+      let what = '';
+      if(r.event_type === 'view_topic'){
+        what = `${r.course || ''}${r.topic ? ' — ' + r.topic : ''}`;
+      } else if(r.event_type === 'quiz_result'){
+        what = `${r.course || ''}${r.topic ? ' — ' + r.topic : ''} (${r.score_correct||0}/${r.score_total||0})`;
+      }
+      return [r.email || '(unknown)', r.event_type, what, new Date(r.created_at).toLocaleString()];
+    })
+  };
+
   body.innerHTML = `
     <div class="card">
-      <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M10 4.8C8.3 3.5 5.5 3.1 3 3.4v10.9c2.5-.3 5.3.1 7 1.4 1.7-1.3 4.5-1.7 7-1.4V3.4c-2.5-.3-5.3.1-7 1.4Z"/><path d="M10 4.8v10.9"/></svg>Most viewed courses</h2>
+      <div class="card-head-row">
+        <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M10 4.8C8.3 3.5 5.5 3.1 3 3.4v10.9c2.5-.3 5.3.1 7 1.4 1.7-1.3 4.5-1.7 7-1.4V3.4c-2.5-.3-5.3.1-7 1.4Z"/><path d="M10 4.8v10.9"/></svg>Most viewed courses</h2>
+        ${exportBtn('courses')}
+      </div>
       <p class="card-sub">Based on every study guide opened, all time.</p>
       <div id="courses-rank">${coursesPaged.rowsHtml}</div>${coursesPaged.btnHtml}
     </div>
     <div class="card">
-      <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 16V9M10 16V4M16 16v-6"/></svg>Most viewed topics</h2>
+      <div class="card-head-row">
+        <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 16V9M10 16V4M16 16v-6"/></svg>Most viewed topics</h2>
+        ${exportBtn('topics')}
+      </div>
       <p class="card-sub">Individual topics opened most often.</p>
       <div id="topics-rank">${topicsPaged.rowsHtml}</div>${topicsPaged.btnHtml}
     </div>
     <div class="card">
-      <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M8 4H4v12h4"/><path d="M12 10h6m-3-3 3 3-3 3"/></svg>Login &amp; logout activity</h2>
+      <div class="card-head-row">
+        <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M8 4H4v12h4"/><path d="M12 10h6m-3-3 3 3-3 3"/></svg>Login &amp; logout activity</h2>
+        ${exportBtn('logins')}
+      </div>
       <p class="card-sub">Every sign-in and sign-out, most recent first.</p>
       ${loginEvents.length === 0 ? '<p class="empty-note">No logins recorded yet.</p>' : `<table id="login-activity">
         <tr><th>Who</th><th>Event</th><th>When</th></tr>
@@ -741,7 +830,10 @@ async function loadActivity(){
       </table>${loginBtnHtml}`}
     </div>
     <div class="card">
-      <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="9.5" cy="9.5" r="7"/><path d="M9.5 5.5v4l2.8 1.8"/></svg>Recent activity</h2>
+      <div class="card-head-row">
+        <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="9.5" cy="9.5" r="7"/><path d="M9.5 5.5v4l2.8 1.8"/></svg>Recent activity</h2>
+        ${exportBtn('recent')}
+      </div>
       <p class="card-sub">Last ${Math.min(data.length, HISTORY_CAP)} events — logins, logouts, and study guides opened.</p>
       <table id="recent-activity">
         <tr><th>Who</th><th>Event</th><th>Course / topic</th><th>When</th></tr>
