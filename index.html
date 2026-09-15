@@ -116,6 +116,11 @@
     appearance:none;
   }
   select:focus, input:focus{ outline:none; border-color:var(--purple); }
+  .show-password-toggle{
+    display:flex; align-items:center; gap:6px; font-size:12.5px; color:var(--ink); opacity:0.7;
+    font-weight:400; cursor:pointer; margin:-8px 0 16px;
+  }
+  .show-password-toggle input[type=checkbox]{ width:auto; margin:0; cursor:pointer; }
   .auth-gate{
     display:flex;
     flex-direction:column;
@@ -160,8 +165,8 @@
     box-shadow:0 8px 32px rgba(45,21,89,0.10), 0 1px 2px rgba(45,21,89,0.06);
     padding:32px;
   }
+  .auth-box .sub{ margin:0 0 16px; }
   .signout-link{
-    margin-left:auto;
     font-size:13px;
     font-weight:500;
     color:var(--ink);
@@ -174,13 +179,13 @@
   }
   .signout-link:hover{ opacity:0.85; }
   .theme-toggle-btn{
-    margin-left:auto; margin-right:4px;
-    background:none; border:none; cursor:pointer; padding:5px;
-    color:var(--ink); opacity:0.55; display:inline-flex; align-items:center;
-    border-radius:6px;
+    background:var(--purp-3); border:2px solid var(--purple); cursor:pointer; padding:6.5px 8.5px;
+    color:var(--ink); display:inline-flex; align-items:center;
+    border-radius:8px;
   }
-  .theme-toggle-btn:hover{ opacity:1; background:var(--purp-3); }
+  .theme-toggle-btn:hover{ background:var(--purp-2); }
   .theme-toggle-btn svg{ width:18px; height:18px; }
+  .header-right{ margin-left:auto; display:flex; align-items:center; gap:10px; }
   .btn{
     font-family:'Inter',sans-serif;
     font-weight:600;
@@ -290,6 +295,36 @@
     margin:4px 6px 4px 0;
   }
   .chip:hover{ background:var(--purp-1); }
+  .note-box{
+    background:var(--purp-3); border:1.5px dashed var(--purp-1); border-radius:8px;
+    margin-bottom:8px; overflow:hidden;
+  }
+  .note-empty-btn{
+    display:flex; align-items:center; gap:8px; width:100%; text-align:left;
+    background:none; border:none; cursor:pointer; padding:10px 12px;
+    font-family:'Inter',sans-serif; font-size:12.5px; color:var(--ink); opacity:0.6;
+  }
+  .note-empty-btn .note-plus{ color:var(--purple); font-size:15px; flex-shrink:0; }
+  .note-filled{
+    display:flex; justify-content:space-between; align-items:flex-start; gap:8px;
+    padding:10px 12px;
+  }
+  .note-filled .note-text{ font-size:12.5px; color:var(--ink); line-height:1.4; }
+  .note-edit-link{
+    background:none; border:none; cursor:pointer; font-size:11px; color:var(--purple);
+    font-family:'Inter',sans-serif; white-space:nowrap; flex-shrink:0;
+  }
+  #note-edit-mode{ padding:10px 12px; }
+  #note-textarea{
+    width:100%; font-family:'Inter',sans-serif; font-size:12.5px; color:var(--ink);
+    background:var(--white); border:1.5px solid var(--purp-1); border-radius:8px;
+    padding:10px 12px; resize:vertical; margin-bottom:0;
+  }
+  .last-studied-line{
+    display:flex; align-items:center; gap:6px; padding:0 2px; margin-bottom:22px;
+  }
+  .last-studied-line svg{ width:13px; height:13px; color:var(--ink); opacity:0.55; flex-shrink:0; }
+  .last-studied-line span{ font-size:11.5px; color:var(--ink); opacity:0.55; }
   .stat-badge{
     display:inline-flex;
     align-items:center;
@@ -447,8 +482,16 @@
     display:inline-flex; align-items:center; gap:7px;
   }
   .doc-toggle svg{ width:20px; height:20px; flex-shrink:0; }
-  .grades-toggle{
+  .profile-toggle{
     position:fixed; top:18px; right:18px; z-index:41;
+    background:#2D1559; color:#fff; border:none; border-radius:20px;
+    padding:10px 18px; font-family:'Inter',sans-serif; font-size:13px;
+    font-weight:600; cursor:pointer; box-shadow:0 4px 14px rgba(45,21,89,0.25);
+    display:inline-flex; align-items:center; gap:7px;
+  }
+  .profile-toggle svg{ width:20px; height:20px; flex-shrink:0; }
+  .grades-toggle{
+    position:fixed; top:66px; right:18px; z-index:41;
     background:#2D1559; color:#fff; border:none; border-radius:20px;
     padding:10px 18px; font-family:'Inter',sans-serif; font-size:13px;
     font-weight:600; cursor:pointer; box-shadow:0 4px 14px rgba(45,21,89,0.25);
@@ -486,6 +529,16 @@
   .grades-stat{ background:var(--purp-3); border-radius:10px; padding:14px 10px; text-align:center; }
   .grades-stat .num{ font-family:'Bitter',serif; font-weight:700; font-size:22px; color:var(--ink); line-height:1.1; }
   .grades-stat .label{ font-size:11px; color:var(--ink); opacity:0.6; margin-top:4px; line-height:1.3; }
+  .course-progress-card{
+    background:var(--white); border:1.5px solid var(--purp-1); border-radius:10px;
+    padding:12px 14px; margin-bottom:8px;
+  }
+  .course-progress-card summary{ cursor:pointer; list-style:none; }
+  .course-progress-card summary::-webkit-details-marker{ display:none; }
+  .course-progress-card .summary-top{ display:flex; justify-content:space-between; align-items:center; gap:10px; }
+  .course-progress-card .summary-top::after{ content:'▾'; color:var(--purple); font-size:11px; flex-shrink:0; }
+  .course-progress-card[open] .summary-top::after{ content:'▸'; }
+  .course-progress-card .summary-stats{ font-size:11.5px; color:var(--ink); opacity:0.6; margin-top:3px; }
   .doc-panel-head{ padding:20px 20px 14px; border-bottom:1px solid var(--purp-2); flex-shrink:0; }
   .doc-panel-head-inner{ max-width:760px; margin:0 auto; }
   .doc-panel-head-row{ display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
@@ -517,6 +570,9 @@
     <input type="email" id="login-email" autocomplete="username">
     <label class="field-label" for="login-password">Password</label>
     <input type="password" id="login-password" autocomplete="current-password">
+    <label class="show-password-toggle">
+      <input type="checkbox" class="show-password-checkbox" data-target="login-password"> Show password
+    </label>
     <div class="error-text" id="login-error">Incorrect email or password.</div>
     <button class="btn btn-primary" id="login-btn" style="width:100%;justify-content:center;">Sign in</button>
   </div>
@@ -525,6 +581,10 @@
 <button class="doc-toggle" id="doc-toggle-btn">
   <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M10 4.8C8.3 3.5 5.5 3.1 3 3.4v10.9c2.5-.3 5.3.1 7 1.4 1.7-1.3 4.5-1.7 7-1.4V3.4c-2.5-.3-5.3.1-7 1.4Z"/><path d="M10 4.8v10.9"/></svg>
   Full Guide
+</button>
+<button class="profile-toggle" id="profile-btn">
+  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="10" cy="7" r="3"/><path d="M4 16c0-2.8 2.7-4.5 6-4.5s6 1.7 6 4.5"/></svg>
+  Profile
 </button>
 <button class="grades-toggle" id="my-grades-btn">
   <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="10" cy="10" r="7.5"/><path d="M6.8 10.3l2 2 4.4-5"/></svg>
@@ -561,22 +621,71 @@
   </div>
 </aside>
 
+<aside class="doc-panel" id="profile-panel">
+  <div class="doc-panel-head">
+    <div class="doc-panel-head-inner">
+      <div class="doc-panel-head-row">
+        <h2>My Profile</h2>
+        <button class="doc-close" id="profile-close-btn">&times;</button>
+      </div>
+      <p class="card-sub" style="margin:0 0 14px;font-size:13px;color:var(--ink);opacity:0.65;">Update your name, email, or password.</p>
+      <label class="field-label" for="profile-first-name">First name</label>
+      <input type="text" id="profile-first-name">
+      <label class="field-label" for="profile-last-name">Last name</label>
+      <input type="text" id="profile-last-name">
+      <label class="field-label" for="profile-email">Email</label>
+      <input type="email" id="profile-email">
+      <label class="field-label" for="profile-password">Password</label>
+      <input type="text" id="profile-password" placeholder="Leave blank to keep current" autocomplete="off">
+      <div class="error-text" id="profile-error"></div>
+      <div class="error-text" id="profile-success" style="color:var(--success-border);"></div>
+      <button class="btn btn-primary" id="profile-save-btn" style="width:100%;justify-content:center;margin-top:4px;">Save changes</button>
+    </div>
+  </div>
+</aside>
+
 <div class="app">
 
   <header class="brand">
     <img src="data:image/png;base64,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" alt="Achieve">
     <span class="word">Achieve Test Prep</span>
     <span class="tag">Study Guide</span>
-    <button class="theme-toggle-btn" id="theme-toggle-btn" title="Dark Mode">
-      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M16.5 12.5A7 7 0 0 1 7.5 3.5a7 7 0 1 0 9 9Z"/></svg>
-    </button>
-    <button class="signout-link" id="signout-btn">Sign out</button>
+    <div class="header-right">
+      <button class="theme-toggle-btn" id="theme-toggle-btn" title="Dark Mode">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M16.5 12.5A7 7 0 0 1 7.5 3.5a7 7 0 1 0 9 9Z"/></svg>
+      </button>
+      <button class="signout-link" id="signout-btn">Sign out</button>
+    </div>
   </header>
 
   <!-- ===================== HOME VIEW ===================== -->
   <section class="view active" id="view-home">
     <h1 class="headline">What are you studying today?</h1>
     <p class="sub">Pick a course to get started — Achieve will build a study guide around what you actually need help with.</p>
+
+    <div class="note-box" id="note-box">
+      <div id="note-display">
+        <button class="note-empty-btn" id="note-empty-btn" style="display:none;">
+          <span class="note-plus">+</span> Something on your mind? Leave a quick note.
+        </button>
+        <div class="note-filled" id="note-filled" style="display:none;">
+          <span class="note-text" id="note-text"></span>
+          <button class="note-edit-link" id="note-edit-link">Edit</button>
+        </div>
+      </div>
+      <div id="note-edit-mode" style="display:none;">
+        <textarea id="note-textarea" placeholder="Write a quick note to yourself…" rows="2"></textarea>
+        <div style="display:flex;gap:8px;margin-top:8px;">
+          <button class="btn btn-primary" id="note-save-btn" style="flex:1;justify-content:center;padding:8px 0;font-size:13px;">Save</button>
+          <button class="btn btn-ghost" id="note-cancel-btn" style="flex:1;justify-content:center;padding:8px 0;font-size:13px;">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <div class="last-studied-line" id="last-studied-line" style="display:none;">
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="10" cy="10" r="7"/><path d="M10 6v4l2.5 1.5"/></svg>
+      <span id="last-studied-text"></span>
+    </div>
+
     <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px;">
       <span class="stat-badge">25 courses</span>
       <span class="stat-badge">Guide + quiz for every topic</span>
@@ -717,7 +826,80 @@ function getAccessibleCourses(){
 function applyAccessRestrictions(){
   renderCourseGrid();
   populateDocCourseSelect();
+  loadHomeNote();
 }
+
+// ---------- Personal note + last-studied breadcrumb ----------
+function showNoteDisplay(noteText){
+  document.getElementById('note-edit-mode').style.display = 'none';
+  document.getElementById('note-display').style.display = 'block';
+  const emptyBtn = document.getElementById('note-empty-btn');
+  const filled = document.getElementById('note-filled');
+  if(noteText && noteText.trim()){
+    emptyBtn.style.display = 'none';
+    filled.style.display = 'flex';
+    document.getElementById('note-text').textContent = noteText;
+  } else {
+    emptyBtn.style.display = 'flex';
+    filled.style.display = 'none';
+  }
+}
+function showNoteEditMode(currentText){
+  document.getElementById('note-display').style.display = 'none';
+  document.getElementById('note-edit-mode').style.display = 'block';
+  const ta = document.getElementById('note-textarea');
+  ta.value = currentText || '';
+  ta.focus();
+}
+
+async function loadHomeNote(){
+  try{
+    const { data: userData } = await sb.auth.getUser();
+    const user = userData && userData.user;
+    if(!user) return;
+
+    const { data: noteRow } = await sb.from('customer_notes').select('note').eq('user_id', user.id).maybeSingle();
+    currentNoteText = (noteRow && noteRow.note) || '';
+    showNoteDisplay(currentNoteText);
+
+    const { data: lastTopic } = await sb
+      .from('activity_log')
+      .select('course, topic, created_at')
+      .eq('user_id', user.id)
+      .eq('event_type', 'view_topic')
+      .order('created_at', { ascending: false })
+      .limit(1)
+      .maybeSingle();
+    const lastLine = document.getElementById('last-studied-line');
+    if(lastTopic && lastTopic.course){
+      document.getElementById('last-studied-text').textContent = `Last studied: ${lastTopic.course} — ${lastTopic.topic}`;
+      lastLine.style.display = 'flex';
+    } else {
+      lastLine.style.display = 'none';
+    }
+  }catch(e){ console.warn('Could not load note / last studied:', e); }
+}
+
+let currentNoteText = '';
+
+document.getElementById('note-empty-btn').addEventListener('click', ()=> showNoteEditMode(currentNoteText));
+document.getElementById('note-edit-link').addEventListener('click', ()=> showNoteEditMode(currentNoteText));
+document.getElementById('note-cancel-btn').addEventListener('click', ()=> showNoteDisplay(currentNoteText));
+document.getElementById('note-save-btn').addEventListener('click', async ()=>{
+  const newText = document.getElementById('note-textarea').value.trim();
+  const btn = document.getElementById('note-save-btn');
+  btn.disabled = true; btn.textContent = 'Saving…';
+  try{
+    const { data: userData } = await sb.auth.getUser();
+    const user = userData && userData.user;
+    if(user){
+      await sb.from('customer_notes').upsert({ user_id: user.id, note: newText, updated_at: new Date().toISOString() });
+      currentNoteText = newText;
+    }
+  }catch(e){ console.warn('Could not save note:', e); }
+  btn.disabled = false; btn.textContent = 'Save';
+  showNoteDisplay(currentNoteText);
+});
 
 // Fire-and-forget activity logging — never blocks the UI, and quietly does
 // nothing if it fails (e.g. offline) rather than interrupting studying.
@@ -765,6 +947,13 @@ document.getElementById('login-btn').addEventListener('click', async ()=>{
 });
 document.getElementById('login-password').addEventListener('keydown', (e)=>{
   if(e.key === 'Enter') document.getElementById('login-btn').click();
+});
+
+document.querySelectorAll('.show-password-checkbox[data-target]').forEach(cb => {
+  cb.addEventListener('change', ()=>{
+    const input = document.getElementById(cb.dataset.target);
+    if(input) input.type = cb.checked ? 'text' : 'password';
+  });
 });
 
 document.getElementById('signout-btn').addEventListener('click', async ()=>{
@@ -1266,15 +1455,18 @@ const DRIVE_LINKS = {
 
 function hideFloatingButtons(){
   document.getElementById('doc-toggle-btn').style.display = 'none';
+  document.getElementById('profile-btn').style.display = 'none';
   document.getElementById('my-grades-btn').style.display = 'none';
 }
 function showFloatingButtons(){
   document.getElementById('doc-toggle-btn').style.display = '';
+  document.getElementById('profile-btn').style.display = '';
   document.getElementById('my-grades-btn').style.display = '';
 }
 
 function openDocPanel(course){
   closeGradesPanel();
+  closeProfilePanel();
   docCourseSelect.value = course;
   loadDocFor(course);
   docPanel.classList.add('open');
@@ -1297,7 +1489,7 @@ document.getElementById('doc-toggle-btn').addEventListener('click', ()=>{
   openDocPanel(course);
 });
 document.getElementById('doc-close-btn').addEventListener('click', closeDocPanel);
-docBackdrop.addEventListener('click', ()=>{ closeDocPanel(); closeGradesPanel(); });
+docBackdrop.addEventListener('click', ()=>{ closeDocPanel(); closeGradesPanel(); closeProfilePanel(); });
 docCourseSelect.addEventListener('change', ()=> loadDocFor(docCourseSelect.value));
 
 // ================= Study Progress side panel =================
@@ -1305,6 +1497,7 @@ const gradesPanel = document.getElementById('grades-panel');
 
 function openGradesPanel(){
   closeDocPanel();
+  closeProfilePanel();
   gradesPanel.classList.add('open');
   docBackdrop.classList.add('open');
   hideFloatingButtons();
@@ -1360,18 +1553,50 @@ async function loadMyGrades(){
       el.innerHTML = '<p class="empty-note">No quizzes taken yet — your grades will show up here once you do.</p>';
       return;
     }
-    el.innerHTML = quizRows.map(r=>{
-      const total = r.score_total || 0;
-      const correct = r.score_correct || 0;
-      const pct = total ? Math.round((correct/total)*100) : 0;
-      const when = new Date(r.created_at).toLocaleDateString(undefined, { year:'numeric', month:'short', day:'numeric' });
-      return `<div class="rank-row" style="align-items:flex-start;">
-        <div class="rank-label">
-          <div style="font-weight:600;color:var(--ink);">${r.course || ''}</div>
-          <div style="opacity:0.65;font-size:12.5px;">${r.topic || ''} · ${when}</div>
-        </div>
-        <div class="rank-count">${correct} / ${total} (${pct}%)</div>
-      </div>`;
+
+    // Group quizzes by course, and count distinct topics studied per course too.
+    const byCourse = {};
+    quizRows.forEach(r=>{
+      const course = r.course || 'Other';
+      if(!byCourse[course]) byCourse[course] = { quizzes: [], topics: new Set() };
+      byCourse[course].quizzes.push(r);
+    });
+    (data || []).filter(r => r.event_type === 'view_topic' && r.course && r.topic).forEach(r=>{
+      if(byCourse[r.course]) byCourse[r.course].topics.add(r.topic);
+    });
+
+    // Order courses by their most recent quiz, most recent first.
+    const courseNames = Object.keys(byCourse).sort((a,b)=>
+      new Date(byCourse[b].quizzes[0].created_at) - new Date(byCourse[a].quizzes[0].created_at)
+    );
+
+    el.innerHTML = courseNames.map(course=>{
+      const info = byCourse[course];
+      const total = info.quizzes.reduce((s,r)=>s+(r.score_total||0), 0);
+      const correct = info.quizzes.reduce((s,r)=>s+(r.score_correct||0), 0);
+      const avgForCourse = info.quizzes.length
+        ? Math.round((info.quizzes.reduce((s,r)=>{
+            const t = r.score_total||0, c = r.score_correct||0;
+            return s + (t ? c/t : 0);
+          }, 0) / info.quizzes.length) * 100)
+        : 0;
+      const quizRowsHtml = info.quizzes.map(r=>{
+        const t = r.score_total || 0;
+        const c = r.score_correct || 0;
+        const pct = t ? Math.round((c/t)*100) : 0;
+        const when = new Date(r.created_at).toLocaleDateString(undefined, { year:'numeric', month:'short', day:'numeric' });
+        return `<div style="display:flex;justify-content:space-between;font-size:12.5px;padding:6px 0;border-bottom:1px solid var(--purp-3);">
+          <span style="color:var(--ink);">${r.topic || ''} · ${when}</span>
+          <span style="color:var(--purple);font-weight:600;white-space:nowrap;">${c} / ${t} (${pct}%)</span>
+        </div>`;
+      }).join('');
+      return `<details class="course-progress-card">
+        <summary>
+          <div class="summary-top"><span style="font-family:'Bitter',serif;font-weight:600;font-size:13.5px;color:var(--ink);">${course}</span></div>
+          <div class="summary-stats">${info.topics.size} topic${info.topics.size===1?'':'s'} · ${info.quizzes.length} quiz${info.quizzes.length===1?'':'zes'} · ${avgForCourse}% avg</div>
+        </summary>
+        <div style="margin-top:8px;">${quizRowsHtml}</div>
+      </details>`;
     }).join('');
   }catch(e){
     el.innerHTML = '<p class="empty-note">Couldn\'t load your grades right now.</p>';
@@ -1380,6 +1605,95 @@ async function loadMyGrades(){
 
 document.getElementById('my-grades-btn').addEventListener('click', openGradesPanel);
 document.getElementById('grades-close-btn').addEventListener('click', closeGradesPanel);
+
+// ================= My Profile side panel =================
+const profilePanel = document.getElementById('profile-panel');
+
+function openProfilePanel(){
+  closeDocPanel();
+  closeGradesPanel();
+  profilePanel.classList.add('open');
+  docBackdrop.classList.add('open');
+  hideFloatingButtons();
+  loadMyProfile();
+}
+function closeProfilePanel(){
+  profilePanel.classList.remove('open');
+  docBackdrop.classList.remove('open');
+  showFloatingButtons();
+}
+
+async function loadMyProfile(){
+  const errEl = document.getElementById('profile-error');
+  const okEl = document.getElementById('profile-success');
+  errEl.style.display = 'none';
+  okEl.style.display = 'none';
+  try{
+    const { data: userData } = await sb.auth.getUser();
+    const user = userData && userData.user;
+    if(!user) return;
+    const { data: profile } = await sb.from('profiles').select('first_name, last_name, email').eq('id', user.id).single();
+    document.getElementById('profile-first-name').value = (profile && profile.first_name) || '';
+    document.getElementById('profile-last-name').value = (profile && profile.last_name) || '';
+    document.getElementById('profile-email').value = (profile && profile.email) || user.email || '';
+    document.getElementById('profile-password').value = '';
+  }catch(e){ console.warn('Could not load profile:', e); }
+}
+
+document.getElementById('profile-btn').addEventListener('click', openProfilePanel);
+document.getElementById('profile-close-btn').addEventListener('click', closeProfilePanel);
+
+document.getElementById('profile-save-btn').addEventListener('click', async ()=>{
+  const firstName = document.getElementById('profile-first-name').value.trim();
+  const lastName = document.getElementById('profile-last-name').value.trim();
+  const email = document.getElementById('profile-email').value.trim();
+  const password = document.getElementById('profile-password').value;
+  const errEl = document.getElementById('profile-error');
+  const okEl = document.getElementById('profile-success');
+  errEl.style.display = 'none';
+  okEl.style.display = 'none';
+
+  if(!firstName || !lastName){
+    errEl.textContent = 'First and last name are both required.';
+    errEl.style.display = 'block';
+    return;
+  }
+  if(!email){
+    errEl.textContent = "Email can't be empty.";
+    errEl.style.display = 'block';
+    return;
+  }
+  if(password && password.length < 6){
+    errEl.textContent = 'Password must be at least 6 characters.';
+    errEl.style.display = 'block';
+    return;
+  }
+
+  const btn = document.getElementById('profile-save-btn');
+  btn.disabled = true; btn.textContent = 'Saving…';
+  try{
+    const { data: sessionData } = await sb.auth.getSession();
+    const token = sessionData && sessionData.session && sessionData.session.access_token;
+    const resp = await fetch('/api/update-own-profile', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'authorization': `Bearer ${token}` },
+      body: JSON.stringify({ firstName, lastName, email, password })
+    });
+    const payload = await resp.json();
+    if(!resp.ok){
+      errEl.textContent = payload.error || 'Something went wrong saving your profile.';
+      errEl.style.display = 'block';
+    } else {
+      okEl.textContent = 'Saved.';
+      okEl.style.display = 'block';
+      document.getElementById('profile-password').value = '';
+    }
+  }catch(e){
+    errEl.textContent = 'Could not reach the server. Try again.';
+    errEl.style.display = 'block';
+  }
+  btn.disabled = false; btn.textContent = 'Save changes';
+});
 </script>
 </body>
 </html>

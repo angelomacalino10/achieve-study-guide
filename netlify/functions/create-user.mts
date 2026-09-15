@@ -38,16 +38,21 @@ export default async (req: Request, _context: Context) => {
 
   // Now actually create the account. Course access for Viewers is assigned
   // afterward from the Users list, not at creation time.
-  let body: { email?: string; password?: string; role?: string };
+  let body: { firstName?: string; lastName?: string; email?: string; password?: string; role?: string };
   try {
     body = await req.json();
   } catch {
     return new Response(JSON.stringify({ error: "Invalid request." }), { status: 400 });
   }
+  const firstName = (body.firstName || "").trim();
+  const lastName = (body.lastName || "").trim();
   const email = (body.email || "").trim();
   const password = body.password || "";
   const role = body.role === "admin" ? "admin" : "viewer";
 
+  if (!firstName || !lastName) {
+    return new Response(JSON.stringify({ error: "First and last name are both required." }), { status: 400 });
+  }
   if (!email || !password) {
     return new Response(JSON.stringify({ error: "Email and password are both required." }), { status: 400 });
   }
@@ -65,7 +70,7 @@ export default async (req: Request, _context: Context) => {
     return new Response(JSON.stringify({ error: createErr?.message || "Could not create account." }), { status: 400 });
   }
 
-  await admin.from("profiles").insert({ id: created.user.id, email, role, assigned_courses: [] });
+  await admin.from("profiles").insert({ id: created.user.id, email, role, first_name: firstName, last_name: lastName, assigned_courses: [] });
 
   return new Response(JSON.stringify({ success: true, id: created.user.id, email, role }), {
     status: 200,

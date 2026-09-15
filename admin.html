@@ -37,23 +37,32 @@
   .auth-title .line2{ font-family:'Bitter',serif; font-weight:400; font-size:17px; color:var(--ink); opacity:0.62; line-height:1.3; }
   .auth-box{ max-width:380px; width:100%; background:var(--white); border-top:4px solid var(--purple); border-radius:16px;
     box-shadow:0 8px 32px rgba(45,21,89,0.10), 0 1px 2px rgba(45,21,89,0.06); padding:32px; }
-  .headline{ font-family:'Bitter',serif; font-weight:600; font-size:20px; margin:0 0 8px; }
+  .headline{ font-family:'Bitter',serif; font-weight:600; font-size:26px; line-height:1.3; margin:6px 0 6px; }
   .sub{ font-size:13.5px; color:var(--ink); opacity:0.65; margin:0 0 20px; line-height:1.5; }
   label{ display:block; font-size:12.5px; font-weight:500; margin:0 0 5px; }
+  .auth-box .sub{ font-size:14px; margin:0 0 16px; line-height:1.6; }
+  .auth-box label{ font-size:13px; margin:0 0 6px; }
+  .auth-box .show-password-toggle{ font-size:12.5px; margin:-8px 0 16px; }
+  .auth-box .btn{ padding:13px 22px; }
   input, select{ width:100%; font-family:'Inter',sans-serif; font-size:15px; color:var(--ink); background:var(--peach-3);
     border:1.5px solid var(--purp-1); border-radius:10px; padding:12px 14px; margin-bottom:16px; }
   input:focus{ outline:none; border-color:var(--purple); }
+  .show-password-toggle{
+    display:flex; align-items:center; gap:6px; font-size:12.5px; color:var(--ink); opacity:0.7;
+    font-weight:400; cursor:pointer; margin:-8px 0 16px;
+  }
+  .show-password-toggle input[type=checkbox]{ width:auto; margin:0; cursor:pointer; }
   .btn{ display:block; width:100%; text-align:center; background:var(--orange); color:#fff; border:none;
     border-radius:10px; padding:12px 0; font-size:14.5px; font-weight:600; cursor:pointer; font-family:'Inter',sans-serif; }
   .btn:hover{ opacity:0.92; }
   .error-text{ font-size:12.5px; color:var(--orange); margin:-8px 0 14px; display:none; }
   .dash-header{ display:flex; align-items:center; justify-content:space-between; margin-bottom:28px; }
   .theme-toggle-btn{
-    background:none; border:none; cursor:pointer; padding:5px;
-    color:var(--ink); opacity:0.55; display:inline-flex; align-items:center;
-    border-radius:6px;
+    background:var(--purp-3); border:2px solid var(--purple); cursor:pointer; padding:6.5px 8.5px;
+    color:var(--ink); display:inline-flex; align-items:center;
+    border-radius:8px;
   }
-  .theme-toggle-btn:hover{ opacity:1; background:var(--purp-3); }
+  .theme-toggle-btn:hover{ background:var(--purp-2); }
   .theme-toggle-btn svg{ width:18px; height:18px; }
   .dash-header img{ width:30px; height:auto; vertical-align:-8px; margin-right:8px; }
   .dash-header .title{ font-family:'Bitter',serif; font-weight:700; font-size:19px; }
@@ -74,8 +83,14 @@
   table{ width:100%; border-collapse:collapse; font-size:13px; }
   th{ text-align:left; font-weight:600; color:var(--ink); opacity:0.55; font-size:11.5px; text-transform:uppercase;
     letter-spacing:0.03em; padding:0 10px 8px 0; border-bottom:1.5px solid var(--purp-2); }
-  td{ padding:9px 10px 9px 0; border-bottom:1px solid var(--purp-3); vertical-align:top; }
+  td{ padding:9px 10px 9px 0; border-bottom:1px solid var(--purp-3); vertical-align:top; word-wrap:break-word; overflow-wrap:break-word; }
   tr:last-child td{ border-bottom:none; }
+  #audit-log-table{ table-layout:fixed; }
+  #audit-log-table th:nth-child(1), #audit-log-table td:nth-child(1){ width:22%; }
+  #audit-log-table th:nth-child(2), #audit-log-table td:nth-child(2){ width:11%; }
+  #audit-log-table th:nth-child(3), #audit-log-table td:nth-child(3){ width:19%; }
+  #audit-log-table th:nth-child(4), #audit-log-table td:nth-child(4){ width:35%; }
+  #audit-log-table th:nth-child(5), #audit-log-table td:nth-child(5){ width:13%; }
   .pill{ display:inline-block; font-size:11px; font-weight:600; padding:3px 9px; border-radius:20px; }
   .pill.login{ background:var(--pill-login-bg); color:var(--pill-login-text); }
   .pill.logout{ background:var(--purp-3); color:var(--ink); opacity:0.75; }
@@ -91,7 +106,7 @@
   .action-cell{ display:flex; align-items:center; gap:4px; }
   .empty-note{ font-size:13px; color:var(--ink); opacity:0.55; padding:8px 0; }
   .loading-note{ font-size:13.5px; color:var(--ink); opacity:0.6; padding:24px 0; text-align:center; }
-  .dash-grid{ display:grid; grid-template-columns:380px 1fr; gap:22px; align-items:start; }
+  .dash-grid{ display:grid; grid-template-columns:1fr 1.3fr; gap:22px; align-items:start; }
   .row-extra{ display:none; }
   .view-all-btn{ background:none; border:none; cursor:pointer; font-size:12.5px; font-weight:500;
     color:var(--purple); text-decoration:underline; font-family:'Inter',sans-serif; padding:8px 0 0; display:block; }
@@ -111,7 +126,7 @@
   <div class="auth-title">
     <img src="data:image/png;base64,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" alt="">
     <div class="line1">Achieve Test Prep</div>
-    <div class="line2">Activity Dashboard</div>
+    <div class="line2">Study Guide Activity Dashboard</div>
   </div>
   <div class="auth-box">
     <h1 class="headline">Sign in</h1>
@@ -120,6 +135,9 @@
     <input type="email" id="login-email" autocomplete="username">
     <label for="login-password">Password</label>
     <input type="password" id="login-password" autocomplete="current-password">
+    <label class="show-password-toggle">
+      <input type="checkbox" class="show-password-checkbox" data-target="login-password"> Show password
+    </label>
     <div class="error-text" id="login-error">Incorrect email or password.</div>
     <button class="btn" id="login-btn">Sign in</button>
   </div>
@@ -131,7 +149,7 @@
       <span class="title">Activity dashboard</span>
       <p class="sub">Who's using the study guide, and what they're studying.</p>
     </div>
-    <div style="display:flex;align-items:center;gap:4px;">
+    <div style="display:flex;align-items:center;gap:10px;">
       <button class="theme-toggle-btn" id="theme-toggle-btn" title="Dark Mode">
         <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M16.5 12.5A7 7 0 0 1 7.5 3.5a7 7 0 1 0 9 9Z"/></svg>
       </button>
@@ -143,7 +161,11 @@
     <div>
       <div class="card">
         <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="7.5" cy="6.5" r="3"/><path d="M2 17c0-3.2 2.5-5.3 5.5-5.3 1.3 0 2.5.4 3.5 1.1"/><path d="M15 8v6M12 11h6"/></svg>Create account</h2>
-        <p class="card-sub">Enter an email and password, choose their role, and hand the login to them yourself.</p>
+        <p class="card-sub">Enter their name, email and password, choose their role, and hand the login to them yourself.</p>
+        <label for="new-first-name">First name</label>
+        <input type="text" id="new-first-name" autocomplete="off">
+        <label for="new-last-name">Last name</label>
+        <input type="text" id="new-last-name" autocomplete="off">
         <label for="new-email">Email</label>
         <input type="email" id="new-email" autocomplete="off">
         <label for="new-password">Password</label>
@@ -162,7 +184,7 @@
       <div class="card">
         <h2><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="6.5" cy="6.5" r="2.8"/><circle cx="14" cy="7.5" r="2.4"/><path d="M1.5 17c0-3 2.3-5 5-5s5 2 5 3.3"/><path d="M10.8 15.2c.3-2 2-3.4 4-3.4 2.1 0 3.7 1.6 3.7 3.9"/></svg>Users</h2>
         <p class="card-sub">Admins can see this dashboard. Everyone else is a Viewer.</p>
-        <input type="text" id="team-search" placeholder="Search by email…" style="margin-bottom:14px;">
+        <input type="text" id="team-search" placeholder="Search by name or email…" style="margin-bottom:14px;">
         <div id="team-body"><div class="loading-note">Loading…</div></div>
       </div>
 
@@ -251,6 +273,12 @@ document.getElementById('login-btn').addEventListener('click', async ()=>{
 document.getElementById('login-password').addEventListener('keydown', (e)=>{
   if(e.key === 'Enter') document.getElementById('login-btn').click();
 });
+document.querySelectorAll('.show-password-checkbox[data-target]').forEach(cb => {
+  cb.addEventListener('change', ()=>{
+    const input = document.getElementById(cb.dataset.target);
+    if(input) input.type = cb.checked ? 'text' : 'password';
+  });
+});
 document.getElementById('signout-btn').addEventListener('click', async ()=>{
   await sb.auth.signOut();
   showAuthGate();
@@ -269,11 +297,16 @@ document.getElementById('theme-toggle-btn').addEventListener('click', ()=>{
 
 document.getElementById('team-search').addEventListener('input', (e)=>{
   const term = e.target.value.trim().toLowerCase();
-  const filtered = term ? allProfilesData.filter(p => (p.email || '').toLowerCase().includes(term)) : allProfilesData;
+  const filtered = term ? allProfilesData.filter(p => {
+    const haystack = `${p.email || ''} ${p.first_name || ''} ${p.last_name || ''}`.toLowerCase();
+    return haystack.includes(term);
+  }) : allProfilesData;
   renderTeamList(filtered);
 });
 
 document.getElementById('create-account-btn').addEventListener('click', async ()=>{
+  const firstName = document.getElementById('new-first-name').value.trim();
+  const lastName = document.getElementById('new-last-name').value.trim();
   const email = document.getElementById('new-email').value.trim();
   const password = document.getElementById('new-password').value;
   const role = document.getElementById('new-role').value;
@@ -282,6 +315,11 @@ document.getElementById('create-account-btn').addEventListener('click', async ()
   errEl.style.display = 'none';
   okEl.style.display = 'none';
 
+  if(!firstName || !lastName){
+    errEl.textContent = 'First and last name are both required.';
+    errEl.style.display = 'block';
+    return;
+  }
   if(!email || !password){
     errEl.textContent = 'Enter both an email and a password.';
     errEl.style.display = 'block';
@@ -297,7 +335,7 @@ document.getElementById('create-account-btn').addEventListener('click', async ()
     const resp = await fetch('/api/create-user', {
       method: 'POST',
       headers: { 'content-type': 'application/json', 'authorization': `Bearer ${token}` },
-      body: JSON.stringify({ email, password, role })
+      body: JSON.stringify({ firstName, lastName, email, password, role })
     });
     const payload = await resp.json();
     if(!resp.ok){
@@ -305,8 +343,10 @@ document.getElementById('create-account-btn').addEventListener('click', async ()
       errEl.style.display = 'block';
     } else {
       const courseNote = role === 'viewer' ? ` — assign their courses below` : '';
-      okEl.textContent = `Account created for ${email} (${role === 'admin' ? 'Admin' : 'Viewer'}${courseNote}). Give them this email and password to sign in.`;
+      okEl.textContent = `Account created for ${firstName} ${lastName} (${role === 'admin' ? 'Admin' : 'Viewer'}${courseNote}). Give them this email and password to sign in.`;
       okEl.style.display = 'block';
+      document.getElementById('new-first-name').value = '';
+      document.getElementById('new-last-name').value = '';
       document.getElementById('new-email').value = '';
       document.getElementById('new-password').value = '';
       loadTeam();
@@ -320,8 +360,8 @@ document.getElementById('create-account-btn').addEventListener('click', async ()
 
 // Renders up to 10 rows normally; anything past that gets a "row-extra"
 // class (hidden by CSS) plus a "View all" button that reveals the rest.
-function renderPaged(items, toRowHtml, containerSelector, label){
-  const LIMIT = 10;
+function renderPaged(items, toRowHtml, containerSelector, label, limit){
+  const LIMIT = limit || 10;
   const rowsHtml = items.map((item, i) => {
     const html = toRowHtml(item, i);
     if(i < LIMIT) return html;
@@ -335,8 +375,9 @@ function renderPaged(items, toRowHtml, containerSelector, label){
 
 const EYE_ICON = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M1.5 10S4.5 4 10 4s8.5 6 8.5 6-3 6-8.5 6S1.5 10 1.5 10Z"/><circle cx="10" cy="10" r="2.3"/></svg>`;
 const TRASH_ICON = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 6h12M8 6V4.5A1 1 0 0 1 9 3.5h2a1 1 0 0 1 1 1V6M6 6l.6 10a1.2 1.2 0 0 0 1.2 1.1h4.4a1.2 1.2 0 0 0 1.2-1.1L14 6"/></svg>`;
+const EDIT_ICON = `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M13.5 3.5 16 6l-9 9-3 .5.5-3 9-9Z"/><path d="M12 5l3 3"/></svg>`;
 function iconBtn(action, id, label){
-  const icon = action === 'delete' ? TRASH_ICON : EYE_ICON;
+  const icon = action === 'delete' ? TRASH_ICON : (action === 'edit' ? EDIT_ICON : EYE_ICON);
   return `<button class="icon-btn manage-user-btn" data-action="${action}" data-id="${id}" title="${label}">${icon}</button>`;
 }
 
@@ -414,9 +455,33 @@ function renderTeamList(data){
     return;
   }
 
+  const nameEmailBlock = p => {
+    const fullName = `${p.first_name || ''} ${p.last_name || ''}`.trim();
+    return fullName
+      ? `<div style="font-weight:600;color:var(--ink);">${fullName}</div><div style="font-size:11.5px;opacity:0.6;margin-bottom:6px;">${p.email}</div>`
+      : `<div style="margin-bottom:6px;">${p.email}</div>`;
+  };
+  const editPanel = p => `
+    <details class="edit-profile-manager">
+      <summary style="cursor:pointer;font-size:12px;color:var(--purple);">Edit</summary>
+      <div style="margin:8px 0;display:flex;flex-direction:column;gap:6px;">
+        <input type="text" class="edit-first-name" placeholder="First name" value="${p.first_name || ''}" style="font-size:12px;padding:7px 9px;margin:0;">
+        <input type="text" class="edit-last-name" placeholder="Last name" value="${p.last_name || ''}" style="font-size:12px;padding:7px 9px;margin:0;">
+        <input type="email" class="edit-email" placeholder="Email" value="${p.email}" style="font-size:12px;padding:7px 9px;margin:0;">
+        <input type="password" class="edit-password" placeholder="Password (leave blank to keep current)" style="font-size:12px;padding:7px 9px;margin:0;">
+        <label style="display:flex;align-items:center;gap:6px;font-size:11.5px;color:var(--ink);opacity:0.7;cursor:pointer;margin:-4px 0 0;">
+          <input type="checkbox" class="edit-show-password" style="width:auto;margin:0;cursor:pointer;"> Show password
+        </label>
+      </div>
+      <button class="save-profile-btn" data-id="${p.id}" style="background:var(--purple);color:#fff;border:none;border-radius:6px;padding:6px 14px;font-size:12px;cursor:pointer;font-family:'Inter',sans-serif;">Save</button>
+    </details>`;
+
   const toAdminRow = p => `
       <tr>
-        <td>${p.email}</td>
+        <td>
+          ${nameEmailBlock(p)}
+          ${editPanel(p)}
+        </td>
         <td>
           <div class="action-cell">
             <button class="role-toggle-btn" data-id="${p.id}" data-role="${p.role}"
@@ -433,9 +498,10 @@ function renderTeamList(data){
     const courses = p.assigned_courses || [];
     return `
       <tr>
-        <td>${p.email}</td>
         <td>
-          <div style="font-size:12.5px;margin-bottom:6px;">${courses.length ? courses.join(', ') : '<span style="opacity:0.55;">None assigned</span>'}</div>
+          ${nameEmailBlock(p)}
+          ${editPanel(p)}
+          <div style="font-size:12.5px;margin:8px 0 6px;">${courses.length ? courses.join(', ') : '<span style="opacity:0.55;">None assigned</span>'}</div>
           <details class="course-manager">
             <summary style="cursor:pointer;font-size:12px;color:var(--purple);">Manage courses</summary>
             <div style="margin:8px 0;max-height:180px;overflow-y:auto;border:1.5px solid var(--purp-1);border-radius:8px;padding:8px 10px;">
@@ -459,7 +525,10 @@ function renderTeamList(data){
 
   const toHiddenRow = p => `
       <tr>
-        <td>${p.email}</td>
+        <td>
+          ${nameEmailBlock(p)}
+          ${editPanel(p)}
+        </td>
         <td style="text-transform:capitalize;">${p.role}</td>
         <td>
           <div class="action-cell">
@@ -512,6 +581,30 @@ function renderTeamList(data){
       const success = await callManageUser('set_courses', id, { courses: checked });
       if(success) loadTeam();
       else { btn.disabled = false; btn.textContent = 'Save'; }
+    });
+  });
+
+  el.querySelectorAll('.save-profile-btn').forEach(btn => {
+    btn.addEventListener('click', async ()=>{
+      const id = btn.dataset.id;
+      const details = btn.closest('.edit-profile-manager');
+      const firstName = details.querySelector('.edit-first-name').value.trim();
+      const lastName = details.querySelector('.edit-last-name').value.trim();
+      const email = details.querySelector('.edit-email').value.trim();
+      const password = details.querySelector('.edit-password').value;
+      if(!email){ alert('Email can\'t be empty.'); return; }
+      if(password && password.length < 6){ alert('Password must be at least 6 characters.'); return; }
+      btn.disabled = true; btn.textContent = 'Saving…';
+      const success = await callManageUser('update_profile', id, { firstName, lastName, email, password });
+      if(success) loadTeam();
+      else { btn.disabled = false; btn.textContent = 'Save'; }
+    });
+  });
+
+  el.querySelectorAll('.edit-show-password').forEach(cb => {
+    cb.addEventListener('change', ()=>{
+      const pwInput = cb.closest('.edit-profile-manager').querySelector('.edit-password');
+      pwInput.type = cb.checked ? 'text' : 'password';
     });
   });
 
@@ -594,7 +687,7 @@ async function loadActivity(){
       </div>`;
   const rankListHtml = (items, containerSelector, label, emptyMsg) => {
     if(items.length === 0) return { rowsHtml: `<p class="empty-note">${emptyMsg}</p>`, btnHtml: '' };
-    return renderPaged(items, rankRow, containerSelector, label);
+    return renderPaged(items, rankRow, containerSelector, label, 5);
   };
 
   // ---- Login / logout history ----
@@ -604,7 +697,7 @@ async function loadActivity(){
       <td><span class="pill ${r.event_type}">${r.event_type}</span></td>
       <td>${timeAgo(r.created_at)}</td>
     </tr>`;
-  const { rowsHtml: loginRowsHtml, btnHtml: loginBtnHtml } = renderPaged(loginEvents, loginRow, '#login-activity', 'logins');
+  const { rowsHtml: loginRowsHtml, btnHtml: loginBtnHtml } = renderPaged(loginEvents, loginRow, '#login-activity', 'logins', 5);
 
   // ---- Recent activity feed ----
   const recentRow = r => {
@@ -623,7 +716,7 @@ async function loadActivity(){
       <td>${timeAgo(r.created_at)}</td>
     </tr>`;
   };
-  const { rowsHtml: recentRowsHtml, btnHtml: recentBtnHtml } = renderPaged(data.slice(0, HISTORY_CAP), recentRow, '#recent-activity', 'events');
+  const { rowsHtml: recentRowsHtml, btnHtml: recentBtnHtml } = renderPaged(data.slice(0, HISTORY_CAP), recentRow, '#recent-activity', 'events', 5);
 
   const coursesPaged = rankListHtml(topCourses, '#courses-rank', 'courses', 'No study guides opened yet.');
   const topicsPaged = rankListHtml(topTopics, '#topics-rank', 'topics', 'No study guides opened yet.');
